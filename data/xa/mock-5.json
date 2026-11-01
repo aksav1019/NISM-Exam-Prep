@@ -34,7 +34,7 @@
     {
       "id": "xa-M5-04", "chapter": 3, "difficulty": "easy",
       "q": "Lata holds shares ₹8 lakh, mutual funds ₹12 lakh, fixed deposits ₹6 lakh, gold ₹14 lakh and land ₹10 lakh. What is her financial assets ratio?",
-      "options": ["48%", "40%", "52%", "64%"],
+      "options": ["48%", "40%", "52%", "80%"],
       "answer": 2, "marks": 1,
       "explanation": "Financial assets = 8 + 12 + 6 = ₹26 lakh; total assets = ₹50 lakh. Ratio = 26 / 50 = 52%. Gold and land are physical assets.",
       "hints": ["This is the physical assets ratio (24 / 50).", "This leaves out the fixed deposits.", "Correct.", "This wrongly treats gold as a financial asset."],

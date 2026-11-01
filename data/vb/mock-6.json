@@ -1,278 +1,698 @@
 {
-  "id": "mock-6",
-  "title": "Mock 6 · Tough Drill A",
-  "level": "tough",
-  "blurb": "Numericals, close percentage limits, NOT/EXCEPT traps and multi-statement questions across the syllabus.",
-  "questions": [
-    {
-      "id": "vb-M6-01", "chapter": 1, "difficulty": "medium",
-      "q": "Meera's daughter will need ₹6 lakh (today's cost) for a course 8 years from now. If course fees inflate at 7% p.a., about how much should Meera plan to accumulate?",
-      "options": ["₹9.36 lakh", "₹10.31 lakh", "₹6.42 lakh", "₹11.02 lakh"],
-      "answer": 1, "marks": 1,
-      "explanation": "Future cost = 6 × (1.07)^8 = 6 × 1.7182 = ₹10.31 lakh.",
-      "hints": ["That is simple, not compound, inflation (6 × 1.56).", "Correct.", "Only one year of inflation.", "Uses too high a rate or period."],
-      "numeric": true, "case": null
-    },
-    {
-      "id": "vb-M6-02", "chapter": 1, "difficulty": "medium",
-      "q": "Consider: (i) Real estate is a divisible asset. (ii) Location is the most important factor in real estate performance. (iii) Real estate can generate current income as rent. Which are correct?",
-      "options": ["(i) and (ii) only", "(i), (ii) and (iii)", "(ii) and (iii) only", "(iii) only"],
-      "answer": 2, "marks": 1,
-      "explanation": "Real estate is illiquid and NOT divisible; location is the most important factor; and it can yield rent besides capital appreciation.",
-      "hints": ["(i) is false.", "(i) is false.", "Correct.", "(ii) is also true."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-03", "chapter": 2, "difficulty": "hard",
-      "q": "Which allocation is NOT permissible for a Conservative Hybrid Fund?",
-      "options": ["80% debt, 20% equity", "75% debt, 25% equity", "90% debt, 10% equity", "70% debt, 30% equity"],
-      "answer": 3, "marks": 1,
-      "explanation": "A conservative hybrid fund must hold 75–90% in debt and 10–25% in equity. 30% equity breaches the upper equity limit.",
-      "hints": ["Within limits.", "At the limit, so allowed.", "At the limit, so allowed.", "Correct: equity above 25%."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-04", "chapter": 2, "difficulty": "hard",
-      "q": "In an Arbitrage Fund, exposure to debt instruments is limited to:",
-      "options": ["Government securities with maturity of less than 1 year and repo of government bonds", "AA+ and above corporate bonds", "Any money market instrument up to 91 days", "Government securities of 10-year constant maturity"],
-      "answer": 0, "marks": 1,
-      "explanation": "Arbitrage funds keep at least 65% in equity; their debt exposure is limited to G-secs maturing in under 1 year and repo of government bonds.",
-      "hints": ["Correct.", "Not permitted for arbitrage funds.", "Too broad.", "Too long."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-05", "chapter": 2, "difficulty": "medium",
-      "q": "A Large & Mid Cap Fund must invest at least:",
-      "options": ["50% in large caps and 50% in mid caps", "80% in large and mid caps combined, in any ratio", "35% in large caps and 35% in mid caps", "65% in large caps and 25% in mid caps"],
-      "answer": 2, "marks": 1,
-      "explanation": "SEBI requires at least 35% in large-cap and at least 35% in mid-cap equity for Large & Mid Cap funds.",
-      "hints": ["Not the SEBI rule.", "Not the SEBI rule.", "Correct.", "Not the SEBI rule."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-06", "chapter": 2, "difficulty": "hard",
-      "q": "For an Equity Savings fund, which set of parameters is correct?",
-      "options": ["Equity ≥80%, debt ≥10%, net equity 40–60%", "Equity ≥65%, debt ≥10%, net equity 15–40%", "Equity 40–60%, debt 40–60%, no arbitrage", "Equity ≥65%, debt only G-secs below 1 year"],
-      "answer": 1, "marks": 1,
-      "explanation": "Equity savings invests in equity, arbitrage and debt: minimum 65% equity and equity-related, minimum 10% debt, net (unhedged) equity 15–40%.",
-      "hints": ["Wrong numbers.", "Correct.", "That describes a Balanced Hybrid Fund.", "That describes an Arbitrage Fund."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-07", "chapter": 3, "difficulty": "hard",
-      "q": "A sponsor's associate holds 55% of the voting rights in Custodian X. Can X act as custodian for that sponsor's mutual fund?",
-      "options": ["Yes, freely, since custodians are SEBI-registered", "Yes, if AMFI approves", "Yes, if the trustees are independent", "No, unless specific conditions laid down in SEBI regulations are fulfilled"],
-      "answer": 3, "marks": 1,
-      "explanation": "If the sponsor or its associates control 50% or more of a custodian's voting rights (or 50% or more of its directors represent them), that custodian can't be appointed unless specified conditions are met.",
-      "hints": ["Registration alone isn't enough.", "AMFI has no role.", "Trustee independence doesn't cure this.", "Correct."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-08", "chapter": 3, "difficulty": "medium",
-      "q": "Which statement about changing the AMC of a mutual fund is correct?",
-      "options": ["The sponsor alone can replace the AMC at will", "The AMC's appointment can be terminated by a majority of trustees or 75% of unitholders, and any change needs prior approval of SEBI and the unitholders", "Only SEBI can terminate an AMC", "A simple majority of unitholders can replace the AMC without SEBI approval"],
-      "answer": 1, "marks": 1,
-      "explanation": "Termination is by a majority of the trustees or by 75% of the unitholders, and any change in the AMC is subject to prior approval of SEBI and the unitholders.",
-      "hints": ["Not the sponsor alone.", "Correct.", "Trustees or unitholders can terminate it.", "Requires 75%, plus approvals."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-09", "chapter": 4, "difficulty": "medium",
-      "q": "A new-cadre distributor is asked to sell four schemes, each of which has beaten its benchmark in each of the last 3 years. Which can she NOT sell?",
-      "options": ["A Nifty 50 index fund", "A liquid fund", "A credit risk fund", "A Fixed Maturity Plan"],
-      "answer": 2, "marks": 1,
-      "explanation": "Even a well-performing scheme must fall within the permitted types: liquid/money market, index, diversified equity, retirement benefit with tax benefit, and FMP. A credit risk fund is outside the list.",
-      "hints": ["Permitted (index).", "Permitted (liquid).", "Correct: not a permitted category.", "Permitted (FMP)."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-10", "chapter": 4, "difficulty": "hard",
-      "q": "An investor redeems ₹2,00,000 from a Life Cycle Fund 20 months after investing. Using the workbook's illustrative graded exit load, what load is deducted?",
-      "options": ["₹6,000", "₹2,000", "Nil", "₹4,000"],
-      "answer": 3, "marks": 1,
-      "explanation": "Graded load: 3% within year 1, 2% within year 2, 1% within year 3, nil after. 20 months falls in year 2 → 2% × 2,00,000 = ₹4,000.",
-      "hints": ["That is the year-1 rate.", "That is the year-3 rate.", "The load is nil only after 3 years.", "Correct."],
-      "numeric": true, "case": null
-    },
-    {
-      "id": "vb-M6-11", "chapter": 5, "difficulty": "hard",
-      "q": "When an open-ended scheme changes a fundamental attribute, which of the following is NOT part of the prescribed procedure?",
-      "options": ["Issuing an addendum and displaying it on the AMC website immediately", "Giving an exit option of not less than 30 days from the notice date", "A public notice in an English national daily and a newspaper in the regional language of the head office", "Obtaining AMFI's written approval of the change"],
-      "answer": 3, "marks": 1,
-      "explanation": "The procedure covers an immediate addendum, an exit option of at least 30 days (SID revised after it ends), and public notice in an English national daily plus a regional-language paper. AMFI approval is not required.",
-      "hints": ["Required.", "Required.", "Required.", "Correct: AMFI does not approve such changes."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-12", "chapter": 5, "difficulty": "medium",
-      "q": "As per the workbook, the Total Expense Ratio equals:",
-      "options": ["Base Expense Ratio + brokerage cost + transaction cost for execution of trades + statutory levies (incl. GST)", "Investment management fee only", "Exit load + stamp duty", "Base Expense Ratio + distributor GST + exit load"],
-      "answer": 0, "marks": 1,
-      "explanation": "TER = BER + brokerage + transaction cost incurred for executing trades + statutory levies including GST. Distributor GST can't be charged to the scheme; exit load is separate.",
-      "hints": ["Correct.", "Incomplete.", "Not expense components.", "Distributor GST and exit load are not TER components."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-13", "chapter": 5, "difficulty": "medium",
-      "q": "In a scheme's accounts, which items of expenditure must be separately disclosed?",
-      "options": ["Every expense above ₹1 lakh", "Each item accounting for more than 10% of total expenditure", "Only the investment management fee", "Only items paid to associates"],
-      "answer": 1, "marks": 1,
-      "explanation": "Each item of expenditure accounting for more than 10% of total expenditure must be disclosed in the accounts or notes.",
-      "hints": ["No rupee threshold is prescribed.", "Correct.", "Too narrow.", "Too narrow."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-14", "chapter": 6, "difficulty": "hard",
-      "q": "A distributor's clients hold ₹5,00,000 in a scheme, and the trail rate is 0.80% p.a. If the value stays constant, what is the trail earned over 30 days?",
-      "options": ["₹400.00", "₹333.33", "₹328.77", "₹4,000.00"],
-      "answer": 2, "marks": 1,
-      "explanation": "Daily trail = AUM × rate ÷ 365. 5,00,000 × 0.008 ÷ 365 × 30 = ₹328.77.",
-      "hints": ["Not derived from AUM × rate ÷ 365 × 30.", "Uses 360 days / one-twelfth instead of 30/365.", "Correct.", "That is the full annual trail."],
-      "numeric": true, "case": null
-    },
-    {
-      "id": "vb-M6-15", "chapter": 6, "difficulty": "hard",
-      "q": "A distributor onboards a new woman investor (new PAN) from a B-30 city through a ₹15,000 monthly SIP. What is the maximum additional commission available for the first year, and how many times can it be claimed?",
-      "options": ["₹1,800, once (no dual B-30 + women incentive)", "₹3,600, once each under the B-30 and women categories", "₹2,000, once", "₹1,500, once"],
-      "answer": 0, "marks": 1,
-      "explanation": "SIP incentive = 1% of the first year's total (15,000 × 12 = ₹1,80,000 → ₹1,800), under the ₹2,000 cap. Dual incentives for the same investor or investment are not permitted.",
-      "hints": ["Correct.", "Dual incentive is barred.", "The cap applies only if 1% exceeds ₹2,000.", "Wrong base."],
-      "numeric": true, "case": null
-    },
-    {
-      "id": "vb-M6-16", "chapter": 6, "difficulty": "hard",
-      "q": "An ARN holder dies with a valid ARN. Which statement is INCORRECT?",
-      "options": ["Trail can be paid to the registered nominee without a succession certificate", "The nominee need not be an ARN holder to receive commission", "The nominee can continue to register new SIPs for clients under the deceased's ARN", "To transfer the AUM to herself, the nominee must hold a valid, KYD-compliant ARN"],
-      "answer": 2, "marks": 1,
-      "explanation": "No new business, and no new or modified systematic transactions, can be registered under a deceased MFD's ARN. The other statements reflect AMFI's guidelines.",
-      "hints": ["Correct statement.", "Correct statement.", "Correct choice: this is the false statement.", "Correct statement."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-17", "chapter": 7, "difficulty": "hard",
-      "q": "Scheme A: return 14%, SD 8%. Scheme B: return 12%, SD 4%. Risk-free rate 6%. Based on the Sharpe ratio:",
-      "options": ["A is better (Sharpe 1.75)", "B is better (Sharpe 1.5 vs 1.0)", "Both are equal", "A is better (Sharpe 1.0 vs 0.75)"],
-      "answer": 1, "marks": 1,
-      "explanation": "Sharpe A = (14 − 6) ÷ 8 = 1.0; Sharpe B = (12 − 6) ÷ 4 = 1.5. A higher Sharpe is better, so B wins despite the lower raw return.",
-      "hints": ["Ignores the risk-free rate.", "Correct.", "They differ.", "B's Sharpe is 1.5."],
-      "numeric": true, "case": null
-    },
-    {
-      "id": "vb-M6-18", "chapter": 7, "difficulty": "medium",
-      "q": "A diversified equity scheme returned 13% with a beta of 1.4 when the risk-free rate was 6%. Its Treynor ratio is:",
-      "options": ["9.29", "4.29", "0.54", "5.0"],
-      "answer": 3, "marks": 1,
-      "explanation": "Treynor = (13 − 6) ÷ 1.4 = 5.0.",
-      "hints": ["Ignores the risk-free rate (13 ÷ 1.4).", "Uses 6 ÷ 1.4.", "Divides the premium by the return (7 ÷ 13), not by beta.", "Correct."],
-      "numeric": true, "case": null
-    },
-    {
-      "id": "vb-M6-19", "chapter": 7, "difficulty": "hard",
-      "q": "₹50,000 grew to ₹80,000 in 4 years. What is the CAGR?",
-      "options": ["15.0%", "12.5%", "60.0%", "10.0%"],
-      "answer": 1, "marks": 1,
-      "explanation": "CAGR = (80,000 ÷ 50,000)^(1/4) − 1 = 1.6^0.25 − 1 ≈ 12.47%, i.e. about 12.5%.",
-      "hints": ["That is the simple average (60% ÷ 4).", "Correct.", "That is the absolute return.", "Too low."],
-      "numeric": true, "case": null
-    },
-    {
-      "id": "vb-M6-20", "chapter": 7, "difficulty": "hard",
-      "q": "A fund returned 15% against its tier-1 benchmark's 12%; the standard deviation of excess returns is 2%. What is its Information Ratio, and what is the key rule about this ratio?",
-      "options": ["1.5; it is mandatory for AMCs to disclose it daily", "1.5; it is optional and disclosed annually", "7.5; it is disclosed only in the KIM", "0.67; it uses beta"],
-      "answer": 0, "marks": 1,
-      "explanation": "IR = (15 − 12) ÷ 2 = 1.5. It is the only risk-adjusted return measure that AMCs must disclose, daily, computed against the tier-1 benchmark using daily returns.",
-      "hints": ["Correct.", "Disclosure is mandatory and daily.", "Wrong calculation and rule.", "Wrong calculation; IR does not use beta."],
-      "numeric": true, "case": null
-    },
-    {
-      "id": "vb-M6-21", "chapter": 8, "difficulty": "hard",
-      "q": "In FY 2025-26 a resident redeems equity fund units held for 3 years and books LTCG of ₹3,00,000 (no other gains). Ignoring cess and surcharge, what is the tax?",
-      "options": ["₹37,500", "₹60,000", "₹21,875", "₹35,000"],
-      "answer": 2, "marks": 1,
-      "explanation": "LTCG up to ₹1.25 lakh is exempt. Taxable = 3,00,000 − 1,25,000 = 1,75,000 × 12.5% = ₹21,875.",
-      "hints": ["Ignores the exemption.", "Uses the STCG rate on the full gain.", "Correct.", "Uses 20% on the taxable portion."],
-      "numeric": true, "case": null
-    },
-    {
-      "id": "vb-M6-22", "chapter": 8, "difficulty": "hard",
-      "q": "Which scheme is NOT treated as equity-oriented for income tax, even though it ultimately holds equities?",
-      "options": ["A large cap fund", "An aggressive hybrid fund with 75% domestic equity", "An ELSS", "A domestic Fund of Funds investing in equity mutual fund schemes"],
-      "answer": 3, "marks": 1,
-      "explanation": "Equity-oriented status needs more than 65% directly in domestic listed equity shares. A FoF holds units of other funds, so it is non-equity-oriented despite the underlying equity.",
-      "hints": ["Equity-oriented.", "Above 65% equity, so equity-oriented.", "Equity-oriented.", "Correct."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-23", "chapter": 9, "difficulty": "hard",
-      "q": "An investor applies to buy a liquid fund on Wednesday (a business day), and the money is available for utilisation at 11:00 am the same day. Which NAV applies?",
-      "options": ["Wednesday's NAV", "Thursday's NAV", "The NAV of Tuesday, the day immediately preceding the day of receipt", "Monday's NAV"],
-      "answer": 2, "marks": 1,
-      "explanation": "For liquid funds, if the application and funds are received before the 1:30 pm cut-off, the closing NAV of the day immediately preceding the day of receipt applies. Liquid funds compute NAV for every calendar day.",
-      "hints": ["That would apply to an equity fund.", "That would apply after cut-off.", "Correct.", "Not the immediately preceding day."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-24", "chapter": 9, "difficulty": "hard",
-      "q": "An investor holds 400 units in the IDCW reinvestment option. The scheme declares ₹1.50 per unit when the cum-dividend NAV is ₹31.50. How many units will he hold after reinvestment (ignoring tax and stamp duty)?",
-      "options": ["419.05", "400", "460", "420"],
-      "answer": 3, "marks": 1,
-      "explanation": "Dividend = 400 × 1.50 = ₹600. Ex-dividend NAV = 31.50 − 1.50 = ₹30. New units = 600 ÷ 30 = 20, so 420 units.",
-      "hints": ["Reinvests at the cum-dividend NAV instead of the ex-dividend NAV.", "Ignores the reinvestment.", "Arithmetic error.", "Correct."],
-      "numeric": true, "case": null
-    },
-    {
-      "id": "vb-M6-25", "chapter": 9, "difficulty": "hard",
-      "q": "An SWP of ₹4,900 is processed when the NAV is ₹25 and a 2% exit load applies. How many units are redeemed?",
-      "options": ["196", "200", "204", "192.08"],
-      "answer": 1, "marks": 1,
-      "explanation": "Effective price = 25 × 0.98 = ₹24.50. Units = 4,900 ÷ 24.50 = 200.",
-      "hints": ["Ignores the exit load.", "Correct.", "Arithmetic error.", "Adds the load to the price."],
-      "numeric": true, "case": null
-    },
-    {
-      "id": "vb-M6-26", "chapter": 9, "difficulty": "medium",
-      "q": "An investor registers a ₹4,000 monthly SIP with a 10% annual top-up. What will the monthly instalment be in the third year?",
-      "options": ["₹4,800", "₹4,400", "₹4,840", "₹5,200"],
-      "answer": 2, "marks": 1,
-      "explanation": "Year 2: 4,000 × 1.10 = ₹4,400. Year 3: 4,400 × 1.10 = ₹4,840. Percentage top-ups compound on the existing SIP amount.",
-      "hints": ["Treats it as a fixed ₹400 step each year.", "That is year 2.", "Correct.", "Not the result."],
-      "numeric": true, "case": null
-    },
-    {
-      "id": "vb-M6-27", "chapter": 9, "difficulty": "hard",
-      "q": "For a partnership firm investing in a mutual fund, who must be identified as an Ultimate Beneficial Owner (UBO)?",
-      "options": ["Any partner entitled to more than 15% of capital or profits", "Only the managing partner", "Any partner entitled to more than 25%", "No UBO is needed for partnerships"],
-      "answer": 0, "marks": 1,
-      "explanation": "UBO thresholds: companies, more than 25% of shares or profits; partnerships and bodies of persons, more than 15%; trusts, settlor, trustees and beneficiaries with 15% or more. Listed companies are exempt.",
-      "hints": ["Correct.", "Too narrow.", "That is the company threshold.", "UBO rules apply to non-individuals."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-28", "chapter": 9, "difficulty": "hard",
-      "q": "Which nomination is NOT permitted in a mutual fund folio?",
-      "options": ["A minor, with a guardian specified", "An NRI individual", "A religious or charitable trust", "The Karta of a Hindu Undivided Family"],
-      "answer": 3, "marks": 1,
-      "explanation": "Nominees can be individuals (including minors and NRIs), central/state governments, local authorities and religious or charitable trusts. A nomination can't be made in favour of the Karta of an HUF, a society, a body corporate, a partnership, a private trust or a PoA holder.",
-      "hints": ["Allowed with a guardian.", "Allowed.", "The exception: allowed.", "Correct."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-29", "chapter": 10, "difficulty": "hard",
-      "q": "A scheme has been in existence for 8 months. How may its performance be shown in an advertisement?",
-      "options": ["CAGR since inception", "No performance may be shown", "Point-to-point returns on ₹10,000 for 1 year", "Simple annualised growth rate for the past 6 months from the last day of the preceding month-end"],
-      "answer": 3, "marks": 1,
-      "explanation": "For schemes older than 6 months but younger than 1 year, the simple annualised growth rate for the past 6 months (from the preceding month-end) is shown. Under 6 months, nothing is shown.",
-      "hints": ["CAGR is for schemes older than 3 years.", "That applies below 6 months.", "Requires a longer history.", "Correct."],
-      "numeric": false, "case": null
-    },
-    {
-      "id": "vb-M6-30", "chapter": 10, "difficulty": "medium",
-      "q": "Under SEBI's performance-disclosure standards, which additional benchmark must be shown for a Conservative Hybrid Fund?",
-      "options": ["Sensex or Nifty", "1-year T-Bill", "10-year dated GoI security", "Gold price"],
-      "answer": 2, "marks": 1,
-      "explanation": "Conservative hybrid, equity savings and debt schemes not covered by the 1-year T-bill rule are compared with the 10-year dated GoI security.",
-      "hints": ["That is for equity, balanced, aggressive and multi-asset funds.", "That is for debt up to 1 year and arbitrage funds.", "Correct.", "Not prescribed."],
-      "numeric": false, "case": null
-    }
-  ]
+ "id": "mock-6",
+ "title": "Mock 6 · Tough Drill A",
+ "level": "tough",
+ "blurb": "Numericals, close percentage limits, NOT/EXCEPT traps and multi-statement questions across the syllabus.",
+ "questions": [
+  {
+   "id": "vb-M6-01",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "Meera's daughter will need ₹6 lakh (today's cost) for a course 8 years from now. If course fees inflate at 7% p.a., about how much should Meera plan to accumulate?",
+   "options": [
+    "₹9.36 lakh",
+    "₹10.31 lakh",
+    "₹6.42 lakh",
+    "₹11.02 lakh"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Future cost = 6 × (1.07)^8 = 6 × 1.7182 = ₹10.31 lakh.",
+   "hints": [
+    "That is simple, not compound, inflation (6 × 1.56).",
+    "Correct.",
+    "Only one year of inflation.",
+    "Uses too high a rate or period."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vb-M6-02",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "Consider: (i) Real estate is a divisible asset. (ii) Location is the most important factor in real estate performance. (iii) Real estate can generate current income as rent. Which are correct?",
+   "options": [
+    "(i) and (ii) only",
+    "(i), (ii) and (iii)",
+    "(ii) and (iii) only",
+    "(iii) only"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Real estate is illiquid and NOT divisible; location is the most important factor; and it can yield rent besides capital appreciation.",
+   "hints": [
+    "(i) is false.",
+    "(i) is false.",
+    "Correct.",
+    "(ii) is also true."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-03",
+   "chapter": 2,
+   "difficulty": "hard",
+   "q": "Which allocation is NOT permissible for a Conservative Hybrid Fund?",
+   "options": [
+    "80% debt, 20% equity",
+    "75% debt, 25% equity",
+    "90% debt, 10% equity",
+    "70% debt, 30% equity"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A conservative hybrid fund must hold 75–90% in debt and 10–25% in equity. 30% equity breaches the upper equity limit.",
+   "hints": [
+    "Within limits.",
+    "At the limit, so allowed.",
+    "At the limit, so allowed.",
+    "Correct: equity above 25%."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-04",
+   "chapter": 2,
+   "difficulty": "hard",
+   "q": "In an Arbitrage Fund, exposure to debt instruments is limited to:",
+   "options": [
+    "Government securities with maturity of less than 1 year and repo of government bonds",
+    "AA+ and above corporate bonds",
+    "Any money market instrument up to 91 days",
+    "Government securities of 10-year constant maturity"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Arbitrage funds keep at least 65% in equity; their debt exposure is limited to G-secs maturing in under 1 year and repo of government bonds.",
+   "hints": [
+    "Correct.",
+    "Not permitted for arbitrage funds.",
+    "Too broad.",
+    "Too long."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-05",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "A Large & Mid Cap Fund must invest at least:",
+   "options": [
+    "50% in large caps and 50% in mid caps",
+    "80% in large and mid caps combined, in any ratio",
+    "35% in large caps and 35% in mid caps",
+    "65% in large caps and 25% in mid caps"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "SEBI requires at least 35% in large-cap and at least 35% in mid-cap equity for Large & Mid Cap funds.",
+   "hints": [
+    "Not the SEBI rule.",
+    "Not the SEBI rule.",
+    "Correct.",
+    "Not the SEBI rule."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-06",
+   "chapter": 2,
+   "difficulty": "hard",
+   "q": "For an Equity Savings fund, which set of parameters is correct?",
+   "options": [
+    "Equity ≥80%, debt ≥10%, net equity 40–60%",
+    "Equity ≥65%, debt ≥10%, net equity 15–40%",
+    "Equity 40–60%, debt 40–60%, no arbitrage",
+    "Equity ≥65%, debt only G-secs below 1 year"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Equity savings invests in equity, arbitrage and debt: minimum 65% equity and equity-related, minimum 10% debt, net (unhedged) equity 15–40%.",
+   "hints": [
+    "Wrong numbers.",
+    "Correct.",
+    "That describes a Balanced Hybrid Fund.",
+    "That describes an Arbitrage Fund."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-07",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "A sponsor's associate holds 55% of the voting rights in Custodian X. Can X act as custodian for that sponsor's mutual fund?",
+   "options": [
+    "Yes, freely, since custodians are SEBI-registered",
+    "Yes, if AMFI approves",
+    "Yes, if the trustees are independent",
+    "No, unless specific conditions laid down in SEBI regulations are fulfilled"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "If the sponsor or its associates control 50% or more of a custodian's voting rights (or 50% or more of its directors represent them), that custodian can't be appointed unless specified conditions are met.",
+   "hints": [
+    "Registration alone isn't enough.",
+    "AMFI has no role.",
+    "Trustee independence doesn't cure this.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-08",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "Which statement about changing the AMC of a mutual fund is correct?",
+   "options": [
+    "The sponsor alone can replace the AMC at will",
+    "The AMC's appointment can be terminated by a majority of trustees or 75% of unitholders, and any change needs prior approval of SEBI and the unitholders",
+    "Only SEBI can terminate an AMC",
+    "A simple majority of unitholders can replace the AMC without SEBI approval"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Termination is by a majority of the trustees or by 75% of the unitholders, and any change in the AMC is subject to prior approval of SEBI and the unitholders.",
+   "hints": [
+    "Not the sponsor alone.",
+    "Correct.",
+    "Trustees or unitholders can terminate it.",
+    "Requires 75%, plus approvals."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-09",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "A new-cadre distributor is asked to sell four schemes, each of which has beaten its benchmark in each of the last 3 years. Which can she NOT sell?",
+   "options": [
+    "A Nifty 50 index fund",
+    "A liquid fund",
+    "A credit risk fund",
+    "A Fixed Maturity Plan"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Even a well-performing scheme must fall within the permitted types: liquid/money market, index, diversified equity, retirement benefit with tax benefit, and FMP. A credit risk fund is outside the list.",
+   "hints": [
+    "Permitted (index).",
+    "Permitted (liquid).",
+    "Correct: not a permitted category.",
+    "Permitted (FMP)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-10",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "An investor redeems ₹2,00,000 from a Life Cycle Fund 20 months after investing. Using the workbook's illustrative graded exit load, what load is deducted?",
+   "options": [
+    "₹6,000",
+    "₹2,000",
+    "Nil",
+    "₹4,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Graded load: 3% within year 1, 2% within year 2, 1% within year 3, nil after. 20 months falls in year 2 → 2% × 2,00,000 = ₹4,000.",
+   "hints": [
+    "That is the year-1 rate.",
+    "That is the year-3 rate.",
+    "The load is nil only after 3 years.",
+    "Correct."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vb-M6-11",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "When an open-ended scheme changes a fundamental attribute, which of the following is NOT part of the prescribed procedure?",
+   "options": [
+    "Issuing an addendum and displaying it on the AMC website immediately",
+    "Giving an exit option of not less than 30 days from the notice date",
+    "A public notice in an English national daily and a newspaper in the regional language of the head office",
+    "Obtaining AMFI's written approval of the change"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The procedure covers an immediate addendum, an exit option of at least 30 days (SID revised after it ends), and public notice in an English national daily plus a regional-language paper. AMFI approval is not required.",
+   "hints": [
+    "Required.",
+    "Required.",
+    "Required.",
+    "Correct: AMFI does not approve such changes."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-12",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "As per the workbook, the Total Expense Ratio equals:",
+   "options": [
+    "Base Expense Ratio + brokerage cost + transaction cost for execution of trades + statutory levies (incl. GST)",
+    "Investment management fee only",
+    "Exit load + stamp duty",
+    "Base Expense Ratio + distributor GST + exit load"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "TER = BER + brokerage + transaction cost incurred for executing trades + statutory levies including GST. Distributor GST can't be charged to the scheme; exit load is separate.",
+   "hints": [
+    "Correct.",
+    "Incomplete.",
+    "Not expense components.",
+    "Distributor GST and exit load are not TER components."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-13",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "In a scheme's accounts, which items of expenditure must be separately disclosed?",
+   "options": [
+    "Every expense above ₹1 lakh",
+    "Each item accounting for more than 10% of total expenditure",
+    "Only the investment management fee",
+    "Only items paid to associates"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Each item of expenditure accounting for more than 10% of total expenditure must be disclosed in the accounts or notes.",
+   "hints": [
+    "No rupee threshold is prescribed.",
+    "Correct.",
+    "Too narrow.",
+    "Too narrow."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-14",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "A distributor's clients hold ₹5,00,000 in a scheme, and the trail rate is 0.80% p.a. If the value stays constant, what is the trail earned over 30 days?",
+   "options": [
+    "₹400.00",
+    "₹333.33",
+    "₹328.77",
+    "₹4,000.00"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Daily trail = AUM × rate ÷ 365. 5,00,000 × 0.008 ÷ 365 × 30 = ₹328.77.",
+   "hints": [
+    "Not derived from AUM × rate ÷ 365 × 30.",
+    "Uses 360 days / one-twelfth instead of 30/365.",
+    "Correct.",
+    "That is the full annual trail."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vb-M6-15",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "A distributor onboards a new woman investor (new PAN) from a B-30 city through a ₹15,000 monthly SIP. What is the maximum additional commission available for the first year, and how many times can it be claimed?",
+   "options": [
+    "₹1,800, once (no dual B-30 + women incentive)",
+    "₹3,600, once each under the B-30 and women categories",
+    "₹2,000, once",
+    "₹1,500, once"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "SIP incentive = 1% of the first year's total (15,000 × 12 = ₹1,80,000 → ₹1,800), under the ₹2,000 cap. Dual incentives for the same investor or investment are not permitted.",
+   "hints": [
+    "Correct.",
+    "Dual incentive is barred.",
+    "The cap applies only if 1% exceeds ₹2,000.",
+    "Wrong base."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vb-M6-16",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "An ARN holder dies with a valid ARN. Which statement is INCORRECT?",
+   "options": [
+    "Trail can be paid to the registered nominee without a succession certificate",
+    "The nominee need not be an ARN holder to receive commission",
+    "The nominee can continue to register new SIPs for clients under the deceased's ARN",
+    "To transfer the AUM to herself, the nominee must hold a valid, KYD-compliant ARN"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "No new business, and no new or modified systematic transactions, can be registered under a deceased MFD's ARN. The other statements reflect AMFI's guidelines.",
+   "hints": [
+    "Correct statement.",
+    "Correct statement.",
+    "Correct choice: this is the false statement.",
+    "Correct statement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-17",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "Scheme A: return 14%, SD 8%. Scheme B: return 12%, SD 4%. Risk-free rate 6%. Based on the Sharpe ratio:",
+   "options": [
+    "A is better (Sharpe 1.75)",
+    "B is better (Sharpe 1.5 vs 1.0)",
+    "Both are equal",
+    "A is better (Sharpe 1.0 vs 0.75)"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Sharpe A = (14 − 6) ÷ 8 = 1.0; Sharpe B = (12 − 6) ÷ 4 = 1.5. A higher Sharpe is better, so B wins despite the lower raw return.",
+   "hints": [
+    "Ignores the risk-free rate.",
+    "Correct.",
+    "They differ.",
+    "B's Sharpe is 1.5."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vb-M6-18",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "A diversified equity scheme returned 13% with a beta of 1.4 when the risk-free rate was 6%. Its Treynor ratio is:",
+   "options": [
+    "9.29",
+    "4.29",
+    "0.54",
+    "5.0"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Treynor = (13 − 6) ÷ 1.4 = 5.0.",
+   "hints": [
+    "Ignores the risk-free rate (13 ÷ 1.4).",
+    "Uses 6 ÷ 1.4.",
+    "Divides the premium by the return (7 ÷ 13), not by beta.",
+    "Correct."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vb-M6-19",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "₹50,000 grew to ₹80,000 in 4 years. What is the CAGR?",
+   "options": [
+    "15.0%",
+    "12.5%",
+    "60.0%",
+    "10.0%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "CAGR = (80,000 ÷ 50,000)^(1/4) − 1 = 1.6^0.25 − 1 ≈ 12.47%, i.e. about 12.5%.",
+   "hints": [
+    "That is the simple average (60% ÷ 4).",
+    "Correct.",
+    "That is the absolute return.",
+    "Too low."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vb-M6-20",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "A fund returned 15% against its tier-1 benchmark's 12%; the standard deviation of excess returns is 2%. What is its Information Ratio, and what is the key rule about this ratio?",
+   "options": [
+    "1.5; it is mandatory for AMCs to disclose it daily",
+    "1.5; it is optional and disclosed annually",
+    "7.5; it is disclosed only in the KIM",
+    "0.67; it uses beta"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "IR = (15 − 12) ÷ 2 = 1.5. It is the only risk-adjusted return measure that AMCs must disclose, daily, computed against the tier-1 benchmark using daily returns.",
+   "hints": [
+    "Correct.",
+    "Disclosure is mandatory and daily.",
+    "Wrong calculation and rule.",
+    "Wrong calculation; IR does not use beta."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vb-M6-21",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "In FY 2025-26 a resident redeems equity fund units held for 3 years and books LTCG of ₹3,00,000 (no other gains). Ignoring cess and surcharge, what is the tax?",
+   "options": [
+    "₹37,500",
+    "₹60,000",
+    "₹21,875",
+    "₹35,000"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "LTCG up to ₹1.25 lakh is exempt. Taxable = 3,00,000 − 1,25,000 = 1,75,000 × 12.5% = ₹21,875.",
+   "hints": [
+    "Ignores the exemption.",
+    "Uses the STCG rate on the full gain.",
+    "Correct.",
+    "Uses 20% on the taxable portion."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vb-M6-22",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "Which scheme is NOT treated as equity-oriented for income tax, even though it ultimately holds equities?",
+   "options": [
+    "A large cap fund",
+    "An aggressive hybrid fund with 75% domestic equity",
+    "An ELSS",
+    "A domestic Fund of Funds investing in equity mutual fund schemes"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Equity-oriented status needs more than 65% directly in domestic listed equity shares. A FoF holds units of other funds, so it is non-equity-oriented despite the underlying equity.",
+   "hints": [
+    "Equity-oriented.",
+    "Above 65% equity, so equity-oriented.",
+    "Equity-oriented.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-23",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "An investor applies to buy a liquid fund on Wednesday (a business day), and the money is available for utilisation at 11:00 am the same day. Which NAV applies?",
+   "options": [
+    "Wednesday's NAV",
+    "Thursday's NAV",
+    "The NAV of Tuesday, the day immediately preceding the day of receipt",
+    "Monday's NAV"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "For liquid funds, if the application and funds are received before the 1:30 pm cut-off, the closing NAV of the day immediately preceding the day of receipt applies. Liquid funds compute NAV for every calendar day.",
+   "hints": [
+    "That would apply to an equity fund.",
+    "That would apply after cut-off.",
+    "Correct.",
+    "Not the immediately preceding day."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-24",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "An investor holds 400 units in the IDCW reinvestment option. The scheme declares ₹1.50 per unit when the cum-dividend NAV is ₹31.50. How many units will he hold after reinvestment (ignoring tax and stamp duty)?",
+   "options": [
+    "419.05",
+    "400",
+    "460",
+    "420"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Dividend = 400 × 1.50 = ₹600. Ex-dividend NAV = 31.50 − 1.50 = ₹30. New units = 600 ÷ 30 = 20, so 420 units.",
+   "hints": [
+    "Reinvests at the cum-dividend NAV instead of the ex-dividend NAV.",
+    "Ignores the reinvestment.",
+    "Arithmetic error.",
+    "Correct."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vb-M6-25",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "An SWP of ₹4,900 is processed when the NAV is ₹25 and a 2% exit load applies. How many units are redeemed?",
+   "options": [
+    "196",
+    "200",
+    "204",
+    "192.16"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Effective price = 25 × 0.98 = ₹24.50. Units = 4,900 ÷ 24.50 = 200.",
+   "hints": [
+    "Ignores the exit load.",
+    "Correct.",
+    "Arithmetic error.",
+    "Adds the load to the price."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vb-M6-26",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "An investor registers a ₹4,000 monthly SIP with a 10% annual top-up. What will the monthly instalment be in the third year?",
+   "options": [
+    "₹4,800",
+    "₹4,400",
+    "₹4,840",
+    "₹5,200"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Year 2: 4,000 × 1.10 = ₹4,400. Year 3: 4,400 × 1.10 = ₹4,840. Percentage top-ups compound on the existing SIP amount.",
+   "hints": [
+    "Treats it as a fixed ₹400 step each year.",
+    "That is year 2.",
+    "Correct.",
+    "Not the result."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vb-M6-27",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "For a partnership firm investing in a mutual fund, who must be identified as an Ultimate Beneficial Owner (UBO)?",
+   "options": [
+    "Any partner entitled to more than 15% of capital or profits",
+    "Only the managing partner",
+    "Any partner entitled to more than 25%",
+    "No UBO is needed for partnerships"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "UBO thresholds: companies, more than 25% of shares or profits; partnerships and bodies of persons, more than 15%; trusts, settlor, trustees and beneficiaries with 15% or more. Listed companies are exempt.",
+   "hints": [
+    "Correct.",
+    "Too narrow.",
+    "That is the company threshold.",
+    "UBO rules apply to non-individuals."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-28",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "Which nomination is NOT permitted in a mutual fund folio?",
+   "options": [
+    "A minor, with a guardian specified",
+    "An NRI individual",
+    "A religious or charitable trust",
+    "The Karta of a Hindu Undivided Family"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Nominees can be individuals (including minors and NRIs), central/state governments, local authorities and religious or charitable trusts. A nomination can't be made in favour of the Karta of an HUF, a society, a body corporate, a partnership, a private trust or a PoA holder.",
+   "hints": [
+    "Allowed with a guardian.",
+    "Allowed.",
+    "The exception: allowed.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-29",
+   "chapter": 10,
+   "difficulty": "hard",
+   "q": "A scheme has been in existence for 8 months. How may its performance be shown in an advertisement?",
+   "options": [
+    "CAGR since inception",
+    "No performance may be shown",
+    "Point-to-point returns on ₹10,000 for 1 year",
+    "Simple annualised growth rate for the past 6 months from the last day of the preceding month-end"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "For schemes older than 6 months but younger than 1 year, the simple annualised growth rate for the past 6 months (from the preceding month-end) is shown. Under 6 months, nothing is shown.",
+   "hints": [
+    "CAGR is for schemes older than 3 years.",
+    "That applies below 6 months.",
+    "Requires a longer history.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vb-M6-30",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "Under SEBI's performance-disclosure standards, which additional benchmark must be shown for a Conservative Hybrid Fund?",
+   "options": [
+    "Sensex or Nifty",
+    "1-year T-Bill",
+    "10-year dated GoI security",
+    "Gold price"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Conservative hybrid, equity savings and debt schemes not covered by the 1-year T-bill rule are compared with the 10-year dated GoI security.",
+   "hints": [
+    "That is for equity, balanced, aggressive and multi-asset funds.",
+    "That is for debt up to 1 year and arbitrage funds.",
+    "Correct.",
+    "Not prescribed."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
 }

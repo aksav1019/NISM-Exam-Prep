@@ -207,7 +207,7 @@
       "options": ["About 13.7%", "16.0%", "About 18.9%", "8.0%"],
       "answer": 0, "marks": 1,
       "explanation": "Variance = 0.36 x 0.04 + 0.16 x 0.01 + 2 x 0.6 x 0.4 x 0.3 x 0.2 x 0.1 = 0.0144 + 0.0016 + 0.00288 = 0.01888. σ = √0.01888 = 13.74%.",
-      "hints": ["Correct.", "This is the weighted average σ, valid only if correlation were +1.", "This reports the variance (0.01888) as a percentage.", "This would need perfect negative correlation."],
+      "hints": ["Correct.", "This is the weighted average σ, valid only if correlation were +1.", "Too high: even with correlation +1 the result would only be 16%.", "This would need perfect negative correlation."],
       "numeric": true, "case": null
     },
     {
@@ -222,10 +222,10 @@
     {
       "id": "xa-M6-24", "chapter": 16, "difficulty": "medium",
       "q": "What was the portfolio's holding period return last year?",
-      "options": ["10.40%", "13.04%", "14.00%", "3.60%"],
+      "options": ["10.40%", "12.68%", "14.00%", "3.60%"],
       "answer": 2, "marks": 1,
       "explanation": "HPR = (Income + End - Begin) / Begin = (0.9 + 27.6 - 25) / 25 = 3.5 / 25 = 14%.",
-      "hints": ["This ignores the ₹90,000 income.", "This divides by the ending value.", "Correct.", "This is income only as a % of beginning value."],
+      "hints": ["This ignores the ₹90,000 income.", "This divides by the ending value (3.5 / 27.6).", "Correct.", "This is income only as a % of beginning value."],
       "numeric": true,
       "case": "Meghna's portfolio was worth ₹25 lakh at the start of last year and ₹27.6 lakh at the end; she also received ₹90,000 of dividends and interest during the year (assume received at year end). Over the last four years the portfolio's annual returns were +15%, -8%, +11% and +6%. Her income from this portfolio is taxed at an effective rate of 25%."
     },

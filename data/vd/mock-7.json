@@ -21,7 +21,7 @@
    "hints": [
     "Wrong — uses only the call premium.",
     "Wrong — uses only the put premium.",
-    "Wrong — adds the strangle premium as well.",
+    "Wrong — those are the strangle's break-evens (2,100 + 55 and 1,900 − 55).",
     "Correct — total premium = 70 + 55 = 125; BEPs = 2,000 ± 125."
    ],
    "numeric": true,

@@ -548,7 +548,7 @@
    "marks": 1,
    "explanation": "Accrued interest = annual coupon × day-count fraction; the workbook uses 30/360 for G-secs.",
    "hints": [
-    "Wrong — that uses Actual/365-style counting.",
+    "Wrong — on 30/360 there are 87 days, giving 1.75; 1.79 does not follow.",
     "Wrong — that counts 90 days.",
     "Correct — days (30/360) = 3 × 30 + (12 − 15) = 87; AI = 7.26 × 87 ÷ 360 = 1.7545.",
     "Wrong — that is the full half-year coupon."
@@ -680,16 +680,16 @@
     "About 2,500 lots",
     "About 3,437 lots",
     "About 2,888 lots",
-    "About 2,302 lots"
+    "About 2,199 lots"
    ],
    "answer": 2,
    "marks": 1,
    "explanation": "Duration-based hedge lots = (MD_p × Value) ÷ (MD_f × Futures price × 2,000).",
    "hints": [
     "Wrong — that is face value ÷ ₹2 lakh, ignoring duration.",
-    "Wrong — that inverts the duration ratio.",
+    "Wrong — not supported by the formula.",
     "Correct — (5.5 × 50,00,00,000) ÷ (4.8 × 99.20 × 2,000) ≈ 2,888.",
-    "Wrong — not supported by the formula."
+    "Wrong — that inverts the duration ratio (4.8 ÷ 5.5)."
    ],
    "numeric": true,
    "case": null
