@@ -1,0 +1,583 @@
+{
+ "id": "mock-1",
+ "title": "Mock 1 · Foundations",
+ "level": "easy",
+ "blurb": "Core definitions and headline numbers across all chapters: categories, minimums, fees, valuation and tax basics.",
+ "questions": [
+  {
+   "id": "xixc-M1-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "According to the workbook, the required rate of return on an investment is made up of which components?",
+   "options": [
+    "Nominal risk-free rate + inflation + alpha",
+    "Real risk-free rate + expected inflation + risk premium",
+    "Expected return + realised return + inflation",
+    "Coupon rate + inflation − risk premium"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The workbook builds the required rate of return as real risk-free rate + inflation adjustment + risk premium. Real RF plus inflation gives the nominal risk-free rate; adding the risk premium gives the required return.",
+   "hints": [
+    "Alpha is excess return earned by skill, not a component of required return; nominal RF already includes inflation.",
+    "Correct: pure time value, plus inflation compensation, plus compensation for uncertainty.",
+    "Expected and realised returns are different concepts from required return.",
+    "Risk premium is added, not subtracted, and coupon rate is not the base."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-02",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Which of the following AIFs would be registered as a Category II AIF?",
+   "options": [
+    "SME Fund",
+    "Social Impact Fund",
+    "Private Equity Fund",
+    "Special Situation Fund"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Category II covers AIFs that are neither Cat I nor Cat III, such as Private Equity Funds and Debt Funds. SME, Social Impact and Special Situation Funds are all Category I.",
+   "hints": [
+    "SME Funds are Category I (economically desirable sector).",
+    "Social Impact Funds are a Category I sub-type.",
+    "Correct: PE funds get no special incentives, so they fall in Category II.",
+    "Special Situation Funds are a sub-category of Category I AIFs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-03",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "What is the minimum corpus that each scheme of an AIF (other than special cases like Social Impact Funds) must have?",
+   "options": [
+    "₹10 crore",
+    "₹5 crore",
+    "₹20 crore",
+    "₹100 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Under the AIF Regulations each scheme must have a corpus of at least ₹20 crore. The exceptions are a Social Impact Fund scheme (₹5 crore) and a Special Situation Fund scheme (₹100 crore).",
+   "hints": [
+    "₹10 crore is the Cat III continuing-interest cap, not the corpus.",
+    "₹5 crore is the minimum corpus only for Social Impact Fund schemes.",
+    "Correct: each scheme must have a corpus of at least ₹20 crore.",
+    "₹100 crore is the minimum corpus for Special Situation Fund schemes."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-04",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which form of trust is considered most appropriate for housing a domestic AIF in India, mainly for clarity of tax treatment?",
+   "options": [
+    "Revocable, indeterminate trust",
+    "Irrevocably settled, determinate trust",
+    "Public charitable trust",
+    "Revocable, determinate trust"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The workbook states that an 'irrevocably settled, determinate trust' is most appropriate for an AIF. That is why the corpus is divided into units so that each beneficiary's share is determinable.",
+   "hints": [
+    "Indeterminate trusts attract MMR, and revocable transfers are taxed in the contributor's hands.",
+    "Correct: irrevocable plus determinate gives clear beneficial interests and tax treatment.",
+    "Public charitable trusts serve the general public, not investors.",
+    "A revocable trust lets the settlor take back the property, which complicates taxation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-05",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "In which fund structure are commitments of both domestic and offshore investors pooled into a single onshore AIF, with no RBI or Ministry of Finance approval needed for the foreign investment?",
+   "options": [
+    "Unified structure",
+    "Parallel structure",
+    "Pure offshore structure",
+    "Co-investment structure"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "In a Unified Structure, domestic and offshore commitments are pooled into the domestic (onshore) AIF. Foreign investment comes in under the automatic route without separate RBI or MoF approval, and the offshore fund cannot invest directly in investee companies.",
+   "hints": [
+    "Correct: the offshore fund invests into the onshore SEBI AIF under the automatic route.",
+    "In a parallel structure the offshore fund invests directly in investee companies alongside the AIF.",
+    "A pure offshore fund pools money abroad and invests via FPI/FVCI/FDI routes.",
+    "A co-investment is a deal-level side investment, not a pooling structure."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-06",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A Category I AIF has total capital commitments of ₹80 crore and charges a management fee of 2% p.a. on committed capital, plus GST at 18%. What is the total annual cost of management fees to the fund?",
+   "options": [
+    "₹1.600 crore",
+    "₹1.888 crore",
+    "₹1.312 crore",
+    "₹2.000 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Cat I/II AIFs usually charge the fee on committed capital during the commitment period. Fee = 2% × ₹80 crore = ₹1.60 crore; GST = 18% × 1.60 = ₹0.288 crore; total = ₹1.888 crore.",
+   "hints": [
+    "This ignores the 18% GST charged on top of the fee.",
+    "Correct: 2% × ₹80 crore = ₹1.6 crore; plus 18% GST = ₹1.888 crore.",
+    "This wrongly deducts GST instead of adding it.",
+    "This simply doubles the commitment-based figure without basis."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-07",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A fund has a DPI of 0.60 and an RVPI of 0.90. What is its TVPI?",
+   "options": [
+    "0.30",
+    "1.50",
+    "0.54",
+    "1.67"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Total Value to Paid-in Capital = (cumulative distributions + residual value) ÷ paid-in capital = DPI + RVPI = 0.60 + 0.90 = 1.50.",
+   "hints": [
+    "This subtracts DPI from RVPI.",
+    "Correct: TVPI = DPI + RVPI = 0.60 + 0.90.",
+    "This multiplies the two ratios.",
+    "This divides RVPI by DPI."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-08",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "What is the purpose of a hurdle rate in an AIF, as described in the workbook?",
+   "options": [
+    "To guarantee a minimum return to investors",
+    "To cap the management fee payable to the manager",
+    "To fix the exit load payable on early redemption",
+    "To benchmark investors' return expectations before the manager earns additional return"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A hurdle (preferred) return is the threshold investors must receive before the manager earns carry. The workbook stresses it benchmarks expectations and is not a guaranteed return, which is neither permissible nor possible.",
+   "hints": [
+    "A guaranteed return is neither ethical nor possible, according to the workbook.",
+    "The hurdle has nothing to do with capping management fees.",
+    "Exit loads are set separately in the PPM.",
+    "Correct: it is a threshold (preferred) return, not a promise."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-09",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "At what frequency is performance benchmarking of AIFs carried out under SEBI's operational guidelines?",
+   "options": [
+    "Half-yearly, based on data as on September 30 and March 31",
+    "Quarterly, based on calendar quarters",
+    "Annually, based on March 31 data only",
+    "Monthly, based on NAV dates"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "SEBI's operational guidelines require performance benchmarking on a half-yearly basis using data as on September 30 and March 31. March data must be audited; September data may be unaudited.",
+   "hints": [
+    "Correct: benchmarking is half-yearly using Sept 30 and Mar 31 data.",
+    "Quarterly is the frequency for Cat III investor reports, not benchmarking.",
+    "There are two data points a year, not one.",
+    "Monthly is the NAV disclosure frequency for open-ended Cat III AIFs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-10",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Under a 'full ratchet' anti-dilution clause, what happens when a company issues new shares in a down round?",
+   "options": [
+    "The investor's conversion price is reset to a weighted average of old and new prices",
+    "The investor must buy additional shares at the new price",
+    "The founders must sell shares to the investor at the old price",
+    "The investor's conversion price is reset to the lowest new issue price"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Full ratchet compensates the investor in a down round by converting preference shares at the lowest price the company has issued at. It is always more beneficial to preferred holders than the weighted-average method.",
+   "hints": [
+    "That describes the weighted-average method.",
+    "A pre-emptive right is a right, not an obligation, and this isn't ratchet.",
+    "Ratchet adjusts the conversion terms; it doesn't force founder sales.",
+    "Correct: full ratchet re-prices the conversion to the lowest issue price."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-11",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Within how many days must an AIF Manager redress an investor grievance received (e.g. via SCORES)?",
+   "options": [
+    "30 calendar days",
+    "21 calendar days",
+    "15 calendar days",
+    "7 working days"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Under the SEBI grievance redressal framework, AIF Managers must redress investor grievances within 21 calendar days from receipt. Investors can then seek a first review within 15 calendar days of the ATR.",
+   "hints": [
+    "30 days is a common distractor, but the rule is 21.",
+    "Correct: the AIF must submit the ATR within 21 calendar days.",
+    "15 days is the window for an investor to request a review.",
+    "7 days is the window for compiling quarterly complaint data."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-12",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "An AIF holding a minority stake wants to sell to a strategic buyer and can compel the promoters to sell their shares to the same buyer on the same terms. Which right is this?",
+   "options": [
+    "Drag-along right",
+    "Tag-along right",
+    "Right of first refusal",
+    "Pre-emptive right"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A drag-along ('bring-along') right obliges other shareholders to sell to the buyer if the right-holder sells. AIFs with minority stakes use it to offer a control block and capture a control premium.",
+   "hints": [
+    "Correct: drag-along obliges other shareholders to sell alongside.",
+    "Tag-along lets a holder JOIN someone else's sale, not force others.",
+    "ROFR lets the holder match a third-party offer before a sale.",
+    "A pre-emptive right is about subscribing to new issues."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-13",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "What does a key man clause in an AIF's fund agreement typically do?",
+   "options": [
+    "Requires the fund to liquidate all investments immediately",
+    "Allows the manager to double its management fee",
+    "Prohibits the fund from making new investments if specified key persons are unavailable",
+    "Transfers management of the fund to the trustee automatically"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A key man clause prohibits the AIF or management company from making new investments if one or more key persons are not available to devote the necessary time. Investors often also negotiate exit rights unless a replacement is found.",
+   "hints": [
+    "Immediate liquidation is not the effect of a key man event.",
+    "Fees aren't increased by a key man event.",
+    "Correct: new investments stop if key persons can't devote time.",
+    "Management doesn't automatically shift to the trustee."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-14",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "Over what minimum period does the workbook suggest investors should analyse the historical performance of funds previously managed by an Investment Manager?",
+   "options": [
+    "One year",
+    "Five years",
+    "Three years",
+    "Ten years"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The workbook states that the historical performance of funds managed by the Investment Manager should be analysed over a minimum of five years.",
+   "hints": [
+    "One year is too short to judge a manager across cycles.",
+    "Correct: a minimum of five years is suggested.",
+    "Three years is a common distractor; the workbook says five.",
+    "Ten years is not the stated minimum."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-15",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "For a regular AIF scheme, how should the PPM be filed with SEBI?",
+   "options": [
+    "Directly by the manager, at least 30 days before launch",
+    "Through the custodian, after the first close",
+    "Through the RTA, within 1 month of launch",
+    "Through a SEBI-registered merchant banker, at least 10 working days before launch"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Under the GARUDA mechanism, a regular scheme's PPM is filed with SEBI through a SEBI-registered merchant banker at least 10 working days before launch, together with the due diligence certificate and other documents.",
+   "hints": [
+    "Regular schemes must file through a merchant banker, and the gap is 10 working days.",
+    "The custodian has no role in PPM filing.",
+    "The RTA doesn't file the PPM, and filing happens before launch.",
+    "Correct: filed via a merchant banker at least 10 working days before launch (GARUDA)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-16",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Which statement correctly describes SEBI's role in respect of an AIF's PPM?",
+   "options": [
+    "SEBI approves the PPM and certifies its accuracy",
+    "SEBI guarantees the performance disclosed in the PPM",
+    "SEBI only provides observations; submission does not mean SEBI has approved the PPM",
+    "SEBI drafts the PPM for first-time managers"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The workbook stresses that SEBI only provides observations on the PPM and does not approve it. The mandatory disclaimer says SEBI assumes no responsibility for the accuracy of the disclosures or the manager's performance.",
+   "hints": [
+    "The disclaimer explicitly says submission is not approval.",
+    "SEBI assumes no responsibility for performance or accuracy.",
+    "Correct: SEBI gives observations only; there is a mandatory disclaimer.",
+    "The manager and merchant banker prepare the PPM."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-17",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "How often must Category I and II AIFs value their investments through an independent registered valuer?",
+   "options": [
+    "At least once every quarter",
+    "Once a year only",
+    "Only at the time of exit",
+    "At least once every 6 months"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Category I and II AIFs must value their investments at least once every 6 months through an independent registered valuer. The period can be extended to 1 year with approval of 75% of investors by value.",
+   "hints": [
+    "Quarterly is the NAV disclosure frequency for close-ended Cat III AIFs.",
+    "Annual valuation is allowed only with approval of 75% of investors by value.",
+    "Valuation must be periodic, not only on exit.",
+    "Correct: at least half-yearly; can be extended to 1 year with 75% investor approval."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-18",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "A VC fund invests ₹5 crore in a start-up for a 20% stake. What is the start-up's pre-money valuation?",
+   "options": [
+    "₹25 crore",
+    "₹5 crore",
+    "₹20 crore",
+    "₹30 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Post-money valuation = investment ÷ stake = ₹5 crore ÷ 0.20 = ₹25 crore. Pre-money = post-money − new investment = ₹25 crore − ₹5 crore = ₹20 crore.",
+   "hints": [
+    "₹25 crore is the post-money valuation.",
+    "₹5 crore is just the investment amount.",
+    "Correct: post-money = ₹5 crore ÷ 20% = ₹25 crore; pre-money = 25 − 5 = ₹20 crore.",
+    "This wrongly adds the investment to the post-money value."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-19",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "For how long must the Manager or Sponsor maintain records such as valuation policies, investment strategies and investor details?",
+   "options": [
+    "Five years after the winding up of the fund",
+    "Three years from the date of each transaction",
+    "Eight years from the final close",
+    "Until the end of the fund's tenure only"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Under Regulation 27, the Manager or Sponsor must keep records of assets, valuation policies, investment strategies, investor particulars and investment rationale for five years after the winding up of the fund.",
+   "hints": [
+    "Correct: records are kept for 5 years after winding up (Regulation 27).",
+    "Three years is not the AIF record-keeping rule.",
+    "Eight years relates to the PIT database, not AIF records.",
+    "Records must survive beyond the tenure and winding up."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-20",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "What is the 'liquidation period' available to an AIF scheme after expiry of its tenure (or extended tenure)?",
+   "options": [
+    "1 year",
+    "6 months",
+    "2 years",
+    "3 years"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The 'Liquidation Period' is one year following expiry of the tenure or extended tenure of an AIF scheme, during which assets must be fully liquidated.",
+   "hints": [
+    "Correct: the liquidation period is 1 year after expiry of tenure.",
+    "6 months is too short; it is not the liquidation period.",
+    "2 years is the maximum tenure extension, not the liquidation period.",
+    "3 years is the maximum retention period for wind-up expenses."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-21",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "At what rate must a Category II AIF deduct tax at source on income (other than business income) distributed to its resident investors?",
+   "options": [
+    "20%",
+    "30%",
+    "Nil, as the income is exempt",
+    "10%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Under section 393 of the ITA, an Investment Fund (Cat I/II AIF) must withhold tax at 10% on all income (other than business income) distributed to resident investors.",
+   "hints": [
+    "20% applies to dividend income distributed to non-resident investors.",
+    "30% is not the prescribed TDS rate here.",
+    "The fund's income is exempt at fund level, but TDS still applies on distribution.",
+    "Correct: 10% TDS on income other than business income for residents."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-22",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "Tax pass-through status under the Income Tax Act is available to which AIFs, and for which income?",
+   "options": [
+    "Category I and II AIFs, for income other than business income",
+    "All AIFs, for all income",
+    "Category III AIFs only, for capital gains",
+    "Category I and II AIFs, for business income only"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Category I and II AIFs ('Investment Funds') enjoy pass-through for income other than business income. Business income is taxed at fund level, and Category III AIFs have no pass-through status.",
+   "hints": [
+    "Correct: only Cat I/II 'Investment Funds', and not for business income.",
+    "Cat III does not get statutory pass-through.",
+    "Cat III AIFs follow trust taxation principles instead.",
+    "Business income is the one stream taxed at fund level."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-23",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "Under the income route, what minimum annual income must an individual have to qualify as an Accredited Investor?",
+   "options": [
+    "₹1 crore",
+    "₹50 lakh",
+    "₹2 crore",
+    "₹5 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "An individual qualifies as an AI with annual income of at least ₹2 crore, OR net worth of at least ₹7.5 crore (₹3.75 crore in financial assets), OR income of ₹1 crore plus net worth of ₹5 crore (₹2.5 crore in financial assets).",
+   "hints": [
+    "₹1 crore income qualifies only together with ₹5 crore net worth.",
+    "₹50 lakh is not an AI criterion.",
+    "Correct: annual income of at least ₹2 crore qualifies on its own.",
+    "₹5 crore is the net-worth leg of the combined route."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-24",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "What is the maximum leverage permitted for a Category III AIF?",
+   "options": [
+    "1 time its NAV",
+    "3 times its NAV",
+    "10% of investable funds",
+    "2 times its NAV"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "SEBI caps Category III AIF leverage at 2 times NAV, where leverage = total exposure (long + short after permitted offsetting) ÷ NAV, calculated at scheme level.",
+   "hints": [
+    "1× would mean no leverage, which is not the limit.",
+    "3× exceeds SEBI's cap.",
+    "10% of investable funds is the Cat I/II temporary-borrowing limit.",
+    "Correct: total exposure after permitted offsets cannot exceed 2× NAV."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M1-25",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "What is the minimum tenure of a Category I or Category II AIF scheme, and from when is it computed?",
+   "options": [
+    "3 years, computed from the date of first close",
+    "5 years, computed from the date of SEBI registration",
+    "3 years, computed from the date of final close",
+    "1 year, computed from the date of first investment"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Cat I and II AIFs are close-ended with a minimum tenure of 3 years, and SEBI has clarified that tenure is computed from the date of declaration of the first close.",
+   "hints": [
+    "Correct: 3 years minimum, counted from first close.",
+    "Both the period and the starting point are wrong.",
+    "Tenure runs from FIRST close, not final close.",
+    "One year is far below the regulatory minimum."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

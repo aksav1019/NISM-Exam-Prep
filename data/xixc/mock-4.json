@@ -1,0 +1,583 @@
+{
+ "id": "mock-4",
+ "title": "Mock 4 · Numbers & Nuances",
+ "level": "easy",
+ "blurb": "More numericals (risk, return, multiples) mixed with process rules from documentation to winding up.",
+ "questions": [
+  {
+   "id": "xixc-M4-01",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "A portfolio holds 60% in Stock X (σ = 10%) and 40% in Stock Y (σ = 20%). The correlation between X and Y is zero. What is the portfolio's standard deviation?",
+   "options": [
+    "10.0%",
+    "14.0%",
+    "12.0%",
+    "8.0%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "σp² = w1²σ1² + w2²σ2² + 2w1w2ρσ1σ2 = (0.6²)(0.10²) + (0.4²)(0.20²) + 0 = 0.0036 + 0.0064 = 0.0100, so σp = 10%. With ρ < 1, risk is below the weighted average of 14%.",
+   "hints": [
+    "Correct: variance = 0.36×0.01 + 0.16×0.04 = 0.01, so σ = 10%.",
+    "14% is the weighted average of SDs, which ignores diversification.",
+    "12% doesn't follow from the variance formula.",
+    "8% understates the risk."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-02",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Which of the following is expressly EXCLUDED from the definition of an Alternative Investment Fund?",
+   "options": [
+    "A venture capital fund investing in start-ups",
+    "A hedge fund using leverage",
+    "A family trust set up for the benefit of family members",
+    "A fund investing in infrastructure SPVs"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The AIF definition excludes mutual funds and CIS, family trusts, ESOP or employee welfare trusts, holding companies, securitisation or other SPVs, and funds regulated by RBI or other regulators.",
+   "hints": [
+    "VC funds are Category I AIFs.",
+    "Hedge funds are Category III AIFs.",
+    "Correct: family trusts are excluded from the AIF definition.",
+    "Infrastructure funds are Category I AIFs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-03",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "An AIF scheme closes with total commitments of ₹500 crore. To date the manager has drawn down ₹320 crore. What is the scheme's 'dry powder'?",
+   "options": [
+    "₹320 crore",
+    "₹500 crore",
+    "₹180 crore",
+    "₹820 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Dry powder (pending drawdowns) is committed capital not yet called: ₹500 crore − ₹320 crore = ₹180 crore. The ₹320 crore drawn is the invested capital.",
+   "hints": [
+    "₹320 crore is the invested (drawn) capital.",
+    "₹500 crore is total committed capital.",
+    "Correct: undrawn commitment = ₹500 − ₹320 = ₹180 crore.",
+    "Adding the two figures is meaningless."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-04",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A buyout of a cash-rich, under-levered company that is financed with a significant amount of debt is known as a:",
+   "options": [
+    "Leveraged buyout (LBO)",
+    "Management buyout (MBO)",
+    "Secondary buyout",
+    "Club deal"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Where strong free cash flow and low leverage allow it, a buyout introduces significant debt into the acquisition structure. That is a Leveraged Buyout, which is sometimes also loosely called a 'Large Buy Out'.",
+   "hints": [
+    "Correct: debt-heavy acquisition financing defines an LBO.",
+    "An MBO is led by the incumbent management.",
+    "A secondary buyout is a sale from one buyout fund to another.",
+    "A club deal means several PE investors acting together."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-05",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "When an offshore fund uses an Indian advisory office to source deals, what tax risk does the workbook highlight?",
+   "options": [
+    "The offshore fund automatically becomes a Category III AIF",
+    "The offshore fund loses its FPI registration",
+    "Stamp duty becomes payable on every remittance",
+    "The advisory office may be treated as a permanent establishment, with the place of effective management (POEM) held to be in India"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Indian advisory offices of offshore funds raise the question of whether they create a permanent establishment and whether POEM shifts to India. Funds restrict the advisor's scope through careful documentation.",
+   "hints": [
+    "Offshore funds are not AIFs and don't change category.",
+    "FPI status is not lost because of an advisory office.",
+    "Stamp duty doesn't apply to remittances in this way.",
+    "Correct: the PE/POEM characterisation risk must be managed through documentation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-06",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "During a quarter, a Category III AIF's AUM peaked at ₹250 crore and later fell to a trough of ₹200 crore before recovering. What is its maximum drawdown?",
+   "options": [
+    "−25.0%",
+    "−20.0%",
+    "−50.0%",
+    "−12.5%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "MDD = (Trough − Peak) ÷ Peak = (200 − 250) ÷ 250 = −20%. It is quoted relative to the peak value.",
+   "hints": [
+    "This divides by the trough instead of the peak.",
+    "Correct: (200 − 250) ÷ 250 = −20%.",
+    "This uses the absolute fall of ₹50 crore as a percentage.",
+    "This halves the true drawdown."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-07",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "An AIF earned 15% with a standard deviation of 12%. The risk-free rate is 6%. What is its Sharpe ratio?",
+   "options": [
+    "1.25",
+    "0.75",
+    "0.50",
+    "1.50"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Sharpe ratio = (Rp − Rf) ÷ σp = (15% − 6%) ÷ 12% = 0.75. It measures excess return per unit of total risk.",
+   "hints": [
+    "This ignores the risk-free rate (15 ÷ 12).",
+    "Correct: (15 − 6) ÷ 12 = 0.75.",
+    "This uses the risk-free rate in the denominator: (15 − 6) ÷ 18.",
+    "This divides excess return by 6."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-08",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "What is the purpose of a clawback provision in an AIF's distribution terms?",
+   "options": [
+    "To let the manager recover management fees waived earlier",
+    "To let investors recover carry paid on early exits to offset losses on later investments",
+    "To let the fund recover unpaid drawdowns from defaulting investors",
+    "To let SEBI recover penalties from the sponsor"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Under deal-by-deal (American) waterfalls, early profitable exits may pay the manager carry that later losses make excessive. A clawback lets investors recover it, though it is only as good as the manager's ability to refund.",
+   "hints": [
+    "It protects investors, not the manager's fee waivers.",
+    "Correct: clawback reverses excess carry so the fund-as-a-whole split holds.",
+    "Drawdown defaults are handled by default clauses.",
+    "SEBI penalties aren't clawbacks."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-09",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "In a price-weighted index, which constituent has the greatest influence on index movements?",
+   "options": [
+    "The stock with the highest price per share",
+    "The stock with the largest market capitalisation",
+    "The stock with the most shares outstanding",
+    "All stocks have equal influence"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A price-weighted index (e.g. Dow Jones Industrial Average) sums constituent prices and divides by a divisor, so higher-priced stocks move the index more regardless of company size.",
+   "hints": [
+    "Correct: price weighting gives higher-priced stocks more weight.",
+    "Market cap drives value-weighted indices.",
+    "Shares outstanding alone doesn't set the weight in price weighting.",
+    "Equal influence describes an equal-weighted index."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-10",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "How do affirmative rights differ from veto rights in an investee company?",
+   "options": [
+    "Affirmative rights are only for founders; veto rights are only for lenders",
+    "Affirmative rights apply only on liquidation; veto rights apply only to dividends",
+    "They are identical terms for the same right",
+    "Affirmative rights require the investor's consent before certain actions (positive control); veto lets the investor block an action even if it has the required majority (negative control)"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Affirmative rights mean listed actions cannot proceed without the investor's express consent, whatever its shareholding (positive control). Veto rights let the investor oppose an action even if it has the requisite majority (negative control).",
+   "hints": [
+    "Both are investor protection rights negotiated by investors.",
+    "Their scope is much wider than liquidation or dividends.",
+    "The workbook clearly distinguishes them.",
+    "Correct: positive control vs negative control."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-11",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "According to the workbook, what is an ideal size of employee stock option pool for a start-up in India?",
+   "options": [
+    "20% to 30% of the capital",
+    "1% to 2% of the capital",
+    "50% of the capital",
+    "5% to 10% of the capital"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The workbook states an ideal option pool for an Indian start-up is between 5% and 10% of capital. Its extent matters to investors because exercise of options dilutes their stake.",
+   "hints": [
+    "That is too dilutive for investors.",
+    "That is lower than the stated ideal range.",
+    "That would hand over half the company.",
+    "Correct: the workbook suggests 5–10%."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-12",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "An investor is not satisfied with the Action Taken Report (ATR) submitted by an AIF on SCORES. Within what time can the investor request a first review?",
+   "options": [
+    "15 calendar days from receiving the ATR",
+    "21 calendar days from receiving the ATR",
+    "30 days from filing the complaint",
+    "7 working days from receiving the ATR"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "After the AIF's ATR, an investor may request a first review within 15 calendar days. The Designated Body then reviews, and a second review (by SEBI) can be requested within 15 calendar days of the revised ATR.",
+   "hints": [
+    "Correct: the first review can be requested within 15 calendar days.",
+    "21 days is the AIF's time to redress the grievance.",
+    "30 days is not the review window.",
+    "7 working days is not the review window."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-13",
+   "chapter": 12,
+   "difficulty": "medium",
+   "q": "Which of the following is an example of 'competing or outside interests' that investors should examine during fund due diligence?",
+   "options": [
+    "The manager runs several funds, which may affect how deals are allocated to this scheme",
+    "The fund has appointed a SEBI-registered custodian",
+    "The fund files its PPM through a merchant banker",
+    "The fund's units are held in demat form"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Deal referral may be affected if the manager manages several funds or schemes or has outside business interests. Board positions held in portfolio companies and outsourced services charged to the fund are other outside-interest concerns.",
+   "hints": [
+    "Correct: multiple funds or outside businesses can divert deals and time.",
+    "Appointing a custodian is a compliance requirement, not a conflict.",
+    "PPM filing via MB is a regulatory requirement.",
+    "Demat holding is mandatory and neutral."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-14",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "What does the workbook identify as the main source of information for an investor's due diligence on an AIF?",
+   "options": [
+    "Daily stock exchange price data of the AIF's units",
+    "The AIF's mutual fund factsheet",
+    "Public credit ratings of the AIF",
+    "The Private Placement Memorandum of the proposed scheme"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Because AIF information is not publicly available, the main source is the PPM for the proposed scheme, supplemented by additional information from the fund house or investment manager's office.",
+   "hints": [
+    "Most AIF units are not traded daily on exchanges.",
+    "AIFs don't publish MF factsheets.",
+    "AIFs are not generally credit-rated.",
+    "Correct: the PPM is the main information source (supplemented by the fund house)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-15",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "An AIF set up as a trust comes into existence through a trust indenture executed between which parties?",
+   "options": [
+    "The investor and the manager",
+    "The sponsor and SEBI",
+    "The custodian and the trustee",
+    "The settlor and the trustee"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A trust AIF is constituted by a trust indenture between the settlor (who conveys the initial sum) and the trustee. The trust deed must be registered, and the trust itself has no separate legal personality.",
+   "hints": [
+    "Investors sign contribution agreements later.",
+    "SEBI registers the AIF; it is not party to the deed.",
+    "The custodian signs a separate custodial agreement.",
+    "Correct: the settlor settles the trust with the trustee via the indenture."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-16",
+   "chapter": 13,
+   "difficulty": "medium",
+   "q": "When can an existing AI-only Fund or LVF launch a NEW scheme under the current filing framework?",
+   "options": [
+    "After 10 working days of filing via a merchant banker",
+    "After 30 days of SEBI's observations",
+    "Immediately upon filing its PPM with SEBI",
+    "Only after SEBI grants a fresh registration"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "AI-only Funds and LVFs are exempt from filing through a merchant banker and launch new schemes immediately upon filing the PPM (with an undertaking from the CEO and Compliance Officer). Their first scheme launches from the registration date.",
+   "hints": [
+    "The 10-working-day route applies to regular schemes.",
+    "There is no 30-day wait.",
+    "Correct: AI-only Funds and LVFs follow an 'intimation to SEBI' model.",
+    "A fresh registration is needed only for their FIRST scheme."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-17",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "What is the central theme of the IPEV Valuation Guidelines for private equity and venture capital portfolios?",
+   "options": [
+    "Historical cost is the most reliable measure",
+    "Investments should be valued only at exit",
+    "Book value should always be used for unlisted equity",
+    "Fair value is the best measure of valuing portfolio companies and funds"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The IPEV Guidelines aim for uniform, principles-based valuation and hold that fair value is the best measure, both for portfolio companies and at fund level.",
+   "hints": [
+    "Cost is only a starting point (e.g. price of recent investment).",
+    "Periodic valuation is needed, not just at exit.",
+    "Net assets is only one of several methods.",
+    "Correct: IPEV champions fair value for transparency."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-18",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "A start-up spends ₹800 to acquire a customer, and each customer generates lifetime value of ₹3,200. What is its CLTV/CAC ratio?",
+   "options": [
+    "0.25×",
+    "4×",
+    "2,400×",
+    "3×"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "CLTV/CAC = lifetime value ÷ acquisition cost = 3,200 ÷ 800 = 4×. A higher ratio means more efficient customer acquisition (the workbook's example is 250 ÷ 50 = 5×).",
+   "hints": [
+    "This inverts the ratio (CAC ÷ CLTV).",
+    "Correct: ₹3,200 ÷ ₹800 = 4×.",
+    "This subtracts instead of dividing.",
+    "This miscomputes the ratio."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-19",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "Within what time must an AIF submit its Limited Quarterly Activity Report to SEBI?",
+   "options": [
+    "Within 30 calendar days from the end of each quarter",
+    "Within 60 days from the end of each quarter",
+    "Within 7 days from the end of each quarter",
+    "Within 15 calendar days from the end of each quarter"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "All AIFs file a Limited Quarterly Activity Report within 15 calendar days of quarter end on the SI Portal (no separate filing for the March quarter), and a Comprehensive Annual Activity Report within 30 days of end-March.",
+   "hints": [
+    "30 days is for the comprehensive Annual Activity Report.",
+    "60 days is the Cat III quarterly investor report timeline.",
+    "7 days is for compiling complaints data.",
+    "Correct: 15 calendar days after quarter end (none for the March quarter)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-20",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "Which of the following is a ground for winding up an AIF under Regulation 29?",
+   "options": [
+    "75% of investors by value pass a resolution at a meeting of unit holders that the AIF be wound up",
+    "The manager decides that markets are unfavourable",
+    "Two-thirds of investors by number request it",
+    "The AIF's NAV falls below its subscription price"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "An AIF is wound up when its tenure (or that of all its schemes) is over, when the trustees think it's in investors' interest, when 75% of investors by value pass a resolution, or when SEBI so directs.",
+   "hints": [
+    "Correct: a resolution by 75% of investors by value is a ground.",
+    "The manager alone can't decide; the trustee's opinion in investors' interest is a separate ground.",
+    "The test is 75% by VALUE.",
+    "A fall in NAV is not a winding-up ground."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-21",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "When an Indian portfolio company pays income (other than business income) to a Category I or II AIF, what is the TDS position?",
+   "options": [
+    "TDS at 10% must be deducted",
+    "TDS at 20% must be deducted",
+    "No tax is required to be withheld by the portfolio company",
+    "TDS at the maximum marginal rate must be deducted"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Under section 393 read with the CBDT notification, the payer of income (other than business income) to an Investment Fund need not withhold tax, so the fund suffers no withholding on its non-business income.",
+   "hints": [
+    "10% is what the FUND deducts when distributing to residents.",
+    "20% is the fund's rate on NR dividend distributions.",
+    "Correct: CBDT notification exempts payers from withholding on non-business income to Investment Funds.",
+    "MMR is not a TDS rate applied here."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-22",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "For capital-gains purposes, after how long does an unlisted equity share become a long-term capital asset?",
+   "options": [
+    "More than 12 months",
+    "More than 36 months",
+    "More than 24 months",
+    "More than 6 months"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Unlisted equity shares held for more than 24 months are long-term capital assets, with LTCG taxed at 12.5% without indexation. Otherwise they are short-term and taxed at slab rates.",
+   "hints": [
+    "12 months applies to listed equity shares.",
+    "36 months is the old holding period for some assets before July 23, 2024.",
+    "Correct: unlisted shares are long-term after 24 months.",
+    "6 months is not a holding-period threshold."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-23",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "What is the minimum investment by an investor (other than an accredited investor or employee) in a Special Situation Fund?",
+   "options": [
+    "₹1 crore",
+    "₹10 crore",
+    "₹5 crore",
+    "₹25 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Each SSF scheme needs a corpus of at least ₹100 crore. The minimum investment is ₹10 crore (₹5 crore for accredited investors; ₹25 lakh for employees or directors of the SSF or its manager).",
+   "hints": [
+    "₹1 crore is the general AIF minimum, not the SSF minimum.",
+    "Correct: the SSF minimum is ₹10 crore for regular investors.",
+    "₹5 crore is the SSF minimum for accredited investors.",
+    "₹25 crore is the LVF ticket size."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-24",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "After receiving SEBI's in-principle approval, which statement is correct for the AIF applicant?",
+   "options": [
+    "It can immediately call money from investors and start investing",
+    "It must register its trust/partnership deed within 6 months and may accept commitments but cannot call money until it gets the registration certificate",
+    "It must declare first close within 30 days",
+    "It need never register the trust deed"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "SEBI may grant in-principle approval before the trust or LLP deed is registered. The applicant must register it within 6 months, and may accept commitments but must not call or accept money until it gets the certificate of registration.",
+   "hints": [
+    "Money can't be called before registration.",
+    "Correct: register within 6 months; commitments yes, money no.",
+    "There is no 30-day first-close rule tied to in-principle approval.",
+    "Registration of the deed is compulsory."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M4-25",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "What is the maximum an AIF scheme may invest in offshore venture capital undertakings, as a share of its investable funds?",
+   "options": [
+    "10%",
+    "50%",
+    "25%",
+    "100%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "SEBI's overseas guidelines cap a scheme's overseas investments at 25% of its investable funds, within an industry-wide limit of USD 1,500 million. SEBI's approval is valid for 6 months.",
+   "hints": [
+    "10% is the Cat III single-investee limit.",
+    "50% is the LVF single-investee limit for Cat I/II.",
+    "Correct: overseas investments can't exceed 25% of the scheme's investable funds.",
+    "Overseas exposure is capped."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

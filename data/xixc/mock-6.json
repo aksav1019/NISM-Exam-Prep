@@ -1,0 +1,698 @@
+{
+ "id": "mock-6",
+ "title": "Mock 6 · Tough · Fee Engine & Rulebook",
+ "level": "tough",
+ "blurb": "A tough paper: an incentive-fee caselet with HWM and hurdle, a compliance caselet, and tricky numericals across chapters.",
+ "questions": [
+  {
+   "id": "xixc-M6-01",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "A portfolio is 40% in a stock with beta 0.9 and 60% in a stock with beta 1.4. The risk-free rate is 7% and the expected market return is 13%. Using CAPM, what is the portfolio's expected return?",
+   "options": [
+    "14.2%",
+    "15.4%",
+    "13.0%",
+    "22.6%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Portfolio beta is the weighted average: 0.36 + 0.84 = 1.20. CAPM: 7% + 1.20 × (13% − 7%) = 7% + 7.2% = 14.2%.",
+   "hints": [
+    "Correct: β = 0.4×0.9 + 0.6×1.4 = 1.2; E(R) = 7% + 1.2 × (13% − 7%) = 14.2%.",
+    "This uses only the higher beta of 1.4 instead of the portfolio beta.",
+    "This is just the market return, as if β = 1.",
+    "This multiplies beta by the full market return (7% + 1.2 × 13%) instead of the market premium."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-02",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT a feature of Category I AIFs?",
+   "options": [
+    "They invest in sectors considered socially or economically desirable",
+    "They include Special Situation Funds and Angel Funds",
+    "They may employ leverage, including through listed or unlisted derivatives, to make short-term returns",
+    "They must be close-ended"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Category I AIFs (VC incl. Angel, SME, Social Impact, Infra, SSF, CDMDF) invest in socially or economically desirable areas and must be close-ended. Leverage and derivatives for short-term returns define Category III.",
+   "hints": [
+    "This IS a Category I feature.",
+    "SSF and Angel Funds ARE Category I sub-types.",
+    "Correct (NOT a feature): leverage for short-term trading describes Category III.",
+    "Category I AIFs ARE close-ended only."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-03",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "The manager of an Angel Fund makes an investment of ₹40 lakh in a start-up. What is the minimum continuing interest the manager or sponsor must have in this investment?",
+   "options": [
+    "₹50,000",
+    "₹20,000",
+    "₹1,00,000",
+    "₹2,00,000"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "For Angel Funds the manager or sponsor must hold at least 0.5% of each investment or ₹50,000, whichever is HIGHER. 0.5% × ₹40,00,000 = ₹20,000, so ₹50,000 applies.",
+   "hints": [
+    "Correct: higher of 0.5% × ₹40 lakh (₹20,000) and ₹50,000 = ₹50,000.",
+    "₹20,000 is 0.5%, but the rule takes the HIGHER figure.",
+    "₹1 lakh is 2.5%, not the Angel Fund rule.",
+    "₹2 lakh is 5%, the Cat III percentage."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-04",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Which statement about an LLP structure for an AIF is NOT correct?",
+   "options": [
+    "Liability of partners is limited to their agreed contribution",
+    "Entry and exit of investors requires updating the LLP records on the MCA website",
+    "It requires at least two designated partners",
+    "Investor details remain confidential, as in a trust"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "LLPs are regulated by the MCA, so investor details enter the public domain; the secrecy of a trust is lost. Partners have limited liability, need at least two designated partners, and every investor entry or exit means updating MCA records.",
+   "hints": [
+    "Limited liability IS an LLP feature.",
+    "This IS a known operational drawback.",
+    "This IS a statutory requirement.",
+    "Correct (NOT correct): LLP investor details come into the public domain via the MCA."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-05",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "As per the workbook's comparative analysis, how many pooling vehicles does a pure offshore structure have, and under which SEBI regulations is it registered in India?",
+   "options": [
+    "Two; SEBI (AIF) Regulations",
+    "One; SEBI (FVCI) Regulations",
+    "One; SEBI (AIF) Regulations",
+    "Two; SEBI (FVCI) and SEBI (AIF) Regulations"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Table 8.1: pure domestic has one vehicle (AIF Regulations); pure offshore has one foreign vehicle (FVCI Regulations); parallel has two (AIF and FVCI); unified has two (AIF Regulations).",
+   "hints": [
+    "Two vehicles applies to parallel and unified structures.",
+    "Correct: one foreign pool registered as an FVCI.",
+    "A pure offshore pool isn't an AIF registered under AIF Regulations.",
+    "Dual registration describes the parallel structure."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-06",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "XYZ Fund received ₹80 crore of commitments, fully called at launch. After 3 years its NAV is ₹104 crore. The hurdle is 8% p.a. compounded and the manager is entitled to 20% of TOTAL profits, with a 100% catch-up. How much does the manager receive?",
+   "options": [
+    "₹4.80 crore",
+    "₹0.64 crore",
+    "₹5.20 crore",
+    "₹3.22 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Total profit = 104 − 80 = ₹24 crore, so the manager's target = 20% × 24 = ₹4.80 crore. Capital + hurdle = 80 × 1.08³ = ₹100.777 crore. Residual = ₹3.223 crore. With 100% catch-up, all of it goes to the manager because it is below the target, giving ₹3.22 crore.",
+   "hints": [
+    "₹4.80 crore is the target (20% × ₹24 crore), but the residual is too small to reach it.",
+    "₹0.64 crore is the no-catch-up answer (20% × ₹3.22 crore).",
+    "₹5.20 crore is 20% of ₹26 crore, a miscalculation.",
+    "Correct: hurdle NAV = 80 × 1.08³ = ₹100.78 crore; the residual ₹3.22 crore is below the ₹4.8 crore target, so all of it goes to the manager."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-07",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "A Category II AIF reports a KS-PME of 0.92. What does this indicate?",
+   "options": [
+    "The fund outperformed the market by 92%",
+    "The fund has distributed 92% of paid-in capital",
+    "The fund's TVPI is 0.92",
+    "The fund underperformed the public market index over the same cash-flow timing"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "KS-PME compounds capital calls and distributions at index returns: (FV distributions + NAV) ÷ FV capital calls. Above 1 means the fund beat the market; below 1 (e.g. 0.92) means it underperformed.",
+   "hints": [
+    "A KS-PME above 1 indicates outperformance, and it is not a percentage gain.",
+    "That would be a DPI of 0.92.",
+    "KS-PME is a market-ADJUSTED TVPI, not the raw TVPI.",
+    "Correct: KS-PME below 1 means the market-adjusted TVPI shows underperformance."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-08",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "A Category III AIF earned 16% in a year when the market returned 12% and the risk-free rate was 6%. The fund's beta is 1.3. What is the fund's alpha using CAPM?",
+   "options": [
+    "4.0%",
+    "10.0%",
+    "−1.6%",
+    "2.2%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Alpha = actual return − CAPM expected return. E(R) = Rf + β(Rm − Rf) = 6% + 1.3 × 6% = 13.8%. α = 16% − 13.8% = 2.2%.",
+   "hints": [
+    "This ignores beta (16% − 12%).",
+    "This is the excess return over the risk-free rate.",
+    "This misapplies beta to the full market return.",
+    "Correct: E(R) = 6% + 1.3 × 6% = 13.8%; α = 16% − 13.8% = 2.2%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-09",
+   "chapter": 11,
+   "difficulty": "hard",
+   "q": "An investor holds convertible preference shares with a conversion price of ₹50. Before a down round, 2,00,000 shares were outstanding (on an as-converted basis). The company now raises ₹20,00,000 by issuing 50,000 new shares at ₹40. Under the weighted-average anti-dilution formula, what is the new conversion price?",
+   "options": [
+    "₹40.00",
+    "₹48.00",
+    "₹45.00",
+    "₹49.00"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "CP2 = CP1 × (A + B) ÷ (A + C), where A = 2,00,000, B = new money ÷ CP1 = 40,000, and C = 50,000 shares actually issued. CP2 = 50 × 2,40,000 ÷ 2,50,000 = ₹48.",
+   "hints": [
+    "₹40 is the full-ratchet result (the new issue price).",
+    "Correct: B = 20,00,000 ÷ 50 = 40,000; CP2 = 50 × (2,40,000 ÷ 2,50,000) = ₹48.",
+    "This is a simple average of ₹50 and ₹40.",
+    "This miscalculates the weighting."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-10",
+   "chapter": 11,
+   "difficulty": "hard",
+   "q": "A PE fund invested ₹20 crore for a 20% stake with a 1.5× PARTICIPATING liquidation preference. The company is sold for ₹200 crore and there are no other preference holders. What does the fund receive?",
+   "options": [
+    "₹64 crore",
+    "₹40 crore",
+    "₹30 crore",
+    "₹70 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Participating ('double dip'): the fund first takes 1.5 × ₹20 crore = ₹30 crore, then shares pro-rata in the remaining ₹170 crore: 20% × 170 = ₹34 crore. Total = ₹64 crore.",
+   "hints": [
+    "Correct: preference ₹30 crore + 20% × (₹200 − ₹30) crore = ₹30 + ₹34 = ₹64 crore.",
+    "₹40 crore is the conversion value only (20% of ₹200 crore).",
+    "₹30 crore is the preference alone.",
+    "This adds the preference to 20% of the full ₹200 crore."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-11",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "Which of the following statements about co-investment through CIV schemes is NOT correct?",
+   "options": [
+    "Each CIV scheme must have a separate bank account and demat account",
+    "Angel Funds may launch CIV schemes for their angel investors",
+    "A CIV scheme cannot invest in units of AIFs",
+    "An investor who was excused from the AIF's investment in a company cannot co-invest in that company"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "CIV rules: separate bank and demat accounts per CIV; one investee per CIV; no investment in AIF units; no leverage; excused, excluded or defaulting investors can't co-invest in that company; exit alongside the AIF. Angel Funds cannot launch CIV schemes.",
+   "hints": [
+    "This IS a requirement (ring-fencing).",
+    "Correct (NOT correct): Angel Funds shall not launch any CIV schemes.",
+    "This IS a condition.",
+    "This IS a condition for excused, excluded or defaulting investors."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-12",
+   "chapter": 12,
+   "difficulty": "medium",
+   "q": "Consider the statements: (I) A key man clause prohibits the AIF from making new investments if specified key persons are not available to devote the necessary time. (II) Senior partners responsible for capital commitments and investor relationships may be designated as 'super key persons'. Which is/are correct?",
+   "options": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A key man clause stops new investments if key persons are unavailable. Funds increasingly distinguish 'super key persons' (e.g. senior partners responsible for commitments and investor relationships) from 'standard key persons'.",
+   "hints": [
+    "Statement II is also correct.",
+    "Statement I is also correct.",
+    "Correct: both statements reflect the workbook.",
+    "Both statements are correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-13",
+   "chapter": 13,
+   "difficulty": "hard",
+   "q": "Which of the following schemes is NOT exempt from the mandatory annual audit of compliance with PPM terms?",
+   "options": [
+    "A Large Value Fund for Accredited Investors",
+    "A scheme where each investor commits at least ₹70 crore and provides the prescribed waiver",
+    "A Category II scheme of non-accredited investors, each committing ₹30 crore, with no waiver",
+    "An Angel Fund with total investments at cost of ₹60 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "PPM-audit exemptions: Angel Funds (unless investments at cost exceed ₹100 crore), schemes where each investor commits at least ₹70 crore and gives a waiver, and LVFs. A ₹30 crore-per-investor scheme of non-AIs fits none of these.",
+   "hints": [
+    "LVFs are exempt without needing investor waivers.",
+    "The ₹70 crore + waiver route IS exempt.",
+    "Correct (NOT exempt): it is neither an LVF nor a ₹70 crore waiver scheme.",
+    "Angel Funds are exempt unless investments at cost exceed ₹100 crore."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-14",
+   "chapter": 13,
+   "difficulty": "medium",
+   "q": "A Category I AIF agrees a total distribution fee of ₹3 crore with a distributor over the fund's tenure. What is the maximum that can be paid upfront?",
+   "options": [
+    "₹3 crore",
+    "₹1 crore",
+    "₹1.5 crore",
+    "Nil"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Cat I and II AIFs may pay up to one-third of the total distribution fee upfront (⅓ × ₹3 crore = ₹1 crore), with the balance as equal trail over the tenure. Cat III may pay only equal trail out of the management fee.",
+   "hints": [
+    "The full fee can't be paid upfront.",
+    "Correct: Cat I and II may pay up to one-third upfront; the rest is equal trail.",
+    "One-half is not the permitted share.",
+    "Nil upfront applies to Category III."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-15",
+   "chapter": 14,
+   "difficulty": "medium",
+   "q": "Which of the following would NOT be eligible to act as the independent valuer of an AIF?",
+   "options": [
+    "A subsidiary of a SEBI-registered credit rating agency with 4 years of unlisted-securities valuation experience",
+    "An IBBI-registered valuer with a CFA charter and 5 years' relevant experience, unrelated to the AIF",
+    "An IBBI Registered Valuer Entity whose authorised person is an ICSI member",
+    "An IBBI-registered valuer who is a member of ICAI and an associate of the AIF's sponsor"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The independent valuer must not be an associate of the manager, sponsor or trustee, must have at least 3 years' experience valuing unlisted securities, and must be IBBI-registered with ICAI/ICSI/ICMAI/CFA membership, or a CRA holding company or subsidiary, or a Registered Valuer Entity with qualified authorised persons.",
+   "hints": [
+    "A CRA subsidiary with at least 3 years' experience qualifies.",
+    "IBBI registration plus CFA and independence qualifies.",
+    "A Registered Valuer Entity with an ICAI/ICSI/ICMAI/CFA authorised person qualifies.",
+    "Correct (NOT eligible): a valuer must not be an associate of the manager, sponsor or trustee."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-16",
+   "chapter": 14,
+   "difficulty": "medium",
+   "q": "For uploading the NAV of AIF units to the depository system, what is the 'valuation date' when the valuation is carried out by an independent valuer?",
+   "options": [
+    "The date of the valuation report",
+    "The last day of the financial year",
+    "The date on which the NAV is uploaded",
+    "The date the valuation is documented in the fund's internal records"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "SEBI specifies the valuation date as the date of the valuation report (independent valuer) or the date documented in internal records (internal valuer). NAV per ISIN must be uploaded within 30 days of that valuation.",
+   "hints": [
+    "Correct: for independent valuers it is the date of the valuation report.",
+    "It isn't fixed at FY end.",
+    "The upload date follows the valuation date (within 30 days).",
+    "That is the valuation date for INTERNAL valuers."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-17",
+   "chapter": 15,
+   "difficulty": "hard",
+   "q": "During the liquidation period, investors approve in-specie distribution, but the manager fails to arrange bids for at least 25% of the value of the unliquidated investments. At what value are the unliquidated investments distributed in-specie?",
+   "options": [
+    "The average of two independent valuations",
+    "The last reported NAV",
+    "₹1",
+    "Cost of acquisition"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Unliquidated investments are distributed in-specie at the bid value if bids for at least 25% are arranged; otherwise at ₹1. The value is used for the track record and reporting to benchmarking agencies.",
+   "hints": [
+    "Two valuations are disclosed, but they don't set the distribution value here.",
+    "NAV is not the prescribed value.",
+    "Correct: if 25% bids aren't arranged, the value is ₹1.",
+    "Cost is not used."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-18",
+   "chapter": 15,
+   "difficulty": "medium",
+   "q": "An AIF wants to retain part of its liquidation proceeds beyond the permissible fund life to meet residual winding-up operational expenses, supported by invoices and records. What is the maximum retention period?",
+   "options": [
+    "1 year from end of permissible fund life",
+    "3 years from end of permissible fund life",
+    "5 years from end of permissible fund life",
+    "Until all litigation is resolved, without limit"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Proceeds may be retained beyond fund life for litigation or tax notices, with 75% consent for anticipated liabilities, or for substantiated residual wind-up expenses for at most 3 years, invested meanwhile in liquid assets.",
+   "hints": [
+    "1 year is the liquidation period, not this retention cap.",
+    "Correct: substantiated wind-up expenses allow retention of up to 3 years.",
+    "5 years is not prescribed.",
+    "The open-ended litigation ground is different and needs a demonstrable notice."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-19",
+   "chapter": 16,
+   "difficulty": "hard",
+   "q": "A Category III AIF is an irrevocable determinate trust. Most of its income is capital gains, but a small part is characterised as business income. What risk does the workbook highlight?",
+   "options": [
+    "Only the business income portion loses pass-through status under section 224",
+    "The trust automatically becomes an indeterminate trust",
+    "Investors must pay tax twice on the same income",
+    "The whole income of the trust could become chargeable at the Maximum Marginal Rate in the hands of the trustee"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "For a determinate trust whose income includes business profits, the workbook notes tax on the whole income may be levied on trustees at MMR. If any portion is business income, the entire income could be taxed at MMR.",
+   "hints": [
+    "Section 224 pass-through applies only to Cat I and II, not Cat III.",
+    "Determinacy depends on the trust deed, not the income type.",
+    "Taxes paid by the trustee as representative assessee are creditable.",
+    "Correct: any business income can drag all income to MMR for a determinate trust."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-20",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "Which statement about set-off and carry-forward of capital losses under the ITA is correct?",
+   "options": [
+    "Short-term capital loss can be set off only against short-term capital gains",
+    "Long-term capital loss can be set off only against long-term capital gains, and can be carried forward for 8 years",
+    "Capital losses can be set off against salary income",
+    "Capital losses can be carried forward for 4 years only"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Intra-head: LTCL only against LTCG; STCL against both. Capital losses can't be set off against other heads, and unabsorbed capital losses carry forward for 8 years against capital gains only.",
+   "hints": [
+    "STCL can be set off against both STCG and LTCG.",
+    "Correct: LTCL only against LTCG; carry forward for 8 years.",
+    "Capital-gains losses can't be set off against other heads.",
+    "4 years applies to speculative business losses."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-21",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "At what rate must a Category I AIF withhold tax when it distributes DIVIDEND income to a non-resident investor (before any treaty relief)?",
+   "options": [
+    "10%",
+    "20%",
+    "12.5%",
+    "Nil, as dividends are taxable only in India at fund level"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 393: an Investment Fund withholds 10% on non-business income to residents, and 20% on dividend income distributed to non-residents. Other NR income is subject to rates in force or the DTAA.",
+   "hints": [
+    "10% applies to resident investors.",
+    "Correct: 20% on dividends distributed to non-residents.",
+    "12.5% is the LTCG rate.",
+    "Cat I/II funds pass dividends through, and TDS applies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-22",
+   "chapter": 17,
+   "difficulty": "hard",
+   "q": "Under the specific due diligence requirements, when must an AIF scheme carry out due diligence for investors regulated by the RBI (to prevent evergreening of stressed loans)?",
+   "options": [
+    "When any RBI-regulated investor contributes even ₹1 crore",
+    "Only when an RBI-regulated investor contributes more than 50% of corpus",
+    "When an RBI-regulated investor, alone or with its group, contributes more than 25% of the scheme's corpus",
+    "Only when the AIF invests in listed equity"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Specific DD for RBI norms applies if the manager or sponsor is RBI-regulated, or if RBI-regulated investors contribute more than 25% of corpus (alone or with group), are associates of the manager or sponsor, or hold majority or veto power in the IC.",
+   "hints": [
+    "There is a threshold; it isn't triggered by any amount.",
+    "50% is the trigger for QIB/QB and land-border checks.",
+    "Correct: the >25% (individually or with group) trigger applies, among others.",
+    "The listed/unlisted nature isn't the trigger."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M6-23",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "What is the management fee (including GST) charged to Fund Sigma for Year 1?",
+   "options": [
+    "₹2.3600 crore",
+    "₹2.3200 crore",
+    "₹2.7848 crore",
+    "₹2.0000 crore"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "For a Category III AIF the fee here is charged on year-end GAV: 2% × ₹118 crore = ₹2.36 crore; plus 18% GST = ₹2.7848 crore.",
+   "hints": [
+    "This uses the ₹100 crore capital as the base (2% × 100 × 1.18).",
+    "This deducts GST instead of adding it.",
+    "Correct: 2% × ₹118 crore × 1.18 = ₹2.7848 crore.",
+    "This is 2% of ₹100 crore without GST."
+   ],
+   "numeric": true,
+   "case": "Fund Sigma is an open-ended Category III AIF that issued 10,00,000 units at ₹1,000 each (₹100 crore, fully paid) at launch. Terms: management fee 2% p.a. of Gross Asset Value (GAV) at each year end, plus GST at 18%; set-up cost ₹1 crore amortised equally over 5 years; other fund expenses ₹40 lakh per year; hurdle rate 8% p.a. compounded on called-up capital; incentive fee 20% of NAV (pre-incentive) above the higher of the High-Water Mark and the reference hurdle. HWM for year 1 is the subscription amount; for year 2 it is the year-1 NAV (pre-incentive). GAV before fees and costs: end of Year 1 ₹118 crore; end of Year 2 ₹121 crore."
+  },
+  {
+   "id": "xixc-M6-24",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "What incentive fee is payable for Year 1?",
+   "options": [
+    "₹2.9230 crore",
+    "₹1.6000 crore",
+    "₹1.3230 crore",
+    "₹2.0000 crore"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "NAV pre-incentive = 118 − 0.20 (set-up) − 0.40 (expenses) − 2.7848 (fee) = ₹114.6152 crore. Higher of HWM (₹100 crore) and hurdle (100 × 1.08 = ₹108 crore) = ₹108 crore. Incentive = 20% × 6.6152 = ₹1.3230 crore.",
+   "hints": [
+    "This measures the excess over the HWM (₹100 crore) instead of the higher hurdle.",
+    "This is 20% of the ₹8 crore hurdle return, not of the excess NAV.",
+    "Correct: NAV pre-incentive ₹114.6152 crore − hurdle ₹108 crore = ₹6.6152 crore; 20% = ₹1.3230 crore.",
+    "This applies 20% to GAV minus hurdle (118 − 108) without deducting fees and costs."
+   ],
+   "numeric": true,
+   "case": "Fund Sigma is an open-ended Category III AIF that issued 10,00,000 units at ₹1,000 each (₹100 crore, fully paid) at launch. Terms: management fee 2% p.a. of Gross Asset Value (GAV) at each year end, plus GST at 18%; set-up cost ₹1 crore amortised equally over 5 years; other fund expenses ₹40 lakh per year; hurdle rate 8% p.a. compounded on called-up capital; incentive fee 20% of NAV (pre-incentive) above the higher of the High-Water Mark and the reference hurdle. HWM for year 1 is the subscription amount; for year 2 it is the year-1 NAV (pre-incentive). GAV before fees and costs: end of Year 1 ₹118 crore; end of Year 2 ₹121 crore."
+  },
+  {
+   "id": "xixc-M6-25",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "What is the minimum NAV (pre-incentive) above which Fund Sigma's manager earns an incentive in Year 2?",
+   "options": [
+    "₹114.6152 crore",
+    "₹116.00 crore",
+    "₹116.64 crore",
+    "₹108.00 crore"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "Year-2 reference hurdle = 100 × 1.08² = ₹116.64 crore. HWM = year-1 NAV pre-incentive = ₹114.6152 crore. The minimum NAV eligible for incentive is the higher, ₹116.64 crore.",
+   "hints": [
+    "This is the HWM, but the reference hurdle is higher.",
+    "This uses simple interest (100 × 1.16).",
+    "Correct: the higher of HWM ₹114.6152 crore and hurdle 108 × 1.08 = ₹116.64 crore.",
+    "This is last year's hurdle."
+   ],
+   "numeric": true,
+   "case": "Fund Sigma is an open-ended Category III AIF that issued 10,00,000 units at ₹1,000 each (₹100 crore, fully paid) at launch. Terms: management fee 2% p.a. of Gross Asset Value (GAV) at each year end, plus GST at 18%; set-up cost ₹1 crore amortised equally over 5 years; other fund expenses ₹40 lakh per year; hurdle rate 8% p.a. compounded on called-up capital; incentive fee 20% of NAV (pre-incentive) above the higher of the High-Water Mark and the reference hurdle. HWM for year 1 is the subscription amount; for year 2 it is the year-1 NAV (pre-incentive). GAV before fees and costs: end of Year 1 ₹118 crore; end of Year 2 ₹121 crore."
+  },
+  {
+   "id": "xixc-M6-26",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "What incentive fee is payable for Year 2?",
+   "options": [
+    "≈ ₹0.5858 crore",
+    "≈ ₹0.1809 crore",
+    "≈ ₹0.8720 crore",
+    "Nil"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "Year-2 fee = 2% × 121 × 1.18 = ₹2.8556 crore. NAV pre-incentive = 121 − 0.20 − 0.40 − 2.8556 = ₹117.5444 crore. Excess over ₹116.64 crore = ₹0.9044 crore. Incentive = 20% ≈ ₹0.1809 crore (about ₹18.09 lakh).",
+   "hints": [
+    "This measures the excess over the HWM instead of the higher hurdle.",
+    "Correct: NAV pre-incentive ₹117.5444 crore − ₹116.64 crore = ₹0.9044 crore; 20% ≈ ₹0.1809 crore.",
+    "This uses GAV (121 − 116.64) and ignores Year-2 fees and costs.",
+    "NAV does exceed both thresholds, so some incentive is payable."
+   ],
+   "numeric": true,
+   "case": "Fund Sigma is an open-ended Category III AIF that issued 10,00,000 units at ₹1,000 each (₹100 crore, fully paid) at launch. Terms: management fee 2% p.a. of Gross Asset Value (GAV) at each year end, plus GST at 18%; set-up cost ₹1 crore amortised equally over 5 years; other fund expenses ₹40 lakh per year; hurdle rate 8% p.a. compounded on called-up capital; incentive fee 20% of NAV (pre-incentive) above the higher of the High-Water Mark and the reference hurdle. HWM for year 1 is the subscription amount; for year 2 it is the year-1 NAV (pre-incentive). GAV before fees and costs: end of Year 1 ₹118 crore; end of Year 2 ₹121 crore."
+  },
+  {
+   "id": "xixc-M6-27",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "Is the sponsor's proposed continuing interest of ₹6 crore adequate?",
+   "options": [
+    "No; it must be at least ₹7.5 crore (2.5% of corpus)",
+    "No; it must be at least ₹15 crore (5% of corpus)",
+    "Yes, but only if part of it is through a waiver of management fees",
+    "Yes; the requirement is the lower of 2.5% of ₹300 crore (₹7.5 crore) and ₹5 crore, i.e. ₹5 crore"
+   ],
+   "answer": 3,
+   "marks": 2,
+   "explanation": "For Cat II, continuing interest must be at least 2.5% of corpus or ₹5 crore, whichever is lower: min(₹7.5 crore, ₹5 crore) = ₹5 crore. A ₹6 crore cash investment satisfies it; fee waivers don't count.",
+   "hints": [
+    "The rule is 'whichever is LOWER', which gives ₹5 crore.",
+    "5% or ₹10 crore applies to Category III.",
+    "Fee waivers can't count towards continuing interest.",
+    "Correct: the minimum is ₹5 crore, so ₹6 crore in cash is adequate."
+   ],
+   "numeric": true,
+   "case": "Horizon Advisors is sponsoring 'Horizon Growth Fund I', a close-ended Category II AIF set up as a trust, with a target corpus of ₹300 crore and a tenure of 7 years from first close. The sponsor proposes to invest ₹6 crore in cash as its continuing interest. The placement agent expects 1,100 investors, of whom 150 will be accredited investors. The draft investment policy allows up to 30% of investable funds in a single unlisted company. Near the end of year 7 the manager expects two portfolio companies to remain unsold and wants to extend the tenure by 2 years. The scheme is not a Large Value Fund."
+  },
+  {
+   "id": "xixc-M6-28",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "Will the expected investor base comply with the cap on the number of investors in a scheme?",
+   "options": [
+    "Yes; accredited investors are excluded, so only 950 investors count against the 1,000 cap",
+    "No; 1,100 investors exceed the 1,000 cap",
+    "No; a trust AIF can have only 200 investors",
+    "Yes; there is no cap for Category II AIFs"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "No AIF scheme can have more than 1,000 investors, but accredited investors are excluded from the count. 1,100 − 150 = 950 investors count, which is within the limit.",
+   "hints": [
+    "Correct: 1,100 − 150 AIs = 950, within 1,000.",
+    "AIs are excluded from the count.",
+    "The 200 cap applies to companies under the Companies Act.",
+    "The 1,000 cap applies to all AIF schemes."
+   ],
+   "numeric": true,
+   "case": "Horizon Advisors is sponsoring 'Horizon Growth Fund I', a close-ended Category II AIF set up as a trust, with a target corpus of ₹300 crore and a tenure of 7 years from first close. The sponsor proposes to invest ₹6 crore in cash as its continuing interest. The placement agent expects 1,100 investors, of whom 150 will be accredited investors. The draft investment policy allows up to 30% of investable funds in a single unlisted company. Near the end of year 7 the manager expects two portfolio companies to remain unsold and wants to extend the tenure by 2 years. The scheme is not a Large Value Fund."
+  },
+  {
+   "id": "xixc-M6-29",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "What concentration limit must the investment policy follow for a single investee company?",
+   "options": [
+    "Not more than 25% of investable funds, so the 30% limit must be revised",
+    "Not more than 10% of investable funds",
+    "Not more than 50% of investable funds, so 30% is fine",
+    "No limit for close-ended Category II AIFs"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "Category I and II AIFs may invest no more than 25% of investable funds in one investee company, directly or through units of other AIFs. Only LVFs may go up to 50%, so the 30% policy breaches the limit.",
+   "hints": [
+    "Correct: Cat I/II cap is 25% of investable funds (directly or via other AIFs).",
+    "10% applies to Category III.",
+    "50% applies only to Cat I/II LVFs, and this is not an LVF.",
+    "The 25% cap applies to all Cat I and II AIFs."
+   ],
+   "numeric": false,
+   "case": "Horizon Advisors is sponsoring 'Horizon Growth Fund I', a close-ended Category II AIF set up as a trust, with a target corpus of ₹300 crore and a tenure of 7 years from first close. The sponsor proposes to invest ₹6 crore in cash as its continuing interest. The placement agent expects 1,100 investors, of whom 150 will be accredited investors. The draft investment policy allows up to 30% of investable funds in a single unlisted company. Near the end of year 7 the manager expects two portfolio companies to remain unsold and wants to extend the tenure by 2 years. The scheme is not a Large Value Fund."
+  },
+  {
+   "id": "xixc-M6-30",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "What is required for the manager to extend the scheme's tenure by 2 years?",
+   "options": [
+    "Approval of two-thirds of unit holders by value of their investment",
+    "Approval of 75% of unit holders by number",
+    "SEBI's prior approval only",
+    "No approval; managers can extend close-ended Cat II tenure freely"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "Close-ended Cat I and II AIFs may extend tenure by up to 2 years with approval of two-thirds of unit holders by value. Without consent, the fund must fully liquidate within one year after the tenure ends.",
+   "hints": [
+    "Correct: up to 2 years with ⅔ approval by value.",
+    "75% applies to winding up, in-specie distribution and similar; the test is by value, not number.",
+    "Investor consent, not SEBI approval, is required.",
+    "Extensions need investor approval."
+   ],
+   "numeric": false,
+   "case": "Horizon Advisors is sponsoring 'Horizon Growth Fund I', a close-ended Category II AIF set up as a trust, with a target corpus of ₹300 crore and a tenure of 7 years from first close. The sponsor proposes to invest ₹6 crore in cash as its continuing interest. The placement agent expects 1,100 investors, of whom 150 will be accredited investors. The draft investment policy allows up to 30% of investable funds in a single unlisted company. Near the end of year 7 the manager expects two portfolio companies to remain unsold and wants to extend the tenure by 2 years. The scheme is not a Large Value Fund."
+  }
+ ]
+}

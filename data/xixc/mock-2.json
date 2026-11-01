@@ -1,0 +1,583 @@
+{
+ "id": "mock-2",
+ "title": "Mock 2 · Building Blocks",
+ "level": "easy",
+ "blurb": "Structures, commitments, fee mechanics and governance rights, plus the key regulatory thresholds.",
+ "questions": [
+  {
+   "id": "xixc-M2-01",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Which of the following is best described as an alternative investment?",
+   "options": [
+    "Treasury bills issued by the Central Government",
+    "Units of a distressed asset fund that finances companies in financial difficulty",
+    "Units of an open-ended equity mutual fund",
+    "Shares bought on a recognised stock exchange"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Alternative investments don't fall into the conventional categories of stocks, bonds and cash, and are typically illiquid. Distressed asset or special-situation funds are listed among alternatives, while T-bills, open-ended MFs and listed shares are traditional.",
+   "hints": [
+    "T-bills are traditional money-market instruments.",
+    "Correct: distressed asset funds are classic illiquid alternatives.",
+    "Open-ended MFs are traditional, liquid investments.",
+    "Listed equity is the definitive traditional investment."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-02",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "What is the maximum a Category III AIF (other than a large value fund) may invest in a single investee company?",
+   "options": [
+    "10% of investable funds",
+    "25% of investable funds",
+    "20% of investable funds",
+    "50% of investable funds"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Category III AIFs can invest up to 10% of investable funds in one investee company (20% for LVFs of Cat III). Cat I and II are capped at 25% (50% for their LVFs).",
+   "hints": [
+    "Correct: Category III is capped at 10% per investee company.",
+    "25% is the limit for Category I and II AIFs.",
+    "20% applies only to Category III LVFs.",
+    "50% applies only to Category I/II LVFs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-03",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "What is the minimum continuing interest the Sponsor or Manager must hold in a Category II AIF?",
+   "options": [
+    "5% of the corpus or ₹10 crore, whichever is lower",
+    "2.5% of the corpus or ₹5 crore, whichever is higher",
+    "2.5% of the corpus or ₹5 crore, whichever is lower",
+    "0.5% of the corpus or ₹50,000, whichever is higher"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "For Category I and II AIFs, the Sponsor or Manager must have a continuing interest of at least 2.5% of the corpus or ₹5 crore, whichever is lower, as a fresh cash investment (not a fee waiver).",
+   "hints": [
+    "This is the Category III requirement.",
+    "It is 'whichever is lower', not higher.",
+    "Correct: Cat I and II require 2.5% or ₹5 crore, whichever is lower.",
+    "This resembles the Angel Fund rule (0.5% of each investment or ₹50,000, higher)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-04",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Why is the company form considered the least preferred structure for an AIF, as far as the number of investors is concerned?",
+   "options": [
+    "The Companies Act limits a private placement to 200 investors, while AIF Regulations allow up to 1,000",
+    "The Companies Act requires at least 1,000 shareholders",
+    "Companies cannot issue units to foreign investors",
+    "A company cannot appoint an investment manager"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Besides heavy compliance, companies are restricted to private placements to no more than 200 investors under the Companies Act, whereas an AIF scheme can have up to 1,000 investors (accredited investors excluded).",
+   "hints": [
+    "Correct: the 200-investor private placement cap is restrictive.",
+    "There is no such minimum; the issue is a cap.",
+    "Foreign investment in companies is possible under FEMA.",
+    "A company AIF can appoint a manager."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-05",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "In a master-feeder structure for an India-focused fund, where is the management fee typically charged?",
+   "options": [
+    "At the feeder fund level only",
+    "At the master fund level, with only a token fixed amount at the feeder level",
+    "Equally at both master and feeder levels",
+    "Directly to each investee company"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Management fees are typically charged at the master fund level. The feeder pays only a symbolic fixed amount (e.g. USD 1,000), and the fee cost passes to the feeder through the NAV the master allocates to it.",
+   "hints": [
+    "The feeder bears the cost indirectly through the NAV allocated by the master.",
+    "Correct: the fee sits at the master; the feeder pays a symbolic amount (e.g. USD 1,000).",
+    "Charging equally at both levels would double-charge investors.",
+    "Investee companies don't pay the fund's management fee."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-06",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "How does the workbook define the High-Water Mark of an AIF?",
+   "options": [
+    "The maximum NAV the manager expects to achieve over the fund life",
+    "The highest NAV (net of expenses and fees) achieved at the end of any previous year, or the initial subscription price if NAV has only fallen",
+    "The NAV at which investors may redeem without exit load",
+    "The hurdle return compounded over the fund tenure"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The High-Water Mark is the highest NAV, net of operating expenses, transaction expenses and management fees, achieved at any previous year-end. If NAV has only fallen since inception, it is the initial subscription price.",
+   "hints": [
+    "HWM is historical, not a forecast.",
+    "Correct: HWM = highest prior year-end NAV, or the subscription price.",
+    "HWM has nothing to do with exit loads.",
+    "That is the reference hurdle, a separate threshold."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-07",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "An AIF called up ₹40 crore at launch and has a hurdle rate of 8% p.a. compounded annually. What is the reference hurdle NAV at the end of year 3?",
+   "options": [
+    "₹49.60 crore",
+    "₹50.39 crore",
+    "₹43.20 crore",
+    "₹46.66 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Reference hurdle = called-up capital × (1 + hurdle)^n = 40 × 1.08³ = 40 × 1.259712 = ₹50.39 crore. The workbook compounds the hurdle (e.g. ₹100 crore × 1.12⁵).",
+   "hints": [
+    "This uses simple interest: 40 × (1 + 3 × 8%).",
+    "Correct: ₹40 crore × (1.08)³ = ₹50.388 crore.",
+    "This is the year-1 hurdle only.",
+    "This compounds for 2 years only."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-08",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "What does the 'J-curve' describe in the context of Category I and II AIFs?",
+   "options": [
+    "Negative cash flows and IRR in the early years that turn positive as investments are exited",
+    "A steady rise in NAV from the first year",
+    "The fee schedule declining as commitments increase",
+    "The relationship between beta and expected return"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "In the vintage years cash flows are negative (drawdowns, fees, expenses) and there are no exits, so IRR is negative. As investments mature and are exited, cash flows and IRR turn positive, tracing a 'J'.",
+   "hints": [
+    "Correct: early drawdowns and fees cause negative returns before exits lift IRR.",
+    "Early years are typically negative, not steadily rising.",
+    "That is a slab-based fee structure, not the J-curve.",
+    "That describes the Security Market Line."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-09",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Which entities currently publish AIF industry performance benchmarks, having been appointed through the Indian Venture and Alternate Capital Association (IVCA)?",
+   "options": [
+    "CRISIL, NSE and Preqin",
+    "SEBI, RBI and NSE",
+    "BSE, NSDL and CDSL",
+    "AMFI, CRISIL and ICRA"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Three benchmarking agencies appointed via IVCA (CRISIL, NSE and Preqin) publish AIF benchmarks for all categories in INR and USD terms.",
+   "hints": [
+    "Correct: CRISIL, NSE and Preqin publish the AIF benchmarks.",
+    "Regulators don't act as benchmarking agencies.",
+    "Depositories are not the appointed benchmarking agencies.",
+    "AMFI is the mutual fund association; ICRA isn't named."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-10",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "A VC fund invested ₹10 crore in convertible preference shares for a 25% stake, with a 1× non-participating liquidation preference. The company is sold for ₹30 crore. How much does the fund receive?",
+   "options": [
+    "₹7.5 crore",
+    "₹15.0 crore",
+    "₹17.5 crore",
+    "₹10.0 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Under a non-participating preference the investor gets EITHER the preference amount OR its pro-rata share on conversion, whichever is higher: max(1 × ₹10 crore, 25% × ₹30 crore = ₹7.5 crore) = ₹10 crore.",
+   "hints": [
+    "Converting gives only ₹7.5 crore, so the fund will take the preference instead.",
+    "This doesn't follow from any liquidation preference rule here.",
+    "This is the participating payout: 10 + 25% × 30 = ₹17.5 crore.",
+    "Correct: it takes the higher of the 1× preference (₹10 crore) and conversion (25% × ₹30 crore = ₹7.5 crore)."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-11",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "External members of an AIF's Investment Committee whose names were NOT disclosed in the PPM or fund documents at onboarding can be appointed only with the consent of:",
+   "options": [
+    "At least 75% of investors by value of their investment",
+    "At least two-thirds of investors by number",
+    "A simple majority of investors by value",
+    "The trustee alone"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The AIF Regulations require external IC members not disclosed at investor onboarding to be appointed only with the consent of at least 75% of investors by value. Changes in ex-officio external members don't need this consent.",
+   "hints": [
+    "Correct: 75% of investors by value must consent.",
+    "The test is by value, and the threshold is 75%.",
+    "A simple majority is not enough.",
+    "Investor consent is needed, not just the trustee's."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-12",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Which of the following is a condition for a co-investment (CIV) scheme of a Category I or II AIF?",
+   "options": [
+    "A CIV scheme may borrow up to 2 times its NAV",
+    "CIV schemes may be offered to all investors, including non-accredited ones",
+    "A CIV scheme may exit later than the main AIF scheme",
+    "Each CIV scheme shall invest in only one investee company"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "CIV conditions include: only accredited investors of the scheme; a separate CIV per investee; each CIV invests in only one investee company; no leverage; terms no better than the AIF's; exit at the same time as the AIF; wind up after exit.",
+   "hints": [
+    "CIV schemes cannot borrow or use any leverage.",
+    "Co-investment via CIV is offered only to accredited investors of the scheme.",
+    "Exit timing must be identical to the AIF scheme's exit.",
+    "Correct: one CIV scheme invests in only one investee company."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-13",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "The collapse of Long Term Capital Management (LTCM) in 1998 is cited in the workbook mainly to highlight the importance of examining which aspect during investment due diligence?",
+   "options": [
+    "The fund's distribution network",
+    "The fund's trustee fees",
+    "The fund's GST registration",
+    "The fund's use of leverage"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "LTCM ran relative-value convergence trades at about 30:1 leverage (USD 5 billion equity, over USD 125 billion borrowed). The 1998 Russian default turned small spreads into huge losses, showing why leverage must be scrutinised.",
+   "hints": [
+    "Distribution was not the issue at LTCM.",
+    "Trustee fees are not the lesson here.",
+    "GST registration is irrelevant to the case.",
+    "Correct: about 30:1 leverage magnified losses after the Russian default."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-14",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "Which of the following is listed in the workbook as a key area for alignment of interest between investors and the sponsor or manager?",
+   "options": [
+    "The investee company's dividend policy",
+    "Sponsor or manager commitment to the fund",
+    "The stock exchange on which units are listed",
+    "The number of branches of the custodian"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The workbook lists alignment areas as sponsor/manager commitment, fees and carry (incl. super-carry), waterfall, catch-up and clawback, outside interests, governance and reporting, related-party transactions and co-investments.",
+   "hints": [
+    "That is an investee-level matter.",
+    "Correct: sponsor/manager commitment is the first alignment area listed.",
+    "Listing venue doesn't align interests.",
+    "Custodian branches are irrelevant."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-15",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Between whom is the Investment Management Agreement (IMA) of an AIF set up as a trust entered into?",
+   "options": [
+    "The trustee (on behalf of the AIF) and the investment manager",
+    "Each investor and the investment manager",
+    "The sponsor and SEBI",
+    "The merchant banker and the custodian"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The IMA is entered into between the trustee (on behalf of the AIF) and the investment manager. The trustee delegates its investment-management powers except those retained in the trust deed. It is signed once for the trust, not per scheme.",
+   "hints": [
+    "Correct: the trustee delegates investment management to the manager through the IMA.",
+    "Investors sign the Contribution Agreement, not the IMA.",
+    "SEBI is not a party to fund contracts.",
+    "These service providers aren't IMA parties."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-16",
+   "chapter": 13,
+   "difficulty": "medium",
+   "q": "Within what period after the end of the financial year must the findings of the annual PPM compliance audit be communicated to the trustee, the manager's board and SEBI?",
+   "options": [
+    "30 days",
+    "3 months",
+    "1 year",
+    "6 months"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The annual audit of compliance with PPM terms must be completed and its findings (with corrective steps) communicated to the Trustee/Board/Designated Partners, the Board of the Manager and SEBI within 6 months from the end of the financial year.",
+   "hints": [
+    "30 days applies to activity reports and CTR, not the PPM audit.",
+    "3 months is not the PPM-audit timeline.",
+    "One year is too long.",
+    "Correct: within 6 months from the end of the financial year."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-17",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "How frequently must a close-ended Category III AIF disclose its NAV to investors?",
+   "options": [
+    "Monthly",
+    "Daily",
+    "Half-yearly",
+    "Quarterly"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Category III AIFs must keep NAV calculation independent of fund management and disclose NAV quarterly if close-ended and monthly if open-ended.",
+   "hints": [
+    "Monthly applies to open-ended Cat III AIFs.",
+    "Daily is not mandated (some listed-only funds compute it daily voluntarily).",
+    "Half-yearly relates to Cat I/II valuation and benchmarking.",
+    "Correct: close-ended Cat III discloses NAV quarterly."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-18",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "What minimum experience in valuing unlisted securities must an independent valuer of an AIF have?",
+   "options": [
+    "1 year",
+    "5 years",
+    "10 years",
+    "3 years"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "An independent valuer must not be an associate of the manager, sponsor or trustee, must have at least 3 years' experience in valuing unlisted securities, and must meet the qualification criteria (e.g. IBBI-registered with ICAI/ICSI/ICMAI/CFA membership, or a CRA subsidiary).",
+   "hints": [
+    "One year is insufficient under the norms.",
+    "Five years is not the prescribed criterion.",
+    "Ten years is not required.",
+    "Correct: at least 3 years of experience in valuing unlisted securities."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-19",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "Within what time from the end of the year must a Category I or II AIF provide its annual report to investors?",
+   "options": [
+    "90 days",
+    "180 days",
+    "60 days",
+    "30 days"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "AIFs other than Category III must provide reports to investors at least annually, within 180 days from year end. Category III AIFs report quarterly within 60 days of quarter end.",
+   "hints": [
+    "90 days is not the prescribed limit.",
+    "Correct: annual reports within 180 days of year end.",
+    "60 days applies to Category III quarterly reports.",
+    "30 days applies to SEBI activity reports."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-20",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "By how much can the tenure of a close-ended Category I or II AIF be extended, and with what approval?",
+   "options": [
+    "Up to 5 years, with approval of 75% of unit holders by number",
+    "Up to 2 years, with approval of two-thirds of unit holders by value",
+    "Up to 1 year, with SEBI approval only",
+    "Indefinitely, with trustee approval"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The tenure of close-ended Cat I and II AIFs can be extended by up to 2 years, subject to approval of two-thirds of unit holders by value. Without consent, the AIF must liquidate within one year after tenure ends.",
+   "hints": [
+    "5 years is available to AI-only Funds; the test is by value.",
+    "Correct: up to 2 years with ⅔ of unit holders by value.",
+    "Investor approval is required, and the period is up to 2 years.",
+    "Extensions are capped, not indefinite."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-21",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "What stamp duty applies on the issue of units of an AIF?",
+   "options": [
+    "0.015%",
+    "0.1%",
+    "0.005%",
+    "Nil"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "With effect from July 1, 2020, stamp duty is 0.005% on issue and 0.015% on transfer of AIF units, paid by the fund on behalf of investors. No stamp duty is levied on redemption.",
+   "hints": [
+    "0.015% applies on transfer of units.",
+    "0.1% is the STT rate on delivery-based equity trades.",
+    "Correct: issue of AIF units attracts 0.005% stamp duty.",
+    "Stamp duty is nil on redemption, not on issue."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-22",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "A Category II AIF incurs a loss (not in the nature of business loss). When can this loss be passed through to its unit holders for set-off?",
+   "options": [
+    "Always, irrespective of holding period",
+    "Never; all losses stay at the fund level",
+    "Only if the unit holder has held the units for at least 12 months",
+    "Only if the loss exceeds ₹50,000"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Business losses are not passed through and are carried forward at fund level. Other losses can be passed through and carried forward by investors who have held the units for at least 12 months.",
+   "hints": [
+    "There is a holding-period condition.",
+    "Only BUSINESS losses stay at the fund.",
+    "Correct: losses other than business losses pass through if units are held for at least 12 months.",
+    "There is no such monetary threshold."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-23",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "What is a 'Large Value Fund for Accredited Investors' (LVF) as per the current AIF Regulations?",
+   "options": [
+    "Any AIF with a corpus of more than ₹1,000 crore",
+    "An AIF in which each investor invests at least ₹1 crore",
+    "An AIF or scheme in which each investor (other than manager, sponsor, employees or directors) is an accredited investor investing at least ₹25 crore",
+    "An AIF in which at least 50% of investors are accredited investors"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "An LVF is an AIF or scheme in which each investor, other than the Manager, Sponsor and employees or directors, is an accredited investor and invests not less than ₹25 crore. LVF schemes must add 'LVF' at the end of their names.",
+   "hints": [
+    "LVF status depends on investor ticket size, not corpus size.",
+    "₹1 crore is the normal minimum for any AIF.",
+    "Correct: every investor is an AI with a ticket of at least ₹25 crore.",
+    "All investors (other than insiders) must be AIs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-24",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "Which of the following correctly states the temporary borrowing permitted for a Category II AIF?",
+   "options": [
+    "Not more than 90 days, any number of times, up to 25% of corpus",
+    "Up to 2 times NAV, with investor consent",
+    "Not more than 30 days, not more than 4 occasions in a year, and not more than 10% of investable funds",
+    "Not permitted under any circumstances"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Cat I and II AIFs can't leverage except for temporary funding needs: not more than 30 days, not more than 4 occasions a year, and not more than 10% of investable funds, with a 30-day cooling-off period between borrowings.",
+   "hints": [
+    "These numbers are not in the regulations.",
+    "2× NAV is the Category III leverage cap.",
+    "Correct: 30 days, 4 times a year, 10% of investable funds.",
+    "Temporary funding requirements are permitted within limits."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M2-25",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "How many accredited investors must an Angel Fund on-board before declaring its first close?",
+   "options": [
+    "At least 2",
+    "At least 10",
+    "At least 5",
+    "At least 49"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Under the revised Angel Fund framework, an Angel Fund must on-board at least 5 accredited investors before declaring its first close, which must happen within 12 months of SEBI taking the PPM on record.",
+   "hints": [
+    "2 is the minimum number of AIs contributing to EACH investment.",
+    "10 is not the regulatory figure.",
+    "Correct: at least 5 accredited investors before first close.",
+    "49 is unrelated to Angel Fund rules."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

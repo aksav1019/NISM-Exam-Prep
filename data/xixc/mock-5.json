@@ -1,0 +1,583 @@
+{
+ "id": "mock-5",
+ "title": "Mock 5 · Exam Rehearsal",
+ "level": "easy",
+ "blurb": "A balanced paper with a short tax caselet on pass-through and TDS by a Category II AIF.",
+ "questions": [
+  {
+   "id": "xixc-M5-01",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "The Security Market Line (SML) is the graphical representation of which model, and what does it plot?",
+   "options": [
+    "Markowitz model; return against standard deviation",
+    "Arbitrage Pricing Theory; return against multiple factors",
+    "Dividend discount model; price against dividend growth",
+    "CAPM; expected return against beta"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The SML is the graphical form of CAPM: E(R) = Rf + β(Rm − Rf), plotting expected return against beta. The CML instead plots efficient portfolios against standard deviation.",
+   "hints": [
+    "Return against total risk (σ) is the CML or efficient frontier view.",
+    "APT is a multi-factor model, not the SML.",
+    "The DDM is a valuation model, not the SML.",
+    "Correct: the SML plots CAPM expected return against systematic risk (beta)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-02",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "How does the holding of securities differ between a PMS client and an investor in a Category III AIF?",
+   "options": [
+    "PMS securities are held in each client's own demat account; AIF investors hold units of a pooled fund",
+    "Both hold securities in their own individual demat accounts",
+    "PMS clients hold units; AIF investors hold the underlying shares directly",
+    "Both hold units of a pooled trust"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "In PMS, the investor 'owns' every security purchased, held in their own demat account. In an AIF, investors own units of a pooled fund that holds the securities in a pooled demat account.",
+   "hints": [
+    "Correct: a PMS client owns each security; an AIF investor owns units representing the pool.",
+    "AIF trading happens at the pooled level, so investors don't hold securities individually.",
+    "This reverses the two arrangements.",
+    "PMS is not a pooled-unit structure."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-03",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Why has the appointment of a Registrar and Transfer Agent (RTA) become compulsory for AIFs?",
+   "options": [
+    "RTAs file the PPM with SEBI",
+    "RTAs act as collecting agents for stamp duty on issue, transfer and sale of AIF units",
+    "RTAs provide custody of the AIF's securities",
+    "RTAs value the AIF's unlisted investments"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Following the Indian Stamp Act amendments (effective July 1, 2020), SEBI-registered RTAs act as collecting agents for stamp duty on issue, transfer and sale of AIF units, so appointing an RTA is compulsory.",
+   "hints": [
+    "The PPM is filed through a merchant banker.",
+    "Correct: after the Stamp Act amendments, RTAs collect stamp duty on AIF units.",
+    "Custody is the custodian's role.",
+    "Valuation is done by independent valuers."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-04",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "What compliance advantage does pooling offshore investors' money OUTSIDE India give in an India-focused fund?",
+   "options": [
+    "Investors become exempt from all Indian taxes",
+    "Only the offshore fund, not each offshore investor, needs to obtain a PAN and file Indian tax returns",
+    "The fund no longer needs to comply with FEMA",
+    "The fund can raise money from the Indian public"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "When offshore money is pooled outside India, the requirement to obtain a PAN and file Indian returns falls only on the offshore fund, not on each offshore investor, which gives regulatory and compliance efficiency.",
+   "hints": [
+    "Pooling doesn't create a blanket tax exemption.",
+    "Correct: pooling shifts the PAN and return-filing burden to the single offshore vehicle.",
+    "FEMA continues to apply to inbound investment.",
+    "Public solicitation is not permitted."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-05",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "In fund structuring, what does the principle of 'tax neutrality' mean?",
+   "options": [
+    "The fund pays no tax anywhere in the world",
+    "All investors pay the same tax rate",
+    "Investors should not pay more tax by investing through the pool than if they had invested directly",
+    "The manager's fee is exempt from GST"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Tax neutrality means pooling should not put an investor in a comparatively worse tax position than investing directly. It is a key consideration in choosing a structure and jurisdiction.",
+   "hints": [
+    "Neutrality is about no ADDITIONAL burden, not zero tax.",
+    "Investors' rates depend on their own status.",
+    "Correct: the pool shouldn't put investors in a worse tax position than direct investing.",
+    "GST on fees is a separate matter."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-06",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A contribution agreement provides for a 100% catch-up rate. What does this mean for the manager?",
+   "options": [
+    "The manager receives 100% of all profits from the first rupee",
+    "After investors receive capital and hurdle, all residual profit goes to the manager until it receives its agreed share of total profits",
+    "The manager must refund 100% of carry if any investment fails",
+    "The manager is paid carry only on 100% of capital being returned, with no hurdle"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "With a 100% catch-up, all residual profits after returning capital and hurdle go to the manager until it has received its pre-determined share of total profits. Managers prefer high catch-up rates; investors bear the risk.",
+   "hints": [
+    "Capital and hurdle are paid to investors first.",
+    "Correct: 100% of residual flows to the manager until it 'catches up' to its agreed share.",
+    "That describes a clawback, not a catch-up.",
+    "Catch-up operates after BOTH capital and hurdle."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-07",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A fund's return distribution shows a kurtosis of 5.0. How should an investor interpret this?",
+   "options": [
+    "It is platykurtic and less risky than a normal distribution",
+    "It is perfectly normal",
+    "It means the returns are positively skewed",
+    "It is leptokurtic, with fatter tails than a normal distribution, indicating higher risk"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A normal distribution has kurtosis 3. Kurtosis above 3 (excess kurtosis above 0) is leptokurtic, meaning fatter tails and more outliers, so riskier. Here excess kurtosis = 5.0 − 3 = 2.0.",
+   "hints": [
+    "Platykurtic means kurtosis below 3.",
+    "A normal distribution has kurtosis of exactly 3.",
+    "Kurtosis measures peakedness or tails, not skew.",
+    "Correct: kurtosis above 3 (excess 2.0) means fat tails, so riskier."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-08",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Which of the following is a characteristic of a valid benchmark under the CFA Institute/GIPS framework?",
+   "options": [
+    "Selected after the evaluation period based on the fund's results",
+    "Kept confidential from investors",
+    "Investable: it is possible to forgo active management and simply hold the benchmark",
+    "Changed every quarter to match the fund's holdings"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A valid benchmark is specified in advance, relevant, measurable, unambiguous, representative of current investment options, accountable, investable and complete.",
+   "hints": [
+    "A benchmark must be specified in ADVANCE.",
+    "A benchmark must be measurable and unambiguous, not secret.",
+    "Correct: a valid benchmark is investable.",
+    "Frequent changes defeat the purpose of benchmarking."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-09",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "According to the workbook, which investors are permitted to invest in syndicate deals?",
+   "options": [
+    "Any resident individual with a PAN",
+    "Only accredited investors",
+    "Only mutual funds",
+    "Only Category III AIFs"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Syndicates let investors pool money in an SPV led by a lead investor. The workbook notes that only Accredited Investors are permitted to invest in syndicate deals, so the lead investor must check compliance with the AI framework.",
+   "hints": [
+    "Syndicates are not open to all retail investors.",
+    "Correct: the lead investor must ensure every syndicate investor is an AI.",
+    "MFs are not the participants described.",
+    "Syndicate participants are investors in an SPV, not Cat III AIFs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-10",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "Under the CIV framework, an investor's co-investment in an investee company across CIV schemes is capped at what multiple of its contribution to that company through the AIF scheme? (Assume the investor is NOT a DFI, State IDC or government entity.)",
+   "options": [
+    "3 times",
+    "2 times",
+    "5 times",
+    "No cap"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Co-investment through CIV schemes cannot exceed three times the investor's contribution to the investment made in that investee company through the affiliated AIF scheme. Multilateral or bilateral DFIs, State IDCs and government-owned entities are exempt.",
+   "hints": [
+    "Correct: the cap is three times the investor's contribution via the AIF scheme.",
+    "2× is not the prescribed multiple.",
+    "5× is not the prescribed multiple.",
+    "The cap is lifted only for DFIs, State IDCs and government entities (incl. SWFs and central banks)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-11",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "What is the status of an Investor Advisory Committee in the Indian AIF structure?",
+   "options": [
+    "It is mandatory for every AIF scheme",
+    "It is not mandatory; it may be constituted with a majority of investor representatives as a check and balance",
+    "It replaces the Investment Committee",
+    "It is appointed by SEBI"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "An Investor Advisory Committee (majority investor representatives) is not mandatory in India. It may be formed to guide the manager or IC on conflicts, risk, governance, reporting and similar matters.",
+   "hints": [
+    "The workbook says it is not a mandatory feature.",
+    "Correct: it is optional and advisory.",
+    "It advises; it doesn't replace the IC.",
+    "SEBI doesn't appoint it."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-12",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "When should an institutional investor ideally complete investment due diligence on an AIF?",
+   "options": [
+    "After the fund's final close",
+    "After the first drawdown has been paid",
+    "Only at the time of exit",
+    "Before signing the legal documents that bind it to commit capital"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Due diligence should ideally be completed before signing the legal documents and investment agreements that bind the investor, so the investor can negotiate terms and conditions based on the findings.",
+   "hints": [
+    "By then terms are fixed and capital is committed.",
+    "Paying a drawdown means capital is already committed.",
+    "That's far too late.",
+    "Correct: before signing, so findings can shape negotiations."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-13",
+   "chapter": 12,
+   "difficulty": "medium",
+   "q": "To address potential conflicts, what should investment managers disclose about their employees' dealings with portfolio companies?",
+   "options": [
+    "Fees and equity received by employees from portfolio companies for services rendered",
+    "The personal tax returns of all employees",
+    "Employees' holdings in government securities",
+    "The salaries paid by the trustee company"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The workbook says managers should disclose fees and equities received by employees from portfolio companies for services rendered, and investors should check this policy during due diligence and in ongoing reporting.",
+   "hints": [
+    "Correct: fees and equity received from portfolio companies must be disclosed.",
+    "Personal tax returns are not the disclosure item.",
+    "G-sec holdings aren't the conflict described.",
+    "The trustee doesn't pay the manager's employees."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-14",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "In AIF documentation, what is a 'wrapper'?",
+   "options": [
+    "A cover letter sent to SEBI with the registration fee",
+    "The custodian's safekeeping agreement",
+    "An insurance policy covering key persons",
+    "A supplement attached to the domestic fund's PPM for distribution to investors in offshore jurisdictions"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A wrapper is a supplement attached to the domestic fund's PPM when distributed offshore (e.g. in a unified structure), to comply with private placement requirements in foreign jurisdictions.",
+   "hints": [
+    "That's not a wrapper.",
+    "That's the custodial agreement.",
+    "That is key-man insurance.",
+    "Correct: a wrapper enables private placement compliance abroad (unified structure)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-15",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Which of the following is an example of a 'material change' in the PPM that can trigger an exit option for investors in a close-ended AIF?",
+   "options": [
+    "A change in the fund's office address",
+    "A change of the auditor's engagement partner",
+    "Correction of a typographical error in the glossary",
+    "A change in the fee structure that may adversely affect investors"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Material changes include a change in sponsor or manager, change in control of either, and changes in fee structure or hurdle rate that may adversely affect investors. Such changes trigger the exit option unless 75% of unit holders by value approve.",
+   "hints": [
+    "An address change doesn't affect the investment decision.",
+    "That is not a fundamental attribute.",
+    "Clerical corrections are not material.",
+    "Correct: adverse changes in fee structure or hurdle rate are material changes."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-16",
+   "chapter": 14,
+   "difficulty": "medium",
+   "q": "How must an AIF value securities for which no valuation norm is prescribed under the SEBI (Mutual Funds) Regulations?",
+   "options": [
+    "As per valuation guidelines endorsed by an AIF industry association representing at least 33% of SEBI-registered AIFs",
+    "At historical cost until exit",
+    "As per the manager's discretion without disclosure",
+    "As per guidelines issued by the RBI"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Regulation 23: securities with MF valuation norms follow those norms; others follow guidelines endorsed by an AIF association representing at least 33% of registered AIFs, after considering AIPAC recommendations. The PPM must state the methodology for each asset class.",
+   "hints": [
+    "Correct: association-endorsed guidelines (on AIPAC recommendations) apply.",
+    "Cost-until-exit is not the regulatory approach.",
+    "The methodology must be disclosed in the PPM.",
+    "RBI doesn't set AIF valuation guidelines."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-17",
+   "chapter": 14,
+   "difficulty": "medium",
+   "q": "An AIF holds a ₹1,000 face-value debenture with a 10% annual coupon and exactly 2 years to maturity. If the required return is 12%, what is its value?",
+   "options": [
+    "₹1,000.00",
+    "≈ ₹966.20",
+    "≈ ₹876.91",
+    "≈ ₹1,035.33"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Value = I × PVA + F × PV = 100/1.12 + 100/1.12² + 1,000/1.12² = 89.29 + 79.72 + 797.19 ≈ ₹966.20. It trades below par because the required return (12%) exceeds the coupon (10%).",
+   "hints": [
+    "Par value holds only when the required return equals the coupon (10%).",
+    "Correct: 100/1.12 + 1,100/1.12² ≈ 89.29 + 876.91 = ₹966.20.",
+    "This discounts only the final payment and ignores the year-1 coupon.",
+    "A required return above the coupon means a value below par, not above."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-18",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "Which statement about the 'dissolution period' of an AIF scheme is correct?",
+   "options": [
+    "It cannot be longer than the original tenure of the scheme and cannot be extended",
+    "It can be extended any number of times with trustee approval",
+    "The scheme may make new investments during it",
+    "It needs no investor consent"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A scheme can enter a dissolution period only with 75% investor consent and after filing an Information Memorandum via a merchant banker. It cannot exceed the original tenure, can't be extended, and allows no new commitments or investments.",
+   "hints": [
+    "Correct: it is capped at the original tenure, with no extensions.",
+    "No extension is allowed after the dissolution period expires.",
+    "No new investments or fresh commitments are allowed.",
+    "It requires consent of 75% of investors by value."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-19",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "Within what time after the end of the financial year must the manager submit the Compliance Test Report (CTR) to the sponsor and trustee?",
+   "options": [
+    "15 days",
+    "60 days",
+    "30 days",
+    "6 months"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The manager submits the CTR within 30 days of FY end. The sponsor or trustee gives comments within 30 days of receipt, and the manager incorporates changes within 15 days. Violations are reported to SEBI.",
+   "hints": [
+    "15 days is the time to incorporate the sponsor's or trustee's comments.",
+    "60 days is not the CTR deadline.",
+    "Correct: the CTR goes to the sponsor or trustee within 30 days of FY end.",
+    "6 months is the PPM-audit timeline."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-20",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "How much tax must Fund LMN deduct at source when it distributes the interest income to its resident unit holders?",
+   "options": [
+    "₹0.24 crore",
+    "₹0.48 crore",
+    "Nil",
+    "₹0.72 crore"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "Under section 393, an Investment Fund deducts TDS at 10% on income (other than business income) credited or paid to resident investors: 10% × ₹2.40 crore = ₹0.24 crore.",
+   "hints": [
+    "Correct: 10% × ₹2.40 crore = ₹0.24 crore.",
+    "This applies 20%, the rate on dividends to non-residents.",
+    "Pass-through means no tax at fund level, but TDS on distribution still applies.",
+    "This applies 30%."
+   ],
+   "numeric": true,
+   "case": "Fund LMN is a Category II AIF constituted as an irrevocable, determinate trust; all its unit holders are resident Indians. During FY 2025-26 it earned: (i) interest of ₹2.40 crore on debentures, which it distributed to unit holders during the year; (ii) dividends of ₹1.60 crore from Indian investee companies, which it did NOT distribute and retained for reinvestment; and (iii) long-term capital gains of ₹5.00 crore on sale of unlisted equity shares held for 30 months, which it distributed. None of the income is business income. The investee companies paid the dividends and interest without deducting any tax."
+  },
+  {
+   "id": "xixc-M5-21",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "What is the tax position of the ₹1.60 crore of dividends that Fund LMN did not distribute during the year?",
+   "options": [
+    "No TDS applies until the dividend is actually paid out",
+    "The fund pays tax on it at MMR since it was retained",
+    "It is deemed credited to unit holders at year end, so TDS of ₹0.16 crore applies",
+    "It is exempt because dividends are tax-free"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "Income not distributed in a financial year is deemed credited to unit holders at year end in proportion to their entitlement. The fund therefore withholds 10% on it: 10% × ₹1.60 crore = ₹0.16 crore.",
+   "hints": [
+    "The deemed-credit rule triggers tax even without actual payment.",
+    "Retaining income does not make it business income taxable at MMR.",
+    "Correct: undistributed income is deemed credited at FY end; 10% TDS = ₹0.16 crore.",
+    "Dividends are taxable in shareholders' hands."
+   ],
+   "numeric": true,
+   "case": "Fund LMN is a Category II AIF constituted as an irrevocable, determinate trust; all its unit holders are resident Indians. During FY 2025-26 it earned: (i) interest of ₹2.40 crore on debentures, which it distributed to unit holders during the year; (ii) dividends of ₹1.60 crore from Indian investee companies, which it did NOT distribute and retained for reinvestment; and (iii) long-term capital gains of ₹5.00 crore on sale of unlisted equity shares held for 30 months, which it distributed. None of the income is business income. The investee companies paid the dividends and interest without deducting any tax."
+  },
+  {
+   "id": "xixc-M5-22",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "How will the ₹5.00 crore gain on the unlisted shares be taxed?",
+   "options": [
+    "At the fund level at MMR as business income",
+    "In the unit holders' hands as short-term gains at slab rates",
+    "In the unit holders' hands as long-term capital gains at 12.5% without indexation",
+    "It is exempt at both fund and investor level"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "Cat I/II AIF income other than business income is taxed in investors' hands as if they had invested directly. Unlisted shares held over 24 months give LTCG taxed at 12.5% without indexation, and securities held by Cat I/II AIFs are capital assets from FY 2025-26.",
+   "hints": [
+    "From FY 2025-26, securities held by Cat I/II AIFs are capital assets, not business income.",
+    "30 months exceeds the 24-month threshold, so the gain is long-term.",
+    "Correct: pass-through; unlisted equity held over 24 months gives LTCG at 12.5%.",
+    "Pass-through shifts the tax to investors; it doesn't exempt the gain."
+   ],
+   "numeric": false,
+   "case": "Fund LMN is a Category II AIF constituted as an irrevocable, determinate trust; all its unit holders are resident Indians. During FY 2025-26 it earned: (i) interest of ₹2.40 crore on debentures, which it distributed to unit holders during the year; (ii) dividends of ₹1.60 crore from Indian investee companies, which it did NOT distribute and retained for reinvestment; and (iii) long-term capital gains of ₹5.00 crore on sale of unlisted equity shares held for 30 months, which it distributed. None of the income is business income. The investee companies paid the dividends and interest without deducting any tax."
+  },
+  {
+   "id": "xixc-M5-23",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "A Social Impact Fund wants to accept grants. What is the minimum grant it can accept from any person (other than an accredited investor)?",
+   "options": [
+    "₹10 lakh",
+    "₹1 crore",
+    "₹1,000",
+    "₹25 lakh"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Social Impact Funds may accept grants, with a minimum of ₹10 lakh from any person (not applicable to accredited investors). No profits or gains may be attributed to grant providers.",
+   "hints": [
+    "Correct: the minimum grant is ₹10 lakh (not applicable to AIs).",
+    "₹1 crore is the usual minimum investment, not the grant minimum.",
+    "₹1,000 is the minimum individual investment in certain SSE-focused social impact funds.",
+    "₹25 lakh is the employee investment minimum."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-24",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "An AIF scheme wants to buy an investment from a scheme managed by an associate of its sponsor. One investor has committed 55% of the scheme's corpus. What approval is required?",
+   "options": [
+    "Approval of two-thirds of investors by value",
+    "Trustee approval alone is enough",
+    "Approval of at least 75% of investors by value of their investment",
+    "No approval is needed for associate transactions"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Without 75% investor approval by value, an AIF scheme can't buy or sell investments with associates or schemes managed or sponsored by its manager, sponsor or their associates. An investor who has committed at least 50% of the corpus must be excluded from voting when the AIF transacts with that investor.",
+   "hints": [
+    "The threshold is 75%, not two-thirds.",
+    "Investor approval is mandatory.",
+    "Correct: transactions with associate-managed schemes need 75% approval by value.",
+    "Associate transactions are restricted."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M5-25",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "Under FEMA, when is downstream investment by an AIF that has received foreign contributions treated as indirect foreign investment?",
+   "options": [
+    "Whenever foreign investors contribute more than 10% of the corpus",
+    "Whenever any foreign investor is present, regardless of control",
+    "Never, as AIFs are exempt from FEMA",
+    "When either the sponsor or the manager or investment manager is not Indian-owned and controlled"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Per the RBI notification, downstream investment by an AIF is regarded as indirect foreign investment if either the sponsor or the manager or investment manager is not Indian-owned and controlled. The extent of foreign investment in the corpus does not matter.",
+   "hints": [
+    "The extent of foreign investment in the corpus is NOT the test.",
+    "Mere presence of foreign investors doesn't decide it.",
+    "FEMA applies to AIFs receiving foreign investment.",
+    "Correct: control of the sponsor or manager decides, not the share of foreign money."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

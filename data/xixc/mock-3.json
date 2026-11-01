@@ -1,0 +1,583 @@
+{
+ "id": "mock-3",
+ "title": "Mock 3 · Rules of the Game",
+ "level": "easy",
+ "blurb": "Service providers, structures, governance rights and reporting, with a short fee-waterfall caselet.",
+ "questions": [
+  {
+   "id": "xixc-M3-01",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Under which form of the Efficient Market Hypothesis do stock prices fully reflect publicly available information such as earnings and dividend announcements, in addition to past market data?",
+   "options": [
+    "Weak form",
+    "Semi-strong form",
+    "Strong form",
+    "Random-walk form"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Fama's semi-strong EMH holds that prices reflect all historical market information plus all public information (earnings, dividends, P/E, P/B, etc.), so it encompasses the weak form.",
+   "hints": [
+    "The weak form covers only historical market data (prices, returns, volume).",
+    "Correct: the semi-strong form covers all public information and includes the weak form.",
+    "The strong form goes further and includes private or insider information.",
+    "'Random-walk form' is not one of Fama's three forms."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-02",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "The Corporate Debt Market Development Fund (CDMDF) is classified under which category, and what is its tenure?",
+   "options": [
+    "Category II AIF; 10 years from registration",
+    "Category III AIF; open-ended",
+    "Category II AIF; 15 years from final close",
+    "Category I AIF; 15 years from the date of first closing"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "CDMDF is a close-ended AIF formed as a trust with a 15-year tenure from first closing. It is classified as Category I because it serves the broader economic goal of developing the corporate bond market as a backstop facility.",
+   "hints": [
+    "It is Category I, not II, and the tenure is 15 years.",
+    "It is close-ended and not Category III.",
+    "The category is wrong and tenure runs from FIRST close.",
+    "Correct: CDMDF is a close-ended Category I trust with a 15-year tenure from first close."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-03",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Which condition applies to the merchant banker appointed by an AIF to file its PPM with SEBI?",
+   "options": [
+    "It must be the sponsor of the AIF",
+    "It shall not be an associate of the AIF, its sponsor, manager or trustee",
+    "It must also act as the custodian",
+    "It must hold at least 5% of the scheme's units"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The merchant banker appointed to file the PPM and give the due diligence certificate must not be an associate of the AIF, its sponsor, manager or trustee.",
+   "hints": [
+    "Independence is required, so the sponsor can't play this role.",
+    "Correct: the merchant banker must be independent (not an associate).",
+    "Custody is a separate SEBI-registered function.",
+    "Merchant bankers have no unit-holding requirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-04",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "What is the minimum number of 'designated partners' that every LLP (including one used as an AIF) must have?",
+   "options": [
+    "One",
+    "Two",
+    "Five",
+    "Seven"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Under the LLP Act 2008, every LLP must have at least two designated partners, who are responsible for its conduct and compliance. In an LLP AIF the sponsor usually acts as a designated partner.",
+   "hints": [
+    "A single designated partner is not allowed.",
+    "Correct: every LLP must have at least two designated partners.",
+    "Five is not the statutory minimum.",
+    "Seven is the old public-company member minimum, not the LLP rule."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-05",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which of the following is an advantage of a parallel structure for offshore investors in an India-focused fund?",
+   "options": [
+    "The offshore fund can opt out of a particular investee company that does not suit its mandate",
+    "Management fees are always lower than in a master-feeder structure",
+    "The offshore fund invests only through the onshore AIF",
+    "Only one pooling vehicle is required"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "In a parallel structure the offshore fund invests directly in investee companies alongside the domestic AIF. The advantages are tax efficiency, freedom to opt out of unsuitable investments, and the ability to place different investor classes in different vehicles, though fees may be higher.",
+   "hints": [
+    "Correct: offshore vehicles make independent decisions and can opt out of deals.",
+    "Parallel structures may actually be MORE expensive than master-feeder.",
+    "Investing only through the onshore AIF describes the unified structure.",
+    "A parallel structure has two pooling vehicles (India and abroad)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-06",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "What is the reference hurdle NAV at the end of year 4, above which the manager becomes entitled to carry?",
+   "options": [
+    "₹280.00 crore",
+    "₹266.20 crore",
+    "₹292.82 crore",
+    "₹320.00 crore"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "Reference hurdle = called-up capital × (1 + hurdle)^n = 200 × 1.1⁴ = 200 × 1.4641 = ₹292.82 crore.",
+   "hints": [
+    "This uses simple interest: 200 × (1 + 4 × 10%).",
+    "This compounds for only 3 years.",
+    "Correct: ₹200 crore × (1.10)⁴ = ₹292.82 crore.",
+    "This is the actual NAV, not the hurdle."
+   ],
+   "numeric": true,
+   "case": "Fund PQR is a close-ended Category II AIF. Investors committed ₹200 crore, which was fully called up on day one. The fund tenure is 4 years and the PPM specifies a hurdle rate of 10% p.a. compounded annually on called-up capital. The manager is entitled to an additional return (carry) of 20% of profits above the hurdle, and the contribution agreement has NO catch-up clause. At the end of year 4, after all set-up costs, fund expenses and management fees (including GST), the NAV available for distribution (before any incentive) is ₹320 crore. Ignore taxes."
+  },
+  {
+   "id": "xixc-M3-07",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "What is the residual profit of Fund PQR on which carry is computed?",
+   "options": [
+    "₹120.00 crore",
+    "₹27.18 crore",
+    "₹92.82 crore",
+    "₹40.00 crore"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "Investors first receive capital (₹200 crore) plus the hurdle return (₹92.82 crore) = ₹292.82 crore. Residual profit = ₹320 − ₹292.82 = ₹27.18 crore.",
+   "hints": [
+    "₹120 crore is total profit, not profit above the hurdle.",
+    "Correct: ₹320 crore − ₹292.82 crore = ₹27.18 crore.",
+    "₹92.82 crore is the hurdle (preferred) return paid to investors.",
+    "This uses a simple-interest hurdle of ₹280 crore."
+   ],
+   "numeric": true,
+   "case": "Fund PQR is a close-ended Category II AIF. Investors committed ₹200 crore, which was fully called up on day one. The fund tenure is 4 years and the PPM specifies a hurdle rate of 10% p.a. compounded annually on called-up capital. The manager is entitled to an additional return (carry) of 20% of profits above the hurdle, and the contribution agreement has NO catch-up clause. At the end of year 4, after all set-up costs, fund expenses and management fees (including GST), the NAV available for distribution (before any incentive) is ₹320 crore. Ignore taxes."
+  },
+  {
+   "id": "xixc-M3-08",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "With no catch-up clause, how much carry will the manager receive?",
+   "options": [
+    "₹24.000 crore",
+    "₹5.436 crore",
+    "₹27.180 crore",
+    "₹21.744 crore"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "Without catch-up, the residual after capital and hurdle is shared in the agreed ratio: manager 20% × ₹27.18 crore = ₹5.436 crore and investors 80% = ₹21.744 crore.",
+   "hints": [
+    "₹24 crore (20% of total profit) needs a catch-up, which this fund doesn't have.",
+    "Correct: 20% × ₹27.18 crore = ₹5.436 crore.",
+    "The full residual goes to the manager only under a 100% catch-up (when the target exceeds the residual).",
+    "₹21.744 crore is the investors' 80% share of the residual."
+   ],
+   "numeric": true,
+   "case": "Fund PQR is a close-ended Category II AIF. Investors committed ₹200 crore, which was fully called up on day one. The fund tenure is 4 years and the PPM specifies a hurdle rate of 10% p.a. compounded annually on called-up capital. The manager is entitled to an additional return (carry) of 20% of profits above the hurdle, and the contribution agreement has NO catch-up clause. At the end of year 4, after all set-up costs, fund expenses and management fees (including GST), the NAV available for distribution (before any incentive) is ₹320 crore. Ignore taxes."
+  },
+  {
+   "id": "xixc-M3-09",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "For performance reporting and benchmarking of AIFs, how is 'Assets under Management' defined?",
+   "options": [
+    "The total capital committed by investors",
+    "The latest pre-tax NAV of the scheme",
+    "The value of total capital drawn down under the scheme",
+    "The investable funds net of expenses"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "SEBI's operational guidelines define AUM for reporting and benchmarking as the value of total capital drawn down under the scheme, and benchmarking is done on pre-tax NAV.",
+   "hints": [
+    "Commitments include undrawn amounts and aren't used.",
+    "Performance is measured on pre-tax NAV, but AUM is defined as drawn capital.",
+    "Correct: AUM for benchmarking = total capital drawn down.",
+    "Investable funds is a concentration-limit concept."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-10",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "A shareholder holding a 'Right of First Refusal' (ROFR) over the promoter's shares has which entitlement?",
+   "options": [
+    "To make the first offer before the seller approaches anyone else",
+    "To sell its own shares alongside the promoter on the same terms",
+    "To buy the shares by matching the best quote the seller has received from the market",
+    "To force the promoter to sell to a buyer chosen by the holder"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Under ROFR, the selling shareholder must bring the best market quote to the ROFR holder, who may buy by matching it or refuse. Under ROFO, the holder is approached first for its offer before the market.",
+   "hints": [
+    "That describes ROFO (Right of First Offer).",
+    "That is a tag-along (co-sale) right.",
+    "Correct: the ROFR holder may match the best third-party quote or decline.",
+    "That is a drag-along right."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-11",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "SEBI's Stewardship Code for AIFs applies in respect of their investments in:",
+   "options": [
+    "Listed equities",
+    "Unlisted start-ups only",
+    "Government securities",
+    "Units of other AIFs"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "SEBI's Stewardship Code (6 principles) applies to Mutual Funds and all categories of AIFs in relation to their investments in listed equities: monitoring, engaging, intervening, voting and reporting.",
+   "hints": [
+    "Correct: stewardship applies to investments in listed equities.",
+    "The code is specifically for listed equity investments.",
+    "G-secs are outside the stewardship framework.",
+    "Units of AIFs are not covered by the code."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-12",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Under the Code of Conduct for Managers of AIFs and their key management personnel, which of the following is required?",
+   "options": [
+    "Guarantee a minimum return to investors in writing",
+    "Share investors' personal investment details with investee companies",
+    "Accept inducements only if disclosed afterwards",
+    "Record in writing the investment, divestment and other key decisions with appropriate justification"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The SEBI Code of Conduct requires managers and KMPs to act as fiduciaries, record decisions in writing with justification, give fair inputs to valuers, keep confidentiality, and never offer or accept inducements.",
+   "hints": [
+    "Assured returns are prohibited.",
+    "Investor information must be kept confidential.",
+    "No inducement may be offered or accepted.",
+    "Correct: key decisions must be recorded in writing with justification."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-13",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "According to the workbook, what do investors usually ask for in case of a key man event at an AIF?",
+   "options": [
+    "An automatic increase in the hurdle rate",
+    "A refund of all management fees since inception",
+    "Conversion of the fund into a Category III AIF",
+    "Compulsory redemption or exit without charges, unless a suitable replacement is found within pre-agreed timelines and informed to SEBI"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The workbook notes investors usually ask for a compulsory redemption or exit without charges on a key man event, unless a suitable replacement is found within pre-agreed timelines and SEBI is informed.",
+   "hints": [
+    "Hurdle changes are not the standard remedy.",
+    "A refund of all fees since inception is not the norm.",
+    "Category can't change without SEBI approval, and that's not the remedy.",
+    "Correct: a charge-free exit unless the key person is replaced in time."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-14",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "What does 'super carry' refer to in AIF terminology?",
+   "options": [
+    "Carry paid to the trustee in addition to the manager",
+    "A carry that is paid before investors get their capital back",
+    "Carry that is exempt from GST",
+    "A higher additional return charged by highly sought-after funds with a very strong track record"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Super carry or higher carry means higher additional returns charged by sought-after funds with a very high return track record. Sometimes investors accept it in exchange for a lower management fee.",
+   "hints": [
+    "The trustee earns a fixed fee, not carry.",
+    "That describes early carry (American waterfall), not super carry.",
+    "GST treatment has nothing to do with the term.",
+    "Correct: in-demand top-performing funds negotiate higher carry than the norm."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-15",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Why is the Contribution Agreement of each contributor generally NOT shared with other contributors?",
+   "options": [
+    "It is a public document filed with the ROC",
+    "It is identical for every investor, so sharing is pointless",
+    "It contains representations and warranties that may be specific to each contributor",
+    "SEBI prohibits investors from seeing any fund documents"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The Contribution Agreement (investor, trustee and manager) sets the conditions for participation. Because it contains representations and warranties specific to each contributor, it is generally not shared with others, and it cannot go beyond the PPM terms.",
+   "hints": [
+    "Contribution agreements are private contracts, not ROC filings.",
+    "They can differ by investor, which is exactly why they aren't shared.",
+    "Correct: each agreement may hold investor-specific representations and warranties.",
+    "Investors receive the PPM and their own agreements."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-16",
+   "chapter": 13,
+   "difficulty": "medium",
+   "q": "How may a Category III AIF pay distribution or placement fees to distributors?",
+   "options": [
+    "Only on an equal trail basis, paid out of the management fee received by the manager",
+    "Up to one-third upfront and the rest as trail",
+    "Fully upfront, charged directly to investors",
+    "Only through a separate expense charged to the scheme"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Category III AIFs may charge distribution fees only on an equal trail basis, with no upfront fee directly or indirectly, and any distribution fee is paid only from the management fee. Cat I and II may pay up to one-third upfront.",
+   "hints": [
+    "Correct: Cat III pays trail only, from the manager's management fee.",
+    "Up to one-third upfront is allowed only for Category I and II AIFs.",
+    "Upfront fees are prohibited for Category III.",
+    "The fee must come from the management fee, not a separate scheme expense."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-17",
+   "chapter": 14,
+   "difficulty": "medium",
+   "q": "At the level of an individual asset, what valuation deviation obliges the Investment Manager to inform investors with reasons?",
+   "options": [
+    "More than 20% between two consecutive valuations, or more than 33% within a financial year",
+    "More than 10% between two consecutive valuations",
+    "More than 50% within a financial year only",
+    "Any deviation of more than 5%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "If valuation at asset level deviates by more than 20% between two consecutive valuations, or by more than 33% within a financial year, the manager must inform investors with generic and specific reasons.",
+   "hints": [
+    "Correct: >20% consecutively or >33% within a financial year.",
+    "10% is not the trigger.",
+    "The financial-year trigger is 33%, and there is also a consecutive-valuation trigger.",
+    "5% is not prescribed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-18",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "In a survey of a start-up's customers, 55% are promoters (score 9–10), 25% are passives and 20% are detractors (score 0–6). What is the Net Promoter Score?",
+   "options": [
+    "55",
+    "75",
+    "35",
+    "30"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "NPS = % promoters − % detractors = 55 − 20 = 35. Passives are ignored in the calculation.",
+   "hints": [
+    "This ignores detractors.",
+    "This wrongly adds detractors to promoters.",
+    "Correct: NPS = 55 − 20 = 35.",
+    "This subtracts passives instead of detractors."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-19",
+   "chapter": 15,
+   "difficulty": "medium",
+   "q": "When a close-ended AIF has a change of manager and gives dissenting investors an exit, at what price must the dissenters' units be bought out?",
+   "options": [
+    "At not less than the average of two independent valuations",
+    "At the latest NAV reported to investors",
+    "At the original subscription price",
+    "At a price decided by the new manager"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Before buying out dissenting investors, units must be valued by 2 independent valuers and the exit must be at not less than the average of the two. The process must finish within 3 months, at the cost of the manager or sponsor.",
+   "hints": [
+    "Correct: valuation by 2 independent valuers; exit at not less than their average.",
+    "Two fresh independent valuations are mandated.",
+    "Exit is value-based, not at cost.",
+    "The price can't be left to the new manager's discretion."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-20",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "After investors approve in-specie distribution of unliquidated investments, the AIF must arrange bids for at least what proportion of the value of those investments?",
+   "options": [
+    "25%",
+    "10%",
+    "50%",
+    "75%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "On approval by 75% of investors by value, the AIF must arrange bids for at least 25% of the value of unliquidated investments. If it fails, the in-specie distribution is recorded at ₹1.",
+   "hints": [
+    "Correct: bids for a minimum of 25% of the value of unliquidated investments.",
+    "10% is too low.",
+    "50% is not the threshold.",
+    "75% is the investor-approval threshold, not the bid size."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-21",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "How are long-term capital gains on listed equity shares (STT paid on acquisition and transfer) taxed in an investor's hands, as per the workbook?",
+   "options": [
+    "10% on all gains with indexation",
+    "20% on gains exceeding ₹1,00,000",
+    "12.5% on gains exceeding ₹1,25,000 in a financial year, without indexation",
+    "Exempt fully"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "LTCG on STT-paid listed equity is exempt up to ₹1,25,000 in a financial year, and the excess is taxed at 12.5% (plus surcharge and cess) without indexation. STCG is taxed at 20%.",
+   "hints": [
+    "That reflects outdated rules.",
+    "20% is the STCG rate on STT-paid listed equity.",
+    "Correct: 12.5% above ₹1.25 lakh, no indexation.",
+    "Only gains up to ₹1.25 lakh are exempt."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-22",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "A Category III AIF set up as a trust is found to be an INDETERMINATE trust. How is its income taxed?",
+   "options": [
+    "At concessional rates in the hands of each investor",
+    "It is exempt as the fund has pass-through status",
+    "At the Maximum Marginal Rate in the hands of the trustee as representative assessee",
+    "At the corporate tax rate of 25%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "If a Cat III AIF trust fails the determinacy test (beneficiaries and shares ascertainable on the trust deed date), the trustee is taxed at MMR. The CBDT has clarified that the entire income of such a fund is taxable at MMR in the trustee's hands.",
+   "hints": [
+    "Investor-wise rates apply to determinate trusts.",
+    "Category III has no statutory pass-through.",
+    "Correct: an indeterminate trust is taxed at MMR in the trustee's hands.",
+    "Corporate rates don't apply to a trust."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-23",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "If the corpus of an open-ended Category III AIF scheme falls below ₹20 crore due to redemptions, what must the AIF do?",
+   "options": [
+    "Wind up the scheme immediately",
+    "Do nothing until the next financial year",
+    "Convert the scheme into a close-ended scheme",
+    "Bring the scheme size back to ₹20 crore within 3 months, failing which redeem all investors' units"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The Cat III AIF must intimate SEBI within 2 days of receiving the redemption request that causes the breach, and restore the corpus to ₹20 crore within 3 months. If it fails, it must redeem all investors' units.",
+   "hints": [
+    "Immediate winding up is not required; there is a 3-month cure period.",
+    "Action is required, with SEBI intimated within 2 days.",
+    "Conversion is not the prescribed remedy.",
+    "Correct: restore within 3 months (intimating SEBI within 2 days), or redeem everyone."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-24",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "For how long is an accreditation certificate valid if the applicant has met the eligibility criteria in each of the two preceding financial years?",
+   "options": [
+    "2 years",
+    "3 years",
+    "1 year",
+    "5 years"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Accreditation is valid for 2 years if the applicant meets the criteria for the preceding year, and 3 years if it meets them in each of the two preceding financial years. A newly incorporated entity meeting net worth gets 2 years.",
+   "hints": [
+    "2 years applies if criteria are met for the preceding one year only.",
+    "Correct: consistent eligibility over two preceding FYs gives 3-year validity.",
+    "One year is not a validity option.",
+    "Five years is not prescribed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M3-25",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "Under PMLA, AIFs must maintain records of cash transactions above what value (or its foreign-currency equivalent)?",
+   "options": [
+    "₹5 lakh",
+    "₹50,000",
+    "₹1 crore",
+    "₹10 lakh"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Reporting entities including AIFs must record cash transactions above ₹10 lakh, integrally connected series exceeding ₹10 lakh in a month, NPO receipts above ₹10 lakh, cross-border wires above ₹5 lakh, counterfeit-currency cases and all suspicious transactions.",
+   "hints": [
+    "₹5 lakh is the threshold for cross-border wire transfers.",
+    "₹50,000 relates to deemed-income rules under tax law.",
+    "₹1 crore is the AIF minimum investment, not a PMLA threshold.",
+    "Correct: cash transactions above ₹10 lakh (and integrally connected series in a month)."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

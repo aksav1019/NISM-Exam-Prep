@@ -1,0 +1,698 @@
+{
+ "id": "mock-7",
+ "title": "Mock 7 · Tough · Final Boss",
+ "level": "tough",
+ "blurb": "The hardest paper: a performance-multiples caselet, a Cat III leverage-breach caselet, and multi-statement traps on tax and regulation.",
+ "questions": [
+  {
+   "id": "xixc-M7-01",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "An investor wants a real return of 3% and expects inflation of 5%. Using the exact relationship given in the workbook, what nominal rate of return should she require?",
+   "options": [
+    "8.00%",
+    "1.94%",
+    "8.15%",
+    "15.00%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "NRR = (1 + real) × (1 + inflation) − 1 = 1.03 × 1.05 − 1 = 0.0815 = 8.15%, as in the workbook's 2% and 6% → 8.12% example.",
+   "hints": [
+    "8% is the additive approximation, not the exact figure.",
+    "This divides instead of compounding.",
+    "Correct: (1.03 × 1.05) − 1 = 8.15%.",
+    "This multiplies the rates directly."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-02",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "Which of the following statements comparing a Mutual Fund and a Category III AIF is NOT correct?",
+   "options": [
+    "Mutual funds may employ leverage like Category III AIFs",
+    "Mutual funds raise money through a public issue, while Category III AIFs use private placement",
+    "Mutual funds declare NAV daily, while Category III AIFs may declare it daily, monthly or quarterly as per the PPM",
+    "A Category III AIF's sponsor and manager can be the same entity"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Table 6.4: MFs follow low or medium risk strategies without leverage, issue publicly and declare NAV daily. Cat III AIFs may use leverage, raise money privately and declare NAV per the PPM, and their sponsor and manager can be the same entity.",
+   "hints": [
+    "Correct (NOT correct): leverage is not allowed for mutual funds.",
+    "This IS a correct contrast.",
+    "This IS a correct contrast.",
+    "This IS correct for Category III AIFs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-03",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "According to the workbook, which distribution waterfall is suitable for pure debt funds whose theme is primarily to hold assets to maturity?",
+   "options": [
+    "American (deal-by-deal) waterfall",
+    "European (whole-fund) waterfall",
+    "Priority distribution model",
+    "Reverse waterfall"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The American waterfall lets managers earn carry deal by deal, before investors have received all capital and preferred return, and the workbook notes it suits pure debt funds. The European waterfall may delay carry by six to eight years.",
+   "hints": [
+    "Correct: the workbook says the American waterfall suits pure debt funds.",
+    "The European waterfall delays carry until the whole fund returns capital and hurdle.",
+    "Priority distribution models are restricted by SEBI.",
+    "There is no such standard term in the workbook."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-04",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "Consider the statements about an AIF set up as a trust: (I) The trust can sue and be sued in its own name, like a company. (II) In a determinate trust, the share of each beneficiary is clearly demarcated. Which is/are correct?",
+   "options": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A trust doesn't have the ability to sue or be sued like other legal entities; its trustee does so on its behalf. A determinate trust demarcates each beneficiary's share, which is why AIF corpus is divided into units.",
+   "hints": [
+    "Statement I is wrong: the trustee sues or is sued on the trust's behalf.",
+    "Correct: only II is true.",
+    "Statement I is false.",
+    "Statement II is true."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-05",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT a benefit of an offshore fund registering with SEBI as a Foreign Venture Capital Investor (FVCI)?",
+   "options": [
+    "Exemption from the post-IPO lock-in on pre-issue holdings",
+    "Exemption from the SEBI Takeover Code for shares of a company",
+    "Exemption from all Indian capital gains tax",
+    "Qualified Institutional Buyer status"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The workbook lists flexible entry and exit pricing, exemption from the post-IPO lock-in, exemption from the Takeover Code and QIB status as FVCI benefits. Tax treatment depends on the ITA and treaties, not FVCI registration.",
+   "hints": [
+    "This IS a listed FVCI benefit (allows exit right after IPO).",
+    "This IS a listed benefit.",
+    "Correct (NOT a benefit): FVCI registration doesn't exempt gains from Indian tax.",
+    "QIB status IS a listed benefit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-06",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "A fund's annual returns over three years were 10%, 14% and 18%. Using the population formula shown in the workbook, what is the standard deviation of returns?",
+   "options": [
+    "≈ 3.27%",
+    "4.00%",
+    "≈ 10.67%",
+    "≈ 2.67%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Mean = 14%. Squared deviations: 16, 0, 16 → sum 32. Workbook (population) σ = √(32 ÷ 3) = √10.67 ≈ 3.27%.",
+   "hints": [
+    "Correct: mean 14%; variance = (16 + 0 + 16) ÷ 3 = 10.67; σ ≈ 3.27%.",
+    "4.00% uses the sample formula (÷ n − 1), not the workbook's ÷ n.",
+    "10.67 is the variance, not the standard deviation.",
+    "This divides the sum of absolute deviations by 3."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-07",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "Fund P returned 18% with beta 1.5; Fund Q returned 15% with beta 0.9. The risk-free rate is 6%. Which fund has the higher Treynor ratio, and what is it?",
+   "options": [
+    "Fund Q; 10.0",
+    "Fund P; 8.0",
+    "Fund P; 12.0",
+    "Fund Q; 16.7"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Treynor = (Rp − Rf) ÷ β. P: 12 ÷ 1.5 = 8.0. Q: 9 ÷ 0.9 = 10.0. Despite its lower raw return, Q earned more excess return per unit of systematic risk.",
+   "hints": [
+    "Correct: Q = (15 − 6) ÷ 0.9 = 10.0 versus P = (18 − 6) ÷ 1.5 = 8.0.",
+    "P's Treynor of 8.0 is lower than Q's.",
+    "12.0 is P's excess return, not divided by beta.",
+    "This divides Q's total return by beta."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-08",
+   "chapter": 10,
+   "difficulty": "hard",
+   "q": "How do benchmarking agencies construct benchmarks for Category III AIFs?",
+   "options": [
+    "As vintage-year pooled IRRs with DPI, RVPI and TVPI",
+    "As asset-weighted indices using AUM and quarterly returns computed on a post-expense, pre-carry, pre-tax basis",
+    "As equal-weighted indices of post-tax returns",
+    "Using the Nifty 50 as the sole benchmark"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "For Cat I and II, agencies give vintage-year benchmarks using pooled IRR and multiples. For Cat III, benchmarks are asset-weighted indices using AUM and quarterly returns on a post-expense, pre-carry, pre-tax basis.",
+   "hints": [
+    "Vintage-year pooled metrics are used for Category I and II.",
+    "Correct: Cat III uses asset-weighted indices on post-expense, pre-carry, pre-tax returns.",
+    "Returns are pre-tax and indices are asset-weighted.",
+    "Agencies build industry benchmarks, not a single broad index."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-09",
+   "chapter": 11,
+   "difficulty": "hard",
+   "q": "The requirement that Investment Committee members are responsible for their decisions and their compliance with the AIF Regulations does NOT apply to which of the following?",
+   "options": [
+    "All Category III AIFs",
+    "Angel Funds with fewer than 49 investors",
+    "Any AIF whose corpus exceeds ₹500 crore",
+    "Large value funds for accredited investors, and AIFs where each investor (other than insiders) commits at least ₹70 crore and furnishes a waiver"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "IC members are responsible for decisions and compliance, except in LVFs and AIFs where each investor (other than the manager, sponsor and employees or directors) commits at least ₹70 crore (or equivalent) and gives a waiver.",
+   "hints": [
+    "Category III AIFs are not exempt as a class.",
+    "There is no such exemption.",
+    "Corpus size is not the criterion.",
+    "Correct: the LVF and ₹70 crore + waiver exemptions apply."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-10",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "A lead investor sets up a syndicate SPV that invests ₹40 crore in a start-up, with a carry of 20% for the lead. The SPV later exits for ₹100 crore. How much carry does the lead investor earn?",
+   "options": [
+    "₹20 crore",
+    "₹8 crore",
+    "₹12 crore",
+    "₹60 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Carry applies to profit: ₹100 crore − ₹40 crore = ₹60 crore; 20% × 60 = ₹12 crore to the lead. The balance ₹48 crore of profit goes pro-rata to syndicate investors.",
+   "hints": [
+    "This applies 20% to the exit value.",
+    "This applies 20% to the investment amount.",
+    "Correct: profit ₹60 crore × 20% = ₹12 crore.",
+    "₹60 crore is the total profit."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-11",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "What does a Most Favoured Nation (MFN) provision in an AIF side letter entitle an investor to?",
+   "options": [
+    "Priority in distribution over all other investors",
+    "A guaranteed return equal to the best-performing investor's",
+    "Exemption from capital calls",
+    "Elect the benefit of rights contained in other investors' side letters, and potentially view them"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "An MFN provision lets an investor elect the benefit of rights in other investors' side letters and potentially view those side letters. Sponsors and managers should regularise its use so special rights aren't arbitrary.",
+   "hints": [
+    "Priority distribution models are restricted and are not MFN.",
+    "No AIF can guarantee returns.",
+    "MFN doesn't excuse drawdowns.",
+    "Correct: MFN lets an investor claim side-letter rights given to others."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-12",
+   "chapter": 12,
+   "difficulty": "medium",
+   "q": "During manager evaluation, investors should verify that the manager, sponsor and their partners, directors, associates and trustees have no history of outstanding litigation in which they were found guilty for at least:",
+   "options": [
+    "One year",
+    "Three years",
+    "Ten years",
+    "Five years"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Under 'Disciplinary History', the workbook says the manager, sponsor, their partners, directors, associates and trustees should not have a history of outstanding litigation where they were found guilty, for a minimum period of five years.",
+   "hints": [
+    "One year is too short.",
+    "Three years is not the stated period.",
+    "Ten years is not the stated period.",
+    "Correct: the workbook specifies a minimum of five years."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-13",
+   "chapter": 12,
+   "difficulty": "hard",
+   "q": "Institutional investors in AIFs often follow an 'over-commitment strategy'. What does this mean and why is it used?",
+   "options": [
+    "Committing more than the fund's target corpus to force a green shoe",
+    "Forecast capital calls on outstanding commitments exceed current cash balances, to avoid diluting returns with idle cash",
+    "Committing to more than 1,000 AIFs to diversify",
+    "Paying drawdowns earlier than called to earn interest"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Because capital calls and exits are uncertain, holding cash for all potential calls dilutes returns. Institutions therefore over-commit, so that forecast calls on outstanding commitments exceed current cash balances.",
+   "hints": [
+    "Green shoe is the fund's decision, not an investor cash strategy.",
+    "Correct: it manages the cash-drag problem caused by uncertain capital calls.",
+    "That is not the strategy described.",
+    "Early payment is not the over-commitment strategy."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-14",
+   "chapter": 13,
+   "difficulty": "medium",
+   "q": "When can a newly registered AIF launch its FIRST regular scheme under the GARUDA framework?",
+   "options": [
+    "Immediately on filing the PPM",
+    "From the date of grant of SEBI registration or after 10 working days of filing the application, whichever is later",
+    "30 days after SEBI's observations",
+    "From the date of grant of registration, whichever is earlier"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Regular schemes: the first scheme launches from the later of the registration date and 10 working days after filing with SEBI; new schemes launch after 10 working days of filing. AI-only Funds and LVFs launch new schemes immediately on filing.",
+   "hints": [
+    "Immediate launch on filing is available to AI-only Funds and LVFs for NEW schemes only.",
+    "Correct: the later of registration and 10 working days from filing.",
+    "There is no 30-day rule.",
+    "It is the LATER of the two dates."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-15",
+   "chapter": 13,
+   "difficulty": "medium",
+   "q": "How must AIFs compile and disclose data on investor complaints against them and their schemes?",
+   "options": [
+    "Annually, within 180 days of year end",
+    "Quarterly, compiled within 7 days of quarter end, maintained for the last three financial years and disclosed to investors and SEBI",
+    "Monthly, on the AIF's website only",
+    "Only when SEBI asks for it"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "AIFs maintain complaints data for every quarter (March, June, September, December) and the last three financial years, compile it within 7 days of quarter end, and disclose it to investors and SEBI.",
+   "hints": [
+    "180 days is the annual investor report timeline.",
+    "Correct: quarterly data within 7 days, covering the last 3 FYs.",
+    "The format is quarterly, not monthly-only.",
+    "Disclosure is mandatory and periodic."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-16",
+   "chapter": 14,
+   "difficulty": "hard",
+   "q": "A Category III AIF holds 3,00,000 shares of an SME-listed company trading at ₹50. Daily volume is 1,00,000 shares, and each day of selling is expected to push the price down by the 2% lower band (₹50, then ₹49, then ₹48.02). Ignoring discounting, what is the realisable fair value per share?",
+   "options": [
+    "₹50.00",
+    "₹48.02",
+    "≈ ₹49.01",
+    "≈ ₹47.06"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Selling needs 3 days at 1,00,000 shares a day. Proceeds = 1,00,000 × (50 + 49 + 48.02) = ₹1.4702 crore, so ≈ ₹49.01 per share. The workbook further discounts each day's proceeds at the cost of capital.",
+   "hints": [
+    "The quoted price ignores illiquidity.",
+    "This is only the third day's price.",
+    "Correct: (50 + 49 + 48.02) ÷ 3 ≈ ₹49.01.",
+    "This applies three 2% cuts to every share."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-17",
+   "chapter": 14,
+   "difficulty": "medium",
+   "q": "Which investments of a Category III AIF must be valued by an independent valuer?",
+   "options": [
+    "Only listed equity shares",
+    "Only exchange-traded derivatives",
+    "Only units of mutual funds",
+    "Unlisted securities and listed debt securities"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Category III AIFs must keep NAV calculation independent of fund management and value their investments in unlisted securities and listed debt securities through an independent valuer.",
+   "hints": [
+    "Listed equity has market prices.",
+    "Exchange-traded derivatives are marked to market.",
+    "MF units have a published NAV.",
+    "Correct: Cat III AIFs value unlisted securities and listed debt via independent valuers."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-18",
+   "chapter": 15,
+   "difficulty": "medium",
+   "q": "When a close-ended AIF proposes a change in control of its manager, what is the minimum period dissenting unit holders must be given to express their dissent?",
+   "options": [
+    "Not less than 7 days",
+    "Not less than 3 months",
+    "Not less than one month",
+    "Not less than 15 days"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Unit holders must be given not less than one month to express dissent. The buyout must be at not less than the average of 2 independent valuations and completed within 3 months of the last date of the dissent offer.",
+   "hints": [
+    "7 days is too short.",
+    "3 months is the deadline to complete the exit process.",
+    "Correct: at least one month for expressing dissent.",
+    "15 days is not the period."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-19",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "Under trust taxation principles, how is income attributable to REVOCABLE contributions to a Category III AIF trust taxed?",
+   "options": [
+    "In the hands of the trustee at MMR as an indeterminate trust",
+    "At concessional rates in the trustee's hands as representative assessee",
+    "In the hands of the transferor (contributor or settlor)",
+    "It is exempt until the contribution is revoked"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "If the transfer is revocable (re-transfer of income or assets, or power to reassume), the income is taxed in the transferor's hands. Irrevocable trusts are then tested for determinacy.",
+   "hints": [
+    "MMR in the trustee's hands applies to indeterminate (irrevocable) trusts.",
+    "Representative-assessee taxation applies to irrevocable determinate trusts.",
+    "Correct: income from revocable transfers is taxed in the transferor's hands.",
+    "There is no such exemption."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-20",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "A non-resident investor in an AIF wants to claim benefits under a Double Taxation Avoidance Agreement. Which documents must it furnish?",
+   "options": [
+    "A PAN card only",
+    "A no-objection certificate from SEBI",
+    "An FVCI registration certificate",
+    "A Tax Residency Certificate from the foreign tax authority, along with Form 41 filed electronically"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "To claim treaty benefits, a non-resident must get a TRC from its home tax authority and file Form 41 electronically, with other prescribed information. The ITA or the treaty applies, whichever is more beneficial, subject to GAAR and MLI.",
+   "hints": [
+    "A PAN alone doesn't establish treaty eligibility.",
+    "SEBI doesn't issue tax NOCs.",
+    "FVCI registration isn't required for treaty claims.",
+    "Correct: a TRC plus Form 41 (and other prescribed information)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-21",
+   "chapter": 16,
+   "difficulty": "hard",
+   "q": "A Category II AIF converts its compulsorily convertible preference shares in a portfolio company into equity shares and sells the equity 10 months later. What is the tax position?",
+   "options": [
+    "Conversion is a taxable transfer at fair market value",
+    "Conversion is not a transfer; the cost of the preference shares becomes the cost of the equity, and the holding period includes the pre-conversion period",
+    "The holding period of the equity starts afresh on the date of conversion",
+    "Gains on the converted shares are always business income"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Conversion of preference shares (or debentures) into equity of the same company is not a transfer. On later sale, the cost of the convertible is the cost of the equity, and the holding period before conversion counts towards the holding period.",
+   "hints": [
+    "The ITA expressly says conversion is not a transfer.",
+    "Correct: no capital gain on conversion; cost and holding period carry over.",
+    "Pre-conversion holding is included.",
+    "Cat I/II AIF securities are capital assets from FY 2025-26."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-22",
+   "chapter": 17,
+   "difficulty": "hard",
+   "q": "An Angel Fund invested in a start-up 7 months ago and now wants to sell the investment to an unrelated third-party buyer (not the promoters, their associates or a buy-back). Is this permitted?",
+   "options": [
+    "Yes; the lock-in is 6 months when the exit is a sale to a third party",
+    "No; Angel Fund investments are locked in for 1 year in all cases",
+    "No; Angel Funds can exit only through an IPO",
+    "Yes, but only with SEBI's prior approval"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Angel Fund investments are locked in for 1 year, but if the exit is a sale to a third party (not the promoters or their associates, and not a buy-back), the lock-in is 6 months.",
+   "hints": [
+    "Correct: the lock-in drops to 6 months for third-party sales, and 7 months have passed.",
+    "The 1-year lock-in applies to other exits, such as sale to promoters or buy-back.",
+    "There is no IPO-only restriction.",
+    "SEBI approval is not required."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixc-M7-23",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "What is Fund Omega's PIC multiple?",
+   "options": [
+    "1.25",
+    "0.65",
+    "0.80",
+    "0.52"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "PIC multiple = paid-in capital ÷ capital commitments = 400 ÷ 500 = 0.80, showing the fund has drawn most of its commitments.",
+   "hints": [
+    "This inverts the ratio.",
+    "0.65 is the DPI.",
+    "Correct: paid-in ₹400 crore ÷ commitments ₹500 crore = 0.80.",
+    "This divides distributions by commitments."
+   ],
+   "numeric": true,
+   "case": "Fund Omega is a close-ended Category II private equity AIF in its sixth year. Investors have committed ₹500 crore, of which ₹400 crore has been paid in through drawdowns. To date the fund has distributed ₹260 crore to investors from exits. The independent valuer's latest valuation puts the residual value (NAV) of the unrealised portfolio at ₹420 crore. An investor is reviewing the fund's performance multiples before committing to the manager's next fund."
+  },
+  {
+   "id": "xixc-M7-24",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "What is Fund Omega's DPI?",
+   "options": [
+    "0.52",
+    "0.65",
+    "1.70",
+    "1.05"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "DPI (realisation multiple) = cumulative distributions ÷ paid-in capital = 260 ÷ 400 = 0.65.",
+   "hints": [
+    "This divides by commitments (₹500 crore) instead of paid-in capital.",
+    "Correct: distributions ₹260 crore ÷ paid-in ₹400 crore = 0.65.",
+    "1.70 is the TVPI.",
+    "1.05 is the RVPI."
+   ],
+   "numeric": true,
+   "case": "Fund Omega is a close-ended Category II private equity AIF in its sixth year. Investors have committed ₹500 crore, of which ₹400 crore has been paid in through drawdowns. To date the fund has distributed ₹260 crore to investors from exits. The independent valuer's latest valuation puts the residual value (NAV) of the unrealised portfolio at ₹420 crore. An investor is reviewing the fund's performance multiples before committing to the manager's next fund."
+  },
+  {
+   "id": "xixc-M7-25",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "What is Fund Omega's TVPI?",
+   "options": [
+    "1.70",
+    "1.36",
+    "1.05",
+    "0.65"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "TVPI = (cumulative distributions + residual value) ÷ paid-in = (260 + 420) ÷ 400 = 1.70, which equals DPI 0.65 + RVPI 1.05.",
+   "hints": [
+    "Correct: (₹260 + ₹420) crore ÷ ₹400 crore = 1.70.",
+    "This divides total value by commitments (₹500 crore).",
+    "1.05 is only the RVPI.",
+    "0.65 is only the DPI."
+   ],
+   "numeric": true,
+   "case": "Fund Omega is a close-ended Category II private equity AIF in its sixth year. Investors have committed ₹500 crore, of which ₹400 crore has been paid in through drawdowns. To date the fund has distributed ₹260 crore to investors from exits. The independent valuer's latest valuation puts the residual value (NAV) of the unrealised portfolio at ₹420 crore. An investor is reviewing the fund's performance multiples before committing to the manager's next fund."
+  },
+  {
+   "id": "xixc-M7-26",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "Which conclusion about Fund Omega is most appropriate?",
+   "options": [
+    "The fund has already returned more than twice the paid-in capital in cash",
+    "MOIC must equal TVPI here because all commitments have been called",
+    "The fund has destroyed value because TVPI is below 1",
+    "Since RVPI (1.05) exceeds DPI (0.65), most value is still unrealised and depends on the reliability of the valuation of the remaining portfolio"
+   ],
+   "answer": 3,
+   "marks": 2,
+   "explanation": "RVPI (420 ÷ 400 = 1.05) exceeds DPI (0.65), so more than half of the total value is unrealised. The workbook warns that residual value is an estimate, and a large MOIC-to-RVPI gap should prompt a review of asset valuations.",
+   "hints": [
+    "Cash returned is only 0.65× paid-in.",
+    "Only ₹400 crore of ₹500 crore has been called, so MOIC and TVPI need not be equal.",
+    "TVPI is 1.70, above 1.",
+    "Correct: most value is unrealised (RVPI > DPI), so valuation risk matters."
+   ],
+   "numeric": false,
+   "case": "Fund Omega is a close-ended Category II private equity AIF in its sixth year. Investors have committed ₹500 crore, of which ₹400 crore has been paid in through drawdowns. To date the fund has distributed ₹260 crore to investors from exits. The independent valuer's latest valuation puts the residual value (NAV) of the unrealised portfolio at ₹420 crore. An investor is reviewing the fund's performance multiples before committing to the manager's next fund."
+  },
+  {
+   "id": "xixc-M7-27",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "What is the maximum total exposure Fund Kappa may hold on Day T under SEBI's leverage limit?",
+   "options": [
+    "₹300 crore",
+    "₹150 crore",
+    "₹330 crore",
+    "₹225 crore"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "Category III leverage = total exposure (long + short after permitted offsetting) ÷ NAV, and must not exceed 2. Maximum exposure = 2 × ₹150 crore = ₹300 crore.",
+   "hints": [
+    "Correct: leverage can't exceed 2× NAV, so 2 × ₹150 crore = ₹300 crore.",
+    "₹150 crore would mean no leverage at all.",
+    "₹330 crore is the fund's actual exposure.",
+    "1.5× NAV is not the cap."
+   ],
+   "numeric": true,
+   "case": "Fund Kappa is an open-ended Category III AIF following a long-short equity strategy. At the close of trading on Day T its NAV, excluding any borrowed funds, is ₹150 crore. Based on closing prices and after all offsetting permitted by SEBI, its long exposure is ₹210 crore and its short exposure is ₹120 crore. The fund reports its end-of-day leverage to its custodian as required. Day T+1 is a working day."
+  },
+  {
+   "id": "xixc-M7-28",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "What is Fund Kappa's leverage ratio at the close of Day T?",
+   "options": [
+    "0.6 times",
+    "2.2 times",
+    "1.4 times",
+    "2.0 times"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "Total exposure = long ₹210 crore + short ₹120 crore = ₹330 crore (already after permitted offsetting). Leverage = 330 ÷ 150 = 2.2×, above the 2× limit.",
+   "hints": [
+    "This nets short against long (90 ÷ 150) beyond the permitted offsets.",
+    "Correct: (₹210 + ₹120) crore ÷ ₹150 crore = 2.2×, which breaches the limit.",
+    "This counts only the long exposure.",
+    "2.0× is the cap, not the actual ratio."
+   ],
+   "numeric": true,
+   "case": "Fund Kappa is an open-ended Category III AIF following a long-short equity strategy. At the close of trading on Day T its NAV, excluding any borrowed funds, is ₹150 crore. Based on closing prices and after all offsetting permitted by SEBI, its long exposure is ₹210 crore and its short exposure is ₹120 crore. The fund reports its end-of-day leverage to its custodian as required. Day T+1 is a working day."
+  },
+  {
+   "id": "xixc-M7-29",
+   "chapter": 17,
+   "difficulty": "hard",
+   "q": "Given the breach, what must Fund Kappa do regarding its investors?",
+   "options": [
+    "Inform investors within 21 days through the annual report",
+    "Inform investors only if the breach continues for 30 days",
+    "No investor communication is needed; only SEBI is informed",
+    "Send a report to all investors before 10:00 AM on Day T+1 with the reasons, and square off the excess exposure by the end of Day T+1"
+   ],
+   "answer": 3,
+   "marks": 2,
+   "explanation": "On a leverage breach, the Cat III AIF reports to the custodian and sends a report to all investors before 10 AM on the next working day with reasons. It must square off the excess by the end of that day and confirm the square-off to investors the same day.",
+   "hints": [
+    "21 days is the grievance-redressal timeline.",
+    "There is no 30-day grace period.",
+    "Investors must be informed directly by the fund.",
+    "Correct: report before 10 AM next working day, then square off by end of that day and confirm to investors."
+   ],
+   "numeric": false,
+   "case": "Fund Kappa is an open-ended Category III AIF following a long-short equity strategy. At the close of trading on Day T its NAV, excluding any borrowed funds, is ₹150 crore. Based on closing prices and after all offsetting permitted by SEBI, its long exposure is ₹210 crore and its short exposure is ₹120 crore. The fund reports its end-of-day leverage to its custodian as required. Day T+1 is a working day."
+  },
+  {
+   "id": "xixc-M7-30",
+   "chapter": 17,
+   "difficulty": "hard",
+   "q": "By how much must Fund Kappa reduce its exposure, and who reports the breach to SEBI?",
+   "options": [
+    "₹30 crore; the trustee reports to SEBI within 30 days",
+    "₹180 crore; the manager reports to SEBI in the quarterly activity report",
+    "₹90 crore; no report to SEBI is needed",
+    "₹30 crore; the custodian reports to SEBI before 10:00 AM on Day T+1"
+   ],
+   "answer": 3,
+   "marks": 2,
+   "explanation": "Excess exposure = ₹330 crore − ₹300 crore (2 × NAV) = ₹30 crore. The custodian reports to SEBI the fund's name, extent of breach and reasons before 10 AM on the next working day, and confirms the square-off to SEBI the same day.",
+   "hints": [
+    "The amount is right, but the custodian reports, and it is the next working day.",
+    "This is the exposure above NAV, not above the 2× cap; the reporting route is also wrong.",
+    "₹90 crore is net exposure; SEBI must be informed.",
+    "Correct: ₹330 crore − ₹300 crore = ₹30 crore excess; the custodian reports to SEBI before 10 AM next working day."
+   ],
+   "numeric": true,
+   "case": "Fund Kappa is an open-ended Category III AIF following a long-short equity strategy. At the close of trading on Day T its NAV, excluding any borrowed funds, is ₹150 crore. Based on closing prices and after all offsetting permitted by SEBI, its long exposure is ₹210 crore and its short exposure is ₹120 crore. The fund reports its end-of-day leverage to its custodian as required. Day T+1 is a working day."
+  }
+ ]
+}
