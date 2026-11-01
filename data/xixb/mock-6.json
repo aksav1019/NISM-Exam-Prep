@@ -1,0 +1,698 @@
+{
+ "id": "mock-6",
+ "title": "Mock 6 · Leverage, Limits & Waterfalls",
+ "level": "tough",
+ "blurb": "Exam-grade difficulty: leverage and CDS limits, catch-up maths, tricky regulatory nuances and multi-statement questions.",
+ "questions": [
+  {
+   "id": "xixb-M6-01",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "Consider the following statements about hedge funds as described in the workbook: (i) they can invest across financial assets, currencies and complex derivatives; (ii) they take both long and short positions; (iii) they may use significant leverage at the fund level; (iv) they are restricted to listed equities only. Which statements are correct?",
+   "options": [
+    "(i) and (iv) only",
+    "(ii), (iii) and (iv) only",
+    "(i), (ii), (iii) and (iv)",
+    "(i), (ii) and (iii) only"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Hedge funds invest across asset classes (financial assets, currencies, complex derivatives), use complex strategies, take long and short positions and use significant fund-level leverage. They are not restricted to listed equities.",
+   "hints": [
+    "(iv) is false and (ii), (iii) are also true.",
+    "(iv) is false; hedge funds are not restricted to listed equities.",
+    "(iv) contradicts the ability to trade currencies and derivatives.",
+    "Correct: the first three are the differentiating features; (iv) is false."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-02",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "Examine the following: (I) A Special Situations Fund is a Category I AIF; (II) A Debt Fund with no government incentives is a Category II AIF; (III) A Corporate Debt Market Development Fund is a Category III AIF. Which of these are correct?",
+   "options": [
+    "II and III only",
+    "I and III only",
+    "I, II and III",
+    "I and II only"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Category I includes VCFs, SME funds, social impact funds, angel funds, infrastructure funds, special situation funds and CDMDFs. Category II includes PE and debt funds. Hence I and II are correct; III is incorrect.",
+   "hints": [
+    "III is wrong because CDMDF falls in Category I.",
+    "III is wrong; II is also correct.",
+    "III is wrong.",
+    "Correct: CDMDF is a Category I AIF, so III is wrong."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-03",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "A Category III AIF scheme has a corpus of Rs 300 crore. What is the minimum continuing interest its sponsor or manager must maintain?",
+   "options": [
+    "Rs 10 crore",
+    "Rs 15 crore",
+    "Rs 7.5 crore",
+    "Rs 30 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Sponsor/manager continuing interest = not less than 5% of corpus or Rs 10 crore, whichever is lower. 5% of Rs 300 crore = Rs 15 crore; the lower of 15 and 10 is Rs 10 crore. It must be in cash, not by fee waiver.",
+   "hints": [
+    "Correct: lower of 5% x 300 (Rs 15 crore) and Rs 10 crore is Rs 10 crore.",
+    "Rs 15 crore is 5% of corpus but the rule takes the lower figure.",
+    "Rs 7.5 crore is 2.5% of corpus; not the rule.",
+    "Rs 30 crore is 10% of corpus."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-04",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "Which of the following statements comparing PMS with Category III AIFs is INCORRECT?",
+   "options": [
+    "In a PMS the investor directly owns the securities, whereas in a Category III AIF the investor owns units",
+    "A PMS has no minimum corpus requirement, while a Category III AIF scheme needs at least Rs 20 crore",
+    "A portfolio manager must maintain a net worth of Rs 5 crore at all times",
+    "A portfolio manager must contribute at least 5% of the client portfolio or Rs 10 crore, whichever is lower"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Table 3.1: PMS has no pooling, minimum investment Rs 50 lakh, no minimum corpus, no investor cap and no manager contribution requirement, but needs net worth of Rs 5 crore. The 5%/Rs 10 crore skin-in-the-game rule applies to Category III AIFs.",
+   "hints": [
+    "This is a correct statement from Table 3.1.",
+    "This is a correct statement; PMS can start with one client.",
+    "This is a correct statement about the PMS net-worth requirement.",
+    "Correct (this is the incorrect statement): PMS has no manager contribution requirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-05",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "In which of the following situations is the annual audit of compliance with the terms of the PPM NOT required?",
+   "options": [
+    "A Large Value Fund where each investor has committed at least Rs 25 crore",
+    "A Category III AIF with corpus above Rs 500 crore",
+    "A Category III AIF managed by a first-time manager",
+    "A Category III AIF that has raised funds only from domestic investors"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The PPM audit may not apply to (a) Large Value Funds where each investor commits at least Rs 25 crore (USD 3 million), and (b) AIFs that have not raised any funds and submit a CA certificate within 6 months of FY end.",
+   "hints": [
+    "Correct: LVFs are exempt (as are AIFs that raised no funds, with a CA certificate).",
+    "Size of corpus does not create an exemption.",
+    "First-time managers are not exempt.",
+    "Domestic-only funds are not exempt."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-06",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "Which of the following statements about the custodian of a Category III AIF is INCORRECT?",
+   "options": [
+    "For an AIF set up as a trust, the custodian is appointed by the trustees under a custodial agreement",
+    "The custodian must be registered with SEBI under the SEBI (Custodian) Regulations, 1996",
+    "A custodian needs to be appointed only if the scheme corpus exceeds Rs 500 crore",
+    "The custodian keeps custody of goods received on physical settlement of commodity derivatives"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Category III AIFs must compulsorily appoint a SEBI-registered custodian irrespective of corpus size, before the first investment. In a trust, trustees appoint the custodian under a custodial agreement, and the custodian also holds goods received on physical settlement of commodity derivatives.",
+   "hints": [
+    "This is correct for trust-structured AIFs.",
+    "This is a correct requirement.",
+    "Correct (this is the incorrect statement): custodian appointment is compulsory regardless of size.",
+    "This is correct; Cat III custodians also hold commodity deliveries."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-07",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "Ramesh and his wife Lata want to invest jointly as accredited investors. Ramesh's annual income is Rs 1.2 crore and Lata's is Rs 0.9 crore; neither meets any criterion individually. Separately, Ramesh's father Suresh (income Rs 2.5 crore) wants to be accredited jointly with Ramesh. Which statement is correct?",
+   "options": [
+    "Ramesh and Lata do not qualify because each spouse must independently meet the criteria",
+    "Ramesh and Lata qualify jointly as their combined income exceeds Rs 2 crore, and Suresh-Ramesh also qualify because Suresh independently meets the criteria",
+    "Suresh-Ramesh do not qualify because both parent and child must independently meet the criteria",
+    "Neither pair qualifies because joint holders cannot be accredited"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "For joint investors: if they are parent(s) and child(ren), at least one person must independently meet the criteria; if they are spouses, their combined income or net worth is considered. Ramesh + Lata = Rs 2.1 crore income, meeting the Rs 2 crore test; Suresh alone meets it.",
+   "hints": [
+    "For spouses, combined income or net worth is considered.",
+    "Correct: spouses can combine; for parent-child at least one must qualify independently.",
+    "For parent and child, it is enough that one independently meets the criteria.",
+    "Joint accreditation is expressly provided for."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-08",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "An AI-only Category III AIF scheme wants to extend its tenure. What is the maximum extension permitted and with what approval?",
+   "options": [
+    "Up to 2 years, with approval of 75% of unit holders by value",
+    "Up to 5 years, with approval of two-thirds of unit holders by value",
+    "Up to 2 years, with approval of the trustee only",
+    "Unlimited extension, with approval of the manager"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Close-ended Category III AIFs can extend tenure up to 2 years (two 1-year extensions) with two-thirds approval by value. AI-only funds may extend up to 5 years with two-thirds approval; for converted AI-only funds/LVFs the 5 years include prior extensions.",
+   "hints": [
+    "Two years is the limit for ordinary close-ended schemes, and the approval is two-thirds.",
+    "Correct: AI-only funds can extend up to 5 years with two-thirds approval.",
+    "Trustee approval alone is insufficient.",
+    "Extensions are capped and need investor approval."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-09",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "A Category III AIF scheme has a corpus of Rs 200 crore and its estimated administration and management expenses over the tenure are Rs 10 crore. It calculates its concentration limit on investable funds. What is the maximum it can invest (at cost) in one investee company?",
+   "options": [
+    "Rs 20 crore",
+    "Rs 38 crore",
+    "Rs 19 crore",
+    "Rs 21 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Investable funds = corpus net of estimated expenses for administration and management over the tenure = Rs 190 crore. A Category III AIF can invest up to 10% of investable funds in one investee company, i.e. Rs 19 crore, measured at cost.",
+   "hints": [
+    "This applies 10% to corpus rather than investable funds.",
+    "20% applies only to LVFs.",
+    "Correct: investable funds = 200 - 10 = 190; 10% = Rs 19 crore.",
+    "This adds expenses to corpus instead of deducting them."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-10",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "A Category III AIF wants to buy securities from Investor Z, who has committed 55% of the scheme's corpus. What approval is required?",
+   "options": [
+    "Approval of two-thirds of investors by value, including Investor Z",
+    "Approval of 75% of investors by value, with Investor Z excluded from the voting",
+    "No approval, as Investor Z is not an associate",
+    "Approval of SEBI only"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Buying or selling securities from/to associates, schemes managed or sponsored by the manager/sponsor or their associates, or an investor who committed at least 50% of corpus needs approval of 75% of investors by value. Such an investor is excluded from the vote.",
+   "hints": [
+    "The threshold is 75%, and the conflicted investor is excluded.",
+    "Correct: dealing with an investor holding 50% or more needs 75% approval, excluding that investor.",
+    "Investors committing at least 50% of corpus are specifically covered.",
+    "Investor approval is required, not SEBI approval."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-11",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "Which of the following timelines relating to overseas investment by a Category III AIF is correct?",
+   "options": [
+    "The SEBI-allocated overseas limit must be used within 6 months, and utilisation reported within 5 working days",
+    "The overseas limit is valid for 12 months and utilisation is reported annually",
+    "The overseas limit is valid for 3 months and utilisation is reported within 30 days",
+    "The overseas limit never lapses once allocated"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "SEBI approval for overseas investment is valid for 6 months, failing which it lapses and may be reallocated. Utilisation must be reported within 5 working days, and details of sale of overseas investments within 3 working days.",
+   "hints": [
+    "Correct: approval is valid for 6 months; utilisation reported within 5 working days.",
+    "12 months and annual reporting are not the prescribed timelines.",
+    "3 months and 30 days are not prescribed.",
+    "Unutilised limits lapse and may be reallocated by SEBI."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-12",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "Fund X returned 15% with standard deviation 5% and beta 0.9. Fund Y returned 19% with standard deviation 9% and beta 1.4. The risk-free rate is 6%. Which statement is correct?",
+   "options": [
+    "Fund Y is superior on both measures because its return is higher",
+    "Fund X is superior on Sharpe but Fund Y is superior on Treynor",
+    "Fund Y is superior on Sharpe but Fund X is superior on Treynor",
+    "Fund X is superior on both Sharpe (1.80 vs 1.44) and Treynor (10.0 vs 9.29)"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Sharpe X = (15-6)/5 = 1.80; Sharpe Y = (19-6)/9 = 1.44. Treynor X = 9/0.9 = 10.0; Treynor Y = 13/1.4 = 9.29. Fund X wins on both, illustrating that the higher-returning fund is not necessarily better.",
+   "hints": [
+    "Higher raw return does not mean higher risk-adjusted return.",
+    "Y's Treynor (13/1.4 = 9.29) is lower than X's (9/0.9 = 10).",
+    "Y's Sharpe (13/9 = 1.44) is lower than X's (9/5 = 1.8).",
+    "Correct: X has higher risk-adjusted returns on both ratios."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-13",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "A Category III AIF started with called-up capital of Rs 80 crore, a compounding hurdle of 12% p.a. and an incentive fee of 20%. At the end of Year 2, NAV (pre-incentive) is Rs 103 crore and the high-water mark is Rs 92 crore. What is the incentive fee for Year 2?",
+   "options": [
+    "About Rs 52.96 lakh",
+    "About Rs 2.20 crore",
+    "About Rs 76.00 lakh",
+    "Nil, as NAV is below the reference hurdle"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Reference hurdle Y1 = 80 x 1.12 = 89.6; Y2 = 89.6 x 1.12 = 100.352 crore. Minimum NAV for incentive = higher of hurdle (100.352) and HWM (92) = 100.352. Excess = 2.648 crore; incentive = 20% = Rs 0.5296 crore (about Rs 52.96 lakh).",
+   "hints": [
+    "Correct: hurdle = 80 x 1.12^2 = 100.352; 20% x (103 - 100.352) = Rs 0.5296 crore.",
+    "This uses the high-water mark (103 - 92) instead of the higher reference hurdle.",
+    "This uses a simple-interest hurdle of Rs 99.2 crore (80 x 1.24); the hurdle compounds to Rs 100.352 crore.",
+    "NAV of 103 is above the reference hurdle of 100.352."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-14",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "Which of the following statements about DPI, RVPI and TVPI is NOT correct?",
+   "options": [
+    "Before capital calls and investing begin, TVPI is less than 1 because of fees and expenses",
+    "RVPI equals TVPI plus DPI",
+    "When the fund has fully exited all investments, DPI equals TVPI",
+    "During the growth phase, most of the fund's value is captured in RVPI"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "TVPI = DPI + RVPI. Before investing, TVPI < 1 due to fees; during growth, value is mainly in RVPI; at full exit RVPI = 0 and DPI = TVPI.",
+   "hints": [
+    "This is a correct statement from the workbook.",
+    "Correct (this is the false statement): TVPI = DPI + RVPI.",
+    "This is correct; RVPI becomes zero at full exit.",
+    "This is correct; value sits in unrealised investments during growth."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-15",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "Fund A's return distribution shows positive skewness, while Fund B's shows negative skewness, with similar means and standard deviations. How should a prudent investor interpret this?",
+   "options": [
+    "Fund A is riskier because positive skewness indicates frequent losses",
+    "Both are equally risky as their standard deviations are similar",
+    "Skewness is irrelevant once kurtosis is known",
+    "Fund B is riskier because its outliers lie more on the downside, below the mean"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Skewness measures asymmetry around the mean. Investors should be wary of outliers below the mean; between two skewed distributions, positive skewness is preferred over negative skewness.",
+   "hints": [
+    "Positive skewness reflects outliers above the mean, which are usually welcome.",
+    "Standard deviation alone misses the asymmetry of outliers.",
+    "Skewness and kurtosis give different information and are used together.",
+    "Correct: negative skewness means downside outliers, so positive skew is preferred."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-16",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "A fund holds long positions of Rs 6 crore in stock A (beta 1.5) and Rs 4 crore in stock B (beta 0.5), and a short position of Rs 10 crore in stock C (beta 1.1). What is the beta-weighted net exposure and what strategy does this resemble?",
+   "options": [
+    "Net beta of 1.0, consistent with a long-only strategy",
+    "Net beta of -1.1, consistent with a short-bias strategy",
+    "Zero beta exposure, consistent with a market-neutral strategy",
+    "Net beta of 2.1, consistent with a leveraged directional strategy"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Using weights relative to Rs 10 crore: 0.6 x 1.5 = 0.90, 0.4 x 0.5 = 0.20, short -1.0 x 1.1 = -1.10. Net = 0, so the portfolio is market-neutral (beta near zero), though stock-specific risk remains.",
+   "hints": [
+    "This ignores the short position.",
+    "This ignores the long positions.",
+    "Correct: 0.6 x 1.5 + 0.4 x 0.5 - 1.0 x 1.1 = 0.9 + 0.2 - 1.1 = 0.",
+    "This adds the short instead of subtracting it."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-17",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "A convertible bond of face value Rs 1,000 converts into 20 equity shares. The share trades at Rs 55 and the bond trades at Rs 1,040. What would a convertible arbitrage fund most likely do?",
+   "options": [
+    "Buy the bond and short the shares, since the conversion value of Rs 1,100 exceeds the bond price",
+    "Short the bond and buy the shares, since the bond is overpriced",
+    "Do nothing, since the bond is fairly priced at face value",
+    "Buy both the bond and the shares to maximise exposure"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Conversion value = 20 x Rs 55 = Rs 1,100. The bond at Rs 1,040 is cheap relative to the stock, so the arbitrageur buys the convertible and shorts the equity, profiting as the mispricing corrects while earning coupons.",
+   "hints": [
+    "Correct: conversion value 20 x 55 = Rs 1,100 > Rs 1,040, so the bond is cheap.",
+    "The bond is underpriced, not overpriced, relative to conversion value.",
+    "Fair value here is driven by conversion value, not face value.",
+    "Buying both is directional, not arbitrage."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-18",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "A Category III AIF has NAV of Rs 40 crore and holds listed equities worth Rs 32 crore (its only exposure). It plans to buy stock futures with a lot size of 1,000 shares at Rs 1,200 per share. Assuming NAV stays at Rs 40 crore, what is the maximum number of lots it can buy without breaching the leverage limit?",
+   "options": [
+    "333 lots",
+    "400 lots",
+    "66 lots",
+    "666 lots"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Maximum exposure = 2 x NAV = Rs 80 crore. Existing exposure = Rs 32 crore, leaving Rs 48 crore. Each lot = 1,000 x Rs 1,200 = Rs 12 lakh. Maximum lots = 48,00,00,000 / 12,00,000 = 400.",
+   "hints": [
+    "This divides NAV (40 crore) by lot value, ignoring the 2x cap and existing holdings.",
+    "Correct: max exposure 80 crore; room = 80 - 32 = 48 crore; 48 crore / 12 lakh per lot = 400.",
+    "This divides only the cash (8 crore) by lot value.",
+    "This ignores the existing equity exposure of Rs 32 crore."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-19",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Which of the following would NOT be eligible to act as the independent valuer of a Category III AIF?",
+   "options": [
+    "An IBBI-registered valuer and ICAI member with 5 years' experience who is an associate of the fund's sponsor",
+    "An IBBI-registered valuer and CFA charterholder with 4 years' experience in valuing unlisted securities",
+    "A subsidiary of a SEBI-registered credit rating agency with 6 years' experience in valuing unlisted securities",
+    "An IBBI-registered valuer entity whose deputed valuer is an ICMAI member, with 3 years' relevant experience"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "An independent valuer must not be an associate of the manager, sponsor or trustee, must have at least 3 years' experience in valuing unlisted securities and must be IBBI-registered with ICAI/ICSI/ICMAI/CFA membership, or a holding/subsidiary company of a SEBI-registered credit rating agency.",
+   "hints": [
+    "Correct: the valuer must not be an associate of the manager, sponsor or trustee.",
+    "This meets the IBBI + CFA and experience criteria.",
+    "A credit rating agency's subsidiary is an eligible category.",
+    "A registered valuer entity with a qualified deputed person is eligible."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-20",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "A Category III AIF (determinate trust) earns long-term capital gains of Rs 10 crore on STT-paid listed equity shares. Applying the Rs 1.25 lakh exemption, 12.5% tax, 15% surcharge and 4% cess, what is the approximate total tax?",
+   "options": [
+    "About Rs 1.49 crore",
+    "About Rs 1.25 crore",
+    "About Rs 1.62 crore",
+    "About Rs 2.39 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Taxable LTCG = Rs 10,00,00,000 - 1,25,000 = Rs 9,98,75,000. Tax @12.5% = Rs 1,24,84,375; surcharge @15% = Rs 18,72,656; cess @4% = Rs 5,74,281; total about Rs 1,49,31,312.",
+   "hints": [
+    "Correct: (10 crore - 1.25 lakh) x 12.5% = 1.248 crore; x 1.15 x 1.04 = Rs 1.493 crore.",
+    "This is just 12.5% on Rs 10 crore without surcharge and cess.",
+    "This applies a 25% surcharge, which does not apply to such gains.",
+    "This applies the 20% STCG rate with surcharge and cess."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-21",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "As per the CBDT circular on income from transfer of listed shares held for more than 12 months, if a Category III AIF opts to treat such income as capital gains in one assessment year:",
+   "options": [
+    "The fund can switch to business income in the next year at will",
+    "The Assessing Officer will not dispute it, but the fund must continue that treatment in subsequent years",
+    "The Assessing Officer must always treat it as business income",
+    "The treatment applies even to sham transactions"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "For listed shares held over 12 months, the AO will not dispute a capital gains classification, but once the option is taken the fund must treat such income as capital gains in subsequent years. It does not apply to sham transactions. Stock-in-trade treatment gives business income.",
+   "hints": [
+    "Once chosen, the fund is bound to continue the capital gains treatment.",
+    "Correct: the option is respected but binding for later years.",
+    "The circular allows capital gains treatment without dispute.",
+    "The option does not apply where genuineness is questioned."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-22",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "Which of the following actions by a Category III AIF distributor is NOT consistent with the model code of conduct?",
+   "options": [
+    "Disclosing the hurdle rate, catch-up and expenses chargeable to the fund",
+    "Recommending Class A units mainly because they carry the highest distribution commission for the distributor",
+    "Encouraging investors to read the PPM before investing",
+    "Comparing the fund only with similar and comparable Category III AIFs"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The model code requires distributors to protect investors' interest and ensure commissions or incentives never form the basis for recommending a scheme, while disclosing commissions, fees, hurdle and catch-up.",
+   "hints": [
+    "Disclosure of fee terms is required by the code.",
+    "Correct: commissions must never be the basis for recommending a scheme.",
+    "Encouraging PPM reading is required by the code.",
+    "Fair comparison with comparable funds is required by the code."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M6-23",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "What is Helios's leverage ratio after permitted offsetting?",
+   "options": [
+    "2.24 times",
+    "1.38 times",
+    "1.60 times",
+    "1.92 times"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "After netting the matched Rs 80 crore long and short positions, exposure = Rs 280 crore long + Rs 120 crore short = Rs 400 crore. NAV excludes borrowed funds, so leverage = 400 / 250 = 1.6 times, within the 2x cap.",
+   "hints": [
+    "This ignores the permitted offset (560 / 250).",
+    "This wrongly adds borrowings to NAV (400 / 290).",
+    "Correct: (360 - 80) + (200 - 80) = 400; 400 / 250 = 1.6.",
+    "This offsets only one side (480 / 250 = 1.92)."
+   ],
+   "numeric": true,
+   "case": "Helios Macro Fund is a Category III AIF scheme with investable funds of Rs 300 crore. On 10 March 2027 its NAV is Rs 250 crore; the fund has also borrowed Rs 40 crore, which is not part of NAV. Its derivative and cash positions total Rs 360 crore long and Rs 200 crore short. Of these, Rs 80 crore of short positions exactly offset Rs 80 crore of long positions on the same underlying with the same expiry, and SEBI norms allow them to be netted. Helios has also sold an unhedged credit default swap (CDS) of Rs 70 crore on Company X, earmarking unencumbered G-Secs of Rs 70 crore, and separately holds bonds of Company X costing Rs 10 crore."
+  },
+  {
+   "id": "xixb-M6-24",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "Did Helios need to intimate all unit holders before taking the unhedged CDS position of Rs 70 crore?",
+   "options": [
+    "Yes, because any CDS sale needs prior intimation",
+    "Yes, because it exceeds 25% of NAV (Rs 62.5 crore)",
+    "No, because it is within 25% of investable funds (Rs 75 crore)",
+    "No, because CDS positions are exempt from all limits"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Gross unhedged CDS positions should be up to 25% of investable funds of the scheme; beyond that, positions can be taken only after intimating all unit holders. 25% of Rs 300 crore = Rs 75 crore, so Rs 70 crore needs no prior intimation.",
+   "hints": [
+    "Intimation is needed only when gross unhedged CDS exceeds 25% of investable funds.",
+    "The test is based on investable funds, not NAV.",
+    "Correct: the 25% test uses investable funds: 25% x 300 = Rs 75 crore.",
+    "CDS positions remain subject to leverage and concentration limits."
+   ],
+   "numeric": true,
+   "case": "Helios Macro Fund is a Category III AIF scheme with investable funds of Rs 300 crore. On 10 March 2027 its NAV is Rs 250 crore; the fund has also borrowed Rs 40 crore, which is not part of NAV. Its derivative and cash positions total Rs 360 crore long and Rs 200 crore short. Of these, Rs 80 crore of short positions exactly offset Rs 80 crore of long positions on the same underlying with the same expiry, and SEBI norms allow them to be netted. Helios has also sold an unhedged credit default swap (CDS) of Rs 70 crore on Company X, earmarking unencumbered G-Secs of Rs 70 crore, and separately holds bonds of Company X costing Rs 10 crore."
+  },
+  {
+   "id": "xixb-M6-25",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "Considering its bond holding and the CDS sold on Company X, what is Helios's position against the single-investee concentration limit?",
+   "options": [
+    "Exposure of Rs 10 crore is within the limit, as CDS is excluded",
+    "Exposure of Rs 80 crore is within the 20% LVF limit of Rs 60 crore",
+    "Total exposure to Company X of Rs 80 crore exceeds the 10% limit of Rs 30 crore",
+    "Exposure of Rs 70 crore is within the limit of 2 times NAV"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Total exposure to one investee company, including exposure through CDS, must be within the concentration limit of 10% of investable funds (Rs 30 crore). Bonds Rs 10 crore + CDS Rs 70 crore = Rs 80 crore, a breach.",
+   "hints": [
+    "CDS exposure must be included when testing concentration.",
+    "Helios is not stated to be an LVF, and Rs 80 crore exceeds Rs 60 crore anyway.",
+    "Correct: exposure through CDS counts towards the concentration limit.",
+    "Leverage cap is a different test from concentration."
+   ],
+   "numeric": true,
+   "case": "Helios Macro Fund is a Category III AIF scheme with investable funds of Rs 300 crore. On 10 March 2027 its NAV is Rs 250 crore; the fund has also borrowed Rs 40 crore, which is not part of NAV. Its derivative and cash positions total Rs 360 crore long and Rs 200 crore short. Of these, Rs 80 crore of short positions exactly offset Rs 80 crore of long positions on the same underlying with the same expiry, and SEBI norms allow them to be netted. Helios has also sold an unhedged credit default swap (CDS) of Rs 70 crore on Company X, earmarking unencumbered G-Secs of Rs 70 crore, and separately holds bonds of Company X costing Rs 10 crore."
+  },
+  {
+   "id": "xixb-M6-26",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "If the market value of Helios's earmarked G-Secs falls below the CDS exposure, what must it do?",
+   "options": [
+    "Report to the custodian the same day and restore earmarked securities by the end of the next trading day; else the custodian reports to SEBI on the next working day",
+    "Inform SEBI within 30 days and restore within the quarter",
+    "Close the CDS position immediately without informing anyone",
+    "Inform investors in the next quarterly report only"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "If earmarked securities fall below CDS exposure, the AIF reports to the custodian on the same day, restores the earmark and reports rectification by the end of the next trading day. If not rectified, the custodian reports the breach to SEBI on the next working day.",
+   "hints": [
+    "Correct: same-day report to custodian, rectify by next trading day.",
+    "The timelines are much shorter than 30 days or a quarter.",
+    "Reporting to the custodian is mandatory.",
+    "Waiting for the quarterly report is not permitted."
+   ],
+   "numeric": false,
+   "case": "Helios Macro Fund is a Category III AIF scheme with investable funds of Rs 300 crore. On 10 March 2027 its NAV is Rs 250 crore; the fund has also borrowed Rs 40 crore, which is not part of NAV. Its derivative and cash positions total Rs 360 crore long and Rs 200 crore short. Of these, Rs 80 crore of short positions exactly offset Rs 80 crore of long positions on the same underlying with the same expiry, and SEBI norms allow them to be netted. Helios has also sold an unhedged credit default swap (CDS) of Rs 70 crore on Company X, earmarking unencumbered G-Secs of Rs 70 crore, and separately holds bonds of Company X costing Rs 10 crore."
+  },
+  {
+   "id": "xixb-M6-27",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "What is the cumulative hurdle return investors must receive over the 3-year tenure?",
+   "options": [
+    "Rs 24.00 crore",
+    "Rs 8.00 crore",
+    "About Rs 25.97 crore",
+    "About Rs 40.00 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Hurdle return = 100 x (1.08)^3 - 100 = 125.97 - 100 = Rs 25.97 crore.",
+   "hints": [
+    "This is simple interest (3 x 8%), but the hurdle compounds.",
+    "This is one year's hurdle only.",
+    "Correct: 100 x (1.08^3 - 1) = Rs 25.97 crore.",
+    "Rs 40 crore is the total profit, not the hurdle."
+   ],
+   "numeric": true,
+   "case": "Sterling Value Fund, a close-ended Category III AIF, had committed capital of Rs 100 crore, fully drawn on day one, and a tenure of 3 years. At the end of the tenure, its NAV after all expenses and management fees but before any profit share is Rs 140 crore. The PPM provides a compounding hurdle rate of 8% p.a. and a manager's profit share (incentive) of 20% of total profits. Distributions follow the waterfall: return of capital, then hurdle return to investors, then catch-up (if any) to the manager, then the remaining profits."
+  },
+  {
+   "id": "xixb-M6-28",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "If the contribution agreement has NO catch-up clause, how much does the manager receive?",
+   "options": [
+    "Rs 8.00 crore",
+    "About Rs 14.03 crore",
+    "About Rs 5.19 crore",
+    "About Rs 2.81 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Without catch-up, residual profits after capital and hurdle (Rs 140 - 100 - 25.97 = Rs 14.03 crore) are split 20:80, so the manager gets about Rs 2.81 crore and investors receive the rest.",
+   "hints": [
+    "Rs 8 crore is the manager's target share, reachable only with catch-up.",
+    "This gives the manager the entire residual.",
+    "This is 20% of the hurdle amount, which is not how the split works.",
+    "Correct: residual = 40 - 25.97 = 14.03; 20% x 14.03 = Rs 2.81 crore."
+   ],
+   "numeric": true,
+   "case": "Sterling Value Fund, a close-ended Category III AIF, had committed capital of Rs 100 crore, fully drawn on day one, and a tenure of 3 years. At the end of the tenure, its NAV after all expenses and management fees but before any profit share is Rs 140 crore. The PPM provides a compounding hurdle rate of 8% p.a. and a manager's profit share (incentive) of 20% of total profits. Distributions follow the waterfall: return of capital, then hurdle return to investors, then catch-up (if any) to the manager, then the remaining profits."
+  },
+  {
+   "id": "xixb-M6-29",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "With a 100% catch-up clause, how much does the manager receive?",
+   "options": [
+    "About Rs 14.03 crore",
+    "Rs 8.00 crore",
+    "About Rs 2.81 crore",
+    "Rs 28.00 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Manager's pre-determined share = 20% x total profit of Rs 40 crore = Rs 8 crore. With 100% catch-up, residual profits go to the manager until it receives Rs 8 crore; the remaining Rs 6.03 crore goes to investors.",
+   "hints": [
+    "After the manager reaches its 20% share, the excess goes to investors.",
+    "Correct: target share = 20% x 40 = 8 crore; residual of 14.03 crore covers it.",
+    "This is the no-catch-up answer.",
+    "This takes 20% of NAV, not of profits."
+   ],
+   "numeric": true,
+   "case": "Sterling Value Fund, a close-ended Category III AIF, had committed capital of Rs 100 crore, fully drawn on day one, and a tenure of 3 years. At the end of the tenure, its NAV after all expenses and management fees but before any profit share is Rs 140 crore. The PPM provides a compounding hurdle rate of 8% p.a. and a manager's profit share (incentive) of 20% of total profits. Distributions follow the waterfall: return of capital, then hurdle return to investors, then catch-up (if any) to the manager, then the remaining profits."
+  },
+  {
+   "id": "xixb-M6-30",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "Suppose instead that Sterling's NAV at the end of tenure was only Rs 130 crore (all else same, 100% catch-up). How much would the manager receive?",
+   "options": [
+    "Rs 6.00 crore",
+    "About Rs 0.81 crore",
+    "Nil",
+    "About Rs 4.03 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Total profit = Rs 30 crore; manager target = 20% x 30 = Rs 6 crore. After capital and hurdle (Rs 25.97 crore), residual is Rs 4.03 crore. With 100% catch-up, the manager takes all Rs 4.03 crore but falls short of its target share.",
+   "hints": [
+    "Rs 6 crore (20% of 30) cannot be fully paid because residual is only Rs 4.03 crore.",
+    "This is the no-catch-up answer (20% of 4.03).",
+    "There is a positive residual after hurdle, so the manager gets something.",
+    "Correct: residual = 30 - 25.97 = 4.03 crore, less than the 6 crore target, so all of it goes to the manager."
+   ],
+   "numeric": true,
+   "case": "Sterling Value Fund, a close-ended Category III AIF, had committed capital of Rs 100 crore, fully drawn on day one, and a tenure of 3 years. At the end of the tenure, its NAV after all expenses and management fees but before any profit share is Rs 140 crore. The PPM provides a compounding hurdle rate of 8% p.a. and a manager's profit share (incentive) of 20% of total profits. Distributions follow the waterfall: return of capital, then hurdle return to investors, then catch-up (if any) to the manager, then the remaining profits."
+  }
+ ]
+}

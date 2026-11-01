@@ -1,0 +1,583 @@
+{
+ "id": "mock-5",
+ "title": "Mock 5 · Full-Syllabus Revision",
+ "level": "easy",
+ "blurb": "A balanced sweep of all ten chapters, ending with a risk-adjusted performance case.",
+ "questions": [
+  {
+   "id": "xixb-M5-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which of the following is listed in the workbook as a LIMITATION of alternative investments?",
+   "options": [
+    "They help diversify risk beyond traditional avenues",
+    "They provide growth capital to businesses that cannot access bank finance",
+    "They offer alpha from off-market investment strategies",
+    "They do not satisfy the requirement for regular income"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Table 1.2 lists limitations such as complex structuring, tedious documentation, low transparency, complex return computation, illiquidity and not satisfying the need for regular income.",
+   "hints": [
+    "Diversification is a benefit.",
+    "Providing growth capital is a benefit.",
+    "Alpha generation is a benefit.",
+    "Correct: lack of regular income is a stated limitation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Which type of AIF may act as a resolution applicant under the Insolvency and Bankruptcy Code, 2016?",
+   "options": [
+    "Social Impact Fund",
+    "Angel Fund",
+    "Special Situations Fund",
+    "Corporate Debt Market Development Fund"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A Special Situations Fund invests in special situation assets (stressed loans, ARC security receipts, securities of distressed companies) and may act as a resolution applicant under the IBC, 2016.",
+   "hints": [
+    "Social Impact Funds invest in social ventures.",
+    "Angel Funds invest in start-ups.",
+    "Correct: Special Situations Funds invest in special situation assets and may be resolution applicants.",
+    "CDMDFs buy corporate bonds from debt MFs during dislocation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-03",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Which of the following persons can act as trustee of a Category III AIF set up as a trust?",
+   "options": [
+    "A person of ability and integrity who is not the manager, director, officer or employee of the investment management company",
+    "An independent director of the investment management company",
+    "The chief investment officer of the investment management company",
+    "An employee of the investment management company"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The trustee should be a person of ability and integrity, not guilty of moral turpitude, economic offence or securities law violations, and cannot be the manager, director (including independent director), officer or employee of the investment management company.",
+   "hints": [
+    "Correct: the trustee must be independent of the investment management company.",
+    "Even independent directors of the manager are barred.",
+    "Officers of the manager cannot be trustees.",
+    "Employees of the manager cannot be trustees."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Which of the following is NOT one of the principles of SEBI's Stewardship Code for AIFs investing in listed equities?",
+   "options": [
+    "AIFs should have a clear policy on voting and disclosure of voting activity",
+    "AIFs should monitor their investee companies",
+    "AIFs should guarantee a minimum return to investors from each investee company",
+    "AIFs should report periodically on their stewardship activities"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The Stewardship Code requires a stewardship policy, a conflicts policy, monitoring of investee companies, an intervention and collaboration policy, a voting policy with disclosure, and periodic reporting. Guaranteeing returns is not a principle.",
+   "hints": [
+    "Voting policy and disclosure is a stewardship principle.",
+    "Monitoring investee companies is a stewardship principle.",
+    "Correct: no stewardship principle involves guaranteeing returns.",
+    "Periodic reporting is a stewardship principle."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-05",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "In a unified structure, what is a 'wrapper'?",
+   "options": [
+    "A separate offshore fund created for large investors",
+    "An insurance policy covering the fund manager",
+    "A supplement attached to the domestic fund's PPM when it is distributed at offshore locations, to comply with private placement rules there",
+    "A derivative used to hedge currency risk"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A wrapper is a supplement attached to the PPM of the domestic fund distributed at offshore locations (unified structure), helping comply with private placement requirements in those jurisdictions.",
+   "hints": [
+    "A separate offshore vehicle describes parallel or feeder funds.",
+    "Insurance policies are E&O, D&O or key-man covers.",
+    "Correct: a wrapper adapts the domestic PPM for offshore private placement.",
+    "A currency hedge is not called a wrapper."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-06",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which of the following is typically recorded in the Contribution Agreement between an investor and a Category III AIF?",
+   "options": [
+    "Capital drawdown mechanism, fee structure and distribution mechanism",
+    "Appointment of the investment manager by the trustee",
+    "Registration of the trust under the Registration Act, 1908",
+    "The custodian's internal operating procedures"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The Contribution Agreement records the terms on which an investor participates, covering beneficial interest, drawdowns, fee structures, distribution mechanism, fund expenses, investment committee powers and governance.",
+   "hints": [
+    "Correct: the contribution agreement records terms of investor participation.",
+    "That is the Investment Management Agreement.",
+    "Registration relates to the trust deed.",
+    "Custodial procedures are in the custody agreement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-07",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "In the annual audit of compliance with PPM terms, the audit of which of the following sections is OPTIONAL?",
+   "options": [
+    "Review of management fees charged for each class of units",
+    "Review of capital commitments received and drawdowns made",
+    "Risk Factors",
+    "Review of distributions and additional return charged to investors"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Audit of PPM sections on Risk Factors, Legal/Regulatory/Tax Considerations, Track Record of First Time Managers, Illustration of Fees and Expenses, and Glossary is optional. Fees, drawdowns and distributions are within the audit scope.",
+   "hints": [
+    "Management fee review is within the mandatory scope.",
+    "Commitments and drawdowns review is within the mandatory scope.",
+    "Correct: Risk Factors is one of the optional sections.",
+    "Distributions and additional return review is within the mandatory scope."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which individual qualifies as an accredited investor on the basis of income alone?",
+   "options": [
+    "An individual with annual income of at least Rs 2 crore",
+    "An individual with annual income of Rs 1 crore and no other assets",
+    "An individual with net worth of Rs 5 crore, all in real estate",
+    "An individual with annual income of Rs 50 lakh"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Individuals, HUFs, family trusts, sole proprietors and partnerships qualify with annual income of at least Rs 2 crore; or net worth of Rs 7.5 crore (Rs 3.75 crore financial); or income of Rs 1 crore plus net worth of Rs 5 crore (Rs 2.5 crore financial).",
+   "hints": [
+    "Correct: annual income of Rs 2 crore by itself meets the criteria.",
+    "Rs 1 crore income needs net worth of Rs 5 crore with Rs 2.5 crore in financial assets.",
+    "Net worth must be Rs 7.5 crore with half in financial assets, or combined with income.",
+    "Rs 50 lakh income is far below the threshold."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-09",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which statement about the compliance officer of a Category III AIF's manager is correct?",
+   "options": [
+    "The CEO may also act as compliance officer to save cost",
+    "The compliance officer must be a person other than the CEO and must report non-compliance to SEBI within 7 working days of observing it",
+    "The compliance officer reports non-compliance only in the annual report",
+    "The compliance officer must be an employee of the custodian"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The manager must designate an employee or director other than the CEO as compliance officer, who gives an independent report to SEBI on any non-compliance immediately or within 7 working days. NISM Series-III-C certification is required.",
+   "hints": [
+    "SEBI requires someone other than the CEO.",
+    "Correct: the compliance officer cannot be the CEO and reports within 7 working days.",
+    "Reporting is immediate or within 7 working days, not annual.",
+    "The compliance officer is designated by the investment manager."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-10",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "After receiving SEBI's in-principle approval, what can a Category III AIF applicant do before its trust deed is registered?",
+   "options": [
+    "Accept commitments from investors, but not call or accept money until the registration certificate is received",
+    "Call and invest investors' money immediately",
+    "Launch the scheme and declare NAV",
+    "Nothing at all until the deed is registered"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "After in-principle approval, the applicant must register the trust or partnership deed within 6 months, may start accepting commitments, but shall not call or accept money until the registration certificate is received.",
+   "hints": [
+    "Correct: commitments are allowed, money is not.",
+    "Money cannot be called before the registration certificate.",
+    "Launch and NAV declaration come after registration.",
+    "Accepting commitments is permitted after in-principle approval."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-11",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "An investor was excused from an investment because it conflicts with its disclosed internal policy. Within how many days must the investor report any change in that internal policy to the fund manager, as per the contribution agreement?",
+   "options": [
+    "7 days",
+    "30 days",
+    "60 days",
+    "15 days"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Where an investor is excused because participation would contravene its disclosed internal policy, the contribution agreement must require reporting of any change in that policy to the manager within 15 days.",
+   "hints": [
+    "7 days is not the prescribed period.",
+    "30 days is not the prescribed period.",
+    "60 days is the quarterly disclosure timeline.",
+    "Correct: changes must be reported within 15 days."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-12",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Performance benchmarking of AIFs through benchmarking agencies is carried out at what frequency?",
+   "options": [
+    "Monthly, based on month-end NAVs",
+    "Quarterly, based on quarter-end NAVs",
+    "Annually, based on March 31 data only",
+    "Half-yearly, based on data as on September 30 and March 31"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Performance benchmarking is done half-yearly on data as on September 30 and March 31. AIFs completing one year from first close report data; March data must be audited, September data may be unaudited.",
+   "hints": [
+    "Monthly is the NAV disclosure frequency for open-ended funds.",
+    "Quarterly is the NAV disclosure frequency for close-ended funds.",
+    "September data is also used (unaudited).",
+    "Correct: benchmarking is half-yearly with September and March data."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-13",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Two Category III AIFs have similar mean returns, but Fund A has a standard deviation of 2.06% and Fund B of 8.44%. What does this indicate?",
+   "options": [
+    "Fund B's returns are far more volatile, so it carries higher historical risk",
+    "Fund A is riskier because its standard deviation is lower",
+    "Both funds carry identical risk because their means are similar",
+    "Fund B will certainly give higher returns in future"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Standard deviation measures volatility of returns around the mean. A higher standard deviation (8.44%) indicates greater historical risk, so a prudent investor would prefer the less volatile fund for similar returns.",
+   "hints": [
+    "Correct: higher standard deviation means higher volatility of returns.",
+    "Lower standard deviation means lower, not higher, risk.",
+    "Similar means do not imply similar dispersion.",
+    "Past volatility does not guarantee future returns."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-14",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A pre-IPO Category III AIF bought shares of a company at Rs 120 per share. The company's IPO issue price is Rs 130. What discount to the issue price did the fund receive (approximately)?",
+   "options": [
+    "8.3%",
+    "10.0%",
+    "13.0%",
+    "7.7%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Discount to issue price = (130 - 120) / 130 = 7.69%, about 7.7%. Such pre-IPO shares are subject to SEBI ICDR lock-in from the date of listing.",
+   "hints": [
+    "Dividing by the purchase price (10/120) gives the markup, not the discount to issue price.",
+    "Rs 10 is not 10% of the issue price.",
+    "This confuses the issue price with a percentage.",
+    "Correct: (130 - 120) / 130 = 7.7%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-15",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "During due diligence, an investor finds that a Category III AIF depends entirely on one star fund manager with no capable second line. Which risk does this primarily highlight?",
+   "options": [
+    "Counterparty risk",
+    "Key-person risk",
+    "Interest rate risk",
+    "Foreign exchange risk"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Any adverse event affecting the key investment manager can hamper fund operations; investors should hold on-site meetings to assess whether the fund depends only on one person (key-person risk).",
+   "hints": [
+    "Counterparty risk relates to brokers, banks and settlement.",
+    "Correct: dependence on one individual is key-person risk.",
+    "Interest rate risk relates to rate changes.",
+    "FX risk relates to currency movements."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-16",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "In the money market, transactions with a tenor of 2 days to 14 days fall under which segment?",
+   "options": [
+    "Notice money market",
+    "Overnight market",
+    "Term money market",
+    "Capital market"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Money market tenors: overnight (one working day), notice money (2 to 14 days) and term money (15 days to one year).",
+   "hints": [
+    "Correct: notice money covers 2 to 14 days.",
+    "Overnight is one working day.",
+    "Term money is 15 days to one year.",
+    "Capital market instruments exceed one year."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-17",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "How are Treasury bills and Government Securities held by a Category III AIF valued under the mark-to-market approach described in the workbook?",
+   "options": [
+    "At amortised cost without reference to market trades",
+    "Using the volume weighted average yield (VWAY) of trades in the last one hour of trading",
+    "At face value until maturity",
+    "At the highest traded price of the day"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "T-bills and G-Secs are valued using VWAY for trades in the last one hour; other money market and debt securities use VWAY of all trades in the day.",
+   "hints": [
+    "MTM is preferred over amortised cost for these instruments.",
+    "Correct: VWAY of the last hour is used for T-bills and G-Secs.",
+    "Face value ignores market movements.",
+    "The highest price is not the valuation basis."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-18",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "At what rate is Securities Transaction Tax levied on the seller on the sale of futures in securities?",
+   "options": [
+    "0.1%",
+    "0.125%",
+    "0.02%",
+    "0.001%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "STT rates in the workbook: delivery equity 0.1%; sale of options 0.1% (0.125% on purchaser when exercised); sale of futures 0.02%; non-delivery equity 0.025%; sale of equity MF units 0.001%.",
+   "hints": [
+    "0.1% applies to delivery-based equity and to sale of options.",
+    "0.125% applies to the purchaser where an option is exercised.",
+    "Correct: STT on sale of futures is 0.02%, payable by the seller.",
+    "0.001% applies to sale of equity MF units."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-19",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A Category III AIF set up as an indeterminate trust earns capital gains and dividend income. How is this income taxed?",
+   "options": [
+    "The income passes through and is taxed at each investor's slab rate",
+    "The income is exempt because the beneficiaries are not known",
+    "Only business income is taxed; capital gains are exempt",
+    "The trustee is assessed as representative assessee and pays tax on the entire income at the maximum marginal rate"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "In an indeterminate trust, beneficiaries and their shares are not specified, so the trustee pays tax at MMR on the fund's income and no income is taxed in the hands of unit holders.",
+   "hints": [
+    "Pass-through requires a determinate trust.",
+    "Unknown beneficiaries lead to MMR, not exemption.",
+    "There is no such exemption for capital gains.",
+    "Correct: indeterminate trusts are taxed at MMR on the entire income."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-20",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Which of the following is NOT a best practice under a distributor's confidentiality policy?",
+   "options": [
+    "Encrypting electronic information and safeguarding databases",
+    "Allowing all employees access to all confidential information",
+    "Asking employees to sign non-disclosure agreements",
+    "Storing backups of confidential data at a disaster recovery site"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Best practices include encryption, NDAs, firewalls, regular backups at a DR site, locked storage of paper documents and senior-management authorisation for access to confidential information.",
+   "hints": [
+    "Encryption is a recommended practice.",
+    "Correct: access should be authorised and need-based, not open to all.",
+    "NDAs are a recommended practice.",
+    "Regular backups at a DR site are recommended."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-21",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Which statement about the pitch book of a Category III AIF is correct?",
+   "options": [
+    "It must be published in newspapers before the first close",
+    "It replaces the PPM as the legal offer document",
+    "It is a confidential document meant strictly for private circulation to prospective investors or appointed distributors",
+    "It may contain return projections that differ from the PPM to attract investors"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A pitch book is a confidential document prepared by the manager after analysing the PPM, meant strictly for private circulation to suitable investors or appointed distributors, with transparent and non-misleading disclosures.",
+   "hints": [
+    "Public advertisement would breach private placement norms.",
+    "The PPM remains the regulated offer document.",
+    "Correct: the pitch book is confidential and privately circulated.",
+    "Pitch books must not contain misleading information."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M5-22",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Which fund has the higher Sharpe ratio, and what is it?",
+   "options": [
+    "Fund Q, with a Sharpe ratio of about 1.67",
+    "Fund P, with a Sharpe ratio of about 1.67",
+    "Fund Q, with a Sharpe ratio of about 1.17",
+    "Fund P, with a Sharpe ratio of about 2.67"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Sharpe = (Rp - Rf)/sigma. Fund P: 10/6 = 1.67. Fund Q: 14/12 = 1.17. Fund P gives more excess return per unit of total risk.",
+   "hints": [
+    "Fund Q's Sharpe is 1.17, not 1.67.",
+    "Correct: P = (16 - 6)/6 = 1.67 versus Q = (20 - 6)/12 = 1.17.",
+    "1.17 is Q's ratio, but it is lower than P's.",
+    "16/6 ignores the risk-free rate."
+   ],
+   "numeric": true,
+   "case": "An insurance company is comparing two Category III AIFs for a one-year allocation. Fund P returned 16% with a standard deviation of 6% and a beta of 0.8. Fund Q returned 20% with a standard deviation of 12% and a beta of 1.6. The 364-day T-bill rate is 6% and the chosen benchmark (a Category III AIF index) returned 11% over the same year. During the year, Fund Q's AUM peaked at Rs 800 crore before falling to a low of Rs 680 crore and then recovering."
+  },
+  {
+   "id": "xixb-M5-23",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "What is Fund Q's Treynor ratio?",
+   "options": [
+    "12.50",
+    "8.75",
+    "1.17",
+    "17.50"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Treynor ratio = (Rp - Rf)/beta = (20% - 6%)/1.6 = 8.75. Fund P's Treynor is 10/0.8 = 12.5, so P is also better per unit of systematic risk.",
+   "hints": [
+    "12.50 is Fund P's Treynor ratio (10/0.8).",
+    "Correct: (20 - 6) / 1.6 = 8.75.",
+    "1.17 is Fund Q's Sharpe ratio.",
+    "This divides Fund Q's excess return by Fund P's beta of 0.8."
+   ],
+   "numeric": true,
+   "case": "An insurance company is comparing two Category III AIFs for a one-year allocation. Fund P returned 16% with a standard deviation of 6% and a beta of 0.8. Fund Q returned 20% with a standard deviation of 12% and a beta of 1.6. The 364-day T-bill rate is 6% and the chosen benchmark (a Category III AIF index) returned 11% over the same year. During the year, Fund Q's AUM peaked at Rs 800 crore before falling to a low of Rs 680 crore and then recovering."
+  },
+  {
+   "id": "xixb-M5-24",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "Using CAPM with the benchmark as the market, what alpha did Fund Q generate?",
+   "options": [
+    "6.0%",
+    "9.0%",
+    "-3.6%",
+    "14.0%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "CAPM expected return = Rf + beta x (Rm - Rf) = 6% + 1.6 x 5% = 14%. Alpha = actual return - expected return = 20% - 14% = 6%.",
+   "hints": [
+    "Correct: E(R) = 6 + 1.6 x (11 - 6) = 14%; alpha = 20 - 14 = 6%.",
+    "20 - 11 compares with the benchmark directly, ignoring beta.",
+    "Applying beta to the full benchmark return (6 + 1.6 x 11 = 23.6%) gives -3.6%; beta applies only to the market risk premium.",
+    "14% is the expected return, not alpha."
+   ],
+   "numeric": true,
+   "case": "An insurance company is comparing two Category III AIFs for a one-year allocation. Fund P returned 16% with a standard deviation of 6% and a beta of 0.8. Fund Q returned 20% with a standard deviation of 12% and a beta of 1.6. The 364-day T-bill rate is 6% and the chosen benchmark (a Category III AIF index) returned 11% over the same year. During the year, Fund Q's AUM peaked at Rs 800 crore before falling to a low of Rs 680 crore and then recovering."
+  },
+  {
+   "id": "xixb-M5-25",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "What was Fund Q's maximum drawdown during the year?",
+   "options": [
+    "-17.6%",
+    "-12.0%",
+    "-85.0%",
+    "-15.0%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Maximum drawdown = (Trough - Peak)/Peak = (680 - 800)/800 = -15%. It shows the worst peak-to-trough fall but not how often losses occur or recovery time.",
+   "hints": [
+    "Dividing by the trough (120/680) gives -17.6%; MDD uses the peak.",
+    "This takes 120 as a percentage of 1,000.",
+    "680/800 = 85% is the remaining value.",
+    "Correct: (680 - 800) / 800 = -15%."
+   ],
+   "numeric": true,
+   "case": "An insurance company is comparing two Category III AIFs for a one-year allocation. Fund P returned 16% with a standard deviation of 6% and a beta of 0.8. Fund Q returned 20% with a standard deviation of 12% and a beta of 1.6. The 364-day T-bill rate is 6% and the chosen benchmark (a Category III AIF index) returned 11% over the same year. During the year, Fund Q's AUM peaked at Rs 800 crore before falling to a low of Rs 680 crore and then recovering."
+  }
+ ]
+}

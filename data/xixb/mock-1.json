@@ -1,0 +1,583 @@
+{
+ "id": "mock-1",
+ "title": "Mock 1 · Foundations",
+ "level": "easy",
+ "blurb": "Core definitions, the headline Category III limits and a gentle first case on investor onboarding.",
+ "questions": [
+  {
+   "id": "xixb-M1-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "What is the essential characteristic that distinguishes alternative investments from traditional investments?",
+   "options": [
+    "Illiquidity, as they are not readily convertible into cash",
+    "Guaranteed returns above bank deposits",
+    "Daily NAV disclosure to the public",
+    "Availability to retail investors with small amounts"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Traditional investments are liquid (exit via market or redemption). Alternative investments are off-market or complex structures without a ready market, so their essential characteristic is illiquidity.",
+   "hints": [
+    "Correct: the workbook calls illiquidity the essential characteristic of alternatives.",
+    "No investment in this space guarantees returns.",
+    "Daily NAV is typical of mutual funds, a traditional product.",
+    "Alternatives target sophisticated investors, not small retail tickets."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Under the SEBI (AIF) Regulations, 2012, a Private Equity Fund is registered under which category?",
+   "options": [
+    "Category I AIF",
+    "Category III AIF",
+    "Specified AIF",
+    "Category II AIF"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Category II is the residual category for AIFs that do not fall in Category I or III and do not use leverage beyond operational needs; Private Equity Funds and Debt Funds are the examples given.",
+   "hints": [
+    "Category I covers socially or economically desirable sectors like VCFs, SME and infra funds.",
+    "Category III is for hedge funds and complex trading strategies with leverage.",
+    "Specified AIF is a separate fourth category; PE funds are not placed there.",
+    "Correct: PE and debt funds with no special incentives fall in Category II."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-03",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "A Category III AIF scheme has total capital commitments of Rs 500 crore. So far the manager has drawn down Rs 320 crore through capital calls. What is the 'dry powder' of the scheme?",
+   "options": [
+    "Rs 320 crore",
+    "Rs 500 crore",
+    "Rs 180 crore",
+    "Rs 820 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Dry powder is committed capital not yet drawn down: Rs 500 crore committed minus Rs 320 crore invested capital = Rs 180 crore.",
+   "hints": [
+    "Rs 320 crore is the invested (drawn-down) capital, not dry powder.",
+    "Rs 500 crore is the total committed capital.",
+    "Correct: 500 - 320 = Rs 180 crore of undrawn commitments.",
+    "Adding committed and drawn amounts has no meaning."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "In a Category III AIF, the 'High-Water Mark' refers to:",
+   "options": [
+    "The higher of the subscription price of a unit class or the highest net NAV achieved at the end of any previous financial year",
+    "The minimum annual return promised to investors before any fee is paid",
+    "The maximum leverage permitted as a multiple of NAV",
+    "The highest exit load chargeable after the lock-in period"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "High-water mark is the higher of the subscription price of units issued to a class or the highest net NAV at the end of any previous financial year. It ensures the manager is not paid incentive fees twice for recovering the same losses.",
+   "hints": [
+    "Correct: this is the workbook definition used for computing incremental returns.",
+    "That describes the hurdle rate, and it is a benchmark, not a promise.",
+    "The leverage cap is 2 times NAV; it is not called a high-water mark.",
+    "Exit loads (0-5%) are unrelated to the high-water mark."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-05",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "For a Category III AIF set up as a trust, which document is executed by the settlor to create the trust and appoint the trustee?",
+   "options": [
+    "Contribution Agreement",
+    "Investor Side Letter",
+    "Subscription Agreement",
+    "Indenture of Trust (Trust Deed)"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "An AIF formed as a trust requires a settlor who appoints the trustee by executing the Trust Deed (Indenture of Trust). The trustee then signs an Investment Management Agreement with the manager.",
+   "hints": [
+    "The contribution agreement is between an investor and the fund.",
+    "Side letters record special terms for particular investors.",
+    "Subscription agreements are used by offshore funds for investor subscriptions.",
+    "Correct: the settlor settles the trust and appoints the trustee by executing the trust deed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-06",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "By when must the custodian of a Category III AIF scheme be appointed?",
+   "options": [
+    "Prior to the date of the first investment of the scheme",
+    "Within 6 months of the final close",
+    "Only when the corpus exceeds Rs 100 crore",
+    "Before the scheme is wound up"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Sponsors or managers of Category III AIFs must compulsorily appoint a SEBI-registered custodian, irrespective of corpus size, and the custodian must be appointed prior to the date of first investment of the scheme.",
+   "hints": [
+    "Correct: SEBI requires the custodian to be in place before the first investment.",
+    "Waiting till after final close would leave early investments unprotected.",
+    "Custodian appointment is compulsory irrespective of corpus size.",
+    "Winding-up is far too late; custody is needed throughout."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which of the following is a function of the merchant banker appointed by a Category III AIF?",
+   "options": [
+    "Conducting independent due diligence of PPM disclosures and filing the PPM with SEBI along with a due diligence certificate",
+    "Holding the securities of the fund in safekeeping",
+    "Computing the daily NAV of the fund",
+    "Collecting stamp duty on issue and transfer of units"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The merchant banker independently verifies the PPM disclosures, gives a due diligence certificate, files the draft PPM with SEBI and ensures SEBI's comments are incorporated. It must not be an associate of the AIF, sponsor, manager or trustee.",
+   "hints": [
+    "Correct: PPMs of regular schemes are filed with SEBI only through a SEBI-registered merchant banker.",
+    "Safekeeping is the custodian's role.",
+    "NAV computation is done by fund administrators/accountants.",
+    "Stamp duty is collected by RTAs acting as collecting agents."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "A Category III AIF scheme has a Net Asset Value of Rs 60 crore. What is the maximum total exposure (long plus short, after permitted offsetting) it can take?",
+   "options": [
+    "Rs 60 crore",
+    "Rs 90 crore",
+    "Rs 120 crore",
+    "Rs 180 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "SEBI caps leverage of a Category III AIF at 2 times its NAV, where Leverage = total exposure / NAV. With NAV of Rs 60 crore, exposure can go up to Rs 120 crore.",
+   "hints": [
+    "That would be leverage of 1, which is below the permitted cap.",
+    "1.5 times NAV is not the SEBI limit.",
+    "Correct: leverage cannot exceed 2 times NAV, so 2 x 60 = Rs 120 crore.",
+    "3 times NAV breaches the 2x leverage limit."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-09",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "What registration fee must an applicant pay to SEBI for approval of registration as a Category III AIF?",
+   "options": [
+    "Rs 1 lakh",
+    "Rs 5 lakh",
+    "Rs 25 lakh",
+    "Rs 15 lakh"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "An application for registration as a Category III AIF is accompanied by a non-refundable application fee of Rs 1 lakh, and a registration fee of Rs 15 lakh is payable for approval of registration.",
+   "hints": [
+    "Rs 1 lakh is the non-refundable application fee, not the registration fee.",
+    "Rs 5 lakh is not prescribed for Category III registration.",
+    "Rs 25 lakh is the employee minimum investment, not a fee.",
+    "Correct: registration fee is Rs 15 lakh, separate from the Rs 1 lakh application fee."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-10",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Within what time must the manager of a Category III AIF redress an investor grievance?",
+   "options": [
+    "Within 7 working days",
+    "Within 30 working days",
+    "Not later than 21 calendar days from receipt of the grievance",
+    "Within 60 days from the end of the quarter"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The manager shall redress investor grievances promptly but not later than twenty-one calendar days from the date of receipt of the grievance.",
+   "hints": [
+    "7 working days is the compliance officer's timeline to report non-compliance to SEBI.",
+    "30 working days is not the prescribed grievance timeline.",
+    "Correct: the regulations require prompt redressal, not later than 21 calendar days.",
+    "60 days is the timeline for quarterly disclosures to investors."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-11",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which of the following pairs may invest together as joint investors in a Category III AIF while being treated as a single investor for the Rs 1 crore minimum?",
+   "options": [
+    "An investor and his or her business partner",
+    "An investor and two of his or her children together",
+    "An investor and his or her cousin",
+    "An investor and his or her spouse"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "An AIF can accept as joint investors an investor and spouse, parent, or son/daughter, with not more than 2 persons acting as joint investors. For other joint investors, the Rs 1 crore minimum applies to each investor.",
+   "hints": [
+    "Business partners are not among the permitted joint-investor relations.",
+    "Not more than 2 persons can act as joint investors.",
+    "Cousins are not among the specified relations; each would need Rs 1 crore.",
+    "Correct: spouse, parent or child can be a joint investor, with not more than 2 persons."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-12",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "On what base is the management fee of a Category III AIF normally computed, as per the workbook?",
+   "options": [
+    "Total committed capital of investors",
+    "Gross Net Asset Value (GNAV) of the fund",
+    "Net profit earned during the year",
+    "Number of units issued to investors"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Management fees are charged as a fixed percentage (1% to 2.5%) of the Gross NAV of the fund, with GST at 18% added, and are payable irrespective of gains or losses.",
+   "hints": [
+    "The workbook notes fees are not charged on committed capital in its examples.",
+    "Correct: the workbook computes management fees on GNAV, not on commitments.",
+    "Fees linked to profit are incentive fees, not management fees.",
+    "Unit count alone is not a fee base."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-13",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "A Category III AIF earned a return of 18% with a standard deviation of 8%. The risk-free rate is 6%. What is its Sharpe ratio?",
+   "options": [
+    "2.25",
+    "0.67",
+    "1.50",
+    "3.00"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Sharpe ratio = (Rp - Rf) / sigma = (18% - 6%) / 8% = 1.5. A Sharpe ratio above 1 is considered preferable.",
+   "hints": [
+    "18/8 ignores the risk-free rate.",
+    "This inverts the ratio (8/12).",
+    "Correct: (18 - 6) / 8 = 1.5.",
+    "12/4 uses the wrong denominator."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-14",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A '130/30' long-short Category III AIF with investable funds of Rs 100 crore would typically hold:",
+   "options": [
+    "Long positions of Rs 130 crore and short positions of Rs 30 crore, giving net exposure of Rs 100 crore",
+    "Long positions of Rs 130 crore and no short positions",
+    "Long positions of Rs 30 crore and short positions of Rs 130 crore",
+    "Equal long and short positions of Rs 65 crore each"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "130/30 funds take 130% long and 30% short positions as a percentage of total investable funds, so net market exposure equals 100% of investable funds.",
+   "hints": [
+    "Correct: 130% long, 30% short, net 100% of investable funds.",
+    "Without the 30% short, it would not be a 130/30 fund.",
+    "That reverses the structure into a net-short fund.",
+    "Equal long and short positions describe a market-neutral approach."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-15",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "In a convertible arbitrage strategy, a Category III AIF typically:",
+   "options": [
+    "Buys the target company's shares and shorts the acquirer's shares",
+    "Buys the convertible bonds of a company and short-sells the same company's equity shares",
+    "Buys pre-IPO shares at a discount to the issue price",
+    "Takes equal long and short positions across different sectors"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Convertible arbitrage is a long-short strategy: long convertible securities and short the same company's equity, to profit from mispricing relative to the conversion ratio.",
+   "hints": [
+    "That describes merger arbitrage.",
+    "Correct: long the convertible, short the equity of the same issuer.",
+    "That describes a pre-IPO strategy.",
+    "That describes a market-neutral approach."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-16",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "At what minimum interval must the NAV of an open-ended Category III AIF be disclosed to investors?",
+   "options": [
+    "Quarterly",
+    "Half-yearly",
+    "Annually",
+    "Monthly"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "NAV must be disclosed to investors at quarterly intervals for close-ended funds and at monthly intervals for open-ended funds, and its calculation must be independent of the fund management function.",
+   "hints": [
+    "Quarterly disclosure applies to close-ended Category III AIFs.",
+    "Half-yearly is too infrequent under the regulations.",
+    "Annual disclosure is not permitted for NAV.",
+    "Correct: open-ended funds disclose NAV at monthly intervals."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-17",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A Category III AIF has total assets of Rs 120 crore and total liabilities of Rs 6 crore, with 10 lakh units outstanding. What is its NAV per unit?",
+   "options": [
+    "Rs 1,140.0000",
+    "Rs 1,200.0000",
+    "Rs 1,260.0000",
+    "Rs 1,134.0000"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "NAV per unit = (Total assets - Total liabilities) / Units = (Rs 120 crore - Rs 6 crore) / 10,00,000 = Rs 1,140, rounded to four decimals.",
+   "hints": [
+    "Correct: (120 - 6) crore / 10 lakh = Rs 1,140.",
+    "This ignores liabilities.",
+    "This adds liabilities instead of subtracting them.",
+    "This subtracts liabilities twice."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-18",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Which categories of AIFs enjoy tax pass-through status under Section 224 of the Income Tax Act, 2025?",
+   "options": [
+    "All three categories of AIFs",
+    "Category III AIFs only",
+    "Category II and Category III AIFs only",
+    "Category I and Category II AIFs only"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 224 defines 'Investment Fund' to include Category I and Category II AIFs; Category III AIFs are not Investment Funds and so do not get pass-through status.",
+   "hints": [
+    "Category III AIFs are excluded from the Investment Fund definition.",
+    "Category III is the one category without pass-through.",
+    "Category III is not included.",
+    "Correct: 'Investment Fund' covers only Category I and II AIFs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-19",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Gains made by a Category III AIF from transactions in futures and options are taxed as:",
+   "options": [
+    "Long-term capital gains at 12.5%",
+    "Profits and Gains from Business or Profession, at the maximum marginal rate",
+    "Income from other sources at slab rates of investors",
+    "Exempt income, as derivatives are hedging tools"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Gains from transactions in futures and options are treated as 'Profits and Gains from Business and Profession' and the fund pays tax on them at the Maximum Marginal Rate.",
+   "hints": [
+    "Derivative gains are not treated as capital gains for Cat III AIFs.",
+    "Correct: the workbook treats F&O gains as business income at MMR.",
+    "They are not classified as income from other sources.",
+    "There is no exemption for derivative gains outside IFSC rules."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-20",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "A distributor offers to give back part of his commission to an investor who subscribes to a Category III AIF. This practice is called a:",
+   "options": [
+    "Soft-dollar arrangement, which is permitted with disclosure",
+    "Pass-back, which distributors must not offer",
+    "Trail commission, which is mandatory",
+    "Catch-up, which is a standard fee feature"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Pass-backs are indirect incentives where the distributor returns part of the commission to the investor. They create a conflict as investors may decide based on the rebate rather than fund merit, and the model code requires abstaining from them.",
+   "hints": [
+    "Soft-dollar deals involve using client money to pay for research, not commission rebates.",
+    "Correct: pass-backs are an unfair practice that distorts investment decisions.",
+    "Trail commission is how AIFs pay distributors, not a rebate to investors.",
+    "Catch-up relates to manager's profit share, not distributor commission."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-21",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Which insurance policy compensates a Category III AIF for losses from the death, incapacity, kidnap or disability of its investment manager?",
+   "options": [
+    "Key-man insurance",
+    "Errors and Omissions (E&O) insurance",
+    "Directors and Officers (D&O) liability insurance",
+    "Professional indemnity insurance"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Key-man insurance compensates the fund for financial losses from the death or incapacity of a key executive such as the investment manager, covering events like death, incapacity, kidnap or disability.",
+   "hints": [
+    "Correct: key-man insurance covers loss of a key executive's services.",
+    "E&O covers losses to investors from errors or omissions in services.",
+    "D&O protects directors and officers from personal losses in lawsuits.",
+    "Professional indemnity is another name for E&O cover."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M1-22",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "What is the minimum amount Meera, an employee of the investment manager, must invest in Orion Absolute Return Fund?",
+   "options": [
+    "Rs 1 crore",
+    "Rs 25 lakh",
+    "Rs 50 lakh",
+    "Rs 10 lakh"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Minimum investment in a Category III AIF is Rs 1 crore, but for employees or directors of the AIF or of its manager the minimum is Rs 25 lakh.",
+   "hints": [
+    "Rs 1 crore applies to ordinary investors like Raghav.",
+    "Correct: employees or directors of the AIF or its manager can invest a minimum of Rs 25 lakh.",
+    "Rs 50 lakh is the PMS minimum, not the AIF employee minimum.",
+    "Rs 10 lakh is the SIF minimum."
+   ],
+   "numeric": false,
+   "case": "Mr. Raghav Rao, a 45-year-old business owner, wants to invest in 'Orion Absolute Return Fund', a close-ended Category III AIF. The scheme has a target corpus of Rs 150 crore. His daughter Meera works as an analyst with the fund's investment manager and also wishes to invest. Raghav's friend Mr. Iyer holds an accreditation certificate from an accreditation agency and wants to invest only Rs 60 lakh. The fund charges a management fee of 2% p.a. on Gross NAV (GST at 18% extra). At the end of Year 1, the fund's Gross NAV is Rs 160 crore."
+  },
+  {
+   "id": "xixb-M1-23",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "If Orion's corpus is exactly Rs 150 crore, what is the minimum continuing interest the sponsor or manager must hold in the scheme?",
+   "options": [
+    "Rs 10 crore",
+    "Rs 15 crore",
+    "Rs 7.5 crore",
+    "Rs 1.5 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The sponsor or manager of a Category III AIF must have a continuing interest of not less than 5% of the corpus or Rs 10 crore, whichever is lower. 5% of Rs 150 crore = Rs 7.5 crore, which is lower than Rs 10 crore.",
+   "hints": [
+    "Rs 10 crore is higher than 5% of the corpus, so it is not the lower figure.",
+    "Rs 15 crore is 10% of corpus; the rule uses 5%.",
+    "Correct: lower of 5% x 150 = Rs 7.5 crore and Rs 10 crore is Rs 7.5 crore.",
+    "Rs 1.5 crore is only 1% of corpus."
+   ],
+   "numeric": true,
+   "case": "Mr. Raghav Rao, a 45-year-old business owner, wants to invest in 'Orion Absolute Return Fund', a close-ended Category III AIF. The scheme has a target corpus of Rs 150 crore. His daughter Meera works as an analyst with the fund's investment manager and also wishes to invest. Raghav's friend Mr. Iyer holds an accreditation certificate from an accreditation agency and wants to invest only Rs 60 lakh. The fund charges a management fee of 2% p.a. on Gross NAV (GST at 18% extra). At the end of Year 1, the fund's Gross NAV is Rs 160 crore."
+  },
+  {
+   "id": "xixb-M1-24",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Can Orion accept Mr. Iyer's investment of Rs 60 lakh?",
+   "options": [
+    "No, every investor must invest at least Rs 1 crore without exception",
+    "Yes, but only if he invests jointly with his spouse",
+    "Yes, because the Rs 1 crore minimum investment does not apply to accredited investors",
+    "No, accredited investors can invest only in Large Value Funds"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Under the accredited investor framework, accredited investors get flexibility in minimum investment amount; the Rs 1 crore minimum is not applicable to them.",
+   "hints": [
+    "The regulations specifically exempt accredited investors from the Rs 1 crore minimum.",
+    "Joint investment is not the reason; accreditation is.",
+    "Correct: the minimum investment requirement is not applicable to accredited investors.",
+    "Accredited investors can invest in regular schemes too, with flexibility on ticket size."
+   ],
+   "numeric": false,
+   "case": "Mr. Raghav Rao, a 45-year-old business owner, wants to invest in 'Orion Absolute Return Fund', a close-ended Category III AIF. The scheme has a target corpus of Rs 150 crore. His daughter Meera works as an analyst with the fund's investment manager and also wishes to invest. Raghav's friend Mr. Iyer holds an accreditation certificate from an accreditation agency and wants to invest only Rs 60 lakh. The fund charges a management fee of 2% p.a. on Gross NAV (GST at 18% extra). At the end of Year 1, the fund's Gross NAV is Rs 160 crore."
+  },
+  {
+   "id": "xixb-M1-25",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "What is the total management fee (including GST) payable by Orion for Year 1?",
+   "options": [
+    "Rs 3.200 crore",
+    "Rs 3.776 crore",
+    "Rs 3.540 crore",
+    "Rs 3.000 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Management fee = 2% x Gross NAV of Rs 160 crore = Rs 3.20 crore. GST at 18% = Rs 0.576 crore. Total = Rs 3.776 crore. The fee is computed on GNAV, not on corpus or commitments.",
+   "hints": [
+    "This excludes GST.",
+    "Correct: 2% x 160 = 3.20 crore; plus 18% GST (0.576) = Rs 3.776 crore.",
+    "This applies the fee and GST on the target corpus of Rs 150 crore.",
+    "This is 2% of Rs 150 crore without GST."
+   ],
+   "numeric": true,
+   "case": "Mr. Raghav Rao, a 45-year-old business owner, wants to invest in 'Orion Absolute Return Fund', a close-ended Category III AIF. The scheme has a target corpus of Rs 150 crore. His daughter Meera works as an analyst with the fund's investment manager and also wishes to invest. Raghav's friend Mr. Iyer holds an accreditation certificate from an accreditation agency and wants to invest only Rs 60 lakh. The fund charges a management fee of 2% p.a. on Gross NAV (GST at 18% extra). At the end of Year 1, the fund's Gross NAV is Rs 160 crore."
+  }
+ ]
+}

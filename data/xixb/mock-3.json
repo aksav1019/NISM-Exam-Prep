@@ -1,0 +1,583 @@
+{
+ "id": "mock-3",
+ "title": "Mock 3 · Rules of the Road",
+ "level": "easy",
+ "blurb": "Regulatory guard-rails (leverage, corpus, winding-up, overseas limits) with a case on running an open-ended scheme.",
+ "questions": [
+  {
+   "id": "xixb-M3-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Units of a Real Estate Investment Trust (REIT) are best described in the workbook's classification as belonging to which category of investments?",
+   "options": [
+    "Purely traditional investments with liquid underlying assets",
+    "Dual category: illiquid underlying assets but liquid, listed instruments",
+    "Purely alternative investments with no secondary market",
+    "Excluded from both categories as real estate is not a financial asset"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The dual class covers structures with illiquid underlying assets whose instruments are liquid because they are listed or redeemable, such as REITs, InvITs and security receipts.",
+   "hints": [
+    "The underlying rent-yielding properties are illiquid, so they are not purely traditional.",
+    "Correct: REITs have illiquid underlying property but trade on exchanges.",
+    "REIT units are listed and tradable, so they have a market.",
+    "REIT units are financial securities and are classified in the dual category."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "What is the tenure of a Corporate Debt Market Development Fund (CDMDF) set up as a Category I AIF?",
+   "options": [
+    "5 years from the date of registration",
+    "10 years from the date of final close",
+    "Perpetual, as it is open-ended",
+    "15 years from the date of its first closing"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A Corporate Debt Market Development Fund is a close-ended AIF formed as a trust with a 15-year tenure from first close. Its units are issued to AMCs and specified debt MF schemes, and it buys corporate bonds during market dislocation.",
+   "hints": [
+    "5 years relates to the residual maturity cap of bonds it buys, not its tenure.",
+    "10 years is not the prescribed tenure.",
+    "CDMDF is close-ended, not perpetual.",
+    "Correct: CDMDF is a close-ended trust with a 15-year tenure from first close."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-03",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Which statement correctly contrasts a Category III AIF with a mutual fund?",
+   "options": [
+    "Both must declare NAV daily",
+    "A Category III AIF raises money only through private placement, whereas a mutual fund raises money through a public issue",
+    "A mutual fund requires a minimum corpus of Rs 20 crore, a Category III AIF has none",
+    "Both are capped at 1,000 investors per scheme"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Table 3.2: mutual funds raise money by public issue with daily NAV and no investor cap; Category III AIFs use private placement, need a minimum corpus of Rs 20 crore and allow up to 1,000 investors.",
+   "hints": [
+    "Cat III NAV may be daily, monthly or quarterly as per the PPM.",
+    "Correct: private placement vs public issue is a key difference.",
+    "It is the reverse: Cat III needs Rs 20 crore, MFs have no minimum corpus.",
+    "Mutual funds have no upper cap on investors."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "After the lock-in period ends, the exit load charged by Category III AIF managers typically ranges between:",
+   "options": [
+    "0% and 5% of the NAV",
+    "0% and 1% of the NAV",
+    "5% and 10% of the NAV",
+    "10% and 20% of the NAV"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Exit load is charged on redemptions after the lock-in but before the end of fund tenure. After the lock-in period ends, exit load can range between 0 and 5% of NAV, sometimes higher for earlier exits.",
+   "hints": [
+    "Correct: exit load after lock-in typically ranges from 0 to 5% of NAV.",
+    "The workbook range extends to 5%, not just 1%.",
+    "5-10% is above the range described.",
+    "10-20% resembles incentive fee ranges, not exit loads."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-05",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "In which fund structure do offshore funds in Mauritius and Singapore invest directly in Indian investee companies alongside the onshore Category III AIF, with the Indian manager giving only non-binding advice?",
+   "options": [
+    "Parallel (co-investment) structure",
+    "Unified structure",
+    "Master-feeder structure",
+    "Onshore fund structure"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "In a parallel structure, offshore pooling vehicles invest directly in investee companies alongside the domestic AIF. The Indian manager can provide non-binding advisory services, and fees can be costlier than in a master-feeder structure.",
+   "hints": [
+    "Correct: parallel funds invest side by side, each taking independent decisions.",
+    "In a unified structure the offshore fund invests into the onshore AIF, not directly.",
+    "In master-feeder, feeders invest into the Indian master fund.",
+    "A pure onshore fund has no offshore vehicles investing directly."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-06",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Within what period must the findings of the annual PPM audit be communicated to the trustee/board, the manager's board and SEBI?",
+   "options": [
+    "Within 30 days from the end of the financial year",
+    "Within 3 months from the end of the financial year",
+    "Within 6 months from the end of the financial year",
+    "Within 1 year from the end of the financial year"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "AIFs must carry out a yearly audit of compliance with PPM terms, and the findings with corrective steps must be communicated to the trustee/board/designated partners, the manager's board and SEBI within 6 months from the end of the financial year.",
+   "hints": [
+    "30 days is the Compliance Test Report timeline.",
+    "3 months is not the prescribed period.",
+    "Correct: PPM audit findings are due within 6 months of FY end.",
+    "1 year is far beyond the deadline."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "A large investor insists on a clause that protects it from any other investor being given better terms than it. This clause is known as the:",
+   "options": [
+    "Key-person clause",
+    "Catch-up clause",
+    "Most Favoured Nation (MFN) clause",
+    "Redemption gate"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Investor side letters may include a 'Most Favoured Nation' clause protecting the investor from any other investor being placed in a better position. Managers often create a separate class of units to respect fiduciary duty to other investors.",
+   "hints": [
+    "Key-person clauses deal with departure of key managers.",
+    "Catch-up governs the manager's profit share.",
+    "Correct: MFN clauses protect against others receiving better treatment.",
+    "Redemption gates limit the amount redeemable per period."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "If a Category III AIF breaches its leverage limit, by when must it send a report to all investors explaining the breach and its reasons?",
+   "options": [
+    "Before 10:00 AM on the next working day",
+    "Within 7 working days",
+    "Within 30 days",
+    "At the time of the next quarterly report"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "On a leverage breach, the AIF reports to the custodian and sends a report to all investors before 10:00 AM on the next working day, squares off the excess exposure by the end of the next working day and confirms the square-off to investors the same day.",
+   "hints": [
+    "Correct: investors must be informed before 10:00 AM on the next working day.",
+    "7 working days is far too long for a leverage breach.",
+    "30 days is not the prescribed timeline.",
+    "Breaches cannot wait for the quarterly report."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-09",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which of the following is a ground on which a Category III AIF shall be wound up under Regulation 29?",
+   "options": [
+    "The fund's NAV falls by 10% in a quarter",
+    "Any single investor requests winding up",
+    "75% of investors by value of their investment pass a resolution at a meeting of unit holders to wind up",
+    "The investment manager changes its office address"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "An AIF is wound up when its tenure (or all schemes' tenure) ends, when the trustee thinks it is in investors' interest, when 75% of investors by value resolve so, or when SEBI directs.",
+   "hints": [
+    "A fall in NAV alone is not a ground for winding up.",
+    "A single investor cannot force winding up.",
+    "Correct: a resolution of 75% of investors by value triggers winding up.",
+    "An address change has no bearing on winding up."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-10",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "A Category III AIF has investible funds of Rs 400 crore and an approved overseas investment limit within the industry-wide cap. What is the maximum it can invest overseas?",
+   "options": [
+    "Rs 40 crore",
+    "Rs 80 crore",
+    "Rs 100 crore",
+    "Rs 200 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Overseas investment by an AIF shall not exceed 25% of its investible funds, subject also to the overall limit of USD 1,500 million across all AIFs.",
+   "hints": [
+    "10% is the single-investee limit, not the overseas limit.",
+    "20% is the LVF concentration limit.",
+    "Correct: overseas investment cannot exceed 25% of investible funds; 25% x 400 = 100.",
+    "50% exceeds the overseas cap."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-11",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "During a quarter, a Category III AIF's AUM peaked at Rs 500 crore and later fell to a low of Rs 410 crore before recovering. What is its maximum drawdown?",
+   "options": [
+    "-18%",
+    "-22%",
+    "-9%",
+    "-82%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Maximum drawdown = (Trough value - Peak value) / Peak value = (410 - 500) / 500 = -18%.",
+   "hints": [
+    "Correct: (410 - 500) / 500 = -18%.",
+    "Dividing by the trough (90/410) gives -22%; MDD uses the peak.",
+    "This halves the actual decline.",
+    "410/500 = 82% is the remaining value, not the drawdown."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-12",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "A fund's return distribution has a kurtosis of 2.4. How should this be interpreted?",
+   "options": [
+    "It is leptokurtic, indicating fat tails and higher risk",
+    "It is platykurtic, with fewer extreme outliers than a normal distribution",
+    "It is exactly normal because kurtosis is close to zero",
+    "It is negatively skewed"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A normal distribution has kurtosis of 3. Platykurtic distributions have kurtosis below 3 (negative excess kurtosis), with fewer outliers; leptokurtic distributions exceed 3 and are riskier.",
+   "hints": [
+    "Leptokurtic needs kurtosis above 3.",
+    "Correct: kurtosis below 3 means platykurtic (excess kurtosis of -0.6).",
+    "A normal distribution has kurtosis of 3, not 0.",
+    "Kurtosis measures peakedness, not skewness."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-13",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Under the SEBI (Portfolio Managers) Regulations, what is the maximum exit load a PMS can charge on an amount redeemed in the second year?",
+   "options": [
+    "3% of the amount redeemed",
+    "2% of the amount redeemed",
+    "1% of the amount redeemed",
+    "No exit load is permitted at all"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A PMS can charge exit load of at most 3% in year 1, 2% in year 2 and 1% in year 3; no exit load after the third year. Operating expenses (other than brokerage) cannot exceed 0.5% p.a.",
+   "hints": [
+    "3% is the first-year cap.",
+    "Correct: PMS exit load caps are 3%, 2% and 1% in years 1, 2 and 3.",
+    "1% is the third-year cap.",
+    "Exit loads are permitted for the first three years."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-14",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A Category III AIF holds long positions of Rs 10 crore and short positions of Rs 17.5 crore across large-cap and mid-cap stocks. Which strategy is it most likely following?",
+   "options": [
+    "Long-only strategy",
+    "Short-bias strategy",
+    "Market-neutral strategy",
+    "Dedicated-long directional strategy"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A short-bias strategy is a directional strategy that takes both long and short positions but maintains a net short exposure, benefiting from market declines.",
+   "hints": [
+    "A long-only fund does not carry net short positions.",
+    "Correct: a net short exposure indicates short bias.",
+    "Market-neutral funds keep long and short exposures equal.",
+    "Dedicated-long funds take only long positions."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-15",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Why are Large Value Funds considered most suitable for an activist strategy in India?",
+   "options": [
+    "Because LVFs are exempt from SEBI registration",
+    "Because LVFs can take leverage of 5 times NAV",
+    "Because LVFs may invest up to 20% of investable funds in one investee company, versus 10% for other Category III AIFs",
+    "Because LVFs need not appoint a custodian"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Activist funds need significant stakes. Concentration limits restrict Category III AIFs to 10% in one company, but LVFs can invest up to 20%, making them most suitable for activism.",
+   "hints": [
+    "LVFs are SEBI-registered AIFs.",
+    "The 2x leverage cap is not relaxed for LVFs.",
+    "Correct: the relaxed 20% concentration limit allows larger stakes.",
+    "Custodian appointment remains compulsory."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-16",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "How should a Category III AIF value an unlisted debt security for which there is no ascertainable market?",
+   "options": [
+    "At amortised cost plus interest accrued from the date of purchase",
+    "At the closing price of the nearest listed bond",
+    "At face value regardless of purchase price",
+    "At the price quoted by the issuer company"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "For unlisted securities with no ascertainable market, valuation is done at amortised cost plus interest accrued from purchase. Unlisted securities other than equities that do have a market are valued at the market's closing price.",
+   "hints": [
+    "Correct: amortised cost plus accrued interest is the rule.",
+    "There is no ascertainable market price to use.",
+    "Face value ignores premium or discount paid.",
+    "Issuer quotes are not an independent valuation basis."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-17",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "For NAV computation, how are margins deposited by a Category III AIF with its broker for derivative trades treated?",
+   "options": [
+    "As an asset of the fund, adjusted daily for mark-to-market gains and losses",
+    "As an expense written off on the day of deposit",
+    "As a liability of the fund",
+    "They are ignored until the contract expires"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Margin deposits with brokers are taken as an 'asset' for NAV. A loss on F&O increases the margin liability, while a profit increases the margin account balance.",
+   "hints": [
+    "Correct: broker margin balances are assets that change with MTM.",
+    "Margins are deposits, not expenses.",
+    "Margin deposits are assets; losses create additional liabilities.",
+    "MTM requires daily recognition, not waiting till expiry."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-18",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A Category III AIF is structured as an irrevocable, determinate trust. How is its income other than business income treated for tax?",
+   "options": [
+    "It is taxed at the maximum marginal rate in the hands of the trust",
+    "It is fully exempt from tax",
+    "It is taxed in the hands of the settlor",
+    "It is taxed as if it were the income of the beneficiaries, with the trustee as representative assessee"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "In an irrevocable determinate trust, business income is taxed at MMR, while capital gains and other income are taxed as if in the hands of beneficiaries (trustee as representative assessee), effectively a pass-through.",
+   "hints": [
+    "MMR applies to business income or to indeterminate trusts.",
+    "There is no general exemption.",
+    "Taxing the settlor applies to revocable transfers.",
+    "Correct: non-business income of a determinate irrevocable trust passes through."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-19",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "What is the GST position of a Category III AIF operating from an IFSC such as GIFT City?",
+   "options": [
+    "It pays GST at 18% like domestic AIFs",
+    "It pays GST at 5% under a concessional rate",
+    "It pays GST only on incentive fees",
+    "It is exempt from GST, so fees paid to the manager, trustee and service providers are not taxable"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Category III AIFs operating from an IFSC are exempt from GST, so management, trusteeship and service provider fees are not taxable, giving them a level playing field with offshore hubs.",
+   "hints": [
+    "Domestic AIFs pay 18% GST; IFSC AIFs do not.",
+    "A 5% rate was only an AIPAC recommendation for funds with foreign money.",
+    "There is no separate GST on incentive fees for IFSC funds.",
+    "Correct: IFSC Category III AIFs are exempt from GST."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-20",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Which of the following documents is part of the recommended distribution kit that a Category III AIF distributor should maintain?",
+   "options": [
+    "Copy of the SEBI Registration Certificate and the Private Placement Memorandum of the fund",
+    "Personal income tax returns of the fund manager",
+    "Internal trading records of the fund's proprietary desk",
+    "Confidential investor lists of rival AIFs"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A distribution kit includes fund constitution documents, SEBI registration certificate, the PPM, investor presentation, key disclosure statement, timelines, KYC and FATCA forms, expert opinions, approvals and FAQs.",
+   "hints": [
+    "Correct: the kit includes constitution documents, registration certificate and PPM.",
+    "Personal tax returns are not part of a distribution kit.",
+    "Proprietary trading records are confidential.",
+    "Using rivals' confidential data would breach the code."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-21",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Which of the following is a 'material change' in investment strategy that a distributor should communicate to existing and potential investors?",
+   "options": [
+    "A change in the colour scheme of the fund's brochure",
+    "A change in the fund's office phone number",
+    "An increase in the fund's target leverage due to a change in leverage strategy",
+    "Recruitment of an additional receptionist by the manager"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Material changes include changes in target sectors, holding period and exit strategy, asset allocation, valuation methodology, target leverage and the impact on estimated return. Distributors should inform investors of these.",
+   "hints": [
+    "Branding changes are not material strategy changes.",
+    "Contact detail changes are administrative.",
+    "Correct: changes in target leverage are listed as material.",
+    "Support staff hiring does not change strategy."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M3-22",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Within how many days of receiving the redemption request that causes the breach must Vega intimate SEBI?",
+   "options": [
+    "Within 7 days",
+    "Within 15 days",
+    "Within 3 months",
+    "Within 2 days"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "If an open-ended scheme's corpus falls below Rs 20 crore, the AIF must intimate SEBI within 2 days of receiving the redemption request that causes the breach, and restore the corpus within 3 months.",
+   "hints": [
+    "7 days is not the prescribed intimation period.",
+    "15 days is not prescribed for this breach.",
+    "3 months is the time allowed to restore the corpus, not to intimate SEBI.",
+    "Correct: SEBI must be told within 2 days of receiving the breaching request."
+   ],
+   "numeric": false,
+   "case": "Vega Opportunities Fund is an open-ended Category III AIF scheme. On 1 July 2026 its corpus was Rs 22 crore. On 3 July 2026 an institutional investor submitted a redemption request of Rs 4 crore, which would bring the corpus down to Rs 18 crore. Separately, Mr. Shah, a non-accredited investor, holds units worth Rs 1.6 crore and wants to redeem part of them. After the institutional redemption, the scheme's NAV is Rs 18 crore and it holds long futures positions of Rs 30 crore and unrelated short positions of Rs 8 crore, with no offsetting permitted between them."
+  },
+  {
+   "id": "xixb-M3-23",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "What must Vega do if it cannot bring the scheme corpus back to Rs 20 crore within the permitted time?",
+   "options": [
+    "Pay a penalty and continue operating",
+    "Convert the scheme into a close-ended scheme",
+    "Reduce the minimum investment to Rs 25 lakh",
+    "Redeem the entire units of all investors in the scheme"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The AIF has 3 months to restore the corpus to Rs 20 crore. If it fails, it shall redeem entire units of all investors; repeated violations may attract SEBI action.",
+   "hints": [
+    "There is no pay-and-continue option.",
+    "Conversion to close-ended is not the prescribed remedy.",
+    "Minimum investment rules cannot be relaxed this way.",
+    "Correct: failure to restore corpus within 3 months means full redemption."
+   ],
+   "numeric": false,
+   "case": "Vega Opportunities Fund is an open-ended Category III AIF scheme. On 1 July 2026 its corpus was Rs 22 crore. On 3 July 2026 an institutional investor submitted a redemption request of Rs 4 crore, which would bring the corpus down to Rs 18 crore. Separately, Mr. Shah, a non-accredited investor, holds units worth Rs 1.6 crore and wants to redeem part of them. After the institutional redemption, the scheme's NAV is Rs 18 crore and it holds long futures positions of Rs 30 crore and unrelated short positions of Rs 8 crore, with no offsetting permitted between them."
+  },
+  {
+   "id": "xixb-M3-24",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "What is the maximum amount Mr. Shah can redeem through a partial redemption?",
+   "options": [
+    "Rs 1.6 crore",
+    "Rs 60 lakh",
+    "Rs 1 crore",
+    "Rs 1.35 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "In an open-ended Category III AIF, after partial redemption the amount retained by the investor must not fall below the minimum investment of Rs 1 crore. Mr. Shah can redeem up to Rs 1.6 crore - Rs 1 crore = Rs 60 lakh.",
+   "hints": [
+    "Redeeming everything would be a full, not partial, redemption.",
+    "Correct: he must retain at least Rs 1 crore, so 1.6 - 1.0 = Rs 60 lakh.",
+    "Redeeming Rs 1 crore would leave only Rs 60 lakh, below the minimum.",
+    "Retaining Rs 25 lakh applies only to employees or directors."
+   ],
+   "numeric": true,
+   "case": "Vega Opportunities Fund is an open-ended Category III AIF scheme. On 1 July 2026 its corpus was Rs 22 crore. On 3 July 2026 an institutional investor submitted a redemption request of Rs 4 crore, which would bring the corpus down to Rs 18 crore. Separately, Mr. Shah, a non-accredited investor, holds units worth Rs 1.6 crore and wants to redeem part of them. After the institutional redemption, the scheme's NAV is Rs 18 crore and it holds long futures positions of Rs 30 crore and unrelated short positions of Rs 8 crore, with no offsetting permitted between them."
+  },
+  {
+   "id": "xixb-M3-25",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "After the institutional redemption, what is Vega's leverage and is it within the SEBI limit?",
+   "options": [
+    "About 1.22 times NAV, within the limit",
+    "About 1.67 times NAV, within the limit",
+    "Exactly 2 times NAV, at the limit",
+    "About 2.11 times NAV, which breaches the limit of 2 times"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Leverage = total exposure (long + short without offset) / NAV = (30 + 8) / 18 = 2.11 times, which exceeds the 2 times NAV limit; the excess must be squared off by end of the next working day.",
+   "hints": [
+    "This nets the short against the long, which is not permitted here.",
+    "This ignores the short positions.",
+    "This understates the total exposure.",
+    "Correct: (30 + 8) / 18 = 2.11, above the 2x cap."
+   ],
+   "numeric": true,
+   "case": "Vega Opportunities Fund is an open-ended Category III AIF scheme. On 1 July 2026 its corpus was Rs 22 crore. On 3 July 2026 an institutional investor submitted a redemption request of Rs 4 crore, which would bring the corpus down to Rs 18 crore. Separately, Mr. Shah, a non-accredited investor, holds units worth Rs 1.6 crore and wants to redeem part of them. After the institutional redemption, the scheme's NAV is Rs 18 crore and it holds long futures positions of Rs 30 crore and unrelated short positions of Rs 8 crore, with no offsetting permitted between them."
+  }
+ ]
+}

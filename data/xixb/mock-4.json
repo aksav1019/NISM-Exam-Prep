@@ -1,0 +1,583 @@
+{
+ "id": "mock-4",
+ "title": "Mock 4 · Follow the Fees",
+ "level": "easy",
+ "blurb": "Fee mechanics, waterfalls and returns, with a full step-by-step incentive fee case.",
+ "questions": [
+  {
+   "id": "xixb-M4-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "How does the workbook distinguish 'private equity' from 'venture capital'?",
+   "options": [
+    "Private equity invests only in listed companies, venture capital only in unlisted ones",
+    "Venture capital always uses debt, private equity always uses equity",
+    "There is no difference; the terms are interchangeable in SEBI regulations",
+    "Venture capital funds early-stage start-ups, while private equity predominantly invests in later-stage companies with established business models"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Venture capital is a type of private equity used for early-stage businesses. The term private equity is predominantly used for investment in later-stage companies with established business models and track record, including buyouts.",
+   "hints": [
+    "Both PE and VC invest in unlisted companies.",
+    "Both can use a range of instruments; PE in particular includes debt and mezzanine.",
+    "SEBI regulations define VCFs and PE funds separately in different categories.",
+    "Correct: VC is a type of PE used for early-stage businesses; PE mostly means later stage."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Under the RBI's Liberalised Remittance Scheme, what is the current limit for a resident individual's remittance abroad?",
+   "options": [
+    "USD 25,000 per person per financial year",
+    "USD 1,00,000 per person per financial year",
+    "USD 2,50,000 per person per financial year",
+    "USD 5,00,000 per person per financial year"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "LRS was introduced on February 4, 2004 with a limit of USD 25,000, later increased to USD 2,50,000 per individual per financial year.",
+   "hints": [
+    "USD 25,000 was the original 2004 limit.",
+    "USD 1,00,000 was the typical minimum ticket of foreign hedge funds.",
+    "Correct: the limit was raised to USD 2,50,000 in June 2015.",
+    "USD 5,00,000 is not the LRS limit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-03",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "A 'Large Value Fund for Accredited Investors' is a scheme in which each investor (other than the manager, sponsor and their employees or directors) is an accredited investor investing at least:",
+   "options": [
+    "Rs 1 crore",
+    "Rs 10 crore",
+    "Rs 25 crore",
+    "Rs 50 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "After the 2025 amendment, a Large Value Fund for Accredited Investors is an AIF or scheme where each investor (other than insiders) is an accredited investor and invests not less than Rs 25 crore.",
+   "hints": [
+    "Rs 1 crore is the general minimum investment.",
+    "Rs 10 crore is the cap on sponsor commitment, not the LVF threshold.",
+    "Correct: the LVF threshold is Rs 25 crore per accredited investor.",
+    "Rs 50 crore is the net worth test for accredited body corporates."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "In a typical distribution waterfall of a Category III AIF, what is distributed first?",
+   "options": [
+    "Catch-up payment to the investment manager",
+    "Preferred (hurdle) return to investors",
+    "Incentive fee to the investment manager",
+    "Return of capital contribution of investors"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Typical waterfall: (1) return of investors' capital, (2) preferred/hurdle return to investors, (3) catch-up to the manager, (4) remaining profits shared as agreed.",
+   "hints": [
+    "Catch-up comes third, after capital and hurdle.",
+    "Hurdle return is paid second.",
+    "Incentive is paid only after investors' capital and hurdle.",
+    "Correct: investors get their capital back first."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-05",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "What is the purpose of setting a hurdle rate in a Category III AIF?",
+   "options": [
+    "To guarantee investors a minimum return every year",
+    "To cap the maximum return the manager can earn",
+    "To set the maximum leverage of the fund",
+    "To benchmark investors' expectations, not to provide a guaranteed return"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The hurdle rate is the threshold return investors must receive before the manager earns additional returns. Its purpose is to benchmark investor expectations rather than provide a guaranteed return.",
+   "hints": [
+    "The workbook states that a guaranteed return is neither permissible nor possible.",
+    "The hurdle is a floor for incentive fees, not a cap on returns.",
+    "Leverage is capped by SEBI at 2 times NAV, unrelated to hurdle.",
+    "Correct: guaranteeing returns is neither ethical nor possible."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-06",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which statement about fund administrators of Category III AIFs in India is correct?",
+   "options": [
+    "Fund administrators must be registered with SEBI under separate regulations",
+    "Fund administration is not a regulated function in India, and custodians often offer these services too",
+    "Fund administrators are appointed by investors, not by the manager",
+    "Fund administrators file the PPM with SEBI"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Fund administrators maintain books, allocate income and expenses, compute NAV and support audits. In India fund accounting/administration is not a regulated function; custodians typically also offer these services or the work may be done in-house.",
+   "hints": [
+    "There is no SEBI registration requirement for fund accountants.",
+    "Correct: unlike some developed markets, fund administration is unregulated in India.",
+    "They support the manager and are appointed on the fund's side.",
+    "PPM filing is done through a merchant banker."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which statement about distributors of Category III AIFs is correct?",
+   "options": [
+    "Distributors can be individuals or institutions and may be empanelled with more than one Category III AIF",
+    "Only banks can act as distributors",
+    "A distributor can be empanelled with only one Category III AIF",
+    "Distributors need not assess suitability as investors are sophisticated"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A distributor can be empanelled with more than one Category III AIF and can be an individual or an institution such as a distribution company, broking company or bank, but must assess suitability for each client.",
+   "hints": [
+    "Correct: individuals, distribution companies, brokers and banks can all distribute, for multiple AIFs.",
+    "Distribution companies, brokers and individuals can also distribute.",
+    "Multiple empanelment is allowed.",
+    "Distributors must understand each scheme's risk-return profile and suitability case by case."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-08",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "How often is the Investment Management Agreement between the trustee and the manager of a trust-structured Category III AIF signed?",
+   "options": [
+    "Separately for every new scheme launched",
+    "Every financial year",
+    "Once for the trust as a whole, not at the launch of each scheme",
+    "Every time a new investor joins"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The Investment Management Agreement delegates the trustee's management powers to the manager (except retained powers) and is signed once for the trust as a whole, not at the launch of each scheme.",
+   "hints": [
+    "Schemes do not each need a new IMA.",
+    "There is no annual renewal requirement in the workbook.",
+    "Correct: the IMA is signed once for the trust.",
+    "New investors sign contribution agreements, not the IMA."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-09",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "A Category III AIF scheme with investable funds of Rs 200 crore wants to sell credit default swaps on an unhedged basis. Up to what gross unhedged CDS position can it take without first intimating all unit holders?",
+   "options": [
+    "Rs 50 crore",
+    "Rs 20 crore",
+    "Rs 40 crore",
+    "Rs 400 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Gross unhedged CDS positions should be up to 25% of investable funds of the scheme; positions beyond 25% may be taken only after intimating all unit holders. 25% x 200 = Rs 50 crore.",
+   "hints": [
+    "Correct: 25% of investable funds = Rs 50 crore.",
+    "10% is the single-investee limit.",
+    "20% is the LVF concentration limit.",
+    "2 times relates to leverage, not unhedged CDS."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-10",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "For the investment conditions of a Category III AIF, an 'associate' is an entity in which the sponsor, manager or their directors/partners hold, individually or collectively, more than what percentage of paid-up equity or partnership interest?",
+   "options": [
+    "5%",
+    "10%",
+    "26%",
+    "15%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "An associate is a company, LLP or body corporate in which a director, trustee, partner, sponsor or manager of the fund (or director/partner of the manager or sponsor) holds more than 15% of paid-up equity or partnership interest.",
+   "hints": [
+    "5% is the takeover disclosure threshold.",
+    "10% is the concentration and distributor-conflict figure.",
+    "26% is not the workbook threshold for associates.",
+    "Correct: more than 15% makes the entity an associate."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-11",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "How may a Category III AIF charge distribution or placement fees to investors in a plan sold through distributors?",
+   "options": [
+    "Only on an equal trail basis, paid out of the management fee received by the manager",
+    "As an upfront fee deducted from the investor's first contribution",
+    "As a one-time charge at the time of final close",
+    "As an extra charge over and above management fees, payable upfront"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Category III AIFs must disclose distribution fees at onboarding, charge them only on an equal trail basis (no upfront fee) and pay them only out of the management fee. A Direct Plan with no distribution fee must also be offered.",
+   "hints": [
+    "Correct: no upfront distribution fee; equal trail only, from management fee.",
+    "Upfront distribution fees are not permitted, directly or indirectly.",
+    "Lump-sum charges at final close are not the prescribed method.",
+    "Distribution fees must come out of the management fee, not over and above it."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-12",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "When an existing AIF investor who has not given demat details later provides them, within how many working days must units held in the 'Aggregate Escrow Demat Account' be transferred to the investor's demat account?",
+   "options": [
+    "5 working days",
+    "2 working days",
+    "15 working days",
+    "30 working days"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Units of investors without demat details are credited to an Aggregate Escrow Demat Account; once investors provide demat details, the units must be transferred to their accounts within 5 working days. No other transfers from this account are permitted.",
+   "hints": [
+    "Correct: transfer must happen within 5 working days.",
+    "2 working days is not the SFA standard.",
+    "15 working days is too long.",
+    "30 days relates to NAV uploading in the depository system, not this transfer."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-13",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "The NAV per unit of a Category III AIF rose from Rs 1,000 to Rs 1,210 over 2 years with no distributions. What is the CAGR?",
+   "options": [
+    "10.50%",
+    "10.00%",
+    "21.00%",
+    "9.50%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "CAGR = (Ending value / Beginning value)^(1/n) - 1 = (1,210 / 1,000)^(1/2) - 1 = 1.10 - 1 = 10%.",
+   "hints": [
+    "Simple average of 21% over 2 years ignores compounding.",
+    "Correct: (1,210/1,000)^(1/2) - 1 = 10%.",
+    "21% is the absolute return over 2 years.",
+    "This understates the compounded rate."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-14",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Under the Global Investment Performance Standards (GIPS), an AIF should initially present compliant annual performance for at least:",
+   "options": [
+    "One year, building up to three years",
+    "Five years, or since inception if shorter, building up to ten years",
+    "Three years, building up to five years",
+    "Ten years from the very first report"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "An AIF should present GIPS-compliant annual performance for a minimum of five years or since inception, and add a year each year to build up to at least 10 years.",
+   "hints": [
+    "One year is too short a record under GIPS.",
+    "Correct: minimum five years (or since inception), adding a year each year up to ten.",
+    "Three years is not the GIPS starting requirement.",
+    "Ten years is the eventual target, not the starting point."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-15",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "In a merger arbitrage strategy, which position does a Category III AIF typically take in the target company?",
+   "options": [
+    "A long position, to capture the spread between the current price and the acquisition price",
+    "A short position, expecting the target's price to fall",
+    "No position; only the acquirer is traded",
+    "A position in its convertible bonds only"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Merger arbitrage takes a long position in the target company's shares and a short (or long) position in the acquirer's shares, to capitalise on the spread between the target's price and the acquisition price on deal completion.",
+   "hints": [
+    "Correct: the fund buys the target to earn the deal spread.",
+    "Targets typically rise towards the offer price, so shorting them is not the standard trade.",
+    "The target leg is the core of the trade.",
+    "Convertible bonds relate to convertible arbitrage."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-16",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A Category III AIF takes long positions in Indian corporate bonds and US T-bills, short positions in the Euro and stays neutral on crude oil, based on its view of macro-economic trends. This is an example of:",
+   "options": [
+    "Global-macro strategy",
+    "Long-only equity strategy",
+    "Convertible arbitrage strategy",
+    "Pre-IPO strategy"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Global-macro funds take long and short positions across currencies, fixed income, equities, commodities and interest-rate derivatives, selecting positions based mainly on macro-economic trends.",
+   "hints": [
+    "Correct: global macro trades across asset classes and geographies on macro views.",
+    "Long-only equity funds do not short currencies or trade bonds this way.",
+    "Convertible arbitrage pairs a convertible with the issuer's stock.",
+    "Pre-IPO invests in shares before listing."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-17",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Why might the Series NAV per unit of one series in a Category III AIF be higher than that of another series in the same fund?",
+   "options": [
+    "Because that series holds a different set of portfolio securities",
+    "Because that series enjoys a differential right such as a lower management fee",
+    "Because that series is exempt from all fund liabilities",
+    "Because SEBI permits priority distribution of profits to that series"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Series NAV = series assets less series liabilities and series expenses, divided by series units. A series with a lower management fee (a differential right) bears less expense and so shows a higher NAV per unit.",
+   "hints": [
+    "Classes share the same underlying portfolio; they differ in fee terms.",
+    "Correct: series-specific fees cause series NAVs to differ.",
+    "Liabilities are allocated to all series in proportion to opening series NAV.",
+    "Priority distribution models are not permitted."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-18",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A Category III AIF holds 3,00,000 shares of a thinly traded SME stock whose average daily trading volume is 1,00,000 shares. Assuming it can sell one day's volume per day, how many trading days will it take to exit fully?",
+   "options": [
+    "1 trading day",
+    "2 trading days",
+    "3 trading days",
+    "30 trading days"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Days to exit = holding / daily trading volume = 3,00,000 / 1,00,000 = 3 trading days. The valuation then reflects the expected price fall and the present value of proceeds over these days.",
+   "hints": [
+    "Selling everything in a day would far exceed daily volume.",
+    "Two days covers only 2,00,000 shares.",
+    "Correct: 3,00,000 / 1,00,000 = 3 days.",
+    "This multiplies instead of divides."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-19",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "At what rate must a Category III AIF deduct tax at source on income distributed to a resident investor who has not furnished a PAN?",
+   "options": [
+    "10%",
+    "5%",
+    "20%",
+    "30%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "An AIF deducts tax at 10% on distributions credited or paid to resident investors, and at 20% where a resident investor does not quote a PAN.",
+   "hints": [
+    "10% applies to resident investors who furnish PAN.",
+    "5% applies to certain interest income in the IFSC regime.",
+    "Correct: 20% applies when the resident investor does not quote PAN.",
+    "30% is the maximum slab rate, not the TDS rate here."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-20",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Why should distributors abstain from soft-dollar arrangements with Category III AIF managers?",
+   "options": [
+    "Because they are a form of GST evasion",
+    "Because they reduce the fund's leverage",
+    "Because they can indirectly add to investors' costs and create conflicts of interest",
+    "Because they require prior approval of the stock exchange"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "In soft-dollar arrangements client money pays for third-party or proprietary research. They can indirectly add to investment costs borne by investors and create conflicts, so distributors should abstain and ensure disclosure.",
+   "hints": [
+    "Soft dollars are a conflict issue, not a GST issue.",
+    "They have no direct link to leverage.",
+    "Correct: soft dollars use client money for research and can raise investors' costs.",
+    "No exchange approval regime is involved."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-21",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "A distributor tells a prospect, 'This Category III AIF will surely give you 15% a year.' This statement violates which principle of the model code of conduct?",
+   "options": [
+    "Abstaining from assuring returns in any Category III AIF scheme",
+    "Maintaining confidentiality of investors' personal data",
+    "Assisting clients in completing KYC documentation",
+    "Disclosing changes in the distributor's address"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The model code requires distributors to abstain from assuring returns and from any misrepresentation, and to inform investors of key risk factors.",
+   "hints": [
+    "Correct: distributors must never assure returns.",
+    "Confidentiality is a separate principle not breached here.",
+    "KYC assistance is not the issue in this statement.",
+    "Address-change disclosure is unrelated."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M4-22",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "What is the amortised set-up cost charged to Kestrel in Year 1?",
+   "options": [
+    "Rs 1.5 crore",
+    "Rs 30 lakh",
+    "Rs 15 lakh",
+    "Rs 50 lakh"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Set-up cost of Rs 1.5 crore (including GST) amortised equally over the 5-year tenure gives Rs 30 lakh per year.",
+   "hints": [
+    "That charges the whole cost in Year 1, ignoring amortisation.",
+    "Correct: Rs 1.5 crore / 5 years = Rs 30 lakh.",
+    "This spreads over 10 years instead of 5.",
+    "This spreads over 3 years instead of the 5-year tenure."
+   ],
+   "numeric": true,
+   "case": "Kestrel Alpha Fund, a close-ended Category III AIF, was launched on 1 April 2025 with called-up capital of Rs 100 crore (10 lakh units at Rs 1,000). Terms: management fee 1.5% p.a. of Gross NAV plus GST at 18%; initial set-up cost of Rs 1.5 crore (including GST) amortised equally over the 5-year tenure; fixed yearly fund expenses of Rs 40 lakh; hurdle rate 10% p.a.; incentive fee 20% of the amount by which NAV (pre-incentive) exceeds the higher of the reference hurdle and the high-water mark. Gross NAV at the end of Year 1 is Rs 120 crore. Treat the initial subscription value as the Year 1 high-water mark."
+  },
+  {
+   "id": "xixb-M4-23",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "What is Kestrel's management fee including GST for Year 1?",
+   "options": [
+    "Rs 1.800 crore",
+    "Rs 1.770 crore",
+    "Rs 1.500 crore",
+    "Rs 2.124 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Management fee = 1.5% x Gross NAV Rs 120 crore = Rs 1.80 crore; GST 18% = Rs 0.324 crore; total Rs 2.124 crore.",
+   "hints": [
+    "This excludes GST.",
+    "This applies fee plus GST on Rs 100 crore capital instead of GNAV.",
+    "This is 1.5% of called-up capital without GST.",
+    "Correct: 1.5% x 120 = 1.80 crore; x 1.18 = Rs 2.124 crore."
+   ],
+   "numeric": true,
+   "case": "Kestrel Alpha Fund, a close-ended Category III AIF, was launched on 1 April 2025 with called-up capital of Rs 100 crore (10 lakh units at Rs 1,000). Terms: management fee 1.5% p.a. of Gross NAV plus GST at 18%; initial set-up cost of Rs 1.5 crore (including GST) amortised equally over the 5-year tenure; fixed yearly fund expenses of Rs 40 lakh; hurdle rate 10% p.a.; incentive fee 20% of the amount by which NAV (pre-incentive) exceeds the higher of the reference hurdle and the high-water mark. Gross NAV at the end of Year 1 is Rs 120 crore. Treat the initial subscription value as the Year 1 high-water mark."
+  },
+  {
+   "id": "xixb-M4-24",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "What is Kestrel's NAV (pre-incentive) at the end of Year 1?",
+   "options": [
+    "Rs 117.500 crore",
+    "Rs 120.000 crore",
+    "Rs 115.976 crore",
+    "Rs 117.176 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "NAV (pre-incentive) = Gross NAV - amortised set-up cost - yearly expenses - management fee incl. GST = 120 - 0.30 - 0.40 - 2.124 = Rs 117.176 crore (Rs 1,171.76 per unit).",
+   "hints": [
+    "This deducts the management fee without GST (1.80).",
+    "This is the gross NAV before any deductions.",
+    "This deducts the full set-up cost of Rs 1.5 crore instead of Rs 30 lakh.",
+    "Correct: 120 - 0.30 - 0.40 - 2.124 = Rs 117.176 crore."
+   ],
+   "numeric": true,
+   "case": "Kestrel Alpha Fund, a close-ended Category III AIF, was launched on 1 April 2025 with called-up capital of Rs 100 crore (10 lakh units at Rs 1,000). Terms: management fee 1.5% p.a. of Gross NAV plus GST at 18%; initial set-up cost of Rs 1.5 crore (including GST) amortised equally over the 5-year tenure; fixed yearly fund expenses of Rs 40 lakh; hurdle rate 10% p.a.; incentive fee 20% of the amount by which NAV (pre-incentive) exceeds the higher of the reference hurdle and the high-water mark. Gross NAV at the end of Year 1 is Rs 120 crore. Treat the initial subscription value as the Year 1 high-water mark."
+  },
+  {
+   "id": "xixb-M4-25",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "What incentive fee is payable to Kestrel's manager for Year 1?",
+   "options": [
+    "Rs 3.4352 crore",
+    "Rs 1.4352 crore",
+    "Rs 2.0000 crore",
+    "Rs 1.0764 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Reference hurdle = 100 x 1.10 = Rs 110 crore; HWM = Rs 100 crore; the higher is Rs 110 crore. Excess = 117.176 - 110 = Rs 7.176 crore. Incentive = 20% x 7.176 = Rs 1.4352 crore.",
+   "hints": [
+    "This measures excess over the high-water mark of Rs 100 crore instead of the higher reference hurdle.",
+    "Correct: 20% x (117.176 - 110) = 20% x 7.176 = Rs 1.4352 crore.",
+    "This uses gross NAV of 120 less 110.",
+    "This applies 15% instead of 20%."
+   ],
+   "numeric": true,
+   "case": "Kestrel Alpha Fund, a close-ended Category III AIF, was launched on 1 April 2025 with called-up capital of Rs 100 crore (10 lakh units at Rs 1,000). Terms: management fee 1.5% p.a. of Gross NAV plus GST at 18%; initial set-up cost of Rs 1.5 crore (including GST) amortised equally over the 5-year tenure; fixed yearly fund expenses of Rs 40 lakh; hurdle rate 10% p.a.; incentive fee 20% of the amount by which NAV (pre-incentive) exceeds the higher of the reference hurdle and the high-water mark. Gross NAV at the end of Year 1 is Rs 120 crore. Treat the initial subscription value as the Year 1 high-water mark."
+  }
+ ]
+}

@@ -1,0 +1,698 @@
+{
+ "id": "mock-7",
+ "title": "Mock 7 · Final Boss",
+ "level": "tough",
+ "blurb": "Valuation and MTM, merger arbitrage, winding-up nuances, tax arithmetic and distributor ethics at full exam pressure.",
+ "questions": [
+  {
+   "id": "xixb-M7-01",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "Apart from VC, PE, hedge funds, real estate and commodities, which of the following does the workbook list among 'other' alternative investment asset classes?",
+   "options": [
+    "Arts and antiques, film funds, vintage wines, stamps and collectibles",
+    "Listed blue-chip shares and government securities",
+    "Open-ended liquid mutual funds and bank fixed deposits",
+    "Exchange traded funds tracking the Nifty 50"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Alternative asset classes also include gems and precious stones, arts and antiques, film funds, sports, vintage wines, stamps and collectibles, besides FinTech platform-based opportunities.",
+   "hints": [
+    "Correct: these are listed under 'Others' in section 1.2.6.",
+    "These are traditional investments.",
+    "These are traditional, highly liquid products.",
+    "ETFs are traditional investments."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-02",
+   "chapter": 2,
+   "difficulty": "hard",
+   "q": "As per FEMA Notification No. 355/2015-RB, when is a downstream investment made by a Category III AIF regarded as indirect foreign investment?",
+   "options": [
+    "Only if either the sponsor or the investment manager of the AIF is not Indian 'owned and controlled'",
+    "Whenever more than 51% of the AIF's corpus comes from foreign investors",
+    "Whenever any single foreign investor contributes to the AIF",
+    "Only if the AIF invests outside India"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Downstream investment by a Category III AIF is treated as indirect foreign investment only if the sponsor or manager is not Indian owned and controlled. The extent of foreign investment in the corpus is not a determining factor.",
+   "hints": [
+    "Correct: control by sponsor/manager, not the extent of foreign money, decides it.",
+    "The extent of foreign investment in the corpus is not a factor under this rule.",
+    "A single foreign investor does not make it foreign investment.",
+    "Downstream investment refers to investment in Indian companies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-03",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "Why are fees charged by a hedge Fund of Funds (FoF) typically higher than those of a single-strategy hedge fund?",
+   "options": [
+    "FoFs are required by law to charge a minimum 2% fee",
+    "FoFs pay GST twice on every investment",
+    "Investors bear the management fees of each underlying fund plus an additional layer of fees charged by the FoF manager",
+    "FoFs cannot charge incentive fees, so they raise management fees"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Funds of Funds diversify across hedge funds with different strategies, but fees rise because of management fees charged by every underlying fund and the additional layer charged by the FoF manager. Multi-strategy funds give diversification with a single fee layer.",
+   "hints": [
+    "There is no statutory minimum fee for FoFs.",
+    "Double GST is not the reason given in the workbook.",
+    "Correct: the double layer of fees makes FoFs costlier.",
+    "FoFs are not described as barred from incentive fees."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-04",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "For a close-ended Category III AIF, when are performance (incentive) fees actually paid to the manager, according to the workbook?",
+   "options": [
+    "Every month along with management fees",
+    "They may be accrued periodically but are paid only at the end of the fund's term (on liquidation)",
+    "At the first close of the scheme",
+    "At the start of each financial year in advance"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "For close-ended funds, performance fees are assessed on exits and payable only upon liquidation. They may accrue daily (crystallisation concept) for accurate NAV, but payment happens at the end of the term, avoiding double payment and providing for later losses.",
+   "hints": [
+    "Monthly payment would risk paying for gains later reversed.",
+    "Correct: crystallisation and payment happen at the end of the term.",
+    "No profits exist at first close.",
+    "Advance payment of performance fee makes no sense."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-05",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "Why can the fee structure of a parallel structure be more expensive for investors than that of a master-feeder structure?",
+   "options": [
+    "Because offshore managers at each offshore fund provide investment management services and charge for them, in addition to the Indian AIF's fees",
+    "Because SEBI levies a special fee on parallel structures",
+    "Because parallel structures must pay GST on export of services",
+    "Because parallel structures are not allowed to charge any performance fee"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "In a parallel structure, offshore funds take independent decisions, with the Indian manager providing non-binding advice. Since offshore managers provide management services to their investors, fees can be more expensive than in a master-feeder structure, where fees are charged mainly at the master level.",
+   "hints": [
+    "Correct: separate offshore managers mean separate fee layers.",
+    "There is no special SEBI levy on parallel structures.",
+    "Export of services is exempt from GST.",
+    "Nothing prohibits performance fees in parallel structures."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-06",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "When an offshore fund delegates advisory work to an onshore entity under an Advisory Agreement, which statement is correct?",
+   "options": [
+    "The onshore adviser becomes legally responsible to the offshore investors",
+    "The offshore manager remains responsible to offshore investors, while the onshore adviser gives advice on deal sourcing, assessment, execution and post-investment management",
+    "The onshore adviser's advice is binding on the offshore manager",
+    "The onshore adviser is paid directly by the investee companies"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Under the Advisory Agreement, the offshore investment manager is responsible to offshore investors, and the onshore investment adviser provides non-binding advice in deal sourcing, assessment, execution and post-investment management, for which it is paid by the manager.",
+   "hints": [
+    "Responsibility to offshore investors remains with the offshore manager.",
+    "Correct: the adviser advises; responsibility to investors stays offshore.",
+    "Advice from investment advisers is non-binding.",
+    "Advisers are paid advisory fees by the investment manager."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-07",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "Before seeking investor consent to enter a dissolution period, which disclosure must a Category III AIF make, and what limit applies to the dissolution period?",
+   "options": [
+    "Valuation by one internal valuer, and the dissolution period can be extended any number of times",
+    "Valuation of unliquidated investments by two independent valuers, and the dissolution period cannot exceed the original tenure of the scheme",
+    "No valuation is needed, and the dissolution period is fixed at 1 year",
+    "Valuation by SEBI, and the dissolution period is fixed at 5 years"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Before seeking 75% investor consent to enter a dissolution period, the AIF discloses the proposed tenure, unliquidated investments and their valuation by 2 independent valuers. The period cannot exceed the original tenure, cannot be extended, and unsold assets must be distributed in specie at its end.",
+   "hints": [
+    "An internal valuer is not sufficient and extensions are not allowed.",
+    "Correct: two independent valuations; period not more than original tenure, no extension.",
+    "Valuations are needed and the period is linked to original tenure.",
+    "SEBI does not value investments."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-08",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "Liquidation proceeds may be retained beyond the permissible fund life to meet residual winding-up operational expenses, if substantiated. What is the maximum retention period for this purpose?",
+   "options": [
+    "1 year from the end of the permissible fund life",
+    "5 years from the end of the permissible fund life",
+    "Indefinitely, until all expenses are settled",
+    "3 years from the end of the permissible fund life"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Proceeds may be retained if there is a litigation/tax notice, if 75% of investors consent for anticipated liabilities, or for substantiated residual winding-up expenses subject to a maximum retention of 3 years from the end of permissible fund life. Retained amounts go into liquid, high-quality assets.",
+   "hints": [
+    "1 year is the liquidation period, not this retention cap.",
+    "5 years is not the cap.",
+    "Retention for this ground is time-bound.",
+    "Correct: retention for residual operational expenses is capped at 3 years."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-09",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "Which statement about the fee on change of sponsor, manager or control of a Category III AIF is correct?",
+   "options": [
+    "A fee of Rs 1 lakh is payable and can be charged to investors",
+    "A fee of Rs 15 lakh is payable within 15 days of effecting the change, cannot be passed on to investors, and no fee is levied if the manager replaces the sponsor",
+    "A separate Rs 15 lakh fee is payable for each simultaneous change",
+    "No SEBI approval is needed for change in control of the manager"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Change of sponsor/manager or control needs prior SEBI approval and a fee equal to the registration fee (Rs 15 lakh), payable within 15 days and not chargeable to investors. Simultaneous changes attract one fee. No fee if the manager replaces the sponsor or acquires control, or if one of multiple sponsors exits.",
+   "hints": [
+    "The fee equals the registration fee of Rs 15 lakh and cannot be passed on.",
+    "Correct: Rs 15 lakh, within 15 days, borne by sponsor/manager; exemptions exist.",
+    "Simultaneous changes attract a single fee.",
+    "Prior SEBI approval is required for such changes."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-10",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "Under the SEBI (PIT) Regulations as applied to a Category III AIF, which statement is correct?",
+   "options": [
+    "Pre-cleared trades may be executed within 30 days, and the database may be outsourced",
+    "Designated persons may trade even when the trading window is closed if they have pre-clearance",
+    "Pre-cleared trades must be executed within 7 trading days, and the structured digital database must be preserved for at least 8 years",
+    "The structured digital database needs to record only the names of recipients, not their PAN"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Pre-cleared trades must be executed within 7 trading days or fresh pre-clearance is needed. The structured digital database (nature of UPSI, who shared, with whom, with PAN) must be maintained internally with audit trails and preserved for at least 8 years.",
+   "hints": [
+    "Thirty days is too long, and the database cannot be outsourced.",
+    "Trading is barred during closed trading windows.",
+    "Correct: 7 trading days for pre-cleared trades; database kept 8 years internally.",
+    "PAN (or other identifier) of recipients must be recorded."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-11",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "Which of the following is correctly stated about record-keeping and beneficial ownership under the PML Rules as applicable to a Category III AIF?",
+   "options": [
+    "Cross-border wire transfers above Rs 5 lakh must be recorded, and UBOs of a company are identified at a 25% ownership threshold",
+    "Only cash transactions above Rs 50 lakh must be recorded",
+    "UBOs of a partnership firm are identified at a 25% threshold",
+    "Investments from family trusts must always be reported as NPO transactions"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Records must be kept of cash transactions above Rs 10 lakh, connected cash series exceeding Rs 10 lakh a month, NPO receipts above Rs 10 lakh, cross-border wires above Rs 5 lakh and suspicious transactions. UBO thresholds: 25% for companies/trusts, 15% for partnerships.",
+   "hints": [
+    "Correct: wires above Rs 5 lakh; UBO 25% for company/trust and 15% for partnership.",
+    "The cash threshold is Rs 10 lakh.",
+    "For partnerships the UBO threshold is 15%.",
+    "Family trusts are not NPOs under PML Rules unless suspicious."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-12",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "After returning capital and hurdle, a fund has residual profits of Rs 10 crore. The manager's pre-agreed share of total profits is Rs 5 crore and the catch-up rate is 40%. How much of the residual does the manager receive through catch-up?",
+   "options": [
+    "Rs 5 crore",
+    "Rs 10 crore",
+    "Rs 2 crore",
+    "Rs 4 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "With a 40% catch-up, 40% of residual profits after capital and hurdle is distributed to the manager until it receives its pre-determined share. 40% x Rs 10 crore = Rs 4 crore, which does not exceed the Rs 5 crore target.",
+   "hints": [
+    "A 40% catch-up on Rs 10 crore yields only Rs 4 crore, short of the target.",
+    "100% would be the catch-up rate for giving all residual to the manager.",
+    "This is 20% of the residual, the no-catch-up style split.",
+    "Correct: 40% of the residual of Rs 10 crore = Rs 4 crore, which is below the Rs 5 crore target."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-13",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "Under a fund's unit classes, commitments of Rs 5 crore to below Rs 10 crore fall in Class A2 with a management fee of 2.10% p.a. An investor commits Rs 7 crore and his share of the fund's gross asset value is Rs 8 crore. What is his annual management fee including 18% GST?",
+   "options": [
+    "Rs 16.800 lakh",
+    "Rs 23.600 lakh",
+    "Rs 17.346 lakh",
+    "Rs 19.824 lakh"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Fee rate for Class A2 = 2.10%. Applied to his share of gross assets: 2.10% x Rs 8 crore = Rs 16.8 lakh; GST 18% = Rs 3.024 lakh; total Rs 19.824 lakh.",
+   "hints": [
+    "This excludes GST.",
+    "This applies the Class A1 rate of 2.50% (20 lakh x 1.18).",
+    "This applies 2.10% plus GST on the Rs 7 crore commitment.",
+    "Correct: 2.10% x 8 crore = 16.8 lakh; x 1.18 = Rs 19.824 lakh."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-14",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "A Category III AIF reports a 95% one-month Value at Risk of Rs 2 crore. Which interpretation is correct?",
+   "options": [
+    "There is a 95% probability that the fund will not lose more than Rs 2 crore over the next month",
+    "The fund will certainly lose Rs 2 crore next month",
+    "There is a 95% probability that the fund will lose at least Rs 2 crore next month",
+    "The fund's maximum possible loss in any circumstance is Rs 2 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "VaR is the maximum expected loss over a time frame at a confidence level. A 95% one-month VaR of Rs 2 crore means a 95% probability that loss will not exceed Rs 2 crore next month; it does not indicate the size of loss beyond that.",
+   "hints": [
+    "Correct: VaR is the maximum expected loss at the given confidence level.",
+    "VaR is not a certain loss.",
+    "This reverses the meaning of the confidence level.",
+    "VaR does not cap losses in the remaining 5% of cases; that is a known limitation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-15",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "For reporting to performance benchmarking agencies, how is AUM of a scheme defined and on what NAV basis is benchmarking done?",
+   "options": [
+    "AUM is the total capital committed, and benchmarking is on post-tax NAV",
+    "AUM is the gross asset value including borrowings, and benchmarking is on post-tax NAV",
+    "AUM is the investable funds, and benchmarking is on gross NAV before expenses",
+    "AUM is the value of total capital drawn down, and benchmarking is on pre-tax NAV"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Operational guidelines state that AUM for benchmarking is the value of total capital drawn down, and performance reporting and benchmarking are carried out on pre-tax NAV of the scheme.",
+   "hints": [
+    "Committed capital is not used, and NAV is pre-tax.",
+    "Borrowings are not part of AUM for this purpose; NAV is pre-tax.",
+    "Investable funds and gross NAV are not the specified bases.",
+    "Correct: drawn-down capital and pre-tax NAV are specified."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-16",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "A 130/30 long-short Category III AIF has investable funds of Rs 250 crore. What are its gross and net market exposures?",
+   "options": [
+    "Gross Rs 325 crore; net Rs 250 crore",
+    "Gross Rs 250 crore; net Rs 400 crore",
+    "Gross Rs 400 crore; net Rs 250 crore",
+    "Gross Rs 400 crore; net Rs 325 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "130/30 means long 130% (Rs 325 crore) and short 30% (Rs 75 crore). Gross exposure = 325 + 75 = Rs 400 crore (1.6 times); net exposure = Rs 250 crore (100% of investable funds).",
+   "hints": [
+    "Rs 325 crore is only the long side.",
+    "This swaps gross and net.",
+    "Correct: long 325 + short 75 = 400 gross; 325 - 75 = 250 net.",
+    "Net exposure subtracts shorts: 325 - 75 = 250."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-17",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "How is the exposure of a bought options position measured on the day the Category III AIF enters into the contract, as per the workbook?",
+   "options": [
+    "As the strike price multiplied by lot size, kept constant till expiry",
+    "As zero, since options carry no obligation",
+    "As the option premium paid, with Black-Scholes pricing and mark-to-market used on subsequent valuation days",
+    "As the margin deposited for futures on the same underlying"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "On T-day, total exposure for an options contract is computed as the option premium paid. On subsequent valuation days the option is priced at fair value using the Black-Scholes model and mark-to-market.",
+   "hints": [
+    "Exposure is not frozen at strike value.",
+    "Bought options still create exposure equal to the premium.",
+    "Correct: day-one exposure equals premium; later valued using Black-Scholes and MTM.",
+    "Futures margins are a different item."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-18",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "A fund holds a large block of a thinly traded SME stock quoted at Rs 25. Its valuation policy arrives at a fair value of about Rs 24.24. Which reasoning supports valuing below the quoted price?",
+   "options": [
+    "Listed shares must always be valued at 3% below the closing price",
+    "The quoted price includes GST, which must be removed",
+    "The block can be sold only over several days, with prices likely to hit lower price bands, and later proceeds must be discounted to the valuation day",
+    "SME stocks must be valued at face value"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "For illiquid holdings, the manager estimates days needed to exit (holding / daily volume), assumes price falls (e.g., 2% lower band each day) and discounts later proceeds at the opportunity cost to the valuation day; the average gives a fair value below the quoted price.",
+   "hints": [
+    "There is no flat 3% discount rule; it depends on liquidity analysis.",
+    "Share prices do not include GST.",
+    "Correct: days-to-exit, price-band falls and discounting reduce fair value.",
+    "Face value is not a fair value method."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-19",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "A Category III AIF set up as a trust earns business income of Rs 4 crore (above Rs 2 crore). It pays tax at 30% plus 25% surcharge plus 4% cess. What is the total tax?",
+   "options": [
+    "Rs 1.56 crore",
+    "Rs 1.20 crore",
+    "Rs 1.50 crore",
+    "Rs 1.38 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Tax = 30% x Rs 4 crore = Rs 1.20 crore; surcharge @25% = Rs 0.30 crore; cess @4% on Rs 1.50 crore = Rs 0.06 crore; total Rs 1.56 crore (an effective 39%).",
+   "hints": [
+    "Correct: 4 x 30% = 1.20; x 1.25 = 1.50; x 1.04 = Rs 1.56 crore.",
+    "This omits surcharge and cess.",
+    "This omits the 4% cess.",
+    "This uses 15% surcharge instead of 25%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-20",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT a tax benefit available to a Category III AIF located in an IFSC?",
+   "options": [
+    "Exemption from registration with SEBI under the AIF Regulations",
+    "100% deduction of income for any 10 consecutive years out of 15",
+    "MAT at 9% instead of the general 18.5% when income is solely in convertible foreign exchange",
+    "Exemption from STT on transactions on a recognised stock exchange in IFSC"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "IFSC Category III AIFs get a 10-of-15-year tax holiday, MAT at 9%, STT exemption, AMT exemption for trusts/LLPs, GST exemption, and exemption for unit holders. The Taxation Act, 2020 benefits even require the AIF to be SEBI-registered.",
+   "hints": [
+    "Correct (this is NOT a benefit): IFSC benefits are tax benefits, not exemption from registration.",
+    "This is an IFSC tax holiday benefit.",
+    "This is an IFSC MAT benefit.",
+    "This is an IFSC STT benefit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-21",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "Under good practices on conflicts of interest, a distributor should avoid getting capital commitments from which of the following entities?",
+   "options": [
+    "An unrelated pension fund that has completed due diligence",
+    "A sovereign wealth fund advised by an independent consultant",
+    "An HNI who is an existing client of another distributor",
+    "An entity in which the distributor is a director or holds more than 10% of the paid-up capital"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Distributors should avoid commitments from their subsidiaries, associates or affiliates, or entities where they are directors or hold more than 10% of paid-up capital, as these are related-party transactions liable to scrutiny.",
+   "hints": [
+    "An unrelated pension fund presents no such conflict.",
+    "An independently advised SWF is not a related party.",
+    "A client of another distributor is not a conflict for this distributor.",
+    "Correct: such commitments are related-party transactions and a conflict."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-22",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "An agent posts securities-market content on social media on behalf of a Category III AIF. From May 1, 2026, how must registration details be displayed?",
+   "options": [
+    "The principal AIF's registered name and registration number first, followed by the agent's own credentials",
+    "Only the agent's own registration number",
+    "No details are needed if the content is educational",
+    "Only the AIF's website link, without registration numbers"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "AIFs and their agents/distributors must prominently disclose SEBI-registered names and numbers on their social media home page and at the start of securities-market content. From May 1, 2026, an agent posting for a principal must show the principal's details first, then its own; agents with multiple principals must provide a web link listing them.",
+   "hints": [
+    "Correct: principal's details first, then the agent's.",
+    "The principal's details must also appear, and first.",
+    "Securities-market content requires the disclosures.",
+    "Registered name and registration number must be shown."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M7-23",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "What is Nova's NAV per unit on 30 June 2027?",
+   "options": [
+    "Rs 1,153.0000",
+    "Rs 1,120.0000",
+    "Rs 1,123.0000",
+    "Rs 1,033.0000"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Total assets = 150 + 20 + 30.6 + 12 + 18 = Rs 230.6 crore. Liabilities = 1.2 + 3.8 + 1.0 = Rs 6.0 crore. Net assets Rs 224.6 crore / 20,00,000 units = Rs 1,123.0000.",
+   "hints": [
+    "This ignores all liabilities.",
+    "This values the debentures at cost (Rs 30 crore) without accrued interest.",
+    "Correct: assets 230.6 - liabilities 6.0 = 224.6 crore; / 20 lakh units = Rs 1,123.",
+    "This omits the F&O margin balance, which is an asset."
+   ],
+   "numeric": true,
+   "case": "Fund Nova, a Category III AIF, issued 20,00,000 units at Rs 1,000 each (Rs 200 crore) on 1 January 2027. On the valuation day, 30 June 2027, it holds: listed equities worth Rs 150 crore at closing prices; unlisted equity shares valued at Rs 20 crore by its independent valuer; unlisted debentures with no ascertainable market, carried at amortised cost plus accrued interest of Rs 30.6 crore; cash and receivables of Rs 12 crore; and a balance of Rs 18 crore in its F&O margin account with the broker. Liabilities are: management fee payable Rs 1.2 crore, other payables Rs 3.8 crore and tax provision Rs 1 crore. On 1 July 2027 Nova sells (shorts) 400 lots of a stock futures contract (lot size 250) at Rs 2,400; the futures close at Rs 2,320 that day."
+  },
+  {
+   "id": "xixb-M7-24",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "What notional exposure did Nova take when it shorted the stock futures on 1 July 2027?",
+   "options": [
+    "Rs 23.2 crore",
+    "Rs 24 crore",
+    "Rs 9.6 lakh",
+    "Rs 2.4 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Futures exposure on T-day = lots x lot size x futures price at entry = 400 x 250 x Rs 2,400 = Rs 24,00,00,000. Subsequent valuation days use mark-to-market.",
+   "hints": [
+    "This uses the closing price; entry exposure uses the trade price.",
+    "Correct: 400 x 250 x 2,400 = Rs 24 crore at entry.",
+    "This ignores the lot size of 250 (400 x 2,400).",
+    "This misses a factor of 10."
+   ],
+   "numeric": true,
+   "case": "Fund Nova, a Category III AIF, issued 20,00,000 units at Rs 1,000 each (Rs 200 crore) on 1 January 2027. On the valuation day, 30 June 2027, it holds: listed equities worth Rs 150 crore at closing prices; unlisted equity shares valued at Rs 20 crore by its independent valuer; unlisted debentures with no ascertainable market, carried at amortised cost plus accrued interest of Rs 30.6 crore; cash and receivables of Rs 12 crore; and a balance of Rs 18 crore in its F&O margin account with the broker. Liabilities are: management fee payable Rs 1.2 crore, other payables Rs 3.8 crore and tax provision Rs 1 crore. On 1 July 2027 Nova sells (shorts) 400 lots of a stock futures contract (lot size 250) at Rs 2,400; the futures close at Rs 2,320 that day."
+  },
+  {
+   "id": "xixb-M7-25",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "What is the mark-to-market profit or loss on Nova's futures position at the close of 1 July 2027?",
+   "options": [
+    "Loss of Rs 80 lakh",
+    "Profit of Rs 80 lakh",
+    "Profit of Rs 8 lakh",
+    "Profit of Rs 32,000"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "For a short futures position, MTM profit = (entry price - closing price) x lots x lot size = (2,400 - 2,320) x 400 x 250 = Rs 80,00,000. The gain is credited to the F&O margin account.",
+   "hints": [
+    "A short position profits when the price falls.",
+    "Correct: short position gains (2,400 - 2,320) x 400 x 250 = Rs 80 lakh.",
+    "This misses a factor of 10.",
+    "This ignores the lot size of 250 (80 x 400)."
+   ],
+   "numeric": true,
+   "case": "Fund Nova, a Category III AIF, issued 20,00,000 units at Rs 1,000 each (Rs 200 crore) on 1 January 2027. On the valuation day, 30 June 2027, it holds: listed equities worth Rs 150 crore at closing prices; unlisted equity shares valued at Rs 20 crore by its independent valuer; unlisted debentures with no ascertainable market, carried at amortised cost plus accrued interest of Rs 30.6 crore; cash and receivables of Rs 12 crore; and a balance of Rs 18 crore in its F&O margin account with the broker. Liabilities are: management fee payable Rs 1.2 crore, other payables Rs 3.8 crore and tax provision Rs 1 crore. On 1 July 2027 Nova sells (shorts) 400 lots of a stock futures contract (lot size 250) at Rs 2,400; the futures close at Rs 2,320 that day."
+  },
+  {
+   "id": "xixb-M7-26",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "Assuming all other values are unchanged from 30 June and the margin for the futures came out of the existing F&O margin balance, what is Nova's NAV per unit at the close of 1 July 2027?",
+   "options": [
+    "Rs 1,123.0000",
+    "Rs 1,131.0000",
+    "Rs 1,119.0000",
+    "Rs 1,127.0000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Paying margin out of the existing margin balance does not change NAV (it stays an asset). The MTM profit of Rs 0.8 crore increases the margin balance, so net assets = Rs 225.4 crore and NAV = 225.4 crore / 20 lakh = Rs 1,127.0000.",
+   "hints": [
+    "This ignores the MTM profit credited to the margin account.",
+    "This counts the MTM gain twice.",
+    "This treats the MTM gain as a loss.",
+    "Correct: (224.6 + 0.8) crore / 20 lakh = Rs 1,127."
+   ],
+   "numeric": true,
+   "case": "Fund Nova, a Category III AIF, issued 20,00,000 units at Rs 1,000 each (Rs 200 crore) on 1 January 2027. On the valuation day, 30 June 2027, it holds: listed equities worth Rs 150 crore at closing prices; unlisted equity shares valued at Rs 20 crore by its independent valuer; unlisted debentures with no ascertainable market, carried at amortised cost plus accrued interest of Rs 30.6 crore; cash and receivables of Rs 12 crore; and a balance of Rs 18 crore in its F&O margin account with the broker. Liabilities are: management fee payable Rs 1.2 crore, other payables Rs 3.8 crore and tax provision Rs 1 crore. On 1 July 2027 Nova sells (shorts) 400 lots of a stock futures contract (lot size 250) at Rs 2,400; the futures close at Rs 2,320 that day."
+  },
+  {
+   "id": "xixb-M7-27",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "Based on the swap ratio and Alpha's current price, what is the implied deal value of one Beta share?",
+   "options": [
+    "Rs 270",
+    "Rs 833",
+    "Rs 300",
+    "Rs 162"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Each Beta share gets 3/5 of an Alpha share. Implied value = 0.6 x Rs 500 = Rs 300 per Beta share.",
+   "hints": [
+    "Rs 270 is Beta's market price, not the implied value.",
+    "This inverts the ratio (5/3 x 500).",
+    "Correct: 3/5 x Rs 500 = Rs 300.",
+    "This applies the ratio to Beta's price (3/5 x 270)."
+   ],
+   "numeric": true,
+   "case": "On 2 February 2027, Alpha Ltd announced an all-stock acquisition of Beta Ltd: Beta's shareholders will receive 3 Alpha shares for every 5 Beta shares held. Just after the announcement, Alpha trades at Rs 500 and Beta at Rs 270. Shareholder and regulatory approvals are still pending, and some analysts think Alpha is overpaying. Kairos Event Fund, a Category III AIF (not a Large Value Fund) with investable funds of Rs 500 crore, has a merger arbitrage mandate and wants to act on this deal."
+  },
+  {
+   "id": "xixb-M7-28",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "What is the gross arbitrage spread available on Beta, as a percentage of its current price?",
+   "options": [
+    "About 10.0%",
+    "About 11.1%",
+    "About 6.0%",
+    "About 85.2%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Spread = implied value - market price = Rs 300 - Rs 270 = Rs 30. As a percentage of the price paid for Beta: 30 / 270 = 11.1%, before considering deal-failure risk and costs.",
+   "hints": [
+    "Dividing by the deal value (30/300) gives 10%, not the return on the price paid.",
+    "Correct: (300 - 270) / 270 = 11.1%.",
+    "This divides by Alpha's price (30/500).",
+    "This compares unrelated quantities."
+   ],
+   "numeric": true,
+   "case": "On 2 February 2027, Alpha Ltd announced an all-stock acquisition of Beta Ltd: Beta's shareholders will receive 3 Alpha shares for every 5 Beta shares held. Just after the announcement, Alpha trades at Rs 500 and Beta at Rs 270. Shareholder and regulatory approvals are still pending, and some analysts think Alpha is overpaying. Kairos Event Fund, a Category III AIF (not a Large Value Fund) with investable funds of Rs 500 crore, has a merger arbitrage mandate and wants to act on this deal."
+  },
+  {
+   "id": "xixb-M7-29",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "Given that approvals are pending and Alpha may be overpaying, which position is most consistent with the workbook's description of merger arbitrage?",
+   "options": [
+    "Short Beta and long Alpha",
+    "Long Beta (target) and short Alpha (acquirer)",
+    "Long both Beta and Alpha",
+    "Short both Beta and Alpha"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A merger arbitrage fund goes long the target to capture the spread. It shorts the acquirer where completion is uncertain or the premium appears overvalued (which may push the acquirer's price down). Long positions in both suit cases where approvals are already obtained.",
+   "hints": [
+    "Shorting the target forgoes the deal spread.",
+    "Correct: long target for the spread; short acquirer for deal uncertainty and overpayment risk.",
+    "Going long the acquirer is suitable when the deal is approved and the premium is fair or undervalued.",
+    "Shorting both is a bearish bet, not merger arbitrage."
+   ],
+   "numeric": false,
+   "case": "On 2 February 2027, Alpha Ltd announced an all-stock acquisition of Beta Ltd: Beta's shareholders will receive 3 Alpha shares for every 5 Beta shares held. Just after the announcement, Alpha trades at Rs 500 and Beta at Rs 270. Shareholder and regulatory approvals are still pending, and some analysts think Alpha is overpaying. Kairos Event Fund, a Category III AIF (not a Large Value Fund) with investable funds of Rs 500 crore, has a merger arbitrage mandate and wants to act on this deal."
+  },
+  {
+   "id": "xixb-M7-30",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "What is the maximum amount (at cost) Kairos can invest in Beta's shares?",
+   "options": [
+    "Rs 100 crore",
+    "Rs 125 crore",
+    "Rs 25 crore",
+    "Rs 50 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A Category III AIF may invest up to 10% of investable funds in one investee company (20% for LVFs). For Kairos, 10% x Rs 500 crore = Rs 50 crore, measured at cost (or on NAV for listed equity, if so disclosed).",
+   "hints": [
+    "20% applies only to Large Value Funds; Kairos is not one.",
+    "25% is the overseas investment cap.",
+    "5% is not the concentration limit.",
+    "Correct: 10% of investable funds of Rs 500 crore = Rs 50 crore."
+   ],
+   "numeric": true,
+   "case": "On 2 February 2027, Alpha Ltd announced an all-stock acquisition of Beta Ltd: Beta's shareholders will receive 3 Alpha shares for every 5 Beta shares held. Just after the announcement, Alpha trades at Rs 500 and Beta at Rs 270. Shareholder and regulatory approvals are still pending, and some analysts think Alpha is overpaying. Kairos Event Fund, a Category III AIF (not a Large Value Fund) with investable funds of Rs 500 crore, has a merger arbitrage mandate and wants to act on this deal."
+  }
+ ]
+}

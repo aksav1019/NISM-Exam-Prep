@@ -1,0 +1,583 @@
+{
+ "id": "mock-2",
+ "title": "Mock 2 · Ecosystem & Structures",
+ "level": "easy",
+ "blurb": "Who's who in a Category III AIF, how funds are structured and launched, plus first-step performance metrics.",
+ "questions": [
+  {
+   "id": "xixb-M2-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which of the following is explicitly excluded from the definition of an Alternative Investment Fund under the SEBI (AIF) Regulations, 2012?",
+   "options": [
+    "A privately pooled hedge fund registered with SEBI",
+    "A family trust set up for the benefit of a family",
+    "A venture capital fund investing in start-ups",
+    "A private equity fund investing in unlisted companies"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The AIF definition excludes mutual funds, collective investment schemes, family trusts, ESOP or employee benefit trusts, holding companies, securitisation SPVs and funds regulated by RBI or other regulators.",
+   "hints": [
+    "A SEBI-registered privately pooled hedge fund is a Category III AIF.",
+    "Correct: family trusts, ESOP trusts and holding companies are excluded.",
+    "VCFs are Category I AIFs.",
+    "PE funds are Category II AIFs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "An Angel Fund must on-board at least how many accredited investors before declaring its first close?",
+   "options": [
+    "Two",
+    "Five",
+    "Ten",
+    "Twenty-five"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "An Angel Fund (sub-category of Category I) shall on-board at least five accredited investors before declaring its first close. Its investment in any investee company must be between Rs 10 lakh and Rs 25 crore.",
+   "hints": [
+    "Two is too few under the 2025 amendment.",
+    "Correct: at least five accredited investors before first close.",
+    "Ten is not the prescribed number.",
+    "Twenty-five is not the requirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-03",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "What is the maximum number of investors permitted in a single scheme of a Category III AIF?",
+   "options": [
+    "200",
+    "1,000",
+    "500",
+    "No upper limit"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Every scheme launched by a Category III AIF shall have a maximum of 1,000 investors, and this is checked in the Compliance Test Report.",
+   "hints": [
+    "200 relates to private placement rules elsewhere, not this limit.",
+    "Correct: each scheme can have a maximum of 1,000 investors.",
+    "500 is not the AIF limit.",
+    "Unlimited investors apply to mutual funds, not AIFs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "A 'PIPE' fund operating as a Category III AIF typically:",
+   "options": [
+    "Invests only in unlisted start-ups",
+    "Buys securities of a publicly traded company at a discount to its current market price",
+    "Lends money to infrastructure projects",
+    "Invests exclusively in units of other AIFs"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "PIPE (Private Investment in Public Equity) funds purchase securities of a publicly traded stock at a discount to the current market price, in the primary or secondary market.",
+   "hints": [
+    "Unlisted start-ups are the domain of VCFs.",
+    "Correct: PIPE = Private Investment in Public Equity, usually at a discount.",
+    "Infrastructure lending suits infrastructure or debt funds.",
+    "That describes a fund of funds approach."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-05",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Why do investment managers prefer a high catch-up rate in the contribution agreement?",
+   "options": [
+    "Because it reduces the hurdle rate payable to investors",
+    "Because a higher proportion of residual profits after capital and hurdle flows to the manager until it reaches its agreed profit share",
+    "Because it allows the manager to skip returning investors' capital first",
+    "Because it lowers the GST payable on management fees"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Catch-up rate is the rate at which residual profits, after returning capital and hurdle, are paid to the manager until it receives its pre-determined share of total profits. With a 100% catch-up, all residual profits go to the manager until that share is met.",
+   "hints": [
+    "The hurdle remains payable first; catch-up comes after it.",
+    "Correct: catch-up accelerates the manager's share of profits after the hurdle is paid.",
+    "Return of capital is always the first step of the waterfall.",
+    "Catch-up has nothing to do with GST."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-06",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "In a master-feeder structure for a Category III AIF, where is the management fee typically charged?",
+   "options": [
+    "At the master fund level, with only a symbolic fixed amount charged at the feeder level",
+    "Only at the feeder fund level",
+    "Equally at both the master and feeder levels",
+    "Directly to the investee companies"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "In a master-feeder structure, management fees are typically charged at the master fund level, while the feeder charges a symbolic fixed absolute amount (for example USD 1,000). The master's fee is passed to feeder managers through the NAV allocated to the feeder.",
+   "hints": [
+    "Correct: fees are charged at the master; feeders charge a token amount such as USD 1,000.",
+    "Feeders charge only a symbolic amount, not the main fee.",
+    "Double charging is what the structure avoids.",
+    "Investee companies do not pay the fund's management fee."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Why is the appointment of a Registrar and Transfer Agent (RTA) compulsory for a Category III AIF?",
+   "options": [
+    "RTAs act as collecting agents for stamp duty on issue, transfer and sale of AIF units",
+    "RTAs file the PPM with SEBI",
+    "RTAs hold the fund's securities in safekeeping",
+    "RTAs value the fund's unlisted investments"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "After the Indian Stamp Act amendments, RTAs registered with SEBI act as collecting agents to collect stamp duty on issue, transfer and sale of AIF units; hence appointment of an RTA by a Category III AIF is compulsory.",
+   "hints": [
+    "Correct: SEBI made RTAs collecting agents for stamp duty, so appointment is compulsory.",
+    "PPM filing is done through a merchant banker.",
+    "Safekeeping is the custodian's job.",
+    "Valuation of unlisted securities is done by an independent valuer."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "If a Category III AIF wishes to change its investment strategy during the life of the fund, whose approval is required?",
+   "options": [
+    "At least 75% of the investors by number",
+    "Only the trustee of the fund",
+    "At least two-thirds of the investors by value of their investment",
+    "A simple majority of investors by number"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The investment strategy disclosed in the PPM applies for the fund life. Any change requires approval of at least two-thirds of investors by value of their investment in the Category III AIF.",
+   "hints": [
+    "75% applies to other matters such as associate transactions and winding up, and it is by value.",
+    "Trustee approval alone is not sufficient.",
+    "Correct: a change in investment strategy needs approval of two-thirds of investors by value.",
+    "A simple majority by number is not the test."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-09",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "An individual has met the accredited investor criteria in each of the two preceding financial years. For how long will the accreditation be valid?",
+   "options": [
+    "1 year from the date of accreditation",
+    "2 years from the date of accreditation",
+    "3 years from the date of accreditation",
+    "5 years from the date of accreditation"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Accreditation is valid for 2 years if the applicant meets the criteria for the preceding one year, and for 3 years if the criteria are met in each of the two preceding financial years.",
+   "hints": [
+    "1 year is not a validity period under the framework.",
+    "2 years applies when criteria are met only for the preceding one year.",
+    "Correct: consistent eligibility in both preceding FYs earns 3-year validity.",
+    "5 years is not provided for."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-10",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "A Category III AIF has called-up capital of Rs 100 crore and a compounding hurdle rate of 8% p.a. What is the reference hurdle at the end of Year 2?",
+   "options": [
+    "Rs 116.00 crore",
+    "Rs 108.00 crore",
+    "Rs 116.64 crore",
+    "Rs 125.97 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The reference hurdle is computed by applying the hurdle rate to the previous reference hurdle: Year 1 = 100 x 1.08 = 108; Year 2 = 108 x 1.08 = 116.64 crore.",
+   "hints": [
+    "This is simple interest (100 + 2 x 8); the workbook compounds the hurdle.",
+    "This is the Year 1 reference hurdle.",
+    "Correct: 100 x 1.08 = 108; 108 x 1.08 = Rs 116.64 crore.",
+    "This is the Year 3 reference hurdle (100 x 1.08^3)."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-11",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "A fund has paid-in capital of Rs 200 crore, has distributed Rs 80 crore and holds unrealised investments valued at Rs 260 crore. What is its TVPI?",
+   "options": [
+    "0.40",
+    "1.30",
+    "2.10",
+    "1.70"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "DPI = 80/200 = 0.40; RVPI = 260/200 = 1.30; TVPI = DPI + RVPI = (80 + 260)/200 = 1.70.",
+   "hints": [
+    "0.40 is the DPI only.",
+    "1.30 is the RVPI only.",
+    "This wrongly divides 420 by 200 after double counting.",
+    "Correct: DPI 0.40 + RVPI 1.30 = TVPI 1.70."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-12",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "The Treynor ratio measures excess return over the risk-free rate per unit of:",
+   "options": [
+    "Systematic risk, measured by beta",
+    "Total risk, measured by standard deviation",
+    "Maximum drawdown",
+    "Value at Risk"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Treynor ratio = (Rp - Rf) / beta. It compares the risk premium with non-diversifiable (systematic) risk, whereas the Sharpe ratio uses total risk.",
+   "hints": [
+    "Correct: Treynor divides the risk premium by beta.",
+    "Standard deviation is used by the Sharpe ratio.",
+    "Maximum drawdown is a separate risk metric.",
+    "VaR is a downside-loss measure, not Treynor's denominator."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-13",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Which of the following statements about Gross IRR and Net IRR of a Category III AIF is correct?",
+   "options": [
+    "Gross IRR is always lower than Net IRR",
+    "Net IRR ignores management and incentive fees",
+    "Net IRR is computed at investor level after fees, expenses and taxes and is lower than Gross IRR",
+    "Gross IRR is computed after deducting taxes paid by the fund"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Gross IRR uses fund-level flows before management fees, incentive fees, expenses and taxes. Net IRR uses investor-level flows including these costs, so it is lower than Gross IRR.",
+   "hints": [
+    "Gross IRR excludes costs, so it is higher, not lower.",
+    "Net IRR specifically includes these fees as outflows.",
+    "Correct: net IRR treats fund expenses as borne by investors, so it is lower.",
+    "Gross IRR is before fees, expenses and taxes."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-14",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "What is the target portfolio beta of a Category III AIF following a market-neutral strategy?",
+   "options": [
+    "Exactly 1",
+    "Above 2",
+    "Zero or close to zero",
+    "Equal to the beta of the benchmark index"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Market-neutral funds take equal long and short exposures so that the fund is neutral to the broad market; the portfolio beta is zero or close to zero.",
+   "hints": [
+    "Beta of 1 means the fund moves with the market.",
+    "High beta implies higher volatility, the opposite of neutrality.",
+    "Correct: market-neutral funds aim for beta near zero.",
+    "Matching the index beta would make the fund track the market."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-15",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "The collapse of Long Term Capital Management (LTCM) in 1998 is cited in the workbook mainly to highlight which due diligence concern?",
+   "options": [
+    "The danger of investing only in listed equities",
+    "The need for a minimum corpus of Rs 20 crore",
+    "The risk of high exit loads",
+    "The danger of excessive leverage in the fund's strategy"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "LTCM had about USD 5 billion equity and over USD 125 billion borrowings (leverage of about 30:1). Losses after the 1998 Russian default were magnified by leverage, so investors should scrutinise leverage in due diligence.",
+   "hints": [
+    "LTCM traded sovereign bond convergence, not listed equities alone.",
+    "Minimum corpus is an Indian rule unrelated to LTCM.",
+    "Exit loads were not the cause of LTCM's failure.",
+    "Correct: LTCM ran about 30:1 leverage and collapsed after the Russian default."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-16",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "An independent valuer appointed by a Category III AIF must have at least how many years of experience in valuation of unlisted securities?",
+   "options": [
+    "1 year",
+    "5 years",
+    "3 years",
+    "10 years"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The independent valuer must not be an associate of the manager, sponsor or trustee, must have at least 3 years of experience in valuing unlisted securities, and must meet the IBBI/professional membership or rating-agency criteria.",
+   "hints": [
+    "1 year is insufficient under the eligibility criteria.",
+    "5 years is not the prescribed minimum.",
+    "Correct: at least 3 years of experience is required.",
+    "10 years is not prescribed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-17",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A Category III AIF buys 100 lots of a stock futures contract with a lot size of 50 shares at a futures price of Rs 2,000. What is the notional exposure taken?",
+   "options": [
+    "Rs 10,00,000",
+    "Rs 2,00,000",
+    "Rs 1,00,000",
+    "Rs 1,00,00,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Futures exposure = number of lots x lot size x futures price = 100 x 50 x Rs 2,000 = Rs 1,00,00,000.",
+   "hints": [
+    "This misses a factor of 10.",
+    "This multiplies only lots and price.",
+    "This multiplies only lots, lot size and Rs 20.",
+    "Correct: 100 x 50 x 2,000 = Rs 1 crore."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-18",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "For listed equity shares sold by a Category III AIF after more than 12 months with STT paid, long-term capital gains are taxed at:",
+   "options": [
+    "20% on the entire gain",
+    "10% on gains exceeding Rs 1 lakh",
+    "30% at the maximum marginal rate",
+    "12.5% on gains exceeding Rs 1.25 lakh in a financial year"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Table 9.1 of the workbook: long-term capital gains on listed equity shares and equity-oriented units (STT paid) are taxed at 12.5% on the amount exceeding Rs 1.25 lakh in a financial year.",
+   "hints": [
+    "20% is the STCG rate for listed equity.",
+    "10% above Rs 1 lakh is the old regime, not the 2026 workbook rule.",
+    "MMR applies to business income, not STT-paid LTCG.",
+    "Correct: the post-July 23, 2024 rate is 12.5% above Rs 1.25 lakh."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-19",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Why does GST paid on management fees become an extra cost for a domestic Category III AIF?",
+   "options": [
+    "The fund has no output GST liability, so it cannot use input tax credit for GST paid",
+    "GST on management fees is charged at 28%",
+    "GST is payable twice, by the fund and by each investor",
+    "GST is charged on the fund's capital gains"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "GST is levied on management fees, trusteeship fees and services of external providers. As a pooled vehicle the fund has no output GST liability, so it cannot benefit from input tax credit, making GST an incremental cost indirectly borne by investors.",
+   "hints": [
+    "Correct: with no output GST, the input credit is wasted and investors bear the cost.",
+    "The workbook uses 18% GST on management fees.",
+    "There is no double levy on fund and investors for the same fee.",
+    "GST applies to services such as fees, not to capital gains."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-20",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "According to the workbook, what are the four pillars of AIF distributorship?",
+   "options": [
+    "Marketing, Sales, Investor Support and Relationship Management",
+    "Research, Trading, Settlement and Custody",
+    "Valuation, Audit, Compliance and Taxation",
+    "Sourcing, Structuring, Monitoring and Exit"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Marketing, Sales, Investor Support and Relationship Management form the four pillars of AIF distributorship, supporting long-term engagement with managers and investors.",
+   "hints": [
+    "Correct: these are the four pillars named in the workbook.",
+    "These are investment operations functions, not distribution pillars.",
+    "These are fund governance functions.",
+    "These describe a private equity deal cycle."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-21",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Professional Indemnity (Errors and Omissions) insurance bought by a Category III AIF primarily protects:",
+   "options": [
+    "The Category III AIF against costs arising from losses caused to investors by errors or omissions in its services",
+    "Directors personally against all claims including fraud",
+    "Investors against market losses in any bad year",
+    "The distributor against loss of commission"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Professional Indemnity (E&O) insurance protects the Category III AIF from costs borne as a result of substantial losses caused to an investor due to errors and omissions in its services.",
+   "hints": [
+    "Correct: E&O protects the fund that bought the policy.",
+    "D&O protects directors, and even it excludes fraud.",
+    "No insurance covers ordinary market losses.",
+    "Distributor commissions are not covered by this policy."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixb-M2-22",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which fund structure meets Zenith's goal of pooling Indian HNIs and the Singapore fund in one onshore vehicle?",
+   "options": [
+    "Parallel structure",
+    "Offshore fund structure",
+    "Master-feeder structure with no onshore pooling",
+    "Unified structure"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "In a unified structure, commitments from domestic and offshore investors are pooled into one onshore AIF, letting the India-based team earn management and performance fees for the whole structure. No FIPB approval is needed; the automatic route applies.",
+   "hints": [
+    "In a parallel structure, offshore funds invest directly alongside, not into, the onshore AIF.",
+    "A pure offshore structure has no pooling in India.",
+    "Without onshore pooling, the Indian team would not earn all fees at one level.",
+    "Correct: a unified structure pools domestic and offshore commitments in an onshore AIF."
+   ],
+   "numeric": false,
+   "case": "Zenith Asset Managers applied to SEBI on 10 February 2026 to register 'Zenith Long-Short Fund' as a Category III AIF set up as a trust. SEBI granted registration on 1 March 2026. The first scheme is a close-ended scheme with a target corpus of Rs 400 crore and a tenure of 5 years. Zenith wants Indian HNIs and a Singapore-based fund to invest in the same Indian (onshore) pooling vehicle so that the Indian team earns all fees at one level. Later, it files the PPM of a second scheme with SEBI through a merchant banker on 1 June 2026."
+  },
+  {
+   "id": "xixb-M2-23",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "From which date can Zenith launch its first scheme?",
+   "options": [
+    "10 February 2026, the date of application",
+    "1 March 2026, being the later of the registration date and 10 working days after filing",
+    "24 February 2026, ten working days after filing",
+    "1 June 2026, when the second PPM is filed"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "First schemes of an AIF can be launched from the date of grant of SEBI registration or after 10 working days of filing the application, whichever is later. Registration on 1 March 2026 is later, so that is the launch date.",
+   "hints": [
+    "The fund cannot launch before SEBI grants registration.",
+    "Correct: the first scheme can launch from the later of the two dates, which is the registration date here.",
+    "Ten working days had passed, but registration came later, so the later date applies.",
+    "The second scheme's filing is unrelated to the first scheme's launch."
+   ],
+   "numeric": false,
+   "case": "Zenith Asset Managers applied to SEBI on 10 February 2026 to register 'Zenith Long-Short Fund' as a Category III AIF set up as a trust. SEBI granted registration on 1 March 2026. The first scheme is a close-ended scheme with a target corpus of Rs 400 crore and a tenure of 5 years. Zenith wants Indian HNIs and a Singapore-based fund to invest in the same Indian (onshore) pooling vehicle so that the Indian team earns all fees at one level. Later, it files the PPM of a second scheme with SEBI through a merchant banker on 1 June 2026."
+  },
+  {
+   "id": "xixb-M2-24",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "From which date will the 5-year tenure of the first close-ended scheme be computed?",
+   "options": [
+    "From the date of SEBI registration",
+    "From the date of final close",
+    "From the date of the first investment by the fund",
+    "From the date of the first close of the scheme"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "For close-ended Category III AIFs the tenure is determined at registration and computed from the date of first close of the scheme.",
+   "hints": [
+    "Registration does not start the tenure clock.",
+    "Final close is later; tenure starts at first close.",
+    "The first investment date is not the reference point.",
+    "Correct: tenure is computed from the date of first close."
+   ],
+   "numeric": false,
+   "case": "Zenith Asset Managers applied to SEBI on 10 February 2026 to register 'Zenith Long-Short Fund' as a Category III AIF set up as a trust. SEBI granted registration on 1 March 2026. The first scheme is a close-ended scheme with a target corpus of Rs 400 crore and a tenure of 5 years. Zenith wants Indian HNIs and a Singapore-based fund to invest in the same Indian (onshore) pooling vehicle so that the Indian team earns all fees at one level. Later, it files the PPM of a second scheme with SEBI through a merchant banker on 1 June 2026."
+  },
+  {
+   "id": "xixb-M2-25",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Under the regular-scheme route, when can Zenith launch the second scheme whose PPM was filed through a merchant banker on 1 June 2026?",
+   "options": [
+    "After 10 working days of filing the PPM with SEBI",
+    "Immediately on filing the PPM",
+    "Only after SEBI formally approves the PPM",
+    "After 30 working days of filing the PPM"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Under the GARUDA framework, regular schemes file the PPM through a merchant banker at least 10 working days before launch, and new schemes can be launched after 10 working days of filing. SEBI does not approve the PPM.",
+   "hints": [
+    "Correct: new regular schemes can launch after 10 working days of filing.",
+    "Immediate launch on filing is available to AI-only funds and LVFs, not regular schemes.",
+    "SEBI only gives observations; it does not approve PPMs.",
+    "30 days was the older timeline, replaced by 10 working days in 2026."
+   ],
+   "numeric": false,
+   "case": "Zenith Asset Managers applied to SEBI on 10 February 2026 to register 'Zenith Long-Short Fund' as a Category III AIF set up as a trust. SEBI granted registration on 1 March 2026. The first scheme is a close-ended scheme with a target corpus of Rs 400 crore and a tenure of 5 years. Zenith wants Indian HNIs and a Singapore-based fund to invest in the same Indian (onshore) pooling vehicle so that the Indian team earns all fees at one level. Later, it files the PPM of a second scheme with SEBI through a merchant banker on 1 June 2026."
+  }
+ ]
+}
