@@ -1,0 +1,583 @@
+{
+ "id": "mock-3",
+ "title": "Mock 3 · Markets and Valuation",
+ "level": "easy",
+ "blurb": "Market structure, corporate actions, valuation multiples and a short bond-pricing caselet, with the rest of the syllabus mixed in.",
+ "questions": [
+  {
+   "id": "xa-M3-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "According to the workbook, what role should tax efficiency play when an adviser builds a client's investment plan?",
+   "options": [
+    "It should be the primary basis for choosing products",
+    "It is guidance and awareness; the basis should be the client's requirements and risk appetite",
+    "It should be ignored completely",
+    "It matters only for retired clients"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Post-tax returns must be considered, but tax efficiency should not be the basis of investment decisions; requirements and risk appetite should be.",
+   "hints": [
+    "The workbook warns against making tax the basis.",
+    "Correct.",
+    "Post-tax returns still need to be considered.",
+    "Tax affects every client's corpus, not only retirees."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M3-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Neha needs ₹10 lakh for her daughter's education in 8 years. If she can earn 7% a year compounded annually, how much must she invest today?",
+   "options": [
+    "₹4,40,000",
+    "₹6,22,750",
+    "₹5,40,000",
+    "₹5,82,009"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "PV = FV / (1 + r)^n = 10,00,000 / 1.07^8 = 10,00,000 / 1.7182 = ₹5,82,009.",
+   "hints": [
+    "This subtracts simple interest of 56% from ₹10 lakh; wrong method.",
+    "This discounts for only 7 years.",
+    "Not a discounted value for these inputs.",
+    "Correct."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M3-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Two annuities each pay ₹50,000 a year for 5 years at the same discount rate. Annuity X pays at the start of each year and Annuity Y at the end. For the receiver:",
+   "options": [
+    "X is worth more because each payment arrives one period earlier",
+    "Y is worth more because payments arrive later",
+    "Both are worth the same",
+    "It depends only on the number of payments"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "X is an annuity due; payments at the beginning can be invested earlier, so its PV = ordinary annuity PV x (1 + r), which is higher.",
+   "hints": [
+    "Correct.",
+    "Later payments are worth less, not more.",
+    "Timing differs, so values differ.",
+    "Timing of payments also matters."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M3-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "If a client's leverage ratio is 35%, her solvency ratio is:",
+   "options": [
+    "35%",
+    "54%",
+    "65%",
+    "135%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Solvency ratio = Net worth / Total assets = 1 - Leverage ratio = 1 - 0.35 = 65%.",
+   "hints": [
+    "That is the leverage ratio itself.",
+    "This is liabilities / net worth (35/65).",
+    "Correct.",
+    "Ratios of this kind cannot exceed 100% for a solvent person."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M3-05",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "During a loan moratorium declared due to a crisis:",
+   "options": [
+    "The EMIs for that period are waived permanently",
+    "EMIs are paused without being treated as a default, but interest continues to accrue",
+    "The borrower's credit score is reduced",
+    "The loan tenure is automatically shortened"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A moratorium pauses repayments without counting them as default and does not hurt the credit score, but the interest meter keeps running and the missed EMIs must be repaid with additional interest.",
+   "hints": [
+    "The workbook stresses that EMIs are not waived; many borrowers wrongly assumed this during Covid.",
+    "Correct.",
+    "Non-payment under a moratorium does not affect the credit score.",
+    "Tenure or EMI usually increases afterwards, not decreases."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Which statement about investing in gold, as described in the workbook, is correct?",
+   "options": [
+    "Gold pays a regular income like a bond",
+    "Gold prices are set mainly by the Indian government",
+    "Gold is a soft commodity because it is perishable",
+    "Gold is a safe-haven asset that offers diversification but no current income, so returns come only from price appreciation"
+   ],
+   "answer": 3,
+   "explanation": "Gold has acquired safe-haven status, is attractive in times of uncertainty and has shown diversification benefits; like most commodities it generates no current income, so the investor relies on capital appreciation.",
+   "hints": [
+    "Commodities like gold generate no current income.",
+    "Hard commodity prices are set by global demand and supply.",
+    "Gold is a hard (mined) commodity; soft commodities are grown and perishable.",
+    "Correct."
+   ],
+   "id": "xa-M3-06",
+   "numeric": false,
+   "case": null,
+   "marks": 1
+  },
+  {
+   "id": "xa-M3-07",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which department of the Ministry of Finance controls matters relating to direct and indirect taxes through the CBDT and CBEC?",
+   "options": [
+    "Department of Revenue",
+    "Department of Economic Affairs",
+    "Department of Financial Services",
+    "Department of Expenditure"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The Department of Revenue exercises control over direct and indirect taxes through two statutory boards: the Central Board of Direct Taxes and the Central Board of Excise and Customs.",
+   "hints": [
+    "Correct.",
+    "DEA handles macro policy and capital markets.",
+    "DFS handles public sector banks, insurance and pension reforms.",
+    "Expenditure handles financial rules and assistance to states."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M3-08",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "The index-based market-wide circuit breakers in India are triggered at index movements of:",
+   "options": [
+    "5%, 10% and 15%",
+    "2%, 5% and 10%",
+    "10%, 15% and 20%",
+    "20% only"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Market-wide circuit breakers apply at 10%, 15% and 20% movement either way in the Sensex or Nifty 50, whichever is breached first.",
+   "hints": [
+    "Not the market-wide levels.",
+    "These are among the daily price bands for individual scrips.",
+    "Correct.",
+    "20% is the price band for remaining individual scrips, not the index rule."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M3-09",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "An investor holds 200 shares of face value ₹10 trading at ₹1,500. The company announces a 1:5 stock split. After the split she will hold (approximately):",
+   "options": [
+    "200 shares of ₹2 face value at about ₹1,500",
+    "1,000 shares of ₹2 face value at about ₹300",
+    "1,000 shares of ₹10 face value at about ₹300",
+    "40 shares of ₹50 face value at about ₹7,500"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A 1:5 split turns each share into 5, so 200 becomes 1,000; face value falls to ₹2 and price to about ₹300. The holding value (₹3 lakh) is unchanged.",
+   "hints": [
+    "The number of shares must rise in a split.",
+    "Correct.",
+    "Face value falls in a split; it is a bonus that keeps face value.",
+    "This is a consolidation, the reverse of a split."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M3-10",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "What is the fair price of the bond Ajay is considering?",
+   "options": [
+    "₹105.25",
+    "₹100.00",
+    "₹106.00",
+    "₹94.94"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Price = 9/1.07 + 9/1.07^2 + 109/1.07^3 = 8.41 + 7.86 + 88.98 = ₹105.25. Excel: PV(0.07,3,-9,-100).",
+   "hints": [
+    "Correct.",
+    "The bond would trade at par only if the market yield equalled the 9% coupon.",
+    "This adds 2% of extra coupon for 3 years without discounting.",
+    "This discounts at a yield higher than the coupon; the market yield is lower."
+   ],
+   "numeric": true,
+   "case": "Ajay is offered a bond with face value ₹100, an annual coupon of 9% and exactly 3 years to maturity. Similar bonds currently yield 7% in the market. He wants to understand its price, its yield measures and what happens if market rates change."
+  },
+  {
+   "id": "xa-M3-11",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "At that fair price, which statement about Ajay's bond is correct?",
+   "options": [
+    "Its current yield is 9% and YTM is 9%",
+    "It is a discount bond",
+    "Its YTM is higher than its coupon",
+    "Coupon 9% > current yield (about 8.55%) > YTM 7%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The bond trades at a premium (₹105.25). Current yield = 9 / 105.25 = 8.55%. For a premium bond, coupon rate > current yield > YTM.",
+   "hints": [
+    "That would be true only at par.",
+    "Price is above face value, so it is a premium bond.",
+    "For a premium bond YTM is below the coupon.",
+    "Correct."
+   ],
+   "numeric": true,
+   "case": "Ajay is offered a bond with face value ₹100, an annual coupon of 9% and exactly 3 years to maturity. Similar bonds currently yield 7% in the market. He wants to understand its price, its yield measures and what happens if market rates change."
+  },
+  {
+   "id": "xa-M3-12",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "If market yields on similar bonds rise from 7% to 9% immediately after Ajay buys, the bond's price will:",
+   "options": [
+    "Rise to about ₹110",
+    "Stay at ₹105.25 because the coupon is fixed",
+    "Fall to about ₹100, since coupon now equals the market yield",
+    "Fall to about ₹90"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Bond prices move inversely to yields. When the market yield equals the coupon (9%), the bond trades at par: ₹100.",
+   "hints": [
+    "Prices fall when yields rise.",
+    "Market prices change even though the coupon is fixed.",
+    "Correct.",
+    "It would fall below par only if yields rose above the 9% coupon."
+   ],
+   "numeric": true,
+   "case": "Ajay is offered a bond with face value ₹100, an annual coupon of 9% and exactly 3 years to maturity. Similar bonds currently yield 7% in the market. He wants to understand its price, its yield measures and what happens if market rates change."
+  },
+  {
+   "id": "xa-M3-13",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A company has a market capitalisation of ₹800 crore, debt (market value) of ₹300 crore and excess cash of ₹100 crore. Its Enterprise Value is:",
+   "options": [
+    "₹1,200 crore",
+    "₹1,000 crore",
+    "₹1,100 crore",
+    "₹600 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "EV = Market cap + Market value of debt - Excess cash = 800 + 300 - 100 = ₹1,000 crore.",
+   "hints": [
+    "This adds cash instead of subtracting it.",
+    "Correct.",
+    "This ignores the excess cash.",
+    "This subtracts debt instead of adding it."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M3-14",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "A stock trades at ₹2,000 in the cash market. If the cost of carry is 7% a year, what should be the approximate fair price of its 60-day futures contract?",
+   "options": [
+    "₹2,140",
+    "₹2,000",
+    "₹1,977",
+    "₹2,023"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "F = S + cost of carry = 2,000 x (1 + 0.07 x 60/365) = ₹2,023.",
+   "hints": [
+    "This applies a full year's carry for 60 days.",
+    "Futures normally trade above spot by the carry cost.",
+    "Futures should be above, not below, spot when carry is positive.",
+    "Correct."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M3-15",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "For an interval scheme, SEBI requires each transaction window to last at least ____ and a minimum gap of ____ between two windows.",
+   "options": [
+    "2 days; 15 days",
+    "1 day; 30 days",
+    "7 days; 15 days",
+    "2 days; 90 days"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Interval funds open for transactions for a minimum period of two days, with a minimum gap of 15 days between two transaction periods, and must be listed.",
+   "hints": [
+    "Correct.",
+    "Neither figure is the regulatory requirement.",
+    "The window minimum is 2 days.",
+    "The gap minimum is 15 days."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M3-16",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "An aggressive hybrid fund invests:",
+   "options": [
+    "10% to 25% in equity",
+    "40% to 60% in equity",
+    "65% to 80% in equity and 20% to 35% in debt",
+    "At least 10% each in three asset classes"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Aggressive hybrid funds invest 65%-80% in equity and 20%-35% in debt. A fund house may offer either an aggressive hybrid or a balanced hybrid fund.",
+   "hints": [
+    "That is a conservative hybrid fund.",
+    "That is a balanced hybrid fund.",
+    "Correct.",
+    "That is a multi asset allocation fund."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M3-17",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "In a non-discretionary PMS arrangement:",
+   "options": [
+    "The portfolio manager decides what and when to buy or sell",
+    "The client both decides and executes trades",
+    "Only mutual fund units can be held",
+    "The client decides what and when to buy or sell, and the portfolio manager executes"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A non-discretionary manager manages funds as per the client's directions: the client takes buy/sell decisions and the manager executes them.",
+   "hints": [
+    "That is discretionary PMS.",
+    "That is the advisory model.",
+    "There is no such restriction.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M3-18",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "A Category II AIF can invest at most ____ of its investable funds in a single investee company.",
+   "options": [
+    "10%",
+    "25%",
+    "35%",
+    "50%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Category I and II AIFs may invest not more than 25% of investable funds in one investee company (directly or through other AIFs); Category III is limited to 10%.",
+   "hints": [
+    "10% is the Category III limit.",
+    "Correct.",
+    "Not the regulatory limit.",
+    "Not the regulatory limit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M3-19",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "How many distinct covariance (correlation) terms must be estimated for a portfolio of 30 securities?",
+   "options": [
+    "435",
+    "870",
+    "900",
+    "30"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Number of covariance terms = (n² - n) / 2 = (900 - 30) / 2 = 435.",
+   "hints": [
+    "Correct.",
+    "This forgets to divide by 2.",
+    "This is n², which also counts each security with itself.",
+    "This counts only the variances."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M3-20",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "Mr. Rao, 64, is cautious, wants to protect what he has built and dislikes volatility. In the Bailard, Biehl and Kaiser model he is most likely a:",
+   "options": [
+    "Celebrity",
+    "Adventurer",
+    "Guardian",
+    "Individualist"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Guardians are typically older people nearing or in retirement who cautiously try to preserve wealth and are not interested in volatility.",
+   "hints": [
+    "Celebrities chase the latest hot topic.",
+    "Adventurers are confident, impetuous risk-takers.",
+    "Correct.",
+    "Individualists are confident, analytical and do their own research."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M3-21",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "A fund returned +40% in year 1 and -20% in year 2. What are its arithmetic and geometric average annual returns?",
+   "options": [
+    "10% and 10%",
+    "30% and 12%",
+    "10% and 12%",
+    "10% and about 5.83%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Arithmetic = (40 - 20) / 2 = 10%. Geometric = (1.40 x 0.80)^(1/2) - 1 = 1.12^0.5 - 1 = 5.83%. The geometric return is lower whenever returns vary.",
+   "hints": [
+    "They are equal only when all yearly returns are equal.",
+    "Neither number fits.",
+    "12% is the total two-year gain, not an annual geometric return.",
+    "Correct."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M3-22",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "Under section 6 of the Income Tax Act, an individual is resident in India in a year if he is in India for:",
+   "options": [
+    "120 days or more in the year",
+    "182 days or more in the year",
+    "90 days or more in each of the last 4 years",
+    "365 days in the year only"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A person is resident if in India for 182 days or more in the previous year, or 60 days or more in the year plus 365 days or more in the 4 preceding years.",
+   "hints": [
+    "Not the test stated in the workbook.",
+    "Correct.",
+    "Not the test stated in the workbook.",
+    "There is no such requirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M3-23",
+   "chapter": 18,
+   "difficulty": "easy",
+   "q": "An investment adviser must preserve KYC records, risk profiling, suitability assessments, advice given and its rationale for a minimum of:",
+   "options": [
+    "5 years",
+    "3 years",
+    "8 years",
+    "10 years"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "All IA records must be maintained in physical or electronic form for at least five years; electronic records that need signatures must be digitally signed.",
+   "hints": [
+    "Correct.",
+    "Too short.",
+    "Not the regulatory period.",
+    "Not the regulatory period."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M3-24",
+   "chapter": 19,
+   "difficulty": "easy",
+   "q": "The fiduciary duty of an investment adviser rests on the principle of:",
+   "options": [
+    "Caveat emptor (buyer beware)",
+    "Res judicata",
+    "Uberrimae fidei (utmost good faith)",
+    "Pari passu"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "As fiduciaries, IAs must act with utmost good faith (uberrimae fidei) and must not take unfair advantage of the client's trust.",
+   "hints": [
+    "The opposite of a fiduciary standard.",
+    "A legal doctrine about decided cases.",
+    "Correct.",
+    "Means equal ranking; unrelated."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M3-25",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "Which of the following complaints will NOT be taken up on SCORES?",
+   "options": [
+    "Non-receipt of redemption proceeds from a mutual fund",
+    "Delay in refund by a listed company after an IPO",
+    "Grievance against a registered investment adviser",
+    "Dissatisfaction with the trading price of a company's shares"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "SCORES does not address complaints about trading price or illiquidity of shares, incomplete complaints, suggestions or private-agreement disputes. The others are within SEBI's purview.",
+   "hints": [
+    "Mutual fund service issues are covered.",
+    "Issue-related grievances against listed companies are covered.",
+    "IAs are SEBI-registered intermediaries and covered.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

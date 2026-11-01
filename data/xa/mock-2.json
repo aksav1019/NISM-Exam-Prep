@@ -1,0 +1,583 @@
+{
+ "id": "mock-2",
+ "title": "Mock 2 · Planning and Products",
+ "level": "easy",
+ "blurb": "Goal setting, TVM, debt-repayment strategies (with a short caselet) and the everyday product facts an adviser quotes to clients.",
+ "questions": [
+  {
+   "id": "xa-M2-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Pooja saves about ₹20,000 a month. She sets a goal that needs her to invest ₹50,000 a month starting next month. Which goal-setting feature is missing?",
+   "options": [
+    "It is not specific",
+    "It is not measurable",
+    "It is not time-bound",
+    "It is not realistic"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Goals must be specific, measurable, realistic and time-bound. A goal requiring ₹50,000 a month when only ₹20,000 can be saved is not realistic; the workbook uses exactly this kind of example.",
+   "hints": [
+    "The amount is specified, so it is specific.",
+    "₹50,000 a month is measurable.",
+    "It starts next month, so time is defined.",
+    "Correct: it exceeds her saving capacity."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M2-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "An investment of ₹50,000 grew to ₹80,000 in 4 years. What is its CAGR (approximately)?",
+   "options": [
+    "12.47%",
+    "15.00%",
+    "60.00%",
+    "11.25%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "CAGR = (80,000 / 50,000)^(1/4) - 1 = 1.6^0.25 - 1 = 12.47%. Excel: RATE(4,,-50000,80000).",
+   "hints": [
+    "Correct.",
+    "This is the simple average (60% / 4) and ignores compounding.",
+    "This is the absolute (total) return.",
+    "This value does not satisfy 50,000 x (1+r)^4 = 80,000."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M2-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "What is the monthly EMI on a home loan of ₹25 lakh for 20 years at 8.5% per annum (monthly rests, payments at month end)?",
+   "options": [
+    "₹20,911",
+    "₹17,708",
+    "₹21,696",
+    "₹24,500"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "EMI = PMT(0.085/12, 240, -2500000) = ₹21,696.",
+   "hints": [
+    "This is the EMI at 8%, not 8.5%.",
+    "This is interest of the first month plus nothing for principal; not an EMI.",
+    "Correct.",
+    "Too high; does not match PMT for these inputs."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M2-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "According to the workbook, an emergency fund should ideally cover:",
+   "options": [
+    "One month of income",
+    "Six months of expenses, held in liquid assets",
+    "Twelve months of income in equity funds",
+    "Three years of EMIs"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The emergency fund should be the first savings goal and cover about six months of expenses in liquid assets; if income is secure it can be laddered with about three months in liquid assets.",
+   "hints": [
+    "Too small and based on income instead of expenses.",
+    "Correct.",
+    "Equity is unsuitable for emergency money.",
+    "Not the workbook norm."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M2-05",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "A lender charges 2.5% per month on a short-term loan. What is the approximate effective annual cost?",
+   "options": [
+    "30.00%",
+    "26.82%",
+    "25.00%",
+    "34.49%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Effective annual cost = (1 + 0.025)^12 - 1 = 34.49%. Simply multiplying 2.5% by 12 (30%) ignores compounding.",
+   "hints": [
+    "This ignores monthly compounding.",
+    "This is the effective cost at 2% per month.",
+    "Not linked to the data.",
+    "Correct."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M2-06",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "What is Rohan's debt-to-income ratio, and how should it be read?",
+   "options": [
+    "25%; comfortable",
+    "45%; excessive",
+    "37.5%; in the 35-40% zone that the workbook calls excessive",
+    "7.5%; very low"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Monthly debt servicing = 30,000 + 9,000 + 6,000 = ₹45,000. DTI = 45,000 / 1,20,000 = 37.5%. A ratio higher than 35% to 40% is seen as excessive.",
+   "hints": [
+    "This uses only the home-loan EMI.",
+    "This is the rupee figure (₹45,000) mistaken for a percentage.",
+    "Correct.",
+    "Not related to the given numbers."
+   ],
+   "numeric": true,
+   "case": "Rohan earns ₹1,20,000 a month. He pays EMIs of ₹30,000 (home loan, ₹28 lakh outstanding at 8.25%), ₹9,000 (car loan, ₹3 lakh outstanding at 10%) and ₹6,000 (personal loan, ₹60,000 outstanding at 15%). He also carries a credit card balance of ₹90,000 at 38% a year. He wants to become debt-free faster and asks you how to order repayments."
+  },
+  {
+   "id": "xa-M2-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "If Rohan follows the snowball method, which debt does he attack first?",
+   "options": [
+    "Personal loan of ₹60,000",
+    "Credit card balance of ₹90,000",
+    "Car loan of ₹3 lakh",
+    "Home loan of ₹28 lakh"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The snowball method starts with the smallest outstanding amount regardless of interest rate, to build momentum. The smallest balance is the ₹60,000 personal loan.",
+   "hints": [
+    "Correct: smallest balance first.",
+    "The credit card would be first under the avalanche method (highest rate).",
+    "Not the smallest balance.",
+    "Largest balance; it would be last."
+   ],
+   "numeric": false,
+   "case": "Rohan earns ₹1,20,000 a month. He pays EMIs of ₹30,000 (home loan, ₹28 lakh outstanding at 8.25%), ₹9,000 (car loan, ₹3 lakh outstanding at 10%) and ₹6,000 (personal loan, ₹60,000 outstanding at 15%). He also carries a credit card balance of ₹90,000 at 38% a year. He wants to become debt-free faster and asks you how to order repayments."
+  },
+  {
+   "id": "xa-M2-08",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "Under the blizzard method, what is the correct order of repayment for Rohan?",
+   "options": [
+    "Credit card, personal loan, car loan, home loan",
+    "Home loan, car loan, credit card, personal loan",
+    "Personal loan, car loan, credit card, home loan",
+    "Personal loan, credit card, car loan, home loan"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Blizzard begins like snowball (smallest balance: personal loan) and then switches to avalanche (highest remaining rate: credit card at 38%, then car loan at 10%, then home loan at 8.25%).",
+   "hints": [
+    "This is the pure avalanche order.",
+    "This is a reverse order with no logic.",
+    "After the first loan, blizzard switches to highest rate, so the credit card must come next.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": "Rohan earns ₹1,20,000 a month. He pays EMIs of ₹30,000 (home loan, ₹28 lakh outstanding at 8.25%), ₹9,000 (car loan, ₹3 lakh outstanding at 10%) and ₹6,000 (personal loan, ₹60,000 outstanding at 15%). He also carries a credit card balance of ₹90,000 at 38% a year. He wants to become debt-free faster and asks you how to order repayments."
+  },
+  {
+   "id": "xa-M2-09",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Under the SEBI (Self-Regulatory Organizations) Regulations, 2004, a Self-Regulatory Organisation is an organisation of intermediaries recognised by SEBI that:",
+   "options": [
+    "Includes the stock exchanges",
+    "Excludes a stock exchange",
+    "Is recognised by RBI",
+    "Is exempt from SEBI's directions"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The definition expressly excludes a stock exchange. An SRO must abide by SEBI's directions, SEBI nominates directors on its board and it must report members' violations to SEBI.",
+   "hints": [
+    "The definition specifically excludes stock exchanges.",
+    "Correct.",
+    "SROs in the securities market are recognised by SEBI.",
+    "SROs must always abide by SEBI's directions."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M2-10",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "A company offers 8,000 shares in a book-built issue with a price band of ₹200-₹240. Bids received: ₹240: 1,500; ₹235: 2,000; ₹230: 3,000; ₹225: 2,500; ₹220: 1,000 shares. What is the cut-off price?",
+   "options": [
+    "₹230",
+    "₹220",
+    "₹225",
+    "₹235"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Cumulative demand from the top: 1,500 (₹240), 3,500 (₹235), 6,500 (₹230), 9,000 (₹225). The 8,000 shares are fully subscribed at ₹225, which becomes the cut-off.",
+   "hints": [
+    "At ₹230 cumulative demand is only 6,500, short of 8,000.",
+    "At ₹220 demand is 10,000, but the issue is already covered at a higher price.",
+    "Correct.",
+    "At ₹235 demand is only 3,500."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M2-11",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "The difference between the yield on a corporate bond and the yield on a government security of the same maturity is called:",
+   "options": [
+    "Credit spread",
+    "Coupon yield",
+    "Current yield",
+    "Basis"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Credit spread is the extra yield (risk premium) corporates pay for default risk; higher default probability means a wider spread.",
+   "hints": [
+    "Correct.",
+    "Coupon yield is coupon / face value.",
+    "Current yield is coupon / market price.",
+    "Basis is futures price minus spot price."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M2-12",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A stock has a P/E of 18 and expected EPS growth of 24% a year. Based on its PEG ratio, the stock appears:",
+   "options": [
+    "Fairly valued, PEG = 1",
+    "Overvalued, PEG = 1.33",
+    "Overvalued, PEG = 0.75",
+    "Undervalued, PEG = 0.75"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "PEG = P/E / growth = 18 / 24 = 0.75. A PEG below 1 suggests the price has not fully reflected the growth, i.e. undervalued.",
+   "hints": [
+    "PEG is not 1 here.",
+    "This inverts the formula (24/18).",
+    "The number is right but a PEG below 1 means undervalued.",
+    "Correct."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M2-13",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A bond with face value ₹100 pays a coupon of 7.5% and trades at ₹96. What is its current yield?",
+   "options": [
+    "7.50%",
+    "7.81%",
+    "7.20%",
+    "4.00%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Current yield = annual coupon / market price = 7.50 / 96 = 7.81%.",
+   "hints": [
+    "This is the coupon yield (coupon / face value).",
+    "Correct.",
+    "This multiplies by 0.96 instead of dividing.",
+    "This is the discount to face value."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M2-14",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Which feature distinguishes a futures contract from a forward contract?",
+   "options": [
+    "Futures are standardised and traded on an exchange with a clearing house guaranteeing settlement",
+    "Futures terms are negotiated privately between two parties",
+    "Futures carry higher counterparty risk than forwards",
+    "Futures cannot be used for hedging"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Futures are standardised forwards traded on an exchange; the clearing corporation becomes counterparty and both sides pay margins. Forwards are bilateral OTC contracts.",
+   "hints": [
+    "Correct.",
+    "That describes forwards.",
+    "Forwards carry higher counterparty risk; futures reduce it.",
+    "Futures are widely used for hedging."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M2-15",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "To be classified as a large cap fund, a scheme must invest at least ___ of total assets in companies ranked ___ by full market capitalisation.",
+   "options": [
+    "65%; 1st to 100th",
+    "80%; 1st to 250th",
+    "80%; 1st to 100th",
+    "65%; 101st to 250th"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Large cap companies are those ranked 1 to 100 on AMFI's list; a large cap fund must invest at least 80% of total assets in them.",
+   "hints": [
+    "65% is the mid cap and small cap requirement.",
+    "Ranks 101-250 are mid caps, not large caps.",
+    "Correct.",
+    "This is the mid cap fund definition."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M2-16",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "The main benefit of investing a fixed sum every month through an SIP is:",
+   "options": [
+    "A guaranteed minimum return",
+    "Exemption from exit load",
+    "Buying the same number of units every month",
+    "Rupee cost averaging: more units when NAV is low, fewer when it is high"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Because the same amount buys more units when prices are low and fewer when high, the average cost per unit falls over time: rupee cost averaging.",
+   "hints": [
+    "SIPs carry market risk; no return is guaranteed.",
+    "Exit loads still apply as per scheme terms.",
+    "The amount is fixed, so the number of units varies.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M2-17",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "A PMS portfolio grew from ₹50 lakh to ₹60 lakh in year 1 (profit-share charged) and fell to ₹55 lakh in year 2. Under the high-water mark principle, a profit-sharing fee will next be charged only when the value:",
+   "options": [
+    "Rises above ₹55 lakh",
+    "Rises above ₹60 lakh",
+    "Rises above ₹50 lakh",
+    "Returns to the hurdle rate on ₹55 lakh"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The high-water mark is the previous peak on which fees were paid (₹60 lakh). No profit-sharing fee is charged until that level is crossed.",
+   "hints": [
+    "₹55 lakh is the current, lower value.",
+    "Correct.",
+    "₹50 lakh is the original investment, already surpassed.",
+    "The hurdle applies only after the high-water mark is exceeded."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M2-18",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Which pair correctly states two SEBI conditions for every AIF scheme?",
+   "options": [
+    "Corpus of at least ₹20 crore and no more than 1,000 investors",
+    "Corpus of at least ₹100 crore and no more than 200 investors",
+    "Corpus of at least ₹5 crore and unlimited investors",
+    "Corpus of at least ₹20 crore and public advertisement allowed"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Each AIF scheme must have a corpus of at least ₹20 crore and cannot have more than 1,000 investors; funds can be raised only by private placement.",
+   "hints": [
+    "Correct.",
+    "Both numbers are wrong.",
+    "Corpus is wrong and investors are capped at 1,000.",
+    "AIFs cannot solicit the public; only private placement is allowed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M2-19",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "If two securities have a correlation coefficient of +1, combining them in a portfolio:",
+   "options": [
+    "Eliminates all risk",
+    "Reduces risk below that of either security",
+    "Provides no diversification benefit; portfolio risk is the weighted average of their risks",
+    "Always doubles the risk"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "With perfect positive correlation, the portfolio standard deviation equals the weighted average of the individual standard deviations; the risk-return line is straight and there is no diversification benefit.",
+   "hints": [
+    "Risk can be eliminated only with perfect negative correlation and the right weights.",
+    "That needs correlation below +1.",
+    "Correct.",
+    "Risk is a weighted average, not doubled."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M2-20",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "A portfolio holds three stocks: 50% in a stock with beta 1.4, 30% with beta 0.9 and 20% with beta 0.6. What is the portfolio beta?",
+   "options": [
+    "0.97",
+    "1.00",
+    "1.40",
+    "1.09"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Portfolio beta is the weighted average: 0.5 x 1.4 + 0.3 x 0.9 + 0.2 x 0.6 = 0.70 + 0.27 + 0.12 = 1.09.",
+   "hints": [
+    "This is the simple average of the three betas.",
+    "Not the weighted average.",
+    "That is only the highest beta.",
+    "Correct."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "The document that records an investor's objectives, constraints, risk tolerance and review process, and guides all portfolio decisions, is the:",
+   "options": [
+    "Key Information Memorandum",
+    "Investment Policy Statement",
+    "Disclosure Document of a PMS",
+    "Scheme Information Document"
+   ],
+   "answer": 1,
+   "explanation": "The Investment Policy Statement (IPS) is the road map for the portfolio: it sets realistic expectations, guides the manager, provides an evaluation framework and protects the investor against inappropriate decisions.",
+   "hints": [
+    "The KIM is an abridged mutual fund offer document.",
+    "Correct.",
+    "The PMS disclosure document describes the manager's fees and risks, not the client's objectives.",
+    "The SID describes a mutual fund scheme."
+   ],
+   "id": "xa-M2-21",
+   "numeric": false,
+   "case": null,
+   "marks": 1
+  },
+  {
+   "id": "xa-M2-22",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "Which investor can use the PAN exemption for micro investments in mutual funds?",
+   "options": [
+    "An individual investing ₹40,000 in total in a fund house over 12 months",
+    "An HUF investing ₹30,000",
+    "A private company investing ₹20,000",
+    "An individual investing ₹75,000 in one SIP year"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Micro investments up to ₹50,000 in aggregate per fund house (rolling 12 months or financial year) by individuals are exempt from PAN; HUFs and non-individuals are not eligible.",
+   "hints": [
+    "Correct.",
+    "HUFs are not eligible for the exemption.",
+    "Non-individuals are not eligible.",
+    "₹75,000 exceeds the ₹50,000 limit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M2-23",
+   "chapter": 18,
+   "difficulty": "easy",
+   "q": "The number of clients of a part-time investment adviser shall not exceed ____ at any point of time.",
+   "options": [
+    "150",
+    "300",
+    "75",
+    "50"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A part-time investment adviser can have at most 75 clients in total at any point of time and must use the term 'part-time investment adviser' in correspondence.",
+   "hints": [
+    "Not the regulatory cap.",
+    "300 clients is the trigger for an individual IA to move to non-individual registration.",
+    "Correct.",
+    "Not the regulatory cap."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M2-24",
+   "chapter": 19,
+   "difficulty": "easy",
+   "q": "An adviser repeatedly switches a client from one product to another mainly to earn fresh commissions. This practice is called:",
+   "options": [
+    "Rebalancing",
+    "Tactical allocation",
+    "Front running",
+    "Churning"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Frequent switching to increase commission earnings is churning, listed in the workbook among wrong practices; it is one reason SEBI separated advice from distribution.",
+   "hints": [
+    "Rebalancing restores a target allocation for the client's benefit.",
+    "TAA is a portfolio decision, not a commission practice.",
+    "Front running is trading ahead of client orders; not what is described.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M2-25",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "A customer complained to her bank but received no satisfactory resolution. After how long can she approach the RBI Integrated Ombudsman?",
+   "options": [
+    "15 days",
+    "One month",
+    "Three months",
+    "Six months"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "If a complaint to the bank is not satisfactorily resolved within one month, the customer can approach the Integrated (Banking) Ombudsman.",
+   "hints": [
+    "Too short.",
+    "Correct.",
+    "Three months is the Insurance Ombudsman's award timeline.",
+    "Too long."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

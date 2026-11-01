@@ -1,0 +1,289 @@
+{
+  "id": "mock-7",
+  "title": "Mock 7 · Exam Pressure II",
+  "level": "tough",
+  "blurb": "Final dress rehearsal: a 2-mark retiree caselet, an IA-compliance caselet and a risk-adjusted-performance caselet, plus tricky 'NOT' and multi-statement items.",
+  "questions": [
+    {
+      "id": "xa-M7-01", "chapter": 1, "difficulty": "medium",
+      "q": "Arjun wants to buy a house next year, which needs a ₹20 lakh down payment and a ₹30,000 EMI. His current finances cannot support this, but he could manage it in about three years. According to the workbook, the most appropriate advice is to:",
+      "options": ["Cancel the goal permanently", "Fund the down payment with a personal loan now", "Stagger the goal by pushing it back to about three years", "Stop all retirement savings to buy the house next year"],
+      "answer": 2, "marks": 1,
+      "explanation": "When a goal cannot be achieved in the desired time, it can be pushed back (staggered) rather than cancelled, so that critical goals are not compromised. The workbook uses a house purchase deferred from 1 to 3 years as its example.",
+      "hints": ["The workbook suggests deferral instead of cancellation.", "Unsecured, costly borrowing for a down payment would strain finances further.", "Correct.", "Long-term goals like retirement should not be sacrificed for consumption timing."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M7-02", "chapter": 2, "difficulty": "medium",
+      "q": "A client wants ₹1.8 lakh at the end of every year for 20 years. If the corpus can earn 6% a year, how much is needed today?",
+      "options": ["About ₹20.65 lakh", "₹36.00 lakh", "About ₹21.88 lakh", "₹30.00 lakh"],
+      "answer": 0, "marks": 1,
+      "explanation": "PV of an ordinary annuity = 1,80,000 x [1 - 1.06^-20] / 0.06 = 1,80,000 x 11.4699 = ₹20.65 lakh. Excel: PV(0.06,20,-180000).",
+      "hints": ["Correct.", "This ignores discounting (1.8 x 20).", "This treats payments as starting today (annuity due).", "This is the perpetuity value (1.8 / 0.06), which assumes payments forever."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M7-03", "chapter": 2, "difficulty": "medium",
+      "q": "₹4 lakh is invested at 7% for 3 years. By how much does the interest under annual compounding exceed simple interest?",
+      "options": ["₹0", "₹84,000", "₹90,017", "About ₹6,017"],
+      "answer": 3, "marks": 1,
+      "explanation": "Simple interest = 4,00,000 x 7% x 3 = ₹84,000. Compound interest = 4,00,000 x (1.07^3 - 1) = ₹90,017. Difference = ₹6,017.",
+      "hints": ["Compounding earns interest on interest, so there is a difference.", "That is the simple interest itself.", "That is the compound interest itself.", "Correct."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M7-04", "chapter": 3, "difficulty": "hard",
+      "q": "Leela's monthly gross salary is ₹1,00,000, including the employer's PF contribution of ₹4,000. Her own PF contribution of ₹4,000 is deducted, so take-home is ₹92,000. She earns ₹1,000 of savings bank interest and spends ₹70,000. What is her savings ratio as per the workbook method?",
+      "options": ["22.0%", "About 30.7%", "About 22.8%", "About 33.7%"],
+      "answer": 1, "marks": 1,
+      "explanation": "Total income = gross salary + interest = 1,01,000. Savings = take-home 92,000 + interest 1,000 + employer PF 4,000 + employee PF 4,000 - expenses 70,000 = ₹31,000. Savings ratio = 31,000 / 1,01,000 = 30.7%.",
+      "hints": ["This uses take-home minus expenses over gross salary and ignores PF.", "Correct.", "This ignores both PF contributions.", "This divides by take-home income instead of total income."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M7-05", "chapter": 4, "difficulty": "medium",
+      "q": "Two identical ₹10 lakh, 10-year loans are taken, one at 5% and one at 9%. Which statement about the FIRST EMI is correct?",
+      "options": ["Both first EMIs have the same principal component", "The 9% loan repays more principal in the first EMI", "The 9% loan has a higher EMI and a larger share of it goes to interest, so less principal is repaid", "The interest share of an EMI rises over the life of the loan"],
+      "answer": 2, "marks": 1,
+      "explanation": "Workbook example: at 5% the first EMI (₹10,606) has about ₹6,440 principal and ₹4,166 interest; at 9% (₹12,667) only about ₹5,167 is principal and ₹7,500 interest. Interest share is highest early and falls over time.",
+      "hints": ["The split depends on the rate.", "The higher rate loan repays less principal initially.", "Correct.", "The interest share falls as the loan amortises."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M7-06", "chapter": 5, "difficulty": "medium",
+      "q": "Which statement about NBFCs is correct according to the workbook?",
+      "options": ["NBFCs cannot accept demand deposits, cannot issue cheques and their deposits do not have DICGC insurance", "NBFCs can accept demand deposits like banks", "NBFC deposits are insured up to ₹5 lakh by DICGC", "NBFCs are regulated by SEBI"],
+      "answer": 0, "marks": 1,
+      "explanation": "NBFCs cannot accept demand deposits, cannot offer cheque facilities and do not enjoy deposit insurance from DICGC. They are regulated by RBI.",
+      "hints": ["Correct.", "Demand deposits are a bank privilege.", "DICGC cover applies to bank deposits.", "NBFCs come under RBI."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M7-07", "chapter": 6, "difficulty": "hard",
+      "q": "Consider: (I) A share buyback extinguishes shares, reduces share capital and can raise EPS. (II) Dividends may be declared out of the share premium account. (III) A company that has failed to redeem its preference shares cannot declare dividends. (IV) Listed companies must declare dividends on a per-share basis. Which are correct?",
+      "options": ["I and II only", "II, III and IV only", "III and IV only", "I, III and IV only"],
+      "answer": 3, "marks": 1,
+      "explanation": "Dividends cannot be declared out of share premium, revaluation reserve or capital redemption reserve, so II is false. I, III and IV match the workbook.",
+      "hints": ["Statement II is false.", "Statement II is false and I is true.", "Statement I is also true.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M7-08", "chapter": 8, "difficulty": "medium",
+      "q": "A highly capital-intensive company has negative PAT and negative EBIT because of heavy depreciation, but positive EBITDA. Which valuation multiple does the workbook find most useful here?",
+      "options": ["P/E ratio", "EV/EBITDA", "Dividend yield", "PEG ratio"],
+      "answer": 1, "marks": 1,
+      "explanation": "EV/EBITDA is extremely useful for capital-intensive firms not yet making book profits at PAT or EBIT level but generating cash (EBITDA) for fund providers.",
+      "hints": ["P/E is hard to interpret with negative EPS.", "Correct.", "Loss-making firms usually pay no dividend.", "PEG relies on P/E, which is meaningless with losses."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M7-09", "chapter": 9, "difficulty": "hard",
+      "q": "A 91-day treasury bill is priced to give a yield of 6.5% (money-market convention, actual/365). What is its approximate price per ₹100 face value?",
+      "options": ["₹93.50", "₹98.38", "₹98.41", "₹99.35"],
+      "answer": 2, "marks": 1,
+      "explanation": "T-bills are zero-coupon, issued at a discount: P = 100 / (1 + 0.065 x 91/365) = 100 / 1.016205 = ₹98.41.",
+      "hints": ["This deducts a full year's yield.", "This is 100 - 6.5 x 91/365 (a discount, not a yield, basis).", "Correct.", "Too high for a 6.5% yield over 91 days."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M7-10", "chapter": 9, "difficulty": "hard",
+      "q": "Which statement about money market instruments in India is NOT correct?",
+      "options": ["The call money market is open to all corporates and mutual funds for unsecured overnight borrowing", "CPs are issued in multiples of ₹5 lakh for 7 days to one year", "Financial institutions can issue CDs for 1 to 3 years", "Cash Management Bills have maturities of less than 91 days"],
+      "answer": 0, "marks": 1,
+      "explanation": "The call money market is a purely interbank market restricted to scheduled commercial banks and primary dealers. The other statements are as per the workbook.",
+      "hints": ["Correct: this statement is false.", "True.", "True: banks issue CDs up to one year, FIs from 1 to 3 years.", "True."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M7-11", "chapter": 10, "difficulty": "medium",
+      "q": "A company converts its floating-rate borrowing into a fixed-rate obligation through an interest rate swap with a notional principal of ₹100 crore. Which is true?",
+      "options": ["Both parties exchange ₹100 crore at the start and end", "The company receives a fixed rate and pays floating", "Swaps are exchange-traded standardised contracts", "Only interest payments on the notional are exchanged; the ₹100 crore principal is never exchanged"],
+      "answer": 3, "marks": 1,
+      "explanation": "In an interest rate swap the notional principal is agreed but never exchanged; only the interest legs are swapped. To fix its cost the company pays fixed and receives floating. Swaps are OTC.",
+      "hints": ["The notional is never exchanged in an interest rate swap.", "That would convert fixed into floating, the opposite.", "Swaps are OTC contracts.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M7-12", "chapter": 11, "difficulty": "hard",
+      "q": "Which statement about Life Cycle Funds is NOT correct?",
+      "options": ["Tenure is from 5 to 30 years, in multiples of 5 years", "Tenure can be up to 50 years for retirement goals", "A mutual fund can have at most 6 Life Cycle Funds open for subscription at a time", "Exit load is 3% within the first year of investment"],
+      "answer": 1, "marks": 1,
+      "explanation": "Life Cycle Funds have a minimum tenure of 5 years and maximum of 30 years, in multiples of 5; a maximum of 6 can be open; exit loads are 3% within 1 year, 2% within 2 years and 1% within 3 years.",
+      "hints": ["True.", "Correct: the maximum tenure is 30 years.", "True.", "True."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M7-13", "chapter": 11, "difficulty": "medium",
+      "q": "An investor switches ₹5 lakh from an equity scheme to a debt scheme of the same mutual fund. What are the implications?",
+      "options": ["No exit load or tax applies because the money stays within the fund house", "Only tax applies, never exit load", "It is treated as a redemption from the source scheme, so applicable exit load and capital gains tax apply", "A switch requires fresh KYC"],
+      "answer": 2, "marks": 1,
+      "explanation": "A switch is a redemption from one scheme and simultaneous purchase in another; since a redemption occurs, exit loads and taxes apply.",
+      "hints": ["Staying in the same fund house does not avoid load or tax.", "Exit load applies as per the source scheme's terms.", "Correct.", "The existing folio and KYC are used."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M7-14", "chapter": 12, "difficulty": "hard",
+      "q": "A PMS portfolio of ₹2 crore grows to ₹2.3 crore in a year. The hurdle rate is 10% and the profit share is 15% WITH catch-up. What is the performance fee?",
+      "options": ["₹4,50,000", "₹1,50,000", "₹3,00,000", "₹6,00,000"],
+      "answer": 0, "marks": 1,
+      "explanation": "The hurdle (₹2.2 crore) is crossed. With catch-up, the fee is computed on the entire gain from the first rupee: 15% x ₹30 lakh = ₹4.5 lakh. Without catch-up it would be 15% x ₹10 lakh = ₹1.5 lakh.",
+      "hints": ["Correct.", "This is the no catch-up fee.", "This is 10% of the gain; the share is 15%.", "This uses a 20% share instead of 15%."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M7-15", "chapter": 13, "difficulty": "hard",
+      "q": "Which individual qualifies as an 'angel investor' for investing in a SEBI-registered angel fund?",
+      "options": ["A first-time investor with net worth of ₹1.5 crore", "Any person with annual income above ₹50 lakh", "A senior professional with 5 years' experience and ₹3 crore net tangible assets", "An individual with net tangible assets of ₹2.5 crore excluding the principal residence, who is a serial entrepreneur"],
+      "answer": 3, "marks": 1,
+      "explanation": "An individual angel investor must have net tangible assets of at least ₹2 crore excluding the principal residence and have early-stage investment experience, or be a serial entrepreneur, or be a senior management professional with at least ten years' experience.",
+      "hints": ["Below ₹2 crore and no qualifying experience.", "Income is not the test.", "Senior management experience must be at least 10 years.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M7-16", "chapter": 14, "difficulty": "hard",
+      "q": "A portfolio holds 60% in Asset A (σ = 20%) and 40% in Asset B (σ = 10%). If the correlation between them is -1, the portfolio standard deviation is:",
+      "options": ["16%", "8%", "0%", "About 12.6%"],
+      "answer": 1, "marks": 1,
+      "explanation": "With ρ = -1, σp = |w1σ1 - w2σ2| = |0.6 x 20 - 0.4 x 10| = |12 - 4| = 8%.",
+      "hints": ["That would be the result with ρ = +1.", "Correct.", "Zero risk needs weights that exactly offset (here 1/3 in A and 2/3 in B).", "That would be roughly the result with zero correlation."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M7-17", "chapter": 15, "difficulty": "medium",
+      "q": "In which life-cycle phase are the Iyers?",
+      "options": ["Accumulation", "Consolidation", "Decumulation / spending", "Gifting"],
+      "answer": 2, "marks": 2,
+      "explanation": "Living expenses are met from accumulated assets, not earned income, and they will not return to work: the decumulation or spending phase, where stability and income matter but some growth is still needed for a long horizon.",
+      "hints": ["Accumulation is the early-career phase.", "Consolidation is mid-to-late career when income exceeds expenses.", "Correct.", "Gifting applies when assets clearly exceed lifetime needs and the purpose shifts to legacy."],
+      "numeric": false,
+      "case": "Mr. Iyer (66) and Mrs. Iyer (63) retired three years ago. Their expenses are met entirely from a ₹1.4 crore corpus and his pension, they will not work again, and they say they cannot sleep when markets fall; their priority is to keep what they have. Their goals: fund their own living costs for life; contribute ₹10 lakh towards their granddaughter's college fees in two years; and create an additional income of ₹6 lakh a year that should continue indefinitely, from a safe instrument yielding 7.5%."
+    },
+    {
+      "id": "xa-M7-18", "chapter": 15, "difficulty": "medium",
+      "q": "Under the BB&K framework, the Iyers' investment personality is best described as:",
+      "options": ["Guardian", "Adventurer", "Celebrity", "Straight Arrow"],
+      "answer": 0, "marks": 2,
+      "explanation": "Guardians are typically older people approaching or in retirement who cautiously try to preserve wealth and are not interested in volatility.",
+      "hints": ["Correct.", "Adventurers are confident risk-takers who bet big.", "Celebrities chase hot trends.", "Straight Arrows are balanced, willing to take medium risk; the Iyers are clearly cautious."],
+      "numeric": false,
+      "case": "Mr. Iyer (66) and Mrs. Iyer (63) retired three years ago. Their expenses are met entirely from a ₹1.4 crore corpus and his pension, they will not work again, and they say they cannot sleep when markets fall; their priority is to keep what they have. Their goals: fund their own living costs for life; contribute ₹10 lakh towards their granddaughter's college fees in two years; and create an additional income of ₹6 lakh a year that should continue indefinitely, from a safe instrument yielding 7.5%."
+    },
+    {
+      "id": "xa-M7-19", "chapter": 2, "difficulty": "medium",
+      "q": "How much capital must they set aside for the additional ₹6 lakh a year that continues indefinitely?",
+      "options": ["₹45 lakh", "₹60 lakh", "₹1.4 crore", "₹80 lakh"],
+      "answer": 3, "marks": 2,
+      "explanation": "An indefinite income is a perpetuity: PV = C / r = 6,00,000 / 0.075 = ₹80 lakh.",
+      "hints": ["This multiplies ₹6 lakh by 7.5.", "This assumes a 10% yield.", "This is their whole corpus, not the required amount.", "Correct."],
+      "numeric": true,
+      "case": "Mr. Iyer (66) and Mrs. Iyer (63) retired three years ago. Their expenses are met entirely from a ₹1.4 crore corpus and his pension, they will not work again, and they say they cannot sleep when markets fall; their priority is to keep what they have. Their goals: fund their own living costs for life; contribute ₹10 lakh towards their granddaughter's college fees in two years; and create an additional income of ₹6 lakh a year that should continue indefinitely, from a safe instrument yielding 7.5%."
+    },
+    {
+      "id": "xa-M7-20", "chapter": 11, "difficulty": "medium",
+      "q": "Which is the most suitable vehicle for the ₹10 lakh needed in two years?",
+      "options": ["A small cap equity fund for higher growth", "A debt scheme (such as an FMP or short-term debt fund) whose maturity matches the two-year horizon", "A sectoral banking fund", "A Category III AIF"],
+      "answer": 1, "marks": 2,
+      "explanation": "Near-term, high-priority goals call for debt instruments with maturity matched to the goal date. An FMP held to maturity largely removes interest-rate risk, which suits a Guardian with a fixed two-year need.",
+      "hints": ["Too volatile for a two-year, must-meet goal and for a Guardian.", "Correct.", "Concentrated sector risk is unsuitable.", "Requires ₹1 crore minimum and is high risk."],
+      "numeric": false,
+      "case": "Mr. Iyer (66) and Mrs. Iyer (63) retired three years ago. Their expenses are met entirely from a ₹1.4 crore corpus and his pension, they will not work again, and they say they cannot sleep when markets fall; their priority is to keep what they have. Their goals: fund their own living costs for life; contribute ₹10 lakh towards their granddaughter's college fees in two years; and create an additional income of ₹6 lakh a year that should continue indefinitely, from a safe instrument yielding 7.5%."
+    },
+    {
+      "id": "xa-M7-21", "chapter": 16, "difficulty": "medium",
+      "q": "What is Fund Z's Jensen alpha?",
+      "options": ["4.00%", "12.50%", "4.85%", "5.50%"],
+      "answer": 2, "marks": 1,
+      "explanation": "CAPM required return = 6.5 + 0.9 x (15 - 6.5) = 6.5 + 7.65 = 14.15%. Jensen alpha = 19 - 14.15 = 4.85%.",
+      "hints": ["This is the simple excess over Nifty, not Jensen alpha.", "This is the excess over the risk-free rate.", "Correct.", "This computes 19 - 0.9 x 15, forgetting the risk-free rate."],
+      "numeric": true,
+      "case": "An adviser is reviewing Fund Z for a client. Over the last 3 years Fund Z returned 19% a year with a standard deviation of 24% and a beta of 0.9 against the Nifty 50. The Nifty 50 returned 15% with a standard deviation of 16%. The risk-free rate is 6.5% and Fund Z's tracking error against the Nifty is 5%."
+    },
+    {
+      "id": "xa-M7-22", "chapter": 16, "difficulty": "medium",
+      "q": "What is Fund Z's Information Ratio?",
+      "options": ["0.80", "0.52", "4.44", "0.17"],
+      "answer": 0, "marks": 1,
+      "explanation": "IR = (Rp - Rb) / Tracking error = (19 - 15) / 5 = 0.80.",
+      "hints": ["Correct.", "This is Fund Z's Sharpe ratio.", "This divides active return by beta instead of tracking error.", "This divides active return by standard deviation of the fund."],
+      "numeric": true,
+      "case": "An adviser is reviewing Fund Z for a client. Over the last 3 years Fund Z returned 19% a year with a standard deviation of 24% and a beta of 0.9 against the Nifty 50. The Nifty 50 returned 15% with a standard deviation of 16%. The risk-free rate is 6.5% and Fund Z's tracking error against the Nifty is 5%."
+    },
+    {
+      "id": "xa-M7-23", "chapter": 16, "difficulty": "hard",
+      "q": "Using the Modigliani (M²) measure, how does Fund Z compare with the Nifty 50?",
+      "options": ["It outperforms by 4%", "It outperforms by about 0.33%", "It matches the market exactly", "Its risk-adjusted return is about 14.83%, so it slightly underperforms the market's 15%"],
+      "answer": 3, "marks": 1,
+      "explanation": "Delever Fund Z to market volatility: weight = 16/24 = 0.667 in Z and 0.333 in T-bills. rp* = 0.667 x 19 + 0.333 x 6.5 = 14.83%, below 15%. Despite a positive alpha, its high total risk means it lags on a total-risk basis (its Sharpe 0.52 is below the market's 0.53).",
+      "hints": ["Raw return comparison ignores the higher volatility.", "This uses the wrong volatility weights.", "There is a small shortfall.", "Correct."],
+      "numeric": true,
+      "case": "An adviser is reviewing Fund Z for a client. Over the last 3 years Fund Z returned 19% a year with a standard deviation of 24% and a beta of 0.9 against the Nifty 50. The Nifty 50 returned 15% with a standard deviation of 16%. The risk-free rate is 6.5% and Fund Z's tracking error against the Nifty is 5%."
+    },
+    {
+      "id": "xa-M7-24", "chapter": 17, "difficulty": "medium",
+      "q": "An NRI sells shares that he had bought using funds in his NRO account. The sale proceeds are repatriable:",
+      "options": ["Without any limit", "Up to USD 1 million per financial year", "Not at all", "Up to USD 2,50,000 per financial year"],
+      "answer": 1, "marks": 1,
+      "explanation": "Investments from an NRO account are repatriable only up to USD 1 million per financial year. Investments from NRE/FCNR accounts or foreign remittances supported by FIRC are repatriable without limit.",
+      "hints": ["Unlimited repatriation applies to NRE/FCNR-funded investments.", "Correct.", "NRO proceeds are repatriable within the cap.", "USD 2,50,000 is the LRS limit for residents."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M7-25", "chapter": 18, "difficulty": "hard",
+      "q": "Can Prism Distribution Ltd sell regular plans of mutual funds to clients who take advice from Prism Advisors?",
+      "options": ["Yes, because they are separate legal entities", "Yes, if the client signs a consent", "Yes, if distribution commission is passed back to the client", "No; a non-individual IA must ensure client-level segregation at group level, so the same client cannot get both advisory and distribution"],
+      "answer": 3, "marks": 1,
+      "explanation": "Group includes holding, subsidiary and associate entities. The same client cannot be offered both advisory and distribution within the group: a client is either an advisory client (no distribution consideration at group level) or a distribution client (no advisory fee at group level).",
+      "hints": ["Group-level segregation applies across separate entities.", "Consent does not override segregation.", "Any distributor consideration at group level is barred for advisory clients.", "Correct."],
+      "numeric": false,
+      "case": "Prism Advisors Pvt Ltd is a SEBI-registered non-individual investment adviser. Its holding company also owns Prism Distribution Ltd, which distributes mutual funds and insurance. Prism Advisors has 900 clients, uses an AI engine to draft recommendations and offers implementation services to advisory clients. Its principal officer holds an MBA (Finance) and the required NISM certification. Instead of a compliance officer, it has appointed an independent practising chartered accountant with the relevant NISM certification to monitor compliance."
+    },
+    {
+      "id": "xa-M7-26", "chapter": 18, "difficulty": "medium",
+      "q": "For its implementation services, Prism Advisors may:",
+      "options": ["Execute only through direct plans/products, with no commission or implementation fee received anywhere in the group", "Use regular plans if cheaper for the client", "Charge a separate implementation fee of up to 0.5%", "Make the implementation service compulsory for all advisory clients"],
+      "answer": 0, "marks": 1,
+      "explanation": "IAs may provide implementation services only through direct schemes/products; no consideration (commission, referral fee, embedded or otherwise) may be received at group or family level, no implementation fee may be charged, and the client is under no obligation to use the service.",
+      "hints": ["Correct.", "Only direct plans are permitted.", "No implementation fee is allowed.", "The client is under no obligation to avail it."],
+      "numeric": false,
+      "case": "Prism Advisors Pvt Ltd is a SEBI-registered non-individual investment adviser. Its holding company also owns Prism Distribution Ltd, which distributes mutual funds and insurance. Prism Advisors has 900 clients, uses an AI engine to draft recommendations and offers implementation services to advisory clients. Its principal officer holds an MBA (Finance) and the required NISM certification. Instead of a compliance officer, it has appointed an independent practising chartered accountant with the relevant NISM certification to monitor compliance."
+    },
+    {
+      "id": "xa-M7-27", "chapter": 18, "difficulty": "hard",
+      "q": "Since Prism Advisors has appointed an independent professional instead of a compliance officer, what additional step is required?",
+      "options": ["None; the CA alone is responsible", "SEBI must approve the CA's appointment in advance", "The principal officer must submit an undertaking to SEBI (or the recognised supervisory body) that he is responsible for monitoring compliance", "The firm must convert into an individual IA"],
+      "answer": 2, "marks": 1,
+      "explanation": "Where an independent professional (ICAI/ICSI/ICMAI member with NISM certification) monitors compliance, the principal officer must submit an undertaking to SEBI or the body recognised under regulation 14 that he shall be responsible for monitoring compliance.",
+      "hints": ["Responsibility does not shift entirely to the CA.", "Prior SEBI approval is required for change in control, not for this appointment.", "Correct.", "With 900 clients it must remain a non-individual IA."],
+      "numeric": false,
+      "case": "Prism Advisors Pvt Ltd is a SEBI-registered non-individual investment adviser. Its holding company also owns Prism Distribution Ltd, which distributes mutual funds and insurance. Prism Advisors has 900 clients, uses an AI engine to draft recommendations and offers implementation services to advisory clients. Its principal officer holds an MBA (Finance) and the required NISM certification. Instead of a compliance officer, it has appointed an independent practising chartered accountant with the relevant NISM certification to monitor compliance."
+    },
+    {
+      "id": "xa-M7-28", "chapter": 18, "difficulty": "hard",
+      "q": "Looking only at the facts given, which condition of registration does Prism Advisors appear to be breaching?",
+      "options": ["It has too many clients for a non-individual IA", "A non-individual IA must include the words 'investment adviser' in its name", "Its principal officer's MBA (Finance) does not qualify", "Non-individual IAs cannot use AI tools"],
+      "answer": 1, "marks": 1,
+      "explanation": "A registered IA that is not an individual shall include the words 'investment adviser' in its name (or in the name of the separately identifiable department/subsidiary). 'Prism Advisors Pvt Ltd' does not. There is no client cap for non-individual IAs, an MBA in finance qualifies, and AI use is allowed with responsibility and disclosure.",
+      "hints": ["The 300-client trigger applies to individual IAs; non-individuals have no such cap.", "Correct.", "A post-graduate degree in finance/business management qualifies.", "AI use is permitted; the IA remains responsible and must disclose its extent."],
+      "numeric": false,
+      "case": "Prism Advisors Pvt Ltd is a SEBI-registered non-individual investment adviser. Its holding company also owns Prism Distribution Ltd, which distributes mutual funds and insurance. Prism Advisors has 900 clients, uses an AI engine to draft recommendations and offers implementation services to advisory clients. Its principal officer holds an MBA (Finance) and the required NISM certification. Instead of a compliance officer, it has appointed an independent practising chartered accountant with the relevant NISM certification to monitor compliance."
+    },
+    {
+      "id": "xa-M7-29", "chapter": 19, "difficulty": "medium",
+      "q": "An adviser's yearly compliance audit throws up a material observation. According to the ethics chapter of the workbook, the adviser should:",
+      "options": ["Keep it confidential to protect the firm's reputation", "Report it only to the stock exchange", "Disclose it to clients", "Ignore it if it has been fixed"],
+      "answer": 2, "marks": 1,
+      "explanation": "Compliance audit is required yearly (by a practising Chartered Accountant per this chapter), and an adviser should disclose to clients if there are any material audit observations.",
+      "hints": ["Concealment runs against the fiduciary duty of full disclosure.", "Not the workbook's requirement.", "Correct.", "Material observations should still be disclosed."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M7-30", "chapter": 20, "difficulty": "hard",
+      "q": "Which statement about the Securities Appellate Tribunal is correct?",
+      "options": ["It hears appeals only against SEBI orders", "It is bound by the Code of Civil Procedure", "Its orders are final and cannot be appealed", "It hears appeals against orders of SEBI, its adjudicating officers, IRDAI and PFRDA, and its orders can be appealed to the Supreme Court within 60 days"],
+      "answer": 3, "marks": 1,
+      "explanation": "Under section 15T, appeals lie to SAT against orders of SEBI, its adjudicating officers, IRDAI or PFRDA (within 45 days). SAT is not bound by the CPC but follows natural justice. Appeals from SAT go to the Supreme Court within 60 days.",
+      "hints": ["IRDAI and PFRDA orders are also appealable to SAT.", "SAT is guided by natural justice, not bound by the CPC procedure.", "Appeal lies to the Supreme Court.", "Correct."],
+      "numeric": false, "case": null
+    }
+  ]
+}

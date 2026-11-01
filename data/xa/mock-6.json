@@ -1,0 +1,289 @@
+{
+  "id": "mock-6",
+  "title": "Mock 6 · Exam Pressure I",
+  "level": "tough",
+  "blurb": "Exam-grade difficulty: three caselets (household ratios, a 2-mark bond caselet, performance maths), multi-statement regulation items and close distractors.",
+  "questions": [
+    {
+      "id": "xa-M6-01", "chapter": 1, "difficulty": "hard",
+      "q": "Consider these statements about advisory and execution: (I) An individual IA may offer implementation services to advisory clients through direct schemes/products. (II) An individual IA may charge an implementation fee if the client agrees in writing. (III) A non-individual IA must ensure that the same client is not offered both advisory and distribution services within its group. (IV) A client who takes advice must use the IA's implementation service. Which are correct?",
+      "options": ["I and III only", "I, II and III only", "III only", "II and IV only"],
+      "answer": 0, "marks": 1,
+      "explanation": "IAs may provide implementation only through direct schemes/products, with no consideration at group/family level and no implementation fee; the client is under no obligation to use it. Non-individual IAs need client-level segregation at group level.",
+      "hints": ["Correct.", "Statement II is wrong: no implementation fee may be charged.", "Statement I is also correct.", "Both II and IV are false."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M6-02", "chapter": 2, "difficulty": "medium",
+      "q": "A retiree will receive ₹1,00,000 a year for 5 years, with the first payment today. At a discount rate of 7%, what is the present value of these receipts?",
+      "options": ["₹4,10,020", "₹5,00,000", "₹4,38,721", "₹3,56,500"],
+      "answer": 2, "marks": 1,
+      "explanation": "Payments at the beginning form an annuity due: PV = PV(0.07,5,-100000,,1) = ordinary annuity 4,10,020 x 1.07 = ₹4,38,721.",
+      "hints": ["This is the ordinary annuity value (payments at year end).", "This ignores discounting.", "Correct.", "Not a valid PV for these inputs."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M6-03", "chapter": 3, "difficulty": "medium",
+      "q": "What is the family's leverage ratio?",
+      "options": ["46.5%", "About 31.8%", "About 68.2%", "About 35.3%"],
+      "answer": 1, "marks": 1,
+      "explanation": "Total assets = 4 + 3 + 5 + 18 + 6 + 12 + 8 + 85 + 7 = ₹148 lakh. Liabilities = 42 + 4 + 1 = ₹47 lakh. Leverage = 47 / 148 = 31.8%.",
+      "hints": ["This divides liabilities by net worth (47/101).", "Correct.", "This is the solvency ratio.", "This leaves out the car and gold (47/133); the workbook's leverage example uses all assets."],
+      "numeric": true,
+      "case": "Kavita (42) and her husband have a combined take-home income of ₹2.4 lakh a month. Their recurring monthly outflow including EMIs is ₹1.25 lakh, and they take a ₹3.6 lakh holiday every 3 years. Assets: savings bank ₹4 lakh, FD maturing in 3 months ₹3 lakh, liquid fund ₹5 lakh, equity mutual funds ₹18 lakh, direct shares ₹6 lakh, PPF ₹12 lakh, gold ₹8 lakh, self-occupied flat ₹85 lakh, car ₹7 lakh. Liabilities: home loan ₹42 lakh, car loan ₹4 lakh, credit card ₹1 lakh. They plan to buy a second car of ₹7.5 lakh with an 80% loan at 9.5% for 5 years."
+    },
+    {
+      "id": "xa-M6-04", "chapter": 3, "difficulty": "medium",
+      "q": "What is their liquidity ratio?",
+      "options": ["5.6 months", "14.4 months", "12.0 months", "9.6 months"],
+      "answer": 3, "marks": 1,
+      "explanation": "Liquid assets = savings bank 4 + FD maturing within 6 months 3 + liquid fund 5 = ₹12 lakh. Liquidity ratio = 12 / 1.25 = 9.6 months. Shares and equity funds are excluded.",
+      "hints": ["This leaves out the liquid fund (7 / 1.25).", "This includes the ₹6 lakh shares; shares are excluded.", "This divides by ₹1 lakh instead of ₹1.25 lakh.", "Correct."],
+      "numeric": true,
+      "case": "Kavita (42) and her husband have a combined take-home income of ₹2.4 lakh a month. Their recurring monthly outflow including EMIs is ₹1.25 lakh, and they take a ₹3.6 lakh holiday every 3 years. Assets: savings bank ₹4 lakh, FD maturing in 3 months ₹3 lakh, liquid fund ₹5 lakh, equity mutual funds ₹18 lakh, direct shares ₹6 lakh, PPF ₹12 lakh, gold ₹8 lakh, self-occupied flat ₹85 lakh, car ₹7 lakh. Liabilities: home loan ₹42 lakh, car loan ₹4 lakh, credit card ₹1 lakh. They plan to buy a second car of ₹7.5 lakh with an 80% loan at 9.5% for 5 years."
+    },
+    {
+      "id": "xa-M6-05", "chapter": 3, "difficulty": "medium",
+      "q": "What is their expense ratio, treating the holiday as the workbook prescribes?",
+      "options": ["56.25%", "52.08%", "64.58%", "43.75%"],
+      "answer": 0, "marks": 1,
+      "explanation": "Periodic expenses are annualised: ₹3.6 lakh / 3 = ₹1.2 lakh a year. Expenses = 1.25 x 12 + 1.2 = ₹16.2 lakh; income = 2.4 x 12 = ₹28.8 lakh. Expense ratio = 16.2 / 28.8 = 56.25%.",
+      "hints": ["Correct.", "This ignores the holiday altogether.", "This adds the full ₹3.6 lakh holiday in one year.", "This is the savings ratio."],
+      "numeric": true,
+      "case": "Kavita (42) and her husband have a combined take-home income of ₹2.4 lakh a month. Their recurring monthly outflow including EMIs is ₹1.25 lakh, and they take a ₹3.6 lakh holiday every 3 years. Assets: savings bank ₹4 lakh, FD maturing in 3 months ₹3 lakh, liquid fund ₹5 lakh, equity mutual funds ₹18 lakh, direct shares ₹6 lakh, PPF ₹12 lakh, gold ₹8 lakh, self-occupied flat ₹85 lakh, car ₹7 lakh. Liabilities: home loan ₹42 lakh, car loan ₹4 lakh, credit card ₹1 lakh. They plan to buy a second car of ₹7.5 lakh with an 80% loan at 9.5% for 5 years."
+    },
+    {
+      "id": "xa-M6-06", "chapter": 4, "difficulty": "medium",
+      "q": "What will be the monthly EMI on the proposed car loan?",
+      "options": ["₹15,751", "₹10,000", "₹12,601", "₹14,750"],
+      "answer": 2, "marks": 1,
+      "explanation": "Loan = 80% of ₹7.5 lakh = ₹6 lakh. EMI = PMT(0.095/12, 60, -600000) = ₹12,601.",
+      "hints": ["This finances the full ₹7.5 lakh instead of 80%.", "This ignores interest (6,00,000 / 60).", "Correct.", "Not a PMT result for these inputs."],
+      "numeric": true,
+      "case": "Kavita (42) and her husband have a combined take-home income of ₹2.4 lakh a month. Their recurring monthly outflow including EMIs is ₹1.25 lakh, and they take a ₹3.6 lakh holiday every 3 years. Assets: savings bank ₹4 lakh, FD maturing in 3 months ₹3 lakh, liquid fund ₹5 lakh, equity mutual funds ₹18 lakh, direct shares ₹6 lakh, PPF ₹12 lakh, gold ₹8 lakh, self-occupied flat ₹85 lakh, car ₹7 lakh. Liabilities: home loan ₹42 lakh, car loan ₹4 lakh, credit card ₹1 lakh. They plan to buy a second car of ₹7.5 lakh with an 80% loan at 9.5% for 5 years."
+    },
+    {
+      "id": "xa-M6-07", "chapter": 4, "difficulty": "hard",
+      "q": "A borrower owes ₹5 lakh at 9% with 4 years left (EMI about ₹12,443). The bank restructures by extending the tenure to 6 years at the same rate. Which statement is correct?",
+      "options": ["EMI falls and total amount repaid also falls", "EMI stays the same and the loan closes earlier", "The present value of payments to the lender falls", "EMI falls to about ₹9,013, but total repayments rise from about ₹5.97 lakh to about ₹6.49 lakh"],
+      "answer": 3, "marks": 1,
+      "explanation": "PMT(0.09/12,72,-500000) = ₹9,013. Total paid: 12,443 x 48 = ₹5.97 lakh vs 9,013 x 72 = ₹6.49 lakh. At the same rate the PV of payments still equals ₹5 lakh, so the lender's PV is unchanged; only a haircut or rate cut lowers it.",
+      "hints": ["Total repayment rises with a longer tenure.", "Tenure is extended, so EMI must fall.", "PV is unchanged at the same rate; the borrower pays more interest in rupees.", "Correct."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M6-08", "chapter": 5, "difficulty": "medium",
+      "q": "Which of the following is NOT administered by the Department of Financial Services of the Ministry of Finance?",
+      "options": ["Public sector banks", "Disinvestment of Central Government equity from CPSUs", "Life and general insurance", "Pension reforms"],
+      "answer": 1, "marks": 1,
+      "explanation": "DFS administers policies on public sector banks, term-lending FIs, life and general insurance and pension reforms. Disinvestment is handled by the Department of Investment and Public Asset Management (DIPAM).",
+      "hints": ["This is a DFS area.", "Correct: this is DIPAM's role.", "This is a DFS area.", "This is a DFS area."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M6-09", "chapter": 6, "difficulty": "hard",
+      "q": "Regarding public issues of shares: (I) In a book-built issue the cap of the price band can be up to 20% above the floor. (II) Allotment to retail investors may be at a discount to the cut-off, not more than 10%. (III) Bidders below the cut-off price get proportionate allotment. (IV) Applications must be made only through ASBA. Which are correct?",
+      "options": ["I and IV only", "II and III only", "I, II and IV only", "All four"],
+      "answer": 2, "marks": 1,
+      "explanation": "I, II and IV are as per the workbook. Investors who bid below the cut-off are unsuccessful and get a refund; proportionate allotment applies only to valid bids at or above cut-off in an oversubscribed issue.",
+      "hints": ["Statement II is also correct.", "Statement III is false.", "Correct.", "Statement III is false: bids below cut-off are refunded."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M6-10", "chapter": 7, "difficulty": "medium",
+      "q": "Which statement about preference shares is NOT correct?",
+      "options": ["Preference shareholders always enjoy voting rights equal to equity shareholders", "Unpaid dividends on cumulative preference shares accumulate and are paid later", "Participating preference shares may receive an additional dividend over the fixed rate", "Preference shares are called hybrid securities"],
+      "answer": 0, "marks": 1,
+      "explanation": "Preference shares generally do not carry voting rights like equity unless stated otherwise. The other statements reflect the workbook.",
+      "hints": ["Correct: this statement is false.", "True: cumulative dividends accrue.", "True: participation gives extra dividend on specified conditions.", "True: they share features of debt and equity."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M6-11", "chapter": 8, "difficulty": "medium",
+      "q": "Stock A has a P/E of 36 and expected EPS growth of 30%. Stock B has a P/E of 21 and expected growth of 28%. Using the PEG ratio:",
+      "options": ["A is cheaper because its growth is higher", "Both are fairly valued", "A is undervalued (PEG 0.83) and B overvalued", "B looks undervalued (PEG 0.75) while A looks overvalued (PEG 1.2)"],
+      "answer": 3, "marks": 1,
+      "explanation": "PEG A = 36/30 = 1.2 (above 1, overvalued); PEG B = 21/28 = 0.75 (below 1, undervalued).",
+      "hints": ["Higher growth alone does not justify a higher P/E; PEG adjusts for it.", "Neither PEG equals 1.", "This inverts A's PEG (30/36).", "Correct."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M6-12", "chapter": 8, "difficulty": "medium",
+      "q": "A company has net operating profit after tax of ₹120 crore, invested capital of ₹800 crore and a cost of capital of 12%. What is its Economic Value Added?",
+      "options": ["₹120 crore", "₹24 crore", "₹96 crore", "-₹24 crore"],
+      "answer": 1, "marks": 1,
+      "explanation": "EVA = NOPAT - (Invested capital x Cost of capital) = 120 - (800 x 12%) = 120 - 96 = ₹24 crore.",
+      "hints": ["This is NOPAT before the capital charge.", "Correct.", "This is only the capital charge.", "The sign is wrong; NOPAT exceeds the capital charge."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M6-13", "chapter": 9, "difficulty": "medium",
+      "q": "What is the fair price of Bond P?",
+      "options": ["₹100.00", "₹92.00", "₹93.38", "₹106.62"],
+      "answer": 2, "marks": 2,
+      "explanation": "Price = 6/1.08 + 6/1.08^2 + 6/1.08^3 + 106/1.08^4 = ₹93.38 (PV(0.08,4,-6,-100)). Coupon below yield means a discount bond.",
+      "hints": ["Par only if yield equals coupon.", "This subtracts 2% x 4 years without discounting.", "Correct.", "A 6% coupon at 8% yield must trade below par."],
+      "numeric": true,
+      "case": "Farhan, treasury officer of a family office, is evaluating three plain-vanilla bonds (face value ₹100, annual coupons). Bond P: 6% coupon, 4 years to maturity; the market yield for its rating is 8%. Bond Q: 8% coupon, 3 years to maturity, quoted at ₹102.50. Bond R: 10% coupon, 3 years to maturity, trading at par. He intends to hold whatever he buys till maturity and reinvest coupons as they are received."
+    },
+    {
+      "id": "xa-M6-14", "chapter": 9, "difficulty": "hard",
+      "q": "What is the approximate yield to maturity of Bond Q?",
+      "options": ["7.05%", "7.80%", "8.00%", "6.20%"],
+      "answer": 0, "marks": 2,
+      "explanation": "Solve 102.50 = 8/(1+y) + 8/(1+y)^2 + 108/(1+y)^3; y ≈ 7.05% (RATE(3,8,-102.5,100)). A premium bond's YTM is below its coupon.",
+      "hints": ["Correct.", "This is the current yield (8/102.5), not YTM.", "That would be true only at par.", "Too low: pricing at 6.2% gives about ₹104.79, above the quote."],
+      "numeric": true,
+      "case": "Farhan, treasury officer of a family office, is evaluating three plain-vanilla bonds (face value ₹100, annual coupons). Bond P: 6% coupon, 4 years to maturity; the market yield for its rating is 8%. Bond Q: 8% coupon, 3 years to maturity, quoted at ₹102.50. Bond R: 10% coupon, 3 years to maturity, trading at par. He intends to hold whatever he buys till maturity and reinvest coupons as they are received."
+    },
+    {
+      "id": "xa-M6-15", "chapter": 9, "difficulty": "hard",
+      "q": "Bond R's Macaulay duration is about 2.74 years. If its yield rises by 1 percentage point, its price will change by approximately:",
+      "options": ["-2.74%", "+2.49%", "-1.00%", "-2.49%"],
+      "answer": 3, "marks": 2,
+      "explanation": "Modified duration = Macaulay / (1 + y) = 2.74 / 1.10 = 2.49. Price change ≈ -2.49 x 1% = -2.49%; prices fall when yields rise.",
+      "hints": ["Macaulay duration must be adjusted by (1 + y) to get price sensitivity.", "Direction is wrong: higher yield, lower price.", "Price sensitivity is driven by duration, not a one-to-one move.", "Correct."],
+      "numeric": true,
+      "case": "Farhan, treasury officer of a family office, is evaluating three plain-vanilla bonds (face value ₹100, annual coupons). Bond P: 6% coupon, 4 years to maturity; the market yield for its rating is 8%. Bond Q: 8% coupon, 3 years to maturity, quoted at ₹102.50. Bond R: 10% coupon, 3 years to maturity, trading at par. He intends to hold whatever he buys till maturity and reinvest coupons as they are received."
+    },
+    {
+      "id": "xa-M6-16", "chapter": 9, "difficulty": "medium",
+      "q": "Given Farhan's plan, which risk becomes most relevant if market interest rates fall after he buys?",
+      "options": ["Price (interest rate) risk", "Reinvestment risk", "Call risk", "Exchange rate risk"],
+      "answer": 1, "marks": 2,
+      "explanation": "Holding to maturity removes price risk, but coupons will be reinvested at lower prevailing rates when rates fall: reinvestment risk. It is highest for investors who hold till maturity.",
+      "hints": ["Hold-to-maturity obviates price risk; falling rates would anyway raise prices.", "Correct.", "These are plain-vanilla bonds with no call option.", "The bonds are rupee bonds."],
+      "numeric": false,
+      "case": "Farhan, treasury officer of a family office, is evaluating three plain-vanilla bonds (face value ₹100, annual coupons). Bond P: 6% coupon, 4 years to maturity; the market yield for its rating is 8%. Bond Q: 8% coupon, 3 years to maturity, quoted at ₹102.50. Bond R: 10% coupon, 3 years to maturity, trading at par. He intends to hold whatever he buys till maturity and reinvest coupons as they are received."
+    },
+    {
+      "id": "xa-M6-17", "chapter": 10, "difficulty": "medium",
+      "q": "An arbitrage fund buys a stock at ₹1,500 in the cash market and sells its 30-day futures at ₹1,512. Ignoring costs, the annualised return locked in is about:",
+      "options": ["0.80%", "9.60%", "9.73%", "8.00%"],
+      "answer": 2, "marks": 1,
+      "explanation": "Return = (1,512 - 1,500) / 1,500 x 365 / 30 = 0.8% x 12.17 = 9.73% a year, locked in because spot and futures converge on expiry.",
+      "hints": ["This is the 30-day return, not annualised.", "This multiplies the 30-day return by 12 instead of 365/30.", "Correct.", "Not the annualised figure."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M6-18", "chapter": 10, "difficulty": "medium",
+      "q": "A call option with a strike of ₹500 trades at a premium of ₹55 when the underlying is at ₹540. Its intrinsic value and time value are:",
+      "options": ["₹40 and ₹15", "₹55 and ₹0", "₹0 and ₹55", "₹15 and ₹40"],
+      "answer": 0, "marks": 1,
+      "explanation": "Intrinsic value of a call = spot - strike = 540 - 500 = ₹40 (it is in the money). Time value = premium - intrinsic = 55 - 40 = ₹15.",
+      "hints": ["Correct.", "Part of the premium is time value.", "An in-the-money call has positive intrinsic value.", "This swaps the two components."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M6-19", "chapter": 11, "difficulty": "hard",
+      "q": "Which portfolio mix (as % of total assets in large / mid / small cap equity) would NOT meet SEBI's requirement for a multi cap fund?",
+      "options": ["30 / 25 / 25", "25 / 25 / 25", "45 / 20 / 15", "26 / 27 / 28"],
+      "answer": 2, "marks": 1,
+      "explanation": "A multi cap fund must invest at least 75% in equity with a minimum of 25% each in large, mid and small caps. 45/20/15 totals 80% but mid and small caps are below 25%.",
+      "hints": ["Total 80% with each at least 25%: valid.", "Exactly 75% with 25% each: valid.", "Correct: mid and small cap are below 25%.", "All above 25%, total 81%: valid."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M6-20", "chapter": 12, "difficulty": "hard",
+      "q": "A PMS client invests ₹1 crore. After one year the value (after other charges) is ₹1.18 crore. The hurdle rate is 8% and the profit share is 20% with no catch-up. What is the performance fee?",
+      "options": ["₹3,60,000", "₹1,60,000", "₹2,36,000", "₹2,00,000"],
+      "answer": 3, "marks": 1,
+      "explanation": "Hurdle value = ₹1.08 crore. With no catch-up, the fee applies only to gains above the hurdle: 20% x (1.18 - 1.08) crore = 20% x ₹10 lakh = ₹2,00,000.",
+      "hints": ["This is the catch-up result (20% of the full ₹18 lakh gain).", "Not derived from the rule.", "This takes 20% of 11.8 lakh; not the method.", "Correct."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M6-21", "chapter": 13, "difficulty": "medium",
+      "q": "The manager of a Category III AIF scheme with a corpus of ₹150 crore must maintain a continuing interest in the scheme of at least:",
+      "options": ["₹3.75 crore", "₹7.5 crore", "₹10 crore", "₹5 crore"],
+      "answer": 1, "marks": 1,
+      "explanation": "For Category III, continuing interest must be not less than 5% of corpus or ₹10 crore, whichever is lower. 5% of ₹150 crore = ₹7.5 crore, which is lower than ₹10 crore.",
+      "hints": ["This is 2.5%, the Category I/II rate.", "Correct.", "₹10 crore applies only if 5% of corpus exceeds it.", "₹5 crore is the Category I/II cap."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M6-22", "chapter": 14, "difficulty": "hard",
+      "q": "A portfolio has 60% in Stock X (σ = 20%) and 40% in Stock Y (σ = 10%), with a correlation of 0.3. What is the portfolio standard deviation?",
+      "options": ["About 13.7%", "16.0%", "About 18.9%", "8.0%"],
+      "answer": 0, "marks": 1,
+      "explanation": "Variance = 0.36 x 0.04 + 0.16 x 0.01 + 2 x 0.6 x 0.4 x 0.3 x 0.2 x 0.1 = 0.0144 + 0.0016 + 0.00288 = 0.01888. σ = √0.01888 = 13.74%.",
+      "hints": ["Correct.", "This is the weighted average σ, valid only if correlation were +1.", "This reports the variance (0.01888) as a percentage.", "This would need perfect negative correlation."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M6-23", "chapter": 15, "difficulty": "medium",
+      "q": "A client keeps asking whether he should be in whatever is trending, has no investment ideas of his own, fears being left out and relies on advisers, yet is difficult to handle because of confused beliefs. In the BB&K model he is a(n):",
+      "options": ["Adventurer", "Guardian", "Individualist", "Celebrity"],
+      "answer": 3, "marks": 1,
+      "explanation": "Celebrities like to be where the action is, fear being left out, lack their own ideas, go to advisers and are the most difficult to deal with.",
+      "hints": ["Adventurers are confident, have their own ideas and rarely use advisers.", "Guardians are cautious wealth preservers.", "Individualists are confident and analytical.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M6-24", "chapter": 16, "difficulty": "medium",
+      "q": "What was the portfolio's holding period return last year?",
+      "options": ["10.40%", "13.04%", "14.00%", "3.60%"],
+      "answer": 2, "marks": 1,
+      "explanation": "HPR = (Income + End - Begin) / Begin = (0.9 + 27.6 - 25) / 25 = 3.5 / 25 = 14%.",
+      "hints": ["This ignores the ₹90,000 income.", "This divides by the ending value.", "Correct.", "This is income only as a % of beginning value."],
+      "numeric": true,
+      "case": "Meghna's portfolio was worth ₹25 lakh at the start of last year and ₹27.6 lakh at the end; she also received ₹90,000 of dividends and interest during the year (assume received at year end). Over the last four years the portfolio's annual returns were +15%, -8%, +11% and +6%. Her income from this portfolio is taxed at an effective rate of 25%."
+    },
+    {
+      "id": "xa-M6-25", "chapter": 16, "difficulty": "hard",
+      "q": "What is the four-year geometric mean (annualised) return, and how does it compare with the arithmetic mean?",
+      "options": ["6.00%, equal to the arithmetic mean", "About 5.63%, lower than the arithmetic mean of 6%", "About 6.37%, higher than the arithmetic mean", "24%, the cumulative return"],
+      "answer": 1, "marks": 1,
+      "explanation": "Wealth relatives: 1.15 x 0.92 x 1.11 x 1.06 = 1.2449. GMR = 1.2449^(1/4) - 1 = 5.63%. Arithmetic mean = (15 - 8 + 11 + 6) / 4 = 6%. Geometric is lower whenever returns vary.",
+      "hints": ["They are equal only if all yearly returns are equal.", "Correct.", "Geometric can never exceed arithmetic.", "This is the simple sum of returns, not annualised."],
+      "numeric": true,
+      "case": "Meghna's portfolio was worth ₹25 lakh at the start of last year and ₹27.6 lakh at the end; she also received ₹90,000 of dividends and interest during the year (assume received at year end). Over the last four years the portfolio's annual returns were +15%, -8%, +11% and +6%. Her income from this portfolio is taxed at an effective rate of 25%."
+    },
+    {
+      "id": "xa-M6-26", "chapter": 16, "difficulty": "medium",
+      "q": "If Meghna's pre-tax return is 11%, what is her post-tax return?",
+      "options": ["8.25%", "2.75%", "14.67%", "11.00%"],
+      "answer": 0, "marks": 1,
+      "explanation": "Post-tax return = Pre-tax return x (1 - tax rate) = 11% x 0.75 = 8.25%.",
+      "hints": ["Correct.", "This is the tax portion.", "This grosses up (11 / 0.75), which converts post-tax to pre-tax.", "This ignores tax."],
+      "numeric": true,
+      "case": "Meghna's portfolio was worth ₹25 lakh at the start of last year and ₹27.6 lakh at the end; she also received ₹90,000 of dividends and interest during the year (assume received at year end). Over the last four years the portfolio's annual returns were +15%, -8%, +11% and +6%. Her income from this portfolio is taxed at an effective rate of 25%."
+    },
+    {
+      "id": "xa-M6-27", "chapter": 17, "difficulty": "hard",
+      "q": "Mr. Shah, a single holder with no nominee, dies leaving demat securities worth ₹25 lakh. His heirs agree among themselves. Under the revised SEBI transmission framework described in the workbook, what is generally sufficient?",
+      "options": ["A succession certificate from a court", "Probate of will in all cases", "Nothing; the DP transfers to the eldest child", "Death certificate, notarised indemnity bond and notarised affidavit-cum-NOC from other legal heirs (or family settlement deed)"],
+      "answer": 3, "marks": 1,
+      "explanation": "For uncontested claims up to ₹30 lakh in demat form (₹10 lakh physical per listed entity), simplified documentation applies without a succession certificate, probate or letter of administration.",
+      "hints": ["Not needed below the simplified threshold for uncontested claims.", "Probate is no longer mandatory for uncontested claims within thresholds.", "Transmission always needs documentation and goes to legal heirs, not automatically to the eldest.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M6-28", "chapter": 18, "difficulty": "hard",
+      "q": "Which of the following persons is NOT exempt from registration under the SEBI (Investment Advisers) Regulations, 2013?",
+      "options": ["A chartered accountant giving investment advice incidental to professional services", "An AMFI-registered MF distributor giving advice incidental to distribution", "A person giving fee-based personalised advice only to NRI clients living abroad", "The fund manager of a SEBI-registered AIF"],
+      "answer": 2, "marks": 1,
+      "explanation": "Advice given exclusively to clients based outside India is exempt, but advice to NRIs or PIOs is expressly brought within the IA Regulations. The other three are listed exemptions.",
+      "hints": ["Exempt: incidental to professional service.", "Exempt: incidental to primary activity.", "Correct: NRI/PIO clients are within the regulations.", "Exempt: fund managers of SEBI-registered entities."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "xa-M6-29", "chapter": 18, "difficulty": "hard",
+      "q": "An investment adviser fails to comply with SEBI directions and the failure continues for 150 days. Under section 15EB of the SEBI Act, the maximum penalty is:",
+      "options": ["₹1.5 crore", "₹1 crore", "₹1 lakh", "₹25 crore"],
+      "answer": 1, "marks": 1,
+      "explanation": "Penalty is not less than ₹1 lakh and may extend to ₹1 lakh for each day of continuing failure, subject to a maximum of ₹1 crore. 150 days x ₹1 lakh = ₹1.5 crore is capped at ₹1 crore.",
+      "hints": ["The ₹1 lakh/day formula is capped at ₹1 crore.", "Correct.", "₹1 lakh is only the minimum.", "Not the IA penalty under section 15EB."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "xa-M6-30", "chapter": 20, "difficulty": "medium",
+      "q": "A client has a grievance against her SEBI-registered investment adviser. What is the correct escalation path as per the MITC?",
+      "options": ["IA, then SEBI SCORES, then Online Dispute Resolution through the Smart ODR portal", "SCORES, then IA, then Supreme Court", "Banking Ombudsman, then SCORES", "Directly to SAT"],
+      "answer": 0, "marks": 1,
+      "explanation": "Step 1: contact the IA (grievance redressal/escalation matrix). Step 2: lodge on SCORES if unsatisfied. Step 3: Online Dispute Resolution via Smart ODR.",
+      "hints": ["Correct.", "The IA must be approached first, and courts are not the next step.", "The Banking Ombudsman handles bank services.", "SAT hears appeals against regulators' orders, not first-level complaints."],
+      "numeric": false, "case": null
+    }
+  ]
+}

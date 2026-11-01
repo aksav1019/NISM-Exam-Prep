@@ -1,0 +1,583 @@
+{
+ "id": "mock-1",
+ "title": "Mock 1 · Foundations",
+ "level": "easy",
+ "blurb": "A gentle lap through all 20 chapters with one short ratio caselet: the core definitions and first-level numericals.",
+ "questions": [
+  {
+   "id": "xa-M1-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which of the following is NOT one of the six steps of the financial planning process described in the workbook?",
+   "options": [
+    "Gather client data, including goals",
+    "Monitor the financial planning recommendations",
+    "Arrange bank finance for every recommended investment",
+    "Establish and define the client-planner relationship"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The six steps are: establish the relationship, gather data and goals, analyse and evaluate financial status, develop and present recommendations, implement, and monitor. Financing investments is not a step.",
+   "hints": [
+    "This is step 2 of the process.",
+    "This is step 6: plans are reviewed and revised.",
+    "Correct: arranging finance is not a planning step; borrowing to invest is in fact risky leverage.",
+    "This is step 1: scope and terms are agreed first."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M1-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Ramesh invests ₹2,00,000 today at 9% per annum compounded annually. What will the investment be worth after 6 years (approximately)?",
+   "options": [
+    "₹3,08,000",
+    "₹3,35,420",
+    "₹3,17,000",
+    "₹3,54,700"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "FV = PV x (1 + r)^n = 2,00,000 x 1.09^6 = 2,00,000 x 1.6771 = ₹3,35,420.",
+   "hints": [
+    "This is simple interest: 2,00,000 + 2,00,000 x 9% x 6. It ignores compounding.",
+    "Correct: 2,00,000 x 1.09^6.",
+    "This is roughly 5 years of compounding, not 6.",
+    "This is roughly 7 years of compounding."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M1-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "A trust wants to pay a scholarship of ₹12,000 every year forever. If the trust can earn 6% a year, how much must it set aside today?",
+   "options": [
+    "₹72,000",
+    "₹1,20,000",
+    "₹1,27,200",
+    "₹2,00,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A payment that goes on forever is a perpetuity: PV = C / r = 12,000 / 0.06 = ₹2,00,000.",
+   "hints": [
+    "This is 12,000 x 6; multiplying by the rate is wrong.",
+    "This treats it as 10 years of payments without discounting.",
+    "This adds one year's 6% to ₹1,20,000; not a valid method.",
+    "Correct: perpetuity value = C / r."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M1-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "What is Meera's savings ratio?",
+   "options": [
+    "25%",
+    "20%",
+    "33%",
+    "75%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Savings ratio = Annual savings / Annual income = 4,50,000 / 18,00,000 = 25%.",
+   "hints": [
+    "Correct: 4.5 lakh / 18 lakh.",
+    "This is her leverage ratio, not her savings ratio.",
+    "This divides savings by expenses (4.5 / 13.5), which is not the definition.",
+    "This is the expense ratio (1 - savings ratio)."
+   ],
+   "numeric": true,
+   "case": "Meera, 38, earns ₹18 lakh a year and saves ₹4.5 lakh of it. Her monthly outflow, including her home-loan EMI, is ₹1,00,000. Her assets are: savings bank ₹2 lakh, a fixed deposit maturing in 4 months ₹3 lakh, liquid fund ₹1 lakh, listed equity shares ₹6 lakh, PPF ₹8 lakh and a flat worth ₹60 lakh. She owes ₹14 lakh on her home loan and ₹2 lakh on her credit card."
+  },
+  {
+   "id": "xa-M1-05",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "What is Meera's leverage ratio?",
+   "options": [
+    "16%",
+    "25%",
+    "20%",
+    "80%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Total assets = 2 + 3 + 1 + 6 + 8 + 60 = ₹80 lakh. Total liabilities = 14 + 2 = ₹16 lakh. Leverage = 16 / 80 = 20%.",
+   "hints": [
+    "This uses only the ₹16 lakh liabilities as a percentage of ₹100 lakh; assets are ₹80 lakh.",
+    "This divides liabilities by net worth (16 / 64), not by total assets.",
+    "Correct: total liabilities / total assets.",
+    "This is her solvency ratio (net worth / assets)."
+   ],
+   "numeric": true,
+   "case": "Meera, 38, earns ₹18 lakh a year and saves ₹4.5 lakh of it. Her monthly outflow, including her home-loan EMI, is ₹1,00,000. Her assets are: savings bank ₹2 lakh, a fixed deposit maturing in 4 months ₹3 lakh, liquid fund ₹1 lakh, listed equity shares ₹6 lakh, PPF ₹8 lakh and a flat worth ₹60 lakh. She owes ₹14 lakh on her home loan and ₹2 lakh on her credit card."
+  },
+  {
+   "id": "xa-M1-06",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "What is Meera's liquidity ratio, and is it comfortable?",
+   "options": [
+    "12 months; more than enough",
+    "6 months; comfortable",
+    "3 months; too low",
+    "8 months; comfortable"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Liquid assets = savings bank 2 + FD maturing within 6 months 3 + liquid fund 1 = ₹6 lakh. Liquidity ratio = 6 / 1 (monthly outflow incl. EMI) = 6. A ratio of 4 to 6 is comfortable. Shares are excluded because their value can fluctuate.",
+   "hints": [
+    "This wrongly counts the ₹6 lakh of equity shares as liquid.",
+    "Correct: ₹6 lakh liquid assets / ₹1 lakh monthly outflow.",
+    "This leaves out the FD, which matures within 6 months and so counts as liquid.",
+    "This adds PPF or part of the shares; PPF is locked in and not liquid."
+   ],
+   "numeric": true,
+   "case": "Meera, 38, earns ₹18 lakh a year and saves ₹4.5 lakh of it. Her monthly outflow, including her home-loan EMI, is ₹1,00,000. Her assets are: savings bank ₹2 lakh, a fixed deposit maturing in 4 months ₹3 lakh, liquid fund ₹1 lakh, listed equity shares ₹6 lakh, PPF ₹8 lakh and a flat worth ₹60 lakh. She owes ₹14 lakh on her home loan and ₹2 lakh on her credit card."
+  },
+  {
+   "id": "xa-M1-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Suresh buys a car with a bank loan. The car stays with him and he drives it daily, but the bank has a charge on it and can repossess it if he defaults. This arrangement is called:",
+   "options": [
+    "Pledge",
+    "Mortgage",
+    "Lease",
+    "Hypothecation"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "In hypothecation a charge is created on a movable asset that remains in the borrower's possession; a car loan is the classic example.",
+   "hints": [
+    "In a pledge the lender keeps the movable asset until repayment.",
+    "A mortgage is a charge on immovable property such as a house.",
+    "In a lease the lessor owns the asset and the lessee never becomes owner.",
+    "Correct: asset stays with the borrower, lender has a charge."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M1-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which of the following can a payments bank do?",
+   "options": [
+    "Accept savings deposits of up to ₹1,00,000 per customer",
+    "Issue credit cards to its customers",
+    "Give personal loans to small traders",
+    "Accept unlimited fixed deposits"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Payments banks accept current and savings deposits not exceeding ₹1,00,000, issue ATM/debit cards (not credit cards) and provide payments and remittances. They cannot lend.",
+   "hints": [
+    "Correct: deposits capped at ₹1 lakh.",
+    "Payments banks may issue debit cards, not credit cards.",
+    "Payments banks cannot undertake any lending.",
+    "Deposits are capped at ₹1 lakh, so 'unlimited' is wrong."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M1-09",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "In an IPO structured purely as an Offer for Sale (OFS) by the promoters:",
+   "options": [
+    "The company's share capital goes up",
+    "The money goes to the selling promoters and the share capital does not change",
+    "The company receives the issue proceeds",
+    "Existing shareholders' percentage holdings stay the same"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "In an OFS existing shareholders sell part of their holding; no new shares are issued, so share capital is unchanged and the proceeds go to the sellers, not the company.",
+   "hints": [
+    "Share capital rises only with a fresh issue.",
+    "Correct: sellers get the money; capital unchanged.",
+    "The company receives money only in a fresh issue.",
+    "The sellers' holding falls, so holding patterns do change."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M1-10",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "By market convention, a bond rated ______ or above is classified as investment grade.",
+   "options": [
+    "AA",
+    "A",
+    "BBB",
+    "BB"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Bonds rated BBB and above are investment grade; those below BBB are high yield or junk bonds.",
+   "hints": [
+    "AA is investment grade but the cut-off is lower.",
+    "A is investment grade but the cut-off is lower.",
+    "Correct: BBB is the lowest investment-grade rating.",
+    "BB is below BBB, so it is high yield (junk)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M1-11",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A share trades at ₹240 and its EPS for the last four quarters is ₹12. What are its P/E ratio and earnings yield?",
+   "options": [
+    "20 times and 5%",
+    "12 times and 8.3%",
+    "20 times and 20%",
+    "5 times and 20%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "P/E = 240 / 12 = 20. Earnings yield = EPS / Price = 12 / 240 = 5%, the inverse of the P/E.",
+   "hints": [
+    "Correct: 240/12 and 12/240.",
+    "These numbers do not come from the data given.",
+    "The P/E is right but earnings yield is 1/20 = 5%, not 20%.",
+    "This inverts the P/E formula."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M1-12",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which statement about market risk in equities is correct?",
+   "options": [
+    "It can be eliminated by holding stocks from many sectors",
+    "It affects only one company at a time",
+    "It is measured by impact cost",
+    "It is measured by beta and cannot be diversified away, though it can be hedged"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Market (systematic) risk affects all listed assets; beta is its proxy. It cannot be diversified away but can be hedged.",
+   "hints": [
+    "Diversification removes sector and company risk, not market risk.",
+    "That describes company-specific risk.",
+    "Impact cost measures liquidity risk.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M1-13",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A bond with a 9% coupon trades at ₹104 (face value ₹100). Which relationship holds?",
+   "options": [
+    "Coupon rate = Current yield = YTM",
+    "Coupon rate > Current yield > YTM",
+    "Coupon rate < Current yield < YTM",
+    "YTM > Coupon rate > Current yield"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A bond priced above par is at a premium, so Coupon rate > Current yield > YTM.",
+   "hints": [
+    "This holds only when the bond trades at par.",
+    "Correct: premium bond ordering.",
+    "This is the ordering for a discount bond.",
+    "This ordering does not occur for a premium bond."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M1-14",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Kiran buys a call option on Nifty by paying a premium. What is his maximum possible loss?",
+   "options": [
+    "Unlimited",
+    "The strike price",
+    "The premium paid",
+    "The margin set by the exchange"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "An option buyer has a right but no obligation; if the option is not worth exercising he lets it lapse, so his loss is limited to the premium paid.",
+   "hints": [
+    "Unlimited loss applies to the option writer (seller), not the buyer.",
+    "The buyer never loses the strike price.",
+    "Correct: loss limited to premium.",
+    "Option buyers pay premium margin equal to the premium, not an additional open-ended loss."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M1-15",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "A scheme has total assets of ₹52 crore and liabilities including expenses of ₹1.2 crore. It has 4 crore units outstanding. What is its NAV?",
+   "options": [
+    "₹13.00",
+    "₹13.30",
+    "₹12.50",
+    "₹12.70"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Net assets = 52 - 1.2 = ₹50.8 crore. NAV = 50.8 / 4 = ₹12.70.",
+   "hints": [
+    "This ignores the liabilities (52 / 4).",
+    "This adds the liabilities instead of deducting them.",
+    "This deducts ₹2 crore instead of ₹1.2 crore.",
+    "Correct: (52 - 1.2) / 4."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M1-16",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Investments in an Equity Linked Savings Scheme (ELSS) are locked in for:",
+   "options": [
+    "3 years",
+    "1 year",
+    "5 years",
+    "15 years"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "ELSS units are locked in for three years during which they cannot be redeemed, transferred or pledged. ELSS must hold at least 80% in equity.",
+   "hints": [
+    "Correct.",
+    "One year is too short; that is not the ELSS rule.",
+    "Five years is the lock-in for tax-saving bank FDs.",
+    "Fifteen years is the PPF term."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M1-17",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "The minimum amount a portfolio manager can accept from a client is:",
+   "options": [
+    "₹10 lakh",
+    "₹50 lakh",
+    "₹1 crore",
+    "₹25 lakh"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A portfolio manager shall not accept funds or securities worth less than ₹50 lakh from a client.",
+   "hints": [
+    "₹10 lakh is the Specialized Investment Fund threshold.",
+    "Correct.",
+    "₹1 crore is the AIF minimum.",
+    "₹25 lakh is the AIF minimum for employees/directors and accredited investors."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M1-18",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "A fund that uses complex trading strategies and leverage, including through listed and unlisted derivatives, will be registered as a:",
+   "options": [
+    "Category III AIF",
+    "Category I AIF",
+    "Category II AIF",
+    "Mutual fund scheme"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Category III AIFs employ diverse or complex trading strategies and may use leverage; hedge funds fall here.",
+   "hints": [
+    "Correct.",
+    "Category I is for socially or economically desirable sectors like VC, SME and infrastructure.",
+    "Category II does not use leverage except for operational needs (PE, debt funds).",
+    "Such strategies are AIF territory, not retail mutual funds."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M1-19",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "A stock is expected to return 20% in a boom (probability 0.25), 12% in a normal year (0.50) and -4% in a recession (0.25). What is its expected return?",
+   "options": [
+    "9.33%",
+    "12%",
+    "10%",
+    "8%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Expected return = 0.25 x 20 + 0.50 x 12 + 0.25 x (-4) = 5 + 6 - 1 = 10%.",
+   "hints": [
+    "This is the simple average of the three returns, ignoring probabilities.",
+    "This is just the normal-year return.",
+    "Correct: probability-weighted sum.",
+    "This treats the recession return as -8% weight; recheck the arithmetic."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M1-20",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "A fund manager temporarily cuts equity from 60% to 50% because she believes the market is overvalued, planning to return to 60% later. This is:",
+   "options": [
+    "Strategic asset allocation",
+    "Rebalancing to the policy mix",
+    "Creating an Investment Policy Statement",
+    "Tactical asset allocation"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Tactical asset allocation is a short-term deviation from the strategic (policy) mix to exploit market conditions: 'timing the market'.",
+   "hints": [
+    "SAA is the long-term target mix itself (60% here).",
+    "Rebalancing brings the portfolio back to the target, not away from it.",
+    "The IPS is the governing document, not a market call.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M1-21",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "A portfolio returned 14% with a standard deviation of 16%. The risk-free rate is 6%. What is its Sharpe ratio?",
+   "options": [
+    "0.875",
+    "0.50",
+    "0.064",
+    "0.375"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Sharpe = (Rp - Rf) / σp = (14 - 6) / 16 = 0.50.",
+   "hints": [
+    "This divides total return by standard deviation without subtracting the risk-free rate.",
+    "Correct.",
+    "This looks like a Treynor-type figure using beta, not standard deviation.",
+    "This divides the risk-free rate by standard deviation."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xa-M1-22",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "Anil and Sunita jointly hold a mutual fund folio and have registered their son as nominee. Anil, the first holder, dies. The units will be transmitted to:",
+   "options": [
+    "Sunita, the surviving joint holder",
+    "The son, as nominee",
+    "Anil's legal heirs equally",
+    "The son and Sunita jointly"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Where a folio is held jointly and also has a nomination, the right of the surviving joint holder supersedes the right of the nominee.",
+   "hints": [
+    "Correct: joint holder ranks before nominee.",
+    "The nominee steps in only after all joint holders have died.",
+    "Legal heirs come in only for a single holding without nomination.",
+    "There is no such split; the survivor takes the units."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xa-M1-23",
+   "chapter": 18,
+   "difficulty": "easy",
+   "q": "After advising clients to sell a stock, an investment adviser may NOT take a contrary position in that stock on his own account for:",
+   "options": [
+    "7 days",
+    "30 days",
+    "15 days",
+    "24 hours"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "An IA shall not enter into own-account transactions contrary to advice given to clients for 15 days from the day of the advice. If the view genuinely changes, the IA must send the revised assessment to clients at least 24 hours before trading.",
+   "hints": [
+    "Not the regulatory period.",
+    "Not the regulatory period.",
+    "Correct.",
+    "24 hours is the advance-notice period if the IA's view changes, not the lock-out period."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "chapter": 19,
+   "difficulty": "easy",
+   "q": "Which statement best describes the relationship between ethics and legal compliance for an investment adviser?",
+   "options": [
+    "If an action is legal, it is automatically ethical",
+    "Ethics goes beyond the law: it brings in what is right or wrong based on values and character",
+    "Ethics matters only when a regulator is inspecting",
+    "Ethics applies to distributors but not to fee-only advisers"
+   ],
+   "answer": 1,
+   "explanation": "Acting within the law is one thing; ethics goes a step further and brings into play what is right or wrong behaviour, arising from values and character. For an IA, this means putting the client first.",
+   "hints": [
+    "Legal is the minimum, not the full ethical standard.",
+    "Correct.",
+    "Ethical conduct is expected at all times.",
+    "Fiduciary IAs are held to the highest ethical standard."
+   ],
+   "id": "xa-M1-24",
+   "numeric": false,
+   "case": null,
+   "marks": 1
+  },
+  {
+   "id": "xa-M1-25",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "A person aggrieved by an order of SEBI may appeal to the Securities Appellate Tribunal within:",
+   "options": [
+    "30 days",
+    "45 days",
+    "60 days",
+    "90 days"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Under section 15T of the SEBI Act, an appeal to SAT must be filed within 45 days from receipt of the order.",
+   "hints": [
+    "Not the SAT limit.",
+    "Correct.",
+    "60 days is the time to appeal from SAT to the Supreme Court.",
+    "Not the SAT limit."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}
