@@ -1,0 +1,583 @@
+{
+ "id": "mock-1",
+ "title": "Mock 1 · Foundations",
+ "level": "easy",
+ "blurb": "All 22 chapters at entry level, with the core SIF facts every V-D candidate must know.",
+ "questions": [
+  {
+   "id": "vd-M1-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which of the following risks can be substantially reduced by holding a well-diversified portfolio of stocks?",
+   "options": [
+    "Unsystematic (company-specific) risk",
+    "Systematic (market) risk",
+    "Inflation risk on the whole portfolio",
+    "Risk arising from a change in monetary policy"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Total risk = systematic + unsystematic. Diversification eliminates a major part of unsystematic (specific) risk; systematic risk can only be hedged, e.g., with index futures.",
+   "hints": [
+    "Correct — diversification removes stock/industry-specific risk.",
+    "Wrong — market risk remains even in a diversified portfolio.",
+    "Wrong — inflation hits all assets; diversification across stocks does not remove it.",
+    "Wrong — policy changes are a systematic, market-wide factor."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "An investor wants to invest in Specialized Investment Fund (SIF) strategies of a single AMC. What is the minimum investment requirement?",
+   "options": [
+    "₹10 lakh in each investment strategy separately",
+    "₹50 lakh across all strategies",
+    "₹1 crore, as for accredited investors",
+    "₹10 lakh across all investment strategies of that AMC"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "SIF minimum investment is ₹10 lakh from the investor across all investment strategies of the same AMC.",
+   "hints": [
+    "Wrong — the threshold is aggregate across strategies, not per strategy.",
+    "Wrong — ₹50 lakh is the PMS-type figure, not SIF.",
+    "Wrong — no ₹1 crore threshold is prescribed for SIF in the workbook.",
+    "Correct — the workbook sets the ₹10 lakh threshold at investor level across all strategies of the same AMC."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Under the Equity Long-Short Fund strategy of an SIF, the minimum investment in equity and equity-related instruments is:",
+   "options": [
+    "65%",
+    "25%",
+    "80%",
+    "95%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Equity Long-Short Fund: minimum 80% in equity & equity-related instruments; maximum 25% unhedged short exposure through derivatives.",
+   "hints": [
+    "Wrong — 65% is the floor for the Equity Ex-Top 100 Long-Short strategy (outside top 100 stocks).",
+    "Wrong — 25% is the cap on unhedged short exposure.",
+    "Correct — Equity Long-Short requires at least 80% in equity and equity-related instruments.",
+    "Wrong — 95% is the floor for index funds/ETFs and FoFs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "As per SEBI MF Regulations 2026, the minimum net worth an asset management company must maintain is:",
+   "options": [
+    "₹10 crore",
+    "₹50 crore",
+    "₹25 crore",
+    "₹100 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The AMC needs a net worth of not less than ₹50 crore (effective 1 Jan 2024); the sponsor must ensure it is maintained continuously.",
+   "hints": [
+    "Wrong — ₹10 crore is the sponsor's average-profit test, not AMC net worth.",
+    "Correct — AMC net worth must be at least ₹50 crore, maintained continuously.",
+    "Wrong — ₹25 crore is not the current requirement.",
+    "Wrong — ₹100 crore is not the prescribed figure."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-05",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which regulation of the SEBI MF Regulations 2026 specifies the permissible investments of a Specialized Investment Fund?",
+   "options": [
+    "Regulation 11",
+    "Regulation 51",
+    "Regulation 22(9)(c)",
+    "Regulation 66(6)"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Per Regulation 51, an SIF may invest in instruments permitted under Regulation 39 for MF schemes, subject to the Sixth Schedule restrictions.",
+   "hints": [
+    "Wrong — Regulation 11 deals with trustee eligibility.",
+    "Correct — Regulation 51 lays down SIF investment limits (Reg 39 universe, subject to the Sixth Schedule).",
+    "Wrong — 22(9)(c) deals with changes in fundamental attributes.",
+    "Wrong — 66(6) relates to AMC paying distribution commission."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-06",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "How many levels of risk does the SIF 'Risk-Band' have?",
+   "options": [
+    "Six",
+    "Four",
+    "Five",
+    "Three"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Since SIFs are riskier than other MF schemes, their risk is shown on a separate Risk-Band with five levels.",
+   "hints": [
+    "Wrong — six levels belong to the mutual fund risk-o-meter.",
+    "Wrong — there are five levels, not four.",
+    "Correct — Risk-Band runs from level 1 (lowest) to level 5 (highest).",
+    "Wrong — there are five levels, not three."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-07",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "According to the SEBI Master Circular of 20 March 2026, how are mutual fund distributors to be remunerated by AMCs?",
+   "options": [
+    "Only through trail commission, with no upfront commission",
+    "Upfront commission at the time of each purchase",
+    "A fixed annual retainer",
+    "A share of the AMC's profits"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "AMCs shall adopt a full trail model of commission in all schemes, without any upfront commission or upfronting of trail (cash or kind).",
+   "hints": [
+    "Correct — AMCs must follow the full trail model; no upfronting of trail directly or indirectly.",
+    "Wrong — upfront commission is prohibited.",
+    "Wrong — no retainer model is prescribed.",
+    "Wrong — profit-sharing is not a permitted distribution payout."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-08",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "An NFO of an open-ended scheme other than ELSS can remain open for subscription for a maximum of:",
+   "options": [
+    "3 working days",
+    "30 days",
+    "45 days",
+    "15 days"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "NFOs stay open for at least 3 working days and, other than ELSS, at most 15 days; allotment/refund within 5 business days of closure.",
+   "hints": [
+    "Wrong — 3 working days is the minimum period.",
+    "Wrong — 30 days exceeds the cap.",
+    "Wrong — 45 days exceeds the cap.",
+    "Correct — the maximum NFO period (other than ELSS) is 15 days."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-09",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Which statement about subscription and redemption frequency is correct?",
+   "options": [
+    "They must be the same for MF schemes, but may differ for SIF investment strategies",
+    "They must be the same for all MF schemes and SIF strategies",
+    "They may differ for all MF schemes",
+    "They must be daily for every SIF strategy"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Subscription and redemption frequency must be the same for all MF schemes except SIFs, where they can be distinct (e.g., daily purchase, weekly redemption).",
+   "hints": [
+    "Correct — the workbook allows SIF strategies, e.g., daily subscriptions with weekly redemptions.",
+    "Wrong — SIF is the stated exception.",
+    "Wrong — regular MF schemes must keep them the same.",
+    "Wrong — debt/hybrid SIFs redeem weekly or twice a week, not daily."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-10",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "An investment of ₹1,000 grows to ₹4,000 in 2 years. What is the compounded annual return?",
+   "options": [
+    "150%",
+    "300%",
+    "100%",
+    "75%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "CAGR = (LV/IV)^(1/n) − 1 = 4^0.5 − 1 = 100%.",
+   "hints": [
+    "Wrong — 150% is the simple return (300%) divided by 2.",
+    "Wrong — 300% is the absolute (simple) return over 2 years.",
+    "Correct — (4,000/1,000)^(1/2) − 1 = 2 − 1 = 100%.",
+    "Wrong — 75% does not follow from the CAGR formula."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M1-11",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "Why does the direct plan of a scheme usually show a higher NAV than its regular plan over time?",
+   "options": [
+    "It invests in a different portfolio",
+    "It carries a higher exit load",
+    "It is exempt from capital gains tax",
+    "Its expense ratio is lower because no distributor commission is built in"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Direct and regular plans have the same portfolio; the direct plan's lower TER (no commission) leads to a higher NAV.",
+   "hints": [
+    "Wrong — both plans share the same portfolio.",
+    "Wrong — exit load does not raise NAV.",
+    "Wrong — tax treatment is identical for both plans.",
+    "Correct — direct plans exclude distribution commission, so TER is lower and NAV compounds faster."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-12",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "An index option is best described as a:",
+   "options": [
+    "Debt instrument",
+    "Derivative product",
+    "Cash market product",
+    "Money market instrument"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A derivative derives its value from an underlying — here, a stock index.",
+   "hints": [
+    "Wrong — it carries no debt obligation.",
+    "Correct — its value is derived from the underlying index.",
+    "Wrong — cash market products involve the underlying itself.",
+    "Wrong — money market instruments are short-term debt."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-13",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "A jewellery exporter who sells gold futures to protect the value of the gold inventory she already holds is acting as a:",
+   "options": [
+    "Hedger",
+    "Speculator",
+    "Arbitrageur",
+    "Market maker"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Hedgers face price risk on underlying assets and use derivatives to reduce it.",
+   "hints": [
+    "Correct — she has an existing exposure and uses derivatives to reduce risk.",
+    "Wrong — a speculator takes on risk to profit from a price view.",
+    "Wrong — an arbitrageur exploits price differences across markets.",
+    "Wrong — a market maker quotes two-way prices; that is not her role."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-14",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "Sensex and Nifty are currently computed on which methodology?",
+   "options": [
+    "Price-weighted",
+    "Equal-weighted",
+    "Free-float market capitalisation",
+    "Full market capitalisation without float adjustment"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Most global indices, including Sensex, Nifty and SX40, have moved to the free-float market capitalisation method.",
+   "hints": [
+    "Wrong — Dow Jones and Nikkei 225 are price-weighted.",
+    "Wrong — equal weighting is a different design.",
+    "Correct — Indian indices (Sensex, Nifty, SX40) moved to free-float basis.",
+    "Wrong — they were earlier full market-cap weighted, but now use free float."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-15",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "You sold one stock futures contract at ₹1,450 (lot size 500) and later bought it back at ₹1,412. What is your profit or loss?",
+   "options": [
+    "Loss of ₹19,000",
+    "Profit of ₹38,000",
+    "Profit of ₹7,060",
+    "Profit of ₹19,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Short futures P&L = (Sell price − Buy price) × lot = 38 × 500 = ₹19,000.",
+   "hints": [
+    "Wrong — a short gains when price falls.",
+    "Wrong — ₹38,000 doubles the lot.",
+    "Wrong — multiplying by 0.38% of price is wrong.",
+    "Correct — (1,450 − 1,412) × 500 = ₹19,000 gain for a short position."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M1-16",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "Margins in equity futures trading are paid by:",
+   "options": [
+    "Only the buyer",
+    "Both the buyer and the seller",
+    "Only the seller",
+    "Only the clearing corporation"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Both buyers and sellers of futures pay initial margin because both have an obligation to honour the contract.",
+   "hints": [
+    "Wrong — the seller is also obligated.",
+    "Correct — both sides have an obligation, so both deposit initial margin.",
+    "Wrong — the buyer is also obligated.",
+    "Wrong — the clearing corporation collects margins; it does not pay them."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-17",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "A call option is in-the-money when:",
+   "options": [
+    "The spot price is below the strike price",
+    "The spot price equals the strike price",
+    "The spot price is above the strike price",
+    "The premium exceeds the strike price"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Call ITM: strike < spot; put ITM: strike > spot.",
+   "hints": [
+    "Wrong — that makes a call out-of-the-money.",
+    "Wrong — that is at-the-money.",
+    "Correct — exercising immediately would give a positive cash flow.",
+    "Wrong — moneyness compares spot and strike, not premium."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-18",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "You buy a put option with a strike of ₹520 at a premium of ₹18. What is the break-even price at expiry?",
+   "options": [
+    "₹538",
+    "₹520",
+    "₹18",
+    "₹502"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Break-even for a put = Strike − Premium = 520 − 18 = ₹502.",
+   "hints": [
+    "Wrong — 538 is strike + premium (call BEP).",
+    "Wrong — at 520 you would lose the full premium.",
+    "Wrong — the premium is the maximum loss, not the BEP.",
+    "Correct — put BEP = strike − premium = 520 − 18."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M1-19",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "An investor buys a call with a lower strike and sells a call with a higher strike on the same stock and expiry. This strategy is a:",
+   "options": [
+    "Bear call spread",
+    "Bull call spread",
+    "Long straddle",
+    "Calendar spread"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Bullish vertical spread using calls: buy the lower-strike call and sell the higher-strike call (net debit).",
+   "hints": [
+    "Wrong — a bear call spread shorts the lower strike.",
+    "Correct — long lower-strike call + short higher-strike call = bullish vertical spread.",
+    "Wrong — a straddle combines a call and a put at the same strike.",
+    "Wrong — a calendar spread uses different expiries."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-20",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "Which strategy combines a long stock position with a long put on the same stock?",
+   "options": [
+    "Protective put",
+    "Covered call",
+    "Short strangle",
+    "Bear put spread"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A protective put limits downside to the premium (plus any strike gap) while keeping upside; its payoff resembles a long call.",
+   "hints": [
+    "Correct — long stock + long put insures the holding against a fall.",
+    "Wrong — a covered call sells a call against the stock.",
+    "Wrong — a short strangle sells OTM calls and puts.",
+    "Wrong — a bear put spread uses two puts and no stock."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-21",
+   "chapter": 18,
+   "difficulty": "easy",
+   "q": "If market interest rates rise, the price of an existing fixed-coupon bond will generally:",
+   "options": [
+    "Rise",
+    "Remain unchanged",
+    "Fall",
+    "Rise only if it is a zero-coupon bond"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The price-yield relationship is inverse; higher yields mean lower present value of fixed cash flows.",
+   "hints": [
+    "Wrong — prices rise when yields fall.",
+    "Wrong — prices change with yields.",
+    "Correct — bond prices and yields move inversely.",
+    "Wrong — zero-coupon bonds fall even more because of their longer duration."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-22",
+   "chapter": 19,
+   "difficulty": "easy",
+   "q": "An interest rate cap is best described as:",
+   "options": [
+    "A series of interest rate put options",
+    "A single forward rate agreement",
+    "A fixed-for-floating swap",
+    "A series of interest rate call options"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Cap = series of interest rate calls (caplets); floor = series of puts; collar = buy cap + sell floor.",
+   "hints": [
+    "Wrong — a series of puts is a floor.",
+    "Wrong — an FRA fixes one future period's rate.",
+    "Wrong — a swap exchanges cash flows; it is not an option.",
+    "Correct — a cap is a strip of caplets that pay when the rate exceeds the strike."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-23",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "One lot of a cash-settled GOI bond futures contract represents bonds with a face value of:",
+   "options": [
+    "₹2 lakh (2,000 bonds)",
+    "₹1 lakh (1,000 bonds)",
+    "₹5 crore",
+    "₹10 lakh"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Bond IRF unit of trading: 1 lot = FV ₹2 lakh = 2,000 bonds; contract value = price × 2,000.",
+   "hints": [
+    "Correct — 1 lot = notional bonds of FV ₹2 lakh, i.e., 2,000 bonds of ₹100.",
+    "Wrong — the lot is ₹2 lakh, not ₹1 lakh.",
+    "Wrong — ₹5 crore is the wholesale cash-market lot (250 futures lots).",
+    "Wrong — ₹10 lakh is not the IRF lot."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-24",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "How is the 91-day T-bill futures contract quoted?",
+   "options": [
+    "As the annualised discount yield itself",
+    "100 minus the futures discount yield",
+    "As the clean price of the T-bill",
+    "As 100 plus the futures yield"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "91-day T-bill futures: quotation = 100 − futures discount yield; contract value = 2,000 × (100 − 0.25y).",
+   "hints": [
+    "Wrong — the quote converts the yield into a price-like number.",
+    "Correct — e.g., a 5% discount yield is quoted as 95.0000.",
+    "Wrong — T-bills are zero-coupon; the quote is 100 − yield.",
+    "Wrong — adding the yield is the wrong direction."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M1-25",
+   "chapter": 21,
+   "difficulty": "easy",
+   "q": "An option that can be exercised only on certain specified dates before expiry is called a(n):",
+   "options": [
+    "European option",
+    "American option",
+    "Asian option",
+    "Bermudan option"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Option styles: European (expiry only), American (any time), Bermudan (specified dates).",
+   "hints": [
+    "Wrong — European options are exercisable only on expiry.",
+    "Wrong — American options can be exercised on any day up to expiry.",
+    "Wrong — Asian options are not discussed as an exercise style here.",
+    "Correct — Bermudan options sit between European and American in flexibility."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

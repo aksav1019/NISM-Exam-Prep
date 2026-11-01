@@ -1,0 +1,583 @@
+{
+ "id": "mock-3",
+ "title": "Mock 3 · Core Concepts",
+ "level": "easy",
+ "blurb": "Structure, disclosure and commission rules, plus index, carry, spreads and IRF basics.",
+ "questions": [
+  {
+   "id": "vd-M3-01",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Under the SIF Sector Rotation Long-Short Fund strategy, what is the maximum number of sectors the fund can hold?",
+   "options": [
+    "2",
+    "4",
+    "5",
+    "No limit"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Sector Rotation Long-Short: min 80% equity, max 4 sectors, shorts taken at sector level (all stocks of that sector), max 25% unhedged short.",
+   "hints": [
+    "Wrong — 2 is the minimum number of sectors in the Sectoral Debt Long-Short strategy.",
+    "Correct — the strategy is limited to a maximum of 4 sectors.",
+    "Wrong — 5 exceeds the limit.",
+    "Wrong — a sector cap of 4 applies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "How frequently may an AMC allow redemptions in the SIF hybrid strategies (Active Asset Allocator Long-Short and Hybrid Long-Short)?",
+   "options": [
+    "Daily",
+    "Once a month only",
+    "Twice a week or any lesser frequency",
+    "Only at maturity"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Redemption frequency: equity SIF — daily or less; debt SIF — weekly or less; hybrid SIF — twice a week or less.",
+   "hints": [
+    "Wrong — daily or lesser applies to equity strategies.",
+    "Wrong — the rule is twice a week or less, not monthly only.",
+    "Correct — hybrid SIF strategies are interval schemes allowing up to two redemptions a week.",
+    "Wrong — they are interval schemes, not close-ended."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-03",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "What minimum proportion of the trustees of a mutual fund must be independent (not associated with the sponsor or AMC)?",
+   "options": [
+    "One-half",
+    "One-third",
+    "Three-fourths",
+    "Two-thirds"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "At least 2/3 of trustees must be independent; at least 50% of AMC directors must be non-associates.",
+   "hints": [
+    "Wrong — 50% independence applies to the AMC board.",
+    "Wrong — one-third is too low.",
+    "Wrong — 75% is the unitholder majority to remove an AMC.",
+    "Correct — at least two-thirds of trustees must be independent."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-04",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which of the following is a SEBI requirement for an AMC offering an SIF?",
+   "options": [
+    "Maintain a separate website or dedicated web page exclusively for the SIF",
+    "Use a separate, relaxed advertisement code for SIF",
+    "Show the mutual fund's brand in a larger font than the SIF brand",
+    "Use the same logo as the mutual fund permanently"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "SIF branding rules: distinct name and logo, MF brand use allowed for 5 years, smaller-or-equal MF brand font, MF advertisement code applies, separate website/page.",
+   "hints": [
+    "Correct — a separate website/web page keeps SIF offerings distinct from regular MFs.",
+    "Wrong — SIF must follow the MF advertisement guidelines.",
+    "Wrong — the MF brand font must be equal to or smaller than the SIF brand.",
+    "Wrong — SIF needs a distinct name and logo."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-05",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "How often must the Key Information Memorandum (KIM) be updated?",
+   "options": [
+    "Once every financial year within 3 months",
+    "Only when there is a change in fundamental attributes",
+    "Every month within 10 days",
+    "At least once every half-year, within one month from the end of the half-year"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "KIM: at least half-yearly within one month of half-year end; SAI: by end of 3 months of each FY; SID: within one month of half-year end.",
+   "hints": [
+    "Wrong — annual update within 3 months is the SAI rule.",
+    "Wrong — fundamental changes trigger addenda, but KIM also has a periodic update.",
+    "Wrong — monthly updating is not required.",
+    "Correct — KIM is updated half-yearly using data as of September and March."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-06",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "A distributor onboards a new woman investor (new PAN) who starts with a lump sum of ₹5 lakh and stays invested for over a year. What is the maximum additional commission payable for this onboarding?",
+   "options": [
+    "₹5,000",
+    "₹2,000",
+    "₹500",
+    "₹10,000"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Additional commission: 1% of the first lump sum (if held ≥ 1 year) or 1% of first-year SIP, subject to a maximum of ₹2,000.",
+   "hints": [
+    "Wrong — the 1% figure is capped at ₹2,000.",
+    "Correct — 1% of ₹5 lakh is ₹5,000, but it is capped at ₹2,000.",
+    "Wrong — not the prescribed amount.",
+    "Wrong — exceeds the cap."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M3-07",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A scheme has investments worth ₹520 crore, receivables of ₹6 crore, accrued income of ₹4 crore and liabilities of ₹10 crore. Units outstanding are 40 crore. What is the NAV?",
+   "options": [
+    "₹13.25",
+    "₹12.75",
+    "₹13.00",
+    "₹13.50"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "NAV = (Investments + receivables + accrued income − liabilities) ÷ units = ₹13.00.",
+   "hints": [
+    "Wrong — this ignores the liabilities.",
+    "Wrong — this subtracts receivables instead of adding them.",
+    "Correct — (520 + 6 + 4 − 10) ÷ 40 = 520 ÷ 40 = ₹13.00.",
+    "Wrong — not supported by the data."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M3-08",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Can an AMC offer SIP, SWP and STP facilities in SIF investment strategies?",
+   "options": [
+    "Yes, while ensuring compliance with the minimum investment threshold",
+    "No, SIF permits only lump-sum investments",
+    "Yes, and the ₹10 lakh threshold is waived for SIPs",
+    "Only SWP is permitted"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "AMCs may offer SIP, SWP and STP in SIF strategies, ensuring compliance with the minimum investment threshold.",
+   "hints": [
+    "Correct — systematic transactions are allowed but the ₹10 lakh threshold still applies.",
+    "Wrong — the workbook expressly allows systematic transactions.",
+    "Wrong — the threshold is not waived.",
+    "Wrong — SIP, SWP and STP are all permitted."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-09",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "If an AMC delays refund of NFO money beyond the stipulated time, it must pay investors interest at:",
+   "options": [
+    "12% per annum, charged to the scheme",
+    "The savings bank rate",
+    "15% per annum, borne by the AMC",
+    "No interest is payable"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Delay in NFO refunds: interest at 15% p.a. for the period of delay, borne by the AMC.",
+   "hints": [
+    "Wrong — the rate is 15% and it cannot be charged to the scheme.",
+    "Wrong — no such linkage is prescribed.",
+    "Correct — delayed NFO refunds carry 15% p.a. interest that cannot be charged to the scheme.",
+    "Wrong — interest is payable for the delay."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-10",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "A scheme with a beta of 1.3 is expected, on average, to:",
+   "options": [
+    "Rise about 3% when the market rises 10%",
+    "Rise about 13% when the market rises 10%",
+    "Move independently of the market",
+    "Rise about 7.7% when the market rises 10%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Beta > 1 = aggressive; beta < 1 = conservative; the market's beta is 1.",
+   "hints": [
+    "Wrong — that would be beta of 0.3.",
+    "Correct — beta measures sensitivity to market moves: 1.3 × 10% = 13%.",
+    "Wrong — beta measures dependence on the market.",
+    "Wrong — that would be beta of about 0.77."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-11",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Mutual fund schemes must benchmark their performance against which type of index?",
+   "options": [
+    "Total Return Index",
+    "Price Return Index",
+    "Equal-weighted index only",
+    "Any index chosen by the distributor"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Total Return Index reflects price changes plus reinvested dividends; SEBI requires TRI-based benchmarking.",
+   "hints": [
+    "Correct — TRI includes dividends, giving a like-for-like comparison with fund NAV.",
+    "Wrong — PRI ignores dividends and flatters the fund.",
+    "Wrong — there is no such rule.",
+    "Wrong — benchmarks are set by the AMC as per SEBI norms."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-12",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "The SEBI committee that recommended declaring derivatives as 'securities' was chaired by:",
+   "options": [
+    "Prof. J. R. Varma",
+    "Mr. Sashi Krishnan",
+    "Dr. Y. V. Reddy",
+    "Dr. L. C. Gupta"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "L.C. Gupta Committee (set up 18 Nov 1996, report 17 Mar 1998) recommended derivatives be declared 'securities'.",
+   "hints": [
+    "Wrong — the J.R. Varma group dealt with risk containment and margining.",
+    "Wrong — not the derivatives committee chair.",
+    "Wrong — not associated with this committee.",
+    "Correct — the 24-member L.C. Gupta committee (1996) reported in March 1998."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-13",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Which of the following is a feature of OTC derivatives compared with exchange-traded derivatives?",
+   "options": [
+    "A clearing corporation guarantees every trade through novation",
+    "Contracts are tailor-made and counterparty credit risk is managed by the individual parties",
+    "Contracts are fully standardised in lot size and expiry",
+    "Trades are executed on an anonymous screen-based auction"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "OTC: customised, decentralised credit risk management, no formal centralised position limits, little disclosure; exchange-traded: standardised and CCP-guaranteed.",
+   "hints": [
+    "Wrong — novation and trade guarantee are exchange features.",
+    "Correct — OTC deals are bilateral and customised, with decentralised credit risk.",
+    "Wrong — standardisation is an exchange-traded feature.",
+    "Wrong — anonymous order matching is an exchange feature."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-14",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "An index has a base market capitalisation of ₹2,000 crore with a base value of 1,000. If the current market capitalisation is ₹2,500 crore, the index value is:",
+   "options": [
+    "1,250",
+    "1,500",
+    "800",
+    "2,500"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Index value = (Current M-cap ÷ Base M-cap) × Base value.",
+   "hints": [
+    "Correct — (2,500 ÷ 2,000) × 1,000 = 1,250.",
+    "Wrong — not supported by the formula.",
+    "Wrong — that inverts the ratio.",
+    "Wrong — that confuses market cap with index value."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M3-15",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "At the time of its introduction, a stock derivative contract must have a value of not less than:",
+   "options": [
+    "₹15 lakh",
+    "₹2 lakh",
+    "₹5 lakh",
+    "₹10 lakh"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Stock derivatives: min ₹5 lakh, ₹5–10 lakh on review, lot multiple of 25 (min 50). Index: min ₹15 lakh, ₹15–20 lakh.",
+   "hints": [
+    "Wrong — ₹15 lakh is the index derivative minimum.",
+    "Wrong — ₹2 lakh is the bond IRF lot.",
+    "Correct — stock derivatives start at ₹5 lakh and are kept within ₹5–10 lakh on review.",
+    "Wrong — ₹10 lakh is the upper end of the review band."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-16",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "A share trades at ₹500. Interest cost of carrying it for three months is ₹10 and an expected dividend in that period is ₹3. What is the fair futures price under the cost of carry model?",
+   "options": [
+    "₹513",
+    "₹510",
+    "₹497",
+    "₹507"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Fair futures price = Spot + Cost of carry − Inflows = ₹507.",
+   "hints": [
+    "Wrong — adds the dividend instead of subtracting it.",
+    "Wrong — ignores the dividend.",
+    "Wrong — subtracts carry instead of adding it.",
+    "Correct — Fair price = Spot + Cost of carry − Income = 500 + 10 − 3."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M3-17",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "If the volatility of the underlying increases sharply (other things unchanged), the premiums of calls and puts will:",
+   "options": [
+    "Both decrease",
+    "Both increase",
+    "Calls increase and puts decrease",
+    "Calls decrease and puts increase"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Higher volatility = higher premium for both calls and puts (positive vega for long options).",
+   "hints": [
+    "Wrong — volatility and premium move together.",
+    "Correct — higher volatility raises the chance of finishing in-the-money for both.",
+    "Wrong — spot price changes move calls and puts in opposite directions, not volatility.",
+    "Wrong — not how volatility works."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-18",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "What is the maximum loss for the buyer of an option?",
+   "options": [
+    "The premium paid",
+    "Unlimited",
+    "The strike price",
+    "The margin deposited with the exchange"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Option buyer: loss limited to premium, potential profit large; seller: profit limited to premium, loss potentially unlimited.",
+   "hints": [
+    "Correct — the buyer can let the option lapse, losing only the premium.",
+    "Wrong — unlimited loss is the writer's risk.",
+    "Wrong — the strike is not at risk for a buyer.",
+    "Wrong — option buyers do not deposit margin."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-19",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "Futures prices are rising while open interest is falling. This usually indicates:",
+   "options": [
+    "Fresh long build-up",
+    "Short build-up",
+    "Long unwinding",
+    "Short covering"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Price ↑ OI ↑ bullish; price ↑ OI ↓ short covering; price ↓ OI ↑ bearish; price ↓ OI ↓ long unwinding.",
+   "hints": [
+    "Wrong — long build-up has rising price and rising OI.",
+    "Wrong — short build-up has falling price and rising OI.",
+    "Wrong — long unwinding has falling price and falling OI.",
+    "Correct — shorts closing out push prices up while OI drops."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-20",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "A trader buys a 1,000 strike call at ₹40 and sells a 1,050 strike call at ₹18 (same expiry). What is the maximum profit per unit?",
+   "options": [
+    "₹50",
+    "₹22",
+    "₹28",
+    "₹58"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Bull call spread: max loss = net debit (22); max profit = strike difference − net debit = 28; BEP = 1,022.",
+   "hints": [
+    "Wrong — 50 ignores the net premium paid.",
+    "Wrong — 22 is the net debit (maximum loss).",
+    "Correct — strike gap 50 − net debit 22 = 28.",
+    "Wrong — not supported by the trade."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M3-21",
+   "chapter": 18,
+   "difficulty": "easy",
+   "q": "A bond with a 7.5% coupon trades at a clean price of ₹96. What is its current yield (approximately)?",
+   "options": [
+    "7.50%",
+    "7.20%",
+    "8.50%",
+    "7.81%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Current yield = coupon ÷ clean price. A discount bond has CY above its coupon rate.",
+   "hints": [
+    "Wrong — that is the coupon rate.",
+    "Wrong — that multiplies instead of divides.",
+    "Wrong — not supported by the data.",
+    "Correct — 7.5 ÷ 96 × 100 = 7.81%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M3-22",
+   "chapter": 19,
+   "difficulty": "easy",
+   "q": "In a Forward Rate Agreement, the party that agrees to borrow at the fixed FRA rate:",
+   "options": [
+    "Has a short position in interest rates",
+    "Has a long position in interest rates and gains if the benchmark rises above the FRA rate",
+    "Gains if the benchmark falls below the FRA rate",
+    "Must physically borrow the money on the settlement date"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "FRA: borrower is long interest rate; if benchmark > FRA rate, the long receives the (discounted) difference.",
+   "hints": [
+    "Wrong — the lender is short interest rates.",
+    "Correct — the borrower locks a rate and is compensated if market rates rise.",
+    "Wrong — falling rates make the borrower pay the difference.",
+    "Wrong — FRAs are usually cash-settled without actual borrowing."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-23",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "In overnight MIBOR futures, the value of one basis point per contract is:",
+   "options": [
+    "₹102.75",
+    "₹5",
+    "₹411",
+    "₹2,000"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "MIBOR futures: notional ₹5 crore for one month (30/365); 1 bp = ₹411; tick 0.25 bp = ₹102.75.",
+   "hints": [
+    "Wrong — ₹102.75 is the tick value (a quarter basis point).",
+    "Wrong — ₹5 is the bond IRF tick value.",
+    "Correct — ₹5 crore × 0.01% × 30/365 ≈ ₹411.",
+    "Wrong — not the basis-point value."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-24",
+   "chapter": 21,
+   "difficulty": "easy",
+   "q": "The strike price interval for exchange-traded interest rate options on GOI securities is:",
+   "options": [
+    "₹0.25",
+    "₹0.0025",
+    "₹1.00",
+    "₹0.50"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Exchange IRO: strike interval ₹0.25; at least 8 ITM, 8 OTM and 1 near-the-money strikes.",
+   "hints": [
+    "Correct — strikes are available at ₹99.50, 99.75, 100.00, etc.",
+    "Wrong — ₹0.0025 is the tick size.",
+    "Wrong — the interval is ₹0.25.",
+    "Wrong — the interval is ₹0.25."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M3-25",
+   "chapter": 22,
+   "difficulty": "easy",
+   "q": "Why does a calendar spread position in GOI bond futures attract lower margin than an outright position?",
+   "options": [
+    "It carries only the risk of change in spread between the two months, not full price risk",
+    "Calendar spreads are exempt from margins",
+    "The clearing corporation guarantees a profit on spreads",
+    "Both legs are settled by physical delivery"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "In a calendar spread the trader has no outright underlying risk, only spread (basis) risk, hence lower margins.",
+   "hints": [
+    "Correct — opposite positions in the same bond leave mainly basis/spread risk.",
+    "Wrong — margin is lower, not nil.",
+    "Wrong — no profit is guaranteed.",
+    "Wrong — IRFs are cash-settled."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

@@ -1,0 +1,583 @@
+{
+ "id": "mock-4",
+ "title": "Mock 4 · Applied Basics",
+ "level": "easy",
+ "blurb": "Everyday rules and first strategy questions across MF, SIF and both derivative modules.",
+ "questions": [
+  {
+   "id": "vd-M4-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "A long-term asset mix set according to an investor's goals and risk profile, rebalanced periodically, is known as:",
+   "options": [
+    "Tactical asset allocation",
+    "Market timing",
+    "Strategic asset allocation",
+    "Sector rotation"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Strategic = long-term policy mix; tactical = temporary deviation to exploit market opportunities.",
+   "hints": [
+    "Wrong — tactical allocation is a short-term tilt based on market views.",
+    "Wrong — market timing is trying to predict entry/exit points.",
+    "Correct — strategic allocation is the long-term, goal-linked mix.",
+    "Wrong — sector rotation shifts between sectors, not the overall asset mix."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "How many investment strategies can an AMC launch under each SIF category (e.g., Equity Long-Short)?",
+   "options": [
+    "Up to two",
+    "Up to five",
+    "No limit, subject to SEBI approval",
+    "Only one"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "In line with MF scheme categorisation, only one investment strategy is permitted under each SIF category.",
+   "hints": [
+    "Wrong — the cap is one.",
+    "Wrong — the cap is one.",
+    "Wrong — a one-per-category cap applies, as with MF categorisation.",
+    "Correct — to avoid proliferation, only one strategy per category is permitted."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "If an SIF investment strategy is launched as a close-ended or interval structure, its units must be:",
+   "options": [
+    "Held only in physical form",
+    "Listed on a recognised stock exchange",
+    "Redeemable daily with the AMC",
+    "Transferable only to existing investors"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The workbook notes the listing requirement for close-ended and interval structures applies to SIFs as well.",
+   "hints": [
+    "Wrong — MF/SIF units are held in demat or SoA form; listing is required here.",
+    "Correct — the listing provision for close-ended/interval schemes applies to SIF too.",
+    "Wrong — interval/close-ended structures do not offer daily redemption.",
+    "Wrong — no such restriction is stated."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-04",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Within how many days must an AMC redress an investor grievance?",
+   "options": [
+    "21 calendar days",
+    "30 calendar days",
+    "7 working days",
+    "45 days"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "AMCs shall redress grievances promptly and not later than 21 calendar days; investors may escalate to SCORES and SMART ODR.",
+   "hints": [
+    "Correct — the 2026 regulations require redressal within 21 calendar days.",
+    "Wrong — 30 days is not the current limit.",
+    "Wrong — 7 working days is not the rule.",
+    "Wrong — 45 days is not the rule."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-05",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Within what time must an AMC disclose the risk band of all its SIF investment strategies on its website?",
+   "options": [
+    "Within 30 days from the close of each quarter",
+    "Within 10 days from the close of each month",
+    "Within 5 days of every fortnight",
+    "Only once a year as on 31 March"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "SIF Risk-Band: assigned at NFO, evaluated monthly, disclosed within 10 days of month close; annual 31 March disclosure with number of changes on AMC and AMFI sites.",
+   "hints": [
+    "Wrong — quarterly disclosure is not the rule.",
+    "Correct — Risk-Band is evaluated monthly and disclosed within 10 days of month-end.",
+    "Wrong — fortnightly within 5 days applies to debt MF portfolio disclosure.",
+    "Wrong — the 31 March disclosure is in addition to monthly disclosure."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-06",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "If an investor changes the distributor code in a folio, trail commission is:",
+   "options": [
+    "Paid to the new distributor immediately",
+    "Paid to the old distributor for 12 months",
+    "Split equally between both distributors",
+    "Not paid to any distributor for 12 months"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "On change of distributor, no trail commission is payable to any distributor for a period of 12 months.",
+   "hints": [
+    "Wrong — the new distributor waits 12 months.",
+    "Wrong — the old distributor also stops receiving trail.",
+    "Wrong — there is no split.",
+    "Correct — to prevent malpractice, no trail is paid to either for 12 months."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-07",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "The maximum total expense ratio for an index fund or ETF is:",
+   "options": [
+    "1.00% of daily net assets",
+    "2.10% of daily net assets",
+    "0.90% of daily net assets",
+    "0.70% of daily net assets"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Index fund/ETF TER (including investment & advisory fees) ≤ 0.90% of daily net assets.",
+   "hints": [
+    "Wrong — 1.00% applies to close-ended equity schemes.",
+    "Wrong — 2.10% is the first slab for active equity schemes.",
+    "Correct — index funds/ETFs are capped at 0.90%.",
+    "Wrong — 0.70% is the balance-asset slab for non-equity schemes."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-08",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Stamp duty on the issue of mutual fund units (purchase, SIP, STP, IDCW reinvestment) is levied at:",
+   "options": [
+    "0.005% of the amount invested",
+    "0.015% of the amount invested",
+    "0.001% of the amount invested",
+    "0.1% of the amount invested"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Stamp duty: 0.005% on issue of units; 0.015% on transfer of units (since 1 July 2020).",
+   "hints": [
+    "Correct — issue of units attracts 0.005% stamp duty.",
+    "Wrong — 0.015% applies to transfer of units.",
+    "Wrong — 0.001% is the STT rate on redemption of equity units.",
+    "Wrong — not the prescribed rate."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-09",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A redemption request for an equity fund is received at 2.15 pm on a business day. Which NAV applies?",
+   "options": [
+    "The next business day's NAV",
+    "The previous day's NAV",
+    "The NAV of the day the money reaches the investor",
+    "The same day's closing NAV"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Non-liquid redemptions: cut-off 3 pm; before cut-off — same day NAV; after — next business day NAV.",
+   "hints": [
+    "Wrong — next-day NAV applies after 3 pm.",
+    "Wrong — previous-day NAV applies to liquid fund purchases.",
+    "Wrong — NAV is fixed by time of receipt, not of payout.",
+    "Correct — redemptions received before the 3 pm cut-off get same-day NAV."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-10",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A switch from one scheme to another is treated as:",
+   "options": [
+    "A non-financial transaction with no tax impact",
+    "A redemption from one scheme and a purchase in another, combined in one transaction",
+    "A transfer of units between investors",
+    "A dividend reinvestment"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Switch = redemption + purchase in one transaction; exit load and capital gains tax may apply on the switch-out.",
+   "hints": [
+    "Wrong — the redemption leg can trigger capital gains.",
+    "Correct — a switch has a redemption leg (load/tax may apply) and a purchase leg.",
+    "Wrong — units do not change hands between investors.",
+    "Wrong — it is unrelated to IDCW reinvestment."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-11",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "For a salaried investor aiming to build wealth over 15 years who does not need regular income, which option is generally more suitable?",
+   "options": [
+    "Growth option",
+    "IDCW payout option",
+    "IDCW reinvestment option for tax savings",
+    "Daily IDCW option"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Growth option defers tax until redemption and lets returns compound — better for long-term wealth creation.",
+   "hints": [
+    "Correct — growth allows tax deferral and compounding.",
+    "Wrong — payouts are taxed at slab and break compounding.",
+    "Wrong — IDCW reinvested is still taxed at slab each time.",
+    "Wrong — daily IDCW is for very short-term debt needs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-12",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "A diversified equity scheme earned 14% with a beta of 1.6 when the risk-free rate was 6%. What is its Treynor ratio?",
+   "options": [
+    "8.75",
+    "3.75",
+    "5.0",
+    "0.2"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Treynor ratio = (Rs − Rf) ÷ Beta; it uses beta (market risk), unlike Sharpe which uses standard deviation.",
+   "hints": [
+    "Wrong — 14 ÷ 1.6 ignores the risk-free rate.",
+    "Wrong — 6 ÷ 1.6 uses the risk-free rate instead of the premium.",
+    "Correct — (14 − 6) ÷ 1.6 = 5.0.",
+    "Wrong — that inverts the ratio."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M4-13",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Under Section 18A of the Securities Contracts (Regulation) Act, derivative contracts are legal and valid if they are:",
+   "options": [
+    "Signed by both parties before a notary",
+    "Approved individually by SEBI",
+    "Traded on a recognised stock exchange and settled on its clearing house as per its rules",
+    "Registered with RBI"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 18A: contracts in derivatives are legal and valid if traded on a recognised exchange and settled on its clearing house (or as notified by the Central Government).",
+   "hints": [
+    "Wrong — notarisation is irrelevant.",
+    "Wrong — SEBI does not approve each contract.",
+    "Correct — Section 18A validates exchange-traded, clearing-house-settled derivatives.",
+    "Wrong — RBI registration is not the condition."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-14",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "A price-weighted index has three stocks priced at ₹100, ₹200 and ₹300 on the base date. Today they are ₹150, ₹220 and ₹330. What is today's index level (no divisor adjustment)?",
+   "options": [
+    "200.00",
+    "233.33",
+    "700.00",
+    "116.67"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Price-weighted index = sum of prices ÷ number of stocks.",
+   "hints": [
+    "Wrong — 200 is the base-date level.",
+    "Correct — (150 + 220 + 330) ÷ 3 = 233.33.",
+    "Wrong — 700 is the sum of prices, not divided by 3.",
+    "Wrong — that is the percentage of the base level."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M4-15",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "An investor holds a ₹40 lakh equity portfolio with a beta of 1.2. Nifty futures trade at 24,000 with a lot size of 50. How many lots should be sold to hedge fully?",
+   "options": [
+    "3.33 lots",
+    "5 lots",
+    "2 lots",
+    "4 lots"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Hedge contracts = (Portfolio value × beta) ÷ (futures price × lot size).",
+   "hints": [
+    "Wrong — that ignores beta.",
+    "Wrong — not supported by the formula.",
+    "Wrong — not supported by the formula.",
+    "Correct — (40,00,000 × 1.2) ÷ (24,000 × 50) = 48,00,000 ÷ 12,00,000 = 4."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M4-16",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "If index futures are trading above their fair (theoretical) price, the arbitrage opportunity is:",
+   "options": [
+    "Cash-and-carry arbitrage: buy in the cash market and sell futures",
+    "Reverse cash-and-carry: sell in the cash market and buy futures",
+    "Calendar spread: buy near month and sell far month",
+    "No arbitrage is possible"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Futures > fair value ⇒ cash-and-carry; futures < fair value ⇒ reverse cash-and-carry.",
+   "hints": [
+    "Correct — overpriced futures are sold against a cash purchase.",
+    "Wrong — reverse cash-and-carry applies when futures are underpriced.",
+    "Wrong — calendar spreads exploit mispricing between expiries.",
+    "Wrong — mispricing outside no-arbitrage bounds creates opportunity."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-17",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "Theta of an option measures:",
+   "options": [
+    "The change in premium for a change in volatility",
+    "The change in the option premium due to the passage of time (time decay)",
+    "The change in delta for a change in the underlying",
+    "The change in premium for a change in interest rates"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Greeks: delta (price), gamma (delta change), theta (time), vega (volatility), rho (interest rate).",
+   "hints": [
+    "Wrong — that is vega.",
+    "Correct — theta captures time decay.",
+    "Wrong — that is gamma.",
+    "Wrong — that is rho."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-18",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "With all other factors unchanged, a put option with a higher strike price will have:",
+   "options": [
+    "A lower premium",
+    "The same premium",
+    "Zero premium",
+    "A higher premium"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Strike ↑ ⇒ call premium ↓ and put premium ↑.",
+   "hints": [
+    "Wrong — lower premium for higher strike applies to calls.",
+    "Wrong — strike affects the premium.",
+    "Wrong — premium remains positive before expiry.",
+    "Correct — a higher strike raises a put's intrinsic value."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-19",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "A long strangle is created by:",
+   "options": [
+    "Buying a call and a put with the same strike and expiry",
+    "Selling an OTM call and an OTM put",
+    "Buying an OTM call and an OTM put with different strikes and the same expiry",
+    "Buying one ITM call, selling two ATM calls and buying one OTM call"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Long strangle: long OTM call + long OTM put; maximum loss = total premium; profits from a big move either way.",
+   "hints": [
+    "Wrong — that is a long straddle.",
+    "Wrong — that is a short strangle.",
+    "Correct — a long strangle uses two OTM options, making it cheaper than a straddle.",
+    "Wrong — that is a long call butterfly."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-20",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "Put open interest in an index option series is 15,000 contracts and call open interest is 10,000 contracts. The put-call ratio is:",
+   "options": [
+    "1.5",
+    "0.67",
+    "25,000",
+    "5,000"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "PCR = Put OI (or volume) ÷ Call OI (or volume).",
+   "hints": [
+    "Correct — PCR = put OI ÷ call OI = 15,000 ÷ 10,000.",
+    "Wrong — that is call ÷ put.",
+    "Wrong — that is the total OI.",
+    "Wrong — that is the difference."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M4-21",
+   "chapter": 18,
+   "difficulty": "easy",
+   "q": "A yield curve where long-term yields are higher than short-term yields is called:",
+   "options": [
+    "Inverted",
+    "Flat",
+    "Humped",
+    "Normal (upward sloping)"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Normal yield curve reflects term and inflation-risk premia for longer maturities.",
+   "hints": [
+    "Wrong — inverted curves have short yields above long yields.",
+    "Wrong — flat means similar yields across maturities.",
+    "Wrong — humped means medium-term yields are highest.",
+    "Correct — a normal curve slopes upward with maturity."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-22",
+   "chapter": 19,
+   "difficulty": "easy",
+   "q": "An interest rate collar is created by:",
+   "options": [
+    "Buying an interest rate cap and selling an interest rate floor",
+    "Buying a floor and selling a cap",
+    "Buying both a cap and a floor",
+    "Entering into two opposite swaps"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Collar = buy cap + sell floor on the same rate, maturity and notional; reverse collar = buy floor + sell cap.",
+   "hints": [
+    "Correct — the floor premium received offsets the cap cost.",
+    "Wrong — that is a reverse collar.",
+    "Wrong — buying both is not a collar.",
+    "Wrong — swaps are not options."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-23",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "A trader buys 4 lots of 91-day T-bill futures at a quoted price of 94.00. What is the contract value?",
+   "options": [
+    "₹7,52,000",
+    "₹8,00,000",
+    "₹7,88,000",
+    "₹1,97,000"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "T-bill futures contract value = 2,000 × (100 − 0.25y) per lot; here y = 100 − 94 = 6.",
+   "hints": [
+    "Wrong — that uses 94 directly as the price.",
+    "Wrong — that ignores the yield.",
+    "Correct — y = 6%; 2,000 × (100 − 0.25 × 6) × 4 = 2,000 × 98.5 × 4.",
+    "Wrong — that is the value of a single lot."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M4-24",
+   "chapter": 21,
+   "difficulty": "easy",
+   "q": "Exchange-traded interest rate options on GOI securities in India are:",
+   "options": [
+    "American options with physical delivery",
+    "Premium-style European options, cash-settled",
+    "Bermudan options settled by delivery",
+    "Futures-style options with no premium"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "IRO specs: premium-style European calls/puts, lot FV ₹2 lakh, cash settlement T+1.",
+   "hints": [
+    "Wrong — they are European and cash-settled.",
+    "Correct — they are premium-style European calls and puts, cash-settled.",
+    "Wrong — not Bermudan.",
+    "Wrong — the premium is paid upfront."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M4-25",
+   "chapter": 22,
+   "difficulty": "easy",
+   "q": "Which is a key limitation of exchange-traded interest rate derivatives for hedgers?",
+   "options": [
+    "They carry high counterparty risk",
+    "They cannot be traded by banks",
+    "They have no price transparency",
+    "Standardised, cash-settled contracts on limited underlyings can leave basis risk"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "ETIRDs are standardised and mainly cash-settled; underlyings and tenors are limited, so hedges may be imperfect (basis risk).",
+   "hints": [
+    "Wrong — the clearing corporation removes counterparty risk.",
+    "Wrong — banks participate actively.",
+    "Wrong — exchange trading is transparent.",
+    "Correct — mismatch in instrument, tenor and expiry dates causes imperfect hedges."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

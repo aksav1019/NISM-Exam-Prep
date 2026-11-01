@@ -1,0 +1,698 @@
+{
+ "id": "mock-7",
+ "title": "Mock 7 · Tough II",
+ "level": "tough",
+ "blurb": "Final dress rehearsal: option-strategy and bond-hedge caselets, NOT/multi-statement items and heavier numericals.",
+ "questions": [
+  {
+   "id": "vd-M7-01",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "What are the break-even points of Kabir's long straddle?",
+   "options": [
+    "₹1,930 and ₹2,070",
+    "₹1,945 and ₹2,055",
+    "₹1,845 and ₹2,155",
+    "₹1,875 and ₹2,125"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Long straddle BEPs = strike ± total premium.",
+   "hints": [
+    "Wrong — uses only the call premium.",
+    "Wrong — uses only the put premium.",
+    "Wrong — adds the strangle premium as well.",
+    "Correct — total premium = 70 + 55 = 125; BEPs = 2,000 ± 125."
+   ],
+   "numeric": true,
+   "case": "XYZ Ltd trades at ₹2,000 a day before its quarterly results. Near-month option premiums (lot size 250): 2,000 call ₹70; 2,000 put ₹55; 2,100 call ₹30; 1,900 put ₹25. Trader Kabir expects a sharp move but is unsure of direction. He compares a long straddle at the 2,000 strike with a long strangle using the 2,100 call and the 1,900 put. All options are European and held to expiry; ignore costs."
+  },
+  {
+   "id": "vd-M7-02",
+   "chapter": 17,
+   "difficulty": "hard",
+   "q": "If XYZ closes at ₹2,180 on expiry, what is Kabir's profit per lot on the long strangle?",
+   "options": [
+    "₹20,000",
+    "₹6,250",
+    "₹13,750",
+    "₹13,750 loss"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Long strangle: profit = payoff of ITM leg − total premium; upper BEP = 2,100 + 55 = 2,155.",
+   "hints": [
+    "Wrong — that ignores the premium paid.",
+    "Correct — call payoff 2,180 − 2,100 = 80; less total premium 30 + 25 = 55 ⇒ 25 × 250 = ₹6,250.",
+    "Wrong — that is the total premium paid per lot.",
+    "Wrong — the strangle is profitable above 2,155."
+   ],
+   "numeric": true,
+   "case": "XYZ Ltd trades at ₹2,000 a day before its quarterly results. Near-month option premiums (lot size 250): 2,000 call ₹70; 2,000 put ₹55; 2,100 call ₹30; 1,900 put ₹25. Trader Kabir expects a sharp move but is unsure of direction. He compares a long straddle at the 2,000 strike with a long strangle using the 2,100 call and the 1,900 put. All options are European and held to expiry; ignore costs."
+  },
+  {
+   "id": "vd-M7-03",
+   "chapter": 16,
+   "difficulty": "hard",
+   "q": "If XYZ closes exactly at ₹2,000 on expiry, which statement is correct?",
+   "options": [
+    "Both strategies break even",
+    "The straddle loses ₹13,750 and the strangle ₹31,250 per lot",
+    "The straddle loses its maximum ₹31,250 per lot, while the strangle loses ₹13,750 per lot",
+    "The straddle earns the full premium of ₹31,250"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Maximum loss of a long straddle is at the strike; a strangle costs less, so its maximum loss is smaller but it needs a bigger move to profit.",
+   "hints": [
+    "Wrong — neither breaks even at 2,000.",
+    "Wrong — the figures are swapped.",
+    "Correct — at the strike both straddle legs expire worthless (125 × 250); both strangle legs are OTM too (55 × 250).",
+    "Wrong — a LONG straddle pays the premium; it does not earn it."
+   ],
+   "numeric": true,
+   "case": "XYZ Ltd trades at ₹2,000 a day before its quarterly results. Near-month option premiums (lot size 250): 2,000 call ₹70; 2,000 put ₹55; 2,100 call ₹30; 1,900 put ₹25. Trader Kabir expects a sharp move but is unsure of direction. He compares a long straddle at the 2,000 strike with a long strangle using the 2,100 call and the 1,900 put. All options are European and held to expiry; ignore costs."
+  },
+  {
+   "id": "vd-M7-04",
+   "chapter": 22,
+   "difficulty": "medium",
+   "q": "To hedge, what should the bank do in the futures market?",
+   "options": [
+    "Sell 500 lots of the October bond futures",
+    "Buy 500 lots of the October bond futures",
+    "Sell 50 lots of the October bond futures",
+    "Buy 500 lots of overnight MIBOR futures at the bond yield"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Holder of a bond is long bonds / short rates; a short hedge sells bond futures (lots = FV ÷ ₹2 lakh for a same-bond hedge).",
+   "hints": [
+    "Correct — ₹10 crore ÷ ₹2 lakh = 500 lots, and a short futures position gains if yields rise.",
+    "Wrong — buying would add to the rate risk.",
+    "Wrong — the lot is ₹2 lakh FV, so 500 lots are needed.",
+    "Wrong — MIBOR futures hedge short-term rates, not this bond's price."
+   ],
+   "numeric": true,
+   "case": "On 1 September, a co-operative bank holds 6.80% GS 2035 with a face value of ₹10 crore at a clean price of ₹99.00. It fears yields will rise after the October policy review but does not want to sell the bond. Cash-settled single-bond futures on the same G-sec, expiring on the last Thursday of October, trade at ₹98.90 (lot: face value ₹2 lakh). On the October expiry date both the bond and the futures settle at ₹97.40. Ignore accrued interest, margins and costs."
+  },
+  {
+   "id": "vd-M7-05",
+   "chapter": 22,
+   "difficulty": "hard",
+   "q": "What is the gain on the bank's futures position at expiry?",
+   "options": [
+    "₹16,00,000",
+    "₹15,00,000",
+    "₹1,50,000",
+    "₹7,50,000"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "IRF P&L = price change × 2,000 × lots.",
+   "hints": [
+    "Wrong — that uses the cash price of 99.00.",
+    "Correct — (98.90 − 97.40) × 2,000 bonds × 500 lots = 1.50 × 10,00,000 = ₹15,00,000.",
+    "Wrong — that uses 50 lots.",
+    "Wrong — that halves the lot."
+   ],
+   "numeric": true,
+   "case": "On 1 September, a co-operative bank holds 6.80% GS 2035 with a face value of ₹10 crore at a clean price of ₹99.00. It fears yields will rise after the October policy review but does not want to sell the bond. Cash-settled single-bond futures on the same G-sec, expiring on the last Thursday of October, trade at ₹98.90 (lot: face value ₹2 lakh). On the October expiry date both the bond and the futures settle at ₹97.40. Ignore accrued interest, margins and costs."
+  },
+  {
+   "id": "vd-M7-06",
+   "chapter": 22,
+   "difficulty": "hard",
+   "q": "Ignoring accrued interest, what is the bank's net result from the bond and the hedge together, and why?",
+   "options": [
+    "A net loss of about ₹1,00,000, because the hedge locked the futures price of ₹98.90 rather than the spot price of ₹99.00",
+    "Zero, because the hedge is perfect",
+    "A net gain of ₹15,00,000",
+    "A net loss of ₹16,00,000, because cash-settled futures pay nothing"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A hedge locks in roughly the futures price; basis (spot − futures) explains the residual. In practice the bank also earns accrued interest on the bond.",
+   "hints": [
+    "Correct — bond value falls (99.00 − 97.40) × ₹10 lakh per rupee = ₹16,00,000; futures gain ₹15,00,000; the initial basis of ₹0.10 per bond remains.",
+    "Wrong — the initial basis creates a small difference.",
+    "Wrong — that ignores the loss on the bond.",
+    "Wrong — cash-settled futures do pay the P&L in cash."
+   ],
+   "numeric": true,
+   "case": "On 1 September, a co-operative bank holds 6.80% GS 2035 with a face value of ₹10 crore at a clean price of ₹99.00. It fears yields will rise after the October policy review but does not want to sell the bond. Cash-settled single-bond futures on the same G-sec, expiring on the last Thursday of October, trade at ₹98.90 (lot: face value ₹2 lakh). On the October expiry date both the bond and the futures settle at ₹97.40. Ignore accrued interest, margins and costs."
+  },
+  {
+   "id": "vd-M7-07",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "A 30-year-old software engineer with high income, no dependants and a 20-year horizon says she 'cannot sleep' if her portfolio falls 5%. How should her risk profile be described?",
+   "options": [
+    "Low risk capacity and high risk appetite",
+    "High risk capacity and high risk appetite",
+    "High risk capacity but low risk appetite (tolerance)",
+    "Low risk capacity and low risk appetite"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Risk profiling considers both capacity (ability) and appetite/tolerance (willingness); advice should respect the lower of the two.",
+   "hints": [
+    "Wrong — her capacity is high, not low.",
+    "Wrong — her stated discomfort shows low appetite.",
+    "Correct — her finances can bear risk, but her willingness to bear it is low.",
+    "Wrong — her capacity is high."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-08",
+   "chapter": 2,
+   "difficulty": "hard",
+   "q": "Consider: I. In an interval scheme, the transaction period must be at least 2 working days. II. The interval period must be at least 15 days. III. MF Lite is a relaxed regime available to all categories of active schemes. Which are correct?",
+   "options": [
+    "I, II and III",
+    "II and III only",
+    "I and III only",
+    "I and II only"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Interval scheme: transaction period ≥ 2 working days; interval period ≥ 15 days. MF Lite covers only passive schemes (index funds, ETFs, FoFs).",
+   "hints": [
+    "Wrong — III is false.",
+    "Wrong — III is false and I is true.",
+    "Wrong — III is false and II is true.",
+    "Correct — MF Lite applies only to passive schemes, so III is false."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-09",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "In which SIF strategy, if the fund manager goes short on a sector, must all stocks of that sector be held as short positions?",
+   "options": [
+    "Equity Long-Short Fund",
+    "Equity Ex-Top 100 Long-Short Fund",
+    "Active Asset Allocator Long-Short Fund",
+    "Sector Rotation Long-Short Fund"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Sector Rotation Long-Short: min 80% equity, max 4 sectors, shorts at sector level, ≤ 25% unhedged short.",
+   "hints": [
+    "Wrong — Equity Long-Short operates at stock level.",
+    "Wrong — Ex-Top 100 operates at stock level.",
+    "Wrong — Active Asset Allocator is a multi-asset hybrid strategy.",
+    "Correct — Sector Rotation operates at sector level, not stock level."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-10",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "An AMC that already runs mutual fund schemes wants to launch an SIF. According to the workbook, it:",
+   "options": [
+    "Can launch automatically under its existing MF registration with no further conditions",
+    "Must fulfil additional requirements and eligibility criteria specified by SEBI",
+    "Must register a separate AMC under SEBI (PMS) Regulations",
+    "Must obtain RBI approval"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The AMCs desirous of launching an SIF shall fulfil the additional requirements and eligibility criteria specified by SEBI.",
+   "hints": [
+    "Wrong — additional criteria apply.",
+    "Correct — AMCs desirous of launching SIF shall meet additional SEBI eligibility criteria.",
+    "Wrong — SIF is under the MF Regulations, not PMS.",
+    "Wrong — RBI does not approve SIF launches."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-11",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "Which of the following statements on investment restrictions under the SEBI MF Regulations 2026 is NOT correct?",
+   "options": [
+    "A fund of funds scheme may invest in another fund of funds scheme",
+    "A scheme may invest in another scheme of the same or another MF without charging fees, subject to limits",
+    "Mutual funds may engage in short selling in accordance with SEBI's short selling and securities lending framework",
+    "Pending deployment, scheme funds may be parked in short-term deposits of scheduled commercial banks"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Sixth Schedule: no scheme may invest in a FoF; FoFs invest only in MF schemes (plus liquidity needs).",
+   "hints": [
+    "Correct — this is incorrect — a FoF shall not invest in any other FoF, and no scheme may invest in a FoF.",
+    "Wrong — this is a correct provision.",
+    "Wrong — this is correct.",
+    "Wrong — this is correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-12",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "If the risk level of an SIF investment strategy changes, how must it be communicated?",
+   "options": [
+    "Only at the next annual report",
+    "Through the AMFI website alone",
+    "Through a notice-cum-addendum and by email or SMS to unitholders of that strategy",
+    "No communication is needed as the band is reviewed annually"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Risk-Band: set at NFO, evaluated monthly; changes communicated via notice-cum-addendum and email/SMS; monthly and annual disclosures.",
+   "hints": [
+    "Wrong — communication must be prompt, not annual.",
+    "Wrong — AMFI disclosure is in addition, not a substitute.",
+    "Correct — changes require a notice-cum-addendum and email/SMS to affected unitholders.",
+    "Wrong — the band is evaluated monthly and changes must be communicated."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-13",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "For which of the following distributors must AMCs disclose commission paid and carry out additional due diligence? I. Commission of ₹60 lakh p.a. from a single AMC. II. Presence in 15 locations with ₹40 crore non-institutional AUM. III. Industry-wide commission of ₹1.2 crore p.a.",
+   "options": [
+    "I, II and III",
+    "I and III only",
+    "II only",
+    "II and III only"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Triggers (any one): >20 locations; >₹100 crore non-institutional AUM; >₹1 crore commission p.a. industry-wide; >₹50 lakh from a single AMC.",
+   "hints": [
+    "Wrong — II does not qualify.",
+    "Correct — I exceeds ₹50 lakh from one AMC; III exceeds ₹1 crore industry-wide; II fails both the 20-location and ₹100 crore tests.",
+    "Wrong — II does not qualify; I and III do.",
+    "Wrong — II does not qualify and I does."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-14",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "What is the TER ceiling for a close-ended debt scheme?",
+   "options": [
+    "1.00% of daily net assets",
+    "1.85% of daily net assets",
+    "0.80% of daily net assets",
+    "0.90% of daily net assets"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Close-ended and interval schemes: equity-oriented 1.00%; others 0.80%.",
+   "hints": [
+    "Wrong — 1.00% is the cap for close-ended equity-oriented schemes.",
+    "Wrong — 1.85% is the open-ended non-equity first slab.",
+    "Correct — close-ended/interval schemes other than equity-oriented are capped at 0.80%.",
+    "Wrong — 0.90% is the index fund/ETF cap."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-15",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "An investor redeems units of a hybrid fund that holds 50% in domestic equity after 30 months (redeemed after 23 July 2024). How are the gains taxed?",
+   "options": [
+    "As long-term capital gains at 12.5%",
+    "As short-term gains at 20%",
+    "At the investor's slab rate irrespective of holding period",
+    "As long-term gains at 12.5% with a ₹1.25 lakh exemption, like equity funds"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Tax table: equity-oriented 20%/12.5% (12 months, ₹1.25 lakh exemption); hybrid 35–65% equity: STCG slab, LTCG 12.5% after 24 months; debt-oriented: slab.",
+   "hints": [
+    "Correct — hybrids with 35–65% equity are LTCG after 24 months at 12.5%.",
+    "Wrong — 20% STCG applies to equity-oriented funds held ≤12 months.",
+    "Wrong — slab-only treatment applies to funds with >65% debt.",
+    "Wrong — the ₹1.25 lakh exemption is for equity-oriented funds."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-16",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "An SIF Equity Long-Short strategy proposes daily subscriptions and fortnightly redemptions. Is this permissible?",
+   "options": [
+    "No — subscription and redemption frequencies must match",
+    "No — equity SIF strategies must allow daily redemptions",
+    "Yes — but only if it is converted to a close-ended scheme",
+    "Yes — SIF frequencies may differ, and equity strategies may allow redemption daily or at any lesser frequency"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "SIF exception: subscription and redemption frequencies can differ; equity strategy redemptions daily or lesser frequency.",
+   "hints": [
+    "Wrong — matching frequencies is required only for regular MF schemes.",
+    "Wrong — 'daily or any lesser frequency' permits fortnightly.",
+    "Wrong — no conversion is required.",
+    "Correct — SIF can have distinct frequencies; equity SIF redemptions can be daily or less frequent."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-17",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "₹50,000 invested in a growth fund became ₹72,000 in exactly 3 years. What is the CAGR?",
+   "options": [
+    "14.67%",
+    "44.00%",
+    "13.33%",
+    "12.92%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "CAGR = (LV/IV)^(1/n) − 1.",
+   "hints": [
+    "Wrong — that is the simple return ÷ 3.",
+    "Wrong — that is the absolute return.",
+    "Wrong — not supported by the formula.",
+    "Correct — (72,000 ÷ 50,000)^(1/3) − 1 = 1.44^(0.3333) − 1 = 12.92%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M7-18",
+   "chapter": 12,
+   "difficulty": "medium",
+   "q": "Which investor is LEAST suitable for an SIF Debt Long-Short strategy?",
+   "options": [
+    "A retiree with ₹12 lakh who needs the money available on any day for medical emergencies",
+    "An HNI with ₹50 lakh surplus and a 3-year horizon comfortable with weekly liquidity",
+    "A business owner investing ₹15 lakh who understands derivative-based shorting",
+    "A family office allocating ₹1 crore across SIF strategies"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Suitability: SIF needs ₹10 lakh+, higher risk appetite, and acceptance of interval/limited liquidity.",
+   "hints": [
+    "Correct — debt SIFs are interval schemes with at most weekly redemptions and carry short-position risk — unsuitable for emergency money.",
+    "Wrong — meets threshold, horizon and liquidity comfort.",
+    "Wrong — meets threshold and understands the product.",
+    "Wrong — meets threshold and diversifies across strategies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-19",
+   "chapter": 13,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT one of the Ind AS 109 criteria for a financial derivative?",
+   "options": [
+    "Its value is linked to the value of an underlying",
+    "It must be traded on a recognised stock exchange",
+    "It is settled on a future date",
+    "It requires no full cash outlay on the trade date"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Ind AS 109: value linked to underlying; settlement on a future date; no full cash outlay on trade date.",
+   "hints": [
+    "Wrong — this is a criterion.",
+    "Correct — this is not an Ind AS 109 criterion; OTC derivatives also qualify.",
+    "Wrong — this is a criterion.",
+    "Wrong — this is a criterion (it gives leverage)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-20",
+   "chapter": 14,
+   "difficulty": "hard",
+   "q": "Best bid is ₹100.30. Sell orders: 500 shares at ₹100.50, 1,000 at ₹100.60, 1,500 at ₹100.80. What is the impact cost of buying 1,200 shares?",
+   "options": [
+    "About 0.26%",
+    "About 0.06%",
+    "About 0.16%",
+    "About 0.20%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Impact cost = (actual execution price − ideal price) ÷ ideal price × 100; ideal = mid of best bid and ask.",
+   "hints": [
+    "Wrong — that measures from the best bid (100.30) instead of the ideal price.",
+    "Wrong — that measures from the best offer (100.50) instead of the ideal price.",
+    "Correct — ideal = (100.30 + 100.50)/2 = 100.40; average buy = (500 × 100.50 + 700 × 100.60)/1,200 = 100.5583; impact = 0.1583/100.40 = 0.158%.",
+    "Wrong — that assumes all 1,200 shares fill at ₹100.60."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M7-21",
+   "chapter": 15,
+   "difficulty": "hard",
+   "q": "A stock trades at ₹800 and its 1-month futures at ₹812 (lot 500). Financing costs 9% p.a. (simple). Ignoring other costs, the locked-in cash-and-carry arbitrage profit per lot is:",
+   "options": [
+    "₹3,000",
+    "₹6,000",
+    "₹9,000",
+    "₹2,400"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Futures above fair value ⇒ buy spot, sell futures; profit = (futures − fair price) × lot.",
+   "hints": [
+    "Correct — carry = 800 × 9% × 1/12 = 6; (812 − 800 − 6) × 500 = ₹3,000.",
+    "Wrong — that ignores the financing cost.",
+    "Wrong — not supported by the data.",
+    "Wrong — not supported by the data."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M7-22",
+   "chapter": 15,
+   "difficulty": "hard",
+   "q": "Consider SEBI's lot size rules: I. Index derivative lots are a multiple of 5 with a minimum of 10. II. Stock derivative lots are a multiple of 25 with a minimum of 50. III. Lot sizes are reviewed every 3 months with one week's notice. Which are correct?",
+   "options": [
+    "I, II and III",
+    "I and II only",
+    "II and III only",
+    "I and III only"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Lot size review: once in 6 months based on last one month's average closing price; at least 2 weeks' advance notice.",
+   "hints": [
+    "Wrong — III is incorrect.",
+    "Correct — reviews are every 6 months with at least 2 weeks' notice, so III is wrong.",
+    "Wrong — III is incorrect and I is correct.",
+    "Wrong — III is incorrect and II is correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-23",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "What is the sign of delta for a short (written) put position?",
+   "options": [
+    "Negative",
+    "Zero",
+    "Always greater than 1",
+    "Positive"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Delta: long call 0 to +1; short call 0 to −1; long put 0 to −1; short put 0 to +1.",
+   "hints": [
+    "Wrong — negative delta is for a long put or short call.",
+    "Wrong — delta is zero only for deep OTM options near expiry.",
+    "Wrong — option deltas lie between −1 and +1.",
+    "Correct — a long put has negative delta, so a short put has positive delta — it gains when the underlying rises."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-24",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "If interest rates rise with all other factors unchanged, option premiums will typically:",
+   "options": [
+    "Rise for both calls and puts",
+    "Fall for calls and rise for puts",
+    "Rise for calls and fall for puts",
+    "Fall for both calls and puts"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Interest rate ↑ ⇒ call ↑, put ↓ (rho: call +, put −).",
+   "hints": [
+    "Wrong — only volatility and time move both the same way.",
+    "Wrong — reversed.",
+    "Correct — calls have positive rho; puts negative rho.",
+    "Wrong — not the effect described in the workbook."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-25",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "An investor owns a stock at ₹1,590, sells a 1,600 call for ₹10 and buys a 1,580 put for ₹7. This position is a:",
+   "options": [
+    "Collar",
+    "Butterfly spread",
+    "Protective put only",
+    "Short strangle"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Collar extends a covered call by buying an OTM put to floor the downside; it also lowers the maximum profit.",
+   "hints": [
+    "Correct — long stock + short OTM call + long OTM put = collar.",
+    "Wrong — a butterfly uses three strikes of the same option type.",
+    "Wrong — a protective put has no short call.",
+    "Wrong — a short strangle sells both options."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-26",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "The current-month Nifty futures trade at 25,000 and the next-month at 25,180. What is the roll cost?",
+   "options": [
+    "0.18%",
+    "0.72%",
+    "1.80%",
+    "0.07%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Roll cost = (Next series price − Current series price) ÷ Current series price × 100.",
+   "hints": [
+    "Wrong — that divides by 100,000.",
+    "Correct — (25,180 − 25,000) ÷ 25,000 × 100 = 0.72%.",
+    "Wrong — that misplaces the decimal.",
+    "Wrong — that misplaces the decimal."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M7-27",
+   "chapter": 18,
+   "difficulty": "medium",
+   "q": "For a bond trading at a premium to par, the correct relationship is:",
+   "options": [
+    "Coupon rate < Current yield < YTM",
+    "Coupon rate = Current yield = YTM",
+    "YTM > Coupon rate > Current yield",
+    "Coupon rate > Current yield > YTM"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Par: CR = CY = YTM; discount: CR < CY < YTM; premium: CR > CY > YTM.",
+   "hints": [
+    "Wrong — that describes a discount bond.",
+    "Wrong — that describes a par bond.",
+    "Wrong — not a valid ordering.",
+    "Correct — premium bonds pay a coupon above the market yield."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-28",
+   "chapter": 19,
+   "difficulty": "medium",
+   "q": "Derivatives whose underlying is a theoretical bond (not a physically available bond) with fixed maturity and coupon are called:",
+   "options": [
+    "Single bond futures",
+    "Money market futures",
+    "Notional bond futures",
+    "Corporate bond index futures"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "IRD underlyings: interest rates, notional bonds, single bonds, bond indices.",
+   "hints": [
+    "Wrong — single bond futures reference a specific G-sec.",
+    "Wrong — money market futures reference short-term rates such as MIBOR.",
+    "Correct — a notional bond's price is inferred from a basket of deliverable bonds.",
+    "Wrong — index futures reference an index of bonds."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M7-29",
+   "chapter": 20,
+   "difficulty": "hard",
+   "q": "The 6-month spot rate is 6.00% and the 1-year spot rate is 6.40%, both with semi-annual compounding. The 6-month rate, 6 months forward (annualised, semi-annual compounding), is about:",
+   "options": [
+    "6.20%",
+    "6.40%",
+    "6.80%",
+    "7.20%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Forward rate from spot rates: (1 + S1/2)^(2×1) = (1 + S0.5/2)^(2×0.5) × (1 + F/2).",
+   "hints": [
+    "Wrong — that is the simple average.",
+    "Wrong — that is the 1-year spot rate.",
+    "Correct — ((1.032)² ÷ 1.03 − 1) × 2 = 6.80%.",
+    "Wrong — not supported by the formula."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M7-30",
+   "chapter": 21,
+   "difficulty": "medium",
+   "q": "An investor buys one lot of a GOI bond call option with a strike of ₹100.25 at a premium of ₹0.15. The bond settles at ₹100.75 on expiry. What is the net profit for the lot?",
+   "options": [
+    "₹1,000",
+    "₹700",
+    "₹300",
+    "₹500"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Long call P&L = max(S − X, 0) − premium per ₹100 FV × 2,000 bonds.",
+   "hints": [
+    "Wrong — that ignores the premium.",
+    "Correct — (100.75 − 100.25 − 0.15) × 2,000 = 0.35 × 2,000.",
+    "Wrong — that uses the premium as the gain.",
+    "Wrong — that halves the payoff."
+   ],
+   "numeric": true,
+   "case": null
+  }
+ ]
+}

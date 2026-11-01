@@ -1,0 +1,583 @@
+{
+ "id": "mock-5",
+ "title": "Mock 5 · Full-Syllabus Check",
+ "level": "easy",
+ "blurb": "A balanced full-syllabus check with a few medium numericals (butterfly, delta hedge, duration).",
+ "questions": [
+  {
+   "id": "vd-M5-01",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "SEBI introduced the Specialized Investment Fund mainly to:",
+   "options": [
+    "Bridge the gap in portfolio flexibility between mutual funds and portfolio management services",
+    "Replace alternative investment funds",
+    "Provide guaranteed returns to retail investors",
+    "Offer a tax-free alternative to ELSS"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Regulation becomes progressively more flexible from MF → PMS → AIF; SIF was created as a new product line under the MF Regulations to fill the MF–PMS gap.",
+   "hints": [
+    "Correct — the workbook says SIF bridges the MF–PMS flexibility gap.",
+    "Wrong — AIFs continue to exist; SIF sits under the MF regulations.",
+    "Wrong — no SIF offers guaranteed returns.",
+    "Wrong — no SIF tax benefit is described."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-02",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "Which SIF strategy may dynamically invest across equity, debt, equity and debt derivatives, commodity derivatives, REITs and InvITs?",
+   "options": [
+    "Hybrid Long-Short Fund",
+    "Sector Rotation Long-Short Fund",
+    "Active Asset Allocator Long-Short Fund",
+    "Debt Long-Short Fund"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Active Asset Allocator Long-Short: interval scheme, dynamic allocation across equity, debt, equity/debt/commodity derivatives, REITs and InvITs; short ≤ 25% of NAV.",
+   "hints": [
+    "Wrong — Hybrid Long-Short covers equity, debt and their derivatives, with min 25% each in equity and debt.",
+    "Wrong — Sector Rotation is an equity strategy at sector level.",
+    "Correct — only the Active Asset Allocator strategy has this broad multi-asset mandate.",
+    "Wrong — Debt Long-Short invests in debt across duration."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-03",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "The appointment of an AMC can be terminated by a majority of the trustees or by what proportion of unitholders?",
+   "options": [
+    "51%",
+    "66.67%",
+    "90%",
+    "75%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "AMC can be removed by a majority of trustees or 75% of unitholders; any change needs SEBI and unitholder approval.",
+   "hints": [
+    "Wrong — a simple majority of unitholders is insufficient.",
+    "Wrong — two-thirds relates to independent trustees.",
+    "Wrong — 90% is not the threshold.",
+    "Correct — 75% of unitholders can terminate the AMC (subject to SEBI approval)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-04",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "What must an SIF include in its Investment Strategy Information Document (ISID) to show investors potential downside?",
+   "options": [
+    "A guaranteed minimum return table",
+    "Scenario analysis depicting expected loss due to market movements",
+    "The fund manager's personal portfolio",
+    "A ranking against peer mutual funds"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The ISID must contain scenario analysis depicting the expected loss to the investor due to market movements.",
+   "hints": [
+    "Wrong — guarantees are not permitted.",
+    "Correct — SIFs must include scenario analysis of expected loss in the ISID.",
+    "Wrong — not a disclosure requirement.",
+    "Wrong — rankings are not allowed in advertisements, and not required here."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-05",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "AMCs must carry out additional due diligence on distributors who meet any of certain criteria. Which of these is one such criterion?",
+   "options": [
+    "Presence in more than 20 locations",
+    "Presence in more than 5 locations",
+    "Commission of more than ₹10 lakh from one AMC",
+    "Having more than 100 investors"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Triggers: >20 locations; >₹100 crore non-institutional AUM; >₹1 crore commission p.a. industry-wide; >₹50 lakh from one AMC.",
+   "hints": [
+    "Correct — multiple point presence (more than 20 locations) is a trigger.",
+    "Wrong — the threshold is 20 locations.",
+    "Wrong — the single-AMC threshold is ₹50 lakh.",
+    "Wrong — investor count is not a criterion."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-06",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Over and above the base TER, brokerage and transaction cost for execution of trades in the cash market can be charged up to:",
+   "options": [
+    "0.02% of trade value",
+    "0.12% of trade value",
+    "1% of trade value",
+    "0.06% of trade value"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Brokerage/transaction cost: up to 0.06% (cash market) and 0.02% (derivatives) of trade value, plus statutory levies.",
+   "hints": [
+    "Wrong — 0.02% is for derivatives trades.",
+    "Wrong — not the current cap.",
+    "Wrong — far above the cap.",
+    "Correct — the cap is 0.06% for cash market trades."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-07",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "For income-tax purposes, which of the following is treated as a non-equity-oriented scheme?",
+   "options": [
+    "A large cap fund holding 95% in listed Indian equity",
+    "A fund of funds investing in equity mutual fund schemes",
+    "An ELSS scheme",
+    "An arbitrage fund with 70% in listed equity"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Equity-oriented = more than 65% of AUM in listed Indian equity shares; a FoF holds fund units, not shares, so it is non-equity-oriented.",
+   "hints": [
+    "Wrong — more than 65% in listed domestic equity is equity-oriented.",
+    "Correct — FoFs investing in equity funds are non-equity for tax.",
+    "Wrong — ELSS invests at least 80% in equity.",
+    "Wrong — the 65% equity test is met."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-08",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Up to what time can online redemption applications in overnight funds be submitted to get the closing NAV of the day immediately preceding the next business day?",
+   "options": [
+    "3.00 pm",
+    "1.30 pm",
+    "7.00 pm",
+    "5.00 pm"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Overnight funds: redemption cut-off 3 pm, extended to 7 pm for online applications.",
+   "hints": [
+    "Wrong — 3 pm is the general (offline) redemption cut-off.",
+    "Wrong — 1.30 pm is the purchase cut-off for liquid/overnight funds.",
+    "Correct — the cut-off for online overnight fund redemptions is extended to 7 pm.",
+    "Wrong — not the prescribed time."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-09",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "The platform hosted by CAMS and KFintech to help investors trace inactive and unclaimed mutual fund folios is called:",
+   "options": [
+    "MITRA",
+    "SCORES",
+    "MF Central Lock",
+    "SMART ODR"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "MITRA is hosted by the two qualified RTAs and accessible via AMC, RTA, AMFI and SEBI websites.",
+   "hints": [
+    "Correct — MITRA = Mutual Fund Investment Tracing and Retrieval Assistant.",
+    "Wrong — SCORES is SEBI's complaint system.",
+    "Wrong — debit freeze uses MF Central but is not a tracing platform.",
+    "Wrong — SMART ODR handles dispute resolution."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-10",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "A scheme's NAV rose from ₹20 to ₹23 over 6 months. What is the annualised return?",
+   "options": [
+    "15%",
+    "30%",
+    "32.25%",
+    "7.5%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Annualised return = simple return × 12 ÷ holding months.",
+   "hints": [
+    "Wrong — 15% is the 6-month simple return.",
+    "Correct — simple return 15% × 12/6 = 30%.",
+    "Wrong — that compounds (1.15² − 1), which is not 'annualised' in the workbook's sense.",
+    "Wrong — that halves instead of doubling."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M5-11",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Which risk-adjusted return measure must AMCs mandatorily disclose on their websites on a daily basis?",
+   "options": [
+    "Sharpe Ratio",
+    "Treynor Ratio",
+    "Sortino Ratio",
+    "Information Ratio"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "IR = (Portfolio return − tier-I benchmark return) ÷ SD of excess returns (daily data); disclosed daily on AMC and AMFI websites.",
+   "hints": [
+    "Wrong — Sharpe is widely used but not mandated for daily disclosure.",
+    "Wrong — Treynor is not mandated.",
+    "Wrong — Sortino is not mandated.",
+    "Correct — the Information Ratio is the only risk-adjusted measure mandated for daily disclosure."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-12",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "Which statement about passive (index) funds is correct?",
+   "options": [
+    "They aim to beat the index through stock selection",
+    "They have higher expense ratios than active funds",
+    "They aim to replicate the index, have lower costs, and their key risk measure is tracking error",
+    "They are not affected by market falls"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Active funds try to outperform; passive funds track an index with low TER and are judged on tracking error.",
+   "hints": [
+    "Wrong — that describes active funds.",
+    "Wrong — passive funds are cheaper (TER cap 0.90%).",
+    "Correct — passive funds mirror the index at low cost; tracking error matters.",
+    "Wrong — they fall with the index."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-13",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Which derivative is described in the workbook as 'broadly a series of forward contracts' and is mainly traded OTC?",
+   "options": [
+    "Futures",
+    "Option",
+    "Index fund",
+    "Swap"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Swaps exchange future cash flows by a prearranged formula; mainly OTC.",
+   "hints": [
+    "Wrong — futures are single, standardised exchange contracts.",
+    "Wrong — options give a right, not an exchange of flows.",
+    "Wrong — an index fund is not a derivative.",
+    "Correct — a swap exchanges cash flows over time — a string of forwards."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-14",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "Under SEBI's October 2025 norms for derivatives on non-benchmark indices, the combined weight of the top 3 constituents must not exceed:",
+   "options": [
+    "20%",
+    "33%",
+    "45%",
+    "60%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Non-benchmark index derivative norms: ≥14 constituents; top ≤20%; top 3 ≤45%; descending weights.",
+   "hints": [
+    "Wrong — 20% is the cap for the single top constituent.",
+    "Wrong — not the prescribed cap.",
+    "Correct — top 3 ≤ 45%, with top constituent ≤ 20% and at least 14 constituents.",
+    "Wrong — not the prescribed cap."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-15",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "How is the daily settlement price of an equity futures contract normally determined?",
+   "options": [
+    "Opening price of the futures contract",
+    "Volume-weighted average price of the last 30 minutes of trading",
+    "Closing price of the underlying stock",
+    "Highest traded price of the day"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Daily settlement price: last-30-minute VWAP; final settlement price: closing price of the underlying on expiry.",
+   "hints": [
+    "Wrong — the opening price is not used.",
+    "Correct — DSP is the VWAP of the last half hour (theoretical price if untraded).",
+    "Wrong — the underlying's closing price is used for FINAL settlement on expiry.",
+    "Wrong — the day's high is not used."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-16",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "Per SEBI's May 2025 circular, expiries of all equity derivative contracts of an exchange are limited to:",
+   "options": [
+    "Either Tuesday or Thursday",
+    "Only Friday",
+    "Any weekday chosen contract-wise",
+    "Only the last working day of the month"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "NSE expiries fall on Tuesday (last Tuesday for monthly), BSE on Thursday; one weekly benchmark index option per exchange.",
+   "hints": [
+    "Correct — each exchange chooses Tuesday or Thursday for all its equity derivative expiries.",
+    "Wrong — Friday is not permitted.",
+    "Wrong — the day is uniform per exchange.",
+    "Wrong — monthly contracts expire in the last week on the chosen day."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-17",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "A call option has a delta of 0.6. If the underlying rises by ₹5, the option premium will change by approximately:",
+   "options": [
+    "+₹5.00",
+    "+₹0.60",
+    "−₹3.00",
+    "+₹3.00"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Delta = change in premium ÷ change in underlying.",
+   "hints": [
+    "Wrong — that assumes delta of 1.",
+    "Wrong — that is the delta itself.",
+    "Wrong — a long call gains when the underlying rises.",
+    "Correct — 0.6 × ₹5 = ₹3, in the same direction for a call."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M5-18",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "All exchange-traded stock and index options in India are:",
+   "options": [
+    "American style",
+    "European style",
+    "Bermudan style",
+    "Exercisable at any time with physical delivery for index options"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Indian exchange-traded index and stock options are European; options are settled at the closing price on expiry.",
+   "hints": [
+    "Wrong — American options allow early exercise.",
+    "Correct — they can be exercised only on the expiry day.",
+    "Wrong — Bermudan is not used for Indian equity options.",
+    "Wrong — index options are cash-settled."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-19",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "A trader buys a 500 call at ₹30, sells two 520 calls at ₹18 each and buys a 540 call at ₹10 (same expiry). What is the maximum profit per unit?",
+   "options": [
+    "₹20",
+    "₹4",
+    "₹16",
+    "₹36"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Long call butterfly: max loss = net debit; max profit = strike gap − net debit; BEPs at 504 and 536.",
+   "hints": [
+    "Wrong — 20 ignores the net premium.",
+    "Wrong — 4 is the maximum loss.",
+    "Correct — net debit = 30 + 10 − 36 = 4; max profit = 20 − 4 at expiry at 520.",
+    "Wrong — 36 is premium received only."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M5-20",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "A trader is short 6 lots of a call option (lot 100) with delta 0.5. How many lots of stock futures (lot 100) should he buy to be delta-neutral?",
+   "options": [
+    "3 lots",
+    "6 lots",
+    "12 lots",
+    "0.5 lot"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Delta hedging: futures delta ≈ 1; long futures units = |option delta × units|.",
+   "hints": [
+    "Correct — option delta = −0.5 × 6 × 100 = −300; futures delta 1 per unit ⇒ 300 units = 3 lots.",
+    "Wrong — that ignores delta.",
+    "Wrong — that doubles instead of halving.",
+    "Wrong — not supported by the arithmetic."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M5-21",
+   "chapter": 18,
+   "difficulty": "medium",
+   "q": "A bond has a modified duration of 6. If its yield rises by 50 basis points, its price will change by approximately:",
+   "options": [
+    "+3%",
+    "−3%",
+    "−6%",
+    "−0.5%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Percentage price change ≈ −Modified duration × change in yield.",
+   "hints": [
+    "Wrong — prices fall when yields rise.",
+    "Correct — %ΔP ≈ −MD × Δy = −6 × 0.5% = −3%.",
+    "Wrong — that assumes a 100 bp move.",
+    "Wrong — that is the yield change itself."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M5-22",
+   "chapter": 19,
+   "difficulty": "easy",
+   "q": "According to BIS data quoted in the workbook, which class of derivatives has the largest notional amount outstanding globally?",
+   "options": [
+    "Equity derivatives",
+    "Currency derivatives",
+    "Interest rate derivatives",
+    "Commodity derivatives"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Interest rate contracts dominate both exchange-traded and OTC derivatives globally.",
+   "hints": [
+    "Wrong — equity derivatives are far smaller.",
+    "Wrong — FX contracts are large but well below IRDs.",
+    "Correct — every business faces interest rate risk, so IRDs dominate.",
+    "Wrong — commodity contracts are the smallest."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-23",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "For cash-settled GOI bond futures, the final settlement price is based on:",
+   "options": [
+    "The weighted average price of the underlying bond in the last two hours of trading on NDS-OM",
+    "The opening price of the futures contract on expiry day",
+    "RBI's weekly T-bill auction yield",
+    "The average daily FBIL overnight MIBOR for the month"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Bond IRF FSP: weighted average price of underlying in last 2 hours on NDS-OM; if fewer than 5 trades, FIMMDA/FBIL price.",
+   "hints": [
+    "Correct — FSP uses the last two hours on NDS-OM; FIMMDA/FBIL price if fewer than 5 trades.",
+    "Wrong — the futures opening price is not used.",
+    "Wrong — that is for 91-day T-bill futures.",
+    "Wrong — that is for MIBOR futures."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M5-24",
+   "chapter": 21,
+   "difficulty": "medium",
+   "q": "An investor buys one lot of a GOI bond put option (strike ₹98.50) at a premium of ₹0.20. At expiry the bond settles at ₹98.00. What is the net profit for the lot?",
+   "options": [
+    "₹1,000",
+    "₹400",
+    "₹300",
+    "₹600"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Long put payoff = max(X − S, 0) − premium per ₹100 FV; multiply by 2,000 bonds per lot.",
+   "hints": [
+    "Wrong — that ignores the premium paid.",
+    "Wrong — that uses 0.20 as the gain.",
+    "Wrong — that halves the lot.",
+    "Correct — (98.50 − 98.00 − 0.20) × 2,000 = 0.30 × 2,000."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M5-25",
+   "chapter": 22,
+   "difficulty": "easy",
+   "q": "A trader expects short-term interest rates to rise. Using overnight MIBOR futures, the trader should:",
+   "options": [
+    "Sell MIBOR futures",
+    "Buy GOI bond call options",
+    "Buy GOI bond futures",
+    "Buy (go long) MIBOR futures"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Rate-rise view: buy MIBOR futures, sell bond futures, buy bond puts, sell T-bill futures.",
+   "hints": [
+    "Wrong — shorts gain when rates fall.",
+    "Wrong — bond calls gain when rates fall.",
+    "Wrong — bond futures gain when rates fall.",
+    "Correct — MIBOR futures are quoted as a rate, so a long position gains when rates rise."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

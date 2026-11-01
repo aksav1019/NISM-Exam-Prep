@@ -1,0 +1,1648 @@
+{
+ "id": "vd",
+ "code": "NISM-Series-V-D",
+ "name": "Mutual Fund – Specialized Investment Fund (SIF) Distributors",
+ "short": "MF-SIF Distributors",
+ "category": "Mutual Funds",
+ "workbookVersion": "September 2026",
+ "tagline": "V-A plus the shorting toolkit: SIF strategies, equity derivatives and interest rate derivatives in one 150-mark paper.",
+ "eli5": "Mutual funds are like a shared taxi with strict rules; SEBI has now added a 'premium shuttle' called the Specialized Investment Fund (SIF), run by the same AMCs but allowed to bet against stocks, sectors and bonds (short up to 25%) with a ₹10 lakh entry ticket. Because SIFs use futures and options to go short, anyone selling them must understand those tools, not just mutual funds. This certification therefore bundles the V-A mutual fund syllabus with equity derivatives (from Series VIII) and interest rate derivatives (from Series IV). SEBI wants SIF distributors to explain a product that can lose money in more ways than a plain fund.",
+ "whoNeeds": [
+  "Individual mutual fund and SIF distributors who want to sell SIF investment strategies",
+  "Employees of organisations (banks, wealth firms, NBFCs, brokers) engaged in sale and distribution of SIF",
+  "AMC employees engaged in sales and distribution of MF-SIF products",
+  "MF distributors: any entity distributing MFs may offer SIF only on meeting SEBI's additional eligibility criteria"
+ ],
+ "careerValue": "For Savin, V-D turns the V-A licence into a premium-segment licence: SIF clients are ₹10 lakh+ HNIs, exactly the audience for advisory, fintech and wealth-tech work. It also gives a solid, examinable grounding in futures, options, Greeks and bond math — the vocabulary needed to design or audit quant/long-short products and to talk credibly with fund managers and product teams.",
+ "pattern": {
+  "totalQuestions": "150 multiple choice questions",
+  "totalMarks": 150,
+  "durationMin": 180,
+  "passPct": 60,
+  "negative": "10% of the marks assigned to the question (−0.1 per wrong answer)",
+  "structure": [
+   {
+    "type": "Multiple Choice Questions (1 mark each)",
+    "count": 150,
+    "marksEach": 1,
+    "total": 150
+   }
+  ],
+  "validity": "Not stated in the workbook; NISM certificates are normally valid for 3 years — confirm on nism.ac.in",
+  "notes": "Pass mark is 90/150. Syllabus weights: Module 1 Mutual Funds 68 marks, Module 2 Equity Derivatives 52, Module 3 Interest Rate Derivatives 30. Test centres provide MS Excel or LibreOffice for numericals. Applies to exams on or after 26 November 2026 (September 2026 workbook)."
+ },
+ "simulator": {
+  "questions": 150,
+  "durationMin": 180,
+  "passPct": 60,
+  "negativeFraction": 0.1
+ },
+ "chapters": [
+  {
+   "no": 1,
+   "title": "Investment Landscape",
+   "weight": "5 marks",
+   "emoji": "🧭",
+   "summary": "Why people invest, how saving differs from investing, the main asset classes, the risks they carry, behavioural biases, risk profiling and asset allocation. It is the 'financial planning 101' base for everything that follows.",
+   "story": "Think of Savin's own money as a team: equity is the striker (scores big, gets injured), debt is the defender (steady, rarely scores), gold is the goalkeeper (only shines in a crisis). Asset allocation is simply picking the line-up for the match you are about to play — your goal and time horizon.",
+   "keyPoints": [
+    "What's new vs V-A: nothing material — this chapter is the V-A (2026 edition) text, so a quick revision is enough; spend the saved time on derivatives.",
+    "Saving = not spending; investing = deploying savings to earn a return. Money kept idle loses purchasing power to inflation.",
+    "Asset classes: real (real estate, gold, commodities) and financial (equity, debt/fixed income, cash/money market); alternatives sit outside the traditional three.",
+    "Equity gives ownership and growth potential with high volatility; debt gives contractual income with credit, interest-rate and reinvestment risk.",
+    "Key investment risks: inflation, market/price, interest rate, credit/default, liquidity, reinvestment, concentration, currency and regulatory risk.",
+    "Systematic (market) risk cannot be diversified away; unsystematic (company-specific) risk can be reduced through diversification.",
+    "Behavioural biases (overconfidence, herd mentality, loss aversion, anchoring, confirmation bias, recency) distort decisions — a distributor's job is to counter them.",
+    "Risk profiling looks at both risk capacity (ability: age, income, wealth, horizon) and risk appetite/tolerance (willingness).",
+    "Strategic asset allocation is the long-term mix linked to goals; tactical allocation is a short-term tilt to exploit market views.",
+    "Do-it-yourself suits knowledgeable investors; most investors benefit from professional help (distributor or registered investment adviser)."
+   ],
+   "mustRemember": [
+    {
+     "label": "Risk you can diversify away",
+     "value": "Unsystematic / specific risk"
+    },
+    {
+     "label": "Risk you cannot diversify",
+     "value": "Systematic / market risk"
+    },
+    {
+     "label": "Risk profile has two parts",
+     "value": "Risk capacity + risk appetite"
+    }
+   ],
+   "examTip": "Expect definition questions: which risk is diversifiable, which bias is described in a mini-story, strategic vs tactical allocation.",
+   "trap": "Don't mix up risk capacity (ability to bear loss) with risk tolerance (willingness). A rich but nervous investor has high capacity but low appetite."
+  },
+  {
+   "no": 2,
+   "title": "Concept and Role of a Mutual Fund",
+   "weight": "4 marks (+ SIF questions)",
+   "emoji": "🧺",
+   "summary": "What a mutual fund is, how open-ended, close-ended and interval schemes differ, the SEBI scheme categories — and the star of this exam: the Specialized Investment Fund (SIF), a new product line between mutual funds and PMS.",
+   "story": "A mutual fund is a shared taxi with strict traffic rules. PMS is a private car with a personal driver. SIF is the new 'premium shuttle': still run by the same taxi company (the AMC), still under taxi-style rules, but allowed to take shortcuts (short positions up to 25%) — and the ticket starts at ₹10 lakh.",
+   "keyPoints": [
+    "What's new vs V-A: the SIF section is the exam's raison d'être — the ₹10 lakh minimum, the seven investment strategies, their limits and redemption frequencies. The rest (categories, interval schemes, MF Lite) is V-A material.",
+    "SIF was introduced by amending the SEBI (Mutual Funds) Regulations to bridge the portfolio-flexibility gap between mutual funds and PMS.",
+    "SIF minimum investment: ₹10 lakh per investor across ALL investment strategies of the same AMC (not per strategy).",
+    "Equity-oriented SIF strategies: Equity Long-Short (min 80% equity; max 25% unhedged short via derivatives; open-ended or interval), Equity Ex-Top 100 Long-Short (min 65% of NAV in stocks outside top 100 by market cap; short max 25% in non-large-caps), Sector Rotation Long-Short (min 80% equity; max 4 sectors; short at sector level, max 25%). Redemptions: daily or any lesser frequency.",
+    "Debt-oriented SIF strategies (both interval): Debt Long-Short (across duration; unhedged shorts via exchange-traded debt derivatives) and Sectoral Debt Long-Short (min 2 sectors; max 75% in one sector; short max 25% of NAV). Redemptions: once a week or lesser frequency.",
+    "Hybrid SIF strategies (both interval): Active Asset Allocator Long-Short (equity, debt, equity/debt/commodity derivatives, REITs, InvITs; short max 25%) and Hybrid Long-Short (min 25% each in equity and debt; short max 25% of net assets). Redemptions: twice a week or lesser frequency.",
+    "Only ONE investment strategy per SIF category can be launched by an AMC (to avoid proliferation, like MF categorisation).",
+    "If SIF strategies are launched as close-ended or interval structures, their units must be listed on a recognised stock exchange.",
+    "Interval scheme: transaction period minimum 2 working days; interval period minimum 15 days.",
+    "SEBI categorisation (2026 circular): Equity 13 sub-categories, Debt 17, Hybrid 7, Life Cycle Funds, Other 2 (Index/ETF 95%, FoF 95%).",
+    "Market-cap buckets: large cap = 1st–100th, mid cap = 101st–250th, small cap = 251st onwards by full market cap.",
+    "Life Cycle Funds: glide-path, tenure 5–30 years in multiples of 5, maximum 6 open for subscription per mutual fund.",
+    "MF Lite: lighter regime only for passive schemes (index funds, ETFs, FoFs)."
+   ],
+   "mustRemember": [
+    {
+     "label": "SIF minimum investment",
+     "value": "₹10 lakh across all strategies of one AMC"
+    },
+    {
+     "label": "Max unhedged short exposure (all SIF strategies)",
+     "value": "25% of NAV"
+    },
+    {
+     "label": "Equity Long-Short min equity",
+     "value": "80%"
+    },
+    {
+     "label": "Ex-Top 100 strategy min in non-top-100 stocks",
+     "value": "65% of NAV"
+    },
+    {
+     "label": "Sector Rotation max sectors",
+     "value": "4"
+    },
+    {
+     "label": "Sectoral Debt: min sectors / max per sector",
+     "value": "2 sectors / 75%"
+    },
+    {
+     "label": "Hybrid Long-Short min each in equity & debt",
+     "value": "25%"
+    },
+    {
+     "label": "Redemption: equity / debt / hybrid SIF",
+     "value": "Daily / weekly / twice a week (or lesser)"
+    }
+   ],
+   "examTip": "Examiners love: the ₹10 lakh threshold (and that it is across strategies), the 25% short cap, which strategies MUST be interval schemes, and the redemption frequency per family.",
+   "trap": "Equity SIFs can be open-ended OR interval; debt and hybrid SIFs are interval only. And '65%' belongs to Ex-Top 100, while '80%' belongs to Equity Long-Short and Sector Rotation."
+  },
+  {
+   "no": 3,
+   "title": "Legal Structure of Mutual Funds in India",
+   "weight": "3 marks",
+   "emoji": "🏛️",
+   "summary": "The three-tier trust structure — sponsor, trustees, AMC — plus custodian, RTA and AMFI. Who appoints whom, who must be independent, and how much capital is required.",
+   "story": "Picture a temple trust: the donor (sponsor) builds it, the trust board (trustees) guards devotees' interests, and the hired manager (AMC) runs daily rituals. The temple's jewels sit in a separate locker (custodian) so nobody can quietly pawn them.",
+   "keyPoints": [
+    "What's new vs V-A: same structure; only SIF line — AMCs wanting to launch an SIF must meet additional eligibility criteria specified by SEBI.",
+    "Mutual fund is constituted as a trust under the Indian Trusts Act; trust deed registered under the Indian Registration Act, 1908, executed by the sponsor in favour of trustees.",
+    "Sponsor eligibility includes positive net worth in each of the preceding 5 years, net profit in each of the preceding 5 years and average annual net profit of at least ₹10 crore over 5 years.",
+    "Trustee eligibility (Regulation 11): fit and proper; not a director/officer/employee of an AMC; not a trustee of any other mutual fund. Prior SEBI approval needed.",
+    "At least two-thirds of trustees must be independent (not associates of sponsor/AMC).",
+    "AMC board: at least 50% directors must be non-associates of the sponsor/trustees; an AMC director cannot sit on any trustee board; one person cannot be director in more than one AMC.",
+    "AMC net worth: not less than ₹50 crore, maintained continuously (sponsor's responsibility).",
+    "AMC can be terminated by a majority of trustees or by 75% of unitholders; change of control needs SEBI + trustee approval and a 30-day no-load exit window for unitholders.",
+    "Custodian is appointed by trustees and registered under SEBI (Custodian) Regulations, 1996; if sponsor holds 50%+ voting rights, it generally cannot be the custodian.",
+    "AMFI is the industry association (not a regulator); it registers distributors (ARN) and issues the code of conduct."
+   ],
+   "mustRemember": [
+    {
+     "label": "AMC minimum net worth",
+     "value": "₹50 crore"
+    },
+    {
+     "label": "Independent trustees",
+     "value": "At least 2/3"
+    },
+    {
+     "label": "Independent AMC directors",
+     "value": "At least 50%"
+    },
+    {
+     "label": "Unitholders needed to remove AMC",
+     "value": "75%"
+    },
+    {
+     "label": "Sponsor average profit test",
+     "value": "₹10 crore (5 years)"
+    }
+   ],
+   "examTip": "Who appoints the AMC and custodian (trustees), the fractions (2/3, 50%, 75%) and the ₹50 crore net worth.",
+   "trap": "Trustees appoint both AMC and custodian — not the sponsor directly. And 2/3 independence is for trustees; 50% is for the AMC board."
+  },
+  {
+   "no": 4,
+   "title": "Legal and Regulatory Framework",
+   "weight": "7 marks",
+   "emoji": "⚖️",
+   "summary": "Regulators (SEBI, RBI), the SEBI MF Regulations 2026, investment restrictions (including Regulation 51 for SIF), the advertisement code with SIF branding rules, investor rights and grievance redress.",
+   "story": "SIF branding is like a new restaurant opened by a famous hotel chain: for 5 years it can say 'brought to you by TajGroup' in small print, but its own name must be the bigger sign — and it needs its own menu (website).",
+   "keyPoints": [
+    "What's new vs V-A: SIF-specific rules — Regulation 51 investment limits and the SIF branding/advertisement norms (distinct name & logo, 5-year use of MF brand, font size rule, separate website).",
+    "Investment universe (Regulation 39): securities, money market instruments, privately placed debentures, securitised debt, gold and silver instruments, and others SEBI specifies.",
+    "Regulation 41 restrictions are applied with the Sixth Schedule; restrictions apply at the time of making the investment.",
+    "Regulation 51: an SIF may invest in instruments permitted under Regulation 39; SEBI may specify the manner; investments remain subject to the Sixth Schedule restrictions applicable to MF schemes.",
+    "SIF must have a distinct brand name and logo separate from the mutual fund; the sponsor's/MF's brand may be used in SIF documents and ads for 5 years from SEBI approval of the SIF.",
+    "When referring to the MF brand, phrases like 'brought to you by' or 'offered by' are recommended; MF brand font size must be equal to or smaller than the SIF brand name.",
+    "AMC must keep a separate website or dedicated web page exclusively for the SIF, and follow MF advertisement guidelines for all SIF strategies.",
+    "Advertisement code (Fifth Schedule): no celebrities, no testimonials or rankings, standard warning 'Mutual Fund investments are subject to market risks, read all scheme related documents carefully.' with no changes.",
+    "Investors can appoint up to 3 nominees; grievances must be redressed within 21 calendar days; escalation to SCORES, then SMART ODR for conciliation/arbitration.",
+    "Caveat emptor applies — a prospective investor does not have the rights of an existing unitholder."
+   ],
+   "mustRemember": [
+    {
+     "label": "SIF can use MF/sponsor brand for",
+     "value": "5 years from SEBI approval"
+    },
+    {
+     "label": "MF brand font vs SIF brand font",
+     "value": "Equal to or smaller"
+    },
+    {
+     "label": "SIF investment regulation",
+     "value": "Regulation 51 (+ Sixth Schedule)"
+    },
+    {
+     "label": "AMC grievance redress deadline",
+     "value": "21 calendar days"
+    },
+    {
+     "label": "Max nominees in a folio",
+     "value": "3"
+    }
+   ],
+   "examTip": "Branding questions (5 years, font size, separate website) and 'which regulation governs SIF investments' are easy marks.",
+   "trap": "The 5-year window is for using the MF/sponsor brand — not a lock-in or a launch deadline. SIF still follows the MF advertisement code; it does not get a separate, looser code."
+  },
+  {
+   "no": 5,
+   "title": "Scheme Related Information",
+   "weight": "7 marks",
+   "emoji": "📄",
+   "summary": "The offer documents (SID, SAI, KIM), how and when they are updated, risk-o-meter, portfolio disclosure — and SIF's own versions: the Risk-Band (5 levels), bi-monthly portfolio disclosure and scenario analysis in the ISID.",
+   "story": "If a mutual fund's risk-o-meter is a 6-level traffic light, the SIF Risk-Band is a separate 5-step ladder for a road that is already steeper — so investors never confuse the two.",
+   "keyPoints": [
+    "What's new vs V-A: SIF disclosure regime — Risk-Band with 5 levels (level 1 lowest to 5 highest), portfolio disclosure every alternate month, scenario analysis in the Investment Strategy Information Document (ISID).",
+    "Mandatory documents: SID (scheme-specific), SAI (fund-level), KIM (summary that must accompany every application form).",
+    "SID update: within one month from end of each half-year (data as of September and March) for open-ended and interval schemes.",
+    "SAI: regular update by the end of 3 months of every financial year; material changes on an ongoing basis. KIM: at least once a half-year, within one month of half-year end.",
+    "Change in fundamental attributes (Reg 22(9)(c)): addendum, public notice and an exit option of not less than 30 days without load.",
+    "MF risk-o-meter: 6 levels (Low, Low to Moderate, Moderate, Moderately High, High, Very High), evaluated monthly.",
+    "SIF Risk-Band: 5 levels; assigned at NFO; evaluated monthly; disclosed on website within 10 days of month-end; annual (31 March) disclosure with number of changes, on AMC and AMFI websites.",
+    "MF portfolio disclosure: monthly/half-yearly within 10 days; debt schemes fortnightly within 5 days.",
+    "SIF portfolio disclosure: as on the last day of every alternate month — May, July, September, November, January, March — within 10 days, with ISIN, on AMC and AMFI websites.",
+    "Unaudited half-yearly financial results hosted within one month of half-year end (31 March and 30 September)."
+   ],
+   "mustRemember": [
+    {
+     "label": "SIF Risk-Band levels",
+     "value": "5 (1 = lowest, 5 = highest)"
+    },
+    {
+     "label": "MF risk-o-meter levels",
+     "value": "6"
+    },
+    {
+     "label": "SIF portfolio disclosure",
+     "value": "Every alternate month (May, Jul, Sep, Nov, Jan, Mar)"
+    },
+    {
+     "label": "Disclosure deadline (risk band / portfolio)",
+     "value": "Within 10 days of month close"
+    },
+    {
+     "label": "SIF offer document name",
+     "value": "ISID – Investment Strategy Information Document"
+    },
+    {
+     "label": "Exit window for fundamental change",
+     "value": "≥ 30 days"
+    }
+   ],
+   "examTip": "Count the levels: 6 for risk-o-meter vs 5 for Risk-Band. Also: which months SIF portfolios are disclosed.",
+   "trap": "SIF portfolio disclosure is NOT monthly — it is bi-monthly, ending with March. And the SIF's riskiness is shown on a Risk-Band, not the regular risk-o-meter."
+  },
+  {
+   "no": 6,
+   "title": "Fund Distribution and Channel Management Practices",
+   "weight": "4 marks",
+   "emoji": "🤝",
+   "summary": "Who can distribute, how they qualify (NISM, ARN, EUIN, KYD), how they are paid (full trail model), commission disclosure and due diligence — plus the rule that MF distributors can also offer SIF if they meet extra criteria.",
+   "story": "A distributor's income is like rent from a building he helped fill: every month he gets a slice of the current value (trail), and if the tenant (investor) switches agents, nobody collects rent for a year.",
+   "keyPoints": [
+    "What's new vs V-A: an entity distributing MFs may also offer SIF products, subject to additional SEBI eligibility criteria (this V-D certification is the qualification route). The commission rules are the same 2026 rules as V-A.",
+    "Prerequisites: NISM certification, KYD (PAN, address proof, biometrics at CAMS PoS), ARN from AMFI (minimum age 18), empanelment with AMCs. Employees of corporate distributors need an EUIN.",
+    "ARN and EUIN applications only online via AMFI website from 1 October 2024.",
+    "As per SEBI Master Circular of 20 March 2026: full trail model in all schemes — no upfront commission or upfronting of trail (directly or indirectly, cash or kind).",
+    "Trail commission = AUM × annual rate ÷ 365, computed on daily balances; no commission on the distributor's own investments.",
+    "Additional commission for new investors (new PAN) from B-30 cities and new women investors: 1% of first lump sum (min 1-year holding) or 1% of first-year SIP, capped at ₹2,000; paid from the 2 bps investor-education set-aside.",
+    "Transaction charges framework (for subscriptions above ₹10,000) withdrawn by SEBI in August 2025.",
+    "Commission disclosure / due diligence applies to distributors with >20 locations, or >₹100 crore non-institutional AUM, or >₹1 crore commission p.a. industry-wide, or >₹50 lakh from a single AMC.",
+    "Change of distributor: no trail to either distributor for 12 months.",
+    "Nominee/legal heir of a deceased MFD receives trail on existing assets; no new business under that ARN; investors get 15 days to object to ARN change."
+   ],
+   "mustRemember": [
+    {
+     "label": "Trail model",
+     "value": "Full trail; no upfront (Master Circular 20 Mar 2026)"
+    },
+    {
+     "label": "Additional new-investor commission cap",
+     "value": "₹2,000 (1%)"
+    },
+    {
+     "label": "Due-diligence trigger: locations",
+     "value": "> 20"
+    },
+    {
+     "label": "Due-diligence trigger: commission",
+     "value": "> ₹1 crore industry / > ₹50 lakh one AMC"
+    },
+    {
+     "label": "No trail after distributor change",
+     "value": "12 months"
+    },
+    {
+     "label": "Minimum age for ARN",
+     "value": "18 years"
+    }
+   ],
+   "examTip": "Commission model questions (full trail, ₹2,000 cap, B-30/women) and the four due-diligence thresholds.",
+   "trap": "The ₹2,000 additional commission comes from the 2 bps investor-education pool — it is not an extra charge on the investor."
+  },
+  {
+   "no": 7,
+   "title": "Net Asset Value, Total Expense Ratio and Pricing of Units",
+   "weight": "5 marks",
+   "emoji": "🧮",
+   "summary": "How NAV is computed, fair valuation, the new 2026 base-expense-ratio TER slabs, loads and IDCW. Number-heavy but formula-light.",
+   "story": "NAV is the price tag on one slice of a pizza: (whole pizza value − what you still owe the delivery guy) ÷ number of slices.",
+   "keyPoints": [
+    "What's new vs V-A: identical to the V-A 2026 edition — base expense ratio slabs (2.10% / 1.85% on first ₹500 crore), brokerage cap 0.06% cash / 0.02% derivatives, close-ended 1.00% / 0.80%. Re-check if your V-A notes had the older 2.25% slabs.",
+    "NAV = (Market value of investments + receivables + accrued income + other assets − liabilities − accrued expenses) ÷ units outstanding.",
+    "Equity-oriented scheme for TER purposes: invests at least 65% of net assets in equity (other than index fund/ETF).",
+    "Open-ended TER slabs (equity / other): first ₹500 cr 2.10/1.85; next ₹250 cr 1.90/1.65; next ₹1,250 cr 1.60/1.40; next ₹3,000 cr 1.50/1.25; next ₹5,000 cr 1.40/1.15; next ₹40,000 cr reduce 0.05% per ₹5,000 cr; balance 0.95/0.70.",
+    "Index fund/ETF TER cap 0.90%; FoF caps: 0.90% (investing in liquid/index/ETF), 2.10% (≥65% in equity schemes), 1.85% (others).",
+    "Close-ended & interval: equity-oriented 1.00%, others 0.80%.",
+    "Over and above the base: brokerage/transaction cost up to 0.06% (cash) and 0.02% (derivatives) of trade value, plus statutory levies (GST).",
+    "Entry load is banned; exit load (net of GST) is credited back to the scheme.",
+    "IDCW record date is 5 calendar days from the AMC's notice; NAV falls by the amount distributed.",
+    "AT-1 bonds are valued on yield-to-call basis; TER must be disclosed daily on AMC and AMFI websites."
+   ],
+   "mustRemember": [
+    {
+     "label": "TER first ₹500 cr (equity / other)",
+     "value": "2.10% / 1.85%"
+    },
+    {
+     "label": "TER on balance (equity / other)",
+     "value": "0.95% / 0.70%"
+    },
+    {
+     "label": "Index fund / ETF TER",
+     "value": "0.90%"
+    },
+    {
+     "label": "Close-ended TER (equity / other)",
+     "value": "1.00% / 0.80%"
+    },
+    {
+     "label": "Brokerage cap cash / derivatives",
+     "value": "0.06% / 0.02%"
+    },
+    {
+     "label": "IDCW record date notice",
+     "value": "5 calendar days"
+    }
+   ],
+   "examTip": "NAV computation from a balance sheet and identifying the right TER slab.",
+   "trap": "Brokerage and statutory levies sit OUTSIDE the base expense ratio slabs — don't add them inside the 2.10%."
+  },
+  {
+   "no": 8,
+   "title": "Taxation",
+   "weight": "3 marks",
+   "emoji": "🧾",
+   "summary": "How MF schemes and investors are taxed: equity-oriented vs others, STCG/LTCG after July 2024, ₹1.25 lakh exemption, IDCW at slab, STT, stamp duty, set-off rules and TDS.",
+   "story": "The fund itself is a tax-free pipe; tax is collected only at the tap — when you redeem (capital gains) or receive IDCW.",
+   "keyPoints": [
+    "What's new vs V-A: no SIF-specific tax rules are given in the workbook; it is the V-A tax chapter. Keep the post-23 July 2024 rates handy.",
+    "MF scheme income is exempt under Section 10(23D); investors pay tax on capital gains and IDCW.",
+    "Equity-oriented fund: more than 65% in listed domestic equity. FoFs investing in equity funds are non-equity for tax.",
+    "Holding periods: 12 months for listed securities and equity-oriented funds; 24 months for others.",
+    "Equity-oriented: STCG 20%, LTCG 12.5% above ₹1.25 lakh per financial year (grandfathering at 31 Jan 2018 NAV).",
+    "Debt-oriented funds (>65% debt) and debt ETFs: gains taxed at slab rate (MSR) regardless of holding period.",
+    "Hybrid 35–65% equity, FoFs/international: STCG at slab, LTCG 12.5% after 24 months; Equity & Gold ETFs: LTCG 12.5% after 12 months.",
+    "IDCW is taxed at slab in investor's hands; TDS 10% on IDCW above ₹10,000.",
+    "Stamp duty 0.005% on issue of units (purchases, SIP, STP, reinvestment); 0.015% on transfer.",
+    "STT 0.001% on redemption of equity-oriented units (seller); not on purchases or debt funds.",
+    "Capital losses can't be set off against other heads; LTCL only against LTCG; carry forward 8 years. Bonus stripping: buy within 3 months before record date, sell within 9 months after."
+   ],
+   "mustRemember": [
+    {
+     "label": "Equity STCG / LTCG",
+     "value": "20% / 12.5%"
+    },
+    {
+     "label": "LTCG exemption",
+     "value": "₹1.25 lakh per year"
+    },
+    {
+     "label": "Stamp duty on purchase",
+     "value": "0.005%"
+    },
+    {
+     "label": "STT on equity fund redemption",
+     "value": "0.001%"
+    },
+    {
+     "label": "TDS on IDCW",
+     "value": "10% above ₹10,000"
+    },
+    {
+     "label": "Capital loss carry forward",
+     "value": "8 years"
+    }
+   ],
+   "examTip": "Classification of a scheme for tax (65% test), holding-period thresholds and the ₹1.25 lakh exemption arithmetic.",
+   "trap": "A FoF investing 100% in equity funds is still non-equity for tax. And debt funds have no LTCG concession — it is slab rate."
+  },
+  {
+   "no": 9,
+   "title": "Investor Services",
+   "weight": "10 marks",
+   "emoji": "🛎️",
+   "summary": "NFOs, allotment, account statements, who can invest, KYC, financial transactions, cut-off times, systematic plans, non-financial changes and TATs — plus SIF tweaks: different subscription vs redemption frequency and SIP/SWP/STP within the ₹10 lakh threshold.",
+   "story": "Cut-off time is like a train timetable: reach the platform (with money available) before 3 pm and you ride today's NAV; miss it and you ride tomorrow's.",
+   "keyPoints": [
+    "What's new vs V-A: SIF operational tweaks — subscription and redemption frequencies may differ (e.g., daily subscriptions but weekly redemptions), and AMCs may offer SIP/SWP/STP in SIF strategies while honouring the ₹10 lakh minimum investment threshold.",
+    "NFO: open minimum 3 working days, maximum 15 days (except ELSS); allot or refund within 5 business days of closure; open-ended scheme reopens within 5 business days of allotment.",
+    "Delay in NFO refunds: AMC pays 15% p.a. interest (not charged to scheme).",
+    "Cut-off: equity & debt (non-liquid) purchases 3 pm — NAV of day funds are available for utilisation; liquid/overnight purchases 1.30 pm — previous day's NAV if funds available before cut-off.",
+    "Redemptions 3 pm: same-day NAV for non-liquid; for liquid, NAV of the day before the next business day. Overnight online redemptions extended to 7 pm.",
+    "Account statement / demat credit within 5 working days; demat conversion within 2 working days of request.",
+    "Nomination up to 3 nominees; single-holder folios need nomination or an explicit opt-out.",
+    "Statement of portfolio to unitholders before expiry of 10 days from close of each half-year; annual report within 4 months.",
+    "MITRA (hosted by CAMS & KFintech) traces inactive/unclaimed folios; voluntary debit-freeze (lock-in) facility via MF Central.",
+    "Switch = redemption + purchase in one transaction; exit loads and tax apply on the redemption leg."
+   ],
+   "mustRemember": [
+    {
+     "label": "NFO open period",
+     "value": "3 working days – 15 days"
+    },
+    {
+     "label": "Allotment / refund after NFO",
+     "value": "5 business days"
+    },
+    {
+     "label": "Cut-off (non-liquid / liquid purchase)",
+     "value": "3.00 pm / 1.30 pm"
+    },
+    {
+     "label": "Overnight fund online redemption cut-off",
+     "value": "7.00 pm"
+    },
+    {
+     "label": "Interest on delayed NFO refund",
+     "value": "15% p.a."
+    },
+    {
+     "label": "SIF subscription vs redemption frequency",
+     "value": "May differ"
+    }
+   ],
+   "examTip": "Cut-off time scenarios, NFO timelines and the SIF 'different frequencies' exception.",
+   "trap": "For regular MF schemes, subscription and redemption frequencies must be the same — only SIF strategies may have them different."
+  },
+  {
+   "no": 10,
+   "title": "Risk, Return and Performance of Funds",
+   "weight": "5 marks",
+   "emoji": "📉",
+   "summary": "Risk factors in equity, debt, hybrid and international schemes, drivers of return, measures of return (simple, annualised, CAGR, XIRR, rolling) and risk (standard deviation, beta, duration), and credit-risk safeguards.",
+   "story": "Return measures are like describing a road trip: 'we covered 300 km' (simple), 'that's 50 km/h' (annualised), and 'our average compounded speed with stops' (CAGR).",
+   "keyPoints": [
+    "What's new vs V-A: no SIF-specific content; but the duration, beta and standard-deviation ideas reappear heavily in the derivatives modules — learn them once, use them thrice.",
+    "Simple return = (Later value − Initial value) ÷ Initial value; Annualised = Simple × 12 ÷ months.",
+    "Compounded / CAGR = (Later value ÷ Initial value)^(1/n) − 1; CAGR assumes IDCW reinvested.",
+    "Holding-period returns: CAGR above 1 year, absolute below 1 year. Rolling returns average many consecutive holding periods.",
+    "Investor return differs from scheme return due to loads, taxes and timing.",
+    "Standard deviation measures total volatility; beta measures sensitivity to the market (market beta = 1).",
+    "Debt fund risk drivers: interest-rate risk (measured by modified duration), credit risk, liquidity risk; longer duration = higher rate sensitivity.",
+    "Equity risk drivers: market, sector concentration, stock-specific and liquidity risks.",
+    "International funds add currency and country risk."
+   ],
+   "mustRemember": [
+    {
+     "label": "CAGR formula",
+     "value": "(LV/IV)^(1/n) − 1"
+    },
+    {
+     "label": "Market beta",
+     "value": "1"
+    },
+    {
+     "label": "Rate sensitivity measure",
+     "value": "Modified duration"
+    }
+   ],
+   "examTip": "One or two return computations plus 'which measure captures X risk'.",
+   "trap": "Annualising a 3-month return by ×4 is 'annualised', not CAGR. CAGR needs compounding."
+  },
+  {
+   "no": 11,
+   "title": "Mutual Fund Scheme Performance",
+   "weight": "5 marks",
+   "emoji": "🏁",
+   "summary": "Benchmarks (PRI vs TRI, tiered benchmarks), risk-adjusted measures (Sharpe, Treynor, Alpha, Information Ratio), tracking error and performance disclosure rules.",
+   "story": "A benchmark is the par score on a golf course: shooting 72 means nothing until you know par is 70 or 75.",
+   "keyPoints": [
+    "What's new vs V-A: no SIF-specific content; same benchmarking chapter. Note how tracking error and beta connect directly to index futures hedging in Chapter 15.",
+    "Mutual funds must benchmark against the Total Return Index (TRI), which includes dividends; a Price Return Index ignores dividends.",
+    "Sharpe ratio = (Rs − Rf) ÷ Standard deviation — return per unit of total risk.",
+    "Treynor ratio = (Rs − Rf) ÷ Beta — return per unit of market risk; best for diversified equity schemes.",
+    "Alpha = actual return − optimal (beta-implied) return; positive alpha suggests out-performance.",
+    "Information Ratio = (Portfolio return − Benchmark return) ÷ SD of excess returns; the only risk-adjusted measure mandated for daily disclosure, using tier-I benchmark and daily returns.",
+    "Tracking error = standard deviation of the difference between fund and benchmark returns; lower is better for index funds.",
+    "Risk-o-meters of both scheme and benchmark must be shown when performance is compared."
+   ],
+   "mustRemember": [
+    {
+     "label": "Sharpe",
+     "value": "(Rs − Rf) ÷ SD"
+    },
+    {
+     "label": "Treynor",
+     "value": "(Rs − Rf) ÷ Beta"
+    },
+    {
+     "label": "Information Ratio",
+     "value": "(Rp − Rb) ÷ SD of excess returns"
+    },
+    {
+     "label": "Benchmark type mandated",
+     "value": "Total Return Index"
+    }
+   ],
+   "examTip": "Plug-in numericals on Sharpe/Treynor and identifying the right benchmark index.",
+   "trap": "Sharpe uses standard deviation; Treynor uses beta. Swapping them is the classic wrong option."
+  },
+  {
+   "no": 12,
+   "title": "Mutual Fund Scheme Selection",
+   "weight": "10 marks",
+   "emoji": "🎯",
+   "summary": "Matching schemes to investor needs and risk profile, active vs passive, growth vs value, choosing among AMCs and within a category, plan/option selection, and do's and don'ts.",
+   "story": "Choosing a scheme is like choosing a hiking trail: first decide how far and how fit you are (goal, horizon, risk profile), then pick the trail category, and only then compare guides (AMCs/fund managers).",
+   "keyPoints": [
+    "What's new vs V-A: no direct SIF text, but apply the same logic to SIF — it suits only investors with ₹10 lakh+ investable surplus, high risk appetite and comfort with interval/limited redemptions.",
+    "Scheme selection order: investor's goal and horizon → risk profile → asset allocation → scheme category → specific scheme.",
+    "Active funds try to beat the benchmark (higher cost); passive funds track an index (lower cost, tracking error matters).",
+    "Growth investing buys high-growth companies; value investing buys under-priced stocks; contra goes against the market mood.",
+    "Within a category compare: consistency of performance, risk-adjusted returns, expense ratio, portfolio concentration, AUM, fund manager tenure.",
+    "Direct plan has lower TER than regular plan (no distributor commission) — so higher NAV over time.",
+    "Growth option suits wealth accumulation (tax deferral); IDCW option suits regular cash needs.",
+    "Don'ts: chasing past returns, ignoring costs/exit loads, over-diversifying across too many similar schemes."
+   ],
+   "mustRemember": [
+    {
+     "label": "Plan with lower TER",
+     "value": "Direct plan"
+    },
+    {
+     "label": "Selection sequence",
+     "value": "Goal → risk profile → allocation → category → scheme"
+    }
+   ],
+   "examTip": "Situational questions: which scheme suits a described investor.",
+   "trap": "Past performance is one input, not the decision. A scheme suitable for one investor can be wrong for another."
+  },
+  {
+   "no": 13,
+   "title": "Basics of Derivatives",
+   "weight": "10 marks",
+   "emoji": "🧬",
+   "summary": "Brand-new territory (not in V-A). What a derivative is, its history in India and abroad, the four generic products, participants, OTC vs exchange-traded, uses and risks. SIF managers use exactly these tools to go short.",
+   "story": "A derivative is a shadow: it has no life of its own and moves only because the object (the underlying) moves. SIF short positions are built entirely from such shadows.",
+   "keyPoints": [
+    "Derivative = contract whose value is derived from an underlying (commodities, energy, metals, shares, bonds, currencies, indices).",
+    "Ind AS 109 criteria: value linked to underlying; settled on a future date; no full cash outlay on trade date (this gives leverage).",
+    "SEBI's L.C. Gupta Committee (24 members) set up 18 Nov 1996, report 17 Mar 1998 — recommended derivatives be declared 'securities'. J.R. Varma group (June 1998, report Oct 1998) designed risk containment/margining.",
+    "SCRA amended in 1999 to include derivatives within 'securities'; Section 18A makes exchange-traded, clearing-house-settled derivatives legal and valid.",
+    "India timeline: index futures June 2000 → index options June 2001 → stock options July 2001 → stock futures November 2001; MSEI derivatives Feb 2013.",
+    "Global milestones: CBOT 1848 (forwards), first exchange-traded futures 1865, CBOE listed options 1973, first stock index futures by Kansas City Board of Trade 1982.",
+    "Four generic products: forwards (OTC, customised), futures (exchange, standardised), options (right not obligation; OTC and exchange), swaps (series of forwards, mainly OTC).",
+    "Participants: hedgers (reduce risk), speculators/traders (take risk for profit, provide liquidity), arbitrageurs (exploit price differences, keep markets aligned).",
+    "OTC: customised, decentralised credit risk, little transparency; exchange-traded: standardised, clearing corporation guarantees settlement (novation).",
+    "Risks: counterparty, price, liquidity, legal/regulatory and operational (fraud, poor documentation). Read the Model Risk Disclosure Document from the broker."
+   ],
+   "mustRemember": [
+    {
+     "label": "L.C. Gupta Committee",
+     "value": "Set up 18 Nov 1996; 24 members"
+    },
+    {
+     "label": "Index futures launched in India",
+     "value": "June 2000"
+    },
+    {
+     "label": "Stock futures launched",
+     "value": "November 2001"
+    },
+    {
+     "label": "First listed options exchange",
+     "value": "CBOE, 1973"
+    },
+    {
+     "label": "Legal validity section",
+     "value": "Section 18A, SCRA"
+    }
+   ],
+   "examTip": "Chronology (which came first), who is a hedger/speculator/arbitrageur in a story, and OTC vs exchange features.",
+   "trap": "In India stock OPTIONS (July 2001) came before stock FUTURES (Nov 2001), though index futures (2000) came first overall."
+  },
+  {
+   "no": 14,
+   "title": "Understanding the Index",
+   "weight": "5 marks",
+   "emoji": "📊",
+   "summary": "Brand-new territory. How stock indices are built (market-cap, free-float, price-weighted, equal-weighted), what makes a good index, impact cost, index maintenance and the 2025 SEBI norms for non-benchmark index derivatives.",
+   "story": "A free-float index is like weighing a crowd by how many people are actually on the dance floor, not how many bought tickets — promoter shares locked in the coat room don't count.",
+   "keyPoints": [
+    "Index value = (Current index market cap ÷ Base market cap) × Base value. Percentage change matters more than the level.",
+    "Free-float index uses only shares readily available for trading; Sensex, Nifty and SX40 are free-float based.",
+    "Price-weighted index = sum of prices ÷ number of stocks (Dow Jones, Nikkei 225); higher-priced stocks dominate.",
+    "Equal-weighted index needs periodic rebalancing: sell winners, buy losers.",
+    "Good index: reflects market behaviour, computed by an independent third party, professionally maintained.",
+    "Impact cost = % degradation from the ideal price (average of best bid and best ask) when executing an order; higher in illiquid markets and for larger orders.",
+    "Diversification benefit flattens: 10 → 20 stocks cuts risk sharply; beyond 100 stocks almost no further reduction.",
+    "Index providers regulated under SEBI (Index Providers) Regulations, 2024; BSE indices by Asia Index Pvt Ltd, NSE indices by NSE Indices Ltd.",
+    "SEBI circular 30 Oct 2025 for derivatives on non-benchmark indices: minimum 14 constituents; top constituent ≤ 20%; top 3 combined ≤ 45%; descending weights. Bank Nifty to comply in four monthly tranches by 31 Mar 2026.",
+    "Total Return Index reinvests dividends; Price Return Index tracks only price changes."
+   ],
+   "mustRemember": [
+    {
+     "label": "Non-benchmark index: min constituents",
+     "value": "14"
+    },
+    {
+     "label": "Top constituent cap",
+     "value": "20%"
+    },
+    {
+     "label": "Top 3 constituents cap",
+     "value": "45%"
+    },
+    {
+     "label": "Ideal price for impact cost",
+     "value": "(Best bid + best ask) ÷ 2"
+    }
+   ],
+   "examTip": "Index value computation from a small table, impact cost calculation, and the 14/20/45 norms.",
+   "trap": "Impact cost is HIGH when liquidity is poor (not low). And a price-weighted index ignores the number of shares entirely."
+  },
+  {
+   "no": 15,
+   "title": "Introduction to Forwards and Futures",
+   "weight": "15 marks — the heaviest chapter",
+   "emoji": "⏩",
+   "summary": "Brand-new territory and the single biggest chapter. Forwards vs futures, contract specifications (lot sizes, expiry days, settlement prices), margins and MTM, basis, open interest, cost-of-carry pricing, and the use of futures by hedgers, speculators and arbitrageurs.",
+   "story": "A futures contract is a forward that went to finishing school: same promise to buy later at today's price, but now standardised, guaranteed by the clearing corporation and settled every evening (MTM) so no one can run away.",
+   "keyPoints": [
+    "Forward limitations: liquidity risk and counterparty (default) risk; futures fix these via exchange trading and clearing guarantee.",
+    "Index derivative contract value: not less than ₹15 lakh at introduction; lot fixed so value is ₹15–20 lakh on review day; lot a multiple of 5 (minimum 10).",
+    "Stock derivative contract value: not less than ₹5 lakh; ₹5–10 lakh on review; lot a multiple of 25 (minimum 50). Lots reviewed every 6 months with 2 weeks' notice; futures and options lot sizes are the same.",
+    "Futures can have maximum maturity of 12 months; exchanges usually run 3 contracts (near, next, far).",
+    "SEBI (26 May 2025): each exchange's equity-derivative expiries limited to Tuesday or Thursday; one weekly benchmark index option per exchange; all other contracts monthly (last Tuesday/Thursday). NSE expiries: last Tuesday; BSE: last Thursday.",
+    "Pre-open session for futures (29 May 2025): 9:00–9:15 am call auction, order entry 9:00–9:10 with random closure in the last 2 minutes; normal trading 9:15 am–3:30 pm.",
+    "Daily settlement price = VWAP of last 30 minutes (theoretical price if not traded); final settlement price = closing price of underlying on expiry day.",
+    "Basis = Spot − Futures. Futures > spot ⇒ negative basis (contango); spot > futures ⇒ positive basis (backwardation). Basis becomes zero at expiry.",
+    "Margins: initial margin and extreme loss margin paid upfront by BOTH buyer and seller; MTM profits/losses settled daily.",
+    "Open interest = contracts outstanding (one side only); volume = contracts traded in a period.",
+    "Fair price (cost of carry) = Spot + Cost of carry − Income; F = S(1+r−q)^T or S·e^((r−q)T). Futures above fair value ⇒ cash-and-carry arbitrage; below ⇒ reverse cash-and-carry.",
+    "Hedge contracts for a portfolio = (Portfolio value × Beta) ÷ (Futures price × Lot size). Portfolio beta = weighted average of stock betas.",
+    "Long hedge protects a future purchase; short hedge protects holdings; cross hedge uses a related asset; choose a contract expiring just after the hedge end date.",
+    "Calendar spread = long one expiry, short another on the same underlying; computed versus the near month; becomes a naked position when the near month expires."
+   ],
+   "mustRemember": [
+    {
+     "label": "Index contract value band",
+     "value": "₹15–20 lakh"
+    },
+    {
+     "label": "Stock contract value band",
+     "value": "₹5–10 lakh"
+    },
+    {
+     "label": "Max futures maturity",
+     "value": "12 months"
+    },
+    {
+     "label": "Lot size review",
+     "value": "Every 6 months, 2 weeks' notice"
+    },
+    {
+     "label": "Daily settlement price",
+     "value": "VWAP of last 30 minutes"
+    },
+    {
+     "label": "Basis definition",
+     "value": "Spot − Futures"
+    },
+    {
+     "label": "Sensex contract size (per workbook)",
+     "value": "20"
+    },
+    {
+     "label": "Nifty lot used in workbook examples",
+     "value": "65"
+    }
+   ],
+   "examTip": "Futures P&L numericals (lot × price change), number of contracts to hedge, fair value with cost of carry, contango/backwardation and open-interest tables.",
+   "trap": "Basis is Spot − Futures in this workbook, so a normal contango market has NEGATIVE basis. And margins are paid by both buyer and seller of futures (unlike options, where only the seller pays)."
+  },
+  {
+   "no": 16,
+   "title": "Introduction to Options",
+   "weight": "13 marks",
+   "emoji": "🎟️",
+   "summary": "Brand-new territory. Calls and puts, buyer vs writer, European vs American, contract specs, moneyness, intrinsic and time value, payoffs and breakevens, pricing factors, the Greeks, Black-Scholes, implied volatility.",
+   "story": "An option is a cinema ticket bought in advance: you paid for the right to watch (premium), but you are not obliged to go. The cinema (writer) must keep the seat ready if you turn up — that's why the writer needs a deposit (margin).",
+   "keyPoints": [
+    "Call = right to buy; put = right to sell. Buyer pays premium and has rights; writer receives premium and has obligations.",
+    "All exchange-traded index and stock options in India are European (exercise only on expiry); options are cash-settled at the closing price of the underlying.",
+    "Moneyness — call ITM when spot > strike; put ITM when spot < strike; ATM when strike ≈ spot; OTM otherwise.",
+    "Premium = intrinsic value + time value. Call IV = max(S − X, 0); put IV = max(X − S, 0). ATM/OTM options are all time value.",
+    "Breakeven: call = strike + premium; put = strike − premium (same BEP for long and short).",
+    "Long option: loss limited to premium, profit unlimited (put profit capped at strike − premium); short option: profit limited to premium, loss potentially unlimited. Option buyers pay no margin; writers do.",
+    "Pricing factors: spot ↑ → call ↑ put ↓; strike ↑ → call ↓ put ↑; volatility ↑ → both ↑; longer time → both ↑; interest rate ↑ → call ↑ put ↓.",
+    "Greeks: Delta (price sensitivity, 'hedge ratio'; call 0 to +1, put 0 to −1), Gamma (change in delta, positive for long options), Theta (time decay, usually negative for long options), Vega (volatility sensitivity, positive for long options), Rho (interest sensitivity; call +, put −).",
+    "Index options on Nifty 50 and Sensex can run up to 5 years: weekly, monthly, 3 quarterly and 8 half-yearly expiries. Sensex options: lot 20, 101 strikes (50 ITM, 1 ATM, 50 OTM), strike interval 100 points.",
+    "Black-Scholes (1973) for European options; binomial model by William Sharpe (1978) — iterative. Five inputs: spot, strike, volatility, time, risk-free rate.",
+    "Implied volatility is backed out of the option price; high IV ⇒ traders tend to sell options; low IV ⇒ buy."
+   ],
+   "mustRemember": [
+    {
+     "label": "Call breakeven",
+     "value": "Strike + Premium"
+    },
+    {
+     "label": "Put breakeven",
+     "value": "Strike − Premium"
+    },
+    {
+     "label": "Style of Indian equity options",
+     "value": "European"
+    },
+    {
+     "label": "Delta range: call / put",
+     "value": "0 to +1 / 0 to −1"
+    },
+    {
+     "label": "Black-Scholes published",
+     "value": "1973"
+    },
+    {
+     "label": "Who pays margin",
+     "value": "Only the option writer"
+    }
+   ],
+   "examTip": "Intrinsic/time value splits, breakevens, max profit/loss, Greek definitions and the direction table of pricing factors.",
+   "trap": "Volatility and time affect calls and puts in the SAME direction; spot, strike and interest rate affect them in OPPOSITE directions."
+  },
+  {
+   "no": 17,
+   "title": "Strategies using Equity Futures and Equity Options",
+   "weight": "9 marks",
+   "emoji": "♟️",
+   "summary": "Brand-new territory. Hedging with stock and index futures, speculation with leverage, cash-and-carry and calendar spreads, and option strategies: vertical spreads, straddles, strangles, covered call, collar, butterfly, protective put, put-call parity, delta hedging, OI/PCR/rollover/VIX.",
+   "story": "Option strategies are Lego: a covered call is 'long stock + short call' and behaves like a short put; a protective put is 'long stock + long put' and behaves like a long call. Learn the bricks and every structure becomes obvious.",
+   "keyPoints": [
+    "Hedging a planned purchase: long futures locks the price; a planned sale: short futures. Futures leverage magnifies ROI (e.g., 17.69% on margin vs 3.62% outright in the workbook).",
+    "Cash-and-carry: buy spot + sell overpriced futures; reverse: sell spot + buy underpriced futures. Profit is locked whatever the expiry price.",
+    "Bull call spread: buy lower-strike call, sell higher-strike call (net debit); max profit = strike gap − net premium; BEP = lower strike + net debit.",
+    "Bull put spread: sell higher-strike put, buy lower-strike put (net credit); BEP = higher strike − net credit. Bear call spread is a net credit; bear put spread a net debit.",
+    "Horizontal (calendar) spread: same strike, different expiries; diagonal: different strikes and expiries — no simple payoff chart.",
+    "Long straddle: buy call + put, same strike & expiry; bets on big move/volatility; BEPs = strike ± total premium; max loss = total premium.",
+    "Long strangle: buy OTM call + OTM put (different strikes) — cheaper than straddle; short straddle/strangle profit from stable prices with unlimited risk.",
+    "Covered call (long stock + short call) = synthetic short put; collar adds a long OTM put to floor the downside; protective put (long stock + long put) = synthetic long call.",
+    "Long call butterfly: buy 1 ITM, sell 2 ATM, buy 1 OTM call — limited profit and loss, expects low volatility.",
+    "Put-call parity (European only): C + X·e^(−rt) = P + S0. Synthetic long futures = long ATM call + short ATM put.",
+    "Delta hedging: futures delta ≈ 1; keep the combined delta at zero and rebalance as delta changes.",
+    "Futures-equivalent OI (delta-adjusted) introduced by SEBI. Price ↑ + OI ↑ = long build-up (bullish); price ↑ + OI ↓ = short covering; price ↓ + OI ↑ = short build-up (bearish); price ↓ + OI ↓ = long unwinding.",
+    "PCR = put OI (or volume) ÷ call OI; treated as contrarian — very high PCR may signal oversold, very low may signal overbought. India VIX (NSE, from Nifty options) shows expected 30-day volatility and is negatively correlated with Nifty.",
+    "Roll cost = (Next series price − Current series price) ÷ Current series price."
+   ],
+   "mustRemember": [
+    {
+     "label": "Covered call equals",
+     "value": "Synthetic short put"
+    },
+    {
+     "label": "Protective put equals",
+     "value": "Synthetic long call"
+    },
+    {
+     "label": "Straddle BEPs",
+     "value": "Strike ± total premium"
+    },
+    {
+     "label": "Put-call parity",
+     "value": "C + X·e^(−rt) = P + S"
+    },
+    {
+     "label": "India VIX horizon",
+     "value": "Next 30 calendar days"
+    },
+    {
+     "label": "Bullish OI signal",
+     "value": "Price ↑ and OI ↑"
+    }
+   ],
+   "examTip": "Payoff numericals on spreads/straddles/butterfly, identifying a strategy from its legs, and OI-price interpretation.",
+   "trap": "A bull spread built with PUTS is a net CREDIT trade; with CALLS it is a net DEBIT. And covered call is NOT a full hedge — its downside stays open."
+  },
+  {
+   "no": 18,
+   "title": "Introduction to Interest Rate, Interest Rate Instruments and Fixed Income Market",
+   "weight": "6 marks",
+   "emoji": "🏦",
+   "summary": "Brand-new depth (V-A only touched debt basics). Interest rate concepts, bond types, yield curve shapes, day-count conventions, accrued interest, yield measures, price-yield behaviour, duration, PV01, convexity, and India's G-sec, corporate bond and money markets.",
+   "story": "A bond price and its yield sit on opposite ends of a see-saw. Duration tells you how long the see-saw plank is — the longer the plank, the bigger the swing for the same push.",
+   "keyPoints": [
+    "Effective rate = (1 + r/n)^n − 1 (6% compounded half-yearly = 6.09%). Real rate ≈ nominal − inflation; exact: (1+r)(1+i) = (1+R).",
+    "Bond types: G-secs/SDLs, municipal, corporate, securitised; zero-coupon (T-bills, CMBs, STRIPS), floating rate, inflation-indexed, callable/puttable, perpetual, AT1/Tier 2, masala bonds.",
+    "Yield curve shapes: normal (upward), inverted (short > long, may signal slowdown), flat, humped. Shifts: parallel, steepening (spread widens), flattening (spread narrows).",
+    "Day count (per workbook): Actual/Actual for corporate bonds; 30/360 for G-secs; Actual/365 for money market; Actual/360 for swaps. Count first day, exclude last.",
+    "Dirty (invoice) price = clean price + accrued interest; trades quoted clean, settled dirty.",
+    "Current yield = coupon ÷ clean price. YTM is the IRR assuming reinvestment at YTM. T-bill BEY = (FV − P)/P × 365/days; discount yield = (FV − P)/FV × 360/days (used for 91-day T-bill futures).",
+    "Par: coupon = CY = YTM; discount: coupon < CY < YTM; premium: coupon > CY > YTM. Pull-to-par as maturity nears.",
+    "Macaulay duration = PV-weighted average time to cash flows; equals maturity for a zero-coupon bond; falls with higher coupon or higher yield; rises with maturity.",
+    "Modified duration = Macaulay ÷ (1 + y/n); % price change ≈ −MD × Δy. PV01 = Dirty price × MD ÷ 10,000. Portfolio duration = weighted average.",
+    "Convexity corrects duration for large yield moves; positive convexity means price rises more than it falls for the same yield change.",
+    "G-sec auctions by RBI: minimum bid ₹10,000; uniform or multiple price; non-competitive bidding for retail at weighted average price; NDS-OM (Aug 2005, run by CCIL's Clearcorp); OTC trades reported within 15 minutes; RBI Retail Direct.",
+    "Money market (up to 1 year): call (overnight), notice (2–14 days), term money (15 days–1 year), repo, TREPS (CBLO converted Nov 2018), T-bills (91/182/364 days), CMBs (< 91 days), CP and CD (₹5 lakh multiples, 7 days–1 year; CP minimum rating A3)."
+   ],
+   "mustRemember": [
+    {
+     "label": "6% compounded half-yearly",
+     "value": "6.09% effective"
+    },
+    {
+     "label": "PV01",
+     "value": "Dirty price × MD ÷ 10,000"
+    },
+    {
+     "label": "T-bill tenors",
+     "value": "91, 182, 364 days"
+    },
+    {
+     "label": "CP/CD denomination & tenor",
+     "value": "₹5 lakh; 7 days–1 year"
+    },
+    {
+     "label": "Notice money tenor",
+     "value": "2–14 days"
+    },
+    {
+     "label": "OTC G-sec trade reporting",
+     "value": "Within 15 minutes on NDS-OM"
+    }
+   ],
+   "examTip": "Price-yield relationships, duration rules, current yield / BEY calculations and money-market definitions.",
+   "trap": "Higher coupon ⇒ LOWER duration and lower convexity. A zero-coupon bond has the highest duration for its maturity."
+  },
+  {
+   "no": 19,
+   "title": "Interest Rate Derivatives",
+   "weight": "2 marks",
+   "emoji": "🔁",
+   "summary": "Brand-new territory, but light. Definition and economic role of derivatives with interest rates as the underlying: FRAs, bond forwards, IRFs, interest rate options (caps, floors, collars), swaps, swaptions; participants; OTC vs exchange.",
+   "story": "An interest rate swap is two neighbours swapping electricity plans: one wants a fixed monthly bill, the other is happy riding the floating tariff — they just pay each other the difference.",
+   "keyPoints": [
+    "Derivatives span five asset classes (rate, credit, equity, forex, commodity), each with forward, futures, swap and option.",
+    "IRD = derivative whose value is derived from interest rates, interest-rate instruments or rate indices. IRDs are the largest derivatives globally (BIS data).",
+    "FRA: OTC agreement to borrow/lend at a fixed rate on a future date; usually cash-settled, discounted to settlement date. The borrower in an FRA is long interest rate.",
+    "Bond forwards (RBI Directions, 21 Feb 2025): underlying only G-secs; physical settlement through CCIL; cash settlement bilateral or via approved arrangement.",
+    "Cap = series of interest rate calls (caplets); floor = series of puts; collar = buy cap + sell floor; reverse collar = buy floor + sell cap.",
+    "Interest rate swap: exchange fixed for floating (or floating for floating) on a notional principal; e.g., OIS against overnight MIBOR.",
+    "Swaption: call swaption = right to receive fixed (receiver); put swaption = right to pay fixed (payer).",
+    "Underlyings: interest rates (MIBOR, T-bill yield), notional bonds (theoretical bond), single bonds, bond indices. Buying a bond derivative = short interest rate.",
+    "ETD vs OTC: ETDs have clearing-corporation guarantee via novation; CCIL also offers CCP clearing for many OTC rate derivatives."
+   ],
+   "mustRemember": [
+    {
+     "label": "Largest derivative class globally",
+     "value": "Interest rate derivatives"
+    },
+    {
+     "label": "Cap is a series of",
+     "value": "Interest rate call options"
+    },
+    {
+     "label": "Collar",
+     "value": "Buy cap + sell floor"
+    },
+    {
+     "label": "Bond forward underlying",
+     "value": "Government securities only"
+    }
+   ],
+   "examTip": "Definitions: cap/floor/collar, notional bond, who is long the rate.",
+   "trap": "Buying a bond (or bond futures) is SHORT interest rate — you gain when rates fall. Borrowing in an FRA is LONG interest rate."
+  },
+  {
+   "no": 20,
+   "title": "Exchange Traded Interest Rate Futures",
+   "weight": "10 marks",
+   "emoji": "📈",
+   "summary": "Brand-new territory. History of IRFs in India, terminology, payoffs, detailed contract specifications (GOI bond futures, 91-day T-bill futures, MIBOR futures, corporate bond index futures), tick values, FRA vs IRF and IRF pricing.",
+   "story": "Bond futures in India took three tries: 2003 and 2009 failed (cheapest-to-deliver, physical settlement), and the 2013–14 cash-settled single-bond 10-year contract finally clicked — like a startup pivoting to a simpler product.",
+   "keyPoints": [
+    "History: June 2003 (T-bill, 10Y notional, zero-coupon) — failed; August 2009 (7% 10Y notional, CTD) — failed; December 2013 cash-settled 10Y single-bond IRF — success; June 2015: 6Y and 13Y; 10 Jan 2023 SEBI allowed corporate bond index futures.",
+    "Cash-settled GOI bond futures: underlying single bond in 4–8, 8–11 or 11–15 year residual maturity (chosen with FIMMDA); lot = FV ₹2 lakh (2,000 bonds); price quote (clean) per ₹100; tick ₹0.0025 ⇒ ₹5 per lot.",
+    "Bond futures price band ±3% of base price (may expand 0.5%, maximum twice a day); hours 9 am–5 pm; 3 serial monthly + 3 quarterly contracts; expiry last Thursday; daily MTM and final settlement T+1.",
+    "Bond futures final settlement price: weighted average price of the underlying in the last 2 hours on NDS-OM; if fewer than 5 trades, FIMMDA/FBIL price.",
+    "91-day T-bill futures: lot 2,000 units (FV ₹2 lakh); quote = 100 − discount yield; contract value = 2000 × (100 − 0.25y); tick ₹0.0025 ⇒ ₹1.25 per lot; price band ±1%; expiry last Wednesday at 1 pm; final settlement from RBI's 91-day T-bill auction yield.",
+    "Overnight MIBOR futures: notional ₹5 crore for one month on 30/365 basis; ₹411 per basis point; tick 0.25 bp = ₹102.75; expiry last working day; final settlement = simple average of daily FBIL overnight MIBOR.",
+    "Corporate bond index futures: AA+ and above; ≥ 8 issuers; single issuer ≤ 15%; group/sector ≤ 25% (excluding PSU/PFI/PSB); 1-year index track record; contract ≥ ₹2 lakh; tenure up to 3 years; expiry last Thursday.",
+    "Wholesale debt market lot is ₹5 crore = 250 IRF lots.",
+    "FRA vs IRF: FRA is OTC, customised, counterparty risk, trades reported within 30 minutes; IRF is exchange-traded, standardised, guaranteed, transparent.",
+    "Bond futures price = Cash (dirty) price + financing cost − income on cash position (accrued interest/coupons); bond futures usually trade below spot (positive basis) because carry income exceeds financing.",
+    "Forward rate: (1+S_long)^n1 = (1+S_short)^n2 × (1+F)^(n1−n2); e.g., 1Y 5% and 2Y 6% ⇒ 1-year rate 1 year forward ≈ 7.0095%."
+   ],
+   "mustRemember": [
+    {
+     "label": "Bond IRF lot",
+     "value": "FV ₹2 lakh (2,000 bonds)"
+    },
+    {
+     "label": "Tick / tick value (bond IRF)",
+     "value": "₹0.0025 / ₹5 per lot"
+    },
+    {
+     "label": "Bond IRF price band",
+     "value": "±3%"
+    },
+    {
+     "label": "T-bill futures quote",
+     "value": "100 − discount yield"
+    },
+    {
+     "label": "T-bill futures tick value",
+     "value": "₹1.25"
+    },
+    {
+     "label": "MIBOR futures value of 1 bp",
+     "value": "₹411"
+    },
+    {
+     "label": "Trading hours (IRF)",
+     "value": "9:00 am – 5:00 pm"
+    },
+    {
+     "label": "Bond IRF expiry",
+     "value": "Last Thursday"
+    }
+   ],
+   "examTip": "Contract-value and tick-value numericals, final settlement methodology, and the IRF launch history.",
+   "trap": "T-bill futures expire on the last WEDNESDAY (1 pm) — bond futures on the last THURSDAY; MIBOR futures on the last working day. And T-bill futures contract value uses 0.25 × yield (a quarter-year)."
+  },
+  {
+   "no": 21,
+   "title": "Exchange Traded Interest Rate Options",
+   "weight": "6 marks",
+   "emoji": "🎚️",
+   "summary": "Brand-new territory. Option basics applied to G-secs: styles (European, American, Bermudan), moneyness, pricing (Black 1976), put-call parity, payoffs, contract specs of exchange-traded IROs, exchange vs OTC IRO and market indicators.",
+   "story": "A Bermudan option is like a gym that lets you cancel your membership only on certain fixed dates — more flexible than European (only at the end), less than American (any day).",
+   "keyPoints": [
+    "European: exercise only on expiry; American: any time up to expiry; Bermudan: on specified dates before expiry.",
+    "RBI notified IROs on 29 Dec 2016; superseded by Rupee Interest Rate Derivatives (Reserve Bank) Directions, 26 June 2019; exchange-traded IROs on single G-secs began August 2019.",
+    "Exchange IRO specs: underlying GOI dated security (chosen with FIMMDA); lot FV ₹2 lakh (2,000 bonds); premium quoted in ₹; tick ₹0.0025; premium-style European calls and puts; cash settled; T+1.",
+    "Strike interval ₹0.25; minimum 8 ITM, 8 OTM and 1 near-the-money strikes; 3 serial monthly + 3 quarterly contracts; expiry last Thursday; hours 9 am–5 pm.",
+    "Final settlement price: weighted average price of underlying bond in last 2 hours on NDS-OM (FIMMDA/FBIL price if fewer than 5 trades).",
+    "Price band for options is delta-based, using previous close of underlying and volatility, with a minimum operating range.",
+    "Black (1976) model uses futures/forward prices instead of spot; used in India for theoretical prices of exchange-traded IROs; also for caps, floors, swaptions.",
+    "Put-call parity: C + PV(X) = P + S — holds only for European options.",
+    "OTC IROs include caps, floors, collars, reverse collars and swaptions; banks, PDs and AIFIs act as market makers; reporting to trade repository within 30 minutes.",
+    "Market indicators (as stated in this chapter): price ↑ + OI ↑ = long build-up; price ↓ + OI ↑ = short build-up; PCR = put OI/volume ÷ call OI/volume, average ~0.7 for equity options."
+   ],
+   "mustRemember": [
+    {
+     "label": "IRO strike interval",
+     "value": "₹0.25"
+    },
+    {
+     "label": "Minimum strikes",
+     "value": "8 ITM + 8 OTM + 1 near-the-money"
+    },
+    {
+     "label": "Pricing model for exchange IROs",
+     "value": "Black (1976)"
+    },
+    {
+     "label": "Exchange IRO launch",
+     "value": "August 2019"
+    },
+    {
+     "label": "RBI IRD Directions",
+     "value": "26 June 2019"
+    }
+   ],
+   "examTip": "Option style definitions, IRO contract specs and payoff numericals (premium in ₹ per ₹100 FV).",
+   "trap": "Black-76 is for options on futures/forwards (uses F); Black-Scholes uses spot S. Exam options often swap them."
+  },
+  {
+   "no": 22,
+   "title": "Strategies using Exchange Traded Interest Rate Derivatives",
+   "weight": "6 marks",
+   "emoji": "🛡️",
+   "summary": "Brand-new territory. How hedgers, speculators and arbitrageurs use IRFs and IROs: short and long hedges, duration-based portfolio hedging, hedging future borrowing, view-based trades, cash-and-carry with bonds, synthetic T-bills, calendar and inter-bond spreads, and limitations.",
+   "story": "A bond fund manager fearing a rate hike is like a farmer fearing a price crash before harvest: he sells futures today. If rates rise, bond prices fall, but the short futures gain fills the hole.",
+   "keyPoints": [
+    "Choose instrument by tenor (3-month rate → T-bill futures; 10-year rate → GOI bond futures/options), side by rate view, and contract month by timing of the expected change.",
+    "Expect rates to RISE: sell GOI bond futures, buy GOI bond puts, sell T-bill futures, BUY overnight MIBOR futures. Expect rates to FALL: the opposite.",
+    "Short hedge protects bonds already held (sell futures); long hedge locks yield on future inflows, e.g., an insurer expecting premiums (buy futures).",
+    "Duration-based hedge: number of lots = (Portfolio MD × Portfolio value) ÷ (Futures MD × Futures price × 2,000). E.g., ₹26 crore, MD 6.1, futures MD 4.7, price 98.50 ⇒ ≈ 1,713 lots.",
+    "A corporate planning to issue bonds can sell IRFs to hedge a rise in rates (basis risk remains since instruments differ).",
+    "Futures give leverage: no accrued interest earned on a long futures position.",
+    "Buying bond futures increases portfolio duration; selling decreases it — a quick, cheap way to adjust duration.",
+    "Regular arbitrage: buy bond (funded in repo) + sell overpriced futures; reverse arbitrage: sell bond + buy underpriced futures + lend in repo.",
+    "Synthetic T-bill: long a long-dated G-sec + short its 3-month futures = locked 3-month return.",
+    "Calendar spread (same bond, different months) attracts lower margin; inter-bond spread (different bonds, same expiry) bets on curve steepening/flattening.",
+    "Limitations for hedgers: standardised cash-settled contracts, limited underlyings and tenors ⇒ basis risk and imperfect hedge."
+   ],
+   "mustRemember": [
+    {
+     "label": "Lots per ₹ crore of bond FV",
+     "value": "50 (₹2 lakh each)"
+    },
+    {
+     "label": "Rate-rise view with MIBOR futures",
+     "value": "Buy (go long)"
+    },
+    {
+     "label": "Rate-rise view with bond futures",
+     "value": "Sell"
+    },
+    {
+     "label": "Duration hedge formula",
+     "value": "(MDp × Vp) ÷ (MDf × Pf × 2,000)"
+    }
+   ],
+   "examTip": "Which side to take for a given rate view and instrument, hedge-lot computations, and futures P&L on 2,000 bonds per lot.",
+   "trap": "MIBOR futures are quoted as a RATE, so you BUY them when you expect rates to rise — the opposite of bond futures, which are quoted as a PRICE."
+  }
+ ],
+ "formulas": [
+  {
+   "name": "SIF minimum investment check",
+   "formula": "Total invested across ALL SIF strategies of one AMC ≥ ₹10 lakh",
+   "example": "₹6 lakh in Equity Long-Short + ₹4 lakh in Hybrid Long-Short of the same AMC = ₹10 lakh ⇒ threshold met."
+  },
+  {
+   "name": "NAV",
+   "formula": "(Assets − Liabilities) ÷ Units outstanding",
+   "example": "Net assets ₹505 crore, 40 crore units ⇒ NAV = ₹12.625."
+  },
+  {
+   "name": "CAGR",
+   "formula": "(LV ÷ IV)^(1/n) − 1",
+   "example": "₹1,000 → ₹4,000 in 2 years ⇒ (4)^(0.5) − 1 = 100%."
+  },
+  {
+   "name": "Sharpe ratio",
+   "formula": "(Rs − Rf) ÷ SD",
+   "example": "(7% − 5%) ÷ 0.5% = 4."
+  },
+  {
+   "name": "Treynor ratio",
+   "formula": "(Rs − Rf) ÷ Beta",
+   "example": "(8% − 5%) ÷ 1.2 = 2.5."
+  },
+  {
+   "name": "Trail commission per day",
+   "formula": "AUM × annual trail rate ÷ 365",
+   "example": "₹10,00,000 × 1% ÷ 365 = ₹27.40."
+  },
+  {
+   "name": "Index value (market-cap / free-float)",
+   "formula": "(Current M-cap ÷ Base M-cap) × Base value",
+   "example": "(42,500 ÷ 18,800) × 100 = 226.06."
+  },
+  {
+   "name": "Price-weighted index",
+   "formula": "Sum of prices ÷ number of stocks",
+   "example": "(650+450+600+350+500) ÷ 5 = 510."
+  },
+  {
+   "name": "Impact cost",
+   "formula": "(Actual execution price − Ideal price) ÷ Ideal price × 100; Ideal = (best bid + best ask) ÷ 2",
+   "example": "Ideal 9.85, actual buy 9.9333 ⇒ 0.84%."
+  },
+  {
+   "name": "Futures contract value / MTM",
+   "formula": "Futures price × lot size; daily MTM = price change × lot size",
+   "example": "Nifty 22,250 × 25 = ₹5,56,250; a 58.70-point gain ⇒ ₹1,468."
+  },
+  {
+   "name": "Fair futures price (cost of carry)",
+   "formula": "F = S(1 + r − q)^T  or  F = S·e^((r−q)T)",
+   "example": "17,500 × (1.08)^(90/365) = 17,835.26; continuous: 17,848.63."
+  },
+  {
+   "name": "Futures with known dividend",
+   "formula": "F = (S − PV of dividends) × e^(rT)",
+   "example": "S 200, dividend 5 at 0.25 yr, r 6%, T 0.5 ⇒ F ≈ 201.01."
+  },
+  {
+   "name": "Basis",
+   "formula": "Basis = Spot − Futures",
+   "example": "24,894.25 − 25,006.60 = −112.35 (contango)."
+  },
+  {
+   "name": "Portfolio beta",
+   "formula": "βp = Σ wi βi",
+   "example": "0.5×0.35 + 1.1×0.15 + 1.3×0.20 + 0.9×0.30 = 0.87."
+  },
+  {
+   "name": "Index futures hedge (contracts)",
+   "formula": "(Portfolio value × βp) ÷ (Futures price × Lot size)",
+   "example": "(50,00,000 × 1.3) ÷ (23,900 × 65) = 4.18 lots."
+  },
+  {
+   "name": "Option intrinsic & time value",
+   "formula": "Call IV = max(S − X, 0); Put IV = max(X − S, 0); Time value = Premium − IV",
+   "example": "Put X 18,400, S 18,315.10, premium 177.60 ⇒ IV 84.90, TV 92.70."
+  },
+  {
+   "name": "Option breakeven",
+   "formula": "Call: X + premium; Put: X − premium",
+   "example": "17,500 call @95 ⇒ 17,595; 17,500 put @150 ⇒ 17,350."
+  },
+  {
+   "name": "Bull call spread",
+   "formula": "Max loss = net debit; Max profit = (X2 − X1) − net debit; BEP = X1 + net debit",
+   "example": "Buy 17,500C @185, sell 17,800C @61 ⇒ loss 124, profit 176, BEP 17,624."
+  },
+  {
+   "name": "Straddle / strangle breakevens",
+   "formula": "Straddle: X ± total premium; Strangle: put X − total, call X + total",
+   "example": "6,000 straddle for 393 ⇒ 5,607 and 6,393."
+  },
+  {
+   "name": "Long call butterfly",
+   "formula": "Net debit = max loss; Max profit = strike gap − net debit; BEPs = lower X + debit, upper X − debit",
+   "example": "6,000/6,100/6,200 for net 30 ⇒ max profit 70, BEPs 6,030 and 6,170."
+  },
+  {
+   "name": "Put-call parity",
+   "formula": "C + X·e^(−rt) = P + S0",
+   "example": "S 1,251, X 1,240, C 47.50, r 8%, t 1/12 ⇒ fair put ≈ 28.26."
+  },
+  {
+   "name": "Delta hedge",
+   "formula": "Futures lots = (Option lots × lot × |delta|) ÷ lot (futures delta = 1)",
+   "example": "Short 10 calls, delta 0.5, lot 50 ⇒ long 5 futures lots."
+  },
+  {
+   "name": "Put-call ratio",
+   "formula": "Put OI (or volume) ÷ Call OI (or volume)",
+   "example": "8,000 ÷ 12,000 = 0.67."
+  },
+  {
+   "name": "Roll cost",
+   "formula": "(Next series price − Current series price) ÷ Current series price × 100",
+   "example": "(25,150 − 25,000) ÷ 25,000 = 0.6%."
+  },
+  {
+   "name": "Effective annual rate",
+   "formula": "(1 + r/n)^n − 1",
+   "example": "6% half-yearly ⇒ 6.09%; 4.2% monthly ⇒ 4.28%."
+  },
+  {
+   "name": "Real interest rate",
+   "formula": "(1+r)(1+i) = (1+R); approx. r = R − i",
+   "example": "Nominal 9%, inflation 6% ⇒ ≈ 3%."
+  },
+  {
+   "name": "Current yield",
+   "formula": "Coupon ÷ Clean price × 100",
+   "example": "7.17 ÷ 96.2290 = 7.45%."
+  },
+  {
+   "name": "T-bill bond-equivalent yield",
+   "formula": "(FV − P) ÷ P × 365 ÷ days × 100",
+   "example": "(100 − 99.6898) ÷ 99.6898 × 365/34 = 3.34%."
+  },
+  {
+   "name": "Discount yield",
+   "formula": "(FV − P) × 360 ÷ (FV × days)",
+   "example": "Price 98.75, 91 days ⇒ 1.25 × 360 ÷ 9,100 = 4.95%."
+  },
+  {
+   "name": "Accrued interest & dirty price",
+   "formula": "AI = Coupon × days elapsed ÷ days in period (convention); Dirty = Clean + AI",
+   "example": "Clean 101.50 + AI 0.9967 = 102.4967."
+  },
+  {
+   "name": "Modified duration & price change",
+   "formula": "MD = Macaulay ÷ (1 + y/n); %ΔP ≈ −MD × Δy",
+   "example": "Mac 5.34, y 4.5% annual ⇒ MD 5.11; +1% yield ⇒ ≈ −5.11%."
+  },
+  {
+   "name": "PV01",
+   "formula": "Dirty price × MD ÷ 10,000",
+   "example": "Price 100, MD 5 ⇒ ₹0.05 per ₹100 FV."
+  },
+  {
+   "name": "Portfolio duration",
+   "formula": "Σ wi × Di",
+   "example": "0.3 × 3 + 0.7 × 5 = 4.40 years."
+  },
+  {
+   "name": "Forward rate",
+   "formula": "(1+S2)^n2 = (1+S1)^n1 × (1+F)^(n2−n1)",
+   "example": "1Y 5%, 2Y 6% ⇒ F = 1.1236/1.05 − 1 = 7.0095%."
+  },
+  {
+   "name": "Bond futures fair price",
+   "formula": "Dirty cash price + financing cost − income on cash position (accrued to futures settlement)",
+   "example": "103.0174 + 0.2597 − 1.8847 = 101.3924."
+  },
+  {
+   "name": "Bond IRF contract & tick value",
+   "formula": "Contract = lots × 2,000 × price; tick value = 2,000 × 0.0025 = ₹5",
+   "example": "5 lots @101 = ₹10,10,000."
+  },
+  {
+   "name": "T-bill futures contract value",
+   "formula": "2,000 × (100 − 0.25 × y) per lot; tick value ₹1.25",
+   "example": "10 lots at 95 (y = 5) ⇒ ₹19,75,000."
+  },
+  {
+   "name": "MIBOR futures contract value",
+   "formula": "Quoted rate × 100 × ₹411 per lot (₹411 = ₹5 cr × 0.01% × 30/365)",
+   "example": "10 lots at 4.50% ⇒ ₹18,49,500."
+  },
+  {
+   "name": "Duration-based IRF hedge",
+   "formula": "(MD portfolio × Value) ÷ (MD futures × Futures price × 2,000)",
+   "example": "(26 cr × 6.1) ÷ (4.7 × 98.50 × 2,000) ≈ 1,713 lots."
+  }
+ ],
+ "numbersToRemember": [
+  {
+   "label": "SIF minimum investment",
+   "value": "₹10 lakh across all strategies of an AMC"
+  },
+  {
+   "label": "SIF max unhedged short",
+   "value": "25% of NAV"
+  },
+  {
+   "label": "SIF Risk-Band levels",
+   "value": "5"
+  },
+  {
+   "label": "SIF portfolio disclosure",
+   "value": "Alternate months: May, Jul, Sep, Nov, Jan, Mar (within 10 days)"
+  },
+  {
+   "label": "SIF brand-use window",
+   "value": "5 years from SEBI approval"
+  },
+  {
+   "label": "Exam",
+   "value": "150 Qs × 1 mark, 180 min, pass 90 (60%), −10% per wrong"
+  },
+  {
+   "label": "Module weights",
+   "value": "MF 68 · Equity derivatives 52 · IRD 30"
+  },
+  {
+   "label": "AMC net worth",
+   "value": "₹50 crore"
+  },
+  {
+   "label": "Grievance redress",
+   "value": "21 calendar days"
+  },
+  {
+   "label": "NFO window",
+   "value": "3 working days – 15 days"
+  },
+  {
+   "label": "TER first ₹500 cr",
+   "value": "2.10% equity / 1.85% other"
+  },
+  {
+   "label": "Brokerage cap",
+   "value": "0.06% cash / 0.02% derivatives"
+  },
+  {
+   "label": "Equity STCG / LTCG",
+   "value": "20% / 12.5% above ₹1.25 lakh"
+  },
+  {
+   "label": "Additional commission cap",
+   "value": "₹2,000"
+  },
+  {
+   "label": "Index derivative contract value",
+   "value": "₹15–20 lakh; lot multiple of 5, min 10"
+  },
+  {
+   "label": "Stock derivative contract value",
+   "value": "₹5–10 lakh; lot multiple of 25, min 50"
+  },
+  {
+   "label": "Futures max maturity",
+   "value": "12 months"
+  },
+  {
+   "label": "Index option max maturity (Nifty/Sensex)",
+   "value": "Up to 5 years"
+  },
+  {
+   "label": "Equity F&O trading hours",
+   "value": "9:15 am – 3:30 pm (pre-open 9:00–9:15 for futures)"
+  },
+  {
+   "label": "Daily settlement price",
+   "value": "VWAP of last 30 minutes"
+  },
+  {
+   "label": "Non-benchmark index norms",
+   "value": "≥14 stocks; top ≤20%; top 3 ≤45%"
+  },
+  {
+   "label": "Sensex option strikes",
+   "value": "101 (50 ITM, 1 ATM, 50 OTM)"
+  },
+  {
+   "label": "L.C. Gupta Committee",
+   "value": "1996 (report 17 Mar 1998)"
+  },
+  {
+   "label": "Index futures in India",
+   "value": "June 2000"
+  },
+  {
+   "label": "Bond IRF lot / tick value",
+   "value": "₹2 lakh FV / ₹5"
+  },
+  {
+   "label": "Bond IRF price band",
+   "value": "±3%"
+  },
+  {
+   "label": "T-bill futures price band",
+   "value": "±1%"
+  },
+  {
+   "label": "T-bill futures expiry",
+   "value": "Last Wednesday, 1 pm"
+  },
+  {
+   "label": "MIBOR futures 1 bp value",
+   "value": "₹411 (tick ₹102.75)"
+  },
+  {
+   "label": "IRF / IRO trading hours",
+   "value": "9:00 am – 5:00 pm"
+  },
+  {
+   "label": "IRO strike interval",
+   "value": "₹0.25"
+  },
+  {
+   "label": "IRO minimum strikes",
+   "value": "8 ITM + 8 OTM + 1 NTM"
+  },
+  {
+   "label": "Corporate bond index futures",
+   "value": "AA+ & above; ≥8 issuers; issuer ≤15%; tenure ≤3 years"
+  },
+  {
+   "label": "G-sec auction min bid",
+   "value": "₹10,000"
+  },
+  {
+   "label": "CP/CD",
+   "value": "₹5 lakh multiples; 7 days – 1 year"
+  },
+  {
+   "label": "Wholesale debt lot",
+   "value": "₹5 crore = 250 IRF lots"
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Specialized Investment Fund (SIF)",
+   "meaning": "New product line under the MF Regulations, between MFs and PMS, allowing long-short strategies; minimum ₹10 lakh."
+  },
+  {
+   "term": "ISID",
+   "meaning": "Investment Strategy Information Document — the SIF offer document; must include scenario analysis of expected loss."
+  },
+  {
+   "term": "Risk-Band",
+   "meaning": "Five-level pictorial risk meter used for SIF strategies (instead of the six-level risk-o-meter)."
+  },
+  {
+   "term": "Unhedged short exposure",
+   "meaning": "A net short position through derivatives not offset by a long holding; capped at 25% of NAV in SIF."
+  },
+  {
+   "term": "Interval scheme",
+   "meaning": "Scheme open for transactions only during transaction periods (min 2 working days) separated by interval periods (min 15 days)."
+  },
+  {
+   "term": "Underlying",
+   "meaning": "The asset or rate from which a derivative derives its value."
+  },
+  {
+   "term": "Forward",
+   "meaning": "Customised OTC agreement to buy/sell at a future date at a price fixed today."
+  },
+  {
+   "term": "Futures",
+   "meaning": "Standardised exchange-traded forward with daily MTM and clearing guarantee."
+  },
+  {
+   "term": "Option premium",
+   "meaning": "Price the option buyer pays the writer for the right."
+  },
+  {
+   "term": "Strike price",
+   "meaning": "Price at which the option holder may buy (call) or sell (put)."
+  },
+  {
+   "term": "Basis",
+   "meaning": "Spot price − futures price; zero at expiry."
+  },
+  {
+   "term": "Contango",
+   "meaning": "Futures above spot (negative basis); market expects prices to rise."
+  },
+  {
+   "term": "Backwardation",
+   "meaning": "Futures below spot (positive basis)."
+  },
+  {
+   "term": "Cost of carry",
+   "meaning": "Financing (and storage) cost minus income from holding the underlying until delivery."
+  },
+  {
+   "term": "Mark to market (MTM)",
+   "meaning": "Daily settlement of futures profits and losses at the daily settlement price."
+  },
+  {
+   "term": "Open interest",
+   "meaning": "Number of contracts outstanding (counted on one side)."
+  },
+  {
+   "term": "Novation",
+   "meaning": "Clearing corporation becomes buyer to every seller and seller to every buyer."
+  },
+  {
+   "term": "Impact cost",
+   "meaning": "Percentage price degradation versus the ideal price when executing an order of a given size."
+  },
+  {
+   "term": "Free float",
+   "meaning": "Shares readily available for trading, excluding promoter and locked-in holdings."
+  },
+  {
+   "term": "Delta",
+   "meaning": "Change in option premium for a unit change in the underlying; the hedge ratio."
+  },
+  {
+   "term": "Theta",
+   "meaning": "Time decay of an option's premium."
+  },
+  {
+   "term": "Vega",
+   "meaning": "Sensitivity of option premium to volatility."
+  },
+  {
+   "term": "Implied volatility",
+   "meaning": "Volatility backed out from the market price of an option."
+  },
+  {
+   "term": "Covered call",
+   "meaning": "Long stock + short call; behaves like a short put."
+  },
+  {
+   "term": "Protective put",
+   "meaning": "Long stock + long put; behaves like a long call."
+  },
+  {
+   "term": "Straddle",
+   "meaning": "Call and put with the same strike and expiry."
+  },
+  {
+   "term": "Strangle",
+   "meaning": "OTM call and OTM put with different strikes, same expiry."
+  },
+  {
+   "term": "Put-call ratio",
+   "meaning": "Put OI or volume divided by call OI or volume; a sentiment (contrarian) indicator."
+  },
+  {
+   "term": "Clean / dirty price",
+   "meaning": "Bond price without / with accrued interest."
+  },
+  {
+   "term": "Modified duration",
+   "meaning": "Approximate % price change of a bond for a 1% change in yield."
+  },
+  {
+   "term": "PV01",
+   "meaning": "Rupee change in bond price for a 1 bp change in yield."
+  },
+  {
+   "term": "FRA",
+   "meaning": "Forward Rate Agreement — OTC contract fixing a borrowing/lending rate for a future period, cash-settled."
+  },
+  {
+   "term": "Overnight MIBOR",
+   "meaning": "FBIL benchmark from the first hour of NDS-CALL trades; underlying for OIS and MIBOR futures."
+  },
+  {
+   "term": "Black (1976) model",
+   "meaning": "Option model using futures/forward prices; used for exchange-traded IROs in India."
+  },
+  {
+   "term": "Bermudan option",
+   "meaning": "Exercisable on specified dates before expiry."
+  }
+ ],
+ "quickRevision": [
+  "SIF minimum: ₹10 lakh per investor across ALL strategies of the same AMC.",
+  "Every SIF strategy caps unhedged short exposure at 25% of NAV.",
+  "Equity Long-Short ≥80% equity; Ex-Top 100 ≥65% outside top-100 stocks; Sector Rotation ≥80% equity, max 4 sectors.",
+  "Debt and hybrid SIF strategies are interval schemes; equity ones may be open-ended or interval.",
+  "Redemption frequency: equity SIF daily (or less), debt SIF weekly (or less), hybrid SIF twice a week (or less).",
+  "Sectoral Debt Long-Short: min 2 sectors, max 75% per sector. Hybrid Long-Short: min 25% each in equity and debt.",
+  "Only one strategy per SIF category per AMC.",
+  "SIF Risk-Band: 5 levels, monthly review, disclosed within 10 days; MF risk-o-meter has 6 levels.",
+  "SIF portfolio: last day of alternate months (May, Jul, Sep, Nov, Jan, Mar), within 10 days, with ISIN.",
+  "SIF branding: distinct name & logo; MF brand allowed for 5 years; MF brand font ≤ SIF font; separate website/page.",
+  "SIF may have different subscription and redemption frequencies; SIP/SWP/STP allowed within the ₹10 lakh threshold.",
+  "Regulation 51 governs SIF investments (Reg 39 universe + Sixth Schedule limits).",
+  "Exam: 150 × 1 mark, 3 hours, 90 to pass, −0.1 per wrong answer.",
+  "Indian equity options are European and cash-settled.",
+  "Call BEP = strike + premium; put BEP = strike − premium.",
+  "Volatility ↑ and time ↑ raise both calls and puts.",
+  "Basis = spot − futures; contango ⇒ negative basis; basis → 0 at expiry.",
+  "Futures: both sides pay margin; options: only the writer pays margin.",
+  "Index contract ₹15–20 lakh (lot ×5, min 10); stock contract ₹5–10 lakh (lot ×25, min 50).",
+  "Hedge lots = Portfolio value × beta ÷ (futures price × lot).",
+  "Covered call = synthetic short put; protective put = synthetic long call.",
+  "Price ↑ OI ↑ bullish; price ↑ OI ↓ short covering; price ↓ OI ↑ bearish; price ↓ OI ↓ long unwinding.",
+  "India VIX: NSE, from Nifty options, next 30 days, moves opposite to Nifty.",
+  "Non-benchmark index derivatives: ≥14 stocks, top ≤20%, top 3 ≤45%.",
+  "Bond price and yield move inversely; higher coupon ⇒ lower duration.",
+  "Zero-coupon bond duration = maturity.",
+  "PV01 = dirty price × MD ÷ 10,000.",
+  "Bond IRF: ₹2 lakh lot, tick ₹0.0025 = ₹5/lot, ±3% band, last Thursday, T+1, 9 am–5 pm.",
+  "T-bill futures: 100 − discount yield; value 2000 × (100 − 0.25y); last Wednesday 1 pm; ±1% band.",
+  "MIBOR futures: ₹5 crore notional, ₹411 per bp, tick ₹102.75, settle on average FBIL overnight MIBOR.",
+  "Expect rates up ⇒ sell bond futures / buy bond puts / buy MIBOR futures.",
+  "Exchange IROs: strike interval ₹0.25; ≥8 ITM + 8 OTM + 1 NTM; priced with Black-76.",
+  "TER first ₹500 cr: 2.10% equity / 1.85% other; ETF/index 0.90%.",
+  "Full trail model only; additional new-investor commission 1% capped at ₹2,000.",
+  "Equity funds: STCG 20%, LTCG 12.5% above ₹1.25 lakh; holding 12 months."
+ ],
+ "studyPlan": {
+  "totalDays": 21,
+  "hoursPerDay": 2,
+  "phases": [
+   {
+    "days": "1-2",
+    "focus": "SIF deep-dive + V-A delta",
+    "tasks": [
+     "Master every SIF number (₹10 lakh, 25%, 80/65/80, 75%, 25% each, redemption frequencies, Risk-Band, bi-monthly disclosure, branding)",
+     "Skim Chapters 1–12 only for 2026 changes: TER slabs, full-trail commission, Life Cycle Funds, taxation table",
+     "Take Mock 1"
+    ]
+   },
+   {
+    "days": "3-5",
+    "focus": "Derivatives basics and index (Ch 13–14)",
+    "tasks": [
+     "History timeline and participants",
+     "Index construction and impact cost numericals in Excel",
+     "Mock 2"
+    ]
+   },
+   {
+    "days": "6-9",
+    "focus": "Futures (Ch 15) — the 15-mark chapter",
+    "tasks": [
+     "Contract specs, expiry rules, margins, MTM",
+     "Cost-of-carry pricing (both formulas), basis, arbitrage",
+     "Beta hedging numericals",
+     "Mock 3"
+    ]
+   },
+   {
+    "days": "10-13",
+    "focus": "Options and strategies (Ch 16–17)",
+    "tasks": [
+     "Moneyness, intrinsic/time value, breakevens",
+     "Greeks and pricing-factor table",
+     "Draw payoffs: spreads, straddle, strangle, butterfly, covered call, protective put, collar",
+     "OI/PCR/VIX interpretation",
+     "Mock 4"
+    ]
+   },
+   {
+    "days": "14-17",
+    "focus": "Interest rate module (Ch 18–22)",
+    "tasks": [
+     "Bond math: yields, duration, PV01, day counts, accrued interest",
+     "IRF/IRO contract specs and tick values",
+     "Which side to take for a rate view; duration hedge",
+     "Mock 5"
+    ]
+   },
+   {
+    "days": "18-20",
+    "focus": "Tough mocks and weak areas",
+    "tasks": [
+     "Mock 6 and Mock 7 under timed conditions",
+     "Re-do every wrong answer; rebuild the formula sheet from memory"
+    ]
+   },
+   {
+    "days": "21",
+    "focus": "Revision",
+    "tasks": [
+     "Quick-revision list and numbers-to-remember",
+     "One full 150-question simulator run"
+    ]
+   }
+  ]
+ },
+ "examStrategy": [
+  "Time budget: 150 questions in 180 minutes ⇒ ~1.2 minutes each; do a first pass in ~120 minutes skipping long numericals, then return.",
+  "Negative marking is only 10%: guess when you can eliminate even one option (expected value is positive); skip only true blind guesses.",
+  "Derivatives are 82 of 150 marks — Chapter 15 (15) and 16 (13) alone are 28 marks; master them before polishing MF chapters.",
+  "Treat Module 1 as banked marks from V-A, but drill the SIF facts — they are the easiest differentiators.",
+  "For payoff questions, write a 3-row table (spot below strike, at strike, above strike) instead of reasoning in your head.",
+  "Watch sign conventions: basis = spot − futures; buying bond futures = short interest rate; MIBOR futures are quoted as a rate.",
+  "Use the on-screen Excel/LibreOffice for EXP, LN and powers (e.g., =17500*EXP(0.08*90/365)).",
+  "Read 'NOT' / 'incorrect' stems twice; multi-statement items usually hinge on a single number."
+ ]
+}

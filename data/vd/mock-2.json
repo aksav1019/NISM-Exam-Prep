@@ -1,0 +1,583 @@
+{
+ "id": "mock-2",
+ "title": "Mock 2 · Building Blocks",
+ "level": "easy",
+ "blurb": "SIF strategy limits, cut-offs and tax, plus first numericals in futures, options and bonds.",
+ "questions": [
+  {
+   "id": "vd-M2-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "An investor keeps buying the same sector fund simply because 'everyone in my office is buying it'. This is an example of:",
+   "options": [
+    "Herd mentality",
+    "Anchoring",
+    "Loss aversion",
+    "Mental accounting"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Behavioural biases distort decisions; herd mentality means copying others' investment actions.",
+   "hints": [
+    "Correct — following the crowd rather than one's own analysis is herding.",
+    "Wrong — anchoring is fixating on an initial reference number.",
+    "Wrong — loss aversion is feeling losses more than equal gains.",
+    "Wrong — mental accounting is treating money differently by its source or label."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Under the SIF 'Equity Ex-Top 100 Long-Short Fund' strategy, at least what portion of NAV must be invested in equity of stocks excluding the top 100 by market capitalisation?",
+   "options": [
+    "80%",
+    "65%",
+    "50%",
+    "75%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Ex-Top 100 Long-Short: min 65% of NAV in equity of non-top-100 stocks; unhedged short in non-large-caps capped at 25% of NAV.",
+   "hints": [
+    "Wrong — 80% applies to Equity Long-Short and Sector Rotation strategies.",
+    "Correct — the floor is 65% of NAV outside the top 100 stocks.",
+    "Wrong — 50% is not the prescribed floor.",
+    "Wrong — 75% is the maximum sector exposure in the Sectoral Debt strategy."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "The SIF Debt Long-Short and Sectoral Debt Long-Short strategies must be structured as:",
+   "options": [
+    "Open-ended schemes with daily redemption",
+    "Close-ended schemes with no redemption until maturity",
+    "Interval schemes, with redemption allowed once a week or less frequently",
+    "Interval schemes with redemption twice a week"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Debt-oriented SIF strategies are interval schemes; AMCs may allow redemption once a week or at any lesser frequency.",
+   "hints": [
+    "Wrong — only equity SIF strategies may be open-ended.",
+    "Wrong — they are interval, not close-ended.",
+    "Correct — both debt strategies are interval schemes; AMC may allow weekly or less frequent redemption.",
+    "Wrong — twice a week applies to the hybrid strategies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "In the three-tier structure of a mutual fund, who appoints the custodian?",
+   "options": [
+    "The sponsor directly",
+    "The AMC's fund manager",
+    "AMFI",
+    "The trustees"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Custodians register under SEBI (Custodian) Regulations 1996 and are appointed by the trustees.",
+   "hints": [
+    "Wrong — the sponsor sets up the trust but does not appoint the custodian.",
+    "Wrong — the fund manager only manages investments.",
+    "Wrong — AMFI is an industry body, not an appointing authority.",
+    "Correct — the custodian is appointed by the trustees under a custodial agreement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-05",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "For how long may an AMC use the sponsor's or mutual fund's brand name in the offer documents and advertisements of its SIF?",
+   "options": [
+    "Three years from the first NFO of the SIF",
+    "Five years from the date of SEBI's approval for launch of the SIF",
+    "Indefinitely, as long as the font is smaller",
+    "It is never permitted"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "SIF must have its own name and logo; the MF/sponsor brand can be used for 5 years from SEBI approval, in a font no larger than the SIF brand.",
+   "hints": [
+    "Wrong — the period is five years from SEBI approval.",
+    "Correct — the 5-year window helps the new SIF brand gain recognition.",
+    "Wrong — the permission is time-bound.",
+    "Wrong — it is permitted, with conditions such as 'brought to you by'."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-06",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "As on which dates must an SIF disclose its portfolio?",
+   "options": [
+    "The last day of every month",
+    "The last day of each quarter only",
+    "The last day of every alternate month — May, July, September, November, January and March",
+    "Only as on 31 March and 30 September"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "SIF portfolios are disclosed as on the last day of every alternate month (May, Jul, Sep, Nov, Jan, Mar) on AMC and AMFI websites within 10 days, with ISINs.",
+   "hints": [
+    "Wrong — monthly disclosure applies to MF schemes.",
+    "Wrong — quarter-end alone is not the rule.",
+    "Correct — SIF portfolio disclosure is bi-monthly, within 10 days.",
+    "Wrong — half-yearly alone is not the rule for SIF."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-07",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "For an open-ended equity-oriented scheme, the maximum total expense ratio on the first ₹500 crore of daily net assets is:",
+   "options": [
+    "2.10%",
+    "1.85%",
+    "2.25%",
+    "1.00%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Base TER slab on the first ₹500 crore: 2.10% (equity-oriented) and 1.85% (others).",
+   "hints": [
+    "Correct — the 2026 slab is 2.10% for equity-oriented schemes.",
+    "Wrong — 1.85% is the limit for other-than-equity schemes.",
+    "Wrong — 2.25% was an older limit.",
+    "Wrong — 1.00% is the cap for close-ended equity schemes."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-08",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Ritu earns long-term capital gains of ₹2,00,000 from equity-oriented funds in a financial year (no other LTCG). What is her LTCG tax before cess and surcharge?",
+   "options": [
+    "₹25,000",
+    "₹15,000",
+    "Nil",
+    "₹9,375"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Equity LTCG is taxed at 12.5% above the ₹1.25 lakh annual exemption: 75,000 × 12.5% = ₹9,375.",
+   "hints": [
+    "Wrong — that ignores the ₹1.25 lakh exemption.",
+    "Wrong — that applies 20% (the STCG rate) to the excess.",
+    "Wrong — only the first ₹1.25 lakh is exempt.",
+    "Correct — (2,00,000 − 1,25,000) × 12.5% = ₹9,375."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M2-09",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "What is the cut-off time for purchases in a liquid fund?",
+   "options": [
+    "3.00 pm",
+    "12.00 noon",
+    "1.30 pm",
+    "7.00 pm"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Liquid and overnight funds: purchase cut-off 1.30 pm; the previous day's NAV applies if funds are available before cut-off.",
+   "hints": [
+    "Wrong — 3.00 pm applies to non-liquid purchases and to redemptions.",
+    "Wrong — noon is not a prescribed cut-off.",
+    "Correct — liquid and overnight fund purchases have a 1.30 pm cut-off.",
+    "Wrong — 7.00 pm applies to online redemptions in overnight funds."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-10",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Within how many business days of the closure of an NFO must units be allotted or money refunded?",
+   "options": [
+    "2 business days",
+    "5 business days",
+    "10 business days",
+    "15 days"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Allot units or refund within 5 business days of NFO closure; delayed refunds attract 15% p.a. interest borne by the AMC.",
+   "hints": [
+    "Wrong — 2 working days applies to demat conversion requests.",
+    "Correct — allotment/refund is due within 5 business days of NFO closure.",
+    "Wrong — 10 days is not the rule.",
+    "Wrong — 15 days is the maximum NFO period."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-11",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "A scheme returned 12% when the risk-free rate was 6% and the scheme's standard deviation was 4%. What is its Sharpe ratio?",
+   "options": [
+    "1.5",
+    "3.0",
+    "0.5",
+    "2.0"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Sharpe ratio = (Rs − Rf) ÷ SD = 6 ÷ 4 = 1.5.",
+   "hints": [
+    "Correct — (12 − 6) ÷ 4 = 1.5.",
+    "Wrong — 12 ÷ 4 ignores the risk-free rate.",
+    "Wrong — that inverts the ratio.",
+    "Wrong — not supported by the data."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M2-12",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "Which investor profile is most suitable for an SIF Equity Long-Short strategy?",
+   "options": [
+    "A retiree needing assured monthly income from ₹3 lakh",
+    "A first-time investor starting a ₹5,000 SIP",
+    "An investor seeking capital protection for an emergency fund",
+    "An investor with ₹15 lakh surplus, high risk appetite and understanding of short positions"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "SIFs are riskier than MF schemes and require ₹10 lakh minimum; suitability requires high risk capacity and appetite.",
+   "hints": [
+    "Wrong — below the ₹10 lakh threshold and needs income certainty.",
+    "Wrong — does not meet the ₹10 lakh threshold.",
+    "Wrong — emergency money needs safety and liquidity.",
+    "Correct — SIF needs ₹10 lakh+ and tolerance for the higher risk of long-short strategies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-13",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Exchange-traded derivatives trading in India began in June 2000 with:",
+   "options": [
+    "Stock options",
+    "Index options",
+    "Index futures",
+    "Stock futures"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Sequence: index futures (Jun 2000) → index options (Jun 2001) → stock options (Jul 2001) → stock futures (Nov 2001).",
+   "hints": [
+    "Wrong — stock options started in July 2001.",
+    "Wrong — index options started in June 2001.",
+    "Correct — index futures on Nifty and Sensex started in June 2000.",
+    "Wrong — stock futures started in November 2001."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-14",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "Impact cost of a stock is likely to be high when:",
+   "options": [
+    "Liquidity in the stock is poor",
+    "Liquidity in the stock is very high",
+    "The order size is very small",
+    "The bid-ask spread is very narrow"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Impact cost is the percentage degradation from the ideal price; it rises with order size and falls with liquidity.",
+   "hints": [
+    "Correct — thin order books push large orders far from the ideal price.",
+    "Wrong — high liquidity lowers impact cost.",
+    "Wrong — small orders face only the spread.",
+    "Wrong — a narrow spread signals liquidity and lower cost."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-15",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "Nifty spot is 24,894 and the near-month Nifty futures trade at 25,006. Using the workbook's definition, the basis is:",
+   "options": [
+    "Positive (+112), indicating a contango market",
+    "Negative (−112), indicating a contango market",
+    "Negative (−112), indicating backwardation",
+    "Zero, because expiry is near"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Basis = Spot − Futures. Futures > spot ⇒ negative basis ⇒ contango.",
+   "hints": [
+    "Wrong — basis is spot minus futures, so it is negative here.",
+    "Correct — basis = spot − futures = 24,894 − 25,006 = −112; futures above spot is contango.",
+    "Wrong — backwardation has spot above futures (positive basis).",
+    "Wrong — basis reaches zero only at expiry."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M2-16",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "Open interest in a futures contract refers to:",
+   "options": [
+    "The number of contracts traded during the day",
+    "The total of long plus short positions",
+    "The margin money held by the clearing corporation",
+    "The total number of contracts outstanding (counted on one side)"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Open interest = contracts yet to be settled; number of longs = number of shorts = OI.",
+   "hints": [
+    "Wrong — that is traded volume.",
+    "Wrong — longs always equal shorts, so only one side is counted.",
+    "Wrong — margin is unrelated to OI.",
+    "Correct — OI counts outstanding contracts, only one side."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-17",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "XYZ shares trade at ₹1,286. A ₹1,250 strike call is quoted at ₹60. What is the call's intrinsic value?",
+   "options": [
+    "₹60",
+    "₹36",
+    "₹24",
+    "Zero"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Call intrinsic value = max(S − X, 0) = ₹36; time value = 60 − 36 = ₹24.",
+   "hints": [
+    "Wrong — ₹60 is the full premium.",
+    "Correct — intrinsic value = S − X = 1,286 − 1,250.",
+    "Wrong — ₹24 is the time value (60 − 36).",
+    "Wrong — the call is in-the-money, so intrinsic value is positive."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M2-18",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "A stock trades at ₹940. A ₹900 strike put is priced at ₹12. How much of the premium is time value?",
+   "options": [
+    "₹40",
+    "₹52",
+    "Zero",
+    "₹12"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "For OTM options the entire premium is time value. Put intrinsic value = max(X − S, 0) = 0.",
+   "hints": [
+    "Wrong — ₹40 is spot minus strike, not a put value.",
+    "Wrong — ₹52 adds unrelated numbers.",
+    "Wrong — an unexpired option always has time value.",
+    "Correct — the put is OTM (strike < spot), so intrinsic value is zero and the whole premium is time value."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M2-19",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "A trader expects a big move in a stock after a court verdict but is unsure of the direction. Which strategy suits this view?",
+   "options": [
+    "Long straddle",
+    "Short straddle",
+    "Covered call",
+    "Bull call spread"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Long straddle = long call + long put, same strike and expiry; a view on volatility, not direction.",
+   "hints": [
+    "Correct — buying a call and a put at the same strike profits from a large move either way.",
+    "Wrong — a short straddle profits only if the price stays stable.",
+    "Wrong — a covered call is mildly bullish/neutral income generation.",
+    "Wrong — a bull spread needs a rise."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-20",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "A covered call (long stock + short call) has a payoff similar to:",
+   "options": [
+    "A long call",
+    "A long put",
+    "A short put",
+    "A long straddle"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Covered call = synthetic short put; protective put = synthetic long call.",
+   "hints": [
+    "Wrong — a protective put resembles a long call.",
+    "Wrong — a long put profits from falls.",
+    "Correct — it caps upside and leaves downside open — the shape of a short put.",
+    "Wrong — a straddle profits from big moves."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-21",
+   "chapter": 18,
+   "difficulty": "easy",
+   "q": "For a zero-coupon bond, Macaulay duration is:",
+   "options": [
+    "Less than its time to maturity",
+    "Equal to its time to maturity",
+    "Greater than its time to maturity",
+    "Always zero"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Zero-coupon bonds have no interim cash flows, so duration equals maturity.",
+   "hints": [
+    "Wrong — coupon bonds have duration below maturity.",
+    "Correct — with a single cash flow at maturity, the weighted average time is the maturity.",
+    "Wrong — duration cannot exceed maturity for an option-free bond.",
+    "Wrong — duration is zero only at maturity."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-22",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "The tick size for cash-settled GOI bond futures is ₹0.0025. What is the change in contract value per tick for one lot?",
+   "options": [
+    "₹5",
+    "₹0.25",
+    "₹1.25",
+    "₹50"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Tick value = lot (2,000) × tick (₹0.0025) = ₹5 per lot.",
+   "hints": [
+    "Correct — 2,000 bonds × ₹0.0025 = ₹5.",
+    "Wrong — that ignores the 2,000-bond lot.",
+    "Wrong — ₹1.25 is the tick value of 91-day T-bill futures.",
+    "Wrong — that uses 20,000 bonds."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "vd-M2-23",
+   "chapter": 21,
+   "difficulty": "easy",
+   "q": "Which option pricing model is used in India for computing theoretical prices of exchange-traded interest rate options on government securities?",
+   "options": [
+    "Binomial model",
+    "Black-Scholes model using spot prices",
+    "Black (1976) model",
+    "Put-call parity"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The workbook states Black 1976 is used for theoretical prices of exchange-traded IROs in India.",
+   "hints": [
+    "Wrong — the binomial model is iterative and not the stated model.",
+    "Wrong — Black-Scholes uses spot prices; Black-76 replaces spot with discounted futures.",
+    "Correct — Black-76 uses futures/forward prices and is applied to IROs.",
+    "Wrong — parity is a relationship, not a pricing model."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-24",
+   "chapter": 22,
+   "difficulty": "easy",
+   "q": "A bond portfolio manager expects interest rates to rise. Using GOI bond futures, the manager should:",
+   "options": [
+    "Buy bond futures",
+    "Buy bond call options",
+    "Do nothing, as futures cannot hedge rates",
+    "Sell bond futures"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Rate-rise view: sell GOI bond futures / buy bond puts / sell T-bill futures / buy MIBOR futures.",
+   "hints": [
+    "Wrong — long futures lose when rates rise.",
+    "Wrong — calls gain when bond prices rise (rates fall).",
+    "Wrong — bond futures are designed for rate hedging.",
+    "Correct — rising rates lower bond prices, so a short futures position gains."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "vd-M2-25",
+   "chapter": 22,
+   "difficulty": "easy",
+   "q": "An insurance company expects large premium inflows next month and fears that interest rates will fall before it can invest. It should:",
+   "options": [
+    "Buy GOI bond futures (a long hedge)",
+    "Sell GOI bond futures",
+    "Buy overnight MIBOR futures",
+    "Sell GOI bond call options"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Long hedge: buy futures to lock in purchase price/yield when you will invest later and fear falling rates.",
+   "hints": [
+    "Correct — a long hedge locks today's yield for future investment.",
+    "Wrong — selling protects existing holdings against a rate rise.",
+    "Wrong — long MIBOR futures gain when rates rise.",
+    "Wrong — selling calls gives limited premium and loses if prices rise."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}
