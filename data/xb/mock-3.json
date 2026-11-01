@@ -1,0 +1,583 @@
+{
+  "id": "mock-3",
+  "title": "Mock 3 · Tax Toolkit",
+  "level": "easy",
+  "blurb": "Capital gains, house property and dividend rules alongside insurance, retirement and estate basics, with a listed-equity tax caselet.",
+  "questions": [
+    {
+      "id": "xb-M3-01",
+      "chapter": 11,
+      "difficulty": "easy",
+      "q": "What is Neha's tax on the gain from the sale of 600 shares on 15 December 2026?",
+      "options": [
+        "₹9,000",
+        "Nil",
+        "₹21,600",
+        "₹14,400"
+      ],
+      "answer": 3,
+      "marks": 2,
+      "explanation": "The holding period of about 11 months (12 months or less) makes it a short-term capital gain: 600 × (520 − 400) = ₹72,000. STT-paid STCG on listed equity is taxed at 20% under s.196: ₹14,400.",
+      "hints": [
+        "Incorrect. 12.5% is the LTCG rate, but this gain is short-term.",
+        "Incorrect. The ₹1.25 lakh exemption applies only to LTCG under s.198.",
+        "Incorrect. 30% is a slab rate. STT-paid STCG is taxed at a flat 20%.",
+        "Correct. STCG ₹72,000 × 20% = ₹14,400."
+      ],
+      "numeric": true,
+      "case": "Neha, a resident individual, bought 1,000 listed equity shares of PQR Ltd at ₹400 each on 10 January 2026 through a recognised stock exchange, paying STT. She sold 600 shares at ₹520 each on 15 December 2026, and the remaining 400 shares at ₹560 each on 20 February 2027. Both sales were on the exchange with STT paid. She had no other capital gains or losses in Tax Year 2026-27. Ignore brokerage, surcharge and cess."
+    },
+    {
+      "id": "xb-M3-02",
+      "chapter": 11,
+      "difficulty": "easy",
+      "q": "What is Neha's tax on the gain from the sale of the remaining 400 shares on 20 February 2027?",
+      "options": [
+        "₹8,000",
+        "Nil",
+        "₹12,800",
+        "₹2,000"
+      ],
+      "answer": 1,
+      "marks": 2,
+      "explanation": "Held for more than 12 months, so it is LTCG: 400 × (560 − 400) = ₹64,000. Under s.198, LTCG on STT-paid listed equity up to ₹1,25,000 a year is not taxed, so there is no tax.",
+      "hints": [
+        "Incorrect. This applies 12.5% without the ₹1.25 lakh exemption.",
+        "Correct. LTCG of ₹64,000 is within the ₹1.25 lakh exemption.",
+        "Incorrect. This wrongly treats the gain as STCG at 20%.",
+        "Incorrect. No tax arises at all because the gain is below ₹1.25 lakh."
+      ],
+      "numeric": true,
+      "case": "Neha, a resident individual, bought 1,000 listed equity shares of PQR Ltd at ₹400 each on 10 January 2026 through a recognised stock exchange, paying STT. She sold 600 shares at ₹520 each on 15 December 2026, and the remaining 400 shares at ₹560 each on 20 February 2027. Both sales were on the exchange with STT paid. She had no other capital gains or losses in Tax Year 2026-27. Ignore brokerage, surcharge and cess."
+    },
+    {
+      "id": "xb-M3-03",
+      "chapter": 11,
+      "difficulty": "easy",
+      "q": "Under the Income-tax Act, 2025, the 20% rate on Neha's short-term gain is levied under which section (old section in brackets)?",
+      "options": [
+        "Section 198 (112A)",
+        "Section 197 (112)",
+        "Section 196 (111A)",
+        "Section 202 (115BAC)"
+      ],
+      "answer": 2,
+      "marks": 2,
+      "explanation": "STCG on STT-paid equity shares, equity-oriented fund units and business-trust units is taxed at 20% under s.196, corresponding to s.111A of the 1961 Act.",
+      "hints": [
+        "Incorrect. s.198 (112A) covers LTCG above ₹1.25 lakh.",
+        "Incorrect. s.197 (112) covers other LTCG at 12.5%.",
+        "Correct. s.196 corresponds to the old 111A.",
+        "Incorrect. s.202 (115BAC) is the new tax regime."
+      ],
+      "numeric": false,
+      "case": "Neha, a resident individual, bought 1,000 listed equity shares of PQR Ltd at ₹400 each on 10 January 2026 through a recognised stock exchange, paying STT. She sold 600 shares at ₹520 each on 15 December 2026, and the remaining 400 shares at ₹560 each on 20 February 2027. Both sales were on the exchange with STT paid. She had no other capital gains or losses in Tax Year 2026-27. Ignore brokerage, surcharge and cess."
+    },
+    {
+      "id": "xb-M3-04",
+      "chapter": 1,
+      "difficulty": "easy",
+      "q": "In which of the following relationships does insurable interest NOT exist unless financial dependence is proved?",
+      "options": [
+        "Spouse",
+        "Son",
+        "Nephew",
+        "Father"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Direct dependants and relationships of blood and marriage (spouse, children, parents) have insurable interest. For aunts, uncles, cousins, nieces and nephews it exists only with proof of financial dependence.",
+      "hints": [
+        "Incorrect. A spouse has an automatic insurable interest.",
+        "Incorrect. A child has an automatic insurable interest.",
+        "Correct. A nephew needs proof of financial dependence.",
+        "Incorrect. A parent has an automatic insurable interest."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-05",
+      "chapter": 2,
+      "difficulty": "easy",
+      "q": "If the expected growth in income equals the expected investment return, the Human Life Value under the income replacement method equals:",
+      "options": [
+        "Zero, since the discount rate is zero",
+        "Current annual income only",
+        "Twice the current annual income",
+        "Current annual income × number of years left to retirement"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "When income growth = return, the real discount rate (1+g)/(1+r) − 1 = 0, so there is no discounting and HLV = income × years left (e.g. ₹10 lakh × 27 = ₹2.7 crore).",
+      "hints": [
+        "Incorrect. A zero discount rate does not make the HLV zero.",
+        "Incorrect. The income must be multiplied by the years remaining.",
+        "Incorrect. This has no basis.",
+        "Correct. A zero real rate means simple multiplication."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-06",
+      "chapter": 2,
+      "difficulty": "easy",
+      "q": "Which statement about assignment of a life insurance policy is correct?",
+      "options": [
+        "Assigning the policy to the insurer for a policy loan cancels the nomination completely",
+        "Assigning the policy to a bank for a loan cancels the existing nomination",
+        "A nomination cancelled by assignment can never be reinstated",
+        "An assignment is valid against the insurer even without written notice to it"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "An assignment cancels an existing nomination, except an assignment to the insurer itself for a loan, where the nomination is affected only to the extent of the insurer's interest. The nomination is reinstated when the policy is re-assigned, and the insurer must record the assignment by endorsement after written notice.",
+      "hints": [
+        "Incorrect. An assignment to the insurer affects the nomination only to the extent of its interest.",
+        "Correct. Assignment to a third party such as a bank cancels the nomination.",
+        "Incorrect. The nomination is reinstated on re-assignment to the policyholder.",
+        "Incorrect. Written notice and endorsement by the insurer are required."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-07",
+      "chapter": 3,
+      "difficulty": "easy",
+      "q": "Which statement about keyman insurance is correct?",
+      "options": [
+        "The key executive's family is the beneficiary",
+        "It covers losses from employee fraud",
+        "It protects directors against personal liability claims",
+        "The company buys the policy on a key executive's life, pays the premium and is the beneficiary"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Keyman insurance is a life policy purchased by a company to cover itself against the loss of a key executive's life. The company pays the premiums and is the beneficiary.",
+      "hints": [
+        "Incorrect. The company, not the family, is the beneficiary.",
+        "Incorrect. Employee fraud is covered by fidelity insurance.",
+        "Incorrect. Personal liability of directors is covered by D&O insurance.",
+        "Correct. The company pays and the company benefits."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-08",
+      "chapter": 4,
+      "difficulty": "easy",
+      "q": "If the expected return on a retirement corpus is 10% p.a. and expected inflation is 6% p.a., what is the inflation-adjusted rate?",
+      "options": [
+        "3.77%",
+        "4.00%",
+        "16.60%",
+        "1.67%"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Real rate = (1.10/1.06) − 1 = 3.77%, the same rate used in the workbook's Charu example.",
+      "hints": [
+        "Correct. 1.10/1.06 − 1 = 3.77%.",
+        "Incorrect. Simple subtraction overstates the real rate.",
+        "Incorrect. This multiplies (1.10 × 1.06) − 1.",
+        "Incorrect. This is an incorrect ratio."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M3-09",
+      "chapter": 5,
+      "difficulty": "medium",
+      "q": "A non-government NPS subscriber exits at age 60 with an accumulated pension wealth of ₹10 lakh. What is the maximum amount that can be taken as a lump sum?",
+      "options": [
+        "₹6 lakh, with the balance as an annuity or systematic unit redemption for at least 6 years",
+        "The entire ₹10 lakh, since it is below ₹12 lakh",
+        "₹8 lakh, with 20% as an annuity",
+        "₹2 lakh, with 80% as an annuity"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "For a corpus above ₹8 lakh but not more than ₹12 lakh, up to ₹6 lakh can be withdrawn as a lump sum or systematic payout, and the balance goes to an annuity or SUR for at least 6 years.",
+      "hints": [
+        "Correct. In the ₹8–12 lakh band, the lump sum is capped at ₹6 lakh.",
+        "Incorrect. Full withdrawal is allowed only up to ₹8 lakh (₹12 lakh applies to those joining after 60).",
+        "Incorrect. The 80:20 rule applies only to larger corpuses.",
+        "Incorrect. 80% annuitisation applies on premature exit."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-10",
+      "chapter": 5,
+      "difficulty": "easy",
+      "q": "What is the maximum deposit in a single-holder Post Office Monthly Income Scheme account?",
+      "options": [
+        "₹9 lakh",
+        "₹4.5 lakh",
+        "₹15 lakh",
+        "₹30 lakh"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "POMIS allows a maximum of ₹9 lakh in single holding and ₹15 lakh in joint holding, in multiples of ₹1,000 with a ₹1,000 minimum.",
+      "hints": [
+        "Correct. The single-account limit is ₹9 lakh.",
+        "Incorrect. ₹4.5 lakh is an old limit and no longer applies.",
+        "Incorrect. ₹15 lakh is the joint-account limit.",
+        "Incorrect. ₹30 lakh is the SCSS limit."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-11",
+      "chapter": 5,
+      "difficulty": "easy",
+      "q": "Which statement about a Reverse Mortgage Loan (RML) is correct?",
+      "options": [
+        "It becomes repayable only when the last surviving borrower dies or permanently moves out of the house",
+        "Its maximum tenure is 30 years",
+        "It can be taken against commercial property",
+        "The periodic payments received are taxable as income"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "An RML becomes due only when the last surviving borrower dies or permanently moves out, and is settled from the sale of the house (or repaid by the heirs). The maximum tenure is 20 years, commercial property is not eligible, and receipts are tax-exempt.",
+      "hints": [
+        "Correct. Repayment is triggered only by death or permanent move-out.",
+        "Incorrect. The maximum tenure is 20 years.",
+        "Incorrect. An RML cannot be availed against commercial property.",
+        "Incorrect. RML receipts are exempt from income tax."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-12",
+      "chapter": 6,
+      "difficulty": "medium",
+      "q": "Lata retires with ₹1.5 crore and follows a 3.2% safe withdrawal rate. Inflation is 5% p.a. Her portfolio falls to ₹1.35 crore by the end of year 1. Under the SWR approach, what is her year-2 withdrawal?",
+      "options": [
+        "₹4,32,000",
+        "₹5,04,000",
+        "₹4,80,000",
+        "₹4,53,600"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Year-1 withdrawal = 3.2% × ₹1.5 crore = ₹4,80,000. Under the SWR method it rises by inflation regardless of portfolio value: 4,80,000 × 1.05 = ₹5,04,000.",
+      "hints": [
+        "Incorrect. This wrongly recomputes 3.2% of the reduced corpus.",
+        "Correct. ₹4.8 lakh × 1.05 = ₹5.04 lakh.",
+        "Incorrect. This ignores the inflation increase.",
+        "Incorrect. This inflates 3.2% of the reduced corpus."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M3-13",
+      "chapter": 7,
+      "difficulty": "easy",
+      "q": "Under the old tax regime, what is the maximum loss under the head 'Income from House Property' that can be set off against other heads of income in a year?",
+      "options": [
+        "₹1,50,000",
+        "₹2,00,000",
+        "₹30,000",
+        "No limit"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Under the old regime, an HP loss can be set off against other heads up to ₹2 lakh a year, and the balance is carried forward for 8 years against HP income. Under the new regime no such set-off is allowed.",
+      "hints": [
+        "Incorrect. ₹1.5 lakh is the s.123 (80C) limit.",
+        "Correct. The cap is ₹2 lakh under the old regime.",
+        "Incorrect. ₹30,000 is the interest cap when construction exceeds 5 years.",
+        "Incorrect. Set-off against other heads is capped."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-14",
+      "chapter": 9,
+      "difficulty": "easy",
+      "q": "Mr. A, a resident, received dividends of ₹5,00,000 in Tax Year 2026-27 and paid ₹1,50,000 interest on money borrowed to buy the shares. How much interest can he deduct from the dividend income?",
+      "options": [
+        "₹1,00,000 (20% of dividend)",
+        "₹1,50,000",
+        "₹50,000",
+        "Nil"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "From Tax Year 2026-27, no deduction of any expenditure, including interest, is allowed against dividend income. The earlier 20%-of-dividend interest allowance has been withdrawn.",
+      "hints": [
+        "Incorrect. The 20% interest allowance no longer applies.",
+        "Incorrect. No interest is deductible.",
+        "Incorrect. No partial deduction is allowed.",
+        "Correct. No deduction is allowed from Tax Year 2026-27."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M3-15",
+      "chapter": 10,
+      "difficulty": "easy",
+      "q": "Which statement about tax-free bonds is correct?",
+      "options": [
+        "Both interest and capital gains are exempt",
+        "Interest is taxable but capital gains are exempt",
+        "Interest is exempt, but capital gains on transfer or redemption are taxable",
+        "Gains are always taxed as short-term even if listed"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "The interest on tax-free bonds is exempt under section 11. Capital gains on transfer or redemption are taxable like other coupon bonds, e.g. LTCG at 12.5% if listed and held for more than 12 months.",
+      "hints": [
+        "Incorrect. Capital gains are not exempt.",
+        "Incorrect. Interest is the exempt part.",
+        "Correct. Tax-free covers the interest, not the gains.",
+        "Incorrect. Listed bonds held for more than 12 months give LTCG."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-16",
+      "chapter": 12,
+      "difficulty": "medium",
+      "q": "In Tax Year 2026-27, Mr. Joshi (an individual) redeems Sovereign Gold Bonds at maturity that he had bought in the secondary market 3 years earlier. What is the tax treatment of the gain?",
+      "options": [
+        "Fully exempt, since redemption of SGBs by an individual is not a transfer",
+        "Taxable as long-term capital gains at 12.5%",
+        "Taxable as short-term capital gains at slab rates",
+        "Taxable as Income from Other Sources"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "The Finance Act, 2026 limits the redemption exemption to individuals who subscribed at the original issue and held the bonds continuously until maturity. Secondary-market buyers are taxed. A listed SGB held for more than 12 months gives LTCG at 12.5%.",
+      "hints": [
+        "Incorrect. The exemption now applies only to original subscribers holding till maturity.",
+        "Correct. Secondary-market purchase means no exemption, so it is LTCG at 12.5%.",
+        "Incorrect. A holding of more than 12 months makes it long-term.",
+        "Incorrect. Redemption gains are capital gains."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-17",
+      "chapter": 13,
+      "difficulty": "easy",
+      "q": "How is the gain on renouncing rights entitlements (held for a few days) taxed?",
+      "options": [
+        "As short-term capital gain at the normal slab rate, with a cost of acquisition of nil",
+        "At 20% under section 196 as listed equity",
+        "As long-term capital gain at 12.5%",
+        "As dividend income"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Renounced rights have a nil cost and a holding period from offer to renunciation, so they are usually short-term. Even if listed, a right is not a listed equity share, so the gain is taxed at slab rates and not under s.196.",
+      "hints": [
+        "Correct. Nil cost and slab-rate STCG.",
+        "Incorrect. Rights entitlements are not covered by s.196 (111A).",
+        "Incorrect. The holding period is usually far below 12 months.",
+        "Incorrect. The gain is a capital gain, not a dividend."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-18",
+      "chapter": 14,
+      "difficulty": "easy",
+      "q": "Two persons related by blood or adoption WHOLLY through males are said to be:",
+      "options": [
+        "Agnates",
+        "Cognates",
+        "Uterine relations",
+        "Class I heirs"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Under the Hindu Succession Act, an agnate is related wholly through males. A cognate is related by blood or adoption but not wholly through males.",
+      "hints": [
+        "Correct. Wholly through males means agnate.",
+        "Incorrect. A cognate is NOT wholly through males.",
+        "Incorrect. Uterine relations share a mother but have different fathers.",
+        "Incorrect. Class I is a list of heirs, not a type of relationship."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-19",
+      "chapter": 15,
+      "difficulty": "easy",
+      "q": "Under the Banking Laws (Amendment) Act, 2025, how many nominees can a bank customer appoint for a deposit account?",
+      "options": [
+        "Up to four",
+        "Only one",
+        "Up to two",
+        "Up to ten"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "The Banking Laws (Amendment) Act, 2025 permits up to four nominees, simultaneous or successive for deposits. For safe custody articles and lockers only successive nomination is allowed.",
+      "hints": [
+        "Correct. Banks allow up to 4 nominees.",
+        "Incorrect. Multiple nominees are now permitted.",
+        "Incorrect. The limit is four, not two.",
+        "Incorrect. Ten is not the bank limit (SEBI allows up to 3 for demat and MF from 1 Sep 2026)."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-20",
+      "chapter": 15,
+      "difficulty": "easy",
+      "q": "In a trust, the person who accepts the confidence reposed by the author and holds legal title to the trust property is the:",
+      "options": [
+        "Settlor",
+        "Beneficiary",
+        "Executor",
+        "Trustee"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Under s.3 of the Indian Trusts Act, 1882, the trustee accepts the confidence and holds the legal title to the trust assets, managing them for the beneficiaries per the trust deed.",
+      "hints": [
+        "Incorrect. The settlor (author) reposes the confidence and creates the trust.",
+        "Incorrect. The beneficiary receives the benefits.",
+        "Incorrect. An executor administers a Will, not a trust.",
+        "Correct. The trustee holds the legal title and manages the trust."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-21",
+      "chapter": 16,
+      "difficulty": "easy",
+      "q": "Sameer saves carefully from his salary but spends his annual bonus and tax refund extravagantly. This illustrates:",
+      "options": [
+        "Anchoring",
+        "Overconfidence",
+        "Mental accounting",
+        "Status quo bias"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Mental accounting (Richard Thaler) means treating money as non-fungible depending on its source or use. Windfalls such as bonuses and refunds are spent more freely than salary.",
+      "hints": [
+        "Incorrect. Anchoring is relying on an initial reference point.",
+        "Incorrect. Overconfidence is overrating one's own abilities.",
+        "Correct. Treating bonus money differently from salary is mental accounting.",
+        "Incorrect. Status quo bias is preferring inaction."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-22",
+      "chapter": 17,
+      "difficulty": "easy",
+      "q": "According to the workbook, what is the antidote to home-country bias in clients' portfolios?",
+      "options": [
+        "Advise clients to invest only in domestic securities",
+        "Avoid the Liberalised Remittance Scheme",
+        "The adviser educates themselves on global investing and in turn educates clients about its benefits",
+        "Increase concentration in familiar companies"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Home bias denies clients diversification. The workbook says the adviser should get educated on global opportunities and educate clients. LRS (up to USD 250 thousand) and Indian international funds make access easier.",
+      "hints": [
+        "Incorrect. This reinforces the bias.",
+        "Incorrect. LRS is one of the routes that helps overcome home bias.",
+        "Correct. Education on global investing is the cure.",
+        "Incorrect. This worsens the concentration."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-23",
+      "chapter": 18,
+      "difficulty": "easy",
+      "q": "A client claims a very high risk tolerance, but in the last market crash she sold all her equity in panic. The behavioural dimension this reveals is:",
+      "options": [
+        "High risk capacity",
+        "High financial engagement",
+        "Low risk composure",
+        "Low risk need"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Risk composure is how consistently stated preferences translate into behaviour under stress. It is best assessed from past behaviour during actual declines. Panic selling shows low composure, which calls for a less aggressive allocation.",
+      "hints": [
+        "Incorrect. Risk capacity is financial ability to absorb losses, not behaviour.",
+        "Incorrect. Financial engagement is knowledge and involvement.",
+        "Correct. Stated tolerance that breaks under stress means low composure.",
+        "Incorrect. Risk need relates to the return required by goals."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-24",
+      "chapter": 19,
+      "difficulty": "easy",
+      "q": "According to the workbook, DICGC insurance on bank deposits is limited to:",
+      "options": [
+        "₹1 lakh per account",
+        "₹5 lakh per account, principal only",
+        "₹10 lakh per depositor across all banks",
+        "₹5 lakh per depositor per bank, including principal and interest"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Eligible deposits are insured by DICGC only up to ₹5 lakh per depositor per bank, covering principal and interest together.",
+      "hints": [
+        "Incorrect. ₹1 lakh is an old limit.",
+        "Incorrect. The cover is per depositor and includes interest.",
+        "Incorrect. The cover is per bank, and it is ₹5 lakh.",
+        "Correct. ₹5 lakh per depositor per bank."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M3-25",
+      "chapter": 20,
+      "difficulty": "medium",
+      "q": "An investor buys an asset of ₹1,20,000 yielding 11% p.a., funded equally by own money and a loan at 9% p.a. (debt/equity = 1). What is his return on equity?",
+      "options": [
+        "11%",
+        "13%",
+        "2%",
+        "20%"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Own funds = ₹60,000 and loan = ₹60,000. Income = 11% × 1,20,000 = ₹13,200. Interest = 9% × 60,000 = ₹5,400. Net = ₹7,800, and ROE = 7,800/60,000 = 13%.",
+      "hints": [
+        "Incorrect. 11% is the asset yield, not the return on own funds.",
+        "Correct. ₹7,800 ÷ ₹60,000 = 13%.",
+        "Incorrect. 2% is only the spread between yield and borrowing cost.",
+        "Incorrect. This ignores the interest cost."
+      ],
+      "numeric": true,
+      "case": null
+    }
+  ]
+}

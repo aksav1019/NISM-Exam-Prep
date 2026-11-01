@@ -1,0 +1,698 @@
+{
+  "id": "mock-7",
+  "title": "Mock 7 · Tough Simulation II",
+  "level": "tough",
+  "blurb": "The final dress rehearsal: estate distribution, goal-funding and health/retirement-income caselets plus hard tax and product traps.",
+  "questions": [
+    {
+      "id": "xb-M7-01",
+      "chapter": 1,
+      "difficulty": "hard",
+      "q": "Which of the following statements about insurance intermediaries is NOT correct?",
+      "options": [
+        "A composite insurance agent may act for two life insurers and one general insurer at the same time",
+        "A corporate agent (composite) may tie up with up to three life, three general and three health insurers",
+        "A direct broker represents the client and can charge a fee to the client",
+        "When a bank becomes a corporate agent of an insurer, it is called bancassurance"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "A composite insurance agent cannot act for more than ONE life insurer, one general, one health and one each of the mono-line insurers. The other statements are correct per section 1.8.3.",
+      "hints": [
+        "Correct. This is the false statement: only one life insurer is allowed.",
+        "Incorrect. This is correct: 3 + 3 + 3 for a composite corporate agent.",
+        "Incorrect. This is correct: a direct broker can charge fees and/or earn commission.",
+        "Incorrect. This is correct: it is the definition of bancassurance."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M7-02",
+      "chapter": 2,
+      "difficulty": "hard",
+      "q": "Mr. S bought a ULIP in March 2022 with an annual premium of ₹3 lakh and a sum assured of ₹40 lakh. He has no other ULIPs. How will the maturity proceeds be treated?",
+      "options": [
+        "Fully exempt, because the sum assured exceeds 10 times the premium",
+        "Taxable as capital gains, because the aggregate annual premium exceeds ₹2.5 lakh",
+        "Taxable as Income from Other Sources at slab rates",
+        "Exempt, because ULIPs are always tax-free on maturity"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "For ULIPs issued on or after 1 February 2021, maturity proceeds are exempt only if the aggregate premium is ₹2.5 lakh or less (and the premium is at most 10% of the sum assured). Otherwise the ULIP is a capital asset and the proceeds are taxed as capital gains.",
+      "hints": [
+        "Incorrect. The 10% test alone is not enough for post-February 2021 ULIPs.",
+        "Correct. Above the ₹2.5 lakh ULIP cap, it is a capital asset taxed as capital gains.",
+        "Incorrect. Taxation as Other Sources applies to non-ULIP policies above ₹5 lakh.",
+        "Incorrect. The exemption is conditional."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M7-03",
+      "chapter": 3,
+      "difficulty": "medium",
+      "q": "Ramesh, a self-employed architect, worries that a stroke could stop him from working for years. Which cover best protects the INCOME he would lose?",
+      "options": [
+        "A higher sum insured on his mediclaim policy",
+        "A critical illness policy with a sum insured worked out like a life insurance need",
+        "A daily hospital cash benefit",
+        "A fidelity insurance policy"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Critical illness pays a lump sum on diagnosis (after the survival period) that can replace lost income. The workbook stresses that the cover should be calculated like life insurance, not treated as a small add-on.",
+      "hints": [
+        "Incorrect. Mediclaim only reimburses hospital bills, not lost income.",
+        "Correct. A lump-sum defined benefit is what replaces lost income.",
+        "Incorrect. Hospital cash is too small and only covers hospitalisation days.",
+        "Incorrect. Fidelity insurance covers employee dishonesty, not illness."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M7-04",
+      "chapter": 4,
+      "difficulty": "medium",
+      "q": "Which statement about an approved superannuation fund under the Income-tax Act, 2025 is correct?",
+      "options": [
+        "The employee's own contribution is deductible under the new tax regime",
+        "Every payment from the fund is fully exempt in all circumstances",
+        "Annuities and benefits may be payable anywhere in the world",
+        "Income received by the trustees on behalf of the approved fund is not included in total income"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Schedule VII (Sl. No. 23) exempts income received by trustees on behalf of an approved superannuation fund. Payments are exempt only in specified circumstances, the employee's contribution deduction is old-regime only, and benefits must be payable only in India.",
+      "hints": [
+        "Incorrect. The deduction is not available under the new regime (s.202).",
+        "Incorrect. Exemption is not blanket. The payment must fall in a specified category.",
+        "Incorrect. Benefits must be payable only in India.",
+        "Correct. Fund income accumulates tax-free."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M7-05",
+      "chapter": 5,
+      "difficulty": "hard",
+      "q": "Kiran, a private-sector employee NOT covered by the Payment of Gratuity Act, retires after 24 completed years. His average salary (basic + DA) for the 10 months before retirement is ₹1,00,000 per month, and he receives gratuity of ₹15 lakh. The notified limit is ₹20 lakh. How much of the gratuity is taxable?",
+      "options": [
+        "Nil",
+        "₹15 lakh",
+        "₹3 lakh",
+        "₹5 lakh"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "The exemption is the least of: actual gratuity (₹15 lakh), the notified limit (₹20 lakh), and half a month's average salary × completed years = 50,000 × 24 = ₹12 lakh. The exemption is ₹12 lakh, so ₹3 lakh is taxable.",
+      "hints": [
+        "Incorrect. Nil would require the half-month formula to exceed ₹15 lakh.",
+        "Incorrect. Part of the gratuity is exempt.",
+        "Correct. 15 − 12 = ₹3 lakh taxable.",
+        "Incorrect. This uses the wrong exemption computation."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M7-06",
+      "chapter": 5,
+      "difficulty": "medium",
+      "q": "Which statement about PFRDA's Multiple Scheme Framework (MSF) under NPS is correct?",
+      "options": [
+        "It is available only to Central Government employees",
+        "It caps equity at 75% for all schemes",
+        "It is for non-government subscribers, offers a high-risk variant with up to 100% equity, and has a minimum vesting period of 15 years",
+        "Subscribers can switch freely between MSF and Common Schemes during the vesting period"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "MSF (from 1 October 2025) lets non-government subscribers (identified by PAN) hold multiple schemes. Each scheme has moderate- and high-risk variants (equity up to 100%). The minimum vesting is 15 years, and during vesting a subscriber can switch from MSF only to Common Schemes.",
+      "hints": [
+        "Incorrect. MSF is for the non-government sector.",
+        "Incorrect. The 75% cap applies to Active Choice under the Common Schemes.",
+        "Correct. Non-government, up to 100% equity, 15-year vesting.",
+        "Incorrect. During vesting, switches are only from MSF to Common Schemes."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M7-07",
+      "chapter": 14,
+      "difficulty": "medium",
+      "q": "Into how many shares will Arvind's ₹1.8 crore estate be divided?",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "marks": 2,
+      "explanation": "Class I heirs: the widow (1 share), the mother (1), the two sons (1 each), the daughter (1) and the predeceased son's branch (1 share). That makes 6. The father is Class II and is excluded.",
+      "hints": [
+        "Correct. 1 + 1 + 2 + 1 + 1 = 6 shares.",
+        "Incorrect. Adding the father makes 7, but he is Class II.",
+        "Incorrect. Leaving out the predeceased son's branch gives 5.",
+        "Incorrect. Counting the predeceased son's widow and son as separate shares gives 8. They share one share."
+      ],
+      "numeric": true,
+      "case": "Mr. Arvind Rao, a Hindu, died intestate leaving self-acquired assets worth ₹1.8 crore (net of debts). He is survived by his widow, his mother, his father, two sons and one daughter. A third son had died earlier, leaving behind his own widow and one son. Separately, Arvind held a life insurance policy of ₹1 crore (not under MWPA) in which his wife was the registered nominee. The family asks the adviser how the estate and the policy money will be distributed under the Hindu Succession Act, 1956 and the Insurance Act, 1938."
+    },
+    {
+      "id": "xb-M7-08",
+      "chapter": 14,
+      "difficulty": "easy",
+      "q": "What is the daughter's share?",
+      "options": [
+        "₹15 lakh",
+        "₹36 lakh",
+        "₹25.71 lakh",
+        "₹30 lakh"
+      ],
+      "answer": 3,
+      "marks": 2,
+      "explanation": "₹1.8 crore ÷ 6 shares = ₹30 lakh per share. A daughter takes a full share equal to a son's.",
+      "hints": [
+        "Incorrect. A daughter is not entitled to half a son's share.",
+        "Incorrect. Dividing by 5 ignores the predeceased son's branch.",
+        "Incorrect. Dividing by 7 wrongly includes the father.",
+        "Correct. ₹180 lakh ÷ 6 = ₹30 lakh."
+      ],
+      "numeric": true,
+      "case": "Mr. Arvind Rao, a Hindu, died intestate leaving self-acquired assets worth ₹1.8 crore (net of debts). He is survived by his widow, his mother, his father, two sons and one daughter. A third son had died earlier, leaving behind his own widow and one son. Separately, Arvind held a life insurance policy of ₹1 crore (not under MWPA) in which his wife was the registered nominee. The family asks the adviser how the estate and the policy money will be distributed under the Hindu Succession Act, 1956 and the Insurance Act, 1938."
+    },
+    {
+      "id": "xb-M7-09",
+      "chapter": 14,
+      "difficulty": "hard",
+      "q": "How much will the widow of the predeceased son receive?",
+      "options": [
+        "₹30 lakh",
+        "₹10 lakh",
+        "₹15 lakh",
+        "Nil, since a daughter-in-law is not an heir"
+      ],
+      "answer": 2,
+      "marks": 2,
+      "explanation": "The predeceased son's branch takes one share (₹30 lakh). Under Rule 4, his widow and his surviving children take equal portions, so his widow and son get ₹15 lakh each.",
+      "hints": [
+        "Incorrect. The whole branch share does not go to her alone.",
+        "Incorrect. There are only two members in the branch, not three.",
+        "Correct. One share split equally between the widow and the son = ₹15 lakh.",
+        "Incorrect. The widow of a predeceased son is a Class I heir."
+      ],
+      "numeric": true,
+      "case": "Mr. Arvind Rao, a Hindu, died intestate leaving self-acquired assets worth ₹1.8 crore (net of debts). He is survived by his widow, his mother, his father, two sons and one daughter. A third son had died earlier, leaving behind his own widow and one son. Separately, Arvind held a life insurance policy of ₹1 crore (not under MWPA) in which his wife was the registered nominee. The family asks the adviser how the estate and the policy money will be distributed under the Hindu Succession Act, 1956 and the Insurance Act, 1938."
+    },
+    {
+      "id": "xb-M7-10",
+      "chapter": 15,
+      "difficulty": "medium",
+      "q": "Who is entitled to the ₹1 crore life insurance claim?",
+      "options": [
+        "Arvind's wife alone, as beneficial nominee under s.39(7) of the Insurance Act",
+        "All the Class I heirs in equal shares",
+        "The wife, but only as trustee for all the legal heirs",
+        "It is added to the estate and shared in 6 parts"
+      ],
+      "answer": 0,
+      "marks": 2,
+      "explanation": "Since the 2015 amendment, a nominee who is a parent, spouse or child is beneficially entitled to life-insurance proceeds and is not a trustee for the legal heirs.",
+      "hints": [
+        "Correct. A spouse nominee gets the money beneficially.",
+        "Incorrect. The policy money does not pass by intestacy when there is a beneficial nominee.",
+        "Incorrect. That was the general rule before 2015, and it still applies to other nominees, but not to a spouse in life insurance.",
+        "Incorrect. It is not part of the distributable estate."
+      ],
+      "numeric": false,
+      "case": "Mr. Arvind Rao, a Hindu, died intestate leaving self-acquired assets worth ₹1.8 crore (net of debts). He is survived by his widow, his mother, his father, two sons and one daughter. A third son had died earlier, leaving behind his own widow and one son. Separately, Arvind held a life insurance policy of ₹1 crore (not under MWPA) in which his wife was the registered nominee. The family asks the adviser how the estate and the policy money will be distributed under the Hindu Succession Act, 1956 and the Insurance Act, 1938."
+    },
+    {
+      "id": "xb-M7-11",
+      "chapter": 6,
+      "difficulty": "hard",
+      "q": "The workbook back-tests a 1994 retiree with ₹1 crore, 50:50 equity:debt, and a deterministic initial withdrawal of about 5.55% rising with inflation. What did it find?",
+      "options": [
+        "The corpus lasted well beyond 30 years",
+        "The corpus ran out in 2016, about 7 years early, even though the average returns were close to the assumptions",
+        "The corpus ran out early because the return assumptions were badly wrong",
+        "The corpus ran out early only because inflation was much higher than assumed"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "The deterministic plan failed by 7 years 5 months despite the return and inflation assumptions being almost exactly right in combination. The cause was volatility and sequence-of-returns risk, which deterministic methods cannot see.",
+      "hints": [
+        "Incorrect. It failed early.",
+        "Correct. Correct averages but the wrong order of returns: sequence risk.",
+        "Incorrect. The workbook stresses that the assumptions were close to actuals.",
+        "Incorrect. The divergence was attributed to sequence risk, not inflation."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M7-12",
+      "chapter": 7,
+      "difficulty": "hard",
+      "q": "Mr. P has a salary of ₹10 lakh, a non-speculative business loss of ₹3 lakh, STCG of ₹1 lakh and speculative business profit of ₹50,000 in the same year. What business loss will be carried forward?",
+      "options": [
+        "₹3 lakh",
+        "Nil",
+        "₹1.5 lakh",
+        "₹2 lakh"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "A non-speculative business loss can be set off against any income except salary (including speculative profit and capital gains): 3 − 1 − 0.5 = ₹1.5 lakh, carried forward for up to 8 years.",
+      "hints": [
+        "Incorrect. Set-off against other heads (except salary) is allowed in the same year.",
+        "Incorrect. Business loss cannot be set off against salary.",
+        "Correct. Set off against STCG and speculative profit, but not salary.",
+        "Incorrect. This ignores the set-off against the speculative profit."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M7-13",
+      "chapter": 7,
+      "difficulty": "medium",
+      "q": "Which of the following incomes is NOT clubbed with the parent's or transferor's income?",
+      "options": [
+        "Interest earned by a wife on ₹20 lakh gifted to her by her husband",
+        "Rent earned by a daughter-in-law on a house gifted by her father-in-law",
+        "Interest on debentures where the holder assigned only the right to interest, not the debentures",
+        "A minor child's income from performing music on stage using his own talent"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Section 99 excludes a minor's income from manual work or from the application of his skill, talent, specialised knowledge or experience. The others are clubbed: assets transferred to a spouse or son's wife (s.99), and income transferred without the asset (s.96).",
+      "hints": [
+        "Incorrect. Income from assets gifted to a spouse is clubbed.",
+        "Incorrect. Income from assets transferred to a son's wife is clubbed.",
+        "Incorrect. Transfer of income without the asset is clubbed under s.96.",
+        "Correct. Income from the minor's own skill or talent is not clubbed."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M7-14",
+      "chapter": 8,
+      "difficulty": "hard",
+      "q": "A flat bought in FY 2012-13 (CII 200) for ₹50 lakh is sold in FY 2025-26 (CII 376) for ₹1.2 crore. What is the long-term capital gains tax (before surcharge and cess)?",
+      "options": [
+        "₹8.75 lakh",
+        "₹14 lakh",
+        "₹5.2 lakh",
+        "₹3.25 lakh"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "New method: (120 − 50) lakh × 12.5% = ₹8.75 lakh. Old method for land or buildings acquired before 23-7-2024: indexed cost = 50 × 376/200 = ₹94 lakh, LTCG ₹26 lakh × 20% = ₹5.2 lakh. The lower tax, ₹5.2 lakh, applies.",
+      "hints": [
+        "Incorrect. ₹8.75 lakh is the unindexed 12.5% figure, which is higher.",
+        "Incorrect. This applies 20% to the unindexed gain.",
+        "Correct. The lower of ₹8.75 lakh and ₹5.2 lakh is ₹5.2 lakh.",
+        "Incorrect. This applies 12.5% to the indexed gain, mixing the two methods."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M7-15",
+      "chapter": 10,
+      "difficulty": "medium",
+      "q": "An NRI governed by Chapter XII-A (ss.212–218) sells shares of an Indian company bought in foreign currency and reinvests the entire net consideration in eligible assets within 6 months. Which statement is correct?",
+      "options": [
+        "Only half the LTCG is exempt",
+        "The LTCG is exempt permanently, whatever happens to the new asset",
+        "The reinvestment window is 2 years",
+        "The whole LTCG is exempt, but it becomes taxable if the new asset is transferred within 3 years"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Under Chapter XII-A, reinvesting the full net consideration within 6 months exempts the LTCG (partial reinvestment gives proportionate exemption). If the new asset is transferred within 3 years, the exempted gain is taxed in that year.",
+      "hints": [
+        "Incorrect. Full reinvestment gives a full exemption.",
+        "Incorrect. There is a 3-year claw-back.",
+        "Incorrect. The window is 6 months.",
+        "Correct. Full reinvestment gives full exemption, with a 3-year lock-in."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M7-16",
+      "chapter": 11,
+      "difficulty": "hard",
+      "q": "A share trader buys one call option lot of 500 shares at a premium of ₹40, with a strike of ₹600. He exercises it and later sells the 500 shares at ₹700. What is his business income from the transaction?",
+      "options": [
+        "₹50,000",
+        "₹20,000",
+        "₹10,000",
+        "₹30,000"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "When an option is exercised, the cost of the shares = strike + premium = ₹640 per share. Income = 500 × (700 − 640) = ₹30,000, taxed as business income.",
+      "hints": [
+        "Incorrect. This ignores the premium paid.",
+        "Incorrect. This is just the premium cost.",
+        "Incorrect. This has no basis.",
+        "Correct. 500 × (700 − 600 − 40) = ₹30,000."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M7-17",
+      "chapter": 11,
+      "difficulty": "hard",
+      "q": "Leela buys 2,000 units at ₹50 each two months before the record date for a 1:1 bonus. She sells the original 2,000 units at ₹30 each four months after the record date and keeps the bonus units. What is the cost per bonus unit for tax purposes?",
+      "options": [
+        "Nil",
+        "₹20",
+        "₹30",
+        "₹25"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Bonus stripping (s.175(9), old 94(8)) applies: units bought within 3 months before the record date and sold within 9 months after. The loss of 2,000 × (50 − 30) = ₹40,000 is ignored and treated as the cost of the 2,000 bonus units, i.e. ₹20 each.",
+      "hints": [
+        "Incorrect. Nil would apply if the bonus-stripping rule did not apply.",
+        "Correct. The ₹40,000 ignored loss ÷ 2,000 bonus units = ₹20.",
+        "Incorrect. ₹30 is the sale price of the originals.",
+        "Incorrect. This averages the purchase cost over all 4,000 units, which is not the rule."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M7-18",
+      "chapter": 12,
+      "difficulty": "medium",
+      "q": "Which statement about taxation of a Category II AIF set up as a trust is correct?",
+      "options": [
+        "Its business income is taxed at the AIF level at the maximum marginal rate, while other income is taxed in the unit-holders' hands",
+        "All its income is exempt for both the AIF and investors",
+        "Category III AIFs also enjoy the same pass-through status",
+        "Losses pass through to investors regardless of how long the units are held"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Category I and II AIFs are pass-through except for business income, which is taxed in the AIF (at MMR if it is a trust). Category III has no pass-through. Non-business losses pass through only for units held for at least 12 months.",
+      "hints": [
+        "Correct. Business income is taxed at the AIF, and the rest passes through.",
+        "Incorrect. The income is taxed, either at the AIF or in investors' hands.",
+        "Incorrect. Pass-through is only for Categories I and II.",
+        "Incorrect. There is a 12-month holding condition for losses to pass through."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M7-19",
+      "chapter": 13,
+      "difficulty": "medium",
+      "q": "From Tax Year 2026-27, an individual promoter of a listed company tenders shares in a buyback and earns a long-term capital gain. Besides the normal capital gains tax, what additional income-tax rate applies to this gain?",
+      "options": [
+        "17.5%",
+        "9.5%",
+        "10%",
+        "2%"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "For a buyback from a promoter, the additional tax on LTCG is 9.5% if the promoter is a domestic company and 17.5% otherwise. On STCG it is 2% and 10% respectively.",
+      "hints": [
+        "Correct. A non-company promoter on LTCG pays 17.5%.",
+        "Incorrect. 9.5% applies to a domestic-company promoter.",
+        "Incorrect. 10% is the additional rate on STCG for a non-company promoter.",
+        "Incorrect. 2% is the additional rate on STCG for a domestic-company promoter."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M7-20",
+      "chapter": 20,
+      "difficulty": "easy",
+      "q": "What will the course cost when Mr. Iyer's daughter starts it in 6 years?",
+      "options": [
+        "₹32.00 lakh",
+        "About ₹35.43 lakh",
+        "About ₹32.21 lakh",
+        "About ₹33.54 lakh"
+      ],
+      "answer": 1,
+      "marks": 2,
+      "explanation": "FV = 20,00,000 × (1.10)^6 ≈ ₹35,43,122.",
+      "hints": [
+        "Incorrect. This uses simple inflation (20 × 1.6).",
+        "Correct. 20 lakh × 1.1^6 ≈ ₹35.43 lakh.",
+        "Incorrect. This compounds for only 5 years.",
+        "Incorrect. This inflates at the 9% portfolio return instead of 10% education inflation."
+      ],
+      "numeric": true,
+      "case": "Mr. Iyer, 42, wants to fund his daughter's postgraduate education in 6 years. The course costs ₹20 lakh in today's terms, and education costs are expected to rise by 10% p.a. He has already set aside ₹12 lakh for this goal in a portfolio expected to earn 9% p.a. He plans to bridge any shortfall through equal annual investments at the END of each of the next 6 years, also earning 9% p.a. Ignore taxes. His adviser follows a strategic, goal-based asset allocation for this goal."
+    },
+    {
+      "id": "xb-M7-21",
+      "chapter": 20,
+      "difficulty": "easy",
+      "q": "What will his existing ₹12 lakh be worth in 6 years?",
+      "options": [
+        "About ₹21.26 lakh",
+        "About ₹20.13 lakh",
+        "About ₹18.46 lakh",
+        "₹18.48 lakh"
+      ],
+      "answer": 1,
+      "marks": 2,
+      "explanation": "FV = 12,00,000 × (1.09)^6 ≈ ₹20,12,520.",
+      "hints": [
+        "Incorrect. This grows at 10% (education inflation) instead of the 9% return.",
+        "Correct. 12 lakh × 1.09^6 ≈ ₹20.13 lakh.",
+        "Incorrect. This compounds for only 5 years.",
+        "Incorrect. This uses simple interest."
+      ],
+      "numeric": true,
+      "case": "Mr. Iyer, 42, wants to fund his daughter's postgraduate education in 6 years. The course costs ₹20 lakh in today's terms, and education costs are expected to rise by 10% p.a. He has already set aside ₹12 lakh for this goal in a portfolio expected to earn 9% p.a. He plans to bridge any shortfall through equal annual investments at the END of each of the next 6 years, also earning 9% p.a. Ignore taxes. His adviser follows a strategic, goal-based asset allocation for this goal."
+    },
+    {
+      "id": "xb-M7-22",
+      "chapter": 20,
+      "difficulty": "hard",
+      "q": "What equal annual investment at the end of each year will close the shortfall?",
+      "options": [
+        "About ₹2.55 lakh",
+        "About ₹2.03 lakh",
+        "About ₹1.87 lakh",
+        "About ₹4.71 lakh"
+      ],
+      "answer": 1,
+      "marks": 2,
+      "explanation": "Shortfall = 35.43 − 20.13 ≈ ₹15.31 lakh. PMT(9%, 6, 0, −15,30,602, 0) ≈ ₹2,03,447 a year.",
+      "hints": [
+        "Incorrect. This divides the shortfall by 6 and ignores returns.",
+        "Correct. PMT on a ₹15.31 lakh shortfall at 9% for 6 years (end) ≈ ₹2.03 lakh.",
+        "Incorrect. This assumes beginning-of-year investments (type 1).",
+        "Incorrect. This ignores the existing ₹12 lakh and funds the whole ₹35.43 lakh."
+      ],
+      "numeric": true,
+      "case": "Mr. Iyer, 42, wants to fund his daughter's postgraduate education in 6 years. The course costs ₹20 lakh in today's terms, and education costs are expected to rise by 10% p.a. He has already set aside ₹12 lakh for this goal in a portfolio expected to earn 9% p.a. He plans to bridge any shortfall through equal annual investments at the END of each of the next 6 years, also earning 9% p.a. Ignore taxes. His adviser follows a strategic, goal-based asset allocation for this goal."
+    },
+    {
+      "id": "xb-M7-23",
+      "chapter": 18,
+      "difficulty": "medium",
+      "q": "Under a strategic, goal-based allocation, how should Mr. Iyer's portfolio for this goal be managed as the start date approaches?",
+      "options": [
+        "Raise equity exposure in the final year to maximise growth",
+        "Keep the allocation unchanged until the fees are paid",
+        "Gradually move the accumulated funds into less risky assets so that market falls do not hurt the amount needed",
+        "Switch between asset classes based on market forecasts"
+      ],
+      "answer": 2,
+      "marks": 2,
+      "explanation": "The workbook's Jayant example: as a goal nears, funds accumulated in equity are moved to less risky investments. Rebalancing should reflect the investor's changing needs, not short-term market movements.",
+      "hints": [
+        "Incorrect. This increases the risk to the goal amount.",
+        "Incorrect. Ignoring the shrinking horizon risks a shortfall.",
+        "Correct. De-risk as the goal approaches.",
+        "Incorrect. That describes tactical calls, not strategic goal-based management."
+      ],
+      "numeric": false,
+      "case": "Mr. Iyer, 42, wants to fund his daughter's postgraduate education in 6 years. The course costs ₹20 lakh in today's terms, and education costs are expected to rise by 10% p.a. He has already set aside ₹12 lakh for this goal in a portfolio expected to earn 9% p.a. He plans to bridge any shortfall through equal annual investments at the END of each of the next 6 years, also earning 9% p.a. Ignore taxes. His adviser follows a strategic, goal-based asset allocation for this goal."
+    },
+    {
+      "id": "xb-M7-24",
+      "chapter": 16,
+      "difficulty": "medium",
+      "q": "According to Keith Redhead (2008), which of the following does NOT make a speculative bubble more likely?",
+      "options": [
+        "A high proportion of inexperienced traders",
+        "Short selling being easy",
+        "The ability to finance purchases by borrowing",
+        "High uncertainty about the true value of the asset"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Redhead lists: many inexperienced traders, high uncertainty about true value, a small chance of a very large profit, the ability to borrow, and DIFFICULT short selling. Easy short selling would help correct mispricing.",
+      "hints": [
+        "Incorrect. Inexperienced traders make bubbles more likely.",
+        "Correct. Bubbles grow when short selling is difficult, not easy.",
+        "Incorrect. Borrowing fuels bubbles.",
+        "Incorrect. Value uncertainty makes bubbles more likely."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M7-25",
+      "chapter": 17,
+      "difficulty": "medium",
+      "q": "A client wants to fund her daughter's expensive higher education even if it severely compromises her own retirement. What does the workbook suggest the adviser do?",
+      "options": [
+        "Follow the client's emotional priority without comment",
+        "Refuse to fund the education goal",
+        "Advise her to stop all retirement saving",
+        "Point out the extent of the compromise to retirement and suggest alternatives such as a partial education loan the daughter can repay"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "The adviser plays an objective role in prioritising goals: show the cost to a vital goal like retirement and suggest options such as a partial education loan repaid by the daughter from her earnings.",
+      "hints": [
+        "Incorrect. The adviser should give objective guidance.",
+        "Incorrect. The goal can be met in alternative ways.",
+        "Incorrect. Retirement is a vital goal and cannot be funded by loans.",
+        "Correct. Show the trade-off and offer alternatives."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M7-26",
+      "chapter": 19,
+      "difficulty": "hard",
+      "q": "A company deposit of 3 years at 9% is withdrawn after exactly 1 year. The company's rate for a 1-year deposit is 8%. Under the workbook's rule, what rate of interest will ordinarily be paid?",
+      "options": [
+        "7%",
+        "8%",
+        "9%",
+        "Nil"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "For premature repayment after 6 months but before maturity, interest is ordinarily recalculated at one percentage point below the rate applicable for the period actually run: 8% − 1% = 7%.",
+      "hints": [
+        "Correct. The 1-year rate of 8% minus 1% = 7%.",
+        "Incorrect. 8% is the rate for the period run before the 1% reduction.",
+        "Incorrect. The contracted 9% is not paid on premature withdrawal.",
+        "Incorrect. Interest is paid since the deposit ran more than 6 months."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M7-27",
+      "chapter": 3,
+      "difficulty": "medium",
+      "q": "With the base policy and the SUPER top-up, how much do the Nairs pay out of pocket for the three bills?",
+      "options": [
+        "₹7 lakh",
+        "₹3 lakh",
+        "Nil",
+        "₹8 lakh"
+      ],
+      "answer": 2,
+      "marks": 2,
+      "explanation": "Bill 1: the base pays ₹3 lakh (₹3 lakh of the threshold used). Bill 2 (₹4 lakh): the base pays its remaining ₹2 lakh, which completes the ₹5 lakh aggregate threshold, and the super top-up pays ₹2 lakh. Bill 3: the super top-up pays ₹6 lakh. Out of pocket = nil.",
+      "hints": [
+        "Incorrect. ₹7 lakh would be the result with a per-claim TOP-UP.",
+        "Incorrect. This wrongly treats ₹3 lakh as unpaid.",
+        "Correct. The aggregate threshold is met by the base policy's payments, so nothing is out of pocket.",
+        "Incorrect. ₹8 lakh is the amount the super top-up pays, not the out-of-pocket cost."
+      ],
+      "numeric": true,
+      "case": "Mr. Nair (64) and Mrs. Nair (61) are retired and live in their own fully-paid flat. Their family floater health cover is a base policy of ₹5 lakh plus a SUPER top-up of ₹15 lakh with a deductible of ₹5 lakh. During one policy year they face three hospital bills of ₹3 lakh, ₹4 lakh and ₹6 lakh, in that order. They are also exploring a reverse mortgage on their flat and want to invest in the Senior Citizens' Savings Scheme for regular income."
+    },
+    {
+      "id": "xb-M7-28",
+      "chapter": 3,
+      "difficulty": "hard",
+      "q": "If the ₹15 lakh cover were a TOP-UP with a ₹5 lakh per-claim threshold instead, what would the out-of-pocket expense be?",
+      "options": [
+        "₹7 lakh",
+        "Nil",
+        "₹5 lakh",
+        "₹2 lakh"
+      ],
+      "answer": 0,
+      "marks": 2,
+      "explanation": "Bill 1: the base pays ₹3 lakh. Bill 2 (₹4 lakh): the base pays ₹2 lakh, and the top-up pays nothing because ₹4 lakh is below ₹5 lakh, so ₹2 lakh is out of pocket. Bill 3 (₹6 lakh): the top-up pays ₹1 lakh, so ₹5 lakh is out of pocket. Total ₹7 lakh.",
+      "hints": [
+        "Correct. ₹2 lakh + ₹5 lakh = ₹7 lakh.",
+        "Incorrect. Nil applies only to the super top-up.",
+        "Incorrect. This misses the ₹2 lakh shortfall on the second bill.",
+        "Incorrect. This counts only the second bill."
+      ],
+      "numeric": true,
+      "case": "Mr. Nair (64) and Mrs. Nair (61) are retired and live in their own fully-paid flat. Their family floater health cover is a base policy of ₹5 lakh plus a SUPER top-up of ₹15 lakh with a deductible of ₹5 lakh. During one policy year they face three hospital bills of ₹3 lakh, ₹4 lakh and ₹6 lakh, in that order. They are also exploring a reverse mortgage on their flat and want to invest in the Senior Citizens' Savings Scheme for regular income."
+    },
+    {
+      "id": "xb-M7-29",
+      "chapter": 5,
+      "difficulty": "medium",
+      "q": "Which statement about a reverse mortgage loan for the Nairs is correct?",
+      "options": [
+        "Mrs. Nair must also be 60 or above for a joint loan",
+        "They can take the whole loan as a lump sum for any purpose",
+        "They must repay through monthly EMIs during their lifetime",
+        "They are eligible as joint borrowers, since one is above 60 and the other is not below 55, and the maximum tenure is 20 years"
+      ],
+      "answer": 3,
+      "marks": 2,
+      "explanation": "Joint borrowers are eligible if one is above 60 and the other is not below 55. The maximum tenure is 20 years. A lump sum is capped at 50% (maximum ₹15 lakh) for medical needs. No repayment is needed while the house is their primary residence.",
+      "hints": [
+        "Incorrect. The spouse needs to be only 55 or above.",
+        "Incorrect. The lump sum is limited to 50%, capped at ₹15 lakh, for medical treatment.",
+        "Incorrect. An RML pays them. They do not pay EMIs.",
+        "Correct. One above 60, the other 55 or over, and a 20-year maximum."
+      ],
+      "numeric": false,
+      "case": "Mr. Nair (64) and Mrs. Nair (61) are retired and live in their own fully-paid flat. Their family floater health cover is a base policy of ₹5 lakh plus a SUPER top-up of ₹15 lakh with a deductible of ₹5 lakh. During one policy year they face three hospital bills of ₹3 lakh, ₹4 lakh and ₹6 lakh, in that order. They are also exploring a reverse mortgage on their flat and want to invest in the Senior Citizens' Savings Scheme for regular income."
+    },
+    {
+      "id": "xb-M7-30",
+      "chapter": 5,
+      "difficulty": "medium",
+      "q": "Which statement about Mr. Nair's SCSS investment is correct?",
+      "options": [
+        "The deposit qualifies for the s.123 (80C) deduction only under the old regime, and the quarterly interest is fully taxable",
+        "The interest is tax-free like PPF",
+        "The deduction is available under both regimes",
+        "He can invest up to ₹30 lakh in each of several accounts"
+      ],
+      "answer": 0,
+      "marks": 2,
+      "explanation": "SCSS deposits get the s.123 (old 80C) deduction only under the old regime. Interest is paid quarterly and is fully taxable. The ₹30 lakh limit applies to all accounts taken together.",
+      "hints": [
+        "Correct. Old-regime deduction only, and the interest is taxable.",
+        "Incorrect. SCSS interest is fully taxable (ETE).",
+        "Incorrect. s.123 deductions are not available under s.202 (new regime).",
+        "Incorrect. ₹30 lakh is the aggregate cap across all accounts."
+      ],
+      "numeric": false,
+      "case": "Mr. Nair (64) and Mrs. Nair (61) are retired and live in their own fully-paid flat. Their family floater health cover is a base policy of ₹5 lakh plus a SUPER top-up of ₹15 lakh with a deductible of ₹5 lakh. During one policy year they face three hospital bills of ₹3 lakh, ₹4 lakh and ₹6 lakh, in that order. They are also exploring a reverse mortgage on their flat and want to invest in the Senior Citizens' Savings Scheme for regular income."
+    }
+  ]
+}

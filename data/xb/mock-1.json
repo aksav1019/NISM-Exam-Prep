@@ -1,0 +1,583 @@
+{
+  "id": "mock-1",
+  "title": "Mock 1 · Foundations",
+  "level": "easy",
+  "blurb": "Core definitions across all 12 modules, with a short insurance caselet on indemnity, contribution and subrogation.",
+  "questions": [
+    {
+      "id": "xb-M1-01",
+      "chapter": 1,
+      "difficulty": "easy",
+      "q": "What is the maximum total amount Kiran can recover from both insurers together?",
+      "options": [
+        "₹1,80,000",
+        "₹9,00,000",
+        "₹60,000",
+        "₹90,000"
+      ],
+      "answer": 3,
+      "marks": 2,
+      "explanation": "Both are indemnity policies. Indemnity restores the insured to the pre-loss position and the total claim cannot exceed the ascertained loss, however many policies cover the same risk.",
+      "hints": [
+        "Incorrect. Both insurers cannot each pay the full loss. That would let Kiran profit from insurance.",
+        "Incorrect. ₹9 lakh is the combined sum insured, not the loss suffered.",
+        "Incorrect. ₹60,000 is only Insurer A's proportionate share, not the total recovery.",
+        "Correct. Indemnity caps the recovery at the actual loss of ₹90,000."
+      ],
+      "numeric": true,
+      "case": "Kiran insured the contents of her flat against fire with two general insurers: Insurer A for a sum insured of ₹6 lakh and Insurer B for ₹3 lakh. Both are standard indemnity policies with no deductible or co-pay. A fire started by faulty wiring in the neighbour's flat spread to Kiran's flat, and the surveyor assessed her actual loss at ₹90,000. Kiran lodged the claim with Insurer A first. Insurer A wants the other insurer to share the loss and also wants to recover the money from the neighbour whose wiring caused the fire."
+    },
+    {
+      "id": "xb-M1-02",
+      "chapter": 1,
+      "difficulty": "medium",
+      "q": "If Insurer A applies the contribution clause, how much of the loss should Insurer B bear?",
+      "options": [
+        "₹45,000",
+        "₹60,000",
+        "₹30,000",
+        "Nil, because the claim was lodged with A"
+      ],
+      "answer": 2,
+      "marks": 2,
+      "explanation": "Contribution shares the loss in proportion to each insurer's sum insured: 90,000 × 3/(6+3) = ₹30,000. Insurer A bears ₹60,000.",
+      "hints": [
+        "Incorrect. An equal split ignores the different sums insured.",
+        "Incorrect. ₹60,000 is Insurer A's share (6/9 of the loss).",
+        "Correct. B's share = ₹90,000 × 3/9 = ₹30,000.",
+        "Incorrect. Contribution lets the paying insurer recover a proportionate share from the other insurer covering the same risk."
+      ],
+      "numeric": true,
+      "case": "Kiran insured the contents of her flat against fire with two general insurers: Insurer A for a sum insured of ₹6 lakh and Insurer B for ₹3 lakh. Both are standard indemnity policies with no deductible or co-pay. A fire started by faulty wiring in the neighbour's flat spread to Kiran's flat, and the surveyor assessed her actual loss at ₹90,000. Kiran lodged the claim with Insurer A first. Insurer A wants the other insurer to share the loss and also wants to recover the money from the neighbour whose wiring caused the fire."
+    },
+    {
+      "id": "xb-M1-03",
+      "chapter": 1,
+      "difficulty": "easy",
+      "q": "After paying the claim, the insurers pursue the neighbour to recover the loss. This right is called:",
+      "options": [
+        "Contribution",
+        "Utmost good faith",
+        "Subrogation",
+        "Insurable interest"
+      ],
+      "answer": 2,
+      "marks": 2,
+      "explanation": "Subrogation means the insurer steps into the shoes of the insured after paying the claim and takes every action the insured could have taken against the party at fault.",
+      "hints": [
+        "Incorrect. Contribution is sharing between insurers, not recovery from a third party.",
+        "Incorrect. Utmost good faith is the insured's duty to disclose material facts.",
+        "Correct. The insurer steps into Kiran's shoes against the at-fault neighbour.",
+        "Incorrect. Insurable interest is the financial interest needed to buy cover."
+      ],
+      "numeric": false,
+      "case": "Kiran insured the contents of her flat against fire with two general insurers: Insurer A for a sum insured of ₹6 lakh and Insurer B for ₹3 lakh. Both are standard indemnity policies with no deductible or co-pay. A fire started by faulty wiring in the neighbour's flat spread to Kiran's flat, and the surveyor assessed her actual loss at ₹90,000. Kiran lodged the claim with Insurer A first. Insurer A wants the other insurer to share the loss and also wants to recover the money from the neighbour whose wiring caused the fire."
+    },
+    {
+      "id": "xb-M1-04",
+      "chapter": 1,
+      "difficulty": "easy",
+      "q": "Which of the following is an indemnity insurance policy?",
+      "options": [
+        "A term life policy paying a fixed sum on death",
+        "A mediclaim policy reimbursing actual hospitalisation bills",
+        "A critical illness policy paying a lump sum on diagnosis",
+        "A daily hospital cash benefit paying a fixed amount per day"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Per Table 1.1, a health policy reimbursing hospitalisation expenditure is indemnity because bills establish the actual loss. Life, critical illness and hospital cash are defined-benefit policies.",
+      "hints": [
+        "Incorrect. Life insurance is defined benefit because the loss of earnings is hard to ascertain.",
+        "Correct. Bills make the loss ascertainable, so the policy reimburses the actual loss.",
+        "Incorrect. Critical illness pays a pre-fixed lump sum, so it is defined benefit.",
+        "Incorrect. Hospital cash pays a fixed daily sum, which is defined benefit."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-05",
+      "chapter": 2,
+      "difficulty": "easy",
+      "q": "A 45-year-old buys a life policy with an annual premium of ₹40,000. Under the post-2024 IRDAI rules, what is the minimum sum assured?",
+      "options": [
+        "₹2,80,000",
+        "₹2,00,000",
+        "₹4,00,000",
+        "₹40,000"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "IRDAI requires a minimum sum assured of 7 times the annual premium below age 50 (5 times above 50). 7 × ₹40,000 = ₹2,80,000.",
+      "hints": [
+        "Correct. 7 × ₹40,000 = ₹2,80,000 because he is below 50.",
+        "Incorrect. 5 times applies only to those above 50 years.",
+        "Incorrect. 10 times is the tax-exemption benchmark, not the IRDAI minimum.",
+        "Incorrect. The sum assured must be a multiple of the premium, not equal to it."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M1-06",
+      "chapter": 2,
+      "difficulty": "easy",
+      "q": "Which statement about a life policy taken under the Married Women's Property Act, 1874 is correct?",
+      "options": [
+        "Parents of the insured can be named as beneficiaries",
+        "The MWPA declaration can be added at any time during the policy term",
+        "The nominees cannot be changed after purchase, even if the insured later divorces his wife",
+        "The proceeds can be attached by the husband's creditors"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Under MWPA the beneficiaries can only be the spouse and/or children. The declaration must be made at purchase, the nominees cannot be changed (a divorced wife continues), and the proceeds stay outside the reach of the husband's creditors.",
+      "hints": [
+        "Incorrect. Parents are NOT permitted beneficiaries under MWPA.",
+        "Incorrect. The declaration can be made only when buying the policy.",
+        "Correct. Rigidity is the hallmark: there is no change of nominee, even after divorce.",
+        "Incorrect. Creditor protection is the main reason to use MWPA."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-07",
+      "chapter": 3,
+      "difficulty": "easy",
+      "q": "What is the key difference between a top-up and a super top-up health plan?",
+      "options": [
+        "A top-up applies the threshold to each claim, while a super top-up applies it to the total of all claims in the year",
+        "A super top-up applies the threshold to each claim, while a top-up applies it to the total",
+        "Top-up and super top-up are legal terms defined by IRDAI with fixed thresholds",
+        "Super top-up policies can be ported to another insurer but top-up policies cannot"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "The workbook explains that the two terms are not legal terms. The difference lies only in how the threshold is applied: per claim for a top-up, aggregate for the year for a super top-up.",
+      "hints": [
+        "Correct. Per claim vs aggregate is the defining difference.",
+        "Incorrect. This reverses the two definitions.",
+        "Incorrect. The workbook says these are NOT legal terms.",
+        "Incorrect. Neither top-up nor super top-up policies can be ported."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-08",
+      "chapter": 4,
+      "difficulty": "easy",
+      "q": "For approval of a superannuation fund under the Income-tax Act, 2025, the fund must be under an irrevocable trust and not less than what proportion of the employees must be employed in India?",
+      "options": [
+        "90%",
+        "75%",
+        "51%",
+        "100%"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Part B of Schedule XI requires an irrevocable trust connected with a trade carried on in India, with not less than 90% of the employees employed in India. It also requires the employer to contribute and benefits to be payable only in India.",
+      "hints": [
+        "Correct. The threshold is 90%.",
+        "Incorrect. 75% is not the prescribed figure.",
+        "Incorrect. A simple majority is not the test.",
+        "Incorrect. 100% is not required. The rule says not less than 90%."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-09",
+      "chapter": 5,
+      "difficulty": "easy",
+      "q": "Of the employer's 12% contribution towards EPF, how much is allocated to the Employees' Pension Scheme (EPS)?",
+      "options": [
+        "3.67%",
+        "0.50%",
+        "12%",
+        "8.33%"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "The employer's 12% is split into EPF 3.67%, EPS 8.33% (subject to the salary ceiling), EDLIS 0.5% and admin charges 0.5%.",
+      "hints": [
+        "Incorrect. 3.67% is the part credited to the EPF account.",
+        "Incorrect. 0.5% is for EDLIS (and another 0.5% for admin charges).",
+        "Incorrect. The whole 12% does not go to the pension scheme.",
+        "Correct. 8.33% goes to EPS."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-10",
+      "chapter": 5,
+      "difficulty": "easy",
+      "q": "A loan against a PPF account is available up to what percentage of the balance at the end of the 2nd financial year immediately preceding the year of application?",
+      "options": [
+        "25%",
+        "50%",
+        "60%",
+        "90%"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "A PPF loan can be taken from the beginning of the 3rd FY to the end of the 6th FY, up to 25% of the balance at the end of the 2nd preceding FY.",
+      "hints": [
+        "Correct. The limit is 25%.",
+        "Incorrect. 50% is the partial-withdrawal reference (of the relevant year-end balance).",
+        "Incorrect. 60% is the cap on withdrawals after extension with contribution.",
+        "Incorrect. 90% is the EPF withdrawal permitted at age 54."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-11",
+      "chapter": 5,
+      "difficulty": "easy",
+      "q": "Which annuity payout option gives the HIGHEST annuity amount for the same purchase price?",
+      "options": [
+        "Life annuity with return of purchase price",
+        "Life annuity without return of purchase price",
+        "Joint life annuity with the spouse",
+        "Annuity guaranteed for a certain period and life thereafter"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "With the life annuity without return of purchase price, payments stop on death and the insurer keeps the principal, so the annuity is the highest. With return of purchase price it is the lowest.",
+      "hints": [
+        "Incorrect. Returning the purchase price to the nominee makes this the LOWEST annuity.",
+        "Correct. The insurer retains the purchase price, so it can pay the most.",
+        "Incorrect. Covering a second life reduces the annuity rate.",
+        "Incorrect. A guaranteed period adds cost and lowers the annuity."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-12",
+      "chapter": 6,
+      "difficulty": "easy",
+      "q": "A retirement corpus is declared 'safe' at a given Safe Withdrawal Rate when it:",
+      "options": [
+        "Never falls below its starting value during retirement",
+        "Earns at least the inflation rate every single year",
+        "Is certain to last for the retiree's whole life",
+        "Does not run out before the end of the planned retirement period in at least 95% of simulated cases"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "The workbook defines the SWR as the maximum first-year withdrawal (then inflated each year) for which the portfolio survives with at least 95% probability, i.e. a failure rate of no more than 5%.",
+      "hints": [
+        "Incorrect. The SWR allows the corpus to be drawn down. It is not capital preservation.",
+        "Incorrect. Returns vary from year to year in the stochastic method.",
+        "Incorrect. A probability threshold is used, not certainty.",
+        "Correct. Survival in at least 95% of the stochastic paths is the test."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-13",
+      "chapter": 7,
+      "difficulty": "easy",
+      "q": "Under the Income-tax Act, 2025, the period from 1 April 2026 to 31 March 2027 is referred to as:",
+      "options": [
+        "Tax Year 2026-27",
+        "Assessment Year 2027-28",
+        "Previous Year 2026-27",
+        "Financial Assessment Year 2026-27"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "The 2025 Act replaces 'previous year' and 'assessment year' with a single 'Tax Year', applicable from FY 2026-27.",
+      "hints": [
+        "Correct. The single 'Tax Year' concept replaces the old two-year terminology.",
+        "Incorrect. 'Assessment Year' was the 1961 Act concept.",
+        "Incorrect. 'Previous Year' was also the 1961 Act concept.",
+        "Incorrect. No such term exists."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-14",
+      "chapter": 8,
+      "difficulty": "easy",
+      "q": "Which of the following is NOT a capital asset under the Income-tax Act?",
+      "options": [
+        "Gold jewellery held for personal use",
+        "Agricultural land situated in a rural area in India",
+        "Paintings held for personal use",
+        "Listed shares held as an investment"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Rural agricultural land in India is excluded from capital assets. Jewellery, paintings and other works of art are specifically excluded from 'personal effects', so they remain capital assets.",
+      "hints": [
+        "Incorrect. Jewellery is a capital asset even when used personally.",
+        "Correct. Rural agricultural land is specifically excluded.",
+        "Incorrect. Paintings and works of art are capital assets.",
+        "Incorrect. Shares held as an investment are capital assets."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-15",
+      "chapter": 9,
+      "difficulty": "medium",
+      "q": "Mr. Shah receives a gift of ₹70,000 in cash from his nephew. He received no other gifts during the year. What is the tax treatment?",
+      "options": [
+        "The entire ₹70,000 is taxable under Income from Other Sources",
+        "It is exempt because a nephew is a relative",
+        "Only ₹20,000 (the excess over ₹50,000) is taxable",
+        "It is taxable as short-term capital gains"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "A nephew is NOT a 'relative' for the gift provisions. Because the aggregate from non-relatives exceeds ₹50,000, the whole amount (not just the excess) is taxable under Income from Other Sources.",
+      "hints": [
+        "Correct. Nephew is not a relative, and above ₹50,000 the whole amount is taxed.",
+        "Incorrect. Nephew, niece and cousins are specifically excluded from 'relative'.",
+        "Incorrect. Once the ₹50,000 limit is crossed, the entire sum is taxable.",
+        "Incorrect. Gifts fall under Other Sources, not capital gains."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M1-16",
+      "chapter": 10,
+      "difficulty": "easy",
+      "q": "Treasury Bills are issued by the Government of India in which tenors?",
+      "options": [
+        "30 days, 60 days and 90 days",
+        "91 days, 182 days and 364 days",
+        "91 days, 182 days and 365 days",
+        "1 year, 3 years and 5 years"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "T-Bills are short-term discounted instruments issued in 3 tenors (91, 182 and 364 days) and never exceed 1 year. The difference between issue price and face value is short-term capital gain.",
+      "hints": [
+        "Incorrect. These are not T-bill tenors.",
+        "Correct. The three tenors are 91, 182 and 364 days.",
+        "Incorrect. The longest tenor is 364 days, not 365.",
+        "Incorrect. Instruments of 1 year or more are dated securities, not T-bills."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-17",
+      "chapter": 13,
+      "difficulty": "medium",
+      "q": "Asha bought 400 shares at ₹1,000 each. The company later split each share into two. What is her cost of acquisition per share after the split?",
+      "options": [
+        "₹1,000",
+        "₹250",
+        "Nil",
+        "₹500"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "A split is not a transfer. The original cost (400 × ₹1,000 = ₹4,00,000) is spread over the 800 shares now held, giving ₹500 per share. The holding period runs from the original purchase.",
+      "hints": [
+        "Incorrect. The cost per share must be divided across the new number of shares.",
+        "Incorrect. This would be a 1:4 split, not 1:2.",
+        "Incorrect. Nil cost applies to bonus shares, not split shares.",
+        "Correct. ₹4,00,000 ÷ 800 shares = ₹500."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M1-18",
+      "chapter": 14,
+      "difficulty": "easy",
+      "q": "Under the Hindu Succession Act, 1956, which of the following is a Class I heir of a Hindu male?",
+      "options": [
+        "Father",
+        "Brother",
+        "Father's father",
+        "Mother"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Class I heirs include the son, daughter, widow, mother and the branches of predeceased children. The father is the first entry of Class II. Brothers and grandparents are later Class II entries.",
+      "hints": [
+        "Incorrect. The father is a Class II heir (entry I).",
+        "Incorrect. A brother is a Class II heir (entry II).",
+        "Incorrect. The paternal grandfather is a Class II heir (entry V).",
+        "Correct. The mother is a Class I heir."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-19",
+      "chapter": 15,
+      "difficulty": "easy",
+      "q": "Registration of a Will in India is:",
+      "options": [
+        "Optional, and no stamp duty is payable",
+        "Compulsory within 4 months of execution",
+        "Optional, but stamp duty of 1% of the estate is payable",
+        "Compulsory if the Will deals with immovable property"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Under s.18 of the Registration Act, 1908, registration of a Will is optional. A Will is registered on plain paper with no stamp duty, and an unregistered Will can still be valid.",
+      "hints": [
+        "Correct. Registration is optional and needs no stamp duty.",
+        "Incorrect. There is no compulsory registration or time limit.",
+        "Incorrect. No stamp duty is payable on a Will.",
+        "Incorrect. Even Wills dealing with immovable property need not be registered."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-20",
+      "chapter": 15,
+      "difficulty": "easy",
+      "q": "A soldier engaged in actual warfare may pronounce his Will orally before two witnesses. Such a Will is called a:",
+      "options": [
+        "Holograph Will",
+        "Privileged Will",
+        "Conditional Will",
+        "Concurrent Will"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Soldiers or airmen in actual warfare and mariners at sea can make a privileged Will by word of mouth before 2 witnesses present at the same time. All other Wills are unprivileged.",
+      "hints": [
+        "Incorrect. A holograph Will is entirely handwritten by the testator.",
+        "Correct. An oral Will by a soldier in action is privileged.",
+        "Incorrect. A conditional Will takes effect only on a contingency.",
+        "Incorrect. Concurrent Wills deal with property in different countries."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-21",
+      "chapter": 16,
+      "difficulty": "easy",
+      "q": "Choosing an option that is 'satisfactory and sufficient' using rules of thumb, because of limited time or information, is described as:",
+      "options": [
+        "Prospect theory",
+        "Overconfidence bias",
+        "Bounded rationality (satisficing)",
+        "The efficient market hypothesis"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Herbert Simon's bounded rationality says people with limited time, information or ability 'satisfice' instead of optimising. It is rational decision-making within boundary conditions.",
+      "hints": [
+        "Incorrect. Prospect theory concerns gains and losses relative to a reference point.",
+        "Incorrect. Overconfidence is overrating one's own judgement.",
+        "Correct. Satisficing is the core of bounded rationality.",
+        "Incorrect. The EMH assumes rational processing of all information."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-22",
+      "chapter": 17,
+      "difficulty": "easy",
+      "q": "A client keeps shifting money into whichever asset class performed best last year. According to the workbook, the best structural remedy is:",
+      "options": [
+        "Moving the entire portfolio into last year's best-performing fund",
+        "Increasing the frequency of transactions to capture trends",
+        "Avoiding equity entirely",
+        "A pre-decided asset allocation policy with upper limits for each asset class"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Chasing past performance is like driving by the rear-view mirror. A pre-decided allocation with upper limits per asset class (and per security) prevents over-exposure.",
+      "hints": [
+        "Incorrect. This repeats the same mistake.",
+        "Incorrect. Frequent trading is itself a bias (action bias).",
+        "Incorrect. Abandoning an asset class is not the recommended cure.",
+        "Correct. Pre-set limits stop over-exposure to the latest winner."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-23",
+      "chapter": 18,
+      "difficulty": "easy",
+      "q": "Under Regulation 16 of the SEBI (Investment Advisers) Regulations, 2013, when must the assessed risk profile be communicated to the client and consent obtained?",
+      "options": [
+        "Within 30 days after the first advice is given",
+        "Before providing investment advice, including advice described as a free trial",
+        "Only for clients paying advisory fees",
+        "Only when the client's portfolio exceeds ₹50 lakh"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "The workbook states that the risk profile must be communicated and the client's consent obtained before advice is provided, and that this also applies to free trials. It must be updated periodically and on material changes.",
+      "hints": [
+        "Incorrect. Communication must precede the advice.",
+        "Correct. The profile comes before the advice, even for free trials.",
+        "Incorrect. Free-trial advice is also covered.",
+        "Incorrect. There is no portfolio-size threshold."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-24",
+      "chapter": 18,
+      "difficulty": "easy",
+      "q": "An investor raises equity exposure because he expects industry and share markets to be buoyant. This is an example of:",
+      "options": [
+        "Strategic asset allocation",
+        "Dynamic asset allocation",
+        "Tactical asset allocation",
+        "Risk profiling"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Tactical asset allocation comes from calls on the likely behaviour of the market, such as going overweight on equities. Strategic allocation is goal-based and not changed for expected performance. Dynamic allocation uses predefined models.",
+      "hints": [
+        "Incorrect. Strategic allocation is not changed on expected asset performance.",
+        "Incorrect. Dynamic allocation uses predefined models and triggers, not discretionary calls.",
+        "Correct. A market call is tactical.",
+        "Incorrect. Risk profiling assesses the client, not the market."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M1-25",
+      "chapter": 19,
+      "difficulty": "easy",
+      "q": "As per the workbook's comparison, the minimum investment for Portfolio Management Services is:",
+      "options": [
+        "₹25 lakh",
+        "₹1 crore",
+        "₹50 lakh",
+        "₹10 lakh"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "The comparison table gives a minimum investment of ₹50 lakh for PMS, ₹1 crore for AIF Category III, and as low as ₹1,000 for mutual funds.",
+      "hints": [
+        "Incorrect. ₹25 lakh is not the stated minimum.",
+        "Incorrect. ₹1 crore is the AIF minimum.",
+        "Correct. The PMS minimum is ₹50 lakh.",
+        "Incorrect. ₹10 lakh is not the stated minimum."
+      ],
+      "numeric": false,
+      "case": null
+    }
+  ]
+}

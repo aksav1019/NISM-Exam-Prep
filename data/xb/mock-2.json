@@ -1,0 +1,583 @@
+{
+  "id": "mock-2",
+  "title": "Mock 2 · Retirement Ready",
+  "level": "easy",
+  "blurb": "Retirement maths and product limits plus core tax, estate and behaviour facts, with a short retirement-corpus caselet.",
+  "questions": [
+    {
+      "id": "xb-M2-01",
+      "chapter": 6,
+      "difficulty": "easy",
+      "q": "What will Ravi's current monthly expense of ₹30,000 grow to by the time he retires?",
+      "options": [
+        "₹75,000",
+        "₹1,21,468",
+        "₹2,05,454",
+        "₹1,28,756"
+      ],
+      "answer": 3,
+      "marks": 2,
+      "explanation": "There are 25 years to retirement (60 − 35). FV = 30,000 × (1.06)^25 = ₹1,28,756 per month.",
+      "hints": [
+        "Incorrect. This uses simple growth (30,000 × (1 + 0.06 × 25)), not compounding.",
+        "Incorrect. This compounds for only 24 years.",
+        "Incorrect. This compounds at the 8% investment return instead of 6% inflation.",
+        "Correct. ₹30,000 × 1.06^25 ≈ ₹1,28,756."
+      ],
+      "numeric": true,
+      "case": "Ravi, aged 35, currently spends ₹30,000 per month on household expenses. He plans to retire at 60 and wants to maintain the same lifestyle, adjusted for inflation, which he expects to average 6% p.a. His retirement corpus is expected to earn 8% p.a. To estimate his retirement income need, his adviser starts from Ravi's detailed monthly budget, removes expenses that will stop (home-loan EMI, children's school fees) and adds heads that will rise (medical, travel). Ignore taxes."
+    },
+    {
+      "id": "xb-M2-02",
+      "chapter": 6,
+      "difficulty": "easy",
+      "q": "What inflation-adjusted (real) rate of return should be used to compute Ravi's retirement corpus?",
+      "options": [
+        "2.00%",
+        "14.48%",
+        "1.89%",
+        "−1.85%"
+      ],
+      "answer": 2,
+      "marks": 2,
+      "explanation": "Real rate = (1 + 8%)/(1 + 6%) − 1 = 1.0189 − 1 = 1.89%, as used throughout the workbook.",
+      "hints": [
+        "Incorrect. Simple subtraction (8% − 6%) is only an approximation.",
+        "Incorrect. This multiplies (1.08 × 1.06) instead of dividing.",
+        "Correct. 1.08/1.06 − 1 = 1.89%.",
+        "Incorrect. This divides the wrong way round (1.06/1.08 − 1)."
+      ],
+      "numeric": true,
+      "case": "Ravi, aged 35, currently spends ₹30,000 per month on household expenses. He plans to retire at 60 and wants to maintain the same lifestyle, adjusted for inflation, which he expects to average 6% p.a. His retirement corpus is expected to earn 8% p.a. To estimate his retirement income need, his adviser starts from Ravi's detailed monthly budget, removes expenses that will stop (home-loan EMI, children's school fees) and adds heads that will rise (medical, travel). Ignore taxes."
+    },
+    {
+      "id": "xb-M2-03",
+      "chapter": 4,
+      "difficulty": "easy",
+      "q": "Which method of estimating retirement income is the adviser using?",
+      "options": [
+        "Replacement ratio method",
+        "Human Life Value method",
+        "Expense protection method",
+        "Needs-based insurance method"
+      ],
+      "answer": 2,
+      "marks": 2,
+      "explanation": "The expense protection method defines retirement income from a detailed budget of expected expenses in retirement, adjusting heads that rise or fall. The replacement ratio method takes a % of pre-retirement income.",
+      "hints": [
+        "Incorrect. The replacement ratio method uses a % of pre-retirement income, not the budget.",
+        "Incorrect. HLV estimates life insurance needs.",
+        "Correct. Starting from the budget and adjusting expense heads is the expense protection method.",
+        "Incorrect. The needs-based method estimates life cover, not retirement income."
+      ],
+      "numeric": false,
+      "case": "Ravi, aged 35, currently spends ₹30,000 per month on household expenses. He plans to retire at 60 and wants to maintain the same lifestyle, adjusted for inflation, which he expects to average 6% p.a. His retirement corpus is expected to earn 8% p.a. To estimate his retirement income need, his adviser starts from Ravi's detailed monthly budget, removes expenses that will stop (home-loan EMI, children's school fees) and adds heads that will rise (medical, travel). Ignore taxes."
+    },
+    {
+      "id": "xb-M2-04",
+      "chapter": 1,
+      "difficulty": "easy",
+      "q": "Under Section 45 of the Insurance Act, 1938, after what period can a life insurance policy no longer be called in question on any ground?",
+      "options": [
+        "3 years from the date of the policy, risk commencement or revival, whichever is later",
+        "2 years from the date of issue",
+        "5 years from the date of the first premium",
+        "7 years from the date of revival only"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Section 45 (the incontestability clause) bars questioning a life policy after 3 years from the policy date, risk commencement or revival date, whichever is later. Within 3 years it may be repudiated for fraud.",
+      "hints": [
+        "Correct. The incontestability period is 3 years.",
+        "Incorrect. 2 years is when a traditional policy acquires surrender value, not the incontestability period.",
+        "Incorrect. 5 years is the health insurance moratorium.",
+        "Incorrect. 7 years has no relevance here."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-05",
+      "chapter": 2,
+      "difficulty": "medium",
+      "q": "Surinder holds a 20-year endowment policy with a sum assured of ₹12 lakh and premiums payable quarterly. He stops paying after 6 years. What is the paid-up sum assured?",
+      "options": [
+        "₹3,60,000",
+        "₹3,00,000",
+        "₹4,00,000",
+        "₹7,20,000"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Paid-up SA = SA × premiums paid ÷ premiums payable. Quarterly over 20 years = 80 premiums. 6 years paid = 24 premiums. ₹12,00,000 × 24/80 = ₹3,60,000.",
+      "hints": [
+        "Correct. ₹12 lakh × 24/80 = ₹3.6 lakh.",
+        "Incorrect. This would correspond to 5 years (20 premiums) paid.",
+        "Incorrect. ₹4 lakh would mean one-third of premiums paid.",
+        "Incorrect. This wrongly uses 12 of 20 premiums."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M2-06",
+      "chapter": 2,
+      "difficulty": "easy",
+      "q": "A traditional non-linked life policy with full premiums paid is surrendered in the 3rd policy year. Its minimum guaranteed surrender value is what percentage of premiums paid?",
+      "options": [
+        "30%",
+        "35%",
+        "50%",
+        "90%"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "The minimum GSV is 30% of premiums paid in the 2nd year, 35% in the 3rd, 50% in years 4–7, rising to at least 90% in the last two policy years.",
+      "hints": [
+        "Incorrect. 30% applies in the 2nd policy year.",
+        "Correct. Year 3 gives 35%.",
+        "Incorrect. 50% applies in years 4 to 7.",
+        "Incorrect. 90% applies in the last two policy years."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-07",
+      "chapter": 3,
+      "difficulty": "easy",
+      "q": "Which statement about the no-claim bonus (NCB) in car insurance is correct?",
+      "options": [
+        "It is attached to the car and passes to the buyer when the car is sold",
+        "It belongs to the insured and can be transferred to a new car he buys",
+        "It is capped at 25% of the own-damage premium",
+        "It is lost when the insured switches insurer at renewal"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "NCB can go up to 50% of the own-damage premium after 5 claim-free years. It belongs to the insured person, not the car, and a new insurer gives it when the policy is shifted at renewal.",
+      "hints": [
+        "Incorrect. The buyer of the old car is not eligible for the seller's NCB.",
+        "Correct. The NCB follows the owner, not the vehicle.",
+        "Incorrect. The maximum is 50% after 5 claim-free years.",
+        "Incorrect. The new insurer provides the NCB on shifting at renewal."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-08",
+      "chapter": 4,
+      "difficulty": "easy",
+      "q": "Mrs. Rao's income just before retirement is ₹2,00,000 per month and her planner uses an 80% replacement ratio. What is her required income in the first month of retirement?",
+      "options": [
+        "₹2,00,000",
+        "₹40,000",
+        "₹1,60,000",
+        "₹1,20,000"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Replacement income (Year 1) = pre-retirement income × 0.80 = ₹2,00,000 × 0.80 = ₹1,60,000. It is then increased by inflation each year.",
+      "hints": [
+        "Incorrect. This assumes a 100% replacement ratio.",
+        "Incorrect. This is the 20% shortfall, not the replacement income.",
+        "Correct. 80% of ₹2 lakh = ₹1.6 lakh.",
+        "Incorrect. This uses a 60% ratio."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M2-09",
+      "chapter": 5,
+      "difficulty": "medium",
+      "q": "Mohan's last drawn monthly wages were ₹52,000 and he completed 18 years and 8 months of continuous service. What gratuity is payable under the Code on Social Security, 2020 formula?",
+      "options": [
+        "₹5,40,000",
+        "₹4,94,000",
+        "₹11,40,000",
+        "₹5,70,000"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Gratuity = 15 × last wages × years ÷ 26. Service of 18 years 8 months rounds up to 19 years because the extra part exceeds 6 months. 15 × 52,000 × 19 ÷ 26 = ₹5,70,000.",
+      "hints": [
+        "Incorrect. This ignores rounding (uses 18 years).",
+        "Incorrect. This divides by 30 instead of 26.",
+        "Incorrect. This uses 30 days' wages instead of 15.",
+        "Correct. Round 8 months up: 15 × 52,000 × 19 ÷ 26 = ₹5.7 lakh."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M2-10",
+      "chapter": 5,
+      "difficulty": "easy",
+      "q": "An NPS Tier I subscriber who has been investing for at least 3 years wants a partial withdrawal for a child's higher studies. How much can be withdrawn?",
+      "options": [
+        "Up to 50% of the total corpus",
+        "Up to 25% of the subscriber's own contributions",
+        "Up to 25% of the total corpus including employer contributions and returns",
+        "The entire Tier I balance"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "After 3 years a subscriber may withdraw up to 25% of their own contributions for specified purposes, up to 4 times before 60, with a minimum gap of 4 years between withdrawals.",
+      "hints": [
+        "Incorrect. No 50% partial withdrawal rule exists.",
+        "Correct. The limit is 25% of own contributions.",
+        "Incorrect. The 25% applies to own contributions, not the full corpus.",
+        "Incorrect. Full withdrawal is allowed only at exit, subject to the annuity rules."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-11",
+      "chapter": 5,
+      "difficulty": "easy",
+      "q": "Which statement about the Senior Citizens' Savings Scheme (SCSS) is correct?",
+      "options": [
+        "It has a 5-year term extendable in blocks of 3 years, with a maximum of ₹30 lakh across all accounts",
+        "Interest is paid monthly and is tax-free",
+        "Any resident aged 50 or above can open it",
+        "The maximum investment is ₹15 lakh per individual"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "SCSS is for those aged 60 or above. The term is 5 years, extendable in blocks of 3 years, and the maximum across all accounts is ₹30 lakh. Interest is paid quarterly and is fully taxable.",
+      "hints": [
+        "Correct. The 5 years, the 3-year extensions and the ₹30 lakh cap are all correct.",
+        "Incorrect. Interest is paid quarterly and is fully taxable.",
+        "Incorrect. The general age requirement is 60 years.",
+        "Incorrect. The limit is ₹30 lakh."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-12",
+      "chapter": 7,
+      "difficulty": "easy",
+      "q": "A resident individual opting for the new tax regime under section 202 has a total income of exactly ₹12,00,000 (no special-rate income). What is his tax liability after the rebate?",
+      "options": [
+        "Nil, because the rebate of up to ₹60,000 covers it",
+        "₹60,000",
+        "₹12,500",
+        "₹80,000"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Under the new regime, a resident with total income up to ₹12 lakh gets a rebate of up to ₹60,000 under s.156 (old s.87A). The tax on ₹12 lakh (₹20,000 + ₹40,000 = ₹60,000) is fully rebated.",
+      "hints": [
+        "Correct. Tax of ₹60,000 is fully offset by the rebate.",
+        "Incorrect. This is the tax before the rebate.",
+        "Incorrect. ₹12,500 is the old-regime rebate limit.",
+        "Incorrect. This miscomputes the slab tax."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M2-13",
+      "chapter": 8,
+      "difficulty": "easy",
+      "q": "Unlisted equity shares are treated as long-term capital assets when held for:",
+      "options": [
+        "More than 12 months",
+        "More than 36 months",
+        "More than 24 months",
+        "More than 60 months"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Listed equity shares need more than 12 months, while unlisted shares need more than 24 months immediately before the transfer.",
+      "hints": [
+        "Incorrect. 12 months applies to listed equity shares.",
+        "Incorrect. 36 months was an old rule and is no longer applicable.",
+        "Correct. Unlisted shares need more than 24 months.",
+        "Incorrect. No 60-month rule exists."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-14",
+      "chapter": 11,
+      "difficulty": "medium",
+      "q": "Neeta, a resident, has a long-term capital gain of ₹3,00,000 on listed equity shares sold on a stock exchange with STT paid on both legs. She has no other capital gains. What is her tax (before surcharge and cess)?",
+      "options": [
+        "₹37,500",
+        "₹21,875",
+        "₹35,000",
+        "₹60,000"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Under s.198 (old 112A), LTCG above ₹1,25,000 is taxed at 12.5%: (3,00,000 − 1,25,000) × 12.5% = ₹21,875.",
+      "hints": [
+        "Incorrect. This ignores the ₹1.25 lakh exemption.",
+        "Correct. 12.5% on ₹1.75 lakh = ₹21,875.",
+        "Incorrect. This applies 20% (the STCG rate) to the excess.",
+        "Incorrect. This applies 20% to the whole gain."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M2-15",
+      "chapter": 12,
+      "difficulty": "easy",
+      "q": "For computing the salary perquisite on ESOPs, the fair market value of the shares is taken on which date?",
+      "options": [
+        "The date of grant",
+        "The date of vesting",
+        "The date of sale of the shares",
+        "The date on which the employee exercises the option"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Perquisite = (FMV on the date of exercise − amount paid) × shares, taxed in the year of allotment. The FMV on the vesting or allotment date is not considered.",
+      "hints": [
+        "Incorrect. Nothing is taxed at grant.",
+        "Incorrect. The workbook states the FMV on vesting is not considered.",
+        "Incorrect. The sale triggers capital gains, not the perquisite.",
+        "Correct. The FMV is taken on the exercise date."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-16",
+      "chapter": 13,
+      "difficulty": "easy",
+      "q": "Ignoring grandfathering, what is the cost of acquisition of bonus shares allotted after 1 April 2001 without any payment?",
+      "options": [
+        "Face value of the shares",
+        "Market price on the allotment date",
+        "Nil",
+        "Average cost of the original shares"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Bonus shares allotted without payment have a nil cost of acquisition (FMV on 1-4-2001 applies only to bonus shares issued before that date). The holding period runs from the allotment date.",
+      "hints": [
+        "Incorrect. Face value is not used as cost.",
+        "Incorrect. The market price on allotment is not the cost.",
+        "Correct. The cost is nil.",
+        "Incorrect. The original shares' cost is not spread over the bonus shares (unlike a split)."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-17",
+      "chapter": 14,
+      "difficulty": "easy",
+      "q": "Under Muslim personal law, a widow whose deceased husband left children is entitled to what share of his property?",
+      "options": [
+        "One-fourth",
+        "One-eighth",
+        "One-half",
+        "Two-thirds"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "A Muslim widow takes 1/4 if there are no lineal descendants and 1/8 if there are children or grandchildren.",
+      "hints": [
+        "Incorrect. 1/4 applies to a childless widow.",
+        "Correct. 1/8 when there are children.",
+        "Incorrect. 1/2 is the husband's share when there are no descendants (or a sole daughter's share).",
+        "Incorrect. 2/3 is the share of two or more daughters jointly."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-18",
+      "chapter": 15,
+      "difficulty": "easy",
+      "q": "Under the Indian Succession Act, 1925, probate can be granted only to:",
+      "options": [
+        "Any legal heir of the deceased",
+        "The eldest son of the deceased",
+        "The registrar who registered the Will",
+        "The executor appointed by the Will"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Section 222 states that probate is granted only to an executor appointed by the Will. Otherwise, letters of administration are issued.",
+      "hints": [
+        "Incorrect. Legal heirs may get letters of administration, not probate.",
+        "Incorrect. Being the eldest son gives no right to probate.",
+        "Incorrect. The registrar has no role in granting probate.",
+        "Correct. Probate goes only to the executor."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-19",
+      "chapter": 15,
+      "difficulty": "easy",
+      "q": "Which of the following does NOT amount to revocation of a Will?",
+      "options": [
+        "Executing a later Will that revokes it",
+        "The testator tearing the Will with the intention of revoking it",
+        "A written declaration of revocation executed like a Will",
+        "The Will being accidentally lost"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "The workbook says the mere loss of a Will does not lead to revocation. A later Will or codicil, a written declaration executed like a Will, or destruction with intent all revoke it.",
+      "hints": [
+        "Incorrect. A later duly executed Will is a mode of revocation.",
+        "Incorrect. Destruction with intent revokes the Will.",
+        "Incorrect. A declaration executed like a Will revokes it.",
+        "Correct. Loss without intent does not revoke a Will."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-20",
+      "chapter": 16,
+      "difficulty": "easy",
+      "q": "An investor sells his winning stocks quickly but holds on to losing stocks hoping they will recover. This behaviour is known as the:",
+      "options": [
+        "Anchoring effect",
+        "Home bias",
+        "Disposition effect",
+        "Framing effect"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Shefrin and Statman (1985) proposed the disposition effect, holding losers too long and selling winners too early, which flows from loss aversion.",
+      "hints": [
+        "Incorrect. Anchoring is relying on pre-existing information.",
+        "Incorrect. Home bias is preferring domestic securities.",
+        "Correct. Selling winners and holding losers is the disposition effect.",
+        "Incorrect. Framing is answering differently depending on how a question is presented."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-21",
+      "chapter": 17,
+      "difficulty": "easy",
+      "q": "According to the workbook, what is the FIRST step an adviser should take with a client who goes on shopping binges to relieve stress (retail therapy)?",
+      "options": [
+        "Ask the client to stop using all bank accounts",
+        "Make the client conscious that the behaviour is induced by stress",
+        "Recommend a credit card with a high limit",
+        "Ignore it, since it reduces stress"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Step one is awareness that stress drives the behaviour. Step two is a specific budget, possibly in a separate account, as a self-imposed brake. Credit cards induce impulsive spending.",
+      "hints": [
+        "Incorrect. This is not practical and is not the suggested approach.",
+        "Correct. Awareness comes first.",
+        "Incorrect. Credit cards encourage impulsive spending.",
+        "Incorrect. The adviser should help make such behaviour self-limiting."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-22",
+      "chapter": 18,
+      "difficulty": "easy",
+      "q": "The investor's objective financial ability to absorb a loss without jeopardising goals, depending on income, assets, liabilities and time available, is called:",
+      "options": [
+        "Risk tolerance",
+        "Risk composure",
+        "Risk perception",
+        "Risk capacity"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Risk capacity is the financial and temporal ability to absorb losses. A 35-year-old 30 years from retirement has more capacity than a 60-year-old near retirement, even with the same tolerance.",
+      "hints": [
+        "Incorrect. Risk tolerance is willingness to accept uncertainty.",
+        "Incorrect. Risk composure is consistency of behaviour under stress.",
+        "Incorrect. Risk perception is how risky the investor judges something to be.",
+        "Correct. Ability (not willingness) is risk capacity."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-23",
+      "chapter": 18,
+      "difficulty": "easy",
+      "q": "Other factors remaining the same, how does an increase in the number of dependants affect a person's risk appetite?",
+      "options": [
+        "Risk appetite decreases",
+        "Risk appetite increases",
+        "Risk appetite is unaffected",
+        "Risk appetite first rises, then falls"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Table 18.1 shows risk appetite decreases as the number of dependent members increases, and increases as the number of earning members increases.",
+      "hints": [
+        "Correct. More dependants means less appetite for risk.",
+        "Incorrect. Risk appetite increases with more earning members, not dependants.",
+        "Incorrect. Family composition does affect risk appetite.",
+        "Incorrect. There is no such non-linear relationship in the workbook."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-24",
+      "chapter": 19,
+      "difficulty": "easy",
+      "q": "Which statement correctly distinguishes an Exchange Traded Fund (ETF) from an index fund?",
+      "options": [
+        "ETF units trade on the exchange throughout the day, while index fund units are bought or sold from the AMC at end-of-day NAV",
+        "Index fund units trade on the exchange, while ETFs are bought only from the AMC",
+        "ETFs never involve brokerage or bid-ask costs",
+        "Index funds always have lower management costs than ETFs"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "ETFs are index funds traded on the exchange with minute-to-minute prices, plus brokerage, demat and bid-ask costs. Index funds are transacted with the AMC at end-of-day NAV, with management costs that may be nominally higher.",
+      "hints": [
+        "Correct. Exchange trading during the day vs AMC at end-of-day NAV.",
+        "Incorrect. This reverses the two.",
+        "Incorrect. ETFs do incur brokerage, demat and bid-ask costs.",
+        "Incorrect. Index fund management costs may be nominally higher than an ETF's."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M2-25",
+      "chapter": 20,
+      "difficulty": "easy",
+      "q": "A retirement portfolio is 40% equity expected to earn 12% p.a. and 60% debt expected to earn 6% p.a. What is the blended expected return?",
+      "options": [
+        "8.4%",
+        "9.0%",
+        "7.8%",
+        "18.0%"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Blended return = (40% × 12%) + (60% × 6%) = 4.8% + 3.6% = 8.4%.",
+      "hints": [
+        "Correct. 4.8% + 3.6% = 8.4%.",
+        "Incorrect. This is a simple average of 12% and 6%, ignoring the weights.",
+        "Incorrect. 7.8% would need debt at 5%.",
+        "Incorrect. This adds the two returns."
+      ],
+      "numeric": true,
+      "case": null
+    }
+  ]
+}

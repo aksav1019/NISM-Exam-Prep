@@ -1,0 +1,698 @@
+{
+  "id": "mock-6",
+  "title": "Mock 6 · Tough Simulation I",
+  "level": "tough",
+  "blurb": "Exam-style pressure: insurance-needs, SWR retirement and capital-gains caselets plus tricky numericals and 'NOT correct' questions.",
+  "questions": [
+    {
+      "id": "xb-M6-01",
+      "chapter": 1,
+      "difficulty": "hard",
+      "q": "A claim of ₹30,000 is admissible. Policy 1 has a deductible of ₹2,000 and a co-pay of 20%. Policy 2 has a deductible of ₹8,000 and no co-pay. Which statement is correct?",
+      "options": [
+        "Policy 2 pays ₹400 more than Policy 1",
+        "Both policies pay ₹22,000",
+        "Policy 1 pays ₹22,400, which is ₹400 more than Policy 2",
+        "Policy 1 pays ₹24,000"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Policy 1: (30,000 − 2,000) × 80% = ₹22,400. Policy 2: 30,000 − 8,000 = ₹22,000. Policy 1 pays ₹400 more. The deductible comes first, then the co-pay on the balance.",
+      "hints": [
+        "Incorrect. This reverses the comparison.",
+        "Incorrect. Only Policy 2 pays ₹22,000.",
+        "Correct. 22,400 − 22,000 = ₹400 in favour of Policy 1.",
+        "Incorrect. This applies the 20% co-pay to the full ₹30,000 (₹24,000) and ignores the deductible."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M6-02",
+      "chapter": 1,
+      "difficulty": "medium",
+      "q": "Which of the following statements about health insurance regulation is NOT correct?",
+      "options": [
+        "After 5 continuous years of premiums, no claim is contestable except for proven fraud or permanent exclusions",
+        "No add-ons or optional covers can be sold with the standard individual health product",
+        "An insurer is liable to pay interest if there is a delay in claim settlement",
+        "Top-up and super top-up policies can be ported to another insurer like any other health policy"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Any health policy OTHER than group, top-up or super top-up policies can be ported. The other three statements are correct per section 1.8.1 of the workbook.",
+      "hints": [
+        "Incorrect. This is correct: it is the moratorium rule.",
+        "Incorrect. This is correct: the standard product has no add-ons.",
+        "Incorrect. This is correct: interest is payable on delayed claims.",
+        "Correct. This is the false statement: top-up and super top-up are excluded from portability."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M6-03",
+      "chapter": 3,
+      "difficulty": "hard",
+      "q": "Sonal has a base health policy of ₹4 lakh and a TOP-UP policy of ₹10 lakh with a ₹4 lakh threshold. During the year she has three hospital bills of ₹3 lakh, ₹2 lakh and ₹5 lakh, in that order. What is her total out-of-pocket expense?",
+      "options": [
+        "₹5 lakh",
+        "Nil",
+        "₹4 lakh",
+        "₹1 lakh"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Bill 1: the base pays ₹3 lakh (₹1 lakh left). Bill 2 (₹2 lakh): the base pays ₹1 lakh. The bill is below the ₹4 lakh per-claim threshold, so the top-up pays nothing and she pays ₹1 lakh. Bill 3 (₹5 lakh): the base is exhausted and the top-up pays 5 − 4 = ₹1 lakh, so she pays ₹4 lakh. Total = ₹5 lakh.",
+      "hints": [
+        "Correct. ₹1 lakh + ₹4 lakh = ₹5 lakh.",
+        "Incorrect. Nil would be the result under a SUPER top-up, where the threshold is aggregate.",
+        "Incorrect. This misses the ₹1 lakh unpaid on the second bill.",
+        "Incorrect. This counts only the second bill's shortfall."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M6-04",
+      "chapter": 4,
+      "difficulty": "medium",
+      "q": "Other things remaining equal, which of the following would REDUCE the retirement corpus required at the start of retirement?",
+      "options": [
+        "A higher expected inflation rate during retirement",
+        "A longer assumed life expectancy",
+        "Higher expected medical and travel expenses",
+        "A higher expected return on the corpus during retirement"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Inflation and return act in opposite directions. A higher return during retirement lowers the corpus needed, while higher inflation, longer life and higher expenses all raise it.",
+      "hints": [
+        "Incorrect. Higher inflation increases the corpus.",
+        "Incorrect. Longer longevity increases the corpus.",
+        "Incorrect. Higher expenses increase the corpus.",
+        "Correct. A higher return reduces the corpus needed."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M6-05",
+      "chapter": 5,
+      "difficulty": "hard",
+      "q": "Vikas changes his job after 3 years and withdraws his EPF balance of ₹80,000 instead of transferring it. He has furnished his PAN and has not submitted Form 121. Which statement is correct?",
+      "options": [
+        "The withdrawal is tax-free because he changed jobs",
+        "The withdrawal is taxable and TDS at 10% will be deducted",
+        "TDS will be deducted at the maximum marginal rate",
+        "No TDS applies because the amount is below ₹1 lakh"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "A withdrawal before 5 years' continuous service is generally taxable (the exceptions being ill-health, business discontinuance, or transfer to the new employer). For withdrawals above ₹50,000, TDS is 10% if PAN is furnished (MMR without PAN), unless Form 121 is submitted.",
+      "hints": [
+        "Incorrect. Only a TRANSFER to the new employer keeps it tax-free.",
+        "Correct. Under 5 years, above ₹50,000, with PAN: TDS at 10%.",
+        "Incorrect. MMR applies only when PAN is not furnished.",
+        "Incorrect. The TDS threshold is ₹50,000."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M6-06",
+      "chapter": 5,
+      "difficulty": "medium",
+      "q": "Ajay, 45, a non-government NPS subscriber with 12 years in the scheme, resigns and exits NPS with an accumulated corpus of ₹20 lakh. What is the maximum he can take as a lump sum?",
+      "options": [
+        "₹12 lakh",
+        "₹16 lakh",
+        "₹20 lakh",
+        "₹4 lakh"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "On exit before 60 or superannuation (or before 15 years), at least 80% must be annuitised. Only if the corpus is ₹5 lakh or less can the whole amount be withdrawn. 20% of ₹20 lakh = ₹4 lakh.",
+      "hints": [
+        "Incorrect. The 60% figure relates to tax exemption, not premature exit.",
+        "Incorrect. 80% lump sum applies at normal exit (minimum 20% annuity), not on premature exit.",
+        "Incorrect. Full withdrawal is allowed only if the corpus is at most ₹5 lakh.",
+        "Correct. 20% of ₹20 lakh = ₹4 lakh."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M6-07",
+      "chapter": 2,
+      "difficulty": "easy",
+      "q": "What is the annual amount Rohan wants to provide for his wife, and the real rate to be used?",
+      "options": [
+        "₹19,20,000 per year at 1.89%",
+        "₹12,00,000 per year at 2.00%",
+        "₹12,00,000 per year at 1.89%",
+        "₹14,40,000 per year at 1.89%"
+      ],
+      "answer": 2,
+      "marks": 2,
+      "explanation": "Net income = 1,60,000 − (20,000 + 30,000 + 10,000) = ₹1,00,000 per month = ₹12 lakh a year. Real rate = 1.08/1.06 − 1 = 1.89%.",
+      "hints": [
+        "Incorrect. This is his gross income. Personal expenses, EMI and premiums must be deducted.",
+        "Incorrect. 8% − 6% is only an approximation of the real rate.",
+        "Correct. Income minus personal expenses, EMI and premiums = ₹1 lakh/month, at 1.89%.",
+        "Incorrect. This deducts only the EMI and premiums (₹1.2 lakh/month), not his personal expenses."
+      ],
+      "numeric": true,
+      "case": "Rohan, 38, earns ₹1,60,000 per month. Out of this, his personal expenses are ₹20,000, his home-loan EMI is ₹30,000 (outstanding loan ₹45 lakh) and his insurance premiums are ₹10,000. He wants his wife, now 35, to receive the balance of his income every year until she turns 80 if he dies today. Assume inflation of 6% p.a., an investment return of 8% p.a. (round the real rate to 2 decimals) and payments at the beginning of each year. He already has life cover of ₹75 lakh and investments of ₹40 lakh, excluding the house. He is also comparing a pure term plan (₹15,000 p.a.) with a return-of-premium term plan (₹28,000 p.a.) for 30 years from the same insurer."
+    },
+    {
+      "id": "xb-M6-08",
+      "chapter": 2,
+      "difficulty": "hard",
+      "q": "What corpus is required today to provide this income until his wife turns 80?",
+      "options": [
+        "About ₹5.40 crore",
+        "About ₹3.62 crore",
+        "About ₹3.68 crore",
+        "About ₹1.57 crore"
+      ],
+      "answer": 2,
+      "marks": 2,
+      "explanation": "There are 45 years (80 − 35). PV(1.89%, 45, −12,00,000, , 1) ≈ ₹3,68,35,297. Type 1 is used because payments are at the beginning of each year.",
+      "hints": [
+        "Incorrect. This is 12 lakh × 45 with no discounting.",
+        "Incorrect. This uses end-of-year payments (type 0).",
+        "Correct. PV at 1.89% for 45 years, type 1 ≈ ₹3.68 crore.",
+        "Incorrect. This discounts at the nominal 8%, ignoring inflation growth."
+      ],
+      "numeric": true,
+      "case": "Rohan, 38, earns ₹1,60,000 per month. Out of this, his personal expenses are ₹20,000, his home-loan EMI is ₹30,000 (outstanding loan ₹45 lakh) and his insurance premiums are ₹10,000. He wants his wife, now 35, to receive the balance of his income every year until she turns 80 if he dies today. Assume inflation of 6% p.a., an investment return of 8% p.a. (round the real rate to 2 decimals) and payments at the beginning of each year. He already has life cover of ₹75 lakh and investments of ₹40 lakh, excluding the house. He is also comparing a pure term plan (₹15,000 p.a.) with a return-of-premium term plan (₹28,000 p.a.) for 30 years from the same insurer."
+    },
+    {
+      "id": "xb-M6-09",
+      "chapter": 2,
+      "difficulty": "medium",
+      "q": "How much ADDITIONAL life insurance should Rohan buy?",
+      "options": [
+        "About ₹3.38 crore",
+        "About ₹2.53 crore",
+        "About ₹4.13 crore",
+        "About ₹2.98 crore"
+      ],
+      "answer": 3,
+      "marks": 2,
+      "explanation": "Total need = corpus ₹3.68 crore + loan ₹0.45 crore = ₹4.13 crore. Less existing cover ₹0.75 crore and investments ₹0.40 crore gives an additional ₹2.98 crore.",
+      "hints": [
+        "Incorrect. This forgets to deduct the ₹40 lakh of investments.",
+        "Incorrect. This forgets to add the ₹45 lakh loan.",
+        "Incorrect. This is the gross need before deducting existing cover and investments.",
+        "Correct. 3.68 + 0.45 − 0.75 − 0.40 ≈ ₹2.98 crore."
+      ],
+      "numeric": true,
+      "case": "Rohan, 38, earns ₹1,60,000 per month. Out of this, his personal expenses are ₹20,000, his home-loan EMI is ₹30,000 (outstanding loan ₹45 lakh) and his insurance premiums are ₹10,000. He wants his wife, now 35, to receive the balance of his income every year until she turns 80 if he dies today. Assume inflation of 6% p.a., an investment return of 8% p.a. (round the real rate to 2 decimals) and payments at the beginning of each year. He already has life cover of ₹75 lakh and investments of ₹40 lakh, excluding the house. He is also comparing a pure term plan (₹15,000 p.a.) with a return-of-premium term plan (₹28,000 p.a.) for 30 years from the same insurer."
+    },
+    {
+      "id": "xb-M6-10",
+      "chapter": 2,
+      "difficulty": "hard",
+      "q": "Using the workbook method, what return does Rohan earn on the extra premium paid for the return-of-premium plan (premiums returned at maturity = 30 × ₹28,000)?",
+      "options": [
+        "About 4.84% p.a.",
+        "About 3.85% p.a.",
+        "About 4.58% p.a.",
+        "Nil, since only premiums are returned"
+      ],
+      "answer": 2,
+      "marks": 2,
+      "explanation": "Extra premium = 28,000 − 15,000 = ₹13,000 a year at the beginning of each year. FV = ₹8,40,000. RATE(30, −13,000, 0, 8,40,000, 1) ≈ 4.58%.",
+      "hints": [
+        "Incorrect. This uses end-of-period payments (type 0).",
+        "Incorrect. This is a simple average gain ((8.4 lakh − 3.9 lakh) ÷ 3.9 lakh ÷ 30), not a compounded return.",
+        "Correct. RATE on the extra ₹13,000, type 1 ≈ 4.58%.",
+        "Incorrect. Comparing against the full ₹28,000 premium gives nil, but the decision is about the EXTRA premium only."
+      ],
+      "numeric": true,
+      "case": "Rohan, 38, earns ₹1,60,000 per month. Out of this, his personal expenses are ₹20,000, his home-loan EMI is ₹30,000 (outstanding loan ₹45 lakh) and his insurance premiums are ₹10,000. He wants his wife, now 35, to receive the balance of his income every year until she turns 80 if he dies today. Assume inflation of 6% p.a., an investment return of 8% p.a. (round the real rate to 2 decimals) and payments at the beginning of each year. He already has life cover of ₹75 lakh and investments of ₹40 lakh, excluding the house. He is also comparing a pure term plan (₹15,000 p.a.) with a return-of-premium term plan (₹28,000 p.a.) for 30 years from the same insurer."
+    },
+    {
+      "id": "xb-M6-11",
+      "chapter": 5,
+      "difficulty": "hard",
+      "q": "Under the NPS drawdown facility, a subscriber aged 65 chooses a drawdown end age of 85 and the Systematic Payout Rate method. The drawdown corpus is worth ₹60 lakh on his birthday. What is his monthly payout until the next birthday?",
+      "options": [
+        "₹30,000",
+        "₹20,000",
+        "₹25,000",
+        "₹3,00,000"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "SPR = 1 ÷ (85 − 65) = 5% a year. Monthly payout = (5% ÷ 12) × ₹60 lakh = ₹25,000. It resets on each birthday based on market value.",
+      "hints": [
+        "Incorrect. This would need an SPR of 6%.",
+        "Incorrect. This uses a 25-year period (SPR of 4%), which applies at age 60.",
+        "Correct. 5%/12 × ₹60 lakh = ₹25,000.",
+        "Incorrect. ₹3 lakh is the ANNUAL payout (5% of ₹60 lakh), not the monthly one."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M6-12",
+      "chapter": 7,
+      "difficulty": "hard",
+      "q": "Mr. D opts for the new tax regime. His let-out house earns rent of ₹3,00,000 (equal to the reasonable expected rent). He paid municipal taxes of ₹20,000 and home-loan interest of ₹4,00,000. He has a salary and no other house. What loss under 'Income from House Property' will be carried forward?",
+      "options": [
+        "₹2,04,000",
+        "₹4,000",
+        "₹1,20,000",
+        "₹2,10,000"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "NAV = 3,00,000 − 20,000 = 2,80,000. Standard deduction at 30% = 84,000. Income = 2,80,000 − 84,000 − 4,00,000 = −2,04,000. The new regime allows no set-off against other heads, so the whole ₹2,04,000 is carried forward (only against future HP income).",
+      "hints": [
+        "Correct. −₹2,04,000 with no inter-head set-off under the new regime.",
+        "Incorrect. ₹4,000 would be the carry-forward under the OLD regime after a ₹2 lakh set-off.",
+        "Incorrect. This ignores the 30% standard deduction.",
+        "Incorrect. This computes 30% on gross rent instead of on NAV."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M6-13",
+      "chapter": 7,
+      "difficulty": "hard",
+      "q": "A resident individual under the new regime has a total income of ₹12,20,000 (no special-rate income). What is his income tax before cess, after the s.156 rebate and marginal relief?",
+      "options": [
+        "₹20,000",
+        "₹63,000",
+        "₹3,000",
+        "Nil"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Normal tax = 5% of ₹4 lakh (₹20,000) + 10% of ₹4 lakh (₹40,000) + 15% of ₹20,000 (₹3,000) = ₹63,000. Marginal relief caps the tax at the income above ₹12 lakh, i.e. ₹20,000.",
+      "hints": [
+        "Correct. Tax is limited to the excess over ₹12 lakh: ₹20,000.",
+        "Incorrect. This ignores marginal relief.",
+        "Incorrect. This taxes only the slab above ₹12 lakh.",
+        "Incorrect. The full rebate is available only up to ₹12 lakh of income."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M6-14",
+      "chapter": 9,
+      "difficulty": "hard",
+      "q": "During the year, Meera receives, without consideration, listed shares worth ₹30,000 (FMV) from a friend, shares worth ₹40,000 (FMV) from her cousin, and shares worth ₹1,00,000 from her father's sister. How much is taxable as Income from Other Sources?",
+      "options": [
+        "₹70,000",
+        "₹20,000",
+        "₹1,70,000",
+        "Nil"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "The father's sister (bua) is a relative, so that gift is excluded. The friend and the cousin are NOT relatives, and their gifts of shares have an aggregate FMV of ₹70,000 (shares are movable property). That exceeds ₹50,000, so the entire ₹70,000 is taxable.",
+      "hints": [
+        "Correct. Non-relative gifts of ₹70,000 exceed ₹50,000, so all ₹70,000 is taxed.",
+        "Incorrect. The whole amount is taxed, not only the excess over ₹50,000.",
+        "Incorrect. The bua's gift is exempt because she is a relative.",
+        "Incorrect. Cousins are not relatives, so the limit is crossed."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M6-15",
+      "chapter": 12,
+      "difficulty": "hard",
+      "q": "Priya exercises 300 ESOPs at ₹200 on 1 May 2026, when the FMV is ₹800. The shares are allotted on 20 May 2026, and she sells them on the exchange (STT paid) on 15 July 2027 at ₹1,000. Which statement is correct?",
+      "options": [
+        "The perquisite is ₹1,80,000 (salary) and the capital gain of ₹60,000 is long-term",
+        "The perquisite is ₹2,40,000 and there is no capital gain",
+        "The capital gain is ₹2,40,000 short-term, using the ₹200 exercise price as cost",
+        "The perquisite must be computed using the FMV on the vesting date"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Perquisite = (800 − 200) × 300 = ₹1,80,000. Cost for capital gains = FMV on exercise (₹800). Gain = (1,000 − 800) × 300 = ₹60,000. Holding from allotment (20 May 2026) to sale exceeds 12 months, so it is LTCG.",
+      "hints": [
+        "Correct. ₹1.8 lakh perquisite, then ₹60,000 LTCG with ₹800 as the cost.",
+        "Incorrect. The perquisite uses the FMV on exercise, not the sale price.",
+        "Incorrect. The cost is the FMV on exercise, and the holding period exceeds 12 months.",
+        "Incorrect. The FMV on the vesting date is not considered."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M6-16",
+      "chapter": 13,
+      "difficulty": "medium",
+      "q": "Ravi bought 500 units of a debt fund at ₹20 each. The fund later creates a segregated portfolio. The NAV of the segregated assets is ₹3 per unit and the NAV of the total portfolio just before segregation was ₹15 per unit. What is the cost of acquisition of his units in the main portfolio after segregation?",
+      "options": [
+        "₹2,000",
+        "₹8,000",
+        "₹10,000",
+        "₹7,500"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Segregated cost = 10,000 × 3/15 = ₹2,000. The main portfolio cost is reduced to 10,000 − 2,000 = ₹8,000. The holding period includes the original period.",
+      "hints": [
+        "Incorrect. ₹2,000 is the SEGREGATED portfolio's cost.",
+        "Correct. ₹10,000 − ₹2,000 = ₹8,000.",
+        "Incorrect. The original cost must be reduced by the segregated cost.",
+        "Incorrect. This uses an incorrect ratio."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M6-17",
+      "chapter": 6,
+      "difficulty": "easy",
+      "q": "What will Meena's annual expenses be in the first year of retirement?",
+      "options": [
+        "₹7.20 lakh",
+        "About ₹17.26 lakh",
+        "About ₹13.68 lakh",
+        "About ₹23.11 lakh"
+      ],
+      "answer": 1,
+      "marks": 2,
+      "explanation": "Monthly expense at 60 = 60,000 × 1.06^15 ≈ ₹1,43,793. Annual ≈ ₹17,25,522.",
+      "hints": [
+        "Incorrect. This is today's annual expense with no inflation.",
+        "Correct. 60,000 × 1.06^15 × 12 ≈ ₹17.26 lakh.",
+        "Incorrect. This uses simple inflation: 7.2 lakh × (1 + 0.06 × 15). Compound growth is required.",
+        "Incorrect. This compounds for 20 years instead of 15."
+      ],
+      "numeric": true,
+      "case": "Meena, 45, currently spends ₹60,000 per month and plans to retire at 60. She expects inflation of 6% p.a. until retirement and plans for a 30-year retirement. Her adviser uses the workbook's Safe Withdrawal Rate table for Indian portfolios: 40% equity / 30 years = 3.60%; 80% equity / 30 years = 2.94%; 30% equity / 30 years = 3.70%. Meena's planned retirement allocation is 40% equity and 60% debt. Her first-year withdrawal will equal her annual expenses at retirement, rising with 6% inflation every year after that."
+    },
+    {
+      "id": "xb-M6-18",
+      "chapter": 6,
+      "difficulty": "medium",
+      "q": "Using the SWR approach, what corpus does Meena need at retirement with her planned 40:60 allocation?",
+      "options": [
+        "About ₹4.66 crore",
+        "About ₹4.79 crore",
+        "About ₹2.00 crore",
+        "About ₹5.87 crore"
+      ],
+      "answer": 1,
+      "marks": 2,
+      "explanation": "Corpus = annual need ÷ SWR = 17,25,522 ÷ 3.60% ≈ ₹4,79,31,164.",
+      "hints": [
+        "Incorrect. This uses the 30%-equity SWR of 3.70%.",
+        "Correct. ₹17.26 lakh ÷ 3.6% ≈ ₹4.79 crore.",
+        "Incorrect. This uses today's expenses (₹7.2 lakh ÷ 3.6%).",
+        "Incorrect. This uses the 80%-equity SWR of 2.94%."
+      ],
+      "numeric": true,
+      "case": "Meena, 45, currently spends ₹60,000 per month and plans to retire at 60. She expects inflation of 6% p.a. until retirement and plans for a 30-year retirement. Her adviser uses the workbook's Safe Withdrawal Rate table for Indian portfolios: 40% equity / 30 years = 3.60%; 80% equity / 30 years = 2.94%; 30% equity / 30 years = 3.70%. Meena's planned retirement allocation is 40% equity and 60% debt. Her first-year withdrawal will equal her annual expenses at retirement, rising with 6% inflation every year after that."
+    },
+    {
+      "id": "xb-M6-19",
+      "chapter": 6,
+      "difficulty": "hard",
+      "q": "Meena suggests holding 80% equity in retirement 'to earn more'. Per the SWR table, what happens to the corpus required?",
+      "options": [
+        "It rises to about ₹5.87 crore, because the higher equity allocation lowers the SWR to 2.94%",
+        "It falls to about ₹3.9 crore, because equity earns higher returns",
+        "It stays at about ₹4.79 crore, since the SWR does not depend on allocation",
+        "It falls to about ₹4.66 crore, because the SWR rises to 3.70%"
+      ],
+      "answer": 0,
+      "marks": 2,
+      "explanation": "17,25,522 ÷ 2.94% ≈ ₹5.87 crore. Higher equity raises volatility and sequence-of-returns risk, so the SWR falls and the required corpus rises. The workbook finds 10–30% equity gives the highest SWRs.",
+      "hints": [
+        "Correct. A lower SWR (2.94%) means a bigger corpus (≈ ₹5.87 crore).",
+        "Incorrect. Higher average returns do not raise the SWR because of sequence risk.",
+        "Incorrect. The SWR varies with the equity allocation.",
+        "Incorrect. 3.70% is the 30%-equity SWR, not the 80% one."
+      ],
+      "numeric": true,
+      "case": "Meena, 45, currently spends ₹60,000 per month and plans to retire at 60. She expects inflation of 6% p.a. until retirement and plans for a 30-year retirement. Her adviser uses the workbook's Safe Withdrawal Rate table for Indian portfolios: 40% equity / 30 years = 3.60%; 80% equity / 30 years = 2.94%; 30% equity / 30 years = 3.70%. Meena's planned retirement allocation is 40% equity and 60% debt. Her first-year withdrawal will equal her annual expenses at retirement, rising with 6% inflation every year after that."
+    },
+    {
+      "id": "xb-M6-20",
+      "chapter": 6,
+      "difficulty": "medium",
+      "q": "Meena retires with exactly the required corpus. In her first year the markets fall and the corpus drops 15%. What should her second-year withdrawal be under the SWR method?",
+      "options": [
+        "About ₹14.67 lakh",
+        "About ₹17.26 lakh",
+        "About ₹19.39 lakh",
+        "About ₹18.29 lakh"
+      ],
+      "answer": 3,
+      "marks": 2,
+      "explanation": "Under the SWR approach, the first-year rupee amount is increased by inflation every year regardless of portfolio value: 17,25,522 × 1.06 ≈ ₹18,29,053.",
+      "hints": [
+        "Incorrect. This recomputes 3.6% of the reduced corpus. The SWR is NOT reset to the current value.",
+        "Incorrect. This ignores the inflation increase.",
+        "Incorrect. This applies inflation twice.",
+        "Correct. Year-1 withdrawal × 1.06 ≈ ₹18.29 lakh."
+      ],
+      "numeric": true,
+      "case": "Meena, 45, currently spends ₹60,000 per month and plans to retire at 60. She expects inflation of 6% p.a. until retirement and plans for a 30-year retirement. Her adviser uses the workbook's Safe Withdrawal Rate table for Indian portfolios: 40% equity / 30 years = 3.60%; 80% equity / 30 years = 2.94%; 30% equity / 30 years = 3.70%. Meena's planned retirement allocation is 40% equity and 60% debt. Her first-year withdrawal will equal her annual expenses at retirement, rising with 6% inflation every year after that."
+    },
+    {
+      "id": "xb-M6-21",
+      "chapter": 14,
+      "difficulty": "hard",
+      "q": "Sunita, a Hindu, dies intestate without any children. Her husband survives her. Among her property is a flat she inherited from her father. Under s.15(2) of the Hindu Succession Act, the flat devolves on:",
+      "options": [
+        "Her husband",
+        "The heirs of her husband",
+        "The heirs of her father",
+        "Her mother alone"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Section 15(2) provides source-based exceptions. If a female Hindu dies without a son or daughter (or children of predeceased ones), property inherited from her father or mother devolves on the heirs of the FATHER, not under the general order that favours the husband.",
+      "hints": [
+        "Incorrect. The husband would take only under the general order, which s.15(2) displaces here.",
+        "Incorrect. The husband's heirs take property inherited from the husband or father-in-law.",
+        "Correct. Property from her father with no children goes to the father's heirs.",
+        "Incorrect. The mother is not the sole heir under this exception."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M6-22",
+      "chapter": 15,
+      "difficulty": "medium",
+      "q": "Under section 78 of the Indian Trusts Act, 1882, which statement about revocation of a private trust is correct?",
+      "options": [
+        "A trust created by a Will may be revoked at the pleasure of the testator",
+        "Every trust can be revoked by the settlor at any time at his pleasure",
+        "A trust can be revoked by a majority of the trustees",
+        "A trust for payment of the author's debts can always be revoked, even after it is communicated to creditors"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Section 78 provides that a trust created by a Will may be revoked at the testator's pleasure. Other trusts need the consent of all beneficiaries (if competent to contract) or an expressly reserved power. A debt trust is revocable only if not communicated to creditors.",
+      "hints": [
+        "Correct. A testamentary trust is revocable at the testator's pleasure.",
+        "Incorrect. The workbook explicitly says a settlor has no general right to revoke every trust.",
+        "Incorrect. Trustees cannot revoke the trust by majority.",
+        "Incorrect. Once communicated to creditors, a debt trust cannot be revoked at pleasure."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M6-23",
+      "chapter": 15,
+      "difficulty": "hard",
+      "q": "A family trust earned interest of ₹60,000, dividends of ₹40,000 and capital gains of ₹30,000. Trustee fees were ₹15,000 and tax exemptions were ₹10,000. Using the workbook's formula, what is the Distributable Net Income (DNI)?",
+      "options": [
+        "₹1,05,000",
+        "₹1,15,000",
+        "₹85,000",
+        "₹65,000"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Taxable income = 60,000 + 40,000 + 30,000 − 15,000 − 10,000 = ₹1,05,000. DNI = taxable income − capital gains + tax exemptions = 1,05,000 − 30,000 + 10,000 = ₹85,000.",
+      "hints": [
+        "Incorrect. ₹1,05,000 is the taxable income, not the DNI.",
+        "Incorrect. This adds back the exemptions without removing the capital gains.",
+        "Correct. 1,05,000 − 30,000 + 10,000 = ₹85,000.",
+        "Incorrect. This removes the capital gains but forgets to add back the exemptions."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M6-24",
+      "chapter": 16,
+      "difficulty": "medium",
+      "q": "Which of the following is a COGNITIVE error rather than an emotional bias?",
+      "options": [
+        "Loss aversion",
+        "Anchoring",
+        "Endowment bias",
+        "Status quo bias"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "The workbook classifies mental accounting, framing and anchoring as cognitive (information-processing) errors. Loss aversion, overconfidence, endowment, status quo and regret aversion are emotional biases.",
+      "hints": [
+        "Incorrect. Loss aversion is an emotional bias.",
+        "Correct. Anchoring is a cognitive error.",
+        "Incorrect. Endowment is an emotional bias.",
+        "Incorrect. Status quo is an emotional bias."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M6-25",
+      "chapter": 18,
+      "difficulty": "hard",
+      "q": "An investor must grow ₹20 lakh to ₹50 lakh in 10 years, but his risk capacity and tolerance support only a conservative portfolio. What should the adviser do?",
+      "options": [
+        "Recommend an aggressive portfolio to close the gap",
+        "Flag the goal as at risk and discuss revising the goal amount, time horizon or savings rate",
+        "Ignore capacity because the need dominates",
+        "Use frequent tactical bets to boost returns"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "When risk need exceeds what tolerance or capacity can support, the workbook says to flag the goal and revise the amount, horizon or savings, rather than simply recommending a riskier portfolio.",
+      "hints": [
+        "Incorrect. This is exactly what the workbook warns against.",
+        "Correct. Revise the goal, not the risk.",
+        "Incorrect. Capacity cannot be ignored.",
+        "Incorrect. Tactical calls are for seasoned investors with large surpluses."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M6-26",
+      "chapter": 19,
+      "difficulty": "medium",
+      "q": "Which statement comparing mutual funds, PMS and AIF Category III is correct?",
+      "options": [
+        "AIF Category III requires a minimum investment of ₹50 lakh",
+        "In PMS the investments are held in the investor's own demat account and upfront fees are not permitted",
+        "Mutual fund fees are not regulated by SEBI",
+        "PMS is a pooled vehicle with units allotted to each investor"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "PMS holds investments in the individual's demat account (minimum ₹50 lakh) and upfront fees are not permitted. AIF Cat III needs ₹1 crore. MF fees are capped by SEBI. MFs, not PMS, are pooled.",
+      "hints": [
+        "Incorrect. The AIF minimum is ₹1 crore.",
+        "Correct. PMS means your own demat account and no upfront fees.",
+        "Incorrect. MF maximum fees are regulated by SEBI.",
+        "Incorrect. That describes a mutual fund."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M6-27",
+      "chapter": 8,
+      "difficulty": "medium",
+      "q": "Against which gain(s) can Mr. Kapoor set off his brought-forward long-term capital loss of ₹1.5 lakh?",
+      "options": [
+        "Against any of the three gains",
+        "Only against the short-term gain on the debt fund",
+        "Against his salary income",
+        "Only against the LTCG on the listed shares"
+      ],
+      "answer": 3,
+      "marks": 2,
+      "explanation": "Brought-forward LTCL can be set off only against LTCG. Only gain (i) is long-term. The equity MF gain is short-term (held under 12 months) and the debt fund gain is deemed short-term under s.76.",
+      "hints": [
+        "Incorrect. LTCL cannot be set off against STCG.",
+        "Incorrect. The debt fund gain is short-term, so LTCL cannot be set off against it.",
+        "Incorrect. Capital losses cannot be set off against other heads.",
+        "Correct. LTCL can be set off only against LTCG."
+      ],
+      "numeric": false,
+      "case": "Mr. Kapoor, a resident individual, has these transactions in Tax Year 2026-27: (i) sold listed equity shares (STT paid on purchase and sale) bought in March 2024 for ₹6 lakh, for ₹10 lakh in August 2026; (ii) sold units of an equity-oriented mutual fund (STT paid) bought in January 2026 for ₹3 lakh, for ₹3.6 lakh in October 2026; (iii) redeemed units of a debt fund investing over 65% in debt instruments, bought in June 2023 for ₹5 lakh, for ₹6.2 lakh in September 2026. He also has a brought-forward long-term capital loss of ₹1.5 lakh from an earlier year, for which the return was filed on time. Ignore surcharge and cess."
+    },
+    {
+      "id": "xb-M6-28",
+      "chapter": 11,
+      "difficulty": "hard",
+      "q": "After setting off the brought-forward loss, what is the tax on the LTCG from the listed shares?",
+      "options": [
+        "₹34,375",
+        "₹15,625",
+        "₹31,250",
+        "₹50,000"
+      ],
+      "answer": 1,
+      "marks": 2,
+      "explanation": "LTCG = 10 − 6 = ₹4 lakh. After set-off of ₹1.5 lakh, ₹2.5 lakh remains. Under s.198, the first ₹1.25 lakh is exempt, so 12.5% × 1.25 lakh = ₹15,625.",
+      "hints": [
+        "Incorrect. This ignores the brought-forward loss.",
+        "Correct. (4 − 1.5 − 1.25) lakh × 12.5% = ₹15,625.",
+        "Incorrect. This ignores the ₹1.25 lakh exemption.",
+        "Incorrect. This ignores both the set-off and the exemption."
+      ],
+      "numeric": true,
+      "case": "Mr. Kapoor, a resident individual, has these transactions in Tax Year 2026-27: (i) sold listed equity shares (STT paid on purchase and sale) bought in March 2024 for ₹6 lakh, for ₹10 lakh in August 2026; (ii) sold units of an equity-oriented mutual fund (STT paid) bought in January 2026 for ₹3 lakh, for ₹3.6 lakh in October 2026; (iii) redeemed units of a debt fund investing over 65% in debt instruments, bought in June 2023 for ₹5 lakh, for ₹6.2 lakh in September 2026. He also has a brought-forward long-term capital loss of ₹1.5 lakh from an earlier year, for which the return was filed on time. Ignore surcharge and cess."
+    },
+    {
+      "id": "xb-M6-29",
+      "chapter": 11,
+      "difficulty": "medium",
+      "q": "What is the tax on the gain from the equity-oriented mutual fund units?",
+      "options": [
+        "₹12,000",
+        "₹7,500",
+        "Nil, as it is within ₹1.25 lakh",
+        "₹18,000"
+      ],
+      "answer": 0,
+      "marks": 2,
+      "explanation": "Held for under 12 months, so it is STCG of ₹60,000. With STT paid, s.196 taxes it at 20% = ₹12,000. The ₹1.25 lakh exemption is only for LTCG under s.198.",
+      "hints": [
+        "Correct. ₹60,000 × 20% = ₹12,000.",
+        "Incorrect. 12.5% is the LTCG rate.",
+        "Incorrect. The ₹1.25 lakh exemption does not apply to STCG.",
+        "Incorrect. This uses 30% slab-type treatment, but STT-paid STCG is a flat 20%."
+      ],
+      "numeric": true,
+      "case": "Mr. Kapoor, a resident individual, has these transactions in Tax Year 2026-27: (i) sold listed equity shares (STT paid on purchase and sale) bought in March 2024 for ₹6 lakh, for ₹10 lakh in August 2026; (ii) sold units of an equity-oriented mutual fund (STT paid) bought in January 2026 for ₹3 lakh, for ₹3.6 lakh in October 2026; (iii) redeemed units of a debt fund investing over 65% in debt instruments, bought in June 2023 for ₹5 lakh, for ₹6.2 lakh in September 2026. He also has a brought-forward long-term capital loss of ₹1.5 lakh from an earlier year, for which the return was filed on time. Ignore surcharge and cess."
+    },
+    {
+      "id": "xb-M6-30",
+      "chapter": 10,
+      "difficulty": "medium",
+      "q": "How is the ₹1.2 lakh gain on the debt fund taxed?",
+      "options": [
+        "As LTCG at 12.5% because it is listed and held for more than 12 months",
+        "As LTCG at 20% with indexation because it is held for more than 36 months",
+        "As exempt income because it is a mutual fund",
+        "As short-term capital gain at his slab rate, irrespective of the 3-year holding"
+      ],
+      "answer": 3,
+      "marks": 2,
+      "explanation": "The fund is a Specified Mutual Fund (65% or more in debt) acquired after 1 April 2023, so under s.76 its gains are always short-term and taxed at slab rates, with no indexation.",
+      "hints": [
+        "Incorrect. The holding period does not give LTCG for a Specified MF.",
+        "Incorrect. Indexation is not available.",
+        "Incorrect. MF gains are taxable.",
+        "Correct. A Specified MF bought after 1-4-2023 is always STCG at slab."
+      ],
+      "numeric": false,
+      "case": "Mr. Kapoor, a resident individual, has these transactions in Tax Year 2026-27: (i) sold listed equity shares (STT paid on purchase and sale) bought in March 2024 for ₹6 lakh, for ₹10 lakh in August 2026; (ii) sold units of an equity-oriented mutual fund (STT paid) bought in January 2026 for ₹3 lakh, for ₹3.6 lakh in October 2026; (iii) redeemed units of a debt fund investing over 65% in debt instruments, bought in June 2023 for ₹5 lakh, for ₹6.2 lakh in September 2026. He also has a brought-forward long-term capital loss of ₹1.5 lakh from an earlier year, for which the return was filed on time. Ignore surcharge and cess."
+    }
+  ]
+}

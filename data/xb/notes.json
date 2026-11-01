@@ -1,0 +1,1622 @@
+{
+  "id": "xb",
+  "code": "NISM-Series-X-B",
+  "name": "Investment Adviser (Level 2)",
+  "short": "IA Level 2",
+  "category": "Investment Advisory",
+  "workbookVersion": "September 2026",
+  "tagline": "From knowing products to advising whole lives: insurance, retirement, tax, estate, behaviour, and Excel-heavy cases.",
+  "eli5": "Level 1 taught you what the financial products are. Level 2 teaches you how to stitch them into one plan for a real family: how much life cover they need, how big the retirement pot must be, what tax each product attracts, who inherits what if someone dies without a Will, and why clients panic-sell. Think of a family doctor: Level 1 is the medicines, and Level 2 is diagnosing the whole patient and writing the prescription. SEBI wants every Registered Investment Adviser (RIA) to pass both levels so that advice is suitable and in the client's interest, not product-pushing.",
+  "whoNeeds": [
+    "Individual Investment Advisers registering with SEBI. Both X-A (Level 1) and X-B (Level 2) are required under Regulation 7(2) of the SEBI (Investment Advisers) Regulations, 2013",
+    "The Principal Officer of a non-individual (corporate/LLP) Investment Adviser",
+    "All persons associated with investment advice at an Investment Adviser",
+    "Anyone building or running a fee-only advisory or robo-advisory practice in India"
+  ],
+  "careerValue": "With X-A plus X-B you meet the NISM qualification for SEBI RIA registration (the other conditions are separate), so you can legally charge fees for investment advice. For an MBA and AI/ML consultant, it is the credential that lets you build advisory, robo-advisory or financial-planning products yourself rather than only consulting on them. The Excel-based cases on retirement, insurance needs and goals are also good material for product logic.",
+  "pattern": {
+    "totalQuestions": "90 MCQs + 6 case-based questions (each with 5 sub-questions = 30 items)",
+    "totalMarks": 150,
+    "durationMin": 180,
+    "passPct": 60,
+    "negative": "25% of the marks assigned to the question",
+    "structure": [
+      {
+        "type": "Multiple Choice Questions",
+        "count": 90,
+        "marksEach": 1,
+        "total": 90
+      },
+      {
+        "type": "Case-based sub-questions (6 cases × 5 sub-questions)",
+        "count": 30,
+        "marksEach": 2,
+        "total": 60
+      }
+    ],
+    "validity": "The workbook does not state it. NISM certificates are generally valid for 3 years; check on nism.ac.in.",
+    "notes": "Test-centre workstations have MS Excel or OpenOffice Calc, so practise PV, FV, PMT, RATE and XIRR. Case sub-questions carry 2 marks each with 25% negative marking (−0.5 per wrong case answer). Taxation is based on the new Income-tax Act, 2025 (Tax Year 2026-27), and the workbook gives old section numbers in brackets. This version (Sept 2026) applies to exams on or after December 10, 2026."
+  },
+  "simulator": {
+    "questions": 120,
+    "durationMin": 180,
+    "passPct": 60,
+    "negativeFraction": 0.25
+  },
+  "chapters": [
+    {
+      "no": 1,
+      "title": "Basics of Insurance",
+      "weight": "Module 7 (Ch 1–3): 25 marks",
+      "emoji": "🛡️",
+      "summary": "Insurance moves risk from you (the insured) to a pooled fund (the insurer). The chapter explains the two foundation principles (utmost good faith, insurable interest), the claim-mechanics vocabulary (indemnity, defined benefit, subrogation, contribution, co-pay, deductible), the insurance-planning process, and the key IRDAI/SEBI rules.",
+      "story": "The workbook's merchant ships: 100 merchants each risk a ₹10 lakh ship, and about 2 sink every month. If all chip in ₹20,000, the ₹20 lakh pool pays for the 2 losses. If only 40 join, each must pay ₹50,000. That is why a large pool of exposure units makes insurance cheap.",
+      "keyPoints": [
+        "Utmost good faith (Uberrimae Fidei): the insured must disclose every material fact, and if in doubt, disclose. Suppression lets the insurer reject the claim entirely.",
+        "Insurable interest: you must be worse off if the risk happens. Spouse, children and parents have it. Aunts, uncles, cousins, nieces and nephews have it only with proof of financial dependence. A lender has it up to the outstanding loan, and an employer in a key employee.",
+        "Indemnity policies (health/mediclaim, property, car) pay the actual ascertained loss. Defined-benefit policies (life, critical illness, daily hospital cash) pay a fixed sum.",
+        "Subrogation: after paying, the insurer steps into your shoes to recover from the at-fault party. A policy without subrogation would cost more.",
+        "Contribution applies only to indemnity policies: each insurer pays its proportionate share. In health insurance the insured chooses the insurer, and contribution applies only if the claim exceeds that policy's sum insured.",
+        "Co-pay is a % of the claim borne by the insured. A deductible is a fixed first slice borne by the insured. Apply the deductible first, then the co-pay. Car insurance has a compulsory ₹1,000 deductible up to 1500 cc.",
+        "IRDAI 2024 rules: cashless authorisation within 1 hour and final discharge authorisation within 3 hours. 'Cashless Everywhere' extends cashless treatment to non-network hospitals.",
+        "Beneficial nominee (Insurance Act s.39(7), 2015 amendment): if the nominee is a parent, spouse or child, they own the money and do not hold it as trustee for the legal heirs.",
+        "Section 45 (incontestability): no life policy can be called in question on any ground after 3 years from the policy date, risk commencement or revival, whichever is later. Within 3 years it can be repudiated for fraud.",
+        "Health moratorium: after 5 continuous years of premiums, no claim is contestable except for proven fraud or permanent exclusions.",
+        "ULIPs: benefit illustrations at 4% and 8%, 5-year lock-in, no surrender charge after 5 years, limited-pay term of at least 5 years, revival within 3 years.",
+        "Health portability is available for any policy except group, top-up and super top-up. Group cover can be ported to an individual policy with the same insurer in the first year, and to another insurer from the second year.",
+        "Intermediaries: a composite insurance agent can represent at most one life, one general, one health and one of each mono-line insurer. A composite corporate agent can tie up with up to 3 life, 3 general and 3 health insurers. A bank acting as corporate agent is bancassurance. A direct broker represents the client and can charge fees.",
+        "Individual health and life insurance policies are exempt from GST from 22 September 2025. An insurance agent or broker advising only on insurance products is exempt from the SEBI IA Regulations."
+      ],
+      "mustRemember": [
+        {
+          "label": "Incontestability (s.45)",
+          "value": "3 years"
+        },
+        {
+          "label": "Health moratorium",
+          "value": "5 continuous years"
+        },
+        {
+          "label": "Cashless authorisation / discharge",
+          "value": "1 hour / 3 hours"
+        },
+        {
+          "label": "ULIP benefit illustration rates",
+          "value": "4% and 8%"
+        },
+        {
+          "label": "ULIP lock-in / revival window",
+          "value": "5 years / 3 years"
+        },
+        {
+          "label": "Compulsory car deductible (≤1500 cc)",
+          "value": "₹1,000"
+        },
+        {
+          "label": "Composite corporate agent tie-ups",
+          "value": "3 life + 3 general + 3 health"
+        }
+      ],
+      "examTip": "Expect a numerical on deductible plus co-pay (deductible first, then co-pay on the balance), plus 'indemnity or defined benefit?' classification and beneficial-nominee questions.",
+      "trap": "Contribution and subrogation do NOT apply to defined-benefit policies. Multiple life or critical-illness policies all pay in full. And co-pay is a % of the claim after deducting the deductible, not before."
+    },
+    {
+      "no": 2,
+      "title": "Life Insurance Products",
+      "weight": "Module 7 (Ch 1–3): 25 marks",
+      "emoji": "❤️",
+      "summary": "How much life cover a family needs (Human Life Value, needs-based and combination methods), what each product type really delivers (term, return-of-premium, endowment, whole life, ULIP, mortgage cover), policy facilities such as loans, assignment and nomination, and why MWPA policies matter.",
+      "story": "Anil earns ₹1.5 lakh a month. After his own expenses, EMI and premiums, ₹83,000 a month reaches his family. Discounting that at the inflation-adjusted rate of 1.89% for his wife's 31 remaining years gives a ₹2.36 crore corpus. Adding the ₹40 lakh loan and deducting existing cover and investments shows he needs about ₹1.26 crore more cover.",
+      "keyPoints": [
+        "Minimum sum assured after the 2024 IRDAI changes: 7× annual premium if below age 50, 5× if above 50.",
+        "HLV (income replacement) = PV of future income available to dependants, discounted at the real rate [(1+return)/(1+income growth)] − 1. Higher income growth gives a higher HLV, and HLV falls with age.",
+        "If income growth equals the investment return, the real rate is 0 and HLV = current income × years to retirement.",
+        "Needs-based method: PV of the family's expense needs, plus liabilities, minus existing investments (excluding the home and personal jewellery), minus existing cover. HLV is always ≥ needs-based because expenditure cannot exceed income.",
+        "Term insurance is pure risk cover and the cheapest way to cover the full need. With return of premium, the extra premium earns a modest implied return (the workbook example gives 4.88% via Excel RATE).",
+        "Endowment and whole-life policies typically give an inherent return of about 3–5%, and it is not guaranteed. To evaluate, decouple the insurance part from the investment part and check that the cover is adequate first.",
+        "Guaranteed surrender value (traditional, after 2 years' full premiums): 30% of premiums paid in year 2, 35% in year 3, 50% in years 4–7, rising to 90% in the last two years. Single premium: 75% in the first 3 years, rising to 90%.",
+        "ULIP discontinuance charge is capped at ₹6,000. The fund goes to a discontinued policy fund and is paid after the 5-year lock-in.",
+        "Paid-up value = Sum assured × (premiums paid ÷ premiums due).",
+        "Assignment cancels the nomination, except an assignment to the insurer for a policy loan, where the nomination is affected only to the insurer's interest. The nomination revives on re-assignment.",
+        "MWPA policy: nominees can only be the wife and/or children (not parents). It cannot be changed, survives divorce, is outside the husband's creditors' reach, and the declaration must be made at purchase.",
+        "ULIP maturity is tax-free only if sum assured ≥ 10× premium AND (for policies on or after 1 Feb 2021) annual premium ≤ ₹2.5 lakh. Otherwise it is taxed as capital gains. Traditional policies on or after 1 Apr 2023 with premium > ₹5 lakh are taxed as Income from Other Sources.",
+        "Riders: critical illness pays on diagnosis plus 30 days' survival (an accelerated version reduces the death cover), waiver of premium, guaranteed insurability, income benefit, and accident/disability.",
+        "Telescopic premiums are cheaper per thousand on larger covers, so split large covers (e.g. 4 × ₹2 crore) to drop policies later. Foreign policies can be bought under LRS (USD 2,50,000), but foreign law governs grievances."
+      ],
+      "mustRemember": [
+        {
+          "label": "Min sum assured",
+          "value": "7× premium (<50 yrs), 5× (>50 yrs)"
+        },
+        {
+          "label": "GSV yr 2 / yr 3 / yrs 4–7",
+          "value": "30% / 35% / 50% of premiums"
+        },
+        {
+          "label": "ULIP discontinuance charge cap",
+          "value": "₹6,000"
+        },
+        {
+          "label": "ULIP tax-free premium cap (≥1-2-2021)",
+          "value": "₹2.5 lakh aggregate annual premium"
+        },
+        {
+          "label": "Non-ULIP tax-free premium cap (≥1-4-2023)",
+          "value": "₹5 lakh"
+        },
+        {
+          "label": "CI rider survival period",
+          "value": "30 days"
+        },
+        {
+          "label": "LRS limit",
+          "value": "USD 2,50,000 per year"
+        }
+      ],
+      "examTip": "Excel numericals: HLV and needs-based cover using PV with the real rate (type = 1 for beginning-of-year), the return on endowment or return-of-premium term via RATE, and paid-up value. MWPA features are a favourite.",
+      "trap": "Do not use the nominal return in HLV. Always use (1+r)/(1+g) − 1, rounded to 2 decimals as the workbook does. And do not deduct the family home from needs; only investible assets reduce the requirement."
+    },
+    {
+      "no": 3,
+      "title": "Non-Life Insurance Products",
+      "weight": "Module 7 (Ch 1–3): 25 marks",
+      "emoji": "🏥",
+      "summary": "General insurance protects assets and income from big unexpected bills: health, motor, property, personal accident, critical illness, travel, liability, fidelity, D&O and keyman. The star topic is how base, top-up and super top-up health plans interact.",
+      "story": "Base cover of ₹3 lakh, and three bills of ₹2, 3 and 4 lakh in a year. With a top-up (₹5 lakh threshold per claim), you pay ₹6 lakh yourself, because no single bill crosses ₹5 lakh. With a super top-up (₹3 lakh aggregate threshold), you pay nothing, because the base policy's ₹3 lakh already used up the threshold.",
+      "keyPoints": [
+        "Non-life policies typically run 1 year (health and two-wheeler can be 2–3 years). Premium depends on the sum insured and the assessed risk.",
+        "Restore benefit refills the sum insured to 100% on partial or full exhaustion. Recharge refills it only when it is reduced by a claim.",
+        "Motor: third-party liability cover is compulsory, own-damage cover is not. The no-claim bonus can reach 50% after 5 claim-free years, belongs to the owner (not the car), and is transferable to a new car or a new insurer.",
+        "Health: in-patient means at least 24 hours or overnight admission. Day-care and domiciliary treatment can be covered. Pre-existing diseases are excluded for a waiting period. Portability carries over no-claim bonus and time-bound exclusion credit only if there was no break.",
+        "Personal accident covers permanent total, permanent partial and temporary total disablement, and the need should be calculated like life cover.",
+        "Critical illness pays a lump sum on diagnosis (minimum survival of about 30 days, with the table saying 15–30 days) with no death payment. It is an income-replacement tool, usually standalone or an accelerated rider.",
+        "Liability cover pays third-party damages and defence costs (e.g. professional indemnity for advisers) but never intentional or criminal acts. Fidelity cover protects an employer against employee fraud. D&O covers directors' and officers' personal liability.",
+        "Keyman insurance is life cover bought and owned by the company on a key executive, with the company as beneficiary.",
+        "Multiple indemnity policies make little sense because the total claim cannot exceed the loss. Multiple defined-benefit policies all pay.",
+        "Top-up applies the threshold to EACH claim. Super top-up applies the threshold to the AGGREGATE of claims in the year.",
+        "Keep base and top-up with the same insurer if possible. With a super top-up, inform that insurer even of claims paid by the base policy so it can track the threshold.",
+        "Health (indemnity) normally covers India only. Life, CI and accident (defined benefit) pay wherever the event happens. Overseas travel policies are indemnity products designed country by country."
+      ],
+      "mustRemember": [
+        {
+          "label": "Max motor NCB",
+          "value": "50% after 5 claim-free years"
+        },
+        {
+          "label": "Non-life policy term",
+          "value": "Typically 1 year"
+        },
+        {
+          "label": "In-patient definition",
+          "value": "≥24 hours / overnight"
+        },
+        {
+          "label": "Top-up threshold",
+          "value": "Per claim"
+        },
+        {
+          "label": "Super top-up threshold",
+          "value": "Aggregate for the year"
+        }
+      ],
+      "examTip": "A top-up vs super top-up out-of-pocket calculation is almost guaranteed in a case. Track the base-policy balance and the threshold used, claim by claim.",
+      "trap": "With a top-up, a claim below the threshold gets NOTHING from the top-up even if the base is exhausted. With a super top-up, every claim counts toward the threshold, including amounts the base policy paid."
+    },
+    {
+      "no": 4,
+      "title": "Retirement Planning Basics",
+      "weight": "Module 8 (Ch 4–6): 30 marks",
+      "emoji": "🌅",
+      "summary": "Retirement is the goal with the longest accumulation and distribution periods and the biggest corpus, and no bank will lend you money for it. The chapter covers the planning steps, the effect of inflation and returns, the replacement-ratio and expense-protection methods, and how employer superannuation funds work.",
+      "story": "At 6% inflation, something costing ₹100 today costs ₹179 in 10 years, ₹321 in 20 and ₹574 in 30. A retiree who needs ₹60,000 a month at 60 will need ₹1,07,451 at 70 and ₹1,92,428 at 80 for the same lifestyle.",
+      "keyPoints": [
+        "Retirement phases: preparation, pre-retirement (initial), and final retirement.",
+        "Unlike education or a house, retirement cannot be funded by a loan, and it is often the goal that gets sacrificed for others.",
+        "Planning steps: determine expenses in retirement, then income required, then time horizon (years to retirement and years in retirement), then the corpus.",
+        "Corpus variables: periodic income needed, inflation, return on the corpus, and the retirement period. Inflation pushes the corpus up and return pulls it down.",
+        "Real (inflation-adjusted) return = [(1 + return) ÷ (1 + inflation)] − 1.",
+        "Longevity risk means underestimating years in retirement. Health and travel costs usually inflate faster than general inflation.",
+        "Replacement ratio method: target a % (e.g. 80%) of pre-retirement income, then grow it by inflation each year.",
+        "Expense protection method: build the retirement budget from actual expenses (some rise, like medical and travel; some fall, like EMIs and children). It is easier for people near retirement.",
+        "An employer cannot pay pensions out of current revenue (AS-15 requires accrual, and s.2(11) of the Insurance Act puts annuities with life insurers). The options are an insurer (LIC or another IRDAI-approved insurer) or an irrevocable superannuation trust.",
+        "Approved superannuation fund (Part B, Schedule XI, IT Act 2025): irrevocable trust, at least 90% of employees employed in India, sole purpose is annuities, the employer must contribute, and benefits are payable only in India.",
+        "Superannuation tax: employer contributions are deductible for the employer, fund income is exempt, specified payments are exempt, and the employee's own contribution is deductible only under the old regime.",
+        "Statutory pension now comes under the Employees' Pension Scheme, 2026 (Code on Social Security, 2020), which supersedes EPS 1995."
+      ],
+      "mustRemember": [
+        {
+          "label": "₹100 at 6% inflation",
+          "value": "₹179 (10y), ₹321 (20y), ₹574 (30y)"
+        },
+        {
+          "label": "Approved superannuation: employees in India",
+          "value": "Not less than 90%"
+        },
+        {
+          "label": "Real rate formula",
+          "value": "(1+r)/(1+i) − 1"
+        },
+        {
+          "label": "Typical replacement ratio used",
+          "value": "80% of pre-retirement income"
+        }
+      ],
+      "examTip": "Questions test the direction of effects (inflation up means a bigger corpus, higher return means less saving, longer horizon means more compounding) and the approved superannuation fund conditions.",
+      "trap": "The replacement ratio is applied to income AT retirement (grown to that date), not to today's income."
+    },
+    {
+      "no": 5,
+      "title": "Retirement Products",
+      "weight": "Module 8 (Ch 4–6): 30 marks",
+      "emoji": "🏦",
+      "summary": "This chapter has the most numbers in the book. Accumulation products (EPF, VPF, PPF, gratuity, superannuation, NPS with its new drawdown/RIS/UPS/Vatsalya rules, APY, SEBI life-cycle funds) and distribution products (annuities, SWP, bond/FD ladders, SCSS, PMVVY, POMIS, reverse mortgage).",
+      "story": "Think of the retirement toolkit as a two-room house. The 'accumulation room' (EPF, PPF, NPS) fills the tank while you work, and the 'distribution room' (annuity, SCSS, SWP, ladders, reverse mortgage) is the tap that releases it after you stop.",
+      "keyPoints": [
+        "EPF: 12% of basic + DA from employee and employer. The employer's 12% splits into EPF 3.67%, EPS 8.33% (capped on a ₹25,000 salary per the workbook), EDLI 0.5% and admin 0.5%. The rate is 10% for firms with fewer than 20 employees. New women employees contribute 8% for 3 years while the employer still pays 12%.",
+        "EPF interest is set by the CBT with the Ministry of Finance. Interest on employee contributions (EPF + VPF) above ₹2.5 lakh a year is taxable. An account is inactive after 3 years without transactions and inoperative at age 58. After 7 years inoperative the money moves to the Senior Citizens' Welfare Fund (claimable within 25 years). VPF: up to 100% of basic + DA with no employer match, and the same tax treatment as EPF.",
+        "EPF withdrawal: 75% after 1 month of unemployment, the rest after 2 months. Partial withdrawals: marriage or education 50% of the employee share after 7 years, house 36 months' wages after 5 years, home-loan repayment after 10 years, renovation after 5 years, 90% at age 54. Withdrawal after 5 continuous years is tax-free. Before 5 years, TDS is 10% if the amount exceeds ₹50,000 and PAN is given.",
+        "PPF: residents only (NRIs earn no interest after 30 Sep 2024). ₹500–₹1.5 lakh a year, 15-year lock-in, extendable in 5-year blocks (with contribution needs Form-4 within 1 year of maturity, with a 60% withdrawal cap). Loan from FY 3 to FY 6 of up to 25% of the balance at the end of the 2nd preceding year. Partial withdrawal after 5 FYs, once a year, of the lower of 50% of the balance at the end of the preceding year or the 4th preceding year. EEE under the old regime.",
+        "Gratuity (Code on Social Security, 2020): 5 years' continuous service (waived on death or disablement), establishments with 10+ employees. Formula = 15 × last monthly wages × years ÷ 26, with a part-year over 6 months rounded up. Tax exemption cap is ₹20 lakh. Central government cap is ₹25 lakh.",
+        "Superannuation commutation: up to 1/3 of the annuity if the employee also gets gratuity, 1/2 if not. Aggregate employer contribution to EPF + NPS + superannuation above ₹7.5 lakh is a taxable perquisite.",
+        "NPS: All-Citizen model for ages 18–85. Active choice allows up to 75% equity. Life-cycle funds are LC25, LC50, LC75 and Aggressive (50% equity up to 45, 35% at 55+). The Multiple Scheme Framework (from 1 Oct 2025) for non-government subscribers allows up to 100% equity with a 15-year vesting period. Pension fund manager can be changed once a year, and allocation four times a year.",
+        "NPS partial withdrawal: after 3 years, 25% of own contribution, up to 4 times before 60 with a 4-year gap (a 3-year gap after 60).",
+        "NPS exit at 60 (non-government): at least 20% annuity (government subscribers 40%). Corpus ≤ ₹8 lakh can be taken in full. ₹8–12 lakh: up to ₹6 lakh lump sum, the rest as annuity or SUR for at least 6 years. Premature exit: at least 80% annuity, but ≤ ₹5 lakh can be taken in full. Joining after 60: 20% annuity, ≤ ₹12 lakh in full. Can stay invested and defer up to age 85.",
+        "NPS tax: lump sum exempt up to 60% of the corpus, partial withdrawal exempt up to 25% of own contribution, annuity income taxable. Deductions: 80CCD(1) up to 10% of salary or 20% of GTI, plus ₹50,000 under 1B (old regime only). Employer contribution deduction is 14% (government, and private employers under the new regime) or 10% (private employers under the old regime).",
+        "Drawdown/RIS (PFRDA, 15 May 2026): RIS Steady glides equity from 35% at 60 to 10% at 75. SPR = 1 ÷ (end age − current age), reset each birthday. SUR = equal units over the period. The pension fund can be switched once every two FYs. Mandatory annuitisation is unaffected.",
+        "UPS (from 1 Apr 2025, central government): employee 10% + matching employer 10% + 8.5% government pool. Payout = 50% of the 12-month average basic after 25 years. Minimum ₹10,000 a month after 10 years. Family payout 60%. Lump sum of 1/10 of basic + DA per completed 6 months. One-way switch from UPS to NPS allowed up to 1 year before superannuation.",
+        "NPS Vatsalya (minors): minimum ₹250 a year. Partial withdrawal after 3 years of up to 25%, twice before 18 and twice between 18 and 21. Deduction up to ₹50,000 under s.124(4) (old regime). APY: ages 18–40, pension ₹1,000–5,000 guaranteed by the GoI, not open to income-tax payers from 1 Oct 2022.",
+        "Distribution products: life annuity without return of purchase price pays the HIGHEST annuity, with return of purchase price the LOWEST. SCSS: 60+, 5 years extendable in 3-year blocks, maximum ₹30 lakh, quarterly interest that is fully taxable. POMIS: ₹9 lakh single / ₹15 lakh joint, 5 years, 2% penalty if closed in years 1–3 and 1% in years 3–5. Reverse mortgage: 60+ (spouse 55+), house with 20+ years' residual life, maximum 20-year tenure, ₹50,000 a month cap, receipts tax-exempt."
+      ],
+      "mustRemember": [
+        {
+          "label": "EPF employer split",
+          "value": "EPF 3.67% + EPS 8.33% + EDLI 0.5% + Admin 0.5%"
+        },
+        {
+          "label": "PPF limits",
+          "value": "₹500 – ₹1.5 lakh p.a.; 15 yrs; 5-yr extensions"
+        },
+        {
+          "label": "Gratuity formula",
+          "value": "15 × last wage × years ÷ 26"
+        },
+        {
+          "label": "Gratuity tax-exempt cap",
+          "value": "₹20 lakh"
+        },
+        {
+          "label": "NPS min annuity at 60",
+          "value": "20% (non-govt) / 40% (govt)"
+        },
+        {
+          "label": "NPS premature exit annuity",
+          "value": "≥80% (full withdrawal if ≤₹5 lakh)"
+        },
+        {
+          "label": "NPS tax-free lump sum",
+          "value": "60% of corpus"
+        },
+        {
+          "label": "Employer contribution perquisite threshold",
+          "value": "₹7.5 lakh (EPF+NPS+Superannuation)"
+        },
+        {
+          "label": "SCSS max / tenure",
+          "value": "₹30 lakh / 5 yrs (+3-yr blocks)"
+        },
+        {
+          "label": "POMIS max",
+          "value": "₹9 lakh single, ₹15 lakh joint"
+        },
+        {
+          "label": "Reverse mortgage",
+          "value": "60+, max 20 yrs, ≤₹50,000/month"
+        },
+        {
+          "label": "Life-cycle MF exit loads",
+          "value": "3% (<1 yr), 2% (<2 yrs), 1% (<3 yrs)"
+        }
+      ],
+      "examTip": "Expect gratuity calculations, NPS exit and withdrawal slabs, the PPF loan/withdrawal rules, which annuity option pays the most, and SCSS/POMIS/reverse-mortgage limits. NPS drawdown, RIS, UPS and Vatsalya are new and highlighted in the 2026 version.",
+      "trap": "Gratuity divides by 26 (working days), not 30, and rounds service only when the extra part exceeds 6 months. NPS 60% tax exemption ≠ 80% withdrawable: the withdrawable share can exceed the tax-free share."
+    },
+    {
+      "no": 6,
+      "title": "Miscellaneous Aspects of Retirement Planning",
+      "weight": "Module 8 (Ch 4–6): 30 marks",
+      "emoji": "📉",
+      "summary": "The adviser's role, Excel corpus maths (PV, PMT), and the big 2026 addition: why deterministic calculations can mislead and how the stochastic Safe Withdrawal Rate (SWR) and sequence-of-returns risk change corpus sizing. It also covers step-up savings, the cost of early EPF withdrawals, and starting a philanthropy conversation.",
+      "story": "Retirees A and B both average 0% over 5 years and withdraw ₹6 a year from ₹100. A suffers −20% and −10% first and ends with ₹59. B gets +20% and +10% first and ends with ₹71. Same average, different order, different outcome. That is sequence-of-returns risk.",
+      "keyPoints": [
+        "Retirement expenses are roughly 50–60% of current expenses if there are no liabilities, but medical costs rise.",
+        "Corpus (deterministic) = PV(real rate, years in retirement, −annual expense at retirement, , type). Monthly saving = PMT(rate/12, months, , corpus). Delaying the start sharply raises the saving required (₹3,376 at 30 vs ₹11,928 at 40 for a ₹1.18 crore goal at 12%).",
+        "Deterministic methods assume fixed returns and inflation every year, so they ignore volatility and sequence risk. A 1994 back-test of a deterministic 5.55% withdrawal ran out in 2016, about 7 years and 5 months early, even though the averages were correct.",
+        "Stochastic (Monte Carlo) methods test thousands of return paths and measure failure probability.",
+        "SWR = the maximum FIRST-YEAR withdrawal, as a % of the starting corpus, that then rises with inflation and survives with at least 95% probability (failure ≤ 5%).",
+        "After year 1, the rupee withdrawal grows by inflation regardless of the portfolio value. It is NOT re-computed as a % of the current corpus.",
+        "Bengen's 4% rule (1994) uses US data. For India, research suggests about 3–3.5% for a 30-year horizon.",
+        "SWR table (India): 10–30% equity gives the highest SWRs. Examples: 30% equity over 30 years = 3.70%, 40% equity over 30 years = 3.60%, 40% over 40 years = 2.95%, 100% over 30 years = 2.56%. A longer horizon means a lower SWR.",
+        "Corpus via SWR = annual income needed at retirement ÷ SWR.",
+        "Step-up: as income rises 10%, step up the SIP by at least 5–7%. Early EPF withdrawals destroy compounding (₹75,000 withdrawn 30 years early is about ₹8.66 lakh lost at 8.5%). Transfer EPF via the 12-digit UAN. NPS has one PRAN for life.",
+        "Product evaluation by stage: pre-retirement (15–20 years away) looks at cost, return, risk and tax efficiency. In retirement, income products are judged on inflation-beating and capital protection, with a growth bucket of 10–15 years. Post-retirement (75+): capital protection, low risk, liquidity for heirs.",
+        "Philanthropy: raise it at the right time (a liquidity event, Will drafting, life events, the annual review) and follow up."
+      ],
+      "mustRemember": [
+        {
+          "label": "SWR definition",
+          "value": "First-year withdrawal % ; ≥95% survival"
+        },
+        {
+          "label": "India SWR (30-yr)",
+          "value": "~3% to 3.5%"
+        },
+        {
+          "label": "Best equity range for SWR",
+          "value": "10%–30%"
+        },
+        {
+          "label": "SWR 30% equity, 30 yrs",
+          "value": "3.70%"
+        },
+        {
+          "label": "SWR 40% equity, 30 / 40 yrs",
+          "value": "3.60% / 2.95%"
+        },
+        {
+          "label": "Bengen rule",
+          "value": "4% (US, 1994)"
+        },
+        {
+          "label": "Retirement expenses vs current",
+          "value": "~50%–60%"
+        }
+      ],
+      "examTip": "Practise the workbook's solved cases: additional life cover (PV), endowment return (RATE), top-up/super top-up out-of-pocket, corpus (FV then PV), SWR corpus, and the year-2 SWR withdrawal (= year-1 × (1+inflation)).",
+      "trap": "If the portfolio falls in year 1, the year-2 SWR withdrawal does NOT fall. It still rises with inflation. And more equity does not mean a higher SWR, because sequence risk cuts it."
+    },
+    {
+      "no": 7,
+      "title": "Concepts in Taxation",
+      "weight": "Module 9 (Ch 7–13): 20 marks",
+      "emoji": "🧾",
+      "summary": "The Income-tax Act, 2025 now applies from FY 2026-27 with a single 'Tax Year'. The chapter covers residential status, the five heads of income, clubbing, set-off and carry-forward of losses, Chapter VIII deductions, the s.156 (87A) rebate, DTAA, EEE/EET/ETE and the maximum marginal rate.",
+      "story": "Mr. C returns from London and spends 298 days in India this year, but only 578 days in the previous 7 years. He is resident because of the 182-day test, yet Not Ordinarily Resident because he stayed ≤729 days in 7 years. So his London interest stays out of Indian tax for now.",
+      "keyPoints": [
+        "The IT Act 2025 and IT Rules 2026 apply from FY 2026-27. 'Tax Year' (e.g. 1 Apr 2026 – 31 Mar 2027) replaces previous year and assessment year. Old circulars apply to the corresponding new provisions.",
+        "Resident (Indian citizen): 182+ days, OR 60+ days in the year plus 365+ days in the 4 preceding years. For a citizen visiting with Indian income above ₹15 lakh, the 60-day test becomes 120 days. Crew members and those leaving for jobs need 182 days.",
+        "Deemed resident: an Indian citizen with Indian income above ₹15 lakh who is not taxable elsewhere. Always treated as RNOR.",
+        "NOR if non-resident in 9 of the 10 preceding years OR ≤729 days in the 7 preceding years. An ROR is taxed on worldwide income. An RNOR is taxed on Indian income plus foreign income from a business controlled or profession set up in India. An NR is taxed on Indian income only.",
+        "An HUF is resident unless its control and management are wholly outside India.",
+        "Five heads: Salary, House Property, Business/Profession, Capital Gains, Other Sources. Standard deduction is ₹50,000 (old) / ₹75,000 (new).",
+        "Employer NPS contribution is added to salary and then deducted (s.124(1)) up to 14%, available even under the new regime. EPF employer contribution is not added to salary. All employer EPF + NPS + superannuation above ₹7.5 lakh is a perquisite. The '12% EPF' test was deleted from Tax Year 2026-27.",
+        "House property: up to two self-occupied houses, a 30% standard deduction on NAV, self-occupied interest up to ₹2 lakh (old regime only, ₹30,000 if construction takes more than 5 years), and pre-construction interest in 5 equal instalments. HP loss set-off against other heads is capped at ₹2 lakh (old regime only, none under the new regime). Carry forward 8 years against HP income only.",
+        "Capital losses: LTCL only against LTCG. STCL against both STCG and LTCG. Never against other heads. Carry forward 8 years if the return is filed on time.",
+        "Business loss: set off against any head except salary, carried 8 years. Speculative loss only against speculative profit, carried 4 years. Unabsorbed depreciation carries forward indefinitely. Loss under Other Sources cannot be carried forward.",
+        "Deductions (old regime): s.123 (80C) ₹1.5 lakh, 80CCD(1B) ₹50,000, 80D ₹75,000 / ₹1,00,000, 80TTA ₹10,000, 80TTB ₹50,000 for seniors, 80E no limit. Employer NPS is available in both regimes.",
+        "Rebate s.156 (87A): old regime up to ₹12,500 if income ≤ ₹5 lakh. New regime up to ₹60,000 if income ≤ ₹12 lakh, with marginal relief (effectively up to ₹12,71,250). Not available against s.198 (112A) LTCG tax.",
+        "New regime slabs (Tax Year 2026-27): up to ₹4 lakh nil, then 5%, 10%, 15%, 20%, 25% in ₹4-lakh steps, and 30% above ₹24 lakh.",
+        "EEE = PPF. EET = ELSS (as given in the workbook). ETE = 5-year tax-saver FD, SCSS. MMR = 30% + 37% surcharge + 4% cess = 42.744%."
+      ],
+      "mustRemember": [
+        {
+          "label": "Deemed resident Indian income",
+          "value": "> ₹15 lakh"
+        },
+        {
+          "label": "NOR tests",
+          "value": "NR in 9/10 yrs OR ≤729 days in 7 yrs"
+        },
+        {
+          "label": "Standard deduction",
+          "value": "₹50,000 old / ₹75,000 new"
+        },
+        {
+          "label": "Self-occupied interest cap",
+          "value": "₹2,00,000 (old regime)"
+        },
+        {
+          "label": "HP loss set-off cap",
+          "value": "₹2 lakh (old); nil (new)"
+        },
+        {
+          "label": "Loss carry forward",
+          "value": "8 yrs (spec 4 yrs)"
+        },
+        {
+          "label": "87A rebate (new)",
+          "value": "≤₹60,000 if income ≤₹12 lakh"
+        },
+        {
+          "label": "MMR",
+          "value": "42.744%"
+        }
+      ],
+      "examTip": "Residential-status puzzles, set-off and carry-forward matrices, and house-property computations are favourites. Learn the new section numbers alongside the old ones (s.123 = 80C, s.156 = 87A, s.202 = 115BAC).",
+      "trap": "Residence is decided every tax year from days of stay. Citizenship is irrelevant to the test except for the special 120-day and deemed-resident rules. LTCL cannot touch STCG."
+    },
+    {
+      "no": 8,
+      "title": "Capital Gains",
+      "weight": "Module 9 (Ch 7–13): 20 marks",
+      "emoji": "📈",
+      "summary": "What counts as a capital asset, short-term vs long-term holding periods, what is and is not a 'transfer', how to compute gains (cost, grandfathering, the indexation parallel test for old property), tax rates, and the reinvestment exemptions (ss.82–88).",
+      "story": "Flat bought in FY 2012-13 for ₹50 lakh and sold in FY 2025-26 for ₹1.2 crore. The new method taxes ₹70 lakh at 12.5% = ₹8.75 lakh. The old method indexes the cost to ₹94 lakh (×376/200) and taxes ₹26 lakh at 20% = ₹5.2 lakh. Because it was bought before 23 July 2024, the owner pays the lower figure, ₹5.2 lakh.",
+      "keyPoints": [
+        "Not capital assets: stock-in-trade, personal effects (but jewellery, art, paintings, sculptures and archaeological collections ARE capital assets), rural agricultural land in India, Gold Deposit Bonds and GMS certificates.",
+        "General LTCG threshold is more than 24 months. 12 months for listed shares and listed securities, units of equity-oriented funds (listed or unlisted), UTI units, zero-coupon bonds and taxable ULIPs.",
+        "Always short-term: depreciable assets, MLDs, Specified Mutual Funds (≥65% debt, acquired on or after 1 Apr 2023), and unlisted bonds or debentures transferred after 23 July 2024 (s.76 = old 50AA).",
+        "Holding period: bonus and rights shares count from allotment, renounced rights from offer to renunciation, converted preference or debenture shares include the original holding, demat follows FIFO, and inheritance or gift includes the previous owner's period.",
+        "Not 'transfer': HUF partition, gift, Will or irrevocable trust (except ESOP shares), conversion of debentures or preference shares into equity of the same company, MF scheme consolidation, SEBI securities lending, gold ↔ EGR conversion, and SGB redemption by the original subscriber held till maturity (from Tax Year 2026-27).",
+        "STT is NOT deductible as a transfer expense. Brokerage, stamp duty and legal costs are.",
+        "Cost: assets bought before 1 Apr 2001 can use FMV on 1 Apr 2001. Bonus shares after 2001 have nil cost. Renounced rights have nil cost. Inherited assets take the previous owner's cost.",
+        "Grandfathering (equity, equity-fund or business-trust units bought on or before 31 Jan 2018): cost = higher of (actual cost, lower of FMV on 31 Jan 2018 and the sale price).",
+        "Indexation now survives only for land or buildings acquired before 23 July 2024: tax = lower of 12.5% without indexation or 20% with indexation, and indexation cannot create a loss. CII 2001-02 = 100, 2025-26 = 376.",
+        "Rates: STCG on STT-paid equity, equity-fund or business-trust units 20% (s.196 = 111A). Other STCG at slab. LTCG 12.5% for all assets. On STT-paid equity (s.198 = 112A), only gains above ₹1.25 lakh are taxed.",
+        "s.82 (old 54): house to house, buy 1 year before or 2 years after, or construct within 3 years. Cap ₹10 crore. Two houses allowed if gains ≤ ₹2 crore.",
+        "s.85 (old 54EC): NHAI/REC bonds within 6 months, max ₹50 lakh. s.86 (old 54F): any LTCA except a house, invest the net consideration in a house (proportionate relief, ₹10 crore cap).",
+        "Foreign-currency gains are converted at the SBI TT buying rate on the last day of the month before the transfer."
+      ],
+      "mustRemember": [
+        {
+          "label": "LTCG threshold (general / listed)",
+          "value": "> 24 months / > 12 months"
+        },
+        {
+          "label": "LTCG rate",
+          "value": "12.5% (no indexation)"
+        },
+        {
+          "label": "STCG on STT-paid equity",
+          "value": "20%"
+        },
+        {
+          "label": "112A exemption",
+          "value": "₹1.25 lakh per year"
+        },
+        {
+          "label": "Grandfathering date",
+          "value": "31 January 2018"
+        },
+        {
+          "label": "Indexation cut-off (land/building)",
+          "value": "Acquired before 23 July 2024"
+        },
+        {
+          "label": "CII 2001-02 / 2025-26",
+          "value": "100 / 376"
+        },
+        {
+          "label": "54EC (s.85) cap / window",
+          "value": "₹50 lakh / 6 months"
+        },
+        {
+          "label": "s.82 / s.86 cap",
+          "value": "₹10 crore"
+        }
+      ],
+      "examTip": "Classify the asset (listed or not, which category), work out the holding period, then pick the rate. Grandfathering and the property indexation parallel test are prime numerical candidates.",
+      "trap": "Unlisted equity needs > 24 months, but equity-oriented fund units need only > 12 months even if unlisted. Debt-fund units bought after 1 Apr 2023 are short-term forever."
+    },
+    {
+      "no": 9,
+      "title": "Income from Other Sources",
+      "weight": "Module 9 (Ch 7–13): 20 marks",
+      "emoji": "🎁",
+      "summary": "The residual head: dividends, interest on securities, lottery or online-game winnings, gifts and deemed income. The 2026 changes are that no expenses can be deducted from dividends and that buyback gains are now capital gains.",
+      "story": "Priya receives ₹40,000 of shares from a college friend and ₹30,000 from her mother's sister (mausi) in the same year. The friend's gift is tested against the ₹50,000 limit. The mausi is a 'relative', so her gift is fully excluded. Total from non-relatives is ₹40,000, under the limit, so nothing is taxable.",
+      "keyPoints": [
+        "Always under Other Sources: dividends, interest on securities held as investment, forfeited advance on a failed asset sale, deemed income on gifts or under-priced receipts, and specified sums from business trusts.",
+        "Since DDT was abolished (from AY 2021-22), dividends are taxed in the shareholder's hands at slab rates. From Tax Year 2026-27, NO expense (not even interest) can be deducted from dividend income. The earlier 20% interest allowance is gone.",
+        "Buyback: from 1 Oct 2024 it was taxed as dividend. From Tax Year 2026-27 it is taxed as CAPITAL GAINS (consideration − cost, STCG or LTCG by holding period). Promoters pay an additional tax.",
+        "Interest on securities is taxed per the regular accounting method (mercantile = accrual, cash = receipt). Commission paid to realise the interest is deductible.",
+        "Gift rule: money or property received without (or for inadequate) consideration is taxable if the aggregate in the year exceeds ₹50,000, in which case the WHOLE amount is taxed, not just the excess.",
+        "Exempt occasions: marriage of the individual, under a Will or inheritance, in contemplation of death, from a 'relative', from a local authority, and from specified charitable or educational institutions.",
+        "Relatives include spouse, children, parents, siblings and their spouses, the spouse's siblings, lineal ascendants and descendants, and parents' siblings (chacha, bua, mama, mausi) with their spouses.",
+        "NOT relatives: nephew, niece, cousins, step-brother/sister.",
+        "Foreign-currency interest is converted at the SBI TT buying rate on the last day of the month before the due date."
+      ],
+      "mustRemember": [
+        {
+          "label": "Gift exemption threshold",
+          "value": "Aggregate ≤ ₹50,000 per year"
+        },
+        {
+          "label": "Deduction from dividend (TY 2026-27)",
+          "value": "Nil"
+        },
+        {
+          "label": "Buyback (TY 2026-27)",
+          "value": "Capital gains"
+        },
+        {
+          "label": "Not relatives",
+          "value": "Nephew, niece, cousins, step-siblings"
+        }
+      ],
+      "examTip": "Who is or isn't a 'relative' and the ₹50,000 aggregate rule are classic. Also expect questions on the 2026 changes to dividend deductions and buyback taxation.",
+      "trap": "If non-relative gifts total ₹60,000, the full ₹60,000 is taxable, not just the ₹10,000 above the limit."
+    },
+    {
+      "no": 10,
+      "title": "Taxation of Debt Products",
+      "weight": "Module 9 (Ch 7–13): 20 marks",
+      "emoji": "📜",
+      "summary": "How interest and capital gains on bonds, G-secs, T-bills, tax-free bonds, debt mutual funds and market-linked debentures are taxed, plus non-resident rules (DTAA, Chapter XII-A concessions, foreign retirement accounts).",
+      "story": "XYZ Bank held unlisted G-secs for 12 years and still got short-term capital gains at normal rates, because unlisted bonds and debentures are always short-term now. Holding them longer changes nothing.",
+      "keyPoints": [
+        "Interest is taxed under Other Sources at slab rates (accrual or receipt per the method of accounting). On sale, accrued but unpaid interest is separated from the sale price as interest.",
+        "Listed bonds and debentures: LTCG after 12 months at 12.5% without indexation. Unlisted bonds and debentures are always short-term at slab.",
+        "T-bills (91, 182, 364 days) and Cash Management Bills (under 91 days) are issued at a discount. The gain is short-term at slab.",
+        "Dated G-secs run 5–40 years with half-yearly coupons. States issue SDLs. No TDS on G-sec interest to residents, except the 8% Savings (Taxable) Bonds 2003 and 7.75% Savings (Taxable) Bonds 2018 when interest exceeds ₹10,000.",
+        "Tax-free bonds: interest is exempt, but capital gains on sale or redemption are taxable like any bond.",
+        "Mutual funds for tax: equity-oriented, Specified MF (≥65% debt/money market, bought on or after 1 Apr 2023: always STCG at slab, no cost of improvement), and other MFs (LTCG 12.5% after 12 months if listed or 24 months if unlisted).",
+        "MLDs (issuers need net worth ≥ ₹100 crore, typical tenure 12–36 months): gains are always short-term at slab under s.76, even for MLDs bought before 2023 if redeemed after 1 Apr 2023.",
+        "Non-residents: dividends taxed at 20% (subject to DTAA). The more beneficial of the Act and the DTAA applies. A TRC plus Form 41 (old Form 10F) is required.",
+        "Chapter XII-A (ss.212–218) for NRIs and PIOs on assets bought in foreign exchange: investment income at 20%, LTCG at 12.5%, LTCG exempt if reinvested within 6 months (taxed back if the new asset is sold within 3 years). Can continue after becoming resident for debt income.",
+        "s.158 (old 89A): foreign retirement accounts in notified countries (USA, Canada, UK) are taxed in India on withdrawal, not on accrual."
+      ],
+      "mustRemember": [
+        {
+          "label": "Listed bond LTCG",
+          "value": "> 12 months; 12.5%"
+        },
+        {
+          "label": "Unlisted bonds / MLDs / SMFs",
+          "value": "Always STCG at slab"
+        },
+        {
+          "label": "T-bill tenors",
+          "value": "91, 182, 364 days"
+        },
+        {
+          "label": "NR dividend rate",
+          "value": "20% (subject to DTAA)"
+        },
+        {
+          "label": "XII-A reinvestment window",
+          "value": "6 months; 3-year lock"
+        },
+        {
+          "label": "Notified countries (s.158)",
+          "value": "USA, Canada, UK"
+        }
+      ],
+      "examTip": "Expect 'which is always short-term?' questions, tax-free bond capital gains, DTAA rate choice (lower of Act or treaty), and the TRC/Form 41 requirement.",
+      "trap": "'Tax-free bond' means tax-free interest only. Gains on sale are still taxable."
+    },
+    {
+      "no": 11,
+      "title": "Taxation of Equity Products",
+      "weight": "Module 9 (Ch 7–13): 20 marks",
+      "emoji": "💹",
+      "summary": "Transaction costs, dividends, listed and unlisted shares, preference shares and warrants, equity mutual funds, F&O (business income), bonus stripping and the exemption-limit adjustment.",
+      "story": "Ravi buys 1,000 shares at ₹106 within 3 months of the record date, gets a 1:1 bonus, and sells the originals at ₹95 within 9 months. The ₹11,000 loss is ignored and becomes the cost of the bonus shares, ₹11 each. Bonus stripping is neutralised.",
+      "keyPoints": [
+        "Costs: brokerage, STT (paid to the government by the 7th of the next month), unified stamp duty, exchange charges, SEBI turnover fee of ₹10 per crore, DP charges, and 18% GST on brokerage and charges.",
+        "Dividends from foreign companies are taxed at 5–15% under most DTAAs. A non-resident pays 20% on Indian dividends (10% from an IFSC unit).",
+        "FIFO applies account-wise for demat holdings, and for dematerialised physical shares the date of entry into the account counts.",
+        "s.198 (112A) needs STT on both purchase and sale (with CBDT exceptions such as pre-1 Oct 2004 shares, IPO and preferential allotments, ESOPs, and IFSC deals in foreign currency). LTCG above ₹1.25 lakh is taxed at 12.5%.",
+        "Grandfathering cannot convert a gain into a loss. If the sale price is below the 31 Jan 2018 FMV but above cost, LTCG is nil.",
+        "Unlisted shares: LTCG after 24 months at 12.5%, STCG at slab. Shares sold in an IPO's offer for sale fall under s.198.",
+        "Surcharge on 111A/112/112A capital gains and on dividends is capped at 15%.",
+        "Equity-oriented fund: at least 65% in listed domestic equity (a fund of funds needs 90% in such a fund, which itself must hold 90%), measured on the annual average of monthly averages. ELSS has a 3-year lock-in, the shortest among tax-saving instruments.",
+        "Equity MF: STCG 20% (STT), LTCG 12.5% above ₹1.25 lakh after 12 months. Without STT, LTCG is 12.5% under s.197 and STCG is at slab.",
+        "F&O on a recognised exchange is non-speculative business income. Turnover = absolute sum of favourable and unfavourable differences + option premium received. Presumptive scheme (s.58 = 44AD) at 6% of digital turnover up to ₹2–3 crore, with advance tax payable by 15 March. Losses are set off against any head except salary and carried 8 years.",
+        "Option exercised: the cost of the shares = strike price + premium paid.",
+        "Bonus stripping (s.175(9) = old 94(8)): buy within 3 months before the record date and sell the originals within 9 months after while holding the bonus. The loss is ignored and becomes the cost of the bonus units.",
+        "Exemption-limit adjustment: resident individuals and HUFs can use any unused basic exemption (₹2.5 lakh old, ₹4 lakh new) against 111A/112/112A gains. No Chapter VIII deductions are allowed against these special-rate gains."
+      ],
+      "mustRemember": [
+        {
+          "label": "SEBI turnover fee",
+          "value": "₹10 per crore"
+        },
+        {
+          "label": "GST on brokerage",
+          "value": "18%"
+        },
+        {
+          "label": "Equity-oriented fund test",
+          "value": "≥65% listed domestic equity (FoF 90/90)"
+        },
+        {
+          "label": "ELSS lock-in",
+          "value": "3 years"
+        },
+        {
+          "label": "Presumptive F&O income",
+          "value": "6% of turnover (digital)"
+        },
+        {
+          "label": "Bonus stripping window",
+          "value": "3 months before / 9 months after"
+        },
+        {
+          "label": "Capital-gain surcharge cap",
+          "value": "15%"
+        }
+      ],
+      "examTip": "Expect grandfathering scenarios, STCG/LTCG on equity with the ₹1.25 lakh exemption, F&O treatment (business, non-speculative, turnover) and bonus stripping.",
+      "trap": "F&O is NOT speculative, even though there is no delivery. Intraday equity trading (no delivery) is speculative."
+    },
+    {
+      "no": 12,
+      "title": "Taxation of Other Products",
+      "weight": "Module 9 (Ch 7–13): 20 marks",
+      "emoji": "🧩",
+      "summary": "ESOPs, Sovereign Gold Bonds, NPS, REITs and InvITs, AIFs, ETFs, life insurance and reverse mortgage: each with its own tax quirks.",
+      "story": "Mr B exercises 100 ESOPs at ₹500 when the FMV is ₹6,500 and pays salary tax on ₹6 lakh. Later, the capital gain is computed from ₹6,500 (FMV on exercise), and the holding period counts from the allotment date.",
+      "keyPoints": [
+        "ESOP stages: grant, vesting, exercise, allotment. Perquisite = (FMV on EXERCISE date − exercise price) × shares, taxed as salary in the year of allotment. Cost for capital gains = that FMV. Holding period runs from ALLOTMENT.",
+        "Eligible start-ups (s.140 = 80-IAC: incorporated 1 Apr 2016 to 1 Apr 2030, turnover ≤ ₹300 crore, IMB certificate) can defer TDS and tax on the ESOP perquisite.",
+        "SGB: 2.5% interest paid half-yearly, taxable with no TDS. 1 gram minimum. 4 kg a year for individuals and HUFs, 20 kg for trusts. 8-year tenor with early exit after the 5th year. Redemption price = average of 3 working days' IBJA 999 closing price.",
+        "SGB capital gains (Finance Act 2026): redemption is exempt ONLY for an individual who subscribed at the original issue and held it to maturity. Secondary-market buyers and premature redemptions are taxed. Listed SGB: LTCG 12.5% after 12 months.",
+        "REIT pass-through: rental income (taxed as house property for the unit-holder) and SPV interest/dividend are taxed in the unit-holder's hands. An InvIT's rental income is taxed at the InvIT. Dividend from an SPV that has not opted for s.200 (115BAA) is exempt for the unit-holder.",
+        "REIT/InvIT units: listed STCG 20% / LTCG 12.5% above ₹1.25 lakh (STT), with LTCG after 12 months listed or 24 months unlisted. Redemption proceeds are taxed under Other Sources. TDS on rent distributed to residents is 10%.",
+        "AIF Category I/II: pass-through except business income (taxed at the AIF, at MMR if it is a trust). Losses pass through only if units are held ≥ 12 months. TDS 10% to residents. Form 78 to investors by 30 June, Form 79 to the tax department by 30 November. Category III AIFs have NO pass-through.",
+        "Gold ETF: LTCG after 12 months at 12.5%, STCG at slab. Equity index ETF is taxed like an equity fund.",
+        "Life insurance: death proceeds are always exempt. Maturity is exempt if premium ≤ 10% of sum assured (15% for specified disability) AND, for ULIPs issued on or after 1 Feb 2021, aggregate premium ≤ ₹2.5 lakh, or for other policies issued on or after 1 Apr 2023, ≤ ₹5 lakh. Keyman policies are never exempt.",
+        "s.123 (80C) deduction on premiums is capped at 10% of sum assured (20% for policies before 1 Apr 2012). Policies must be held 2 years (5 years for UTI/LIC ULIPs) or the deduction is reversed.",
+        "Reverse mortgage is not a 'transfer', and loan receipts are exempt."
+      ],
+      "mustRemember": [
+        {
+          "label": "ESOP perquisite FMV date",
+          "value": "Date of exercise"
+        },
+        {
+          "label": "ESOP holding period starts",
+          "value": "Date of allotment"
+        },
+        {
+          "label": "SGB interest / tenor",
+          "value": "2.5% p.a. / 8 yrs (exit after 5th yr)"
+        },
+        {
+          "label": "SGB limit",
+          "value": "4 kg individual/HUF, 20 kg trusts"
+        },
+        {
+          "label": "AIF Form 78 / Form 79",
+          "value": "30 June / 30 November"
+        },
+        {
+          "label": "AIF loss pass-through",
+          "value": "Units held ≥12 months"
+        },
+        {
+          "label": "Life policy maturity exemption",
+          "value": "Premium ≤10% of SA (+₹2.5L ULIP / ₹5L non-ULIP caps)"
+        }
+      ],
+      "examTip": "Expect questions on the ESOP valuation date, the new SGB redemption rule, REIT vs InvIT rental pass-through, and AIF category pass-through.",
+      "trap": "The ESOP FMV is taken on EXERCISE, not vesting or allotment, but the holding period starts at ALLOTMENT. An InvIT does NOT pass through rental income."
+    },
+    {
+      "no": 13,
+      "title": "Tax Provisions for Special Cases",
+      "weight": "Module 9 (Ch 7–13): 20 marks",
+      "emoji": "🔀",
+      "summary": "Corporate actions and special situations: bonus, split or consolidation, buyback, rights, mergers and demergers, securities lending, preference conversion, segregated MF portfolios, MF consolidation and winding up. The annexures give tax rates and CII.",
+      "story": "A fund side-pockets a defaulted bond. Your ₹15,000 cost (₹15 × 1,000 units) is divided in the ratio of NAVs: segregated NAV ₹2 against total NAV ₹12 means ₹2,500 goes to the segregated units and ₹12,500 stays with the main portfolio. The holding period for both runs from your original purchase.",
+      "keyPoints": [
+        "Bonus: no tax on allotment. Cost is nil (FMV on 1 Apr 2001 if issued before then). Holding counts from allotment. Grandfathering can apply.",
+        "Split or consolidation: not a transfer. The original cost is spread over the new number of shares, and the holding period runs from the original purchase.",
+        "Buyback (from Tax Year 2026-27): capital gains for the shareholder, with no tax on the company. Promoter additional tax: STCG 2% (domestic company promoter) or 10% (others), LTCG 9.5% or 17.5%.",
+        "Rights renunciation: cost nil, holding from offer to renunciation, taxed as STCG at slab (NOT s.196). A buyer of renounced rights has a cost of the price paid to the renouncer plus the price paid to the company.",
+        "Mergers: shares received in amalgamation carry the amalgamating company's cost and holding period. Demerger cost is split in the ratio of the net book value transferred to net worth.",
+        "Securities lending (SEBI scheme): not a transfer. The lending fee is business income or Other Sources. Tenure is 1 day to 12 months including rollovers. The lender deposits 25% margin (nil if lending the same day) and the borrower 100% plus margins. Only F&O stocks and liquid index ETFs are eligible.",
+        "Preference converted to equity: not a transfer. Cost and holding of the preference shares carry over.",
+        "Segregated portfolio cost = original cost × (NAV of segregated assets ÷ total NAV before segregation). The main portfolio cost is reduced by the same amount.",
+        "MF consolidation (equity with equity, or non-equity with non-equity, schemes or plans) is not a transfer. Cost and holding carry over.",
+        "MF winding up: triggered by trustees, a 75% unit-holder resolution, or a SEBI direction. Notice goes in two daily newspapers plus a vernacular one. A simple majority of unit-holders authorises the winding up. Proceeds are taxed like a redemption.",
+        "Old-regime slabs: nil to ₹2.5 lakh (₹3 lakh for seniors, ₹5 lakh for super seniors), 5%, 20%, 30%. Surcharge 10%, 15%, 25% or 37% (new regime capped at 25%). Cess 4%. VDA and online games 30%. Undisclosed income 60%."
+      ],
+      "mustRemember": [
+        {
+          "label": "Bonus cost (post-2001)",
+          "value": "Nil"
+        },
+        {
+          "label": "SLB tenure",
+          "value": "1 day to 12 months"
+        },
+        {
+          "label": "SLB margins",
+          "value": "Lender 25%, Borrower 100% + margins"
+        },
+        {
+          "label": "MF winding-up resolution",
+          "value": "75% of unit-holders"
+        },
+        {
+          "label": "Promoter buyback extra tax (non-company)",
+          "value": "STCG 10%, LTCG 17.5%"
+        },
+        {
+          "label": "Cess",
+          "value": "4% on tax + surcharge"
+        }
+      ],
+      "examTip": "Cost-of-acquisition puzzles (split, bonus, segregation, rights) and the 2026 buyback change are likely MCQ material.",
+      "trap": "Gains on renouncing rights are NOT taxed at 20% under s.196, even if the rights are listed. They are slab-rate STCG."
+    },
+    {
+      "no": 14,
+      "title": "Basics of Estate Planning",
+      "weight": "Module 10 (Ch 14–15): 20 marks",
+      "emoji": "🏛️",
+      "summary": "Estate planning means accumulating, conserving and distributing an estate so the family stays financially secure. The chapter covers what makes up an estate, what happens on intestacy, which succession law applies to whom, the Hindu and Muslim succession rules, MWPA and mutation.",
+      "story": "A Hindu man dies without a Will, leaving a widow, his mother, two sons, a daughter, his father, and the widow and son of a predeceased son. Class I heirs share: widow 1, mother 1, each son 1, daughter 1, and the predeceased son's branch 1 (split equally between his widow and son). That is 6 shares. The father, a Class II heir, gets nothing.",
+      "keyPoints": [
+        "Estate planning is for everyone, not just the rich: families with minors, high liabilities, property in many states, small businesses, or disability risk. India currently has no estate duty.",
+        "Estate planning (personal assets, effective at death) ≠ succession planning (business continuity, done in one's lifetime).",
+        "Constituents: gross estate (everything owned, including NPS and insurance), residue estate (personal effects, unallocated assets, sums due), and estate debt (loans, taxes, cases).",
+        "Dying intestate (s.30, Indian Succession Act): having no testamentary disposition capable of taking effect. Intestacy can be total or partial.",
+        "Laws: for Hindus, Jains, Sikhs and Buddhists, testamentary succession follows the ISA 1925 and intestate succession the Hindu Succession Act 1956 (amended 2005). Christians and Parsis follow the ISA for both. Muslims follow personal law (Shariat Act 1937 for intestacy).",
+        "A succession certificate is used for specified debts and securities. It is not universal and does not decide title to immovable property.",
+        "Minimum estate plan: a last Will and testament plus a living Will. Other elements are a trust, a power of attorney, and nominations.",
+        "Hindu male intestacy: Class I heirs (16, including son, daughter, widow, mother and the branches of predeceased children) take simultaneously. Then Class II (father is entry I, then siblings…). Then agnates (related wholly through males). Then cognates (not wholly through males).",
+        "Class I distribution: widows together take 1 share. Each son, daughter and the mother take 1 share. Each predeceased child's branch takes 1 share. Within one Class II entry, heirs share equally.",
+        "Uterine siblings (same mother, different father) are excluded. Half blood means same father, different mother. Adopted children count as full blood. Children of void or voidable marriages inherit from their parents.",
+        "Hindu female (s.15): first sons, daughters (and the children of predeceased ones) and husband, then the husband's heirs, then mother and father, then the father's heirs, then the mother's heirs. If she has no children, property from her parents goes back to the father's heirs and property from her husband or father-in-law to the husband's heirs.",
+        "Muslim law: 12 sharers plus residuaries. A widow gets 1/4 (no children) or 1/8 (with children). A husband gets 1/2 or 1/4. A sole daughter gets 1/2, multiple daughters share 2/3, and with sons a son gets twice a daughter. There is no birth-right. A Will (Wasiyat) is limited to 1/3 of the net estate without heirs' consent and can be oral. Escheat goes to the government if there are no heirs.",
+        "MWPA s.6: a policy taken by a husband for his wife and/or children is a trust outside the husband's control and creditors, paid to the Official Trustee unless special trustees are appointed.",
+        "Mutation is an administrative or fiscal change in revenue records. It does NOT confer title."
+      ],
+      "mustRemember": [
+        {
+          "label": "Intestacy definition",
+          "value": "s.30, Indian Succession Act, 1925"
+        },
+        {
+          "label": "Hindu intestate law",
+          "value": "Hindu Succession Act, 1956 (amended 2005)"
+        },
+        {
+          "label": "Father under HSA",
+          "value": "Class II heir (not Class I)"
+        },
+        {
+          "label": "Muslim widow share",
+          "value": "1/4 (no children) / 1/8 (with children)"
+        },
+        {
+          "label": "Muslim bequest limit",
+          "value": "1/3 of net estate"
+        },
+        {
+          "label": "Muslim sharers",
+          "value": "12"
+        }
+      ],
+      "examTip": "Expect intestate distribution questions (who is Class I, share calculations), agnate vs cognate, and which law applies to which religion.",
+      "trap": "Father and siblings are not Class I heirs. If any Class I heir exists, they inherit nothing. A mutation entry is not proof of ownership."
+    },
+    {
+      "no": 15,
+      "title": "Tools for Estate Planning",
+      "weight": "Module 10 (Ch 14–15): 20 marks",
+      "emoji": "📝",
+      "summary": "The toolkit: Wills (types, validity, registration, revocation, codicils, executors), probate and succession certificates, gifts, joint holding, nomination (the new SEBI and bank limits), family settlements and family-business planning, trusts (types and taxation), guardianship and powers of attorney.",
+      "story": "A trust is like a locked toolbox. The settlor puts tools (assets) in, the trustee holds the key and uses them under the deed's instructions, and the beneficiaries enjoy what gets built. Unlike a Will, it works from day one, needs no probate and stays private.",
+      "keyPoints": [
+        "A Will (s.2(h), ISA) takes effect only on death and is revocable any time (s.62). Testator = maker, legatee = recipient, executor = administrator (s.2(c)).",
+        "Types: conditional, joint (treated as separate Wills), mutual (reciprocal benefits), duplicate (destroying the one in the testator's custody revokes both), holograph (entirely handwritten), concurrent (e.g. one per country), sham, and privileged (a soldier, airman or mariner in action can make one orally before 2 witnesses).",
+        "Essentials (s.59): sound mind, not a minor, free consent, knowledge of contents. A deaf, dumb or blind person can make one, and so can an insane person in a lucid interval.",
+        "Registration is OPTIONAL (s.18, Registration Act), on plain paper with no stamp duty. It can be deposited sealed with the Registrar (ss.42–46). Exempt from attending the office: the infirm, jail inmates, and pardanashin women.",
+        "Revocation: by a later Will or codicil, a written declaration executed like a Will, or by burning or tearing with intent. Marriage does not revoke a Hindu's Will (s.57), and divorce does not revoke a Will. Losing a Will is not revocation. A codicil (s.2(b)) amends a Will and is executed like one.",
+        "Probate (s.2(f)) = a copy of the Will certified under the court's seal. It is granted ONLY to an executor (s.222). A minor executor gets it after majority. Section 213 was omitted by the Repealing and Amending Act, 2025, so probate is no longer compulsory for Mumbai, Chennai or Kolkata Wills.",
+        "Letters of administration are issued when there is no executor, the executor is incapable or refuses, or the executor dies before completing the work. A succession certificate (District Judge, Part X) covers specified debts and securities only.",
+        "Gift (s.126, Transfer of Property Act): voluntary and without consideration, ordinarily irrevocable. A gift of immovable property needs a registered instrument.",
+        "Nomination: only individuals can nominate. A nominee is generally a custodian or trustee for the legal heirs, except beneficial nominees under the Insurance Act and EPF. From 1 Sep 2026, SEBI allows up to 3 nominees for demat accounts and MF folios. Banks allow up to 4, simultaneous or successive (lockers are successive only).",
+        "Joint tenancy carries survivorship. Tenants-in-common do not (heirs under s.19 of the HSA take as tenants-in-common). PPF cannot be attached by creditors. About 70% of family businesses survive a generation.",
+        "Indian Trusts Act 1882 (private trusts). Parties are the author or settlor, the trustee and the beneficiary (s.3), and a trust needs intention, purpose, beneficiary, property and transfer (s.6). An oral trust is possible only for movables.",
+        "A revocable trust is taxed in the settlor's hands (s.97). A discretionary trust (indeterminate shares) is taxed at MMR (s.307), with exceptions. A determinate trust is taxed through the trustee as representative assessee (s.304). If a trust has business income, its entire income is taxed at MMR unless it is the only trust created by Will for dependent relatives.",
+        "Trust revocation (s.78): a trust by Will can be revoked at the testator's pleasure. Others need all competent beneficiaries' consent or an express power reserved. Income accumulation is limited to the transferor's life or 18 years. DNI = taxable income − capital gains + tax exemptions.",
+        "Power of attorney: general, special, or special for registration. Revoked on revocation, insolvency, renunciation, completion, or the death of either party (s.201). An agent with an interest cannot be revoked (s.202). The presumption of due execution (s.84, Bharatiya Sakshya Adhiniyam 2023) applies before a notary, court, consul or government representative. Not compulsorily registrable unless it creates an interest in immovable property. Stamped under Article 48."
+      ],
+      "mustRemember": [
+        {
+          "label": "Will registration",
+          "value": "Optional; no stamp duty"
+        },
+        {
+          "label": "Privileged Will witnesses",
+          "value": "2 (oral)"
+        },
+        {
+          "label": "Probate granted to",
+          "value": "Executor only (s.222)"
+        },
+        {
+          "label": "Compulsory probate (s.213)",
+          "value": "Omitted in 2025"
+        },
+        {
+          "label": "SEBI nominees (demat/MF)",
+          "value": "Up to 3 (from 1 Sep 2026)"
+        },
+        {
+          "label": "Bank nominees",
+          "value": "Up to 4"
+        },
+        {
+          "label": "Income accumulation limit in trust",
+          "value": "18 years / transferor's life"
+        },
+        {
+          "label": "Discretionary trust tax",
+          "value": "Maximum marginal rate"
+        }
+      ],
+      "examTip": "Expect questions on Will types, revocation modes, probate vs succession certificate, trust parties and taxation, PoA revocation, and the 2025–26 changes (s.213 omitted, nominee limits).",
+      "trap": "A Will overrides a nomination (except beneficial nominees under special statutes), but the institution can still validly pay the nominee. Also, probate is no longer automatically mandatory in the former presidency towns."
+    },
+    {
+      "no": 16,
+      "title": "Basics of Behavioural Finance",
+      "weight": "Module 11 (Ch 16–17): 10 marks",
+      "emoji": "🧠",
+      "summary": "Why real investors are not the rational robots of standard finance: bounded rationality, prospect theory, emotional biases versus cognitive errors, fusion investing, and how biases create anomalies, bubbles and crashes.",
+      "story": "Isaac Newton made £3,500 in the South Sea Bubble, re-entered, and lost £20,000. His verdict: 'I can calculate the motions of heavenly bodies, but not the madness of people.'",
+      "keyPoints": [
+        "Standard finance assumes investors are rational, risk-averse, self-interested utility maximisers with full information. Behavioural finance puts psychology at the core, with loss aversion as its base.",
+        "Nobel laureates: Herbert Simon (1978) for bounded rationality, Daniel Kahneman (2002), and Richard Thaler (2017) for nudges and mental accounting.",
+        "Bounded rationality: limited time, information or ability leads people to 'satisfice' (satisfactory plus sufficient) using rules of thumb. It is rational within limits, not irrational.",
+        "Prospect theory (Kahneman & Tversky, 1979): outcomes are judged against a reference point. People are risk-averse in gains and risk-seeking in losses, and losses hurt more. Choice has two phases: framing (editing) and evaluation.",
+        "Emotional biases (feelings): loss aversion and the disposition effect (Shefrin & Statman 1985, selling winners early and holding losers), stereotyping, overconfidence (worse with self-attribution, confusing brains with a bull market), endowment, status quo, and regret aversion.",
+        "Regret from errors of commission (actions taken) hurts more than errors of omission, which pushes people toward the status quo.",
+        "Cognitive errors (faulty reasoning, reducible through vigilance): mental accounting (Thaler, 1999, treating money as non-fungible), framing (95% lean vs 5% fat), anchoring (relying on pre-existing information), and choice paralysis.",
+        "Fusion investing combines value and growth fundamentals with behavioural momentum. Graham: the market is a voting machine in the short run and a weighing machine in the long run. Screen on value, then fundamental strength (Piotroski score 0–9), then momentum. Transaction costs and taxes matter.",
+        "Anomalies are departures of returns from CAPM predictions. The disposition effect explains momentum. Overconfidence and self-attribution drive excessive trading.",
+        "Bubbles (Kindleberger 1978) come from liquidity, celebrity status, momentum or herding, and the illusion of control. Redhead (2008) says they are likelier with many inexperienced traders, high value uncertainty, lottery-like payoffs, easy borrowing, and difficult short selling."
+      ],
+      "mustRemember": [
+        {
+          "label": "Prospect theory",
+          "value": "Kahneman & Tversky, 1979"
+        },
+        {
+          "label": "Bounded rationality",
+          "value": "Herbert Simon (Nobel 1978)"
+        },
+        {
+          "label": "Mental accounting",
+          "value": "Richard Thaler, 1999"
+        },
+        {
+          "label": "Disposition effect",
+          "value": "Shefrin & Statman, 1985"
+        },
+        {
+          "label": "Bias families",
+          "value": "Emotional vs Cognitive"
+        },
+        {
+          "label": "Piotroski score range",
+          "value": "0 to 9"
+        }
+      ],
+      "examTip": "Match each bias to its definition or example, emotional vs cognitive classification, and the premises of prospect theory.",
+      "trap": "Bounded rationality is NOT irrationality. Loss aversion, overconfidence, endowment and status quo are EMOTIONAL. Mental accounting, framing and anchoring are COGNITIVE."
+    },
+    {
+      "no": 17,
+      "title": "Behavioural Finance in Practice",
+      "weight": "Module 11 (Ch 16–17): 10 marks",
+      "emoji": "🧭",
+      "summary": "How the adviser spots and manages behaviour: retail therapy, over-trading, chasing past performance, home bias, buying insurance for tax, over- or under-diversification, framing of risk questions and overconfidence. Plus nudges and the adviser's calming role through greed-fear cycles.",
+      "story": "Paul Samuelson: 'Investing should be dull… like watching paint dry or grass grow. If you want excitement, take $800 and go to Las Vegas.'",
+      "keyPoints": [
+        "Retail therapy: first make the client aware that stress drives it, then give it a fixed budget (even a separate account). Credit cards encourage impulsive spending.",
+        "Action bias leads to too many transactions. Prime clients in advance on the value of patience.",
+        "Chasing past performance is like driving by the rear-view mirror. Use a pre-set asset allocation with upper limits per asset class and per security.",
+        "Home-country bias denies diversification. LRS (USD 2,50,000) and Indian international funds help. The cure is for the adviser to learn about global investing and educate the client.",
+        "Buying insurance only to save tax leads to wrong or inadequate cover. Term insurance plus PPF typically beats an endowment for the same outlay.",
+        "Diversification comes from asset classes, not from owning many funds. A top-500 index fund can replace 12 overlapping equity funds.",
+        "Framing: some clients respond to 'what you gain', others to 'what you lose'. Diagnose the preferred frame and confirm it in discussion.",
+        "Overconfidence: after one 5× winner the client wants to overweight. The adviser should stand between the client and the mistake.",
+        "Nudges: pre-agreed ground rules, such as rebalancing triggers, automatically book profits high and buy low.",
+        "In greed and fear cycles the adviser keeps the client on the planned path, and helps prioritise conflicting goals (e.g. an education loan rather than sacrificing retirement)."
+      ],
+      "mustRemember": [
+        {
+          "label": "Samuelson quote",
+          "value": "Investing should be dull"
+        },
+        {
+          "label": "Home-bias tool in India",
+          "value": "LRS up to USD 2,50,000"
+        },
+        {
+          "label": "Best nudge example",
+          "value": "Pre-agreed rebalancing rules"
+        }
+      ],
+      "examTip": "Scenario questions: identify the behaviour (e.g. chasing performance, action bias, home bias) and pick the adviser's best response.",
+      "trap": "The right answer is usually the disciplined, rule-based option (budget limits, pre-set allocation, rebalancing), not 'do what the client wants' or 'switch to the hot asset'."
+    },
+    {
+      "no": 18,
+      "title": "Risk Profiling for Investors",
+      "weight": "Module 12 (Ch 18–20): 45 marks",
+      "emoji": "🎯",
+      "summary": "Measuring willingness, ability and need to take risk, the SEBI IA Regulation 16 requirements, the behavioural drivers (risk perception, overconfidence, financial engagement, loss aversion, composure), and turning a risk profile into strategic, tactical or dynamic asset allocation and model portfolios.",
+      "story": "Pay ₹1 lakh to call a coin toss and win ₹2.1 lakh if right. The expected gain is +₹5,000, yet most people refuse until the prize rises to ₹2.5–3 lakh. Willingness to take risk is psychology, not maths.",
+      "keyPoints": [
+        "Risk appetite rises with more earning members, a longer life expectancy, youth, employability, a steady job, market knowledge, a daring psyche, a larger capital base and regular income. It falls with more dependants.",
+        "Actual risk-taking depends on resources (ability) and how important the payoff is (need).",
+        "Risk tolerance is measured with questionnaires and scored into conservative, moderate or aggressive. People who 'guess the right answer' defeat the tool. Transaction history can supplement profiling but never replace it.",
+        "Regulation 16, SEBI IA Regulations 2013: obtain client information, assess willingness and ability (including the ability to absorb losses) objectively, use tools fit for purpose, ask fair, clear and non-leading questions, communicate the profile and obtain consent BEFORE advice (including free trials), and update periodically and on material changes.",
+        "Behavioural drivers: risk perception (best gauged by asking a direct question), overconfidence (inflates stated tolerance), and financial engagement (knowledge plus involvement leads to better diversification).",
+        "Risk tolerance = willingness, e.g. choosing a 50% chance of ₹20,000 over a certain ₹10,000. Loss aversion: a loss hurts about 2× an equal gain, and it also drives the status quo and sunk-cost fallacy. Risk composure = whether stated preferences hold under stress, best assessed from past behaviour in actual falls.",
+        "Risk capacity is the objective financial and temporal ability to absorb losses (a 35-year-old has more than a 60-year-old). Risk need is the return required to reach a goal.",
+        "If risk need exceeds capacity or tolerance, flag the goal and revise the amount, horizon or savings, rather than simply adding risk.",
+        "High tolerance with low composure points to a less aggressive allocation.",
+        "Asset allocation explains performance more than security selection. Strategic allocation is long-term and goal-based with periodic rebalancing. Tactical allocation is a market call, only for seasoned investors with large surpluses. Dynamic allocation is model or trigger based and removes subjectivity.",
+        "Model portfolios exist for each distinct client profile and are then tweaked (e.g. a couple in their 70s: 15% equity index, 5% gold ETF, 35% debt hybrid/MIS/SCSS, 30% debt/FD, 15% liquid).",
+        "Investment objectives: growth (equity, real estate, gold), income (deposits, debt), liquidity (cash, bank deposits, short-term funds), capital preservation (cash, deposits, ultra-short funds). Review at least once a year, and rebalance to the client's needs, not to short-term price moves."
+      ],
+      "mustRemember": [
+        {
+          "label": "SEBI IA risk-profiling regulation",
+          "value": "Regulation 16"
+        },
+        {
+          "label": "Loss vs gain pain",
+          "value": "≈ 2×"
+        },
+        {
+          "label": "Three risk categories",
+          "value": "Conservative / Moderate / Aggressive"
+        },
+        {
+          "label": "Portfolio review",
+          "value": "At least once a year"
+        },
+        {
+          "label": "Allocation types",
+          "value": "Strategic, Tactical, Dynamic"
+        }
+      ],
+      "examTip": "Case questions ask you to classify a client's risk profile from circumstances, pick suitable assets, and choose between strategic, tactical and dynamic allocation. Know Regulation 16's checklist.",
+      "trap": "Risk tolerance (willingness) ≠ risk capacity (ability) ≠ risk need. When need exceeds capacity, the answer is to revise the goal, NOT to take more risk."
+    },
+    {
+      "no": 19,
+      "title": "Comparison of Products across Categories",
+      "weight": "Module 12 (Ch 18–20): 45 marks",
+      "emoji": "⚖️",
+      "summary": "Side-by-side comparisons on risk, return and liquidity: ELSS vs NPS vs PPF/tax-saver FD, MF vs PMS vs AIF Cat III, MF vs ULIP, active vs index, direct equity vs funds, ETF vs index fund, the four routes to gold, real estate vs REIT vs InvIT, debt options, derivatives vs index funds, company deposits vs debentures, and insurance pairs.",
+      "story": "Gold four ways. Physical gold carries GST plus purity and storage worries. Gold funds and gold ETFs remove purity and storage risk but GST is embedded. An SGB has no GST, pays 2.5% interest, and redemption is tax-free if held from issue to maturity.",
+      "keyPoints": [
+        "All products are compared on Risk, Return and Liquidity.",
+        "ELSS invests at least 80% in equity with a 3-year lock-in and LTCG at 12.5%. NPS Tier I allows up to 75% equity, alternatives up to 5% for some subscribers, and exit rules apply. PPF carries sovereign risk with a 15-year term. A tax-saver FD has a 5-year lock-in and taxable interest. DICGC insures up to ₹5 lakh per depositor per bank.",
+        "Mutual fund: pooled, minimum around ₹1,000, SEBI-capped fees. PMS: an individual demat account, minimum ₹50 lakh, no upfront fees. AIF Cat III: complex or leveraged strategies, minimum ₹1 crore, no uniform fee cap.",
+        "MF vs ULIP: SEBI vs IRDAI caps. ULIP mortality charges are deducted from the fund value, which makes comparison harder. ULIPs have a 5-year lock-in and tax exemption depends on conditions.",
+        "Active funds chase alpha at higher cost. Index funds replicate the benchmark at lower cost.",
+        "An ETF trades all day on the exchange with brokerage and bid-ask costs and is often illiquid in India. An index fund is bought or redeemed with the AMC at end-of-day NAV.",
+        "Real estate is concentrated, lumpy and illiquid. REITs (commercial property) and InvITs (infrastructure) diversify, are professionally managed, and are listed.",
+        "A bank FD has a pre-defined return and DICGC cover of ₹5 lakh. An FMP is not guaranteed and is poorly liquid despite listing. Pre-maturity liquidity in debt instruments is poor.",
+        "Index futures and options horizon is up to 3 months (longer-dated options exist). An option buyer's maximum loss is the premium. Index funds are for the long term.",
+        "Company deposits usually pay slightly more than the same company's debentures. Premature repayment after 6 months has interest recalculated at 1 percentage point below the rate for the period actually run.",
+        "Market-linked retirement products (NPS, ELSS) carry risk that depends on the option chosen. Non-market products (PPF) carry low principal risk. Both are illiquid by design.",
+        "Personal accident insurance covers accidental death and disability only, as top-up cover. Life insurance covers death from covered causes and is essential for earners with dependants."
+      ],
+      "mustRemember": [
+        {
+          "label": "ELSS equity minimum / lock-in",
+          "value": "80% / 3 years"
+        },
+        {
+          "label": "PMS minimum",
+          "value": "₹50 lakh"
+        },
+        {
+          "label": "AIF minimum",
+          "value": "₹1 crore"
+        },
+        {
+          "label": "DICGC cover",
+          "value": "₹5 lakh per depositor per bank"
+        },
+        {
+          "label": "Company deposit premature penalty",
+          "value": "1% below applicable rate (after 6 months)"
+        },
+        {
+          "label": "Option buyer max loss",
+          "value": "Premium paid"
+        }
+      ],
+      "examTip": "Expect 'which statement is correct?' questions comparing two products, e.g. ETF vs index fund costs, PMS vs AIF minimums, SGB GST and tax, MF vs ULIP transparency.",
+      "trap": "ELSS's equity minimum is 80% (not the 65% equity-oriented threshold). An ETF does not always mean a lower total cost, because brokerage and the bid-ask spread add to it."
+    },
+    {
+      "no": 20,
+      "title": "Case Studies",
+      "weight": "Module 12 (Ch 18–20): 45 marks",
+      "emoji": "🧮",
+      "summary": "Excel-driven comprehensive cases: retirement corpus build-up with growing contributions, debt/equity drift, goal funding (education, marriage), returning NRIs (tax residency, foreign accounts, insurance), pension inflation shortfalls, and the sequence-of-returns case (Priya). This is the template for the 6 exam cases.",
+      "story": "Priya retires in 1992 with ₹1 crore at 40:60 equity:debt. The flat 7.8% assumption suggests ₹4.21 lakh a year (a 4.21% withdrawal rate), but actual phase returns of 5.2%, 9.8% and 8.4% drain the corpus by age 85. At 3.5% the same corpus lasts to 89 with ₹64 lakh left.",
+      "keyPoints": [
+        "Set a zero date and decide end-of-year vs beginning-of-year (type 0 or 1) before any PV, FV or PMT.",
+        "Growing contributions: build a year-by-year table and FV each contribution to the target date (FV(rate, years left, , −amount)), then sum.",
+        "Portfolio drift: track debt and equity separately (opening + return + additions) and compute % allocations each year.",
+        "Retirement corpus: FV of today's expenses at inflation to the retirement date, then PV at the real rate for the retirement years (type 1 if paid at the start).",
+        "Education goal: FV each year's cost at education inflation. Money set aside for later years can be discounted at the set-aside rate.",
+        "Blended return = Σ(weight × return). Real return = (1+blended)/(1+inflation) − 1. First-year pension = PMT(real, years, −corpus, , 1).",
+        "Returning NRIs: once resident (ROR), global income such as US rent is taxable in India with a foreign tax credit. Foreign retirement accounts can be taxed on withdrawal under s.158 (with the option exercised through Form 40). Existing foreign life policies can continue, with premiums paid from foreign income or remitted from India.",
+        "Keep a worldwide health policy, and buy an Indian one too to build a claim-free history.",
+        "Leverage: with debt/equity of 1.4 on ₹60,000 of assets, equity is ₹25,000, interest (9% on ₹35,000) is ₹3,150, net return ₹2,850 and ROE 11.4%.",
+        "A single-earner 45-year-old with loans and near-term goals is a moderate risk profile, best suited to mostly growth assets with some income assets. Funds parked briefly for a near-term goal belong in a short-term FD.",
+        "For retirement income, government-scheme options include SCSS (₹30 lakh cap). Deterministic outputs should be stress-tested for sequence risk."
+      ],
+      "mustRemember": [
+        {
+          "label": "Excel types",
+          "value": "type 0 = end, 1 = beginning"
+        },
+        {
+          "label": "Key Excel functions",
+          "value": "PV, FV, PMT, RATE, NPER, XIRR"
+        },
+        {
+          "label": "Case marks",
+          "value": "6 cases × 5 × 2 = 60 marks"
+        },
+        {
+          "label": "Priya case",
+          "value": "4.21% fails at 85; 3.5% survives to 89"
+        }
+      ],
+      "examTip": "Each case is worth 10 marks. Read every sub-question first, build one clean Excel table, and reuse it. Skip a sub-question you cannot solve in under about 4 minutes. Each wrong case answer costs 0.5 marks.",
+      "trap": "Most wrong options in cases come from the wrong timing (type 0 vs 1), using the nominal instead of the real rate, or compounding for the wrong number of years. Re-check the zero date."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Inflation-adjusted (real) rate",
+      "formula": "Real rate = [(1 + return) ÷ (1 + inflation)] − 1",
+      "example": "Return 8%, inflation 6%: 1.08/1.06 − 1 = 1.89% (the workbook rounds to 2 decimals)."
+    },
+    {
+      "name": "Human Life Value (income replacement)",
+      "formula": "HLV = PV(real rate, years to retirement, −annual income available to family, , 1)",
+      "example": "If income growth = investment return, the real rate is 0, so HLV = ₹10 lakh × 27 years = ₹2.70 crore."
+    },
+    {
+      "name": "Needs-based / combination life cover",
+      "formula": "Cover = PV(real rate, years, −annual need, , type) + liabilities + lump-sum goals − existing investments − existing cover",
+      "example": "Adil: PV(1.89%, 30, −3,00,000) = ₹68.25 lakh + ₹30 lakh loan + ₹10 lakh child corpus − ₹50 lakh cover = ₹58.25 lakh additional."
+    },
+    {
+      "name": "Inherent return of insurance-cum-investment",
+      "formula": "RATE(n, −(premium − term premium), 0, maturity value, type)",
+      "example": "Bose: RATE(20, −5,850, , 2,00,000) = 5.3%."
+    },
+    {
+      "name": "Paid-up value",
+      "formula": "Paid-up SA = Sum assured × premiums paid ÷ premiums payable",
+      "example": "₹10 lakh × 10/50 = ₹2 lakh."
+    },
+    {
+      "name": "Deductible + co-pay claim",
+      "formula": "Insurer pays = (Claim − Deductible) × (1 − co-pay %)",
+      "example": "₹50,000 claim, ₹10,000 deductible, 5% co-pay: (50,000 − 10,000) × 95% = ₹38,000."
+    },
+    {
+      "name": "Contribution (indemnity)",
+      "formula": "Insurer's share = Loss × its sum insured ÷ total sum insured",
+      "example": "Two ₹5 lakh policies, ₹30,000 loss: each pays ₹15,000."
+    },
+    {
+      "name": "Gratuity (Code on Social Security)",
+      "formula": "Gratuity = 15 × last drawn monthly wages × completed years (part > 6 months rounds up) ÷ 26",
+      "example": "₹60,000, 20 years 7 months: 15 × 60,000 × 21 ÷ 26 = ₹7.27 lakh (the workbook shows ₹7.26 lakh)."
+    },
+    {
+      "name": "Replacement ratio income",
+      "formula": "Year-1 retirement income = Income at retirement × replacement ratio; then × (1 + inflation) each year",
+      "example": "₹1,00,000 growing 10% for 10 years = ₹2,59,374; × 50% = ₹1,29,687 per month."
+    },
+    {
+      "name": "Future expense at retirement",
+      "formula": "FV = Current expense × (1 + inflation)^years",
+      "example": "₹45,000 × 1.06^20 = ₹1,44,321 per month."
+    },
+    {
+      "name": "Retirement corpus (deterministic)",
+      "formula": "Corpus = PV(real rate, years in retirement, −annual expense at retirement, , type)",
+      "example": "Jaspreet: FV(8%, 20, , −6,00,000) = ₹27.97 lakh; PV(0.93%, 25, −27.97 lakh) ≈ ₹6.2 crore."
+    },
+    {
+      "name": "Retirement corpus (SWR method)",
+      "formula": "Corpus = Annual income needed at retirement ÷ SWR",
+      "example": "₹6,00,000 ÷ 3.70% = ₹1.62 crore."
+    },
+    {
+      "name": "SWR year-2 withdrawal",
+      "formula": "Withdrawal(t+1) = Withdrawal(t) × (1 + inflation), independent of portfolio value",
+      "example": "3.6% of ₹2 crore = ₹7.2 lakh; next year ₹7.2 lakh × 1.05 = ₹7.56 lakh."
+    },
+    {
+      "name": "Monthly saving for a corpus",
+      "formula": "PMT(annual rate/12, months, 0, −target corpus)",
+      "example": "₹1.18 crore at 12% over 25 years ≈ ₹6,280 per month."
+    },
+    {
+      "name": "NPS drawdown SPR",
+      "formula": "SPR = 1 ÷ (drawdown end age − current age); payout per period = SPR ÷ frequency × market value",
+      "example": "Age 60, end age 85: SPR = 1/25 = 4%."
+    },
+    {
+      "name": "NPS SUR equal units",
+      "formula": "Units per period = total units ÷ (drawdown years × payouts per year)",
+      "example": "8,00,000 units ÷ (25 × 12) = 2,666.67 units per month."
+    },
+    {
+      "name": "Indexed cost (land/building bought before 23-7-2024)",
+      "formula": "Indexed cost = Cost × CII(year of sale) ÷ CII(year of purchase or 2001-02, whichever later); tax = lower of 20% indexed or 12.5% unindexed",
+      "example": "₹1 crore (2011-12, CII 184) sold 2025-26 (376): indexed ₹2.04 crore."
+    },
+    {
+      "name": "Grandfathered cost (equity bought ≤ 31-1-2018)",
+      "formula": "Cost = Higher of [actual cost, Lower of (FMV on 31-1-2018, sale price)]",
+      "example": "Cost ₹100, FMV ₹200, sale ₹150: cost = ₹150, LTCG = nil."
+    },
+    {
+      "name": "LTCG tax on listed equity (s.198)",
+      "formula": "Tax = 12.5% × (LTCG − ₹1,25,000)",
+      "example": "LTCG ₹3,75,000: 12.5% × 2,50,000 = ₹31,250 (+ surcharge and cess)."
+    },
+    {
+      "name": "ESOP perquisite",
+      "formula": "(FMV on exercise date − exercise price) × shares",
+      "example": "(₹6,500 − ₹500) × 100 = ₹6,00,000."
+    },
+    {
+      "name": "Segregated portfolio cost",
+      "formula": "Seg. cost = Original cost × NAV of segregated assets ÷ NAV of total portfolio before segregation",
+      "example": "₹15,000 × 2/12 = ₹2,500; main portfolio = ₹12,500."
+    },
+    {
+      "name": "Bonus stripping",
+      "formula": "Ignored loss on originals becomes the cost of the bonus units",
+      "example": "₹11,000 loss on 1,000 originals gives 1,000 bonus shares a cost of ₹11 each."
+    },
+    {
+      "name": "House property income",
+      "formula": "NAV = Annual value − municipal taxes; Income = NAV − 30% of NAV − interest",
+      "example": "Rent ₹2.2 lakh: −66,000 − 5,00,000 = −₹3.46 lakh loss (₹2 lakh set off under the old regime)."
+    },
+    {
+      "name": "Maximum Marginal Rate",
+      "formula": "30% + 37% surcharge (11.1%) + 4% cess on both (1.644%)",
+      "example": "= 42.744%."
+    },
+    {
+      "name": "Distributable Net Income (trust)",
+      "formula": "DNI = Taxable income − Capital gains + Tax exemptions",
+      "example": "₹80,000 − ₹20,000 + ₹20,000 = ₹80,000."
+    },
+    {
+      "name": "Leverage return on equity",
+      "formula": "ROE = (Asset income − interest on borrowed funds) ÷ own funds; borrowed = D/E × own",
+      "example": "₹60,000 at 10%, D/E 1.4: own ₹25,000, interest ₹3,150, net ₹2,850, ROE 11.4%."
+    },
+    {
+      "name": "Blended portfolio return",
+      "formula": "Σ(weight × asset return)",
+      "example": "40% × 12% + 60% × 5% = 7.8%."
+    }
+  ],
+  "numbersToRemember": [
+    {
+      "label": "Exam",
+      "value": "90 MCQ + 6 cases × 5 sub-qs; 150 marks; 3 hrs; 60%; −25%"
+    },
+    {
+      "label": "Module marks",
+      "value": "Ins 25 · Retirement 30 · Tax 20 · Estate 20 · Behavioural 10 · Comprehensive 45"
+    },
+    {
+      "label": "Section 45 incontestability",
+      "value": "3 years"
+    },
+    {
+      "label": "Health moratorium",
+      "value": "5 years"
+    },
+    {
+      "label": "Minimum sum assured",
+      "value": "7× premium (<50) / 5× (>50)"
+    },
+    {
+      "label": "Motor NCB maximum",
+      "value": "50% (5 claim-free years)"
+    },
+    {
+      "label": "EPF employer split",
+      "value": "3.67% EPF + 8.33% EPS + 0.5% EDLI + 0.5% admin"
+    },
+    {
+      "label": "EPF/VPF interest-taxable threshold",
+      "value": "Employee contribution > ₹2.5 lakh p.a."
+    },
+    {
+      "label": "Employer EPF+NPS+SAF perquisite",
+      "value": "> ₹7.5 lakh"
+    },
+    {
+      "label": "PPF",
+      "value": "₹500–₹1.5 lakh; 15 yrs; loan yr 3–6 up to 25%"
+    },
+    {
+      "label": "Gratuity tax-free cap",
+      "value": "₹20 lakh"
+    },
+    {
+      "label": "NPS annuitisation at 60",
+      "value": "≥20% non-govt / 40% govt"
+    },
+    {
+      "label": "NPS small corpus at exit",
+      "value": "≤₹8 lakh full; ₹8–12 lakh: ₹6 lakh lump sum"
+    },
+    {
+      "label": "NPS premature exit",
+      "value": "≥80% annuity; full if ≤₹5 lakh"
+    },
+    {
+      "label": "NPS tax-free lump sum",
+      "value": "60%"
+    },
+    {
+      "label": "UPS assured payout",
+      "value": "50% of avg basic (25 yrs); min ₹10,000 (10 yrs)"
+    },
+    {
+      "label": "APY entry age",
+      "value": "18–40 years"
+    },
+    {
+      "label": "SCSS cap",
+      "value": "₹30 lakh; 5 yrs + 3-yr blocks"
+    },
+    {
+      "label": "POMIS cap",
+      "value": "₹9 lakh single / ₹15 lakh joint"
+    },
+    {
+      "label": "Reverse mortgage",
+      "value": "Max 20 yrs; ≤₹50,000/month; lump sum ≤50%, cap ₹15 lakh"
+    },
+    {
+      "label": "India SWR (30 yrs)",
+      "value": "~3%–3.5%"
+    },
+    {
+      "label": "New-regime nil slab",
+      "value": "Up to ₹4 lakh; 30% above ₹24 lakh"
+    },
+    {
+      "label": "87A rebate (new regime)",
+      "value": "₹60,000 up to ₹12 lakh income"
+    },
+    {
+      "label": "Standard deduction",
+      "value": "₹75,000 new / ₹50,000 old"
+    },
+    {
+      "label": "Deemed resident",
+      "value": "Indian income > ₹15 lakh"
+    },
+    {
+      "label": "LTCG rate / 112A exemption",
+      "value": "12.5% / ₹1.25 lakh"
+    },
+    {
+      "label": "STCG on STT-paid equity",
+      "value": "20%"
+    },
+    {
+      "label": "Capital gain surcharge cap",
+      "value": "15%"
+    },
+    {
+      "label": "CII 2025-26",
+      "value": "376 (base 2001-02 = 100)"
+    },
+    {
+      "label": "Gift exemption limit",
+      "value": "₹50,000 aggregate (non-relatives)"
+    },
+    {
+      "label": "SGB",
+      "value": "2.5% interest; 4 kg limit; 8 yrs; exit after 5th yr"
+    },
+    {
+      "label": "MMR",
+      "value": "42.744%"
+    },
+    {
+      "label": "SEBI nominees (demat/MF)",
+      "value": "Up to 3 from 1 Sep 2026; banks up to 4"
+    },
+    {
+      "label": "Muslim Will limit",
+      "value": "1/3 of net estate"
+    },
+    {
+      "label": "PMS / AIF minimum",
+      "value": "₹50 lakh / ₹1 crore"
+    },
+    {
+      "label": "DICGC insurance",
+      "value": "₹5 lakh per depositor per bank"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Uberrimae Fidei",
+      "meaning": "Utmost good faith: the insured must disclose every material fact before cover is granted."
+    },
+    {
+      "term": "Insurable interest",
+      "meaning": "A lawful financial interest. You are worse off if the insured event happens."
+    },
+    {
+      "term": "Indemnity policy",
+      "meaning": "Pays the actual ascertained loss (health, property, motor)."
+    },
+    {
+      "term": "Defined benefit policy",
+      "meaning": "Pays a pre-fixed sum on the event (life, critical illness, hospital cash)."
+    },
+    {
+      "term": "Subrogation",
+      "meaning": "The insurer steps into the insured's shoes to recover from the at-fault third party after paying the claim."
+    },
+    {
+      "term": "Contribution",
+      "meaning": "Proportionate sharing of an indemnity claim among insurers covering the same risk."
+    },
+    {
+      "term": "Co-pay",
+      "meaning": "A fixed percentage of each admissible claim borne by the insured."
+    },
+    {
+      "term": "Deductible",
+      "meaning": "The first slice of a claim borne by the insured before the insurer pays."
+    },
+    {
+      "term": "Beneficial nominee",
+      "meaning": "Parent, spouse or child nominee under s.39(7) of the Insurance Act who owns the proceeds rather than holding them for the heirs."
+    },
+    {
+      "term": "Human Life Value (HLV)",
+      "meaning": "PV of the future income a person would have provided to dependants."
+    },
+    {
+      "term": "Super top-up",
+      "meaning": "Health cover that pays once the aggregate claims in a year exceed the threshold."
+    },
+    {
+      "term": "Replacement ratio",
+      "meaning": "Retirement income targeted as a % of pre-retirement income."
+    },
+    {
+      "term": "Safe Withdrawal Rate (SWR)",
+      "meaning": "The maximum first-year withdrawal (% of the starting corpus, then inflated each year) that survives with at least 95% probability."
+    },
+    {
+      "term": "Sequence-of-returns risk",
+      "meaning": "The damage done by poor returns early in the withdrawal phase, even when average returns are unchanged."
+    },
+    {
+      "term": "Annuity",
+      "meaning": "A stream of payments for life or a fixed period, bought from an insurer. Deferred = starts after 12+ months. Immediate = within 12 months."
+    },
+    {
+      "term": "Tax Year",
+      "meaning": "The IT Act 2025 concept replacing previous year and assessment year, e.g. 1 Apr 2026 to 31 Mar 2027."
+    },
+    {
+      "term": "RNOR",
+      "meaning": "Resident but Not Ordinarily Resident: taxed on Indian income plus foreign income from a business controlled or profession set up in India."
+    },
+    {
+      "term": "Grandfathering",
+      "meaning": "Protects gains accrued up to 31 Jan 2018 on STT-paid equity by using the FMV on that date as cost."
+    },
+    {
+      "term": "Specified Mutual Fund",
+      "meaning": "A fund with ≥65% in debt or money-market instruments, acquired on or after 1 Apr 2023. Gains are always short-term."
+    },
+    {
+      "term": "Bonus stripping",
+      "meaning": "Buying just before a bonus record date and selling the originals at a loss. That loss is disallowed and added to the bonus units' cost."
+    },
+    {
+      "term": "Pass-through",
+      "meaning": "Income taxed in the investors' hands instead of the vehicle's (REIT rent, Category I/II AIF non-business income)."
+    },
+    {
+      "term": "Intestate",
+      "meaning": "Dying without a valid Will for some or all property."
+    },
+    {
+      "term": "Agnate / Cognate",
+      "meaning": "Agnate: related wholly through males. Cognate: related but not wholly through males."
+    },
+    {
+      "term": "Codicil",
+      "meaning": "An instrument explaining, altering or adding to a Will, executed like a Will."
+    },
+    {
+      "term": "Probate",
+      "meaning": "A copy of the Will certified under the court's seal, granted only to the executor."
+    },
+    {
+      "term": "Letters of administration",
+      "meaning": "A court grant when there is no executor or the executor cannot or will not act."
+    },
+    {
+      "term": "Succession certificate",
+      "meaning": "Authorises collection of specified debts and securities of a deceased person. It does not confer title."
+    },
+    {
+      "term": "Discretionary trust",
+      "meaning": "A trust where the trustees decide the beneficiaries' shares. Taxed at the maximum marginal rate."
+    },
+    {
+      "term": "Mutation",
+      "meaning": "Changing the name in revenue records for fiscal purposes. It is not proof of title."
+    },
+    {
+      "term": "Bounded rationality",
+      "meaning": "Decision-making that 'satisfices' within limits of time, information and ability (Herbert Simon)."
+    },
+    {
+      "term": "Prospect theory",
+      "meaning": "Kahneman–Tversky (1979): outcomes judged against a reference point, with losses weighing more than gains."
+    },
+    {
+      "term": "Mental accounting",
+      "meaning": "Treating money as non-fungible depending on its source or intended use (Thaler)."
+    },
+    {
+      "term": "Risk composure",
+      "meaning": "How consistently an investor sticks to stated risk preferences under real market stress."
+    },
+    {
+      "term": "Strategic asset allocation",
+      "meaning": "A long-term, goal-based mix rebalanced periodically, not changed on market views."
+    }
+  ],
+  "quickRevision": [
+    "Pattern: 90 × 1 + 6 cases × 5 × 2 = 150 marks, 3 hours, pass 60%, −25% for each wrong answer. Excel or Calc is available.",
+    "Contribution and subrogation apply only to indemnity policies. Defined-benefit policies all pay.",
+    "Apply the deductible first, then the co-pay: (Claim − Deductible) × (1 − co-pay).",
+    "Section 45: a life policy is incontestable after 3 years. Health: no contest after a 5-year moratorium except fraud.",
+    "Beneficial nominee (parent, spouse, child) owns life-insurance money. Other nominees are trustees for the heirs.",
+    "MWPA policy: wife and/or children only, cannot be changed, survives divorce, safe from creditors.",
+    "HLV ≥ needs-based cover. A higher income growth rate raises HLV.",
+    "Top-up threshold is per claim, super top-up threshold is aggregate.",
+    "Car NCB of up to 50% follows the owner, not the car. Third-party motor cover is compulsory.",
+    "EPF employer 12% = 3.67% EPF + 8.33% EPS + 0.5% EDLI + 0.5% admin. Withdrawal is tax-free after 5 years' continuous service.",
+    "Gratuity = 15 × wage × years ÷ 26. Tax-free up to ₹20 lakh.",
+    "PPF: ₹500–₹1.5 lakh, 15 years, loan from FY 3 to FY 6 at 25%, partial withdrawal after 5 FYs, extensions in 5-year blocks.",
+    "NPS at 60: at least 20% annuity (40% for government). ≤₹8 lakh can be taken in full. 60% lump sum is tax-free. Premature exit needs 80% annuity.",
+    "NPS partial withdrawal: after 3 years, 25% of own contribution, up to 4 times before 60.",
+    "UPS: 50% of the average basic after 25 years, ₹10,000 minimum after 10 years, family payout 60%.",
+    "Annuity without return of purchase price pays the most, with return of purchase price the least.",
+    "SCSS ₹30 lakh, POMIS ₹9 lakh / ₹15 lakh, reverse mortgage up to 20 years with receipts tax-free.",
+    "SWR is a first-year % that rises with inflation regardless of market falls. India ≈ 3–3.5%. 10–30% equity gives the highest SWR.",
+    "Corpus = annual need ÷ SWR. A longer horizon gives a lower SWR and a bigger corpus.",
+    "IT Act 2025 from FY 2026-27: 'Tax Year'. s.123 = 80C, s.156 = 87A, s.202 = new regime, s.196 = 111A, s.198 = 112A, s.76 = 50AA.",
+    "New regime: nil to ₹4 lakh, then 5% steps, 30% above ₹24 lakh. Rebate up to ₹60,000 if income ≤ ₹12 lakh.",
+    "NOR: non-resident 9 of 10 years OR ≤729 days in 7 years. A deemed resident is always RNOR.",
+    "LTCL only against LTCG. STCL against any capital gain. 8-year carry forward. Speculative loss 4 years.",
+    "LTCG 12.5% everywhere. STT equity: STCG 20%, LTCG above ₹1.25 lakh. Surcharge on capital gains is capped at 15%.",
+    "Always short-term: MLDs, debt MFs bought on or after 1-4-2023, unlisted bonds or debentures, depreciable assets.",
+    "Indexation survives only for land or buildings bought before 23-7-2024 (lower of 20% indexed or 12.5%).",
+    "Grandfathering: cost = max(actual, min(FMV on 31-1-2018, sale price)).",
+    "No deductions from dividends from Tax Year 2026-27. Buyback is now taxed as capital gains.",
+    "Non-relative gifts above ₹50,000 in aggregate are fully taxable. Nephews, nieces and cousins are NOT relatives.",
+    "ESOP: perquisite uses FMV on exercise. Holding period starts at allotment.",
+    "SGB redemption is tax-free only for an original subscriber held to maturity.",
+    "REIT rent passes through to unit-holders. InvIT rent is taxed at the trust. AIF Cat III has no pass-through.",
+    "Hindu intestacy: Class I heirs take together. The father is Class II. Uterine siblings are excluded.",
+    "Muslim: widow 1/4 or 1/8, Will limited to 1/3, no birth-right, an oral Will is valid.",
+    "Will registration is optional, needs no stamp duty, and can be revoked any time. Marriage does not revoke a Hindu Will.",
+    "Probate goes only to the executor. s.213 compulsory probate was omitted in 2025.",
+    "SEBI allows up to 3 nominees (from 1 Sep 2026). Banks allow up to 4.",
+    "Discretionary trust is taxed at MMR (42.744%). A revocable trust is taxed in the settlor's hands.",
+    "Emotional biases: loss aversion, overconfidence, endowment, status quo, regret. Cognitive: mental accounting, framing, anchoring.",
+    "SEBI IA Regulation 16: objective risk profile, communicated and consented to BEFORE advice, including free trials."
+  ],
+  "studyPlan": {
+    "totalDays": 21,
+    "hoursPerDay": 2,
+    "phases": [
+      {
+        "days": "1-3",
+        "focus": "Module 7 – Insurance (Ch 1–3)",
+        "tasks": [
+          "Read the notes for Ch 1–3 and draw the indemnity vs benefit table",
+          "Solve deductible/co-pay, contribution, paid-up value and top-up vs super top-up examples by hand",
+          "Do HLV and needs-based cover in Excel (PV with type 1)"
+        ]
+      },
+      {
+        "days": "4-7",
+        "focus": "Module 8 – Retirement (Ch 4–6)",
+        "tasks": [
+          "Make a one-page grid of EPF/PPF/NPS/gratuity/SCSS/POMIS limits",
+          "Memorise the NPS exit slabs, drawdown, UPS and Vatsalya rules",
+          "Excel: FV of expenses, PV corpus, PMT savings, SWR corpus; redo all 16 ch-6 practice cases",
+          "Take Mock 1"
+        ]
+      },
+      {
+        "days": "8-11",
+        "focus": "Module 9 – Taxation (Ch 7–13)",
+        "tasks": [
+          "Map the old ↔ new section numbers",
+          "Residential status, set-off matrix, house property computations",
+          "Capital gains: holding periods, grandfathering, indexation parallel test, exemptions",
+          "Debt, equity and other products, special cases. Take Mock 2"
+        ]
+      },
+      {
+        "days": "12-14",
+        "focus": "Module 10 – Estate planning (Ch 14–15)",
+        "tasks": [
+          "Class I and II heirs plus share-distribution drills",
+          "Wills, probate, succession certificate, nomination, trusts, PoA flashcards",
+          "Take Mock 3"
+        ]
+      },
+      {
+        "days": "15-16",
+        "focus": "Module 11 – Behavioural finance (Ch 16–17)",
+        "tasks": [
+          "Make a bias-classification table (emotional vs cognitive) with an example each",
+          "Practise adviser-response scenarios. Take Mock 4"
+        ]
+      },
+      {
+        "days": "17-19",
+        "focus": "Module 12 – Comprehensive advice (Ch 18–20), 45 marks",
+        "tasks": [
+          "Regulation 16 checklist; tolerance vs capacity vs need; strategic, tactical and dynamic allocation",
+          "Product comparison tables (ELSS/NPS/PPF, MF/PMS/AIF, gold, REIT/InvIT)",
+          "Rebuild the five Ch-20 cases in Excel from scratch. Take Mock 5"
+        ]
+      },
+      {
+        "days": "20-21",
+        "focus": "Tough mocks and revision",
+        "tasks": [
+          "Mocks 6 and 7 under timed conditions, then analyse every error",
+          "Revise the Numbers to Remember and the Quick Revision list",
+          "Run the full 120-item simulator once"
+        ]
+      }
+    ]
+  },
+  "examStrategy": [
+    "Time split: about 70 minutes for the 90 MCQs (45 seconds each), about 90 minutes for the 6 cases (15 minutes each), and 20 minutes for review and Excel checks.",
+    "Do the MCQs first for quick marks, but don't let them eat into case time: the cases carry 40% of the marks.",
+    "In each case, read all 5 sub-questions first, set the zero date, decide type 0 or 1, and build one Excel table you can reuse.",
+    "Negative marking: −0.25 per wrong MCQ and −0.5 per wrong case answer. Answer when you can eliminate two options, and skip pure guesses.",
+    "Use the real rate (1+r)/(1+i) − 1 for every inflation-linked PV, and round as the question implies (the workbook uses 2 decimals).",
+    "Module 12 (45 marks) plus retirement (30) and insurance (25) make up two-thirds of the paper, so master them first.",
+    "For tax questions, identify the asset and holding period first, then the rate. Watch for the 2026 changes (dividend deductions, buyback, SGB, Tax Year).",
+    "For estate questions, list the surviving heirs, keep only the highest class present, and count shares.",
+    "In risk-profiling scenarios, prefer the answer that revises the goal or reduces risk when need exceeds capacity, and choose disciplined, rules-based adviser actions."
+  ]
+}

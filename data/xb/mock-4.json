@@ -1,0 +1,583 @@
+{
+  "id": "mock-4",
+  "title": "Mock 4 · Estate & Behaviour",
+  "level": "easy",
+  "blurb": "Succession, Wills, trusts, behavioural biases and product comparisons, with a short Hindu intestate succession caselet.",
+  "questions": [
+    {
+      "id": "xb-M4-01",
+      "chapter": 14,
+      "difficulty": "easy",
+      "q": "Among how many heirs will Mr. Prakash's estate be divided?",
+      "options": [
+        "5 – including the father",
+        "3 – the widow and the two daughters",
+        "4 – the widow, the two daughters and the mother",
+        "2 – the widow and the mother"
+      ],
+      "answer": 2,
+      "marks": 2,
+      "explanation": "Class I heirs take simultaneously and exclude all others. Here the Class I heirs are the widow, the two daughters and the mother. The father is a Class II heir.",
+      "hints": [
+        "Incorrect. The father is Class II and is excluded when Class I heirs exist.",
+        "Incorrect. The mother is also a Class I heir.",
+        "Correct. The widow, both daughters and the mother are all Class I heirs.",
+        "Incorrect. Daughters are Class I heirs with full shares."
+      ],
+      "numeric": false,
+      "case": "Mr. Prakash, a Hindu, died intestate (without a Will). He left self-acquired property worth ₹80 lakh after settling all debts and expenses. He is survived by his widow, two daughters, his mother and his father. He had no sons and none of his children died before him. The family asks their investment adviser how the Hindu Succession Act, 1956 will distribute his estate and where each relative stands."
+    },
+    {
+      "id": "xb-M4-02",
+      "chapter": 14,
+      "difficulty": "easy",
+      "q": "What is each daughter's share of the ₹80 lakh estate?",
+      "options": [
+        "₹20 lakh",
+        "₹16 lakh",
+        "₹26.67 lakh",
+        "₹40 lakh"
+      ],
+      "answer": 0,
+      "marks": 2,
+      "explanation": "Under s.10, the widow takes one share and each daughter and the mother take one share each. That is 4 equal shares, so ₹80 lakh ÷ 4 = ₹20 lakh each.",
+      "hints": [
+        "Correct. ₹80 lakh ÷ 4 shares = ₹20 lakh.",
+        "Incorrect. Dividing by 5 wrongly includes the father.",
+        "Incorrect. Dividing by 3 wrongly excludes the mother.",
+        "Incorrect. Daughters do not share half the estate between themselves."
+      ],
+      "numeric": true,
+      "case": "Mr. Prakash, a Hindu, died intestate (without a Will). He left self-acquired property worth ₹80 lakh after settling all debts and expenses. He is survived by his widow, two daughters, his mother and his father. He had no sons and none of his children died before him. The family asks their investment adviser how the Hindu Succession Act, 1956 will distribute his estate and where each relative stands."
+    },
+    {
+      "id": "xb-M4-03",
+      "chapter": 14,
+      "difficulty": "easy",
+      "q": "What is the father's position in this succession?",
+      "options": [
+        "He takes a share equal to the mother's",
+        "He takes half of the mother's share",
+        "He takes the entire estate as head of the family",
+        "He is a Class II heir and gets nothing because Class I heirs exist"
+      ],
+      "answer": 3,
+      "marks": 2,
+      "explanation": "The workbook stresses that the father is not a Class I heir. Class II (where the father is entry I) inherits only if there is no Class I heir.",
+      "hints": [
+        "Incorrect. Only the mother is a Class I heir.",
+        "Incorrect. There is no such rule.",
+        "Incorrect. Self-acquired property devolves under the Act, not to a family head.",
+        "Correct. Class I heirs exclude the father."
+      ],
+      "numeric": false,
+      "case": "Mr. Prakash, a Hindu, died intestate (without a Will). He left self-acquired property worth ₹80 lakh after settling all debts and expenses. He is survived by his widow, two daughters, his mother and his father. He had no sons and none of his children died before him. The family asks their investment adviser how the Hindu Succession Act, 1956 will distribute his estate and where each relative stands."
+    },
+    {
+      "id": "xb-M4-04",
+      "chapter": 1,
+      "difficulty": "medium",
+      "q": "A health claim is assessed at ₹60,000. The policy has a deductible of ₹5,000 and a co-pay of 10%. How much will the insurer pay?",
+      "options": [
+        "₹49,000",
+        "₹54,000",
+        "₹49,500",
+        "₹55,000"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "The deductible is applied first: 60,000 − 5,000 = 55,000. Then the co-pay of 10% (₹5,500) is borne by the insured. The insurer pays ₹49,500.",
+      "hints": [
+        "Incorrect. This applies the co-pay to the full ₹60,000 before the deductible.",
+        "Incorrect. This ignores the deductible.",
+        "Correct. (60,000 − 5,000) × 90% = ₹49,500.",
+        "Incorrect. This ignores the co-pay."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M4-05",
+      "chapter": 2,
+      "difficulty": "easy",
+      "q": "How does the insurance requirement calculated by the Human Life Value method compare with the needs-based method for the same person?",
+      "options": [
+        "HLV will always be lower",
+        "HLV will always be higher than or equal to the needs-based requirement",
+        "Both always give exactly the same figure",
+        "They cannot be compared"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "The workbook concludes that HLV is always higher than or equal to the needs-based requirement, because overall expenditure cannot exceed income.",
+      "hints": [
+        "Incorrect. It is the reverse.",
+        "Correct. Expenditure cannot exceed income, so HLV is greater than or equal to the needs-based figure.",
+        "Incorrect. They differ in what they measure.",
+        "Incorrect. The workbook explicitly compares them."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-06",
+      "chapter": 2,
+      "difficulty": "easy",
+      "q": "In a critical illness rider on an 'accelerated sum insured' basis:",
+      "options": [
+        "The critical illness benefit is paid in addition to the full death benefit",
+        "The life cover is reduced by the amount paid out under the critical illness rider",
+        "The benefit is paid only on death",
+        "No survival period applies after diagnosis"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "An accelerated CI rider pays on diagnosis (with 30 days' survival) and reduces the life cover by the amount paid. It is cheaper than a rider paying independently of the death claim.",
+      "hints": [
+        "Incorrect. That describes a standalone or independent rider.",
+        "Correct. Accelerated means the CI payment comes out of the life cover.",
+        "Incorrect. CI pays on diagnosis, not on death.",
+        "Incorrect. A survival period of 30 days applies."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-07",
+      "chapter": 3,
+      "difficulty": "easy",
+      "q": "Which type of policy normally provides cover only for expenses incurred in India?",
+      "options": [
+        "A term life insurance policy",
+        "A health insurance policy reimbursing hospitalisation expenses",
+        "A critical illness policy",
+        "An accidental death policy"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Indemnity policies like health insurance need the loss ascertained, which insurers can do in India but find hard abroad. So they normally cover India only, though some plans now add global cover. Defined-benefit policies pay wherever the event occurs.",
+      "hints": [
+        "Incorrect. Life cover pays wherever death occurs.",
+        "Correct. Indemnity health cover is normally India-only.",
+        "Incorrect. Critical illness is defined benefit and pays globally.",
+        "Incorrect. Accident policies pay wherever the event occurs."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-08",
+      "chapter": 4,
+      "difficulty": "easy",
+      "q": "At an inflation rate of 6% p.a., an item costing ₹100 today will cost approximately how much in 20 years?",
+      "options": [
+        "₹220",
+        "₹321",
+        "₹179",
+        "₹574"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "₹100 × (1.06)^20 ≈ ₹321. The workbook notes ₹179 in 10 years, ₹321 in 20 years and ₹574 in 30 years.",
+      "hints": [
+        "Incorrect. This is simple (not compound) inflation.",
+        "Correct. 100 × 1.06^20 ≈ 321.",
+        "Incorrect. ₹179 is the 10-year figure.",
+        "Incorrect. ₹574 is the 30-year figure."
+      ],
+      "numeric": true,
+      "case": null
+    },
+    {
+      "id": "xb-M4-09",
+      "chapter": 5,
+      "difficulty": "easy",
+      "q": "Under current EPFO rules, how can a member who becomes unemployed withdraw the EPF corpus?",
+      "options": [
+        "75% after 1 month of unemployment and the remaining 25% after 2 months",
+        "100% immediately on leaving the job",
+        "50% after 3 months and 50% after 6 months",
+        "Only at age 58, regardless of unemployment"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "EPFO allows 75% of the corpus to be withdrawn after 1 month of unemployment and the remaining 25% if unemployment continues for 2 months or more.",
+      "hints": [
+        "Correct. The rule is 75% after 1 month and 25% after 2 months.",
+        "Incorrect. Immediate full withdrawal is not allowed.",
+        "Incorrect. These are not the EPFO timelines.",
+        "Incorrect. Unemployment withdrawals are allowed before 58."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-10",
+      "chapter": 5,
+      "difficulty": "easy",
+      "q": "Who is eligible to join the Atal Pension Yojana (APY)?",
+      "options": [
+        "Any citizen aged 18–60",
+        "Any income-tax payer in the unorganised sector",
+        "An Indian citizen with a bank account, aged 18–40, who is not and has never been an income-tax payer",
+        "Only government employees aged 18–40"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "APY is for citizens in the unorganised sector aged 18 to 40 at joining, with a bank account. From 1 October 2022, anyone who is or has been an income-tax payer cannot enrol.",
+      "hints": [
+        "Incorrect. The upper entry age is 40.",
+        "Incorrect. Income-tax payers are barred from 1 October 2022.",
+        "Correct. Ages 18–40 and never a taxpayer.",
+        "Incorrect. APY targets the unorganised sector, not government staff."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-11",
+      "chapter": 5,
+      "difficulty": "easy",
+      "q": "Under SEBI's 2026 framework for mutual fund Life Cycle Funds, what exit load applies if an investor exits within 1 year?",
+      "options": [
+        "1%",
+        "2%",
+        "Nil",
+        "3%"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Life cycle funds have structured exit loads: 3% within 1 year, 2% within the first 2 years and 1% within the first 3 years.",
+      "hints": [
+        "Incorrect. 1% applies within the first 3 years.",
+        "Incorrect. 2% applies within the first 2 years.",
+        "Incorrect. Exit loads are deliberately imposed because these are long-term funds.",
+        "Correct. Exit within 1 year carries 3%."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-12",
+      "chapter": 6,
+      "difficulty": "medium",
+      "q": "According to the workbook, why do very high equity allocations (80–100%) produce LOWER safe withdrawal rates?",
+      "options": [
+        "Equity always earns lower average returns than debt",
+        "Equity gains are taxed at higher rates than debt",
+        "Equity investments cannot be withdrawn during retirement",
+        "Sharp market falls early in retirement force units to be sold at depressed prices, permanently impairing the corpus"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "This is sequence-of-returns risk. High-equity portfolios are volatile, and early crashes force selling at low prices, widening outcomes and raising the chance of early exhaustion. The workbook finds 10–30% equity gives the highest SWRs.",
+      "hints": [
+        "Incorrect. Equity may have higher averages, but volatility is the problem.",
+        "Incorrect. Tax is not the reason given.",
+        "Incorrect. Equity can be redeemed. That is exactly what hurts in a crash.",
+        "Correct. Volatility combined with early withdrawals means sequence risk."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-13",
+      "chapter": 7,
+      "difficulty": "medium",
+      "q": "An Indian citizen returns after working abroad for many years. He is resident this year under the 182-day test, but spent only 600 days in India during the 7 preceding years. What is his residential status?",
+      "options": [
+        "Resident and Ordinarily Resident",
+        "Resident but Not Ordinarily Resident",
+        "Non-resident",
+        "Deemed resident only"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "A resident is NOR if he was non-resident in 9 of the 10 preceding years OR stayed 729 days or less in the 7 preceding years. 600 days satisfies the second test.",
+      "hints": [
+        "Incorrect. He fails the ROR test because of his short stay in the last 7 years.",
+        "Correct. 729 days or less in 7 years makes him NOR.",
+        "Incorrect. He satisfies the 182-day test, so he is resident.",
+        "Incorrect. The deemed-resident rule applies to citizens NOT taxable elsewhere with Indian income above ₹15 lakh."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-14",
+      "chapter": 8,
+      "difficulty": "easy",
+      "q": "To claim exemption under section 85 of the Income-tax Act, 2025 (old 54EC), long-term capital gains on land or building must be invested in specified bonds:",
+      "options": [
+        "Within 2 years of transfer, up to ₹10 crore",
+        "Within 3 years of transfer, without limit",
+        "Within 6 months of transfer, up to ₹50 lakh",
+        "Within 1 year before transfer, up to ₹1 crore"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Section 85 (54EC) allows exemption if the LTCG is invested in NHAI/REC bonds within 6 months of transfer, capped at ₹50 lakh.",
+      "hints": [
+        "Incorrect. 2 years and ₹10 crore relate to s.82 (house purchase).",
+        "Incorrect. 3 years relates to construction under s.82/s.86.",
+        "Correct. The window is 6 months and the cap is ₹50 lakh.",
+        "Incorrect. This is not the s.85 condition."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-15",
+      "chapter": 9,
+      "difficulty": "easy",
+      "q": "Riya receives ₹1,00,000 as gifts from her college friends on the occasion of her marriage. How is this treated?",
+      "options": [
+        "Fully taxable, since friends are not relatives",
+        "Not taxable, because gifts received on the occasion of marriage are excluded",
+        "Taxable on ₹50,000, the excess over the limit",
+        "Taxable as capital gains"
+      ],
+      "answer": 1,
+      "marks": 1,
+      "explanation": "Sums received on the occasion of the individual's marriage are excluded from the gift-taxation provision, whoever the donor is.",
+      "hints": [
+        "Incorrect. The donor's relationship does not matter for marriage gifts.",
+        "Correct. The marriage occasion exemption applies.",
+        "Incorrect. There is no excess-based taxation, and in any case the marriage exemption applies.",
+        "Incorrect. Gifts are not capital gains."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-16",
+      "chapter": 10,
+      "difficulty": "easy",
+      "q": "How is the gain on redemption of a Market Linked Debenture (MLD) taxed under section 76 of the Income-tax Act, 2025?",
+      "options": [
+        "As LTCG at 12.5% if held for more than 12 months",
+        "As LTCG at 20% with indexation if held for more than 36 months",
+        "It is exempt if the MLD is principal-protected",
+        "Always as short-term capital gain at normal slab rates, irrespective of holding period"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Under s.76 (old 50AA), gains on transfer, redemption or maturity of MLDs are deemed short-term regardless of holding period and taxed at normal rates. No cost of improvement is allowed.",
+      "hints": [
+        "Incorrect. The holding period gives no long-term benefit for MLDs.",
+        "Incorrect. Indexation does not apply.",
+        "Incorrect. Principal protection gives no exemption.",
+        "Correct. MLD gains are always STCG at slab."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-17",
+      "chapter": 12,
+      "difficulty": "easy",
+      "q": "Rental income from property owned directly by the trust is taxable in the hands of unit-holders for a REIT, but for an InvIT it is:",
+      "options": [
+        "Taxable in the hands of the InvIT itself",
+        "Exempt at both the InvIT and unit-holder level",
+        "Taxable in the hands of unit-holders, just like a REIT",
+        "Taxable as capital gains for unit-holders"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "REITs get pass-through status for rental income. InvITs do not, so rental income is taxed at the InvIT level as business income, and the unit-holder is exempt on that distribution.",
+      "hints": [
+        "Correct. InvITs have no rental pass-through.",
+        "Incorrect. It is taxable at the InvIT.",
+        "Incorrect. The pass-through for rent is available only to REITs.",
+        "Incorrect. Rental income is not capital gains."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-18",
+      "chapter": 13,
+      "difficulty": "easy",
+      "q": "Under SEBI's Securities Lending and Borrowing scheme, how is a lender's lending of shares and the fee earned treated?",
+      "options": [
+        "Lending is a transfer and attracts capital gains tax",
+        "Both the lending and the fee are fully exempt",
+        "Lending is not a transfer, and the fee is taxable as business income or income from other sources",
+        "The fee is taxed as long-term capital gains"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "Lending under the SEBI scheme is not a 'transfer' (s.70(1)(zg)) even if different distinctive numbers are returned. The lending fee is taxed as PGBP or Other Sources, and related expenses are deductible.",
+      "hints": [
+        "Incorrect. SLB lending is specifically excluded from 'transfer'.",
+        "Incorrect. The fee is taxable.",
+        "Correct. No transfer occurs, and the fee is ordinary income.",
+        "Incorrect. The fee is not a capital gain."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-19",
+      "chapter": 15,
+      "difficulty": "easy",
+      "q": "Which of the following events automatically terminates a power of attorney?",
+      "options": [
+        "The principal travelling abroad",
+        "The agent changing his residence",
+        "The principal registering a Will",
+        "The death of the principal"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Under s.201 of the Indian Contract Act, agency ends on revocation by the principal, insolvency, renunciation by the agent, completion of the business, or the death of either party.",
+      "hints": [
+        "Incorrect. Travel does not end the agency. NRIs often use PoAs precisely for this.",
+        "Incorrect. A change of residence is not a ground.",
+        "Incorrect. A Will operates only after death and does not by itself revoke a PoA.",
+        "Correct. Death of either the principal or the agent ends a PoA."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-20",
+      "chapter": 15,
+      "difficulty": "easy",
+      "q": "Income of a private discretionary trust, where the beneficiaries' shares are indeterminate, is generally taxed at:",
+      "options": [
+        "The slab rates of the beneficiaries",
+        "A flat 10%",
+        "Nil, as trusts are pass-through entities",
+        "The maximum marginal rate"
+      ],
+      "answer": 3,
+      "marks": 1,
+      "explanation": "Under s.307(1) of the IT Act 2025, where income is not specifically receivable by a person or the shares are indeterminate, it is taxed at the maximum marginal rate, subject to limited exceptions in s.307(2).",
+      "hints": [
+        "Incorrect. Slab rates via a representative assessee apply to determinate trusts.",
+        "Incorrect. No such flat rate exists.",
+        "Incorrect. A private trust is not universally pass-through.",
+        "Correct. Indeterminate shares mean MMR."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-21",
+      "chapter": 16,
+      "difficulty": "easy",
+      "q": "People prefer beef described as '95% lean' over the same beef described as '5% fat'. This is an example of:",
+      "options": [
+        "Framing bias",
+        "Anchoring bias",
+        "Endowment bias",
+        "Herd behaviour"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Framing is an information-processing bias where the choice depends on how information is presented. Attribute framing (95% lean vs 5% fat) is the workbook's example.",
+      "hints": [
+        "Correct. The same fact presented differently is framing.",
+        "Incorrect. Anchoring relies on an initial reference value.",
+        "Incorrect. Endowment is valuing what you own more highly.",
+        "Incorrect. Herding is following the crowd."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-22",
+      "chapter": 17,
+      "difficulty": "easy",
+      "q": "A client buys endowment policies every March only to save tax. Per the workbook, what is the right advice?",
+      "options": [
+        "Buy adequate pure term insurance and make tax-saving investments such as PPF separately",
+        "Continue, since endowment policies give the best tax-adjusted returns",
+        "Stop all insurance as it wastes money",
+        "Buy more endowment policies to raise the tax deduction"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Buying insurance purely for tax leads to inadequate or wrong cover. The workbook notes that a term policy plus PPF for the same outlay will invariably beat an endowment product.",
+      "hints": [
+        "Correct. Separate insurance (term) from investment (PPF and similar).",
+        "Incorrect. Endowment returns are poor compared with term plus an investment.",
+        "Incorrect. Adequate insurance is the first step of a financial plan.",
+        "Incorrect. This deepens the bias."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-23",
+      "chapter": 18,
+      "difficulty": "easy",
+      "q": "Which type of asset allocation uses predefined models, with triggers based on asset class valuations or portfolio performance, removing the subjective element?",
+      "options": [
+        "Dynamic asset allocation",
+        "Strategic asset allocation",
+        "Tactical asset allocation",
+        "Concentrated allocation"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "Dynamic asset allocation uses pre-defined models, with re-allocation triggered by valuations or performance, removing subjectivity.",
+      "hints": [
+        "Correct. Model- and trigger-based allocation is dynamic.",
+        "Incorrect. Strategic allocation is long-term and goal-aligned.",
+        "Incorrect. Tactical allocation is a discretionary market call.",
+        "Incorrect. This is not an allocation approach described in the workbook."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-24",
+      "chapter": 19,
+      "difficulty": "easy",
+      "q": "Compared with Gold ETFs and gold funds, which feature is unique to Sovereign Gold Bonds?",
+      "options": [
+        "No GST cost, plus interest of 2.5% p.a. payable semi-annually",
+        "Can be exchanged for physical gold at a nominal cost",
+        "Can be bought at any time at the prevailing price",
+        "Purity concerns remain for the investor"
+      ],
+      "answer": 0,
+      "marks": 1,
+      "explanation": "SGBs involve no physical gold, so there is no GST or purity concern, and they pay 2.5% p.a. interest. Gold ETFs and funds embed GST and pay no income.",
+      "hints": [
+        "Correct. No GST and 2.5% interest are unique to SGBs.",
+        "Incorrect. SGBs cannot be exchanged for physical gold.",
+        "Incorrect. SGBs are priced per issue (based on the last 3 days' prices). Continuous buying at the prevailing price applies to physical gold and ETFs.",
+        "Incorrect. SGBs have no purity issues."
+      ],
+      "numeric": false,
+      "case": null
+    },
+    {
+      "id": "xb-M4-25",
+      "chapter": 20,
+      "difficulty": "easy",
+      "q": "Mr. Gupta, an Indian citizen who returned after 20 years in the USA, becomes Resident and Ordinarily Resident. What is the Indian tax position on rent from his US house?",
+      "options": [
+        "Not taxable in India at all",
+        "Taxable in India with no credit for US tax",
+        "Taxable in India, with credit for tax paid in the USA",
+        "Taxable only if remitted to India"
+      ],
+      "answer": 2,
+      "marks": 1,
+      "explanation": "An ROR is taxed on worldwide income. Under the DTAA, the residence country (India) gives credit for the tax paid in the source country (USA).",
+      "hints": [
+        "Incorrect. An ROR is taxed on global income.",
+        "Incorrect. The DTAA provides relief through a tax credit.",
+        "Correct. Worldwide income is taxed, with a foreign tax credit.",
+        "Incorrect. Remittance is irrelevant for an ROR."
+      ],
+      "numeric": false,
+      "case": null
+    }
+  ]
+}
