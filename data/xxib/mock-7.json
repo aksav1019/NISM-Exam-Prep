@@ -1,0 +1,698 @@
+{
+ "id": "mock-7",
+ "title": "Mock 7 · Tough: Full Dress Rehearsal",
+ "level": "tough",
+ "blurb": "Exam-grade traps: attribution, VaR, a PMS compliance scenario and close distractors.",
+ "questions": [
+  {
+   "id": "xxib-M7-01",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "Which statement about speculation is consistent with the workbook?",
+   "options": [
+    "Any transaction with a holding period under one year is speculation",
+    "Speculation involves taking risk not commensurate with return, with minimal research on the true value of the asset",
+    "Speculation always involves derivatives",
+    "Long-term ownership of assets is always investment, whatever the analysis"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 1.2: describing short-term activity as speculation is not appropriate; speculation is risk-taking not commensurate with return, with minimal research.",
+   "hints": [
+    "The workbook says time-horizon labels alone are not appropriate.",
+    "Correct.",
+    "Not a defining feature.",
+    "The decision process matters, not just holding period."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-02",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "A firm's cost of equity is 14%, pre-tax cost of debt 10%, tax rate 25%, and debt is 40% of capital. Its WACC is:",
+   "options": [
+    "12.4%",
+    "12.0%",
+    "11.4%",
+    "10.6%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "WACC = Ke x We + Kd(1 - t) x Wd = 8.4% + 3.0% = 11.4% (Section 3.4).",
+   "hints": [
+    "Ignores the tax shield on debt.",
+    "Simple average of 14 and 10.",
+    "0.6 x 14 + 0.4 x 10 x 0.75 = 8.4 + 3.0 = 11.4%.",
+    "Swaps the weights."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-03",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "A bond portfolio has a modified duration of 7. If yields fall by 50 basis points, the approximate price change is:",
+   "options": [
+    "-3.5%",
+    "+7.0%",
+    "+0.35%",
+    "+3.5%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "%ΔP ≈ -MD x Δy = -7 x (-0.005) = +3.5% (convexity would make the actual rise slightly larger).",
+   "hints": [
+    "Prices rise when yields fall.",
+    "Uses a 1% change.",
+    "Decimal error.",
+    "-7 x (-0.005) = +3.5%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-04",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "Which item is NOT among the details the workbook says the PMS agreement should contain on derivatives usage?",
+   "options": [
+    "A guarantee that derivative positions will not make losses",
+    "Quantum of exposure in absolute terms and as a percentage of other investments",
+    "Purpose of using derivatives and type of positions",
+    "Prior permission from investors for changes in the manner or terms of derivative usage"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 5.7: agreement covers quantum of exposure, instruments, purpose, positions, valuation/liquidation terms and prior permission for changes.",
+   "hints": [
+    "Correct: no such guarantee can be given.",
+    "Required detail.",
+    "Required detail.",
+    "Required detail."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-05",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "In an AMC, to whom must the compliance officer report any issue of non-compliance directly and immediately?",
+   "options": [
+    "The sponsor",
+    "The fund manager",
+    "The trustees",
+    "The registrar and transfer agent"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 6.4: the compliance officer reports directly to the AMC head and must report non-compliance immediately to the trustees.",
+   "hints": [
+    "Not as per the workbook.",
+    "The fund manager is a business function.",
+    "Correct.",
+    "The RTA keeps records."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-06",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "Which of the following statements on audit of a portfolio manager is NOT correct?",
+   "options": [
+    "Portfolio accounts are audited annually by an independent CA and a copy of the certificate is given to the client",
+    "The audit certificate, if specified, is submitted to SEBI within six months of the close of the accounting period",
+    "Firm-level performance audit covers all discretionary and non-discretionary portfolios, with terms of reference set in consultation with APMI",
+    "A client cannot appoint his own chartered accountant to audit the PM's books relating to his transactions"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 7.6.6: the client may appoint a chartered accountant to audit the PM's books relating to his transactions; the PM shall co-operate.",
+   "hints": [
+    "A correct statement.",
+    "A correct statement.",
+    "A correct statement.",
+    "Correct: the client MAY appoint a CA and the PM must co-operate."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-07",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "A client submits her KYC identifier to a PMS. The PMS can still ask her to resubmit KYC documents in which situation?",
+   "options": [
+    "When her current address must be verified or there has been a change in her information in the CKYC records",
+    "Whenever the PMS prefers fresh paperwork",
+    "Only if she is above 60 years old",
+    "Never; the identifier always suffices"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 8.3: documents need not be resubmitted unless information has changed, current address must be verified, or the entity needs it for identity/address verification, EDD or risk profile.",
+   "hints": [
+    "Correct (also for enhanced due diligence or risk profiling).",
+    "Not a permitted reason.",
+    "Not a condition.",
+    "Exceptions exist."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-08",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "According to the empirical studies cited in the workbook, asset allocation explains about what share of a SINGLE fund's variation in returns over time?",
+   "options": [
+    "40%",
+    "90%",
+    "60%",
+    "100%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 9.5.1: across all portfolios asset allocation explains ~40% of variation; for a single fund over time ~90%.",
+   "hints": [
+    "40% is the average across all portfolios/funds.",
+    "Correct.",
+    "Not the figure.",
+    "Not the figure."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-09",
+   "chapter": 10,
+   "difficulty": "hard",
+   "q": "Under the Income-tax Act as described in the workbook, from 1 October 2024 the amount received by a shareholder on a buy-back of shares is:",
+   "options": [
+    "Fully exempt in the shareholder's hands",
+    "Taxed as long-term capital gains at a flat rate",
+    "Taxed in the company's hands only, with no consequence for the shareholder",
+    "Taxed as dividend, with the cost of the bought-back shares treated as a capital loss"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 10.2.4: buy-back amounts are taxable as deemed dividend from 1 October 2024; sale consideration is nil and cost becomes a capital loss available for set-off.",
+   "hints": [
+    "That was the earlier regime.",
+    "Not the treatment.",
+    "The shareholder now bears tax.",
+    "Correct (Section 2(22)(f) and amended Section 46A)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-10",
+   "chapter": 11,
+   "difficulty": "hard",
+   "q": "Under the insider trading code for intermediaries, a 'material financial relationship' exists when a person has received from a designated person, in the preceding 12 months, payments (other than arm's length) equal to at least:",
+   "options": [
+    "25% of the designated person's annual income",
+    "10% of the designated person's annual income",
+    "50% of the recipient's annual income",
+    "₹10 lakh in aggregate"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 11.2 (Schedule C, explanation): payments such as loans or gifts of at least 25% of the designated person's annual income in the preceding 12 months.",
+   "hints": [
+    "Correct.",
+    "Not the threshold.",
+    "Measured against the designated person's income.",
+    "Not a rupee threshold."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-11",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "Under SEBI's CSCRF, a portfolio manager with AUM of ₹2,500 crore and 80 clients falls in which category, and what applies?",
+   "options": [
+    "Mid-size RE, needs its own SOC",
+    "Self-certification RE, exempt from mandatory Market-SOC",
+    "Qualified RE, needs MII-level controls",
+    "Self-certification RE, but must still subscribe to Market-SOC"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 11.7: PMs with AUM of ₹3,000 crore and below are self-certification REs; those with fewer than 100 clients are exempted from mandatory M-SOC.",
+   "hints": [
+    "Mid-size applies above ₹3,000 crore.",
+    "AUM ≤ ₹3,000 crore and fewer than 100 clients.",
+    "Not applicable to PMS by AUM table.",
+    "Fewer than 100 clients are exempt."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-12",
+   "chapter": 12,
+   "difficulty": "medium",
+   "q": "A fundamental-weighted index weights three stocks by sales in the ratio 2:3:5. Their prices change by +10%, +20% and -10%. The index changes by:",
+   "options": [
+    "+6.7%",
+    "+20.0%",
+    "+3.0%",
+    "-1.0%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Fundamental index change = Σ weight x price change = 2 + 6 - 5 = 3% (Section 12.3.4).",
+   "hints": [
+    "Equal-weighted average.",
+    "Sum of only the gains.",
+    "0.2 x 10 + 0.3 x 20 + 0.5 x (-10) = 3%.",
+    "Wrong weights."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-13",
+   "chapter": 13,
+   "difficulty": "medium",
+   "q": "The 'internal contradiction' in the concept of market efficiency refers to the fact that:",
+   "options": [
+    "Markets become efficient only because many participants believe they are NOT efficient and trade to beat them",
+    "Efficient markets always have high transaction costs",
+    "Strong-form efficiency excludes weak-form efficiency",
+    "Index funds cannot exist in efficient markets"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 13.5.3: the necessary condition for efficiency is participants' belief that markets are inefficient.",
+   "hints": [
+    "Correct.",
+    "Not related.",
+    "Strong form includes weak form.",
+    "Efficiency actually supports index funds."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-14",
+   "chapter": 14,
+   "difficulty": "medium",
+   "q": "An investor keeps an under-performing fund because switching would feel worse if the new fund then did badly. This is:",
+   "options": [
+    "Overconfidence bias",
+    "Status quo bias linked to regret aversion (fear of errors of commission)",
+    "Framing bias",
+    "Stereotyping bias"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 14.3.1: regret from errors of commission is more intense than omission, so people prefer the status quo.",
+   "hints": [
+    "Overconfidence leads to excessive trading, not inaction.",
+    "Correct.",
+    "Framing is about presentation of choices.",
+    "Stereotyping relies on representative traits."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-15",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "A stock has a beta of 0.9. The risk-free rate is 6% and the market risk premium is 8%. Analysts forecast a 12% return. Relative to the SML, the stock is:",
+   "options": [
+    "Undervalued, since 12% is above the required 7.2%",
+    "Fairly valued",
+    "Overvalued, since 12% is below the required 13.2%",
+    "Undervalued, since its beta is below 1"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Below the SML = overvalued; above = undervalued (Section 16.9).",
+   "hints": [
+    "Omits the risk-free rate.",
+    "Returns differ.",
+    "Required = 6 + 0.9 x 8 = 13.2% > 12%: plots below the SML.",
+    "Beta alone does not determine valuation."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-16",
+   "chapter": 18,
+   "difficulty": "hard",
+   "q": "A manager holds 1,000 shares bought at ₹500 and buys a one-month put with strike ₹500 at a premium of ₹15. If the share falls to ₹440 at expiry, the net loss on the hedged position is:",
+   "options": [
+    "₹60,000",
+    "₹45,000",
+    "₹75,000",
+    "₹15,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Protective put limits downside to the premium: (500 - 440) x 1,000 lost on shares, gained on put; net = premium ₹15 x 1,000 = ₹15,000 (Section 18.13).",
+   "hints": [
+    "Unhedged loss.",
+    "That is the net gain on the put.",
+    "Adds premium to the unhedged loss.",
+    "Loss 60,000 on shares offset by put payoff 60,000, less premium 15,000."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-17",
+   "chapter": 19,
+   "difficulty": "hard",
+   "q": "Which of these statements about a bond with positive convexity are correct?\nI. When rates fall, its price rises more than duration predicts.\nII. When rates rise, its price falls more than duration predicts.\nIII. When rates rise, its price falls less than duration predicts.\nIV. When rates fall, its price rises less than duration predicts.",
+   "options": [
+    "II and IV only",
+    "I and III only",
+    "I and II only",
+    "III and IV only"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 19.3.1: positive convexity means a larger rise when rates fall and a smaller fall when rates rise than the duration estimate.",
+   "hints": [
+    "Describes negative convexity.",
+    "Correct.",
+    "II is wrong.",
+    "IV is wrong."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-18",
+   "chapter": 20,
+   "difficulty": "hard",
+   "q": "An Indian investor put money into a US fund when USD/INR was 80. The fund returned 10% in dollars and the rupee depreciated to 84 per dollar. The return in rupee terms is:",
+   "options": [
+    "14.0%",
+    "5.0%",
+    "15.5%",
+    "4.5%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Rupee return = (1 + 10%) x (84/80) - 1 = 15.5%. A depreciating rupee adds to returns on foreign assets (Section 20.6.4).",
+   "hints": [
+    "Simple addition of 10% and 5% (missing the cross term).",
+    "Only the currency effect.",
+    "1.10 x 84/80 - 1 = 15.5%.",
+    "Treats rupee depreciation as a loss."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M7-19",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Can XYZ accept Meera's proposed initial investment?",
+   "options": [
+    "No: the minimum must be entirely in cash",
+    "No: securities cannot be brought into a PMS account",
+    "Yes, but only if she signs up as an accredited investor",
+    "Yes: cash and securities together worth at least ₹50 lakh on the onboarding date meet the minimum"
+   ],
+   "answer": 3,
+   "marks": 2,
+   "explanation": "Section 8.4.1: investment in cash, securities or a combination worth minimum ₹50 lakh; securities are valued on the onboarding date.",
+   "hints": [
+    "Cash, securities or a combination are allowed.",
+    "Securities are allowed and may be sold by the PM.",
+    "Not needed; ₹55 lakh exceeds the minimum.",
+    "Correct: ₹55 lakh in cash and securities."
+   ],
+   "numeric": false,
+   "case": "Meera, a resident individual (not an accredited investor), approaches XYZ Portfolio Managers, which manages ₹1,200 crore across discretionary and non-discretionary services. She wants to open a discretionary account by bringing ₹40 lakh in cash plus listed shares valued at ₹15 lakh on the onboarding date. She also asks for 20% of her portfolio to be put into unlisted shares of a start-up, and says she may withdraw 30% of the portfolio after about 18 months, when she expects the portfolio to be worth ₹60 lakh."
+  },
+  {
+   "id": "xxib-M7-20",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "If Meera withdraws 30% of the ₹60 lakh portfolio after 18 months, what is the maximum exit load XYZ may charge?",
+   "options": [
+    "₹36,000",
+    "₹54,000",
+    "₹18,000",
+    "₹1,20,000"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "Amount redeemed = ₹18 lakh; in the second year the cap is 2% of the amount redeemed = ₹36,000.",
+   "hints": [
+    "2% of ₹18 lakh (second year).",
+    "3% of ₹18 lakh: first-year rate.",
+    "1% of ₹18 lakh: third-year rate.",
+    "2% of the whole ₹60 lakh."
+   ],
+   "numeric": true,
+   "case": "Meera, a resident individual (not an accredited investor), approaches XYZ Portfolio Managers, which manages ₹1,200 crore across discretionary and non-discretionary services. She wants to open a discretionary account by bringing ₹40 lakh in cash plus listed shares valued at ₹15 lakh on the onboarding date. She also asks for 20% of her portfolio to be put into unlisted shares of a start-up, and says she may withdraw 30% of the portfolio after about 18 months, when she expects the portfolio to be worth ₹60 lakh."
+  },
+  {
+   "id": "xxib-M7-21",
+   "chapter": 11,
+   "difficulty": "hard",
+   "q": "How should XYZ respond to Meera's request for 20% in unlisted start-up shares under her discretionary account?",
+   "options": [
+    "Accept it, since up to 25% unlisted is allowed for all services",
+    "Accept it, since up to 100% unlisted is allowed for all clients",
+    "Decline it: discretionary PMS invests in listed or traded securities, money market instruments, MF units and SEBI-specified securities",
+    "Accept it if she signs a waiver"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "Section 11.4: discretionary PMs invest in listed/traded securities, MMIs, MF units, etc.; non-discretionary/advisory may go up to 25% in unlisted.",
+   "hints": [
+    "Only for non-discretionary and advisory services.",
+    "Only for large value accredited investors.",
+    "Correct; the 25% unlisted allowance is for non-discretionary/advisory services.",
+    "A waiver cannot override the regulation."
+   ],
+   "numeric": false,
+   "case": "Meera, a resident individual (not an accredited investor), approaches XYZ Portfolio Managers, which manages ₹1,200 crore across discretionary and non-discretionary services. She wants to open a discretionary account by bringing ₹40 lakh in cash plus listed shares valued at ₹15 lakh on the onboarding date. She also asks for 20% of her portfolio to be put into unlisted shares of a start-up, and says she may withdraw 30% of the portfolio after about 18 months, when she expects the portfolio to be worth ₹60 lakh."
+  },
+  {
+   "id": "xxib-M7-22",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Given XYZ's AUM, which operational requirement applies to its handling of equity and MF orders?",
+   "options": [
+    "Pooling all orders in the Principal Officer's personal account",
+    "Allowing dealers to use mobile phones in the dealing room",
+    "Manual allocation at the end of the week",
+    "An automated system with minimal manual intervention for order management and allocation"
+   ],
+   "answer": 3,
+   "marks": 2,
+   "explanation": "Section 8.2.1: PMs with AUM of ₹1,000 crore or more must have an automated system; audit trail and time stamping required.",
+   "hints": [
+    "Securities cannot be held in the PM's name.",
+    "Mobiles are banned in the dealing room.",
+    "Allocation must be time-stamped and fair.",
+    "Correct: AUM is above ₹1,000 crore."
+   ],
+   "numeric": false,
+   "case": "Meera, a resident individual (not an accredited investor), approaches XYZ Portfolio Managers, which manages ₹1,200 crore across discretionary and non-discretionary services. She wants to open a discretionary account by bringing ₹40 lakh in cash plus listed shares valued at ₹15 lakh on the onboarding date. She also asks for 20% of her portfolio to be put into unlisted shares of a start-up, and says she may withdraw 30% of the portfolio after about 18 months, when she expects the portfolio to be worth ₹60 lakh."
+  },
+  {
+   "id": "xxib-M7-23",
+   "chapter": 20,
+   "difficulty": "medium",
+   "q": "By how much did the fund outperform the benchmark?",
+   "options": [
+    "1.5%",
+    "2.0%",
+    "1.0%",
+    "3.5%"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "Fund = 0.7 x 12 + 0.3 x 5 = 9.9%; benchmark = 0.6 x 10 + 0.4 x 6 = 8.4%; excess = 1.5%.",
+   "hints": [
+    "Fund 9.9% - benchmark 8.4% = 1.5%.",
+    "Equity return difference only.",
+    "Arithmetic slip.",
+    "Adds the return differences."
+   ],
+   "numeric": true,
+   "case": "A PMS multi-asset portfolio and its benchmark had the following weights and returns for the year. Equity: fund weight 70%, benchmark weight 60%, fund return 12%, benchmark return 10%. Debt: fund weight 30%, benchmark weight 40%, fund return 5%, benchmark return 6%. The manager wants to decompose the excess return using the workbook's allocation, selection and interaction approach."
+  },
+  {
+   "id": "xxib-M7-24",
+   "chapter": 20,
+   "difficulty": "hard",
+   "q": "What is the allocation effect?",
+   "options": [
+    "0.6%",
+    "0.4%",
+    "1.0%",
+    "0.7%"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "Allocation effect = Σ Rpi x (Wai - Wpi) = 1.0 - 0.6 = 0.4% (Section 20.6.3).",
+   "hints": [
+    "Arithmetic slip.",
+    "Σ Rpi(Wai - Wpi) = 10 x 0.1 + 6 x (-0.1) = 0.4%.",
+    "Only the equity overweight term.",
+    "Uses fund returns instead of benchmark returns."
+   ],
+   "numeric": true,
+   "case": "A PMS multi-asset portfolio and its benchmark had the following weights and returns for the year. Equity: fund weight 70%, benchmark weight 60%, fund return 12%, benchmark return 10%. Debt: fund weight 30%, benchmark weight 40%, fund return 5%, benchmark return 6%. The manager wants to decompose the excess return using the workbook's allocation, selection and interaction approach."
+  },
+  {
+   "id": "xxib-M7-25",
+   "chapter": 20,
+   "difficulty": "hard",
+   "q": "What is the selection effect (holding benchmark weights constant)?",
+   "options": [
+    "1.1%",
+    "1.5%",
+    "0.5%",
+    "0.8%"
+   ],
+   "answer": 3,
+   "marks": 2,
+   "explanation": "Selection effect = Σ Wpi x (Rai - Rpi) = 1.2 - 0.4 = 0.8%.",
+   "hints": [
+    "Uses fund weights: 0.7 x 2 - 0.3 x 1.",
+    "That is the total excess.",
+    "Arithmetic slip.",
+    "Σ Wpi(Rai - Rpi) = 0.6 x 2 + 0.4 x (-1) = 0.8%."
+   ],
+   "numeric": true,
+   "case": "A PMS multi-asset portfolio and its benchmark had the following weights and returns for the year. Equity: fund weight 70%, benchmark weight 60%, fund return 12%, benchmark return 10%. Debt: fund weight 30%, benchmark weight 40%, fund return 5%, benchmark return 6%. The manager wants to decompose the excess return using the workbook's allocation, selection and interaction approach."
+  },
+  {
+   "id": "xxib-M7-26",
+   "chapter": 20,
+   "difficulty": "hard",
+   "q": "What is the interaction effect, and do the three components reconcile?",
+   "options": [
+    "0.3%; 0.4 + 0.8 + 0.3 = 1.5%",
+    "0.1%; they do not reconcile",
+    "0.3%; 0.4 + 0.8 + 0.3 = 1.2%",
+    "-0.3%; they reconcile to 0.9%"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "Interaction = 0.2 + 0.1 = 0.3%. Allocation 0.4 + selection 0.8 + interaction 0.3 = 1.5% = fund minus benchmark.",
+   "hints": [
+    "Σ(Wai - Wpi)(Rai - Rpi) = 0.1 x 2 + (-0.1)(-1) = 0.3%; total 1.5%.",
+    "Arithmetic slip.",
+    "Addition error.",
+    "Sign error on the debt term."
+   ],
+   "numeric": true,
+   "case": "A PMS multi-asset portfolio and its benchmark had the following weights and returns for the year. Equity: fund weight 70%, benchmark weight 60%, fund return 12%, benchmark return 10%. Debt: fund weight 30%, benchmark weight 40%, fund return 5%, benchmark return 6%. The manager wants to decompose the excess return using the workbook's allocation, selection and interaction approach."
+  },
+  {
+   "id": "xxib-M7-27",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "What is the 1-day 95% VaR in percentage terms?",
+   "options": [
+    "About -2.60%",
+    "About -2.52%",
+    "About -1.58%",
+    "About -3.60%"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "Daily return = 20%/250 = 0.08%; daily σ = 25%/√250 = 1.581%; VaR% = 0.08 - 1.645 x 1.581 = -2.52%.",
+   "hints": [
+    "Ignores the expected daily return.",
+    "0.08% - 1.645 x 1.581% = -2.52%.",
+    "That is just one daily σ.",
+    "That is the 99% figure."
+   ],
+   "numeric": true,
+   "case": "A portfolio manager runs a ₹50 crore equity portfolio with an expected annual return of 20% and an annual standard deviation of 25%. Assume 250 trading days, normally distributed returns, and the workbook's parametric VaR method: VaR% = (daily return x n) - z x daily σ x √n. Use z = 1.645 for 95% and 2.33 for 99%."
+  },
+  {
+   "id": "xxib-M7-28",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "What is the 1-day 95% VaR in rupees?",
+   "options": [
+    "About ₹12.6 crore",
+    "About ₹0.79 crore",
+    "About ₹1.26 crore",
+    "About ₹1.80 crore"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "VaR (₹) = 2.52% x ₹50 crore ≈ ₹1.26 crore: on 95 out of 100 normal days the loss should not exceed this.",
+   "hints": [
+    "Decimal error.",
+    "Uses one daily σ (1.58%) without the z-score.",
+    "2.52% x ₹50 crore ≈ ₹1.26 crore.",
+    "Uses the 99% percentage."
+   ],
+   "numeric": true,
+   "case": "A portfolio manager runs a ₹50 crore equity portfolio with an expected annual return of 20% and an annual standard deviation of 25%. Assume 250 trading days, normally distributed returns, and the workbook's parametric VaR method: VaR% = (daily return x n) - z x daily σ x √n. Use z = 1.645 for 95% and 2.33 for 99%."
+  },
+  {
+   "id": "xxib-M7-29",
+   "chapter": 17,
+   "difficulty": "hard",
+   "q": "What is the 10-day 95% VaR in percentage terms?",
+   "options": [
+    "About -7.43%",
+    "About -25.21%",
+    "About -8.23%",
+    "About -2.52%"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "10-day VaR% = (0.08 x 10) - 1.645 x 1.581 x √10 = 0.8 - 8.23 = -7.43%. Return scales with n, σ with √n.",
+   "hints": [
+    "0.8% - 1.645 x 1.581% x √10 = -7.43%.",
+    "Multiplies 1-day VaR by 10 instead of √10.",
+    "Ignores the 10-day expected return.",
+    "That is the 1-day figure."
+   ],
+   "numeric": true,
+   "case": "A portfolio manager runs a ₹50 crore equity portfolio with an expected annual return of 20% and an annual standard deviation of 25%. Assume 250 trading days, normally distributed returns, and the workbook's parametric VaR method: VaR% = (daily return x n) - z x daily σ x √n. Use z = 1.645 for 95% and 2.33 for 99%."
+  },
+  {
+   "id": "xxib-M7-30",
+   "chapter": 17,
+   "difficulty": "medium",
+   "q": "What is the 1-day VaR at 99% confidence in percentage terms?",
+   "options": [
+    "About -3.02%",
+    "About -3.60%",
+    "About -4.11%",
+    "About -2.52%"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "VaR% (99%) = 0.08% - 2.33 x 1.581% = -3.60%. Higher confidence gives a larger VaR.",
+   "hints": [
+    "Uses z = 1.96.",
+    "0.08 - 2.33 x 1.581 = -3.60%.",
+    "Uses z = 2.65 or similar.",
+    "That is the 95% figure."
+   ],
+   "numeric": true,
+   "case": "A portfolio manager runs a ₹50 crore equity portfolio with an expected annual return of 20% and an annual standard deviation of 25%. Assume 250 trading days, normally distributed returns, and the workbook's parametric VaR method: VaR% = (daily return x n) - z x daily σ x √n. Use z = 1.645 for 95% and 2.33 for 99%."
+  }
+ ]
+}

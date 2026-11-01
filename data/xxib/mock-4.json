@@ -1,0 +1,583 @@
+{
+ "id": "mock-4",
+ "title": "Mock 4 · Theory Meets Rules",
+ "level": "easy",
+ "blurb": "MPT/CAPM basics mixed with PMS regulation, plus a portfolio beta caselet.",
+ "questions": [
+  {
+   "id": "xxib-M4-01",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Under the Companies Act, 2013, an offer to subscribe to securities made to fewer than how many persons is a private placement?",
+   "options": [
+    "200",
+    "50",
+    "500",
+    "1,000"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 2.2.1: an offer made to less than 200 persons is called private placement.",
+   "hints": [
+    "Correct.",
+    "Old limit, not as per the workbook.",
+    "Not the threshold.",
+    "Not the threshold."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-02",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Which cash flow and discount rate pairing correctly gives the value of a firm's EQUITY directly?",
+   "options": [
+    "FCFF discounted at the cost of equity",
+    "FCFE discounted at the cost of equity",
+    "FCFE discounted at WACC",
+    "Dividends discounted at the cost of debt"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 3.4: FCFF is discounted by WACC to value the firm; FCFE by cost of equity to value equity.",
+   "hints": [
+    "FCFF goes with WACC.",
+    "Correct.",
+    "Mismatched pairing.",
+    "Cost of debt is not the equity discount rate."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-03",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "A bond has a Macaulay duration of 6 years and pays semi-annual coupons; its YTM is 10% p.a. Its modified duration is about:",
+   "options": [
+    "5.45",
+    "6.00",
+    "5.71",
+    "6.60"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "MD = MacD/(1 + YTM/frequency) = 6/1.05 = 5.71 (Section 4.5.2).",
+   "hints": [
+    "Uses the annual YTM: 6/1.10.",
+    "That is the Macaulay duration.",
+    "6/(1 + 0.10/2) = 5.71.",
+    "Multiplies instead of dividing."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-04",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Open interest in a derivatives market represents:",
+   "options": [
+    "The number of contracts traded during the day",
+    "Interest earned on margin deposits",
+    "The premium paid on all options",
+    "The total number of outstanding contracts that have not been settled"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 5.6: open interest is the total number of outstanding derivative contracts not yet settled; it is not trading volume.",
+   "hints": [
+    "That is trading volume.",
+    "Not the concept.",
+    "Not the concept.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-05",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "The Net Asset Value (NAV) of a mutual fund unit is calculated as:",
+   "options": [
+    "Total assets divided by the number of investors",
+    "Net assets (market value of assets plus income minus expenses) divided by units outstanding",
+    "Market price of units on the stock exchange",
+    "Face value plus accrued dividend"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 6.9: net assets divided by the number of outstanding units gives NAV.",
+   "hints": [
+    "Per investor, not per unit.",
+    "Correct.",
+    "That is the traded price of close-ended units.",
+    "Not how NAV is computed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-06",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Which of the following is a DON'T for portfolio managers?",
+   "options": [
+    "Segregating each client's holdings in separate accounts",
+    "Keeping client funds in a separate bank account",
+    "Deploying clients' funds in bill discounting or badla financing",
+    "Abiding by the code of conduct"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 7.6.3 Don'ts: no deployment in bill discounting, badla financing, or lending to corporate/non-corporate bodies.",
+   "hints": [
+    "This is a Do.",
+    "This is a Do.",
+    "Correct: prohibited.",
+    "This is a Do."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-07",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "In addition to the Principal Officer and Compliance Officer, a portfolio manager applicant must employ at least one person with:",
+   "options": [
+    "A CFA charter and 10 years' experience",
+    "Post-graduation and 5 years' experience",
+    "Only the NISM certification",
+    "Graduation and at least 2 years' experience in related securities market activities"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 7.4 point 5: at least one other employee with graduation and 2 years' experience.",
+   "hints": [
+    "Not required.",
+    "That resembles Principal Officer requirements, not this employee.",
+    "Graduation and experience are required.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-08",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "In a PMS joint holding, dividends, interest and redemption proceeds are paid to:",
+   "options": [
+    "The first holder's account",
+    "Each holder in proportion to contribution",
+    "The last holder's account",
+    "Any holder nominated at each payout"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 8.4.2: investment records are created in the name of the first holder and benefits go to the first holder's account.",
+   "hints": [
+    "Correct.",
+    "Records are in the first holder's name.",
+    "Not the rule.",
+    "Not the rule."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-09",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Under the SEBI dispute resolution framework applicable to PMS, which ODR stages are free of cost for investors?",
+   "options": [
+    "Conciliation and arbitration",
+    "Only arbitration",
+    "Pre-conciliation and conciliation",
+    "All three stages including arbitration"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 8.6: 'The first two stages are free of cost for the investors.'",
+   "hints": [
+    "Arbitration is not included as free in the workbook.",
+    "Arbitration is the third stage.",
+    "Correct.",
+    "Only the first two are stated as free."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-10",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT one of the four purposes of an Investment Policy Statement listed in the workbook?",
+   "options": [
+    "Helping investors form realistic return expectations",
+    "Providing a framework for evaluating the portfolio manager",
+    "Protecting the investor against inappropriate or unethical decisions",
+    "Guaranteeing a minimum return to the investor"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 9.3.2: realistic expectations, effective decisions, an evaluation framework and protection from inappropriate/unethical behaviour.",
+   "hints": [
+    "A listed purpose.",
+    "A listed purpose.",
+    "A listed purpose.",
+    "Correct: an IPS never guarantees returns."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-11",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "Section 9A of the Income-tax Act requires an eligible investment fund to have a minimum of how many members who are not connected persons?",
+   "options": [
+    "25",
+    "10",
+    "50",
+    "100"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 10.3, condition (e): a minimum of 25 members who are, directly or indirectly, not connected persons.",
+   "hints": [
+    "Correct.",
+    "10% is the per-member participation cap.",
+    "Not the requirement.",
+    "₹100 crore is the corpus requirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-12",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "A portfolio manager can invest up to what percentage of a client's AUM in the equity of a SINGLE associate or related party?",
+   "options": [
+    "25%",
+    "15%",
+    "30%",
+    "10%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 11.4 table: single associate 15% (equity, or debt/hybrid), multiple associates 25%, total 30%.",
+   "hints": [
+    "25% is across multiple associates.",
+    "Correct.",
+    "30% is the overall cap across equity, debt and hybrid.",
+    "Not the limit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-13",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Periodic reports from the portfolio manager to the client must be furnished as agreed but at intervals NOT exceeding:",
+   "options": [
+    "6 months",
+    "1 month",
+    "12 months",
+    "3 months"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 11.4: report to the client as agreed in the contract, but not exceeding a period of 3 months.",
+   "hints": [
+    "Too long.",
+    "Allowed, but the maximum interval is 3 months.",
+    "Too long.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-14",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "Which is a common criticism of a market-value weighted index?",
+   "options": [
+    "Large companies have a disproportionate influence on the index",
+    "It must be adjusted every time a stock splits",
+    "Small companies dominate the index",
+    "It cannot be used for index funds"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 12.3.2: a % change in a large company has greater impact; critics also note overweighting of overvalued stocks.",
+   "hints": [
+    "Correct.",
+    "Value-weighted indices adjust automatically for splits.",
+    "The opposite.",
+    "They are ideal for index funds."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-15",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Which form of the efficient market hypothesis says prices reflect all public AND private (insider) information?",
+   "options": [
+    "Weak form",
+    "Strong form",
+    "Semi-strong form",
+    "Operational form"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 13.2.3: the strong form includes insider information.",
+   "hints": [
+    "Only past market data.",
+    "Correct.",
+    "Only public information.",
+    "Not an EMH form."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-16",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "An investor refuses to sell inherited shares even though they do not fit her strategy, believing they are worth more than the market thinks. This reflects:",
+   "options": [
+    "Framing bias",
+    "Anchoring bias",
+    "Endowment bias",
+    "Bounded rationality"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 14.3.1: endowment bias; inherited stocks are rarely sold even if they do not fit the strategy.",
+   "hints": [
+    "Framing is about how a question is presented.",
+    "Anchoring relies on an initial number.",
+    "Correct: valuing what one owns more highly.",
+    "Satisficing under limits, not overvaluing ownership."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-17",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "A portfolio manager must buy 1 million shares quoted at a bid of ₹99 and ask of ₹101. Using the workbook's proportional bid-ask measure, the liquidity cost is:",
+   "options": [
+    "₹2 million",
+    "₹1 million",
+    "₹0.2 million",
+    "₹101 million"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 17.4.4 example: proportional spread = 2/100 = 0.02; liquidity cost = ₹100 mn x 0.02 = ₹2 mn.",
+   "hints": [
+    "Spread 2/mid 100 = 2%; 2% x ₹100 million = ₹2 million.",
+    "Half the spread, not the workbook method.",
+    "Decimal error.",
+    "That is the purchase value."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-18",
+   "chapter": 18,
+   "difficulty": "medium",
+   "q": "Smart beta strategies are best described as:",
+   "options": [
+    "Purely discretionary stock picking",
+    "Rule-based index construction using factors chosen by the manager, lying between passive and active management",
+    "Full replication of a market-cap index",
+    "Short-term market timing using derivatives"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 18.5: smart beta uses rule-based selection (like passive) with factors designed by the manager (like active).",
+   "hints": [
+    "That is active management.",
+    "Correct.",
+    "That is pure passive indexing.",
+    "Not smart beta."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-19",
+   "chapter": 18,
+   "difficulty": "easy",
+   "q": "A manager who believes the market will fall wants to hedge a diversified equity portfolio. The simplest derivative action is to:",
+   "options": [
+    "Buy index futures",
+    "Sell put options on the index",
+    "Sell index futures",
+    "Buy call options on the index"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 18.12: to protect against a fall, she can sell index futures; the futures gain offsets the portfolio loss.",
+   "hints": [
+    "Increases exposure.",
+    "Selling puts adds downside risk.",
+    "Correct: gains on short futures offset portfolio losses.",
+    "Adds upside exposure, not a hedge."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-20",
+   "chapter": 19,
+   "difficulty": "easy",
+   "q": "Which risk is NOT significant when investing in Government of India securities?",
+   "options": [
+    "Price risk",
+    "Reinvestment risk",
+    "Liquidity risk",
+    "Credit (default) risk"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Chapter 19 sample question and Section 4: government securities carry practically no default risk.",
+   "hints": [
+    "Present: rates change prices.",
+    "Present: coupons reinvested at uncertain rates.",
+    "Some G-secs are less liquid.",
+    "Correct: G-secs carry practically no default risk."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-21",
+   "chapter": 19,
+   "difficulty": "medium",
+   "q": "A floating rate bond with 8 years to maturity resets its coupon every quarter. Its duration at any point is at most about:",
+   "options": [
+    "8 years",
+    "The time remaining until the next coupon reset",
+    "4 years",
+    "Equal to that of an 8-year zero-coupon bond"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 19.3.1: maximum duration of a floater is only the remaining time to the next reset, even if maturity is longer.",
+   "hints": [
+    "Floaters are not sensitive like fixed bonds over full maturity.",
+    "Correct.",
+    "Arbitrary.",
+    "Zeros have the highest sensitivity."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-22",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "Which measure divides a portfolio's excess return over the risk-free rate by its beta?",
+   "options": [
+    "Sharpe ratio",
+    "Information ratio",
+    "Treynor ratio",
+    "Sortino ratio"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 20.4.2: Treynor = (Rp - Rf)/βp.",
+   "hints": [
+    "Uses standard deviation.",
+    "Uses tracking error and benchmark return.",
+    "Correct.",
+    "Uses downside deviation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M4-23",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "What is the expected return of the client's portfolio?",
+   "options": [
+    "12.0%",
+    "12.8%",
+    "11.6%",
+    "12.4%"
+   ],
+   "answer": 3,
+   "marks": 2,
+   "explanation": "Portfolio expected return = Σ wᵢE(Rᵢ) = 8.4 + 4.0 = 12.4% (Section 15.6).",
+   "hints": [
+    "Simple average of 14 and 10.",
+    "Arithmetic slip: it would need Stock B to return 11%.",
+    "Swaps the weights (0.4 x 14 + 0.6 x 10).",
+    "0.6 x 14 + 0.4 x 10 = 12.4%."
+   ],
+   "numeric": true,
+   "case": "A portfolio manager holds two stocks for a client: 60% in Stock A and 40% in Stock B. Analysts expect Stock A to return 14% and Stock B 10% next year. Stock A's beta is 1.3 and Stock B's beta is 0.8. The risk-free rate is 6% and the market risk premium is 7%. Assume markets are in CAPM equilibrium for judging valuation."
+  },
+  {
+   "id": "xxib-M4-24",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "What is the portfolio's beta?",
+   "options": [
+    "1.10",
+    "1.05",
+    "1.30",
+    "0.98"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "Portfolio beta is the weighted average of individual betas (Section 20.3.3).",
+   "hints": [
+    "0.6 x 1.3 + 0.4 x 0.8 = 0.78 + 0.32 = 1.10.",
+    "Simple average of the betas.",
+    "That is Stock A's beta.",
+    "Swaps the weights."
+   ],
+   "numeric": true,
+   "case": "A portfolio manager holds two stocks for a client: 60% in Stock A and 40% in Stock B. Analysts expect Stock A to return 14% and Stock B 10% next year. Stock A's beta is 1.3 and Stock B's beta is 0.8. The risk-free rate is 6% and the market risk premium is 7%. Assume markets are in CAPM equilibrium for judging valuation."
+  },
+  {
+   "id": "xxib-M4-25",
+   "chapter": 16,
+   "difficulty": "medium",
+   "q": "Comparing the portfolio's expected return with its CAPM required return, the portfolio:",
+   "options": [
+    "Plots above the SML and appears undervalued",
+    "Plots exactly on the SML",
+    "Plots below the SML and appears overvalued (required 13.7% vs expected 12.4%)",
+    "Cannot be judged without the standard deviation"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "CAPM required = 6% + 1.10 x 7% = 13.7%. Expected 12.4% < 13.7%, so it plots below the SML: overvalued (Section 16.9).",
+   "hints": [
+    "Expected is lower than required, so it is below the SML.",
+    "Returns differ.",
+    "Required = 6 + 1.1 x 7 = 13.7% > 12.4%: below SML, overvalued.",
+    "SML judgement uses beta, not SD."
+   ],
+   "numeric": true,
+   "case": "A portfolio manager holds two stocks for a client: 60% in Stock A and 40% in Stock B. Analysts expect Stock A to return 14% and Stock B 10% next year. Stock A's beta is 1.3 and Stock B's beta is 0.8. The risk-free rate is 6% and the market risk premium is 7%. Assume markets are in CAPM equilibrium for judging valuation."
+  }
+ ]
+}

@@ -1,0 +1,698 @@
+{
+ "id": "mock-7",
+ "title": "Mock 7 · Final Simulation",
+ "level": "tough",
+ "blurb": "A last full-strength rehearsal: harder corpus and tax sums, NPS edge cases, regulator rules and close distractors.",
+ "questions": [
+  {
+   "id": "xvii-M7-01",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "X invests either ₹5,000 every month or ₹60,000 once a year for 30 years, earning 12% a year in both cases. Which is correct, according to the workbook's illustration?",
+   "options": [
+    "Both give exactly the same corpus since the total invested is the same",
+    "Monthly investing gives a larger corpus (about ₹1.75 crore vs ₹1.45 crore) because of more frequent compounding",
+    "Monthly investing gives a smaller corpus because of higher transaction costs",
+    "Annual investing gives a larger corpus because the lump sum earns more"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Box 1.3: ₹5,000 a month for 360 months at 12%/12 grows to about ₹1,74,74,820, while ₹60,000 a year for 30 years at 12% grows to about ₹1,44,79,961. More frequent compounding gives a higher final value.",
+   "hints": [
+    "Wrong: the same total contribution does not mean the same corpus.",
+    "Correct: monthly compounding wins.",
+    "Wrong: costs are not the point of the illustration.",
+    "Wrong: the annual plan grows less."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-02",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "If consumer prices rise 6% a year, an item costing ₹100 today will cost approximately how much in 20 years?",
+   "options": [
+    "₹179",
+    "₹220",
+    "₹321",
+    "₹574"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "₹100 × 1.06^20 ≈ ₹321. The workbook also gives ₹179 after 10 years and ₹574 after 30 years.",
+   "hints": [
+    "Wrong: ₹179 is the 10-year figure.",
+    "Wrong: this is simple growth (100 + 6 × 20).",
+    "Correct: 100 × 3.207.",
+    "Wrong: ₹574 is the 30-year figure."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-03",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "Which statement about Real Estate Investment Trusts (REITs) is NOT correct as per the workbook?",
+   "options": [
+    "REIT units trade in a minimum lot of 100 units",
+    "A full valuation of assets is done every year and updated every six months",
+    "At least 80% of the value of REIT assets must be in completed, rent-generating properties",
+    "The minimum application value in an initial offer is ₹10,000-15,000"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Following SEBI's 2021 amendments, REIT units trade in a lot of a single unit; the 100-unit lot applied earlier. The other statements are correct.",
+   "hints": [
+    "Correct (this is the false statement): the trading lot is now 1 unit.",
+    "Wrong choice: annual valuation with a half-yearly update is correct.",
+    "Wrong choice: the 80% rule is correct.",
+    "Wrong choice: the minimum application value was reduced to ₹10,000-15,000."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-04",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "Which investment has NO market risk but is still exposed to inflation and reinvestment risk?",
+   "options": [
+    "A gold ETF",
+    "A listed 10-year government bond",
+    "A 5-year post office time deposit",
+    "An equity index fund"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Deposits and small savings schemes are not marketable securities, so they carry no market risk, but fixed returns expose them to inflation risk and maturity proceeds to reinvestment risk.",
+   "hints": [
+    "Wrong: gold ETF prices move with the market.",
+    "Wrong: listed bonds have price (market) risk from interest rate changes.",
+    "Correct: not marketable, fixed return.",
+    "Wrong: equity funds carry market risk."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-05",
+   "chapter": 2,
+   "difficulty": "hard",
+   "q": "An arbitrage fund buys a share in the cash market at ₹80 and simultaneously sells it in the futures market at ₹100, holding both positions to expiry. What risk profile does the workbook attribute to such funds?",
+   "options": [
+    "Very high risk, because derivatives are leveraged",
+    "High risk, similar to a mid-cap equity fund",
+    "Moderate risk, similar to a long-duration gilt fund",
+    "Low risk, with NAV volatility similar to a liquid fund"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The price differential is locked in if positions are held to expiry; a completely hedged position makes these funds low risk, with NAV volatility similar to a liquid fund.",
+   "hints": [
+    "Wrong: the hedge removes directional risk.",
+    "Wrong: the position is hedged, unlike a mid-cap fund.",
+    "Wrong: long-duration gilt funds have much higher rate risk.",
+    "Correct: fully hedged, low volatility."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-06",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "Lata will need ₹1,00,000 a month at the start of a 25-year retirement (already inflation-adjusted to that date). Her corpus will earn 8% and inflation is 6%. Withdrawals are at the beginning of each month. Approximately what corpus does she need?",
+   "options": [
+    "₹2.36 crore",
+    "₹3.00 crore",
+    "₹1.30 crore",
+    "₹2.39 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Real rate = 1.08/1.06 − 1 = 1.887%. PV(1.887%/12, 300, −1,00,000, 0, 1) ≈ ₹2,39,40,178, about ₹2.39 crore.",
+   "hints": [
+    "Wrong: this uses the approximate 2% real rate.",
+    "Wrong: this is 1 lakh × 300 with no discounting.",
+    "Wrong: this discounts at the nominal 8%, ignoring rising expenses.",
+    "Correct: discounting at the precise real rate."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-07",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "A client spends ₹60,000 a month today and retires in 20 years. Inflation is 6%. She plans a 30-year retirement with 20% equity (SWR 3.79% from the table). What corpus is required?",
+   "options": [
+    "About ₹6.09 crore",
+    "About ₹6.13 crore",
+    "About ₹23.09 lakh",
+    "About ₹1.90 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Monthly need at retirement = 60,000 × 1.06^20 ≈ ₹1,92,428; annual ≈ ₹23,09,138. Corpus = 23,09,138 ÷ 0.0379 ≈ ₹6.09 crore.",
+   "hints": [
+    "Correct: inflate first, annualise, then divide by the SWR.",
+    "Wrong: this uses 3.77% (0% equity) instead of 3.79%.",
+    "Wrong: this is only the first-year annual withdrawal.",
+    "Wrong: this uses today's expense without inflating it."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-08",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "Rahul needs ₹2 crore in 15 years. He already has ₹20 lakh in equity funds earmarked for retirement, expected to earn 10% a year. His new SIPs will earn 12% (monthly compounding, month-end). Approximately what monthly SIP does he need?",
+   "options": [
+    "₹18,000",
+    "₹23,311",
+    "₹36,030",
+    "₹40,034"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "FV of existing ₹20 lakh = 20,00,000 × 1.10^15 ≈ ₹83.54 lakh. Gap = 2 crore − 83.54 lakh ≈ ₹1.16 crore. PMT(1%, 180, 0, −1,16,45,504, 0) ≈ ₹23,311.",
+   "hints": [
+    "Wrong: this does not follow from the PMT calculation.",
+    "Correct: deduct the future value of existing assets, then PMT.",
+    "Wrong: this deducts the current value (₹20 lakh) instead of its future value.",
+    "Wrong: this ignores the existing investment."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-09",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "A retiree with ₹1 crore adopts a 3.5% safe withdrawal rate and withdraws ₹3.5 lakh in year 1. Inflation is 6%. During year 1 the market falls and the corpus drops to ₹90 lakh. What should the year-2 withdrawal be under the SWR approach?",
+   "options": [
+    "₹3,33,900",
+    "₹3,50,000",
+    "₹3,71,000",
+    "₹3,15,000"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Under SWR, the rupee withdrawal is raised by inflation each year independent of the corpus value: 3,50,000 × 1.06 = ₹3,71,000. The SWR is not a percentage applied to the corpus every year.",
+   "hints": [
+    "Wrong: this applies 3.71% to ₹90 lakh, mixing the two ideas.",
+    "Wrong: this ignores the inflation adjustment.",
+    "Correct: indexed to inflation regardless of the corpus value.",
+    "Wrong: this applies 3.5% to the fallen corpus, which is not how SWR works."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-10",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "For a young earner whose income just about covers expenses, what should have the first claim on savings?",
+   "options": [
+    "Annuity purchase for future income",
+    "A home loan to build an asset early",
+    "An emergency or reserve fund",
+    "Aggressive mid-cap equity for retirement"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "At the young earner stage, creating an emergency or reserve fund to manage any loss or reduction in income should have first claim on savings; a long-term EMI commitment can be risky without income stability.",
+   "hints": [
+    "Wrong: annuities are a distribution-stage product.",
+    "Wrong: the workbook warns that a long-term EMI without income stability is risky.",
+    "Correct: emergency fund first.",
+    "Wrong: long-term savings can go to equity, but not before the emergency fund."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-11",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "Mr Kapoor joined NPS under the All Citizen model at 62. At 67 he exits with a corpus of ₹11 lakh. What can he do?",
+   "options": [
+    "Withdraw the entire ₹11 lakh as lump sum or through SLW/SUR",
+    "He cannot exit until he completes 15 years in NPS",
+    "Take up to ₹6 lakh as lump sum and annuitise the rest",
+    "Take up to 60% as lump sum and annuitise 40%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "For subscribers joining after 60, there is no vesting period; where the corpus is up to ₹12 lakh, the entire corpus may be withdrawn as lump sum or through approved systematic withdrawal options.",
+   "hints": [
+    "Correct: the ₹12 lakh threshold applies to those joining after 60.",
+    "Wrong: the vesting period has been removed for those joining after 60.",
+    "Wrong: the ₹6 lakh rule applies to the ₹8-12 lakh slab for regular joiners.",
+    "Wrong: 60:40 applies to Government subscribers."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-12",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "A Central Government NPS subscriber retires on superannuation with a corpus of ₹10 lakh. Which option is NOT available?",
+   "options": [
+    "Withdraw up to ₹6 lakh as lump sum and use the balance through SUR for at least six years",
+    "Withdraw the entire ₹10 lakh as lump sum",
+    "Withdraw up to 60% as lump sum and use at least 40% for an annuity",
+    "Withdraw up to ₹6 lakh as lump sum and use the balance for an annuity"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "For a corpus of more than ₹8 lakh and up to ₹12 lakh, the subscriber may take up to ₹6 lakh lump sum with the balance in an annuity or SUR (minimum 6 years), or follow 60:40. Full withdrawal is allowed only up to ₹8 lakh.",
+   "hints": [
+    "Wrong choice: the ₹6 lakh plus SUR route is available.",
+    "Correct (not available): full withdrawal requires a corpus up to ₹8 lakh.",
+    "Wrong choice: the standard 60:40 route is available.",
+    "Wrong choice: the ₹6 lakh plus annuity route is available."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-13",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "A private-sector employee under the OLD tax regime has Basic + DA of ₹12 lakh. His employer contributes 14% (₹1.68 lakh) to his NPS account. How much of the employer contribution is deductible under section 124(1) (old 80CCD(2))?",
+   "options": [
+    "₹1,50,000",
+    "₹50,000",
+    "₹1,68,000",
+    "₹1,20,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "For non-Government employees, the employer contribution is deductible up to 10% of salary: 10% × ₹12 lakh = ₹1.2 lakh. The 14% limit applies to Government employees and to all employees under the new regime.",
+   "hints": [
+    "Wrong: ₹1.5 lakh is the s.123 aggregate limit.",
+    "Wrong: ₹50,000 is the s.124(3) limit on own contribution.",
+    "Wrong: 14% applies only under the new regime or for Government employees.",
+    "Correct: 10% of salary for a private employee under the old regime."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-14",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "In a year, an employer contributes ₹3 lakh to an employee's recognised PF, ₹4 lakh to NPS and ₹1.5 lakh to an approved superannuation fund. How much is taxable as a perquisite (ignoring accretions)?",
+   "options": [
+    "Nil",
+    "₹8,50,000",
+    "₹1,50,000",
+    "₹1,00,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The aggregate employer contribution to recognised PF, NPS and approved superannuation fund is capped at ₹7.5 lakh a year. Total = ₹8.5 lakh, so ₹1 lakh is a taxable perquisite.",
+   "hints": [
+    "Wrong: the total exceeds the ₹7.5 lakh cap.",
+    "Wrong: only the excess over ₹7.5 lakh is taxed.",
+    "Wrong: this treats the superannuation contribution as the excess.",
+    "Correct: ₹8.5 lakh − ₹7.5 lakh."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-15",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "Two subscribers aged 50 are in Auto choice: Asha in Life Cycle – Aggressive and Bina in Life Cycle 50 (Moderate). What are their equity allocations?",
+   "options": [
+    "Asha 50%, Bina 30%",
+    "Asha 40%, Bina 20%",
+    "Asha 20%, Bina 40%",
+    "Asha 35%, Bina 10%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "At age 50, LC Aggressive holds 40/20/40 (E/C/G) and LC50 holds 20/15/65.",
+   "hints": [
+    "Wrong: these are the levels at about age 45 (Aggressive holds 50% until 45; LC50 is 30% at 45).",
+    "Correct: 40% and 20%.",
+    "Wrong: the values are swapped.",
+    "Wrong: these are the terminal levels at 55 and above."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-16",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT a function of a Central Recordkeeping Agency under NPS?",
+   "options": [
+    "Providing a centralised grievance management system",
+    "Computing and declaring scheme NAV on a daily basis",
+    "Issuing the PRAN, I-PIN and T-PIN",
+    "Processing exit and withdrawal requests"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Computing and declaring scheme NAV daily is a function of the Pension Fund. Issuing PRAN, running grievance systems and processing exits are CRA functions.",
+   "hints": [
+    "Wrong choice: the CRA provides the grievance system.",
+    "Correct (not a CRA function): Pension Funds compute NAV.",
+    "Wrong choice: the CRA issues PRAN, I-PIN and T-PIN.",
+    "Wrong choice: the CRA processes exits and withdrawals."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-17",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "A fund gained 18% in 9 months. What is its simple annualised return using the workbook's method?",
+   "options": [
+    "18%",
+    "22%",
+    "24%",
+    "13.5%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Annualised return = absolute return × (12/months held) = 18% × 12/9 = 24%.",
+   "hints": [
+    "Wrong: this is the absolute return.",
+    "Wrong: this does not follow the formula.",
+    "Correct: 18 × 12/9.",
+    "Wrong: this multiplies by 9/12 instead of 12/9."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-18",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "An investor holds a debenture of face value ₹100 with a 9% coupon. During the year its market price falls to ₹97. What is the total return for the year?",
+   "options": [
+    "₹12",
+    "₹6",
+    "₹3",
+    "₹9"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Total return = interest income + change in value = ₹9 + (97 − 100) = ₹6.",
+   "hints": [
+    "Wrong: this adds the price fall instead of subtracting it.",
+    "Correct: 9 − 3.",
+    "Wrong: this is the capital loss only.",
+    "Wrong: this is the coupon only."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-19",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "A fund has a beta of 0.8. If the market index falls 15%, the fund is expected to:",
+   "options": [
+    "Fall about 12%",
+    "Fall about 15%",
+    "Rise about 12%",
+    "Fall about 18.75%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Expected move = beta × market move = 0.8 × (−15%) = −12%. A beta below 1 means less volatility than the market.",
+   "hints": [
+    "Correct: 0.8 × −15%.",
+    "Wrong: that would be a beta of 1.",
+    "Wrong: a positive beta moves in the same direction as the market.",
+    "Wrong: this divides by beta."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-20",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "In a financial year, an employee contributes ₹3.5 lakh (EPF + VPF) and the employer also contributes to his provident fund. Interest on what portion of his own contribution is taxable?",
+   "options": [
+    "Interest on ₹1 lakh",
+    "Interest on ₹3 lakh",
+    "Interest on the full ₹3.5 lakh",
+    "No interest is taxable"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Interest on the employee's own contribution up to ₹2.5 lakh a year is tax-free; interest on the excess (₹3.5 lakh − ₹2.5 lakh = ₹1 lakh) is taxable. The ₹5 lakh threshold applies only where there is no employer contribution.",
+   "hints": [
+    "Correct: the excess over ₹2.5 lakh.",
+    "Wrong: this would apply a ₹50,000 threshold.",
+    "Wrong: interest on the first ₹2.5 lakh is tax-free.",
+    "Wrong: the contribution exceeds ₹2.5 lakh."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-21",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "Which statement about the Public Provident Fund is NOT correct?",
+   "options": [
+    "The maximum deposit is ₹1.5 lakh in a financial year",
+    "A Hindu Undivided Family can open a PPF account",
+    "The account has a tenure of 15 years",
+    "Interest earned and the maturity value are tax-free"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "PPF can be opened by individuals only; HUFs and NRIs cannot open a PPF account. The other statements are correct.",
+   "hints": [
+    "Wrong choice: ₹1.5 lakh is the annual maximum.",
+    "Correct (this is the false statement): HUFs cannot open PPF.",
+    "Wrong choice: PPF is a 15-year account.",
+    "Wrong choice: PPF is EEE."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-22",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "For the same purchase price, which annuity is likely to give the HIGHEST periodic payout?",
+   "options": [
+    "Life annuity without return of purchase price, bought by a 75-year-old man in poor health",
+    "Joint-life annuity with 100% to spouse, bought at 60",
+    "Life annuity increasing at 3% simple, bought at 60",
+    "Life annuity with return of purchase price, bought by a 60-year-old woman"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Add-on features (return of purchase price, spouse cover, increasing payouts) lower the payout. Older age, male gender and poor health shorten life expectancy, which raises the payout.",
+   "hints": [
+    "Correct: no add-ons, high age, male and poor health all raise the payout.",
+    "Wrong: spouse cover lowers the payout.",
+    "Wrong: the step-up feature lowers the starting payout.",
+    "Wrong: ROP and female life expectancy lower the payout."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-23",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "An investor puts ₹1,000 each month for three months into a fund at NAVs of ₹10, ₹12.50 and ₹8. What is his average cost per unit?",
+   "options": [
+    "₹8.00",
+    "₹10.17",
+    "About ₹9.84",
+    "₹10.00"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Units = 100 + 80 + 125 = 305. Average cost = ₹3,000 ÷ 305 ≈ ₹9.84, lower than the simple average NAV of ₹10.17. This is rupee-cost averaging.",
+   "hints": [
+    "Wrong: this is the lowest NAV, which averaging does not achieve.",
+    "Wrong: this is the simple average of the three NAVs.",
+    "Correct: total invested ÷ total units.",
+    "Wrong: this is the first NAV only."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-24",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "A retiree's taxable income is ₹10.5 lakh, which would push part of it into a higher tax slab. How does the workbook suggest tax-free income can help?",
+   "options": [
+    "Use tax-free income, such as interest from tax-free bonds, to meet the last ₹50,000 so taxable income stays in the lower slab",
+    "Use a reverse mortgage lump sum to pay the tax",
+    "Withdraw extra from the NPS annuity, which is tax-free",
+    "Convert all income to tax-free bonds regardless of yield"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "If the retiree has access to tax-free income, it can bridge the last ₹50,000 required so that taxable income stays within the lower bracket.",
+   "hints": [
+    "Correct: tax-free income prevents tipping into the next slab.",
+    "Wrong: this is not the strategy described.",
+    "Wrong: annuity income is taxable.",
+    "Wrong: the choice depends on returns and the tax bracket."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-25",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "Under the NPS Retirement Income Scheme 'RIS Steady', what is the equity exposure of a subscriber aged 80 in drawdown?",
+   "options": [
+    "35%",
+    "0%",
+    "10%",
+    "25%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "RIS Steady reduces equity from 35% at age 60 to a floor of 10% at age 75, held constant thereafter until 85.",
+   "hints": [
+    "Wrong: 35% is the starting equity at 60.",
+    "Wrong: the floor is 10%, not zero.",
+    "Correct: 10% from 75 to 85.",
+    "Wrong: not a level in the RIS Steady glide path at 80."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-26",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT an essential requirement for a valid will as listed in the workbook?",
+   "options": [
+    "Attestation by two witnesses",
+    "Signature of the testator",
+    "Clear listing of the beneficiaries and property bequeathed",
+    "Registration with the sub-registrar"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "It is not compulsory to register a will, though it is good practice. A will must be in writing, signed by the testator and attested by two witnesses, and should list beneficiaries and property.",
+   "hints": [
+    "Wrong choice: two witnesses are required.",
+    "Wrong choice: the testator's signature is required.",
+    "Wrong choice: beneficiaries and property must be listed.",
+    "Correct (not essential): registration is optional."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-27",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "For how long can reassessment proceedings generally be initiated where the income that escaped assessment is ₹50 lakh or more, which guides how long ITR copies should be kept?",
+   "options": [
+    "5 years from the end of the relevant assessment year",
+    "Indefinitely",
+    "10 years from the end of the financial year",
+    "3 years from the end of the relevant assessment year"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Reassessment can generally be initiated within 3 years from the end of the relevant assessment year, extended to 5 years where escaped income is ₹50 lakh or more.",
+   "hints": [
+    "Correct: 5 years for ₹50 lakh or more.",
+    "Wrong: there is a time limit.",
+    "Wrong: not the limit stated in the workbook.",
+    "Wrong: 3 years is the general limit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-28",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "Which statement about a sponsor's obligations for a pension fund under the PFRDA (Pension Fund) Regulations is NOT correct?",
+   "options": [
+    "The pension fund must maintain a net worth of ₹50 crore at all times",
+    "No director on a pension fund's board may be a director of another registered pension fund",
+    "The sponsor must not hold 20% or more equity in the CRA, custodian or trustee bank",
+    "At least 25% of the pension fund's directors must be independent directors"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "At least 50% (not 25%) of the directors of the pension fund must be independent directors. The other statements are correct.",
+   "hints": [
+    "Wrong choice: ₹50 crore net worth at all times is correct.",
+    "Wrong choice: cross-directorships across pension funds are barred.",
+    "Wrong choice: the 20% cross-holding restriction is correct.",
+    "Correct (this is the false statement): the requirement is at least 50%."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-29",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "An NPS subscriber who has a family nominates only a close friend. Under the nomination provisions of the Exit regulations, this nomination is:",
+   "options": [
+    "Valid only if the friend is a minor with a guardian",
+    "Valid, since the subscriber may nominate anyone",
+    "Valid if registered with the Ombudsman",
+    "Invalid, because a subscriber with a family must nominate one or more family members"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "If a subscriber has a family at the time of nomination, the nomination must be in favour of one or more family members; a nomination in favour of a non-family member is invalid.",
+   "hints": [
+    "Wrong: being a minor does not change the family rule.",
+    "Wrong: this applies only if the subscriber has no family.",
+    "Wrong: nominations are not registered with the Ombudsman.",
+    "Correct: nomination must favour family members."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M7-30",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "For Government sector NPS subscribers, at what frequency must an empanelled Annuity Service Provider pay the annuity?",
+   "options": [
+    "Monthly, quarterly or annually, as the subscriber chooses",
+    "Monthly only",
+    "Half-yearly only",
+    "Annually only"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The ASP delivers the monthly, quarterly or annual pension as chosen by the subscriber; however, for Government sector subscribers the annuity is payable on a monthly basis only.",
+   "hints": [
+    "Wrong: the choice of frequency applies to non-Government subscribers.",
+    "Correct: monthly only for Government subscribers.",
+    "Wrong: not permitted for Government subscribers.",
+    "Wrong: not permitted for Government subscribers."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

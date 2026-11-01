@@ -1,0 +1,698 @@
+{
+ "id": "mock-7",
+ "title": "Mock 7 · Tough Simulator B",
+ "level": "tough",
+ "blurb": "Exam-day difficulty: multi-statement items, nuanced rules and two caselets.",
+ "questions": [
+  {
+   "id": "xixa-M7-01",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "Which of the following is a LIMITATION of alternative investments listed in the workbook?",
+   "options": [
+    "They do not satisfy the requirement for regular income",
+    "They help diversify risk beyond traditional avenues",
+    "They give access to experienced managers",
+    "They provide growth capital to companies that cannot easily raise bank finance"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Table 1.2 lists limitations including complex structuring, tedious documentation, less transparency, illiquidity and not satisfying the need for regular income.",
+   "hints": [
+    "Correct: listed among limitations.",
+    "Wrong: a benefit.",
+    "Wrong: a benefit.",
+    "Wrong: a benefit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-02",
+   "chapter": 2,
+   "difficulty": "hard",
+   "q": "Which of the following is NOT a 'special situation asset' for a Special Situation Fund?",
+   "options": [
+    "Security receipts issued by an RBI-registered ARC",
+    "Stressed loans available for acquisition under RBI's Master Direction",
+    "Shares of a company whose loan default has continued for only 30 days",
+    "Securities of a company whose borrowings are under the corporate insolvency resolution process"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Securities of companies with disclosed defaults qualify only if the payment default continues for at least ninety calendar days after the default.",
+   "hints": [
+    "Wrong choice: ARC security receipts qualify.",
+    "Wrong choice: stressed loans under RBI directions qualify.",
+    "Correct (not an SSA): the default must continue for at least 90 calendar days.",
+    "Wrong choice: companies under CIRP qualify."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-03",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "A scheme closes with a corpus of ₹160 crore. What is the minimum continuing interest of the manager/sponsor, and can it be met by waiving 2 years of management fees worth the same amount?",
+   "options": [
+    "₹4 crore; yes, fee waiver is acceptable",
+    "₹5 crore; no, fee waiver does not count",
+    "₹4 crore; no, fee waiver does not count",
+    "₹0.8 crore; yes, fee waiver is acceptable"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Continuing interest is the lower of 2.5% of corpus (₹4 crore) or ₹5 crore, in the form of investment, not through waiver of management fees.",
+   "hints": [
+    "Wrong: fee waiver is expressly not allowed.",
+    "Wrong: ₹5 crore is the cap, but the lower amount applies here.",
+    "Correct: 2.5% × 160 = ₹4 crore (below ₹5 crore); must be an investment, not a fee waiver.",
+    "Wrong: arithmetic and rule both wrong."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-04",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "The initial drawdown made after the first close of a fund usually provides for all of the following EXCEPT:",
+   "options": [
+    "Carried interest payable to the manager",
+    "Management fees retrospective to the first close",
+    "Organisational and other expenses of the fund",
+    "Capital for investments already made before the drawdown"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The initial drawdown usually provides for management fees retrospective to first close, organisational expenses and capital for investments made prior to the drawdown.",
+   "hints": [
+    "Correct: carry is paid only from realised returns, not drawdowns.",
+    "Wrong choice: included in initial drawdown.",
+    "Wrong choice: included in initial drawdown.",
+    "Wrong choice: included in initial drawdown."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-05",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "An investor was accredited when she joined an AI-only scheme but her net worth later fell below the threshold. What is her status in that scheme?",
+   "options": [
+    "She must exit the scheme immediately",
+    "She must top up to ₹1 crore within 30 days",
+    "She continues to be reckoned as an AI for the life of the scheme",
+    "Her units are converted into a non-AI class"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "If an investor is an AI at the time of onboarding into an AIF scheme, he/she shall be reckoned as an AI through the life of the scheme, even if the status is lost in the interim.",
+   "hints": [
+    "Wrong: no forced exit.",
+    "Wrong: no such rule.",
+    "Correct: AI status at onboarding holds through the scheme's life.",
+    "Wrong: no such rule."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-06",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "Consider: (i) Category II AIFs may buy or sell credit default swaps. (ii) A Category I AIF must keep a 30-day cooling-off period between two borrowings, counted from repayment. (iii) Category II AIFs invest primarily in unlisted securities and/or listed debt rated 'A' or below. Which are correct?",
+   "options": [
+    "(i), (ii) and (iii)",
+    "(i) and (ii) only",
+    "(ii) and (iii) only",
+    "(i) and (iii) only"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Cat II may buy or sell CDS; Cat I and II keep a 30-day cooling off from repayment of the previous borrowing; Cat II invests primarily in unlisted securities and/or listed debt rated A or below.",
+   "hints": [
+    "Correct: all three statements are in the workbook.",
+    "Wrong: (iii) is also correct.",
+    "Wrong: (i) is also correct.",
+    "Wrong: (ii) is also correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-07",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "Why does the workbook say most Indian AIFs choose a trust rather than an LLP, with respect to the manager's liability?",
+   "options": [
+    "In a trust the manager has unlimited liability",
+    "LLPs do not permit appointment of a manager",
+    "A trust allows ring-fencing of the manager's liability since the manager is only a counterparty service provider",
+    "Trusts are exempt from SEBI registration"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A trust structure permits ring-fencing of the manager's liability from that of the AIF because the manager is only a counterparty service provider, unlike a director or designated partner.",
+   "hints": [
+    "Wrong: the opposite.",
+    "Wrong: LLPs can appoint managers through an IMA.",
+    "Correct: the manager is not on the board or a designated partner of the AIF.",
+    "Wrong: all AIFs must register."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-08",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "From GAAR's perspective, which feature of an AIF structure is MOST likely to attract scrutiny?",
+   "options": [
+    "A domestic trust with only resident investors",
+    "A unified structure with genuine offshore investors and full disclosures",
+    "Appointment of a SEBI-registered custodian",
+    "A layered structure whose main purpose is a tax benefit and which lacks commercial substance"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Complicated structures are likely to be scrutinised under GAAR, which allows authorities to re-characterise transactions lacking commercial substance.",
+   "hints": [
+    "Wrong: simple domestic structure.",
+    "Wrong: genuine purpose with disclosure.",
+    "Wrong: a regulatory requirement.",
+    "Correct: GAAR targets arrangements lacking commercial substance with tax benefit as the main purpose."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-09",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "An investment of ₹100 returns a single payment of ₹172.80 at the end of 3 years. Its IRR is:",
+   "options": [
+    "24.27%",
+    "20%",
+    "18%",
+    "72.8%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "IRR solves 100 = 172.8 ÷ (1 + r)³, giving r = 20%; the holding-period ROI of 72.8% ignores time value.",
+   "hints": [
+    "Wrong: that is the simple average (72.8 ÷ 3).",
+    "Correct: 100 × 1.2³ = 172.80.",
+    "Wrong: too low.",
+    "Wrong: that is the absolute holding-period return."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-10",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "Which statement about the behaviour of DPI, RVPI and TVPI over a fund's life is INCORRECT?",
+   "options": [
+    "During vintage years most of the fund's value is captured in DPI",
+    "Before investing, TVPI is below 1 because fees and expenses reduce the corpus",
+    "As harvesting begins, DPI rises",
+    "At complete exit, RVPI becomes zero"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "During vintage years and growth cycles the fund's value is largely captured in unrealised value (RVPI); DPI rises only as the fund harvests investments.",
+   "hints": [
+    "Correct (the incorrect statement): in vintage years value sits mainly in RVPI.",
+    "Wrong choice: this is correct.",
+    "Wrong choice: this is correct.",
+    "Wrong choice: this is correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-11",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "In the workbook's Alpha Fund case, the gross FIRR was 25.45%, net FIRR 24.56% and investor FIRR 20.13%. The main reason investor FIRR is lower than net FIRR is:",
+   "options": [
+    "Management fees and fund expenses",
+    "Catch-up and carried interest paid to the manager under the waterfall",
+    "Taxes withheld at 30%",
+    "Currency depreciation"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Net FIRR already deducts fees and expenses; investor-level FIRR is lower still because final distributions follow the carry arrangement (catch-up 1,345 and carry 807).",
+   "hints": [
+    "Wrong: fees and expenses explain gross versus net.",
+    "Correct: the gap between net fund IRR and investor IRR reflects carry and catch-up.",
+    "Wrong: the case ignores taxes.",
+    "Wrong: no currency element in the case."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-12",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "Which of the following statements about due diligence review (DDR) of an investee company is correct?",
+   "options": [
+    "DDR is completed before the teaser is received",
+    "DDR commences only after the term sheet is executed, and the DDR report is generally not shared with the company",
+    "The DDR report is a public document filed with SEBI",
+    "The investee's statutory auditor conducts the legal DDR"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The due diligence process does not commence unless the term sheet is executed; a copy of the DDR report is generally not made available to the company.",
+   "hints": [
+    "Wrong: the teaser comes first.",
+    "Correct: both facts are stated in the workbook.",
+    "Wrong: DDR reports are confidential.",
+    "Wrong: legal DDR is done by a law firm."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-13",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "An investor wishes to buy promoter shares before they are offered to an outsider. The right that obliges a selling shareholder to first offer shares to existing holders is:",
+   "options": [
+    "Drag-along right",
+    "Liquidation preference",
+    "Affirmative right",
+    "Right of First Refusal / Right of First Offer"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Under ROFR/ROFO, a shareholder wishing to dispose of shares must first offer them to shareholders having the benefit of the right, before selling to third parties.",
+   "hints": [
+    "Wrong: forces others to sell.",
+    "Wrong: priority on liquidation proceeds.",
+    "Wrong: consent right over corporate actions.",
+    "Correct: ROFR/ROFO operate inter-se between shareholders."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-14",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "A distributor's client is a newly-wealthy entrepreneur who needs liquidity in 2 years and has low risk appetite. The distributor recommends a 10-year early-stage VC fund because it pays the highest commission. This is:",
+   "options": [
+    "Acceptable if the PPM is shared",
+    "Acceptable because AIFs are for HNIs",
+    "Acceptable if the investor signs a waiver",
+    "Commission-driven mis-selling and a breach of suitability"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Distributors must map investor objectives, tenure and liquidity needs to the fund; recommending schemes solely for higher commissions is a malpractice.",
+   "hints": [
+    "Wrong: sharing the PPM does not cure unsuitability.",
+    "Wrong: wealth alone does not establish suitability.",
+    "Wrong: waivers do not justify mis-selling.",
+    "Correct: product does not fit the risk profile and the motive is commission."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-15",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "As per the workbook, the distributor's understanding of an investor rests on three criteria. Which of the following is NOT one of them?",
+   "options": [
+    "Risk profile and investment requirements of the investor",
+    "Fund structure and governance aspects",
+    "Profile and performance track record of the investment manager",
+    "Expected distribution commission"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The three criteria are (1) the investor's risk profile and requirements, (2) fund structure and governance and (3) the manager's profile and track record.",
+   "hints": [
+    "Wrong choice: criterion (1).",
+    "Wrong choice: criterion (2).",
+    "Wrong choice: criterion (3).",
+    "Correct: commission is not a criterion."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-16",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "Which statement about using past performance in AIF marketing material is correct?",
+   "options": [
+    "Where past performance is mentioned, the benchmarking agency's performance-versus-benchmark report must also be provided",
+    "Past performance may never be mentioned in a PPM",
+    "Only gross IRR may be shown, without any benchmark",
+    "Past performance may be shown only for Category III AIFs"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "In the PPM and any marketing material where past performance is mentioned, the performance versus benchmark report from the benchmarking agencies shall also be provided.",
+   "hints": [
+    "Correct: SEBI requires the benchmark report alongside past performance.",
+    "Wrong: the PPM includes a track record section.",
+    "Wrong: the benchmark comparison is mandatory.",
+    "Wrong: applies to Cat I/II too."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-17",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "For Category I and II AIFs, benchmarking agencies construct benchmarks by vintage year mainly to:",
+   "options": [
+    "Rank funds by the size of management fees",
+    "Compare funds with similar first-close timelines on a uniform basis",
+    "Calculate tax liability of investors",
+    "Replace independent valuation"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Benchmarks based on vintage years bring uniformity in comparison of funds with similar first close timelines, using pooled IRR, DPI, RVPI and TVPI.",
+   "hints": [
+    "Wrong: not the purpose.",
+    "Correct: vintage-based benchmarks bring uniformity across funds with similar first close.",
+    "Wrong: not a tax tool.",
+    "Wrong: valuation is still required."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-18",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "A regular (non-AI, non-LVF) AIF files its first scheme's PPM on Day 0 but receives SEBI registration only on working day 15. From when can it launch the first scheme?",
+   "options": [
+    "From working day 15, the date of registration",
+    "From working day 10 after filing",
+    "Immediately on Day 0",
+    "From working day 30 after filing"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "First schemes can be launched from the date of grant of SEBI registration or after 10 working days of filing, whichever is later.",
+   "hints": [
+    "Correct: later of registration date or 10 working days after filing.",
+    "Wrong: registration was not yet granted.",
+    "Wrong: only AI-only funds/LVFs launch on filing (after registration).",
+    "Wrong: 30 days was the old timeline."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-19",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "Changes in the terms of the PPM of a Category I/II AIF must be intimated to investors and SEBI:",
+   "options": [
+    "On a consolidated basis within 1 month of the end of each financial year",
+    "Within 7 days of each change",
+    "Only at the time of winding up",
+    "Within 6 months of each quarter"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "All changes in terms of the PPM and fund documents shall be intimated to investors and SEBI on a consolidated basis within 1 month of the end of each financial year.",
+   "hints": [
+    "Correct: consolidated intimation within 1 month of FY end.",
+    "Wrong: not prescribed.",
+    "Wrong: too late.",
+    "Wrong: not prescribed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-20",
+   "chapter": 10,
+   "difficulty": "hard",
+   "q": "Which of the following is NOT a ground for winding up an AIF under Regulation 29?",
+   "options": [
+    "Expiry of the tenure of the AIF or all its schemes",
+    "A resolution passed by 51% of investors by value",
+    "Trustees' opinion that winding up is in investors' interest",
+    "SEBI directing so in the interest of investors"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "An AIF shall be wound up when tenure is over, trustees so opine, 75% of investors by value pass a resolution, or SEBI so directs.",
+   "hints": [
+    "Wrong choice: a valid ground.",
+    "Correct (not a ground): the resolution threshold is 75% of investors by value.",
+    "Wrong choice: a valid ground.",
+    "Wrong choice: a valid ground."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-21",
+   "chapter": 12,
+   "difficulty": "hard",
+   "q": "An AIF distributes ₹10 lakh of dividend income to a non-resident investor who has not obtained any lower-deduction certificate. The tax to be withheld is:",
+   "options": [
+    "₹1 lakh (10%)",
+    "Nil, as dividends pass through",
+    "₹3 lakh (30%)",
+    "₹2 lakh (20%)"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "For non-resident investors, tax is deducted at 20% if the income distributed is dividend; other income at rates in force or DTAA rates.",
+   "hints": [
+    "Wrong: 10% applies to residents.",
+    "Wrong: pass-through does not remove withholding.",
+    "Wrong: not the prescribed rate.",
+    "Correct: 20% on dividend income to non-residents."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-22",
+   "chapter": 13,
+   "difficulty": "medium",
+   "q": "Which of the following is the BEST description of a 'soft dollar arrangement' that distributors should abstain from?",
+   "options": [
+    "Paying commissions in foreign currency",
+    "Offering investors a discount on management fees via a side letter",
+    "The AIF using clients' money to pay for third-party or proprietary research that benefits the manager",
+    "Paying the custodian a fixed annual fee"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "In a soft dollar arrangement the AIF may use clients' money to pay for third-party and proprietary research; it can indirectly add to investor costs and is a conflict.",
+   "hints": [
+    "Wrong: unrelated.",
+    "Wrong: a side-letter term, not soft dollars.",
+    "Correct: such arrangements indirectly raise costs borne by investors.",
+    "Wrong: ordinary service fee."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M7-23",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "Based on the case, can Udaan declare its first close next week?",
+   "options": [
+    "No, it must on-board at least 5 accredited investors before declaring first close",
+    "Yes, 4 accredited investors are sufficient",
+    "Yes, as long as each invests ₹1 crore",
+    "No, it must first raise a corpus of ₹20 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "An Angel Fund shall on-board at least 5 accredited investors before declaring its first close; no minimum investment value applies to angel investors.",
+   "hints": [
+    "Correct: minimum of five accredited investors.",
+    "Wrong: four is one short.",
+    "Wrong: no minimum investment applies to angel investors.",
+    "Wrong: the requirement cited is the number of AIs."
+   ],
+   "numeric": false,
+   "case": "Udaan Angel Fund was recently registered with SEBI as an Angel Fund. So far it has on-boarded 4 accredited investors and wants to declare its first close next week. Its manager is evaluating three proposals: (a) investing ₹30 crore in FinBuddy, a fintech start-up; (b) investing ₹2 crore in GreenLeaf, a start-up promoted by a corporate group with group turnover of ₹450 crore; and (c) selling its stake in an existing investee to an unrelated third-party buyer 7 months after the investment was made."
+  },
+  {
+   "id": "xixa-M7-24",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "What about proposal (a), investing ₹30 crore in FinBuddy?",
+   "options": [
+    "Permitted, as there is no upper limit",
+    "Permitted if approved by two-thirds of investors",
+    "Not permitted, as the maximum is ₹10 lakh",
+    "Not permitted, as an angel fund's investment in an investee cannot exceed ₹25 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Investment by an angel fund in any investee company shall not be less than ₹10 lakh and shall not exceed ₹25 crore (including follow-ons).",
+   "hints": [
+    "Wrong: an upper limit exists.",
+    "Wrong: no approval overrides this limit.",
+    "Wrong: ₹10 lakh is the minimum, not maximum.",
+    "Correct: the band is ₹10 lakh to ₹25 crore."
+   ],
+   "numeric": false,
+   "case": "Udaan Angel Fund was recently registered with SEBI as an Angel Fund. So far it has on-boarded 4 accredited investors and wants to declare its first close next week. Its manager is evaluating three proposals: (a) investing ₹30 crore in FinBuddy, a fintech start-up; (b) investing ₹2 crore in GreenLeaf, a start-up promoted by a corporate group with group turnover of ₹450 crore; and (c) selling its stake in an existing investee to an unrelated third-party buyer 7 months after the investment was made."
+  },
+  {
+   "id": "xixa-M7-25",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "What about proposal (b), GreenLeaf, promoted by a corporate group with turnover of ₹450 crore?",
+   "options": [
+    "Eligible, since the investment of ₹2 crore is within limits",
+    "Eligible, since group turnover is irrelevant",
+    "Not eligible, as angel funds may invest only in start-ups not related to a group whose turnover exceeds ₹300 crore",
+    "Not eligible, since the minimum investment is ₹5 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Angel funds shall invest in start-ups not promoted, sponsored by or related to a corporate group whose group turnover exceeds ₹300 crore.",
+   "hints": [
+    "Wrong: ticket size does not cure ineligibility.",
+    "Wrong: group turnover is a criterion.",
+    "Correct: the ₹300 crore group-turnover test fails.",
+    "Wrong: minimum is ₹10 lakh."
+   ],
+   "numeric": false,
+   "case": "Udaan Angel Fund was recently registered with SEBI as an Angel Fund. So far it has on-boarded 4 accredited investors and wants to declare its first close next week. Its manager is evaluating three proposals: (a) investing ₹30 crore in FinBuddy, a fintech start-up; (b) investing ₹2 crore in GreenLeaf, a start-up promoted by a corporate group with group turnover of ₹450 crore; and (c) selling its stake in an existing investee to an unrelated third-party buyer 7 months after the investment was made."
+  },
+  {
+   "id": "xixa-M7-26",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "What about proposal (c), selling to an unrelated third party 7 months after investment?",
+   "options": [
+    "Not permitted, since all angel investments are locked in for 1 year",
+    "Permitted, since the lock-in is 6 months for exit through sale to a third party",
+    "Not permitted, since the lock-in is 3 years",
+    "Permitted only after SEBI approval"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Angel fund investments are locked in for 1 year; if exit is through sale to a third party (not promoters/associates or buyback), the lock-in is 6 months.",
+   "hints": [
+    "Wrong: the 1-year lock-in is relaxed for third-party sales.",
+    "Correct: 6-month lock-in applies for third-party sales.",
+    "Wrong: no such lock-in.",
+    "Wrong: no SEBI approval needed."
+   ],
+   "numeric": false,
+   "case": "Udaan Angel Fund was recently registered with SEBI as an Angel Fund. So far it has on-boarded 4 accredited investors and wants to declare its first close next week. Its manager is evaluating three proposals: (a) investing ₹30 crore in FinBuddy, a fintech start-up; (b) investing ₹2 crore in GreenLeaf, a start-up promoted by a corporate group with group turnover of ₹450 crore; and (c) selling its stake in an existing investee to an unrelated third-party buyer 7 months after the investment was made."
+  },
+  {
+   "id": "xixa-M7-27",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "Based on the case, the relative (P/E based) value per share of Bharat Foods is:",
+   "options": [
+    "₹720",
+    "₹200",
+    "₹360",
+    "₹20"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "EPS = PAT ÷ shares = ₹40 crore ÷ 2 crore = ₹20; price = P/E × EPS = 18 × 20 = ₹360.",
+   "hints": [
+    "Wrong: that is total equity value in crore.",
+    "Wrong: arithmetic error.",
+    "Correct: EPS = 40 ÷ 2 = ₹20; 18 × 20 = ₹360.",
+    "Wrong: that is EPS."
+   ],
+   "numeric": true,
+   "case": "An AIF manager is valuing Bharat Foods Pvt Ltd for a follow-on investment. Bharat Foods has profit after tax of ₹40 crore and 2 crore equity shares outstanding. Comparable listed peers trade at a P/E multiple of 18. The company has debt of ₹200 crore, cash of ₹20 crore and no preference capital; its EBITDA is ₹90 crore. For the DCF cross-check, the risk-free rate is 7%, expected market return is 15% and the company's equity beta is estimated at 1.3."
+  },
+  {
+   "id": "xixa-M7-28",
+   "chapter": 11,
+   "difficulty": "hard",
+   "q": "Using the P/E-based equity value, what is Bharat Foods' Enterprise Value?",
+   "options": [
+    "₹940 crore",
+    "₹920 crore",
+    "₹540 crore",
+    "₹900 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Equity value = ₹360 × 2 crore = ₹720 crore; EV = equity + debt − cash + preference = 720 + 200 − 20 = ₹900 crore.",
+   "hints": [
+    "Wrong: added cash instead of deducting.",
+    "Wrong: ignored cash.",
+    "Wrong: subtracted debt.",
+    "Correct: 720 + 200 − 20 = ₹900 crore."
+   ],
+   "numeric": true,
+   "case": "An AIF manager is valuing Bharat Foods Pvt Ltd for a follow-on investment. Bharat Foods has profit after tax of ₹40 crore and 2 crore equity shares outstanding. Comparable listed peers trade at a P/E multiple of 18. The company has debt of ₹200 crore, cash of ₹20 crore and no preference capital; its EBITDA is ₹90 crore. For the DCF cross-check, the risk-free rate is 7%, expected market return is 15% and the company's equity beta is estimated at 1.3."
+  },
+  {
+   "id": "xixa-M7-29",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "What is the implied EV/EBITDA multiple?",
+   "options": [
+    "8.0x",
+    "10.0x",
+    "18.0x",
+    "22.5x"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "EV/EBITDA = 900 ÷ 90 = 10.0x.",
+   "hints": [
+    "Wrong: used equity value (720 ÷ 90).",
+    "Correct: 900 ÷ 90 = 10.",
+    "Wrong: that is the P/E multiple.",
+    "Wrong: arithmetic error."
+   ],
+   "numeric": true,
+   "case": "An AIF manager is valuing Bharat Foods Pvt Ltd for a follow-on investment. Bharat Foods has profit after tax of ₹40 crore and 2 crore equity shares outstanding. Comparable listed peers trade at a P/E multiple of 18. The company has debt of ₹200 crore, cash of ₹20 crore and no preference capital; its EBITDA is ₹90 crore. For the DCF cross-check, the risk-free rate is 7%, expected market return is 15% and the company's equity beta is estimated at 1.3."
+  },
+  {
+   "id": "xixa-M7-30",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "Using CAPM, Bharat Foods' cost of equity (before any illiquidity premium) is:",
+   "options": [
+    "19.5%",
+    "17.4%",
+    "15.0%",
+    "10.4%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Ke = Rf + β × (ER − Rf) = 7% + 1.3 × 8% = 17.4%; for an unlisted company an illiquidity premium may be added.",
+   "hints": [
+    "Wrong: 1.3 × 15%.",
+    "Correct: 7% + 1.3 × (15% − 7%) = 17.4%.",
+    "Wrong: that is the market return.",
+    "Wrong: omitted the risk-free rate."
+   ],
+   "numeric": true,
+   "case": "An AIF manager is valuing Bharat Foods Pvt Ltd for a follow-on investment. Bharat Foods has profit after tax of ₹40 crore and 2 crore equity shares outstanding. Comparable listed peers trade at a P/E multiple of 18. The company has debt of ₹200 crore, cash of ₹20 crore and no preference capital; its EBITDA is ₹90 crore. For the DCF cross-check, the risk-free rate is 7%, expected market return is 15% and the company's equity beta is estimated at 1.3."
+  }
+ ]
+}

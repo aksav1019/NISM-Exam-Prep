@@ -1,0 +1,233 @@
+{
+  "id": "mock-3",
+  "title": "Mock 3 · Distribution & Performance",
+  "level": "easy",
+  "blurb": "Distributor rules, returns and risk, plus taxation basics and everyday investor services.",
+  "questions": [
+    {
+      "id": "vb-M3-01", "chapter": 1, "difficulty": "easy",
+      "q": "A family's monthly expenses are ₹40,000 today. If inflation is 5% p.a., what will the same lifestyle cost per month next year?",
+      "options": ["₹40,500", "₹42,000", "₹44,000", "₹45,000"],
+      "answer": 1, "marks": 1,
+      "explanation": "₹40,000 × 1.05 = ₹42,000.",
+      "hints": ["Uses 1.25% instead of 5%.", "Correct.", "Uses 10%.", "Uses 12.5%."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M3-02", "chapter": 1, "difficulty": "easy",
+      "q": "In which phase of retirement do products such as annuities typically come into the picture?",
+      "options": ["Accumulation phase", "Protection phase", "Transaction phase", "Distribution (post-retirement) phase"],
+      "answer": 3, "marks": 1,
+      "explanation": "Retirement has an accumulation (pre-retirement) phase and a distribution (post-retirement) phase; annuities come in during distribution.",
+      "hints": ["The accumulation phase uses ordinary investment products.", "Not a retirement phase.", "Not a retirement phase.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-03", "chapter": 2, "difficulty": "easy",
+      "q": "A multi-cap fund must invest at least what share of total assets in EACH of large-cap, mid-cap and small-cap stocks?",
+      "options": ["25%", "33%", "20%", "35%"],
+      "answer": 0, "marks": 1,
+      "explanation": "Multi-cap: minimum 75% in equity, with at least 25% each in large, mid and small caps.",
+      "hints": ["Correct.", "Not the SEBI figure.", "Not the SEBI figure.", "35% is the large & mid cap fund rule."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-04", "chapter": 2, "difficulty": "easy",
+      "q": "What is the minimum investment in equity and equity-related instruments for an ELSS?",
+      "options": ["65% of total assets", "75% of total assets", "80% of total assets", "95% of total assets"],
+      "answer": 2, "marks": 1,
+      "explanation": "ELSS must invest at least 80% in equity, per the Equity Linked Saving Scheme, 2005.",
+      "hints": ["65% is for mid cap, small cap and flexi cap funds.", "75% is the multi-cap total.", "Correct.", "95% is for index funds and FoFs."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-05", "chapter": 2, "difficulty": "easy",
+      "q": "Why does the unit capital of an open-ended scheme keep changing?",
+      "options": ["Because the face value is revised daily", "Because units are listed on an exchange", "Because SEBI resets it every quarter", "Because new units are created on purchases and cancelled on redemptions"],
+      "answer": 3, "marks": 1,
+      "explanation": "In an open-ended fund, investors continuously enter (units created) and exit (units cancelled), so unit capital changes regularly.",
+      "hints": ["Face value stays at ₹10.", "Exchange trades don't change unit capital; that is why close-ended unit capital is fixed.", "No such rule.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-06", "chapter": 3, "difficulty": "easy",
+      "q": "To sponsor a mutual fund, the sponsor should have been carrying on business in financial services for at least:",
+      "options": ["3 years", "5 years", "10 years", "2 years"],
+      "answer": 1, "marks": 1,
+      "explanation": "The sponsor needs at least 5 years in financial services and positive net worth in all of the immediately preceding 5 years.",
+      "hints": ["Too short.", "Correct.", "Too long.", "Too short."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-07", "chapter": 3, "difficulty": "easy",
+      "q": "The auditor of the mutual fund SCHEMES is appointed by:",
+      "options": ["The AMC", "SEBI", "The trustees", "The sponsor"],
+      "answer": 2, "marks": 1,
+      "explanation": "Scheme accounts are kept separate from AMC accounts. The scheme auditor is appointed by the trustees and must differ from the AMC's auditor, whom the AMC appoints.",
+      "hints": ["The AMC appoints its own auditor.", "SEBI doesn't appoint auditors.", "Correct.", "Not the sponsor."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-08", "chapter": 4, "difficulty": "easy",
+      "q": "Why do index funds have a very low total expense ratio?",
+      "options": ["Because the fund manager does not have to choose securities; the portfolio mirrors the index", "Because they pay no stamp duty", "Because they are close-ended", "Because SEBI subsidises them"],
+      "answer": 0, "marks": 1,
+      "explanation": "Index funds are passive: the fund manager only manages flows and tracks the index, so costs are low, and SEBI allows a lower maximum expense limit.",
+      "hints": ["Correct.", "Stamp duty applies to all purchases.", "Index funds are typically open-ended.", "No subsidy exists."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-09", "chapter": 4, "difficulty": "easy",
+      "q": "For a scheme to be distributed by the new cadre of distributors, its returns must be:",
+      "options": ["At least 12% p.a. for 5 years", "Positive in the last one year", "Equal to or better than its benchmark returns in each of the last three years", "Higher than the category average over 10 years"],
+      "answer": 2, "marks": 1,
+      "explanation": "Only 'simple and performing' schemes qualify: returns equal to or better than the scheme benchmark during each of the last three years.",
+      "hints": ["No absolute return test.", "Benchmark-relative and three years.", "Correct.", "Not the rule."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-10", "chapter": 5, "difficulty": "easy",
+      "q": "The annual report (or abridged summary) must be emailed to investors with registered email IDs within how long of the close of the financial year?",
+      "options": ["One month", "Two months", "Six months", "Four months"],
+      "answer": 3, "marks": 1,
+      "explanation": "It must be hosted on the AMC and AMFI websites and emailed no later than four months from 31 March.",
+      "hints": ["One month is for half-yearly unaudited results.", "Not the rule.", "Too long.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-11", "chapter": 5, "difficulty": "easy",
+      "q": "Interim changes to the SID/KIM before their periodic update are communicated through:",
+      "options": ["An addendum", "A new trust deed", "A fresh NFO", "The fund factsheet"],
+      "answer": 0, "marks": 1,
+      "explanation": "Interim changes are issued as an addendum, which is part of the scheme documents and must accompany KIM/SID copies in stock.",
+      "hints": ["Correct.", "The trust deed is not used for this.", "No NFO is needed.", "The factsheet is voluntary and not part of the documents."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-12", "chapter": 5, "difficulty": "easy",
+      "q": "When disclosing a scheme's performance against its benchmark, AMCs must also disclose:",
+      "options": ["The fund manager's salary", "The risk-o-meter of both the scheme and the benchmark", "The list of all distributors", "The trustee meeting minutes"],
+      "answer": 1, "marks": 1,
+      "explanation": "Mutual funds must disclose the risk-o-meter of the scheme and the benchmark along with performance versus benchmark.",
+      "hints": ["Not required.", "Correct.", "Not required.", "Not required."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-13", "chapter": 6, "difficulty": "easy",
+      "q": "An investor changes the distributor code in her folio from Distributor A to Distributor B. What happens to the trail commission?",
+      "options": ["It continues to A for life", "It shifts to B from the next day", "It is split equally between A and B", "Neither A nor B gets trail for 12 months from the change"],
+      "answer": 3, "marks": 1,
+      "explanation": "To stop poaching, no commission is paid to either distributor for a cooling-off period of 12 months after an investor-initiated change (unless A had voluntarily ceased business).",
+      "hints": ["A's trail stops.", "B must wait out the cooling-off period.", "No splitting rule exists.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-14", "chapter": 6, "difficulty": "easy",
+      "q": "A client wants a scheme that the distributor believes is not appropriate for him. Under the 'execution only' route, the distributor must:",
+      "options": ["Refuse the transaction outright", "Process it silently", "Give a written communication about the unsuitability and obtain the investor's confirmation before executing", "Charge an advisory fee"],
+      "answer": 2, "marks": 1,
+      "explanation": "For execution-only transactions, the distributor must inform the investor in writing about the unsuitability, which the investor must acknowledge, and get a confirmation that it is 'execution only'.",
+      "hints": ["Refusal isn't required.", "Silent processing breaches due diligence.", "Correct.", "Distributors can't charge advisory fees."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-15", "chapter": 7, "difficulty": "easy",
+      "q": "₹1,00,000 grows at 8% compounded annually for 5 years. Approximately what will it be worth?",
+      "options": ["₹1,40,000", "₹1,46,933", "₹1,50,000", "₹1,08,000"],
+      "answer": 1, "marks": 1,
+      "explanation": "1,00,000 × 1.08^5 = ₹1,46,933. Simple interest would give only ₹1,40,000; the difference is the compounding effect.",
+      "hints": ["That is simple interest.", "Correct.", "Overstated.", "That is only one year."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M3-16", "chapter": 7, "difficulty": "easy",
+      "q": "How does a Total Return Index (TRI) differ from a Price Return Index (PRI)?",
+      "options": ["TRI includes dividends/interest from constituents in addition to price changes", "TRI excludes capital gains", "TRI is used only for debt funds", "There is no difference"],
+      "answer": 0, "marks": 1,
+      "explanation": "PRI captures only price movement; TRI also adds dividends/interest, notionally reinvested. Schemes are benchmarked to TRI from 1 Feb 2018.",
+      "hints": ["Correct.", "TRI includes capital gains too.", "Used for all schemes.", "The dividend is the difference."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-17", "chapter": 7, "difficulty": "easy",
+      "q": "Which type of risk CANNOT be reduced by diversifying across more companies?",
+      "options": ["Company-specific risk", "Risk of a labour strike at one firm", "Unsystematic risk", "Systematic (market) risk"],
+      "answer": 3, "marks": 1,
+      "explanation": "Systematic risks such as inflation affect the whole market and are non-diversifiable. Company-specific (unsystematic) risk can be diversified away.",
+      "hints": ["Diversifiable.", "That is company-specific, so diversifiable.", "Diversifiable.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-18", "chapter": 8, "difficulty": "easy",
+      "q": "For income-tax purposes, a scheme is 'equity-oriented' if it invests more than what share of its assets in domestic listed equity shares?",
+      "options": ["50%", "80%", "65%", "35%"],
+      "answer": 2, "marks": 1,
+      "explanation": "Schemes holding more than 65% in equity shares listed on recognised Indian exchanges are equity-oriented; all others are non-equity-oriented.",
+      "hints": ["Below the threshold.", "80% is a SEBI category limit, not the tax test.", "Correct.", "35% marks the lower edge of the hybrid tax band."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-19", "chapter": 8, "difficulty": "easy",
+      "q": "Securities Transaction Tax (STT) is payable by an investor in an equity-oriented fund when:",
+      "options": ["Buying units in the NFO", "Buying units through SIP", "Receiving IDCW", "Redeeming or selling units"],
+      "answer": 3, "marks": 1,
+      "explanation": "STT applies only on redemption, switch-out or sale of equity-oriented units (0.001% when sold to the MF). It is nil on purchase and doesn't apply to debt funds.",
+      "hints": ["Nil on purchase.", "Nil on purchase.", "Not an STT event.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-20", "chapter": 9, "difficulty": "easy",
+      "q": "What is the maximum an investor may invest through e-wallets and cash combined in a mutual fund in a financial year?",
+      "options": ["₹10,000", "₹1,00,000", "₹50,000", "₹2,00,000"],
+      "answer": 2, "marks": 1,
+      "explanation": "Subscriptions via e-wallets are capped at ₹50,000 per investor per financial year, an umbrella limit for e-wallet and cash per mutual fund.",
+      "hints": ["Too low.", "Too high.", "Correct.", "Too high."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-21", "chapter": 9, "difficulty": "easy",
+      "q": "The Instant Access Facility (same-day credit of redemption proceeds) can be offered in which schemes?",
+      "options": ["Only liquid schemes", "All debt schemes", "ELSS", "All open-ended schemes"],
+      "answer": 0, "marks": 1,
+      "explanation": "IAF can be offered only in liquid schemes, up to the lower of ₹50,000 or 90% of the investment value per day per scheme per investor.",
+      "hints": ["Correct.", "Only liquid schemes.", "ELSS has a lock-in.", "Only liquid schemes."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-22", "chapter": 9, "difficulty": "easy",
+      "q": "Why is a SIP also called 'rupee cost averaging'?",
+      "options": ["Because units are always bought at face value", "Because a fixed amount buys more units when NAV is low and fewer when NAV is high, lowering average cost", "Because the NAV is averaged by the AMC", "Because exit loads are averaged"],
+      "answer": 1, "marks": 1,
+      "explanation": "Investing a constant amount at regular intervals buys more units at low prices, so the average cost per unit falls below the average NAV over the period.",
+      "hints": ["Units are bought at NAV.", "Correct.", "The AMC doesn't average NAVs.", "Loads are irrelevant here."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-23", "chapter": 9, "difficulty": "easy",
+      "q": "When an investor invests through a Power of Attorney holder, whose KYC is required?",
+      "options": ["Only the investor's", "Only the PoA holder's", "Neither, if the amount is small", "Both the investor's and the PoA holder's"],
+      "answer": 3, "marks": 1,
+      "explanation": "Both the investor and the PoA holder must be KYC compliant. A PoA holder cannot apply for KYC on behalf of the PoA issuer.",
+      "hints": ["The PoA holder also needs KYC.", "The investor also needs KYC.", "KYC applies irrespective of amount.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-24", "chapter": 10, "difficulty": "easy",
+      "q": "An investor claims an unclaimed redemption amount 4 years after it became due. At which NAV will the payment be made?",
+      "options": ["NAV at the end of 3 years", "The prevailing NAV on the claim date", "The original redemption NAV, without any income", "Face value of ₹10"],
+      "answer": 0, "marks": 1,
+      "explanation": "Claims within 3 years are paid at the prevailing NAV; claims after 3 years are paid at the NAV at the end of 3 years.",
+      "hints": ["Correct.", "Only for claims within 3 years.", "Income on the unclaimed money is added up to 3 years.", "Not relevant."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M3-25", "chapter": 10, "difficulty": "easy",
+      "q": "When AMFI receives a complaint of a Code of Conduct breach against an intermediary, it first writes asking for an explanation within:",
+      "options": ["7 days", "30 days", "3 weeks", "3 months"],
+      "answer": 2, "marks": 1,
+      "explanation": "AMFI asks for an explanation within 3 weeks. If none is received or it is unsatisfactory, a warning letter follows; a proven second violation leads to cancellation of registration.",
+      "hints": ["Not the window.", "Not the window.", "Correct.", "Not the window."],
+      "numeric": false, "case": null
+    }
+  ]
+}

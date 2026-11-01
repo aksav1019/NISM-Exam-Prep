@@ -1,0 +1,583 @@
+{
+ "id": "mock-3",
+ "title": "Mock 3 · Balanced Lap",
+ "level": "easy",
+ "blurb": "Even spread across all chapters, with a CPPI rebalancing caselet.",
+ "questions": [
+  {
+   "id": "xxib-M3-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "If the real risk-free rate is 3% and expected inflation is 5%, the nominal risk-free rate as computed in the workbook is:",
+   "options": [
+    "8.00%",
+    "8.15%",
+    "2.00%",
+    "15.00%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "NRR = [(1 + real) x (1 + inflation)] - 1 = 1.0815 - 1 = 8.15% (Section 1.4.1).",
+   "hints": [
+    "Simple addition ignores the cross term.",
+    "(1.03 x 1.05) - 1 = 8.15%.",
+    "Subtracts instead of compounding.",
+    "Multiplies the percentages."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-02",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "A company has a market capitalisation of ₹800 crore, market value of debt of ₹300 crore and excess cash of ₹100 crore. Its enterprise value is:",
+   "options": [
+    "₹1,200 crore",
+    "₹1,100 crore",
+    "₹1,000 crore",
+    "₹600 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "EV = market cap of equity + market value of debt - excess cash (Section 3.4).",
+   "hints": [
+    "Adds cash instead of subtracting.",
+    "Ignores the cash.",
+    "800 + 300 - 100 = 1,000.",
+    "Subtracts debt."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-03",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which bond has a Macaulay duration exactly equal to its remaining maturity?",
+   "options": [
+    "A high-coupon bond trading at a premium",
+    "A floating rate bond",
+    "A callable bond",
+    "A zero-coupon bond"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 4.5.2.1: only a zero-coupon bond has duration equal to its remaining maturity.",
+   "hints": [
+    "Coupons reduce duration below maturity.",
+    "A floater's duration is only to the next reset.",
+    "Call features shorten effective life.",
+    "Correct: no interim cash flows."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-04",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "The buyer of an option contract has:",
+   "options": [
+    "The right, but not the obligation, to buy or sell the underlying, for which a premium is paid",
+    "An obligation to buy the underlying at expiry",
+    "An obligation to pay margin to the option writer daily",
+    "The right to receive a premium from the seller"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Options give the buyer a right, not an obligation; the buyer pays a premium to the seller (Chapter 5).",
+   "hints": [
+    "Correct.",
+    "Obligation lies with the seller (writer).",
+    "Buyers pay premium margin; the seller faces margin calls.",
+    "The buyer PAYS the premium."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-05",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "For a mutual fund scheme that has existed for more than three years, performance advertisements must show CAGR for:",
+   "options": [
+    "Only since inception",
+    "The last 7, 15 and 30 days",
+    "1 year, 3 years, 5 years and since inception, with benchmark returns",
+    "The best-performing year only"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 6.11: CAGR for 1, 3, 5 years and since inception with benchmark; also point-to-point value of ₹10,000.",
+   "hints": [
+    "Incomplete.",
+    "That is for liquid and money market schemes.",
+    "Correct.",
+    "Cherry-picking is not allowed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-06",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A portfolio manager must keep the funds of all clients in a separate account maintained with:",
+   "options": [
+    "Any co-operative bank",
+    "The custodian's own account",
+    "A non-banking finance company",
+    "A Scheduled Commercial Bank"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 7.5: funds of all clients in a separate account maintained in a Scheduled Commercial Bank.",
+   "hints": [
+    "Must be a Scheduled Commercial Bank (Second Schedule to RBI Act).",
+    "Funds are kept in a bank account, not custodian's own.",
+    "Not permitted.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-07",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "When a portfolio manager aggregates purchases for several clients for economies of scale, the securities must be allocated:",
+   "options": [
+    "Pro rata, at the weighted average price of the day's transactions, with no open position left",
+    "First to the largest client at the lowest price",
+    "At the manager's discretion at any price",
+    "Equally among all clients regardless of portfolio size"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 7.6.3 (Don'ts, point 11): inter se allocation on a pro rata basis at the weighted average price of the day; no open positions.",
+   "hints": [
+    "Correct.",
+    "Unfair allocation.",
+    "Allocation must be pro rata at weighted average price.",
+    "Must be pro rata, not equal."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-08",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Operating expenses charged by a portfolio manager, excluding brokerage and over and above the PMS fees, cannot exceed:",
+   "options": [
+    "1% per annum of the closing AUM",
+    "0.50% per annum of the client's average daily AUM",
+    "2.5% of the initial investment",
+    "0.25% per quarter of the opening AUM"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "SEBI circular of 13 February 2020: operating expenses excluding brokerage shall not exceed 0.50% p.a. of average daily AUM.",
+   "hints": [
+    "Not the cap.",
+    "Correct.",
+    "Not the cap.",
+    "Not the cap."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-09",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Under SEBI's direct onboarding requirement for PMS, when a client is onboarded directly:",
+   "options": [
+    "A reduced upfront fee may be charged",
+    "A distribution fee is still payable to APMI",
+    "The minimum investment drops to ₹25 lakh",
+    "No charges except statutory charges can be levied"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 8.4: at the time of direct onboarding no charges except statutory charges shall be levied (not applicable to co-investment PMS).",
+   "hints": [
+    "Upfront fees are not allowed at all.",
+    "No such fee.",
+    "The ₹50 lakh minimum still applies.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-10",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "In the life-cycle of investing, the phase in which living expenses are met from accumulated assets rather than earned income is the:",
+   "options": [
+    "Spending phase",
+    "Accumulation phase",
+    "Consolidation phase",
+    "Gifting phase"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 9.3.9: in the spending phase living expenses are covered from investments; focus is stability.",
+   "hints": [
+    "Correct.",
+    "Early career, building assets.",
+    "Mid-to-late career, income exceeds expenses.",
+    "Assets exceed needs; legacy giving."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-11",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Gains on transfer of listed equity shares are treated as long-term capital gains when the shares are held for:",
+   "options": [
+    "More than 24 months",
+    "More than 12 months",
+    "More than 36 months",
+    "12 months or less"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 10.2.1: listed securities, equity MF units, UTI units and zero-coupon bonds: long term if held more than 12 months.",
+   "hints": [
+    "Applies to unlisted shares and other securities.",
+    "Correct.",
+    "Not the workbook's period.",
+    "That is short term."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-12",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "Under the SEBI insider trading code for intermediaries, pre-cleared trades must be executed within:",
+   "options": [
+    "30 calendar days",
+    "6 months",
+    "Not more than 7 trading days",
+    "One trading day"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 11.2: the timeframe for executing pre-cleared trades shall not be more than seven trading days.",
+   "hints": [
+    "Too long.",
+    "6 months is the minimum contra-trade restriction.",
+    "Correct; otherwise fresh pre-clearance is needed.",
+    "Too short; not the rule."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-13",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "Which of the following is deemed a fraudulent or unfair trade practice under SEBI PFUTP Regulations, 2003?",
+   "options": [
+    "A market participant trading on behalf of a client without the client's knowledge or instructions",
+    "Placing a limit order on a stock exchange",
+    "Publishing audited financial results on time",
+    "Hedging a portfolio with index futures"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 11.3: transactions on behalf of a client without knowledge/instructions, or misusing client funds held in fiduciary capacity, are fraudulent.",
+   "hints": [
+    "Correct: listed in Regulation clause (j).",
+    "Normal trading.",
+    "A legitimate disclosure.",
+    "Legitimate risk management."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-14",
+   "chapter": 12,
+   "difficulty": "medium",
+   "q": "In a price-weighted index, one stock undergoes a 2-for-1 split. What happens?",
+   "options": [
+    "The divisor stays the same; the index falls",
+    "The index value stays the same; the divisor is reduced",
+    "Both index and divisor stay the same",
+    "The index doubles"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Illustration 12.1: after a split, the divisor is adjusted (e.g. 3.7 to 3.2) so the index level is unchanged.",
+   "hints": [
+    "That would create an artificial fall.",
+    "Correct: divisor adjusted to keep the level.",
+    "The sum of prices changes, so the divisor must change.",
+    "Splits do not change value."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-15",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Small firms consistently earning higher risk-adjusted returns than large firms is called the:",
+   "options": [
+    "January effect",
+    "Value anomaly",
+    "Size anomaly",
+    "Momentum effect"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 13.4.2: firm size anomaly; small cap portfolios are a direct outcome.",
+   "hints": [
+    "Relates to year-end tax-loss selling.",
+    "Relates to book-to-price ratios.",
+    "Correct.",
+    "Not one of the EMH anomalies listed in Ch 13."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-16",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "A stock may return 30%, 12% or -5% with probabilities 0.2, 0.5 and 0.3. Its expected return is:",
+   "options": [
+    "12.3%",
+    "13.0%",
+    "9.0%",
+    "10.5%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Ex-ante expected return = Σ pᵢRᵢ = 10.5% (Section 15.4).",
+   "hints": [
+    "Arithmetic error.",
+    "Simple average of the three outcomes is 12.33%; this is also wrong.",
+    "Ignores part of the distribution.",
+    "0.2 x 30 + 0.5 x 12 + 0.3 x (-5) = 6 + 6 - 1.5 = 10.5%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-17",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "Using CAPM, what is the required return on a stock with a beta of 1.4 if the risk-free rate is 7% and the market risk premium is 8%?",
+   "options": [
+    "11.2%",
+    "18.2%",
+    "15.0%",
+    "21.0%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "E(R) = Rf + β(Rm - Rf) = 7% + 1.4 x 8% = 18.2%.",
+   "hints": [
+    "Omits the risk-free rate.",
+    "7 + 1.4 x 8 = 18.2%.",
+    "Ignores beta.",
+    "Multiplies (7 + 8) by 1.4."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-18",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "Value at Risk (VaR) is best described as:",
+   "options": [
+    "The worst possible loss in any scenario",
+    "The average loss on all losing days",
+    "The estimated maximum loss over a given period at a given confidence level under normal market conditions",
+    "The probability that the portfolio loses money"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 17.4.2: VaR = maximum potential loss over a period, with a given probability, under particular (normal) market conditions.",
+   "hints": [
+    "VaR does not capture worst-case tail losses.",
+    "That is closer to expected shortfall, not VaR.",
+    "Correct.",
+    "VaR is an amount, not a probability."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-19",
+   "chapter": 18,
+   "difficulty": "easy",
+   "q": "A manager making forecasts that turn out right 60 times out of 80 has an Information Coefficient of:",
+   "options": [
+    "0.75",
+    "0.25",
+    "1.50",
+    "0.50"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "IC = 2 x (right predictions/total predictions) - 1 = 2 x 0.75 - 1 = 0.5 (Section 18.3.1).",
+   "hints": [
+    "That is the hit rate, not IC.",
+    "1 - 0.75.",
+    "2 x 0.75 without subtracting 1.",
+    "2 x (60/80) - 1 = 0.5."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-20",
+   "chapter": 18,
+   "difficulty": "easy",
+   "q": "Excluding companies involved in alcohol, tobacco, gambling and weapons from an SRI portfolio is called:",
+   "options": [
+    "Negative screening",
+    "Positive screening",
+    "Best-in-class screening",
+    "Factor tilting"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 18.9.1: negative screening excludes restricted businesses.",
+   "hints": [
+    "Correct.",
+    "Positive screening ranks and picks high ESG scorers.",
+    "Picks the highest rated in each sector.",
+    "Not an SRI screening approach in the workbook."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-21",
+   "chapter": 19,
+   "difficulty": "medium",
+   "q": "An investor with a liability due in 8 years wants to immunize perfectly using a single instrument. The theoretically best choice is:",
+   "options": [
+    "A 20-year coupon bond",
+    "A floating rate bond maturing in 8 years",
+    "A zero-coupon bond maturing in 8 years",
+    "A portfolio of 1-year T-bills rolled over"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 19.2.3: a zero-coupon bond with matching maturity is theoretically the best portfolio to immunize against interest rate risk.",
+   "hints": [
+    "Duration mismatch and price risk.",
+    "Floater duration is only to the next reset.",
+    "Correct: no reinvestment risk; duration equals maturity.",
+    "Exposes the investor to reinvestment risk."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-22",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "A portfolio returns 16% with a standard deviation of 20% when the risk-free rate is 6%. Its Sharpe ratio is:",
+   "options": [
+    "0.80",
+    "0.30",
+    "1.25",
+    "0.50"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Sharpe = (Rp - Rf)/σp = 10/20 = 0.5.",
+   "hints": [
+    "16/20 without subtracting Rf.",
+    "6/20.",
+    "20/16.",
+    "(16 - 6)/20 = 0.5."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M3-23",
+   "chapter": 21,
+   "difficulty": "easy",
+   "q": "How much should initially be invested in the risky asset?",
+   "options": [
+    "₹120 lakh",
+    "₹40 lakh",
+    "₹80 lakh",
+    "₹160 lakh"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "CPPI: risky exposure = m x (portfolio value - floor) = 3 x 40 = ₹120 lakh.",
+   "hints": [
+    "3 x (200 - 160) = ₹120 lakh.",
+    "That is the cushion, not the exposure.",
+    "That is the risk-free allocation.",
+    "That is the floor."
+   ],
+   "numeric": true,
+   "case": "A family office gives a portfolio manager ₹200 lakh with an instruction that the portfolio must not fall below a floor of ₹160 lakh. The manager runs a CPPI strategy with a multiplier of 3, investing the rest in a risk-free asset whose value can be assumed constant over the short period considered. Ignore transaction costs and taxes."
+  },
+  {
+   "id": "xxib-M3-24",
+   "chapter": 21,
+   "difficulty": "easy",
+   "q": "How much goes into the risk-free asset at the start?",
+   "options": [
+    "₹120 lakh",
+    "₹80 lakh",
+    "₹160 lakh",
+    "₹40 lakh"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "Risk-free allocation = total portfolio - risky exposure = 200 - 120 = ₹80 lakh.",
+   "hints": [
+    "That is the risky exposure.",
+    "200 - 120 = ₹80 lakh.",
+    "That is the floor amount.",
+    "That is the cushion."
+   ],
+   "numeric": true,
+   "case": "A family office gives a portfolio manager ₹200 lakh with an instruction that the portfolio must not fall below a floor of ₹160 lakh. The manager runs a CPPI strategy with a multiplier of 3, investing the rest in a risk-free asset whose value can be assumed constant over the short period considered. Ignore transaction costs and taxes."
+  },
+  {
+   "id": "xxib-M3-25",
+   "chapter": 21,
+   "difficulty": "medium",
+   "q": "Soon after, the risky asset falls by 10%. To restore the CPPI rule, the manager should:",
+   "options": [
+    "Buy ₹12 lakh more of the risky asset",
+    "Sell ₹12 lakh of the risky asset",
+    "Do nothing until the floor is hit",
+    "Sell ₹24 lakh of the risky asset"
+   ],
+   "answer": 3,
+   "marks": 2,
+   "explanation": "Risky asset 120 → 108; portfolio = 108 + 80 = 188; cushion = 28; required exposure = 3 x 28 = 84; sell 24 lakh.",
+   "hints": [
+    "CPPI reduces exposure after a fall.",
+    "Only removes the loss, not the rule-based amount.",
+    "CPPI rebalances as the cushion changes.",
+    "Risky = 108, portfolio = 188, new exposure = 3 x 28 = 84; sell 108 - 84 = 24."
+   ],
+   "numeric": true,
+   "case": "A family office gives a portfolio manager ₹200 lakh with an instruction that the portfolio must not fall below a floor of ₹160 lakh. The manager runs a CPPI strategy with a multiplier of 3, investing the rest in a risk-free asset whose value can be assumed constant over the short period considered. Ignore transaction costs and taxes."
+  }
+ ]
+}

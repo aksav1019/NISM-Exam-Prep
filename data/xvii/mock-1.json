@@ -1,0 +1,583 @@
+{
+ "id": "mock-1",
+ "title": "Mock 1 · Foundations",
+ "level": "easy",
+ "blurb": "Core concepts across all nine chapters: DB vs DC, inflation maths, NPS basics and key product limits.",
+ "questions": [
+  {
+   "id": "xvii-M1-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Under a Defined Contribution retirement plan, who bears the longevity risk and the investment risk?",
+   "options": [
+    "The pension regulator",
+    "The employer",
+    "The annuity service provider during the accumulation phase",
+    "The employee or subscriber"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The workbook states that in the DC model the risk of an inadequate corpus moves from the employer to the employee, who assumes both longevity risk and investment risk.",
+   "hints": [
+    "Wrong: the regulator supervises the system but bears no investment or longevity risk.",
+    "Wrong: the employer bears these risks in a Defined Benefit plan, not in DC.",
+    "Wrong: an annuity provider enters only when an annuity is bought at exit, not during accumulation.",
+    "Correct: in DC the individual's corpus depends on contributions and returns, so the individual carries both risks."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-02",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "A bond pays 10% a year while inflation is 5%. Using the precise formula given in the workbook, what is the real rate of return?",
+   "options": [
+    "15.00%",
+    "4.76%",
+    "5.00%",
+    "5.25%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Real return = (1 + nominal)/(1 + inflation) − 1 = 1.10/1.05 − 1 = 4.76%. The 5% figure is only the approximate (subtraction) method.",
+   "hints": [
+    "Wrong: adding inflation to the return makes no sense for a real return.",
+    "Correct: 1.10 ÷ 1.05 − 1 = 0.0476.",
+    "Wrong: 10% − 5% is the approximate method, not the precise one.",
+    "Wrong: this does not follow from either the exact or the approximate formula."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Up to what amount is a depositor's money in a bank insured by the DICGC?",
+   "options": [
+    "₹10 lakh per depositor across all banks",
+    "₹5 lakh per depositor per bank, including interest",
+    "₹5 lakh per account in each branch",
+    "₹1 lakh per account"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Each depositor is insured up to ₹5 lakh by the DICGC, covering all deposits and interest held across branches of a given bank in the same capacity.",
+   "hints": [
+    "Wrong: the limit is ₹5 lakh and applies separately to each bank.",
+    "Correct: ₹5 lakh per depositor per bank, principal plus interest.",
+    "Wrong: the cover is per depositor per bank, aggregated across branches, not per branch account.",
+    "Wrong: ₹1 lakh was the old limit before February 2020."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-04",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "An investor's retirement portfolio was set at 60% equity and 40% debt. After a market rally, equity has risen to 70%. Under Strategic Asset Allocation, what should be done?",
+   "options": [
+    "Leave it at 70:30 since equity is performing",
+    "Increase equity further to ride the momentum",
+    "Rebalance back to 60% equity and 40% debt",
+    "Move entirely to debt to lock in gains"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "In SAA, rebalancing is triggered when market movements change the preferred allocation; the portfolio is brought back to the original proportions (60:40).",
+   "hints": [
+    "Wrong: SAA does not let the drift stand just because one asset is doing well.",
+    "Wrong: chasing momentum is closer to a tactical approach and is not SAA.",
+    "Correct: SAA restores the original target mix.",
+    "Wrong: SAA does not abandon the long-term mix based on recent gains."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-05",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "The risk that coupons received from a bond may have to be invested at a lower rate than the original yield is called:",
+   "options": [
+    "Liquidity risk",
+    "Default risk",
+    "Business risk",
+    "Reinvestment risk"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Reinvestment risk is the risk that periodic cash flows cannot earn the same rate as the original investment, for example coupons of a bond reinvested at lower prevailing yields.",
+   "hints": [
+    "Wrong: liquidity risk is about being unable to sell easily or without a discount.",
+    "Wrong: default risk is the issuer failing to pay interest or principal.",
+    "Wrong: business risk arises from a company's operations such as costs and competition.",
+    "Correct: this is the textbook definition of reinvestment risk."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-06",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "According to the workbook, what proportion of pre-retirement income is usually required to maintain the same lifestyle after retirement?",
+   "options": [
+    "70% to 90%",
+    "30% to 50%",
+    "100% to 120%",
+    "50% to 60%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The workbook notes that usually 70% to 90% of pre-retirement income is needed to maintain the lifestyle after retirement (the income replacement ratio).",
+   "hints": [
+    "Correct: the typical income replacement ratio is 70-90%.",
+    "Wrong: this is far too low for the same lifestyle.",
+    "Wrong: expenses such as savings and work-related costs usually fall, so more than 100% is not the norm.",
+    "Wrong: this understates the typical requirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-07",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "The period just before retirement, designated in the workbook as the pre-retirement stage, typically covers:",
+   "options": [
+    "The 15 to 20 years before retirement",
+    "The last 5 to 10 years before retirement",
+    "The last 1 to 2 years before retirement",
+    "The first 5 years after retirement"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The 5 to 10 year period just before retirement is designated as the pre-retirement stage, when the focus shifts to protecting the corpus and planning distribution.",
+   "hints": [
+    "Wrong: at 15-20 years away, retirement is still eligible for growth-oriented investing (middle earning years).",
+    "Correct: 5-10 years before retirement.",
+    "Wrong: this is too short a window to de-risk and consolidate.",
+    "Wrong: that is early retirement, not pre-retirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-08",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "Meena's household expenses are ₹30,000 a month today. She retires in 20 years. Assuming 6% inflation, approximately what monthly amount will she need at retirement for the same expenses?",
+   "options": [
+    "₹96,214",
+    "₹78,000",
+    "₹66,000",
+    "₹1,07,451"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Expense at retirement = 30,000 × (1.06)^20 = ₹96,214 (approx.).",
+   "hints": [
+    "Correct: 30,000 × 3.2071 ≈ 96,214.",
+    "Wrong: this does not match compounding at 6% for 20 years.",
+    "Wrong: this uses simple interest (30,000 × (1 + 0.06 × 20)).",
+    "Wrong: this is ₹60,000 inflated for 10 years, a different calculation."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-09",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "An investor holds a losing stock, waiting for its price to return to the level at which he bought it, even though new information suggests that level is no longer realistic. This is an example of:",
+   "options": [
+    "Familiarity bias",
+    "Herd mentality",
+    "Recency bias",
+    "Anchoring"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Anchoring is holding on to information that is no longer relevant, such as an old purchase price, and basing decisions on it.",
+   "hints": [
+    "Wrong: familiarity bias is choosing what one is comfortable with or knows.",
+    "Wrong: herd mentality is copying what other investors do.",
+    "Wrong: recency bias is extrapolating recent events into the future.",
+    "Correct: the purchase price acts as an anchor."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-10",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "How many digits does the Permanent Retirement Account Number (PRAN) allotted to an NPS subscriber have?",
+   "options": [
+    "10",
+    "16",
+    "12",
+    "14"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Eligible subscribers are allotted a 12-digit unique Permanent Retirement Account Number on registration.",
+   "hints": [
+    "Wrong: 10 characters is the length of a PAN, not a PRAN.",
+    "Wrong: 16 digits is the Aadhaar virtual ID, not the PRAN.",
+    "Correct: the PRAN is a 12-digit number.",
+    "Wrong: no NPS identifier has 14 digits."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-11",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Under the Government model of NPS, what are the monthly contributions to the subscriber's Tier I account?",
+   "options": [
+    "12% by the employee and 12% by the Government",
+    "10% of Basic + DA by the employee and 14% by the Government",
+    "10% by the employee and 10% by the Government",
+    "14% by the employee and 10% by the Government"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Every month, 10% of salary (Basic + DA) is contributed by the employee and 14% by the Government.",
+   "hints": [
+    "Wrong: 12% + 12% is the EPF contribution structure.",
+    "Correct: 10% employee plus 14% Government.",
+    "Wrong: 10% + 10% to the PRAN is the UPS individual corpus structure, not standard NPS.",
+    "Wrong: the percentages are reversed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-12",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Under the Active choice of NPS (Common Schemes), what is the maximum allocation permitted to asset class E (equity)?",
+   "options": [
+    "75%",
+    "50%",
+    "60%",
+    "100%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Under Active choice the proportion invested in asset class E cannot exceed 75% and that in asset class A is restricted to 5%.",
+   "hints": [
+    "Correct: equity is capped at 75%.",
+    "Wrong: 50% is the cap for subscribers joining after 65 under Active choice, not the general cap.",
+    "Wrong: there is no 60% cap in the workbook.",
+    "Wrong: up to 100% equity is possible only in the high-risk variant of MSF schemes or Tier II, not Common Scheme Tier I."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-13",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "If an NPS applicant does not indicate any investment choice in the application form, the contribution is invested in:",
+   "options": [
+    "Active choice with 100% in government securities",
+    "Auto choice, Life Cycle 75 (High)",
+    "Auto choice, Life Cycle 50 (Moderate)",
+    "Auto choice, Life Cycle 25 (Low)"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "If no investment option is indicated, the Auto option with the LC50 (Moderate) life cycle fund applies by default.",
+   "hints": [
+    "Wrong: 100% G-sec is an Active choice option, not the default for non-Government subscribers.",
+    "Wrong: LC75 is the high-risk option and must be chosen.",
+    "Correct: LC50 Moderate is the default.",
+    "Wrong: LC25 is the low-risk option and must be chosen actively."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-14",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "What is the minimum amount for each subsequent contribution to an NPS Tier II account?",
+   "options": [
+    "₹250",
+    "₹500",
+    "₹1,000",
+    "₹100"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "For the Tier II account, the minimum contribution is ₹1,000 at opening and ₹250 for subsequent contributions.",
+   "hints": [
+    "Correct: ₹250 for subsequent Tier II contributions.",
+    "Wrong: ₹500 is the minimum per contribution for Tier I.",
+    "Wrong: ₹1,000 is the Tier II opening contribution (and the Tier I annual minimum).",
+    "Wrong: ₹100 is not a Tier II limit in the workbook."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-15",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "A fund returned 15% with a standard deviation of 6%. The risk-free rate is 6%. What is its Sharpe ratio?",
+   "options": [
+    "2.5",
+    "1.0",
+    "1.5",
+    "0.9"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Sharpe ratio = (Return − Risk-free rate)/SD = (15 − 6)/6 = 1.5.",
+   "hints": [
+    "Wrong: 15 ÷ 6 ignores the risk-free rate.",
+    "Wrong: 6 ÷ 6 uses the wrong numerator.",
+    "Correct: 9 ÷ 6 = 1.5.",
+    "Wrong: this is 9 ÷ 10 and has no meaning here."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-16",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which return measure is described as the accepted measure for investments held for more than one year because it considers compounding?",
+   "options": [
+    "Compounded Annual Growth Rate (CAGR)",
+    "Dividend yield",
+    "Simple annualised return",
+    "Absolute return"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "CAGR is the accepted measure of return for investment horizons of over one year; it considers compounding and the time value of money.",
+   "hints": [
+    "Correct: CAGR builds in compounding.",
+    "Wrong: dividend yield captures only one component of return.",
+    "Wrong: simple annualising (absolute × 1/n) ignores compounding.",
+    "Wrong: absolute return ignores the time period."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-17",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Under the Employees' Deposit Linked Insurance Scheme (EDLI), the contribution is:",
+   "options": [
+    "0.5% of wages, shared equally by employer and employee",
+    "0.5% of wages, by the employer only",
+    "1.16% of wages, by the Central Government",
+    "8.33% of wages, from the employer's PF share"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Under EDLI, the employer contributes 0.5% of total wages and no contribution is made by the employee.",
+   "hints": [
+    "Wrong: the employee makes no EDLI contribution.",
+    "Correct: EDLI is funded by the employer at 0.5%.",
+    "Wrong: 1.16% is the Central Government's contribution to EPS.",
+    "Wrong: 8.33% is the portion of the employer's contribution diverted to EPS."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-18",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "What is the maximum aggregate amount that can be invested in the Senior Citizens' Saving Scheme (SCSS) across all accounts?",
+   "options": [
+    "₹50 lakh",
+    "₹30 lakh",
+    "₹15 lakh",
+    "₹9 lakh"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The maximum limit of investment in SCSS is ₹30 lakh; an investor may open more than one account provided the total does not exceed ₹30 lakh.",
+   "hints": [
+    "Wrong: no such limit is given for SCSS.",
+    "Correct: ₹30 lakh across all accounts.",
+    "Wrong: ₹15 lakh was an older SCSS limit and is the joint POMIS limit.",
+    "Wrong: ₹9 lakh is the single-holder POMIS limit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-19",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "In the bucket strategy, the first bucket should hold funds required to meet roughly how many years of the retiree's expenses?",
+   "options": [
+    "The next 10-15 years",
+    "Only the first 6 months",
+    "Expenses due 20 years later",
+    "The immediate 3-5 years"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The first bucket holds funds for the immediate 3-5 years of expenses, plus emergency funds, in very low-risk products.",
+   "hints": [
+    "Wrong: 10-15 years is the second, safety-cushion bucket.",
+    "Wrong: 6 months is far shorter than the workbook's suggestion.",
+    "Wrong: funds needed 20 years away sit in the third, growth bucket.",
+    "Correct: bucket 1 covers about 3-5 years."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-20",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "What is the main benefit of investing a fixed amount every month in an equity fund rather than trying to time the market?",
+   "options": [
+    "It ensures a fixed return each month",
+    "It eliminates market risk from the portfolio",
+    "It guarantees buying at the lowest price of the period",
+    "More units are bought when prices are low, which lowers the average cost"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Periodic investing in a volatile market buys more units when prices fall, bringing down the average cost of acquisition without having to time the market.",
+   "hints": [
+    "Wrong: equity returns are never fixed.",
+    "Wrong: the investment remains exposed to market risk.",
+    "Wrong: the workbook notes the average cost is not the lowest price of the period.",
+    "Correct: this is rupee-cost averaging."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-21",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "Under the bucket strategy, if a stock market crash reduces the value of bucket 3, what does the workbook recommend?",
+   "options": [
+    "Refill bucket 3 from bucket 1",
+    "Immediately refill bucket 3 from bucket 2",
+    "Leave bucket 3 to recover; do not top it up from bucket 2",
+    "Sell bucket 3 and move everything to bucket 1"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The lower-risk bucket is refilled from a higher-risk bucket and never the other way. A fall in bucket 3 is not made up from bucket 2, since there is time for recovery.",
+   "hints": [
+    "Wrong: bucket 1 is the drawing-down bucket and is never used to refill riskier buckets.",
+    "Wrong: this reverses the refill direction.",
+    "Correct: refills only flow from riskier to safer buckets.",
+    "Wrong: panic-selling locks in losses on money not needed for 15-20 years."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-22",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "For a will to be valid, it must be signed by the testator and attested by:",
+   "options": [
+    "Two witnesses",
+    "A notary only",
+    "One witness",
+    "Three witnesses and registered"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A will has to be in writing, signed by the testator and attested by two witnesses. Registration is optional.",
+   "hints": [
+    "Correct: two witnesses are needed.",
+    "Wrong: notarisation is not the requirement; witness attestation is.",
+    "Wrong: one witness is not enough.",
+    "Wrong: two witnesses suffice and registration is not compulsory."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-23",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Mr Rao's will leaves his mutual fund holdings to his daughter, but his son is the registered nominee. After Mr Rao's death, what is the son's position?",
+   "options": [
+    "He becomes the absolute owner because nomination overrides the will",
+    "He and his daughter share the units equally by law",
+    "He receives the units as a trustee for the person entitled under the will",
+    "The mutual fund will refuse to pay until a court decides"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A nominee is in the place of a trustee who holds the money for the legal heirs. The provisions of a will supersede a nomination.",
+   "hints": [
+    "Wrong: the will prevails over nomination.",
+    "Wrong: there is no such automatic equal split; the will governs.",
+    "Correct: nomination eases payment; the will decides ownership.",
+    "Wrong: payment to a nominee is a valid discharge for the fund house."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-24",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "From whom may a PFRDA-registered Retirement Adviser receive remuneration for advice on NPS?",
+   "options": [
+    "Only the prospect or subscriber being advised",
+    "Both the subscriber and the Annuity Service Provider",
+    "The Pension Fund chosen by the subscriber",
+    "The Point of Presence that opens the account"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A Retirement Adviser shall not receive any remuneration or compensation from any person other than the prospect/subscriber being advised.",
+   "hints": [
+    "Correct: only the subscriber may pay the RA.",
+    "Wrong: the ASP cannot pay the RA either.",
+    "Wrong: payment from Pension Funds would create a conflict and is not allowed.",
+    "Wrong: commissions from PoPs are prohibited."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M1-25",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "PFRDA became a statutory authority with the passing of the PFRDA Act in:",
+   "options": [
+    "2004",
+    "2003",
+    "2016",
+    "2013, notified on 1 February 2014"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "PFRDA was set up as an interim regulator in 2003 and became the statutory authority with the PFRDA Act 2013, notified on 1 February 2014.",
+   "hints": [
+    "Wrong: 2004 is when NPS began for Central Government joiners.",
+    "Wrong: 2003 is when the interim PFRDA was set up.",
+    "Wrong: 2016 is the year of the Retirement Adviser Regulations.",
+    "Correct: Act of 2013, notified 1 Feb 2014."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

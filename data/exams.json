@@ -1,0 +1,15 @@
+[
+ {"id":"xa","code":"Series X-A","name":"Investment Adviser – Level 1","short":"IA L1","group":"Investment Advisory","c1":"#7c3aed","c2":"#ec4899","icon":"🧭"},
+ {"id":"xb","code":"Series X-B","name":"Investment Adviser – Level 2","short":"IA L2","group":"Investment Advisory","c1":"#6d28d9","c2":"#f43f5e","icon":"🎯"},
+ {"id":"xc","code":"Series X-C","name":"Investment Adviser – Renewal","short":"IA Renewal","group":"Investment Advisory","c1":"#8b5cf6","c2":"#fb7185","icon":"🔁"},
+ {"id":"xv","code":"Series XV","name":"Research Analyst","short":"RA","group":"Research","c1":"#0ea5e9","c2":"#6366f1","icon":"🔬"},
+ {"id":"vb","code":"Series V-B","name":"Mutual Fund Foundation","short":"MF Foundation","group":"Mutual Funds & SIF","c1":"#10b981","c2":"#06b6d4","icon":"🌱"},
+ {"id":"vd","code":"Series V-D","name":"MF – Specialized Investment Fund Distributors","short":"SIF","group":"Mutual Funds & SIF","c1":"#059669","c2":"#84cc16","icon":"🧩"},
+ {"id":"viii","code":"Series VIII","name":"Equity Derivatives","short":"Derivatives","group":"Derivatives","c1":"#f97316","c2":"#ef4444","icon":"📈"},
+ {"id":"xixa","code":"Series XIX-A","name":"AIF Category I & II Distributors","short":"AIF I & II","group":"Alternative Investment Funds","c1":"#d946ef","c2":"#8b5cf6","icon":"🏗️"},
+ {"id":"xixb","code":"Series XIX-B","name":"AIF Category III Distributors","short":"AIF III","group":"Alternative Investment Funds","c1":"#c026d3","c2":"#f59e0b","icon":"⚡"},
+ {"id":"xixc","code":"Series XIX-C","name":"Alternative Investment Fund Managers","short":"AIF Managers","group":"Alternative Investment Funds","c1":"#a21caf","c2":"#0ea5e9","icon":"🏛️"},
+ {"id":"xxia","code":"Series XXI-A","name":"Portfolio Management Services Distributors","short":"PMS Dist.","group":"Portfolio Management","c1":"#2563eb","c2":"#14b8a6","icon":"💼"},
+ {"id":"xxib","code":"Series XXI-B","name":"Portfolio Managers","short":"Portfolio Mgr","group":"Portfolio Management","c1":"#1d4ed8","c2":"#a855f7","icon":"📊"},
+ {"id":"xvii","code":"Series XVII","name":"Retirement Adviser","short":"Retirement","group":"Retirement","c1":"#eab308","c2":"#f97316","icon":"🌅"}
+]

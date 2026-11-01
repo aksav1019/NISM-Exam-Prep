@@ -1,0 +1,233 @@
+{
+  "id": "mock-1",
+  "title": "Mock 1 · Foundations",
+  "level": "easy",
+  "blurb": "Core definitions across all ten chapters: asset classes, units, constituents, documents, cut-offs and the ad code.",
+  "questions": [
+    {
+      "id": "vb-M1-01", "chapter": 1, "difficulty": "easy",
+      "q": "Which of the following pairs of asset classes is referred to as 'real assets' in the workbook?",
+      "options": ["Equity and fixed income", "Real estate and commodities", "Equity and commodities", "Fixed income and real estate"],
+      "answer": 1, "marks": 1,
+      "explanation": "Of the four broad asset classes, real estate and commodities are called real assets (they exist in physical form), while equity and debt are financial assets.",
+      "hints": ["Both are financial assets.", "Correct: these can be held in physical form.", "Equity exists only in financial form.", "Fixed income exists only in financial form."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-02", "chapter": 1, "difficulty": "easy",
+      "q": "The financial need arising from the risk that an earning member's income may stop prematurely due to death or ill-health is best met by:",
+      "options": ["The banking system", "Equity mutual funds", "Life and health insurance companies", "Annuity products in the distribution phase"],
+      "answer": 2, "marks": 1,
+      "explanation": "This is the 'protection need', which life and health insurance companies address. Transaction needs are met by banks; investment and retirement needs by investment products.",
+      "hints": ["Banks serve transaction needs.", "Equity funds serve investment needs, not protection.", "Correct: protection needs are met by insurers.", "Annuities serve the retirement distribution phase."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-03", "chapter": 2, "difficulty": "easy",
+      "q": "What is the typical face value of a mutual fund unit, as stated in the workbook?",
+      "options": ["₹10", "₹1", "₹100", "₹1,000"],
+      "answer": 0, "marks": 1,
+      "explanation": "Typically every unit has a face value of ₹10. Unit capital = number of units × face value.",
+      "hints": ["Correct: ₹10 per unit.", "Too low; not the standard face value.", "Not the typical MF face value.", "That is typical of bonds, not MF units."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-04", "chapter": 2, "difficulty": "easy",
+      "q": "After its NFO closes, how does an investor normally buy units of a close-ended scheme (other than ELSS)?",
+      "options": ["Directly from the AMC at the daily NAV", "Only through a Systematic Investment Plan", "From the trustees during the interval period", "On the stock exchange where the units are compulsorily listed"],
+      "answer": 3, "marks": 1,
+      "explanation": "Close-ended schemes sell units only during the NFO. Every close-ended scheme other than ELSS must be listed, so later buying and selling happens on the exchange between investors.",
+      "hints": ["The fund does not sell units after the NFO.", "SIPs into a close-ended scheme are not possible post-NFO.", "Trustees don't sell units; 'interval periods' relate to interval funds.", "Correct: listing provides post-NFO liquidity."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-05", "chapter": 2, "difficulty": "easy",
+      "q": "As per SEBI's definition, a 'large cap' company is one that ranks:",
+      "options": ["1st to 50th by free-float market capitalisation", "1st to 250th by full market capitalisation", "1st to 100th by full market capitalisation", "101st to 250th by full market capitalisation"],
+      "answer": 2, "marks": 1,
+      "explanation": "Large cap = 1st to 100th, mid cap = 101st to 250th, small cap = 251st onwards, all by full market capitalisation.",
+      "hints": ["Wrong range and wrong basis (full, not free-float).", "This combines large and mid caps.", "Correct.", "This is the mid-cap band."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-06", "chapter": 3, "difficulty": "easy",
+      "q": "Who appoints the custodian of a mutual fund?",
+      "options": ["The trustees", "The Asset Management Company", "The sponsor", "SEBI"],
+      "answer": 0, "marks": 1,
+      "explanation": "The custodian is appointed by the trustees, and a custodial agreement is signed between the trustees and the custodian. Custodians must be registered with SEBI.",
+      "hints": ["Correct: trustees appoint the custodian.", "The AMC appoints the RTA and collecting bankers, not the custodian.", "The sponsor sets up the trust and AMC.", "SEBI registers custodians but doesn't appoint them for a fund."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-07", "chapter": 3, "difficulty": "easy",
+      "q": "Which statement correctly describes AMFI?",
+      "options": ["It is the regulator of mutual funds in India", "It is a Self-Regulatory Organisation for AMCs", "It is the association of mutual fund distributors", "It is the association of registered AMCs and is neither a regulator nor an SRO"],
+      "answer": 3, "marks": 1,
+      "explanation": "AMFI is the association of all registered AMCs. The workbook stresses that it is neither a regulatory body nor a Self-Regulatory Organisation, though it registers distributors (ARN).",
+      "hints": ["SEBI is the regulator.", "The workbook explicitly says AMFI is not an SRO.", "Its members are AMCs, not distributors.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-08", "chapter": 4, "difficulty": "easy",
+      "q": "A new-cadre distributor (V-B certified) is permitted to sell which of these scheme types?",
+      "options": ["Credit risk funds", "Index funds", "Sectoral equity funds", "Arbitrage funds"],
+      "answer": 1, "marks": 1,
+      "explanation": "The new cadre may sell only simple and performing schemes: liquid/money market, index, diversified equity, retirement benefit schemes with tax benefits, and FMPs.",
+      "hints": ["Credit risk funds are not on the permitted list.", "Correct: index schemes are permitted.", "Sectoral funds are not 'diversified equity'.", "Arbitrage funds are not on the list."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-09", "chapter": 4, "difficulty": "easy",
+      "q": "A Fixed Maturity Plan (FMP) is best described as a:",
+      "options": ["Close-ended debt scheme whose portfolio duration is aligned to the scheme's maturity", "Open-ended equity scheme with a lock-in", "Open-ended liquid scheme with a fixed NAV", "Interval scheme investing in gold"],
+      "answer": 0, "marks": 1,
+      "explanation": "An FMP is a close-ended debt fund structured around pre-identified investments whose duration matches the scheme's maturity. No redemption before maturity; listing is compulsory.",
+      "hints": ["Correct.", "FMPs are debt, not equity, and are close-ended.", "FMPs are close-ended; NAV is not fixed.", "FMPs are not interval or gold schemes."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-10", "chapter": 5, "difficulty": "easy",
+      "q": "Which document must, as per SEBI regulations, accompany every mutual fund application form?",
+      "options": ["Statement of Additional Information", "Annual report of the AMC", "Key Information Memorandum", "Monthly fund factsheet"],
+      "answer": 2, "marks": 1,
+      "explanation": "The KIM, a summary of the SID and SAI, must accompany every application form, because circulating full documents with each form is costly.",
+      "hints": ["The SAI is hosted online and given on request.", "The annual report is not attached to forms.", "Correct.", "The factsheet is a voluntary monthly document."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-11", "chapter": 5, "difficulty": "easy",
+      "q": "What is SEBI's role with respect to the Scheme Information Document filed by a mutual fund?",
+      "options": ["SEBI approves the SID and guarantees its accuracy", "SEBI drafts the SID for the AMC", "SEBI has no role; AMFI reviews the SID", "SEBI gives observations, which must be incorporated; the SID is 'vetted', not approved"],
+      "answer": 3, "marks": 1,
+      "explanation": "SEBI neither approves nor disapproves scheme documents; it gives observations that the fund must incorporate. Hence documents are 'vetted' by SEBI.",
+      "hints": ["SEBI does not approve the documents.", "The AMC prepares the SID in SEBI's format.", "Documents are filed with SEBI, not AMFI.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-12", "chapter": 5, "difficulty": "easy",
+      "q": "The monthly fund factsheet published by AMCs is:",
+      "options": ["A mandatory SEBI document that replaces the KIM", "A voluntary document published as an AMFI best practice", "Required only for close-ended schemes", "A legal part of the SAI"],
+      "answer": 1, "marks": 1,
+      "explanation": "Publishing the factsheet is not a regulatory requirement; AMCs publish it monthly as a market practice under AMFI best-practice guidelines. SEBI disclosure rules still apply to its content.",
+      "hints": ["It is not mandatory and doesn't replace the KIM.", "Correct.", "It covers all schemes, not just close-ended ones.", "It is a marketing and information document, not part of the SAI."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-13", "chapter": 6, "difficulty": "easy",
+      "q": "On what basis is a distributor's trail commission calculated?",
+      "options": ["On the current value of the assets attributable to units sold by the distributor", "On the original amount invested by the client, fixed for life", "Only on the first year's investment", "On the number of transactions done by the client"],
+      "answer": 0, "marks": 1,
+      "explanation": "Trail is a percentage of the net assets attributable to units the distributor sold, computed on daily balances, so it rises and falls with NAV and is paid as long as the money stays.",
+      "hints": ["Correct.", "It moves with NAV, not with the cost amount.", "Trail continues as long as the investment remains.", "Transaction-based pay would encourage churning and is not how trail works."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-14", "chapter": 6, "difficulty": "easy",
+      "q": "Which body allots the registration number (ARN) that a mutual fund distributor must hold?",
+      "options": ["SEBI", "NISM", "AMFI", "The Registrar & Transfer Agent"],
+      "answer": 2, "marks": 1,
+      "explanation": "After NISM certification and KYD, the distributor registers with AMFI, which allots the AMFI Registration Number (ARN).",
+      "hints": ["SEBI does not issue ARNs.", "NISM conducts the certification exam.", "Correct.", "RTAs maintain investor records."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-15", "chapter": 7, "difficulty": "easy",
+      "q": "An investor bought units at a NAV of ₹20; the NAV is now ₹23. What is the simple return?",
+      "options": ["13%", "3%", "23%", "15%"],
+      "answer": 3, "marks": 1,
+      "explanation": "Simple return = (23 − 20) ÷ 20 = 0.15 = 15%.",
+      "hints": ["That divides by 23 instead of 20.", "That is the rupee change, not the %.", "That confuses the NAV with the return.", "Correct: 3 ÷ 20 = 15%."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M1-16", "chapter": 7, "difficulty": "easy",
+      "q": "The Sharpe ratio measures risk premium per unit of risk, where risk is measured by:",
+      "options": ["Beta", "Standard deviation", "Tracking error", "Credit rating"],
+      "answer": 1, "marks": 1,
+      "explanation": "Sharpe ratio = (Scheme return − Risk-free return) ÷ Standard deviation. Treynor uses beta instead.",
+      "hints": ["Beta is used in the Treynor ratio.", "Correct.", "Tracking error relates to index funds and the IR.", "Ratings are not a risk measure in this ratio."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-17", "chapter": 7, "difficulty": "easy",
+      "q": "Under current regulations, which load can a mutual fund scheme charge?",
+      "options": ["Entry load only", "Both entry and exit loads", "Exit load only", "Neither; all loads are banned"],
+      "answer": 2, "marks": 1,
+      "explanation": "Entry load is not allowed. Exit load is permitted and reduces the investor's return below the scheme's return.",
+      "hints": ["Entry load is banned.", "Entry load is banned.", "Correct.", "Exit loads are still permitted."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-18", "chapter": 8, "difficulty": "easy",
+      "q": "How is the income earned by a mutual fund scheme (interest, dividends, capital gains) treated under income tax?",
+      "options": ["Exempt under Section 10(23D)", "Taxed at 12.5% flat", "Taxed at the slab rate of the AMC", "Taxed as business income of the trustees"],
+      "answer": 0, "marks": 1,
+      "explanation": "Since mutual funds are trusts for the benefit of unitholders, Section 10(23D) exempts all their income. Investors are taxed on what they receive.",
+      "hints": ["Correct.", "12.5% is an LTCG rate for investors.", "The AMC's own tax is irrelevant to scheme income.", "Trustees are not taxed on scheme income."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-19", "chapter": 8, "difficulty": "easy",
+      "q": "What is the lock-in period for investments in an Equity Linked Savings Scheme (ELSS)?",
+      "options": ["1 year", "5 years", "No lock-in", "3 years"],
+      "answer": 3, "marks": 1,
+      "explanation": "ELSS carries a statutory lock-in of 3 years from the date of each investment, with a deduction up to ₹1.5 lakh under Section 80C (old regime).",
+      "hints": ["Too short.", "Too long for ELSS.", "ELSS does have a statutory lock-in.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-20", "chapter": 9, "difficulty": "easy",
+      "q": "Under SEBI guidelines, for how long can an NFO (other than ELSS) remain open?",
+      "options": ["Maximum 30 days", "Maximum 15 days", "Minimum 15 days", "Maximum 45 days"],
+      "answer": 1, "marks": 1,
+      "explanation": "NFOs other than ELSS can remain open for a maximum of 15 days.",
+      "hints": ["Too long.", "Correct.", "It is a maximum, not a minimum.", "Too long."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-21", "chapter": 9, "difficulty": "easy",
+      "q": "Which statement about the Direct Plan of a scheme is correct?",
+      "options": ["It has a different portfolio from the Regular Plan", "It is available when investing through a distributor", "It has a lower expense ratio and a separate NAV, and no commission is paid from it", "Its NAV is always the same as the Regular Plan"],
+      "answer": 2, "marks": 1,
+      "explanation": "Both plans share the same portfolio, but the Direct Plan excludes distribution costs, so it has a lower TER and therefore a separate (higher) NAV. Investments routed through a distributor fall in the Regular Plan.",
+      "hints": ["Same portfolio; only expenses differ.", "Distributor-routed investment goes to the Regular Plan.", "Correct.", "Different TERs mean different NAVs."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-22", "chapter": 9, "difficulty": "easy",
+      "q": "A mutual fund folio can have a maximum of how many holders?",
+      "options": ["Two", "Five", "Unlimited", "Three"],
+      "answer": 3, "marks": 1,
+      "explanation": "A mutual fund investment can have up to three holders. The folio is created in the first holder's name and all benefits go to the first holder.",
+      "hints": ["More are allowed.", "Too many.", "There is a limit.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-23", "chapter": 9, "difficulty": "easy",
+      "q": "What is the cut-off time for purchases in an equity-oriented scheme?",
+      "options": ["3:00 pm", "1:30 pm", "12:00 noon", "5:00 pm"],
+      "answer": 0, "marks": 1,
+      "explanation": "For equity and debt schemes (other than liquid and overnight) the purchase cut-off is 3 pm, and the NAV of the business day on which funds are available for utilisation before cut-off applies.",
+      "hints": ["Correct.", "1:30 pm is for liquid and overnight fund purchases.", "No such cut-off.", "No such cut-off for physical purchases."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-24", "chapter": 10, "difficulty": "easy",
+      "q": "Which standard warning must accompany every mutual fund advertisement, without addition or deletion of words?",
+      "options": ["'Past performance is a guarantee of future returns'", "'Mutual Fund investments are subject to market risks, read all scheme related documents carefully'", "'Invest only through AMFI-registered distributors'", "'Returns are assured by the sponsor'"],
+      "answer": 1, "marks": 1,
+      "explanation": "The SEBI advertisement code mandates this exact 14-word warning, in legible font and in the vernacular for vernacular ads.",
+      "hints": ["Past performance never guarantees future returns.", "Correct.", "Not the mandated warning.", "Returns can't be assured except in assured-return schemes."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M1-25", "chapter": 10, "difficulty": "easy",
+      "q": "SCORES, on which investors can lodge and track complaints online, is operated by:",
+      "options": ["AMFI", "The Registrar & Transfer Agents", "SEBI", "The investor's AMC"],
+      "answer": 2, "marks": 1,
+      "explanation": "SCORES (SEBI Complaint Redress System) is SEBI's web-based centralised grievance redress system.",
+      "hints": ["AMFI is an industry body.", "RTAs run MITRA and MF Central, not SCORES.", "Correct.", "The AMC is the first level, but SCORES is SEBI's."],
+      "numeric": false, "case": null
+    }
+  ]
+}

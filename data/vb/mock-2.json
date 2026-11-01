@@ -1,0 +1,233 @@
+{
+  "id": "mock-2",
+  "title": "Mock 2 · Products & Documents",
+  "level": "easy",
+  "blurb": "Scheme structures, new-cadre products and the SID/SAI/KIM disclosure family, with a sweep of the other chapters.",
+  "questions": [
+    {
+      "id": "vb-M2-01", "chapter": 1, "difficulty": "easy",
+      "q": "In the context of evaluating investments, 'liquidity' refers to:",
+      "options": ["The interest rate earned on the investment", "How easily the investment can be converted to cash at fair value", "The minimum amount needed to invest", "The tax deduction available on the investment"],
+      "answer": 1, "marks": 1,
+      "explanation": "Liquidity is how easily an investment can be liquidated and converted to cash at fair value. Divisibility (partial sale) is also part of liquidity.",
+      "hints": ["That relates to returns.", "Correct.", "That is ticket size.", "That is the tax deduction factor."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-02", "chapter": 1, "difficulty": "easy",
+      "q": "According to the workbook, which hidden costs are often missed when people compare doing their own investing with paying mutual fund fees?",
+      "options": ["Stamp duty and STT", "Exit load and GST", "Brokerage and demat charges only", "The value of one's time and potential mistakes driven by emotional attachment"],
+      "answer": 3, "marks": 1,
+      "explanation": "People compare MF fees with a 'zero cost' DIY approach and miss the hidden costs: the time spent on research and administration, and emotion-driven mistakes.",
+      "hints": ["These are transaction levies, not the hidden DIY costs the workbook describes.", "These are MF-related charges.", "Partly relevant but not the workbook's point.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-03", "chapter": 2, "difficulty": "easy",
+      "q": "The NAV of a mutual fund scheme also represents:",
+      "options": ["The net realisable value per unit if the scheme were liquidated", "The face value of each unit", "The total money raised in the NFO", "The maximum price at which units can be sold"],
+      "answer": 0, "marks": 1,
+      "explanation": "NAV is the true worth of a unit and also the net realisable value per unit, i.e. how much money each unit would get if all holdings were sold and converted into cash.",
+      "hints": ["Correct.", "Face value is ₹10; NAV changes daily.", "That relates to AUM at launch.", "NAV is not a price ceiling."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-04", "chapter": 2, "difficulty": "easy",
+      "q": "In an interval scheme, what are the minimum durations of the transaction period and the interval period?",
+      "options": ["7 days and 30 days", "1 day and 7 days", "2 days and 15 days", "15 days and 2 days"],
+      "answer": 2, "marks": 1,
+      "explanation": "The transaction period (when the scheme opens for purchase and redemption) must be at least 2 days, and the interval period between transaction periods at least 15 days.",
+      "hints": ["Not the prescribed minimums.", "Not the prescribed minimums.", "Correct.", "The two numbers are reversed."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-05", "chapter": 2, "difficulty": "easy",
+      "q": "What distinguishes an ETF from a regular open-ended index fund?",
+      "options": ["An ETF can be bought only during its NFO", "An ETF trades on a stock exchange throughout the day at multiple prices", "An ETF is always actively managed", "An ETF has no NAV"],
+      "answer": 1, "marks": 1,
+      "explanation": "ETFs are traded on exchanges like shares, offering multiple intraday prices, whereas an open-ended fund transacts at a single end-of-day NAV.",
+      "hints": ["ETFs trade continuously after listing.", "Correct.", "ETFs are usually passive.", "ETFs do have a NAV; the market price may differ from it."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-06", "chapter": 3, "difficulty": "easy",
+      "q": "Which person is NOT eligible to be appointed a trustee of a mutual fund?",
+      "options": ["A person meeting the fit-and-proper criteria", "A retired judge with no link to the AMC", "A chartered accountant who furnishes all information sought by SEBI", "A director of an asset management company"],
+      "answer": 3, "marks": 1,
+      "explanation": "Regulation 11 bars a director (including independent director), officer or employee of an AMC, and a trustee of any other mutual fund, from being a trustee.",
+      "hints": ["Fit-and-proper is a requirement, not a bar.", "No disqualification stated.", "Furnishing information is required.", "Correct: AMC directors are barred."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-07", "chapter": 3, "difficulty": "easy",
+      "q": "Which statement about Registrars and Transfer Agents (RTAs) is correct?",
+      "options": ["RTAs are appointed by the trustees and need no registration", "The AMC appoints the RTA, may keep the work in-house, and any RTA must be registered with SEBI", "Appointing an external RTA is compulsory", "RTAs are registered with AMFI"],
+      "answer": 1, "marks": 1,
+      "explanation": "The AMC appoints the RTA. Appointing one is not compulsory (the work can be done in-house), but all RTAs must register with SEBI.",
+      "hints": ["Wrong appointer, and RTAs do need SEBI registration.", "Correct.", "It is optional.", "SEBI, not AMFI, registers RTAs."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-08", "chapter": 4, "difficulty": "easy",
+      "q": "Which of the following persons can be considered for empanelment as a new-cadre mutual fund distributor?",
+      "options": ["A retired bank officer with at least 10 years of service", "A college student aged 17", "A retired bank officer with 4 years of service", "A foreign portfolio investor"],
+      "answer": 0, "marks": 1,
+      "explanation": "The new cadre includes postal agents, retired government/semi-government officials (Class III and above) and retired bank officers with at least 10 years of service, and others such as bank correspondents notified by AMFI/AMCs.",
+      "hints": ["Correct.", "Not in the eligible list (and ARN needs age 18).", "Needs at least 10 years of service.", "Not a distributor category."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-09", "chapter": 4, "difficulty": "easy",
+      "q": "A liquid fund can invest only in debt and money market securities with a maturity of up to:",
+      "options": ["1 day", "1 year", "182 days", "91 days"],
+      "answer": 3, "marks": 1,
+      "explanation": "Liquid funds invest only in debt and money market securities maturing within 91 days. Money market funds can go up to 1 year; overnight funds 1 day.",
+      "hints": ["That is the overnight fund.", "That is the money market fund.", "Not a SEBI category limit.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-10", "chapter": 5, "difficulty": "easy",
+      "q": "Information about the sponsor, AMC, trustee company and service providers of a mutual fund is found in the:",
+      "options": ["Scheme Information Document", "Account statement", "Statement of Additional Information", "Risk-o-meter"],
+      "answer": 2, "marks": 1,
+      "explanation": "The SAI contains statutory information about the mutual fund and its constituents (sponsor, AMC, trustee company, custodian, RTA, auditor, etc.). One SAI applies to all schemes of the fund.",
+      "hints": ["The SID covers scheme-specific details.", "Statements show holdings and transactions.", "Correct.", "The risk-o-meter depicts scheme risk."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-11", "chapter": 5, "difficulty": "easy",
+      "q": "For which schemes is NAV declared even on Sundays and holidays?",
+      "options": ["Liquid and overnight funds", "ELSS funds", "Close-ended equity funds", "Index funds"],
+      "answer": 0, "marks": 1,
+      "explanation": "Liquid and overnight funds declare NAV on Sundays and holidays too, reflecting that day's accrual. Close-ended schemes compute NAV at least weekly.",
+      "hints": ["Correct.", "Only business days.", "At least weekly.", "Only business days."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-12", "chapter": 5, "difficulty": "easy",
+      "q": "By when must an AMC disclose the month-end portfolio of its equity schemes on its website and AMFI's website?",
+      "options": ["Within 30 days of month-end", "Within 10 days of the close of each month", "Within 5 days of each fortnight", "Within 3 months of the half-year"],
+      "answer": 1, "marks": 1,
+      "explanation": "Portfolios (with ISIN) as of the last day of the month must be disclosed within 10 days. Debt schemes disclose fortnightly within 5 days.",
+      "hints": ["Too late.", "Correct.", "That is the debt-scheme fortnightly rule.", "Not the portfolio rule."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-13", "chapter": 6, "difficulty": "easy",
+      "q": "On registering with MF Utilities, an investor receives a:",
+      "options": ["Permanent Account Number", "Employee Unique Identification Number", "Common Account Number (CAN)", "AMFI Registration Number"],
+      "answer": 2, "marks": 1,
+      "explanation": "MFU allots a Common Account Number (CAN) under which the investor's mutual fund holdings across participating AMCs are consolidated.",
+      "hints": ["PAN is issued by the Income Tax Department.", "EUIN is for distributor employees.", "Correct.", "ARN is for distributors."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-14", "chapter": 6, "difficulty": "easy",
+      "q": "An employee of a bank that distributes mutual funds must have NISM certification and also obtain:",
+      "options": ["A separate ARN in his own name", "SEBI registration as an investment adviser", "A CAN from MF Utilities", "An EUIN from AMFI"],
+      "answer": 3, "marks": 1,
+      "explanation": "Employees of institutional distributors obtain an Employee Unique Identification Number (EUIN) and work under the institution's ARN; no separate ARN is needed.",
+      "hints": ["They work under the institution's ARN.", "Not required for distribution.", "A CAN is for investors.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-15", "chapter": 7, "difficulty": "easy",
+      "q": "Which risk-adjusted measure uses Beta as the measure of risk?",
+      "options": ["Treynor ratio", "Sharpe ratio", "Information ratio", "Simple return"],
+      "answer": 0, "marks": 1,
+      "explanation": "Treynor ratio = (Rs − Rf) ÷ Beta. It is most relevant for diversified equity schemes.",
+      "hints": ["Correct.", "Sharpe uses standard deviation.", "IR uses the SD of excess returns.", "Not risk-adjusted."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-16", "chapter": 7, "difficulty": "easy",
+      "q": "A scheme earned 4% in 6 months. Its simple annualised return is:",
+      "options": ["4%", "6%", "8%", "24%"],
+      "answer": 2, "marks": 1,
+      "explanation": "Annualised = 4% × 12 ÷ 6 = 8% p.a.",
+      "hints": ["Not annualised.", "Wrong arithmetic.", "Correct.", "This multiplies by 6 instead of 2."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M2-17", "chapter": 7, "difficulty": "easy",
+      "q": "When market interest rates rise, the prices of existing bonds held by a debt fund generally:",
+      "options": ["Rise", "Remain unchanged", "Double", "Fall"],
+      "answer": 3, "marks": 1,
+      "explanation": "Interest rate risk: bond prices move inversely to interest rates.",
+      "hints": ["They move inversely.", "Prices do react.", "Not realistic.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-18", "chapter": 8, "difficulty": "easy",
+      "q": "Units of an equity-oriented fund become a long-term capital asset if held for more than:",
+      "options": ["24 months", "12 months", "36 months", "6 months"],
+      "answer": 1, "marks": 1,
+      "explanation": "There are only two holding periods: 12 months for listed securities and equity-oriented units, and 24 months for all other assets.",
+      "hints": ["That applies to non-equity assets.", "Correct.", "No longer used.", "Too short."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-19", "chapter": 8, "difficulty": "easy",
+      "q": "What stamp duty applies when mutual fund units are issued against a purchase (lump sum, SIP, STP or switch-in)?",
+      "options": ["0.015% of the amount", "0.001% of the amount", "0.005% of the amount", "Nil"],
+      "answer": 2, "marks": 1,
+      "explanation": "From 1 July 2020, stamp duty of 0.005% applies on issue of units; transfers attract 0.015%.",
+      "hints": ["That applies to transfers.", "That is an STT rate.", "Correct.", "Stamp duty applies."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-20", "chapter": 9, "difficulty": "easy",
+      "q": "What happens to the value of an investor's holding when a scheme issues bonus units?",
+      "options": ["It remains the same; the number of units rises and the NAV falls proportionately", "It rises by the bonus ratio", "It falls because NAV drops", "The investor must pay NAV for the bonus units"],
+      "answer": 0, "marks": 1,
+      "explanation": "Net assets stay the same; only the number of units increases, so NAV falls proportionately and the value of the holding is unchanged.",
+      "hints": ["Correct.", "No new value is created.", "More units offset the lower NAV.", "Bonus units are free."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-21", "chapter": 9, "difficulty": "easy",
+      "q": "Under ASBA, when does the application money actually leave the investor's bank account?",
+      "options": ["When the application is submitted", "On the NFO opening date", "Only on allotment of units", "After a 30-day lock-in"],
+      "answer": 2, "marks": 1,
+      "explanation": "In ASBA the bank blocks the amount; it is debited only on allotment, so it keeps earning interest and no refund is needed.",
+      "hints": ["It is only blocked then.", "Not linked to the opening date.", "Correct.", "No such lock-in."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-22", "chapter": 9, "difficulty": "easy",
+      "q": "A Power of Attorney holder operating a folio can carry out all transactions EXCEPT:",
+      "options": ["Redemption", "Making or changing a nomination", "Additional purchase", "Switch"],
+      "answer": 1, "marks": 1,
+      "explanation": "A PoA holder can conduct all transactions except making or changing nominations.",
+      "hints": ["Allowed.", "Correct.", "Allowed.", "Allowed."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-23", "chapter": 9, "difficulty": "easy",
+      "q": "Which statement about an investment made in the name of a minor is correct?",
+      "options": ["The minor can have up to two joint holders", "The minor signs the application", "KYC of the minor alone is sufficient", "The investment is made through a guardian and cannot have joint holders"],
+      "answer": 3, "marks": 1,
+      "explanation": "A minor invests through a guardian (natural parent or court-appointed), who completes KYC; a minor's investment cannot have joint holders.",
+      "hints": ["No joint holders allowed.", "Minors can't contract; the guardian acts.", "The guardian's KYC is required.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-24", "chapter": 10, "difficulty": "easy",
+      "q": "SEBI permits celebrity endorsements of mutual funds:",
+      "options": ["For any scheme, if the AMC pays", "Only for NFOs", "Only at industry level for awareness of MFs as a product category, with SEBI's prior approval", "Never, in any form"],
+      "answer": 2, "marks": 1,
+      "explanation": "Celebrity endorsements are allowed only at industry level to raise awareness, cannot promote a particular scheme or AMC brand, are funded from pooled investor-education money and need SEBI's prior approval.",
+      "hints": ["Scheme-specific endorsements are barred.", "Not limited to NFOs; scheme promotion is barred.", "Correct.", "Industry-level endorsement is permitted."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M2-25", "chapter": 10, "difficulty": "easy",
+      "q": "If unitholders feel the trustees have breached their obligations, whom can they file a suit against?",
+      "options": ["The mutual fund trust itself", "AMFI", "The distributor", "The trustees"],
+      "answer": 3, "marks": 1,
+      "explanation": "A trust is a notional entity, so investors cannot sue the trust; they can sue the trustees for breach of trust.",
+      "hints": ["A trust can't be sued; it is notional.", "AMFI is not responsible.", "Not the party responsible.", "Correct."],
+      "numeric": false, "case": null
+    }
+  ]
+}

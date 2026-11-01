@@ -1,0 +1,278 @@
+{
+  "id": "mock-7",
+  "title": "Mock 7 · Tough Drill B",
+  "level": "tough",
+  "blurb": "The final boss: applied numericals (NAV, bonus, STP, STT), regulatory edge cases and 'which is NOT' traps.",
+  "questions": [
+    {
+      "id": "vb-M7-01", "chapter": 1, "difficulty": "medium",
+      "q": "A family spends ₹30,000 a month today. If inflation stays at 6% p.a., roughly what will the same monthly expenses be after 10 years?",
+      "options": ["₹53,725", "₹48,000", "₹31,800", "₹96,000"],
+      "answer": 0, "marks": 1,
+      "explanation": "30,000 × (1.06)^10 ≈ ₹53,725, which matches the workbook's point that expenses would cross ₹53,000 in 10 years (and ₹96,000 in 20).",
+      "hints": ["Correct.", "That is simple, not compound, growth (30,000 × 1.6).", "That is just one year.", "That is roughly the 20-year figure."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M7-02", "chapter": 1, "difficulty": "medium",
+      "q": "Assume a fund's management cost is 2% p.a. and a DIY investor could earn the same pre-cost return. On a ₹25 lakh portfolio, how much would the investor 'save' in a year by doing it himself, which must then be weighed against his time and mistakes?",
+      "options": ["₹5,000", "₹50,000", "₹2,50,000", "₹20,000"],
+      "answer": 1, "marks": 1,
+      "explanation": "2% × ₹25,00,000 = ₹50,000. The workbook's point: compare this saving with the value of one's time and the cost of emotional mistakes.",
+      "hints": ["Off by a factor of 10.", "Correct.", "That is 10%.", "That is the workbook's ₹10 lakh example."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M7-03", "chapter": 2, "difficulty": "hard",
+      "q": "For a new sectoral or thematic equity scheme, the portfolio overlap with the AMC's other equity schemes (in sectoral/thematic and other equity categories) must not exceed 50%, EXCEPT with respect to:",
+      "options": ["Large cap schemes", "ELSS schemes", "Index funds", "Small cap schemes"],
+      "answer": 0, "marks": 1,
+      "explanation": "No more than 50% overlap is allowed with other sectoral/thematic and equity schemes, except large cap schemes. Sectors and themes must come from AMFI's half-yearly list.",
+      "hints": ["Correct.", "Not the exception.", "Not the exception.", "Not the exception."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-04", "chapter": 2, "difficulty": "hard",
+      "q": "A Medium Duration Fund must keep the Macaulay duration of its portfolio between:",
+      "options": ["1 and 3 years (adverse: 6 months to 3 years)", "3 and 4 years (adverse: 1 to 4 years)", "4 and 7 years (adverse: 1 to 7 years)", "Greater than 7 years"],
+      "answer": 1, "marks": 1,
+      "explanation": "Medium duration: 3–4 years, or 1–4 years under anticipated adverse situations. Medium-to-long is 4–7 (adverse 1–7); long is more than 7; short is 1–3.",
+      "hints": ["That is the short duration band (and the adverse range is invented).", "Correct.", "That is medium-to-long duration.", "That is long duration."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-05", "chapter": 2, "difficulty": "hard",
+      "q": "Which statement about a Multi Asset Allocation fund is INCORRECT?",
+      "options": ["It is an open-ended hybrid scheme", "It invests in at least three asset classes", "It must hold at least 10% in each of the three asset classes", "Foreign securities can be counted as a separate asset class"],
+      "answer": 3, "marks": 1,
+      "explanation": "Multi asset funds invest in at least three asset classes with at least 10% in each, and foreign securities are NOT treated as a separate asset class.",
+      "hints": ["True.", "True.", "True.", "Correct choice: this is the false statement."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-06", "chapter": 2, "difficulty": "medium",
+      "q": "A scheme has 2 crore units outstanding and its NAV is ₹18.50. What are its unit capital and AUM?",
+      "options": ["Unit capital ₹20 crore; AUM ₹37 crore", "Unit capital ₹37 crore; AUM ₹20 crore", "Unit capital ₹2 crore; AUM ₹37 crore", "Unit capital ₹20 crore; AUM ₹18.5 crore"],
+      "answer": 0, "marks": 1,
+      "explanation": "Unit capital = units × face value = 2 crore × ₹10 = ₹20 crore. AUM = units × NAV = 2 crore × ₹18.50 = ₹37 crore.",
+      "hints": ["Correct.", "The two are swapped.", "Unit capital uses the ₹10 face value.", "AUM uses NAV × units."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M7-07", "chapter": 3, "difficulty": "medium",
+      "q": "Which of the following is NOT among the 'core responsibilities' on which trustees exercise independent due diligence?",
+      "options": ["Ensuring fairness of fees and expenses charged by the AMC", "Personally selecting the securities for each scheme's portfolio", "Reviewing the AMC's scheme performance against peers or benchmarks", "Ensuring the AMC has systems to prevent mis-selling"],
+      "answer": 1, "marks": 1,
+      "explanation": "Trustees oversee; they don't manage portfolios. Security selection is the AMC fund-management team's job. The other three are listed core responsibilities.",
+      "hints": ["A core responsibility.", "Correct choice: not a trustee function.", "A core responsibility.", "A core responsibility."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-08", "chapter": 3, "difficulty": "hard",
+      "q": "Under SEBI's cyber security framework, within what time must a SEBI-regulated entity report a cyber incident by email and on the SEBI Incident Reporting Portal respectively?",
+      "options": ["6 hours and 24 hours", "24 hours and 72 hours", "1 hour and 6 hours", "12 hours and 48 hours"],
+      "answer": 0, "marks": 1,
+      "explanation": "SEBI mandates reporting cyber incidents to mkt_incidents@sebi.gov.in within 6 hours and on the SEBI Incident Reporting Portal (aligned to the FSB's FIRE format) within 24 hours.",
+      "hints": ["Correct.", "Too slow.", "Too fast.", "Not the prescribed timelines."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-09", "chapter": 4, "difficulty": "hard",
+      "q": "Which statement about the onboarding of new-cadre distributors is correct?",
+      "options": ["They must complete KYD with biometric verification like other distributors", "They are exempt from KYD/biometric requirements but must submit self-attested identity and address proof", "They need no AMFI registration", "They may sell any scheme that has beaten its benchmark"],
+      "answer": 1, "marks": 1,
+      "explanation": "New-cadre distributors are not required to comply with KYD/biometrics, but they must submit self-attested proof of identity and address. They register with AMFI in their category and sell only the permitted product types.",
+      "hints": ["They are exempt from KYD/biometrics.", "Correct.", "AMFI registration under the category is required.", "Only the permitted product types qualify."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-10", "chapter": 4, "difficulty": "medium",
+      "q": "Consider these statements about FMPs: (i) Redemption is not allowed before maturity. (ii) Listing on a recognised stock exchange is compulsory. (iii) Listing guarantees that investors can exit at NAV. Which are correct?",
+      "options": ["(i) and (ii) only", "(ii) and (iii) only", "(i), (ii) and (iii)", "(i) only"],
+      "answer": 0, "marks": 1,
+      "explanation": "FMPs are close-ended, with no redemption before maturity, and listing is compulsory. But listing does not guarantee liquidity: trading volumes may be low or nil, and prices may be at a discount to NAV.",
+      "hints": ["Correct.", "(iii) is false.", "(iii) is false.", "(ii) is also true."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-11", "chapter": 5, "difficulty": "medium",
+      "q": "How must the Key Information Memorandum be updated?",
+      "options": ["Once a year, within 3 months of the financial year end", "At least once in each half-year, within one month of the half-year end, and filed with SEBI electronically", "Only when a fundamental attribute changes", "Every month, with the factsheet"],
+      "answer": 1, "marks": 1,
+      "explanation": "The KIM is updated at least half-yearly, within one month of the end of the half-year, based on September/March data, and filed with SEBI forthwith in electronic mode.",
+      "hints": ["That is the SAI rule.", "Correct.", "It also has a periodic update cycle.", "Not the rule."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-12", "chapter": 5, "difficulty": "medium",
+      "q": "What must an AMC do about the unaudited financial results of its schemes for the half-year ending 30 September?",
+      "options": ["Host them on its website within one month and inform unitholders in writing (including email/SMS) that they are available", "Publish them in two newspapers within 4 months", "File them only with AMFI", "Send printed copies to all investors within 7 days"],
+      "answer": 0, "marks": 1,
+      "explanation": "Unaudited half-yearly results must be hosted on the website within one month of 31 March/30 September, and the AMC must send written communication (digital modes allowed) about their availability.",
+      "hints": ["Correct.", "The 4-month window is for the annual report.", "Website hosting is required.", "Not the rule."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-13", "chapter": 5, "difficulty": "medium",
+      "q": "An investor wants to know the regulatory rules on how different securities in a fund's portfolio will be valued, and the rules on transfer, transmission, pledge and minors' investments. Which document should she read?",
+      "options": ["Key Information Memorandum", "Fund factsheet", "Statement of Additional Information", "Account statement"],
+      "answer": 2, "marks": 1,
+      "explanation": "The SAI covers investment valuation norms and tax, legal and general information (nomination, transfer, transmission, minors, pledge), plus constituents and investor rights.",
+      "hints": ["The KIM is a brief summary.", "Voluntary; not this content.", "Correct.", "Shows holdings only."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-14", "chapter": 6, "difficulty": "hard",
+      "q": "A distributor may initiate a change of distributor code in clients' folios in all of the following situations EXCEPT:",
+      "options": ["Converting a sole proprietorship into an LLP", "Moving clients to another distributor who offers to share a higher commission with him", "Merger of business within the same group", "Transfer of AUM to a close relative who is a valid ARN holder"],
+      "answer": 1, "marks": 1,
+      "explanation": "Distributor-initiated changes are allowed only for a change in name/legal status, merger or consolidation within a group, family or close-relative consolidation, and transfer of business by individual distributors. In each case the entire AUM moves to a valid, KYD-compliant ARN and the old ARN is surrendered.",
+      "hints": ["Allowed (change in legal status).", "Correct choice: not an allowed reason.", "Allowed.", "Allowed (family consolidation)."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-15", "chapter": 6, "difficulty": "medium",
+      "q": "A distributor's data shows a portfolio turnover ratio at 2.5 times the industry average. What is the regulatory consequence?",
+      "options": ["The AMC must conduct additional due diligence on that distributor", "The ARN is automatically cancelled", "The distributor must refund all trail earned", "Nothing; turnover is not monitored"],
+      "answer": 0, "marks": 1,
+      "explanation": "Where a distributor's portfolio turnover is excessive (more than two times the industry average), AMCs conduct additional due diligence.",
+      "hints": ["Correct.", "No automatic cancellation.", "No such rule.", "It is monitored and disclosed."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-16", "chapter": 6, "difficulty": "hard",
+      "q": "Under AMFI's best-practice guideline of 12 March 2026 on the commission payout framework, how is commission paid to a distributor NOT registered under GST?",
+      "options": ["Base commission plus GST, paid to the distributor", "Base commission only; no GST component is paid to him", "No commission at all", "Base commission minus 18%"],
+      "answer": 1, "marks": 1,
+      "explanation": "Commission is paid in two tranches: the base commission (exclusive of GST) to all distributors, and the GST component only to registered distributors against a valid tax invoice. For unregistered distributors, the AMC handles GST under reverse charge.",
+      "hints": ["GST is paid only to registered distributors.", "Correct.", "Base commission is payable.", "No such deduction rule."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-17", "chapter": 7, "difficulty": "medium",
+      "q": "Scheme X gained 2.5% in its first 3 months; Scheme Y gained 4.5% in its first 6 months. Comparing simple annualised returns:",
+      "options": ["X is higher: 10% vs 9%", "Y is higher: 9% vs 7.5%", "Both are equal at 9%", "Y is higher because its absolute return is larger"],
+      "answer": 0, "marks": 1,
+      "explanation": "Annualised X = 2.5% × 12 ÷ 3 = 10%; Y = 4.5% × 12 ÷ 6 = 9%. Annualisation makes returns over different periods comparable, so X is better despite the smaller absolute gain.",
+      "hints": ["Correct.", "X annualises to 10%, not 7.5%.", "X is 10%.", "Absolute returns over different periods aren't comparable."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M7-18", "chapter": 7, "difficulty": "hard",
+      "q": "Anil's NAV has fallen below his cost: he invested ₹2,00,000 at NAV ₹20 and the NAV is now ₹19, but along the way he received IDCW of ₹1.50 per unit. Has he made money, and what is his total return?",
+      "options": ["−5.0%", "2.5%", "7.5%", "−2.5%"],
+      "answer": 1, "marks": 1,
+      "explanation": "Units = 10,000. End value ₹1,90,000; IDCW ₹15,000. Total return = (1,90,000 − 2,00,000 + 15,000) ÷ 2,00,000 = 2.5%.",
+      "hints": ["Ignores the IDCW.", "Correct.", "Counts the IDCW only.", "Sign error."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M7-19", "chapter": 7, "difficulty": "hard",
+      "q": "Under SEBI's benchmarking structure, which benchmark should a Fund of Funds that invests in MULTIPLE underlying schemes use?",
+      "options": ["A broad market index", "The benchmark of its largest underlying scheme", "The 10-year GoI security", "A tier-2 bespoke style index"],
+      "answer": 0, "marks": 1,
+      "explanation": "A FoF investing in a single fund uses that fund's benchmark; one investing in multiple schemes uses a broad market index.",
+      "hints": ["Correct.", "Applies only to a single-fund FoF (and then it is that fund's benchmark).", "Not the rule.", "FoFs have a single benchmark."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-20", "chapter": 7, "difficulty": "medium",
+      "q": "A debt scheme returned 11% with a standard deviation of 3%. The T-bill (risk-free) return was 6.5%. What is the Sharpe ratio?",
+      "options": ["3.67", "1.50", "2.17", "0.67"],
+      "answer": 1, "marks": 1,
+      "explanation": "Sharpe = (11 − 6.5) ÷ 3 = 1.5.",
+      "hints": ["Ignores the risk-free rate (11 ÷ 3).", "Correct.", "Divides 6.5 by 3.", "Inverts the ratio."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M7-21", "chapter": 8, "difficulty": "medium",
+      "q": "An investor redeems ₹5,00,000 worth of units of an equity-oriented fund directly with the mutual fund. What STT is payable, and by whom?",
+      "options": ["₹5, by the seller (investor)", "₹125, by the seller", "₹5, by the mutual fund", "Nil"],
+      "answer": 0, "marks": 1,
+      "explanation": "STT on sale of equity-oriented units to the mutual fund is 0.001%, paid by the seller: 5,00,000 × 0.001% = ₹5.",
+      "hints": ["Correct.", "That uses the 0.025% non-delivery rate.", "The seller pays.", "STT applies on redemption of equity-oriented units."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M7-22", "chapter": 8, "difficulty": "hard",
+      "q": "How are gains on a hybrid fund with about 50% domestic equity taxed (units bought after 1 April 2023, redeemed after 23 July 2024)?",
+      "options": ["STCG 20%; LTCG 12.5% after 12 months with ₹1.25 lakh exemption", "STCG at slab rate; LTCG 12.5% after 24 months", "All gains at slab rate regardless of holding", "Exempt"],
+      "answer": 1, "marks": 1,
+      "explanation": "Hybrid funds with 35–65% domestic equity: short-term gains at the marginal slab rate; long-term (after 24 months) at 12.5%.",
+      "hints": ["That is the equity-oriented (>65%) treatment.", "Correct.", "That applies to debt-oriented funds.", "Not exempt."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-23", "chapter": 9, "difficulty": "hard",
+      "q": "In a week where Mon, Wed, Thu and Fri are business days, an investor applies to buy an equity fund on Thursday, and the money is realised and available for utilisation at 4 pm on Thursday. Which NAV applies?",
+      "options": ["Friday's NAV", "Thursday's NAV", "Wednesday's NAV", "Monday's NAV"],
+      "answer": 0, "marks": 1,
+      "explanation": "For equity and debt (non-liquid) purchases, the NAV is that of the business day on which funds are available for utilisation before the 3 pm cut-off. Funds came after 3 pm Thursday, so the next business day (Friday) applies.",
+      "hints": ["Correct.", "Funds arrived after the cut-off.", "Purchases never get an earlier day's NAV in equity funds.", "Wrong day."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-24", "chapter": 9, "difficulty": "medium",
+      "q": "An investor holds 800 units at a NAV of ₹50. The scheme declares a 1:4 bonus. What is the position after the bonus?",
+      "options": ["1,000 units at ₹50", "1,000 units at ₹40", "3,200 units at ₹12.50", "1,200 units at ₹33.33"],
+      "answer": 1, "marks": 1,
+      "explanation": "1:4 means 1 new unit for every 4 held: 800 ÷ 4 = 200 bonus units, total 1,000. Value stays ₹40,000, so NAV = 40,000 ÷ 1,000 = ₹40.",
+      "hints": ["NAV must fall to keep the value unchanged.", "Correct.", "Treats 1:4 as 4 new units per unit.", "Treats it as 1:2."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M7-25", "chapter": 9, "difficulty": "medium",
+      "q": "An STP moves ₹50,000 a month from a short-term debt fund to an equity fund. The debt fund levies a 0.5% exit load on the first two instalments only. How much reaches the equity fund in the first month (ignoring tax and stamp duty)?",
+      "options": ["₹49,750", "₹50,000", "₹49,500", "₹50,250"],
+      "answer": 0, "marks": 1,
+      "explanation": "Exit load = 0.5% × 50,000 = ₹250. Amount transferred = ₹49,750. STP transfers are redemptions, so loads and taxes apply.",
+      "hints": ["Correct.", "Ignores the exit load.", "Uses a 1% load.", "The load reduces, not increases, the amount."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M7-26", "chapter": 9, "difficulty": "hard",
+      "q": "A fund needs 30 days to register a SIP. An investor submits the SIP form on 20 June and chooses the 10th of each month as the SIP date. When is the first instalment?",
+      "options": ["10 July", "10 August", "20 July", "1 August"],
+      "answer": 1, "marks": 1,
+      "explanation": "Registration completes around 20 July, so 10 July is too early. The first available SIP date after registration is 10 August.",
+      "hints": ["Falls inside the 30-day registration period.", "Correct.", "Not the chosen SIP date.", "Not the chosen SIP date."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-27", "chapter": 9, "difficulty": "hard",
+      "q": "A folio is held jointly by Ravi (first holder) and Sunita, with Ravi's son registered as nominee. Ravi dies. Who gets the units?",
+      "options": ["Sunita, as the surviving joint holder (she becomes the first holder)", "The son, as nominee", "The son and Sunita equally", "Ravi's legal heirs through a succession certificate"],
+      "answer": 0, "marks": 1,
+      "explanation": "In a jointly held folio with nominations, the right of the joint holder takes precedence. If the first holder dies, the second holder is substituted as the first holder, as owner and not as trustee.",
+      "hints": ["Correct.", "The nominee steps in only after all joint holders.", "No equal-split rule.", "Not needed while a joint holder survives."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-28", "chapter": 9, "difficulty": "medium",
+      "q": "Which of the following can be used to pay for a lump-sum mutual fund purchase?",
+      "options": ["A postal order", "A stock-invest", "An NEFT transfer from the first holder's bank account", "A post-dated cheque"],
+      "answer": 2, "marks": 1,
+      "explanation": "Stock-invests, postal orders, money orders, outstation cheques and post-dated cheques (except for systematic investments) are not accepted. Electronic transfers like NEFT/RTGS from the investor's account are accepted.",
+      "hints": ["Not accepted.", "Not accepted.", "Correct.", "Allowed only for SIP instalments."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-29", "chapter": 10, "difficulty": "hard",
+      "q": "Unclaimed redemption and dividend amounts are deployed in a separate plan of a liquid scheme. What is the maximum investment management fee the AMC can charge on this plan?",
+      "options": ["1.00% p.a., with exit load", "Nil", "2.25% p.a.", "0.50% p.a., with no exit load"],
+      "answer": 3, "marks": 1,
+      "explanation": "AMCs can recover investment management and advisory fees on unclaimed amounts at a maximum of 0.50% p.a., and no exit load can be charged on this plan.",
+      "hints": ["Too high, and no exit load is allowed.", "A fee is allowed.", "Not the cap.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M7-30", "chapter": 10, "difficulty": "hard",
+      "q": "A debt security written off when a scheme was wound up later yields a substantial recovery 18 months afterwards. What happens to the money?",
+      "options": ["It goes to the AMC's profit", "It goes to the sponsor", "It is paid to the old investors of the scheme", "It goes to current investors of other schemes"],
+      "answer": 2, "marks": 1,
+      "explanation": "If the amounts are substantial and recovered within 2 years, they are paid to the old investors; otherwise they go to the Investor Education Fund maintained by the mutual fund.",
+      "hints": ["The AMC can't keep it.", "Not the sponsor.", "Correct.", "Only the affected (old) investors benefit."],
+      "numeric": false, "case": null
+    }
+  ]
+}

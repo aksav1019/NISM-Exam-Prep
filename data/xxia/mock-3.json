@@ -1,0 +1,583 @@
+{
+ "id": "mock-3",
+ "title": "Mock 3 · Numbers Drill",
+ "level": "easy",
+ "blurb": "Light numericals in every chapter (PV, PEG, CAPM, duration, fees, Sharpe, LTCG) mixed with must-know PMS rules.",
+ "questions": [
+  {
+   "id": "xxia-M3-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "An investor is certain to receive ₹110 one year from today. If the risk-free rate is 10%, the present value is:",
+   "options": [
+    "₹99",
+    "₹121",
+    "₹100",
+    "₹110"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "PV = FV / (1 + r) = 110 / 1.10 = ₹100.",
+   "hints": [
+    "Wrong: subtracts 10% of 110 instead of discounting.",
+    "Wrong: this compounds forward.",
+    "Correct: 110 / 1.10.",
+    "Wrong: ignores time value of money."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-02",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "An Indian investor holds US stocks. If the rupee strengthens (appreciates) against the dollar, her returns in rupee terms will:",
+   "options": [
+    "Increase",
+    "Decline",
+    "Remain unaffected",
+    "Become risk free"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Appreciation of the home currency reduces returns from foreign assets; the workbook example shows INR returns may decline if the rupee strengthens.",
+   "hints": [
+    "Wrong: depreciation of the rupee would increase returns.",
+    "Correct: rupee appreciation reduces INR returns.",
+    "Wrong: currency moves affect returns on foreign assets.",
+    "Wrong: exchange rate risk remains."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Under SEBI ICDR Regulations, 2018, a 'retail individual investor' is one who applies in an IPO/FPO for a value of not more than:",
+   "options": [
+    "₹50,000",
+    "₹5 lakh",
+    "₹10 lakh",
+    "₹2 lakh"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A retail individual investor applies or bids for specified securities for a value of not more than ₹2 lakh.",
+   "hints": [
+    "Wrong: too low.",
+    "Wrong: above the limit.",
+    "Wrong: ₹10 lakh is the PMLA cash threshold.",
+    "Correct: ₹2 lakh."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-04",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "A stock has a P/E of 30 and expected EPS growth of 20%. Its PEG ratio and the usual interpretation are:",
+   "options": [
+    "1.5, possibly overvalued",
+    "0.67, possibly undervalued",
+    "1.5, possibly undervalued",
+    "600, fairly valued"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "PEG = 30 / 20 = 1.5. A PEG greater than 1 can indicate the stock is overvalued.",
+   "hints": [
+    "Correct: PEG above 1 suggests overvaluation.",
+    "Wrong: growth divided by P/E, inverted.",
+    "Wrong: right number, wrong interpretation.",
+    "Wrong: multiplies instead of dividing."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-05",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Using CAPM, with a risk-free rate of 6%, beta of 1.2 and expected market return of 12%, the cost of equity is:",
+   "options": [
+    "14.4%",
+    "13.2%",
+    "7.2%",
+    "19.2%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "re = Rf + β(Rm - Rf) = 6% + 1.2 x (12% - 6%) = 6% + 7.2% = 13.2%.",
+   "hints": [
+    "Wrong: multiplies market return by beta without subtracting Rf.",
+    "Correct: 6 + 1.2 x 6.",
+    "Wrong: this is only the risk premium part.",
+    "Wrong: adds the full market return to the premium."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-06",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "In the event of liquidation of a company, equity shareholders are paid:",
+   "options": [
+    "Before all lenders",
+    "Along with secured lenders",
+    "First, as owners",
+    "Last, after all debts and liabilities are settled"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Equity is a residual claim: holders are last to be paid after all debts and liabilities.",
+   "hints": [
+    "Wrong: lenders rank ahead of equity.",
+    "Wrong: secured lenders rank ahead.",
+    "Wrong: ownership does not give priority.",
+    "Correct: residual claim."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "A bond has a modified duration of 6. If market yields rise by 0.50%, its price will change by approximately:",
+   "options": [
+    "-3%",
+    "+3%",
+    "-6%",
+    "-0.5%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "% change in price = - Modified Duration x change in yield = -6 x 0.005 = -3%.",
+   "hints": [
+    "Correct: -6 x 0.5%.",
+    "Wrong: prices fall when yields rise.",
+    "Wrong: ignores the size of the yield change.",
+    "Wrong: ignores duration."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "A trader with no underlying position buys a one-month futures contract at ₹102. At expiry the asset trades at ₹98. Ignoring costs, the trader's result per unit is:",
+   "options": [
+    "Gain of ₹4",
+    "Gain of ₹2",
+    "Loss of ₹4",
+    "Loss of ₹2"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Long futures at 102, settled at 98: loss = 102 - 98 = ₹4. A view-based trade without an underlying position is speculation.",
+   "hints": [
+    "Wrong: a long position loses when prices fall.",
+    "Wrong: wrong direction and amount.",
+    "Correct: 102 - 98 = 4 loss.",
+    "Wrong: compares with an assumed spot of 100."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-09",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "A REIT that invests in real estate loans and mortgage-backed securities and earns interest income is a:",
+   "options": [
+    "Equity REIT",
+    "Hybrid REIT",
+    "Developmental REIT",
+    "Mortgage REIT"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Mortgage REITs invest in real estate loans and MBS and earn income from interest.",
+   "hints": [
+    "Wrong: equity REITs own properties and earn rent.",
+    "Wrong: hybrid REITs earn both rent and interest.",
+    "Wrong: 'developmental' is an InvIT type.",
+    "Correct: mortgage REIT."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-10",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "If a portfolio manager aggregates purchases for several clients for economy of scale, the inter se allocation must be done:",
+   "options": [
+    "Pro rata at the weighted average price of the day's transactions",
+    "At the discretion of the dealer",
+    "First come first served at actual prices",
+    "In favour of the largest client"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Inter se allocation shall be done on a pro rata basis at the weighted average price of the day's transactions, with no open position in allocation.",
+   "hints": [
+    "Correct: pro rata at weighted average price.",
+    "Wrong: no discretion; fairness is mandated.",
+    "Wrong: not permitted.",
+    "Wrong: favouritism is prohibited."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-11",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A portfolio manager is required to preserve its books of account and records for:",
+   "options": [
+    "The preceding 3 accounting years",
+    "The preceding 8 accounting years",
+    "The preceding 5 accounting years",
+    "Only the current accounting year"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The PM must preserve books of account and other records for the preceding five accounting years.",
+   "hints": [
+    "Wrong: too short.",
+    "Wrong: 8 years relates to F&O loss carry forward.",
+    "Correct: 5 accounting years.",
+    "Wrong: far too short."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-12",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Which of the following is a portfolio manager permitted to do?",
+   "options": [
+    "Invest client funds in a portfolio managed by another portfolio manager",
+    "Participate in securities lending with written client authorisation",
+    "Charge distribution fees when investing in MF direct plans",
+    "Deploy client funds in bill discounting"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The PM may, subject to written authorisation by the client, participate in securities lending. The other actions are expressly prohibited.",
+   "hints": [
+    "Wrong: prohibited.",
+    "Correct: allowed with written client authorisation.",
+    "Wrong: no distribution fee on direct plans.",
+    "Wrong: bill discounting and badla are prohibited."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-13",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A client's average daily AUM for the year is ₹80 lakh. The maximum operating expenses (excluding brokerage) the PM may charge over and above its fee is:",
+   "options": [
+    "₹80,000",
+    "₹40,000",
+    "₹4,00,000",
+    "₹20,000"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Cap = 0.50% x ₹80,00,000 = ₹40,000 per annum.",
+   "hints": [
+    "Wrong: this is 1%.",
+    "Correct: 0.50% of ₹80 lakh.",
+    "Wrong: this is 5%.",
+    "Wrong: this is 0.25%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-14",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "A PMS charges a 20% performance fee above a 10% hurdle rate. On ₹1 crore, the portfolio earns 15% in a year (ignore other fees). The performance fee is:",
+   "options": [
+    "₹3,00,000",
+    "₹2,00,000",
+    "₹50,000",
+    "₹1,00,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Fee applies only on the 5% excess: 5% x ₹1 crore = ₹5 lakh; 20% of ₹5 lakh = ₹1,00,000.",
+   "hints": [
+    "Wrong: 20% of the entire ₹15 lakh gain.",
+    "Wrong: 20% of the ₹10 lakh hurdle amount.",
+    "Wrong: 10% of the excess.",
+    "Correct: 20% of ₹5 lakh."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-15",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "For new clients on-boarded on or after which date must portfolio managers ensure compliance with the MITC (Most Important Terms and Conditions) requirement?",
+   "options": [
+    "October 01, 2024",
+    "January 01, 2025",
+    "July 03, 2023",
+    "February 13, 2020"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "MITC applies to new clients on-boarded on or after October 01, 2024; existing clients were to be informed by January 01, 2025.",
+   "hints": [
+    "Correct: October 01, 2024.",
+    "Wrong: this was the deadline for existing clients.",
+    "Wrong: this is the ADR Regulation 22A date.",
+    "Wrong: this is the PMS guidelines circular date."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-16",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "On the workbook's sample risk profiling questionnaire, an investor scores 22. She falls in the category:",
+   "options": [
+    "Aggressive",
+    "Conservative",
+    "Moderate",
+    "Risk-averse"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Bands: 25-30 Aggressive, 19-24 Moderate, 13-18 Conservative, below 13 Risk-averse. 22 is Moderate (balanced allocation).",
+   "hints": [
+    "Wrong: Aggressive needs 25-30.",
+    "Wrong: Conservative is 13-18.",
+    "Correct: 19-24 is Moderate.",
+    "Wrong: Risk-averse is below 13."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-17",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Compared with Strategic Asset Allocation, Tactical Asset Allocation typically has:",
+   "options": [
+    "Lower risk and less frequent rebalancing",
+    "Higher risk and more frequent adjustments",
+    "No need for market monitoring",
+    "A fixed asset mix for decades"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "TAA is short-term and active, with more frequent adjustments and higher risk due to market timing.",
+   "hints": [
+    "Wrong: describes SAA.",
+    "Correct: TAA is active and riskier.",
+    "Wrong: TAA needs continuous monitoring.",
+    "Wrong: describes SAA."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-18",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Under SEBI's performance benchmarking framework, each investment approach must be tagged to:",
+   "options": [
+    "Exactly one strategy",
+    "At least two strategies",
+    "Any number of strategies",
+    "No strategy, only a benchmark"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Each investment approach shall be tagged to one and only one strategy among equity, debt, hybrid and multi-asset.",
+   "hints": [
+    "Correct: one and only one.",
+    "Wrong: only one is allowed.",
+    "Wrong: only one is allowed.",
+    "Wrong: tagging to a strategy is required."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-19",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Under the Liberalised Remittance Scheme, a resident individual may remit up to how much per financial year for permissible transactions?",
+   "options": [
+    "USD 25,000",
+    "USD 1,00,000",
+    "USD 5,00,000",
+    "USD 2,50,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "LRS allows resident individuals, including minors, to remit up to USD 2,50,000 per financial year. It began in 2004 at USD 25,000.",
+   "hints": [
+    "Wrong: the original 2004 limit.",
+    "Wrong: not the current limit.",
+    "Wrong: too high.",
+    "Correct: USD 2,50,000."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-20",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "A portfolio returned 14% with a standard deviation of 16% when the risk-free rate was 6%. The Sharpe ratio is:",
+   "options": [
+    "0.875",
+    "0.375",
+    "0.50",
+    "8.0"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Sharpe = (14 - 6) / 16 = 0.50.",
+   "hints": [
+    "Wrong: return divided by SD without subtracting Rf.",
+    "Wrong: Rf / SD.",
+    "Correct: 8 / 16.",
+    "Wrong: excess return not divided by risk."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-21",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "A PMS earns a pre-tax return of 15% and the investor's applicable tax rate is 20%. The post-tax return is:",
+   "options": [
+    "12%",
+    "3%",
+    "18%",
+    "15%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Post-tax return = Pre-tax return x (1 - tax rate) = 15% x 0.80 = 12%.",
+   "hints": [
+    "Correct: 15 x 0.8.",
+    "Wrong: this is the tax amount.",
+    "Wrong: adds tax.",
+    "Wrong: ignores tax."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-22",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "A resident investor's total equity LTCG for the year (all from PMS, no other gains) is ₹3,00,000. Ignoring surcharge and cess, the tax payable is:",
+   "options": [
+    "₹37,500",
+    "₹60,000",
+    "₹21,875",
+    "₹35,000"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "LTCG up to ₹1.25 lakh is exempt; taxable = 3,00,000 - 1,25,000 = 1,75,000; tax at 12.5% = ₹21,875.",
+   "hints": [
+    "Wrong: ignores the ₹1.25 lakh exemption.",
+    "Wrong: applies the 20% STCG rate.",
+    "Correct: 12.5% of ₹1.75 lakh.",
+    "Wrong: applies 20% after the exemption."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-23",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "A resident investor receives total dividends of ₹8,000 from a company in FY 2025-26. According to the workbook, TDS on these dividends is:",
+   "options": [
+    "10% of ₹8,000",
+    "20% of ₹8,000",
+    "10% of ₹3,000",
+    "Not deducted, since the threshold from FY 2025-26 is ₹10,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Companies deduct TDS at 10% on dividends exceeding ₹5,000; this limit has been increased to ₹10,000 from FY 2025-26. ₹8,000 is below the threshold.",
+   "hints": [
+    "Wrong: the dividend is below the new threshold.",
+    "Wrong: 20% is the NRI dividend TDS mentioned.",
+    "Wrong: TDS is not on the excess only.",
+    "Correct: below ₹10,000, no TDS."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-24",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "Under Schedule C of the insider trading regulations, pre-cleared trades must be executed by the designated person within:",
+   "options": [
+    "3 trading days",
+    "7 trading days",
+    "30 days",
+    "6 months"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The code of conduct shall specify a timeframe not exceeding seven trading days for executing pre-cleared trades, failing which fresh pre-clearance is needed.",
+   "hints": [
+    "Wrong: the limit is longer.",
+    "Correct: not more than 7 trading days.",
+    "Wrong: too long.",
+    "Wrong: 6 months is the minimum contra-trade period."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M3-25",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "Under the PaRRVA framework operationalised by SEBI in April 2026, which entity is recognised as the verifying agency?",
+   "options": [
+    "CARE Ratings Limited",
+    "APMI",
+    "NSE",
+    "NSDL"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Care Ratings Limited is recognised as the PaRRVA verifying agency; NSE functions as the PaRRVA Data Centre.",
+   "hints": [
+    "Correct: CARE Ratings Limited.",
+    "Wrong: APMI prescribes benchmarks and valuation norms.",
+    "Wrong: NSE is the PaRRVA Data Centre.",
+    "Wrong: NSDL is a depository."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

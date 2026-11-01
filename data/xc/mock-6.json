@@ -1,0 +1,698 @@
+{
+ "id": "mock-6",
+ "title": "Mock 6 · Pressure Test",
+ "level": "tough",
+ "blurb": "Close distractors, 'which is NOT' traps, CSCRF thresholds and timeline arithmetic.",
+ "questions": [
+  {
+   "id": "xc-M6-01",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT a feature of the proposed new asset class?",
+   "options": [
+    "Units may potentially be listed on stock exchanges",
+    "Derivatives may be used only for hedging, as in traditional MFs",
+    "Proposed relaxations in single-issuer and sector limits",
+    "Relaxed prudential norms with adequate safeguards"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The new asset class permits derivatives exposure beyond hedging; the other three are listed features.",
+   "hints": [
+    "Listing of units on exchanges is possible.",
+    "Correct: this is NOT a feature, because derivatives beyond hedging are allowed.",
+    "Relaxed single-issuer and sector limits are proposed.",
+    "Relaxed prudential norms with safeguards is a stated feature."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-02",
+   "chapter": 1,
+   "difficulty": "hard",
+   "q": "Consider: (I) REITs in India focus mainly on commercial real estate such as offices and retail spaces. (II) The first REIT in India was launched in 2014. Which is correct?",
+   "options": [
+    "Neither I nor II",
+    "Only II",
+    "Both I and II",
+    "Only I"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "REITs focus mainly on commercial real estate (I is true). SEBI introduced REITs in 2014 but the first REIT launched in 2019, so II is false.",
+   "hints": [
+    "I is true, so 'neither' is wrong.",
+    "II is false: 2014 is when SEBI introduced REITs; the first launch was 2019.",
+    "II is false, so 'both' is wrong.",
+    "Correct: only statement I is true."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-03",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "Under the new asset class, AMCs would offer products called 'Investment Strategies'. Which feature is mentioned for them?",
+   "options": [
+    "Customisable redemption frequencies",
+    "No minimum investment",
+    "Daily redemption mandatory for all strategies",
+    "Guaranteed minimum returns"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "AMCs can offer 'Investment Strategies' with customisable redemption frequencies and potentially list units on exchanges.",
+   "hints": [
+    "Correct: redemption frequencies can be customised.",
+    "The minimum is ₹10 lakh per investor.",
+    "Redemption is customisable, not mandatorily daily.",
+    "No guarantee is offered; that would be prohibited."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-04",
+   "chapter": 2,
+   "difficulty": "hard",
+   "q": "Why does the deck say tax-loss harvesting opportunities have reduced after Budget 2024? (I) Higher LTCG tax on debt mutual funds. (II) Removal of the indexation benefit.",
+   "options": [
+    "Neither; opportunities have increased",
+    "Only II",
+    "Both I and II",
+    "Only I"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The deck states tax-loss harvesting is still possible, though opportunities are reduced due to higher LTCG tax on debt MFs and removal of indexation.",
+   "hints": [
+    "The deck says opportunities have reduced.",
+    "Higher LTCG on debt MFs is also cited.",
+    "Correct: both reasons are cited.",
+    "Removal of indexation is also cited."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-05",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT one of the factors listed in the deck that determine the applicable capital gains tax structure?",
+   "options": [
+    "Whether the asset is listed or unlisted",
+    "Age of the investor",
+    "Whether the sale was before or after July 23, 2024",
+    "Whether the investor is resident, non-resident or non-individual"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Factors listed: holding period, type of asset (type of investment; listed/unlisted), investor category, purchase date and sell date. Age is not listed.",
+   "hints": [
+    "Listed vs unlisted is a listed factor.",
+    "Correct: age is not a listed factor.",
+    "Sale date is a listed factor.",
+    "Investor category is a listed factor."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-06",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "An IA's compliance audit report for FY 2024-25 is dated October 10, 2025 and has adverse findings. By when must the findings and action taken reach BSE?",
+   "options": [
+    "November 10, 2025",
+    "December 31, 2025",
+    "October 31, 2025",
+    "September 30, 2025"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Adverse findings must be submitted within one month from the audit report date but not later than October 31. One month from Oct 10 would be Nov 10, but the October 31 outer limit applies.",
+   "hints": [
+    "One month would be Nov 10, but the cap is Oct 31.",
+    "December 31 is beyond both limits.",
+    "Correct: the October 31 cap applies.",
+    "September 30 is before the report even existed."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xc-M6-07",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "In the SCORES flow, if a complainant is not satisfied with the IA's ATR, within how many days must they indicate this to seek a first review?",
+   "options": [
+    "15 days",
+    "30 days",
+    "21 days",
+    "10 days"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Per the SCORES flowchart, the complainant indicates dissatisfaction within 15 days (or no ATR from the entity in 21 days), and the complaint goes to the Designated Body.",
+   "hints": [
+    "Correct: 15 days.",
+    "30 days is not used in the SCORES review flow.",
+    "21 days is the IA's ATR deadline.",
+    "10 days is the Designated Body's ATR deadline."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-08",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "In a first review on SCORES, within how many days must the Designated Body (BSE) upload its ATR?",
+   "options": [
+    "15 days",
+    "21 days",
+    "7 working days",
+    "10 days"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The Designated Body will upload its ATR on SCORES within 10 days, routed automatically to the complainant.",
+   "hints": [
+    "15 days is the complainant's window to seek review.",
+    "21 days is the IA's timeline.",
+    "7 working days is the half-yearly report deadline.",
+    "Correct: 10 days."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-09",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "Which statement about Online Dispute Resolution (ODR) is INCORRECT?",
+   "options": [
+    "IAs must train employees to handle SCORES and ODR references",
+    "Investors can use ODR only after the SCORES process is fully exhausted",
+    "IAs must display a link to the ODR Portal on their website home page",
+    "IAs must promote investor awareness about the ODR Portal"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The deck says investors can approach ODR or other civil remedies at any point of time; it is not conditional on exhausting SCORES.",
+   "hints": [
+    "Training employees is a stated requirement.",
+    "Correct: this is the incorrect statement; ODR can be approached at any time.",
+    "Displaying the link is a stated requirement.",
+    "Promoting awareness through seminars, workshops etc. is a stated requirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-10",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "An IA's video ad shows three stock names in its first frame and puts the line 'The securities quoted are for illustration only and are not recommendatory' in the closing frame. Is this compliant?",
+   "options": [
+    "No; the disclaimer must be on the same slide/frame where the securities are displayed",
+    "Yes; a disclaimer anywhere in the ad is enough",
+    "Yes, if the stock logos are also shown",
+    "No; securities can never be named in any ad"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The disclaimer must be on the same slide/frame where the specific securities are displayed, not at the end; logos of the securities must not be used.",
+   "hints": [
+    "Correct: it must be on the same frame.",
+    "Placement matters; the end frame is not allowed.",
+    "Logos of securities quoted are prohibited.",
+    "Securities can be quoted for illustration with the proper disclaimer."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-11",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "Which of the following advertisements would still require fresh BSE approval?",
+   "options": [
+    "A previously approved ad reused with only updated factual information",
+    "Wishes on a festival",
+    "An approved print ad redesigned for social media without any content change",
+    "A previously approved ad with substantial changes to its content"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Fresh approval is required only for substantial changes. Reuse with only factual updates, re-design for another medium without content change, and festival greetings are exempt.",
+   "hints": [
+    "Reuse with only factual updates is exempt.",
+    "Festival greetings are exempt.",
+    "Redesign for a different medium without content change is exempt.",
+    "Correct: substantial changes need fresh approval."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-12",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "A TV anchor would be treated as a 'celebrity' (and so barred from IA ads) if they hosted a programme for at least:",
+   "options": [
+    "Any single episode",
+    "Three seasons or 50 episodes",
+    "One season or a minimum of 10 episodes",
+    "Five seasons or 100 episodes"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Celebrity includes a host/anchor for any TV or entertainment programme for at least one season or a minimum of 10 episodes, as the case may be.",
+   "hints": [
+    "A single episode does not meet the threshold.",
+    "Threshold is lower than this.",
+    "Correct: 1 season or 10 episodes.",
+    "Threshold is much lower."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-13",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "When may an IA advertisement refer to a report, analysis or service as 'free'?",
+   "options": [
+    "Only if it is actually available free and without any condition or obligation",
+    "If the client signs up for an annual plan",
+    "Whenever the first month is free",
+    "Never, under any circumstances"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Prohibition: reference to any report, analysis or service as free, unless it actually is available for free and without any condition or obligation.",
+   "hints": [
+    "Correct: only when truly free and unconditional.",
+    "Conditional on a plan purchase, so not free.",
+    "A free trial tied to a later fee is conditional.",
+    "It is allowed when genuinely free."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-14",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "An IA ad shows a table comparing its model advisory portfolio's return (13%) with a benchmark's (11.5%). It carries all mandatory disclosures and the BSE approval number. What is the issue?",
+   "options": [
+    "Benchmarks must be shown in a font size of 14",
+    "Nothing; disclosures make it compliant",
+    "Only the benchmark name needs to be removed",
+    "Reference to past performance of the IA is prohibited"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The deck's sample ad (A2Z Advisors) showing past performance of a model advisory portfolio is marked prohibited; reference to the IA's past performance is not allowed.",
+   "hints": [
+    "No such font rule exists.",
+    "Disclosures do not cure a prohibited claim.",
+    "The past-performance claim itself is the problem.",
+    "Correct: past performance cannot be advertised."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-15",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "Which of the following is a cybersecurity FUNCTION in CSCRF rather than a cyber resiliency GOAL?",
+   "options": [
+    "Withstand",
+    "Evolve",
+    "Identify",
+    "Anticipate"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Cyber resiliency goals: Anticipate, Withstand, Contain, Recover, Evolve. Cybersecurity functions: Identify, Detect, Protect, Respond, Recover.",
+   "hints": [
+    "Withstand is a resilience goal.",
+    "Evolve is a resilience goal.",
+    "Correct: Identify is a function.",
+    "Anticipate is a resilience goal."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xc-M6-16",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "A portfolio manager had an AUM of ₹2,500 crore in the previous financial year. Under CSCRF, it is a:",
+   "options": [
+    "Qualified RE",
+    "Small-size RE",
+    "Mid-size RE",
+    "Self-certification RE"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "PMS thresholds: < ₹1,000 cr Self-certification; ₹1,000 cr and above but less than ₹3,000 cr Small-size; ₹3,000 cr and above Mid-size; Qualified is N.A. for PMS.",
+   "hints": [
+    "Qualified is not applicable to PMS.",
+    "Correct: ₹2,500 cr falls in ₹1,000-3,000 cr, i.e. Small-size.",
+    "Mid-size starts at ₹3,000 cr.",
+    "Self-certification is below ₹1,000 cr."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xc-M6-17",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "An AIF has a sum AUM of ₹750 crore. Its CSCRF category is:",
+   "options": [
+    "Qualified RE",
+    "Self-certification RE",
+    "Small-size RE",
+    "Mid-size RE"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "AIF thresholds: < ₹100 cr Self-cert; ₹100-500 cr Small; ₹500 cr and above but less than ₹1,000 cr Mid; ₹1,000 cr and above Qualified.",
+   "hints": [
+    "Qualified starts at ₹1,000 cr.",
+    "Self-cert is below ₹100 cr.",
+    "Small-size is ₹100-500 cr.",
+    "Correct: ₹750 cr is in the ₹500-1,000 cr band."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-18",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "How often must a Qualified RE carry out the CSCRF cyber audit?",
+   "options": [
+    "Half-yearly",
+    "Quarterly",
+    "Once every two years",
+    "Annually"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "For Qualified REs the cyber audit must be carried out half-yearly; the rest annually (not applicable to Self-certification REs).",
+   "hints": [
+    "Correct: half-yearly.",
+    "Quarterly is not the audit frequency.",
+    "Two-yearly is not mentioned.",
+    "Annual applies to other non-self-cert REs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-19",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "Red teaming exercises under CSCRF are required:",
+   "options": [
+    "Annually, for all REs",
+    "Quarterly, for Mid-size and Qualified REs",
+    "Half-yearly, for Qualified REs only",
+    "Never; they are optional for all"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The compliance timelines table shows red teaming as half-yearly for Qualified REs and not applicable ('-') for others.",
+   "hints": [
+    "It does not apply to all REs.",
+    "Quarterly is the threat-hunting frequency for Qualified REs.",
+    "Correct: half-yearly, Qualified REs only.",
+    "It is required for Qualified REs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-20",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "Vulnerabilities from a VAPT that remain open three months after the VAPT activity must be:",
+   "options": [
+    "Reported to BSE within 24 hours",
+    "Approved by the IT Committee for REs and closed before the next VAPT starts",
+    "Approved by CERT-In",
+    "Ignored until the next VAPT"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Open vulnerabilities after 3 months of VAPT shall be approved by the IT Committee for REs and closed before the start of the next VAPT exercise.",
+   "hints": [
+    "No such BSE reporting is prescribed.",
+    "Correct: IT Committee approval and closure before next VAPT.",
+    "CERT-In does not approve open findings.",
+    "They cannot be ignored."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-21",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "In April, an IA resolved five complaints that took 3, 8, 11, 19 and 24 days respectively. What is the average resolution time to be disclosed?",
+   "options": [
+    "15 days",
+    "65 days",
+    "13 days",
+    "11 days"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Average resolution time = sum of days to resolve each complaint ÷ complaints resolved = (3+8+11+19+24) ÷ 5 = 65 ÷ 5 = 13 days.",
+   "hints": [
+    "15 does not match the formula.",
+    "65 is the total, not the average.",
+    "Correct: 65 ÷ 5 = 13 days.",
+    "11 is the median, not the average."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xc-M6-22",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "Which of the following is part of the Code of Conduct in Schedule III of the Intermediaries Regulations, and NOT one of the headings in the IA Regulations' Third Schedule?",
+   "options": [
+    "Information about clients",
+    "Intermediary infrastructure requirements",
+    "Capabilities",
+    "Fair and reasonable charges"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Third Schedule (IA) headings: honesty and fairness, diligence, capabilities, information about clients, information to clients, fair and reasonable charges, conflicts of interest, compliance, responsibility of senior management. Infrastructure requirements is an Intermediaries Schedule III heading.",
+   "hints": [
+    "Information about clients is an IA Third Schedule heading.",
+    "Correct: an Intermediaries Schedule III heading.",
+    "Capabilities is an IA Third Schedule heading.",
+    "Fair and reasonable charges is an IA Third Schedule heading."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-23",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "In one SEBI order, which method of receiving advisory fees was listed among the violations?",
+   "options": [
+    "Using a payment gateway mechanism",
+    "NEFT to the IA's disclosed bank account",
+    "Payment via banking channels with signed receipts",
+    "Cheque payments with receipts"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Case 1 lists 'Using payment gateway mechanism to receive fees' among the violations observed.",
+   "hints": [
+    "Correct: the payment gateway route was a cited violation.",
+    "Bank transfers to the disclosed account are normal.",
+    "This is what the investor charter recommends.",
+    "Cheques via banking channels are the normal route."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-24",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "SEBI penalised an IA that did risk profiling only over a phone call and kept no physical copies. What should the IA have done?",
+   "options": [
+    "Recorded the call and deleted it after 30 days",
+    "Used the client's previous broker's risk profile",
+    "Asked BSE to verify the risk profile",
+    "Obtained the client's consent through registered email or a physical document"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Case 4: the Noticee did risk profiling over the phone without records; it was required to obtain the client's consent through registered email or physical document.",
+   "hints": [
+    "Deleting records would breach record-keeping.",
+    "Another entity's profile is not a substitute.",
+    "BSE does not verify risk profiles.",
+    "Correct: consent via registered email or physical document."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-25",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "Under the PIT Regulations code, which persons are governed by the internal code of conduct for dealing in securities?",
+   "options": [
+    "Only clients of the IA",
+    "Only the compliance officer",
+    "Designated persons and their immediate relatives",
+    "Only directors"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Designated persons and immediate relatives of designated persons in the organisation are governed by the internal code of conduct.",
+   "hints": [
+    "Clients are not covered by the internal code.",
+    "Coverage is much wider than the compliance officer.",
+    "Correct: designated persons and immediate relatives.",
+    "Not only directors."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-26",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "An intermediary is also registered with SEBI in another capacity. What does the Intermediaries code require?",
+   "options": [
+    "Merging both activities under one compliance officer and one team",
+    "Charging clients a common fee for both",
+    "Surrendering one of the registrations",
+    "An arm's length relationship in both manpower and infrastructure between the two activities"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "An intermediary registered in any other capacity shall endeavour to maintain an arm's length relationship in terms of manpower and infrastructure between activities.",
+   "hints": [
+    "Merging teams defeats the separation.",
+    "Combined fees are not the requirement.",
+    "Surrender is not required.",
+    "Correct: arm's length in manpower and infrastructure."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-27",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "The module cites information overload data. How often do most people check their phones?",
+   "options": [
+    "About 200 times a day",
+    "About 96 times a day, or once every ten minutes",
+    "About 10 times a day",
+    "About 24 times a day, or once an hour"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Most people check their phones on average 96 times per day, or once every ten minutes; the average person spends about 5 hours 24 minutes a day on their mobile.",
+   "hints": [
+    "Too high.",
+    "Correct: about 96 times a day.",
+    "Far too low.",
+    "Too low."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-28",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "Which remedy does the module suggest for herding bias?",
+   "options": [
+    "By the time everyone is heading a particular direction, it's usually time to start heading the other way",
+    "Acknowledge the anchor when making decisions",
+    "Goal-based planning is key to success",
+    "Yesterday's truth is not tomorrow's"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Herding remedies: running with the crowd may prevent solitary embarrassment but won't keep you from being wrong; by the time everyone is heading one way it's usually time to head the other.",
+   "hints": [
+    "Correct: the herding remedy.",
+    "That is the anchoring remedy.",
+    "That is the ambiguity-aversion remedy.",
+    "That is the recency remedy."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M6-29",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "A client's target allocation is 70% equity / 30% debt on a ₹20 lakh portfolio. After a rally, equity is ₹15.2 lakh and debt ₹4.8 lakh (total unchanged at ₹20 lakh). Under a constant-weighting strategy, what should be done?",
+   "options": [
+    "Buy ₹1.2 lakh more equity to follow momentum",
+    "Sell ₹1.2 lakh of equity and buy ₹1.2 lakh of debt",
+    "Sell ₹0.8 lakh of equity and buy ₹0.8 lakh of debt",
+    "Do nothing, since the strategy is strategic"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Target equity = 70% × ₹20 lakh = ₹14 lakh. Actual ₹15.2 lakh, so sell ₹1.2 lakh equity and add it to debt (₹4.8 + 1.2 = ₹6 lakh = 30%).",
+   "hints": [
+    "Buying more equity is momentum/tactical, not constant-weighting.",
+    "Correct: rebalance ₹1.2 lakh from equity to debt.",
+    "₹0.8 lakh leaves equity at 72%.",
+    "Doing nothing is a drifting strategy, not constant-weighting."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xc-M6-30",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT one of the 'four truths' of asset allocation quoted in the module?",
+   "options": [
+    "Frequently switch funds to chase the best performers",
+    "Be patient and persistent",
+    "Diversify within and between asset classes",
+    "The mix of assets is the most important decision"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The four truths: mix of assets is the most important decision; real purpose and time of use of money; diversify within and between asset classes; be patient and persistent. Chasing performers goes against them.",
+   "hints": [
+    "Correct: performance-chasing contradicts the truths.",
+    "This is one of the four truths.",
+    "This is one of the four truths.",
+    "This is one of the four truths."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

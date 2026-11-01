@@ -1,0 +1,583 @@
+{
+ "id": "mock-1",
+ "title": "Mock 1 · Foundations",
+ "level": "easy",
+ "blurb": "Core definitions across all chapters plus a returns caselet: a gentle first lap.",
+ "questions": [
+  {
+   "id": "xxib-M1-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "An investor's required rate of return is built from which three components, as per the workbook?",
+   "options": [
+    "Dividend yield, capital gain and inflation",
+    "Coupon rate, current yield and YTM",
+    "Beta, alpha and tracking error",
+    "Real risk-free rate, expected inflation and risk premium"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 1.4: investment earns (a) pure time value of money (real risk-free rate), (b) compensation for expected inflation and (c) a risk premium for uncertainty.",
+   "hints": [
+    "These describe sources of realised equity return, not the required return.",
+    "These are bond yield measures.",
+    "These are performance/risk measures.",
+    "Correct: pure time value, inflation compensation and a premium for uncertainty."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-02",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "As per the dividend discount model, what is the intrinsic value of a share whose current dividend is ₹4, if dividends grow at 5% a year and the required return is 12%?",
+   "options": [
+    "₹60.00",
+    "₹57.14",
+    "₹33.33",
+    "₹84.00"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "P = D1/(k - g). D1 = D0(1 + g) = 4.20. P = 4.20/0.07 = ₹60.",
+   "hints": [
+    "D1 = 4 x 1.05 = 4.20; P = 4.20/(0.12 - 0.05) = ₹60.",
+    "Uses D0 instead of D1: 4/0.07.",
+    "Divides D0 by k only, ignoring growth.",
+    "Divides by g instead of (k - g)."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-03",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "A 10-year bond with face value ₹100 and a 9% annual coupon trades at ₹112.50. What is its current yield?",
+   "options": [
+    "9.00%",
+    "8.00%",
+    "10.13%",
+    "7.20%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Current yield = annual coupon ÷ current market price = 9 ÷ 112.50 = 8.00%.",
+   "hints": [
+    "That is the coupon rate (coupon/face value).",
+    "Current yield = 9/112.50 = 8%.",
+    "Inverts the premium relationship.",
+    "Wrong arithmetic."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-04",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "The counterparty risk in exchange-traded futures contracts is primarily mitigated through:",
+   "options": [
+    "A bilateral collateral agreement between buyer and seller",
+    "Settlement on a gross basis between the two parties",
+    "The clearing corporation, which guarantees settlement",
+    "Position limits imposed on large traders"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Exchange trades are settled through a clearing corporation that provides novation and settlement guarantee (Chapter 2 and 5).",
+   "hints": [
+    "Bilateral collateral is a feature of OTC deals.",
+    "Gross bilateral settlement increases, not reduces, counterparty risk.",
+    "Correct: the clearing corporation acts as buyer to every seller and seller to every buyer.",
+    "Position limits manage market concentration, not counterparty default."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-05",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "In the mutual fund structure in India, the custodian holding the scheme's assets is appointed by the:",
+   "options": [
+    "Trustees",
+    "Asset Management Company",
+    "Sponsor alone",
+    "Registrar and Transfer Agent"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 6.3: custody of the assets is with a Custodian, who is appointed by the Trustees.",
+   "hints": [
+    "Correct as per the workbook's description of the structure.",
+    "The AMC manages the money but does not appoint the custodian.",
+    "The sponsor creates the trust; the custodian is appointed by the trustees.",
+    "The RTA maintains investor records only."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-06",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Under SEBI (Portfolio Managers) Regulations, 2020, what is the minimum net worth required to register as a portfolio manager?",
+   "options": [
+    "₹2 crore",
+    "₹5 crore",
+    "₹50 lakh",
+    "₹10 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 7.4: before granting registration SEBI checks that the applicant fulfils the net worth requirement of ₹5 crore.",
+   "hints": [
+    "Lower than the current requirement.",
+    "Correct: the applicant must fulfil the ₹5 crore net worth requirement.",
+    "₹50 lakh is the minimum client investment, not net worth.",
+    "Higher than required."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-07",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A portfolio manager who manages funds strictly according to the directions of the client, with the client deciding what and when to buy or sell, is a:",
+   "options": [
+    "Discretionary portfolio manager",
+    "Advisory portfolio manager",
+    "Non-discretionary portfolio manager",
+    "Co-investment portfolio manager"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 7.2.2: in non-discretionary services the PM consults the client for every transaction and only executes.",
+   "hints": [
+    "A discretionary PM exercises its own discretion.",
+    "In advisory, the client both decides and executes.",
+    "Correct: the manager executes, the client decides.",
+    "A co-investment PM is a special category, not defined by who decides trades."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-08",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which of the following charges is NOT permitted to be levied by a portfolio manager?",
+   "options": [
+    "Brokerage at actuals",
+    "Fixed management fee",
+    "Performance fee above a hurdle rate",
+    "Upfront fees"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "SEBI circular of 13 February 2020: no upfront fees; brokerage charged at actuals; operating expenses capped at 0.50% p.a.",
+   "hints": [
+    "Brokerage at actuals is charged as expense.",
+    "Fixed fees are allowed under the agreement.",
+    "Return-based fees are allowed as agreed.",
+    "Correct: no upfront fees shall be charged directly or indirectly (Reg. 22(11))."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-09",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "What is the first step in the portfolio management process?",
+   "options": [
+    "Constructing the portfolio",
+    "Developing an Investment Policy Statement",
+    "Measuring and evaluating performance",
+    "Forecasting returns of asset classes"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 9.3: steps are (1) policy statement, (2) study financial conditions and forecast, (3) construct the portfolio, (4) measure and evaluate.",
+   "hints": [
+    "Construction is the third step.",
+    "Correct: the IPS is the road map.",
+    "Evaluation is the last step.",
+    "Studying conditions and forecasting is the second step."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-10",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "An individual is treated as resident in India in a previous year if he stays in India for:",
+   "options": [
+    "120 days or more during that year in all cases",
+    "365 days or more in the last 4 years only",
+    "182 days or more during that year",
+    "90 days or more during that year"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 10.1.1.1: resident if in India 182 days or more, or 60 days or more and 365 days or more in the preceding 4 years.",
+   "hints": [
+    "120 days applies only to citizens/PIOs with Indian income above ₹15 lakh in condition (b).",
+    "This is only half of the 60-day test.",
+    "Correct: the basic condition (a).",
+    "Not a condition in the Act."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-11",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Under PMLA, intermediaries must record all cash transactions of a value more than:",
+   "options": [
+    "₹5 lakh",
+    "₹20 lakh",
+    "₹50 lakh",
+    "₹10 lakh"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 11.1: records of all cash transactions of more than ₹10 lakh, or integrally connected series exceeding ₹10 lakh in a month.",
+   "hints": [
+    "Lower than the threshold in the workbook.",
+    "Higher than the threshold.",
+    "Higher than the threshold.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-12",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Portfolio managers may invest client money in units of mutual funds only through:",
+   "options": [
+    "Direct plans",
+    "Regular plans",
+    "Either plan, at the client's choice",
+    "Exchange-traded close-ended schemes only"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 11.4: the portfolio managers may invest in units of mutual funds only through direct plan.",
+   "hints": [
+    "Correct: MF investments only via direct plans.",
+    "Regular plans carry distribution commission.",
+    "The regulation specifies direct plans.",
+    "No such restriction."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-13",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "The Dow Jones Industrial Average is an example of which type of index?",
+   "options": [
+    "Free-float market-cap weighted index",
+    "Equal-weighted index",
+    "Price-weighted index",
+    "Fundamental-weighted index"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 12.3.1: Dow Jones Industrial Average is a price weighted index computed by summing prices and dividing by a divisor.",
+   "hints": [
+    "Sensex and NIFTY 50 are free-float weighted.",
+    "Equal weighting ignores price and size.",
+    "Correct: sum of prices ÷ divisor.",
+    "Fundamental indices weight on sales, book value etc."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-14",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "If a market is weak-form efficient, which analysis would be of little use in earning abnormal returns?",
+   "options": [
+    "Fundamental analysis using new public information",
+    "Analysis using insider information",
+    "Analysis of portfolio diversification",
+    "Technical analysis based on past prices and volumes"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 13.5.1: weak-form EMH renders technical analysis irrelevant for superior returns.",
+   "hints": [
+    "Semi-strong form deals with public information.",
+    "Strong form deals with insider information.",
+    "Diversification is unrelated to EMH tests.",
+    "Correct: weak form says past market data is fully reflected."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-15",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "An investor treats a tax refund as 'free money' and spends it on risky bets while being very careful with salary income. This is an example of:",
+   "options": [
+    "Mental accounting",
+    "Anchoring",
+    "Status quo bias",
+    "Endowment bias"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 14.3.2: mental accounting (Thaler) treats one sum differently from an equal sum depending on its mental account; windfalls get riskier treatment.",
+   "hints": [
+    "Correct: money is treated as non-fungible based on its source.",
+    "Anchoring relies on a pre-existing reference number.",
+    "Status quo bias is doing nothing to avoid regret.",
+    "Endowment bias overvalues what one already owns."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-16",
+   "chapter": 15,
+   "difficulty": "easy",
+   "q": "If the correlation between the two stocks in a portfolio decreases, everything else constant, the portfolio's risk will:",
+   "options": [
+    "Increase",
+    "Decrease",
+    "Remain constant",
+    "Fluctuate unpredictably"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Markowitz variance includes 2w1w2ρσ1σ2; a lower ρ lowers portfolio variance.",
+   "hints": [
+    "Opposite direction.",
+    "Correct: lower correlation, more diversification benefit.",
+    "Correlation enters the variance formula directly.",
+    "The effect is predictable."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-17",
+   "chapter": 16,
+   "difficulty": "easy",
+   "q": "The Security Market Line (SML) plots expected return against:",
+   "options": [
+    "Standard deviation (total risk)",
+    "Unsystematic risk",
+    "Tracking error",
+    "Beta (systematic risk)"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 16.9: SML graphically depicts the relationship between systematic risk (beta) and expected return.",
+   "hints": [
+    "The CML uses standard deviation.",
+    "Unsystematic risk is not priced in CAPM.",
+    "Tracking error is a performance measure.",
+    "Correct: the SML is the graphical form of CAPM."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-18",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "Non-market risk that is specific to a company or sector is also known as:",
+   "options": [
+    "Unsystematic (idiosyncratic) risk, which can be reduced by diversification",
+    "Systematic risk, which can be reduced by diversification",
+    "Systematic risk, which can only be hedged",
+    "Market risk measured by beta"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 17.3.2: non-market risks are unique or idiosyncratic and can be reduced by diversification.",
+   "hints": [
+    "Correct.",
+    "Systematic risk cannot be diversified away.",
+    "Non-market risk is not systematic.",
+    "Beta measures market (systematic) risk."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-19",
+   "chapter": 18,
+   "difficulty": "easy",
+   "q": "Which of these is a PASSIVE equity portfolio strategy?",
+   "options": [
+    "Sector rotation",
+    "Indexing by full replication",
+    "Market timing",
+    "Momentum investing"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 18.1: passive strategies include buy and hold and indexing (full replication and sampling).",
+   "hints": [
+    "Sector rotation is an active, top-down strategy.",
+    "Correct: the portfolio mirrors the index.",
+    "Market timing is active.",
+    "Momentum is an active trading strategy."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-20",
+   "chapter": 18,
+   "difficulty": "easy",
+   "q": "In a 'core and satellite' approach, the core portfolio typically forms about what share of the portfolio and how is it managed?",
+   "options": [
+    "20% to 30%, managed actively",
+    "50%, managed actively",
+    "70% to 80%, managed passively",
+    "70% to 80%, managed actively with high turnover"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 18.10: a portfolio generally has about 70% to 80% in the core (passive, low cost) and the balance in satellites (active).",
+   "hints": [
+    "That describes the satellite portion.",
+    "The core is the majority and passive.",
+    "Correct.",
+    "The core has low turnover."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-21",
+   "chapter": 19,
+   "difficulty": "medium",
+   "q": "A bond portfolio manager expects interest rates to rise significantly. What should she do with portfolio duration?",
+   "options": [
+    "Reduce the duration",
+    "Increase the duration",
+    "Keep duration unchanged and buy long-dated zero-coupon bonds",
+    "Extend maturity to lock higher yields"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 19.3.1: the manager would reduce the duration of the portfolio if she expects interest rates to rise.",
+   "hints": [
+    "Correct: lower duration means less price loss as rates rise.",
+    "Higher duration magnifies the price fall.",
+    "Long zeros have the highest sensitivity.",
+    "Maturity extension increases price risk."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-22",
+   "chapter": 21,
+   "difficulty": "easy",
+   "q": "Under which rebalancing strategy does the portfolio value become a function of the risky assets' performance, with no limit on upside?",
+   "options": [
+    "Constant mix",
+    "Buy and hold",
+    "CPPI",
+    "Threshold rebalancing"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 21.4: under buy and hold the portfolio value becomes a function of the risky assets with no limit on upside.",
+   "hints": [
+    "Constant mix sells winners, capping drift.",
+    "Correct: do-nothing strategy, unlimited upside.",
+    "CPPI dynamically shifts with the cushion.",
+    "Threshold rebalancing restores target weights."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M1-23",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "What is Ritu's holding period return for the year?",
+   "options": [
+    "14.00%",
+    "12.00%",
+    "16.00%",
+    "17.54%"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "HPR = (I + E - B)/B = (1 + 57 - 50)/50 = 8/50 = 16%.",
+   "hints": [
+    "Ignores the ₹1 lakh income.",
+    "Uses only the income plus half the gain.",
+    "(1 + 57 - 50)/50 = 16%.",
+    "Divides by the ending value incorrectly."
+   ],
+   "numeric": true,
+   "case": "Ritu invested ₹50 lakh in a discretionary PMS on 1 April. On 31 March the next year her portfolio was worth ₹57 lakh, and during the year she also received ₹1 lakh as dividends and interest. The portfolio's benchmark returned 10% over the same year, and the one-year risk-free rate was 6%. Ritu is in the 20% tax bracket for this income. There were no other cash flows."
+  },
+  {
+   "id": "xxib-M1-24",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "By how many percentage points did Ritu's portfolio beat its benchmark?",
+   "options": [
+    "4 percentage points",
+    "10 percentage points",
+    "2 percentage points",
+    "6 percentage points"
+   ],
+   "answer": 3,
+   "marks": 2,
+   "explanation": "Excess return over benchmark = 16% - 10% = 6%. (Some professionals call this simple excess 'alpha'.)",
+   "hints": [
+    "Uses 14% (without income) minus 10%.",
+    "Uses 16% minus the 6% risk-free rate.",
+    "Arithmetic error.",
+    "16% - 10% = 6 points."
+   ],
+   "numeric": true,
+   "case": "Ritu invested ₹50 lakh in a discretionary PMS on 1 April. On 31 March the next year her portfolio was worth ₹57 lakh, and during the year she also received ₹1 lakh as dividends and interest. The portfolio's benchmark returned 10% over the same year, and the one-year risk-free rate was 6%. Ritu is in the 20% tax bracket for this income. There were no other cash flows."
+  },
+  {
+   "id": "xxib-M1-25",
+   "chapter": 20,
+   "difficulty": "medium",
+   "q": "What is Ritu's post-tax return, assuming the entire return is taxed at 20%?",
+   "options": [
+    "16.00%",
+    "12.80%",
+    "20.00%",
+    "13.33%"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "Post-tax return = pre-tax return x (1 - tax rate) = 16% x 0.8 = 12.8%.",
+   "hints": [
+    "That is the pre-tax return.",
+    "16% x (1 - 0.20) = 12.8%.",
+    "Grosses up instead of taxing.",
+    "Divides 16 by 1.2."
+   ],
+   "numeric": true,
+   "case": "Ritu invested ₹50 lakh in a discretionary PMS on 1 April. On 31 March the next year her portfolio was worth ₹57 lakh, and during the year she also received ₹1 lakh as dividends and interest. The portfolio's benchmark returned 10% over the same year, and the one-year risk-free rate was 6%. Ritu is in the 20% tax bracket for this income. There were no other cash flows."
+  }
+ ]
+}

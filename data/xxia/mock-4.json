@@ -1,0 +1,583 @@
+{
+ "id": "mock-4",
+ "title": "Mock 4 · Process & Performance",
+ "level": "easy",
+ "blurb": "Heavier on Chapters 8-10: disclosure, grievance redressal, IPS, benchmarking, TWRR and attribution, while touching every chapter.",
+ "questions": [
+  {
+   "id": "xxia-M4-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "According to the workbook, what mainly distinguishes speculation from investment?",
+   "options": [
+    "Speculation always involves derivatives",
+    "Speculation is always short term and investment always long term",
+    "Speculation pays no cognizance to the value of the asset, with profit as the sole purpose",
+    "Speculation always produces higher returns"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Investment involves determining value and buying assets whose intrinsic value exceeds market price; speculation pays no attention to value and focuses on profit with little regard to risk. Classifying purely by time horizon is described as not appropriate.",
+   "hints": [
+    "Wrong: speculation can occur in any asset.",
+    "Wrong: the workbook says time-horizon labelling is not appropriate.",
+    "Correct: disregard for value is the key difference.",
+    "Wrong: speculation does not always lead to higher returns."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-02",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Structured products are best described as:",
+   "options": [
+    "Plain fixed deposits with a bank guarantee",
+    "Instruments combining traditional investments like bonds or equities with derivatives to create customised risk-return profiles",
+    "Government securities issued at a discount",
+    "Exchange-traded index funds"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Structured products combine bonds or equities with derivatives; they are complex, may lack liquidity and carry issuer credit risk.",
+   "hints": [
+    "Wrong: no derivative component.",
+    "Correct: bond/equity + derivative.",
+    "Wrong: this describes T-bills or zero coupon G-Secs.",
+    "Wrong: index funds are passive pooled vehicles."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "The initial (upfront) margin charged by a clearing corporation is a percentage of transaction value arrived at using:",
+   "options": [
+    "Value at Risk philosophy",
+    "The broker's discretion",
+    "The company's dividend history",
+    "A fixed 50% of trade value"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Initial margin is based on the Value at Risk concept; MTM margin is the notional loss on outstanding trades.",
+   "hints": [
+    "Correct: VaR-based.",
+    "Wrong: margins are set by the clearing corporation's risk system.",
+    "Wrong: unrelated.",
+    "Wrong: no such fixed rule."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-04",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "A firm has EBIT of ₹100 crore, tax rate 25%, depreciation ₹20 crore, capital expenditure ₹30 crore and increase in working capital ₹10 crore. Its FCFF is:",
+   "options": [
+    "₹80 crore",
+    "₹75 crore",
+    "₹65 crore",
+    "₹55 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "FCFF = EBIT(1 - t) + Dep - Capex - ΔWC = 75 + 20 - 30 - 10 = ₹55 crore.",
+   "hints": [
+    "Wrong: ignores tax and the WC change.",
+    "Wrong: this is only EBIT after tax.",
+    "Wrong: ignores the WC increase.",
+    "Correct: 75 + 20 - 30 - 10."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-05",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Which valuation multiple is best suited to capital-intensive industries and to comparing firms with different debt structures?",
+   "options": [
+    "Price to Book",
+    "EV/EBITDA",
+    "Dividend yield",
+    "Price to Sales"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "EV/EBITDA suits capital-intensive industries and companies with different debt structures since EBITDA is unaffected by capital structure.",
+   "hints": [
+    "Wrong: P/B suits banks and financials.",
+    "Correct: EV/EBITDA.",
+    "Wrong: not discussed as a multiple for this purpose.",
+    "Wrong: P/S suits loss-makers and low-margin businesses."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-06",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Why may an analyst prefer the Price to Sales ratio for a young company?",
+   "options": [
+    "Because the company is not yet earning profits and sales are less prone to manipulation",
+    "Because book value is always zero for young companies",
+    "Because P/S ignores market capitalisation",
+    "Because SEBI mandates it"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "P/S is used as sales are less prone to manipulation and is useful for companies not yet earning profits or in high-volume low-margin businesses.",
+   "hints": [
+    "Correct: as per the workbook.",
+    "Wrong: not a reason given.",
+    "Wrong: P/S uses market capitalisation in the numerator.",
+    "Wrong: no such mandate."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Callable bonds expose the investor to a higher level of:",
+   "options": [
+    "Default risk",
+    "Exchange rate risk",
+    "Reinvestment risk",
+    "Liquidity premium"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Issuers call bonds when rates fall, forcing investors to reinvest at lower rates: reinvestment risk.",
+   "hints": [
+    "Wrong: callability does not change default probability.",
+    "Wrong: unrelated.",
+    "Correct: reinvestment risk.",
+    "Wrong: not the risk described."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "In a fixed-for-floating interest rate swap, what is exchanged on each settlement date?",
+   "options": [
+    "The full principal",
+    "Only the interest amounts computed on the notional principal",
+    "Shares of the two parties",
+    "Nothing until maturity"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The principal (notional amount) is never exchanged; only the interest on it is exchanged on each settlement date.",
+   "hints": [
+    "Wrong: principal is notional.",
+    "Correct: only interest.",
+    "Wrong: swaps exchange cash flows, not shares.",
+    "Wrong: exchanges happen each period."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-09",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Factor (smart beta) funds are described in the workbook as falling:",
+   "options": [
+    "Within Category III AIFs only",
+    "Entirely under passive index funds",
+    "Under debt mutual funds",
+    "Between active and passive funds"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Factor funds use rules (passive-like) but select stocks systematically and frequently (active-like), so they fall between active and passive funds.",
+   "hints": [
+    "Wrong: they are mutual fund categories.",
+    "Wrong: they are not purely passive.",
+    "Wrong: they are equity-oriented.",
+    "Correct: between active and passive."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-10",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Within how many days must a portfolio manager take adequate steps for redressal of investor grievances, as stated in the workbook?",
+   "options": [
+    "21 calendar days",
+    "7 working days",
+    "30 days",
+    "45 days"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The PM shall take adequate steps for redressal of grievances within 21 calendar days of receipt of the complaint and keep SEBI informed.",
+   "hints": [
+    "Correct: 21 calendar days.",
+    "Wrong: 7 working days is for STRs to FIU.",
+    "Wrong: 30 days is for quarterly tax reports.",
+    "Wrong: not the stated timeline."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-11",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "The compliance officer of a portfolio manager, on observing a non-compliance, shall:",
+   "options": [
+    "Wait for the annual audit",
+    "Inform only the Board of the PM",
+    "Immediately and independently report it to SEBI",
+    "Inform the client only"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The compliance officer shall immediately and independently report to SEBI any non-compliance observed.",
+   "hints": [
+    "Wrong: reporting is immediate.",
+    "Wrong: SEBI must be informed.",
+    "Correct: immediate and independent reporting to SEBI.",
+    "Wrong: SEBI must be informed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-12",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "Off-market transfers in a client's account by a PM are permitted in all of the following cases EXCEPT:",
+   "options": [
+    "Settlement of the client's own trades",
+    "Providing margin for the client's own positions",
+    "With specific client consent for each transaction",
+    "Transferring securities to the PM's own account for safekeeping"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Permitted: client's own trade settlement, margin/collateral for client positions, unlisted securities dealings, specific consent per transaction, reasons specified by SEBI. A PM must never hold client securities in its own name.",
+   "hints": [
+    "Wrong: permitted.",
+    "Wrong: permitted.",
+    "Wrong: permitted.",
+    "Correct: not permitted; PM cannot hold client securities in its own name."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-13",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "In the Disclosure Document, the performance of the portfolio manager for the last three years (for discretionary PMs) must be computed using:",
+   "options": [
+    "Simple average return",
+    "Time Weighted Rate of Return",
+    "Holding period return",
+    "Dividend yield"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Part II (dynamic section) requires PM performance for the last three years, with discretionary PM performance indicators calculated using TWRR.",
+   "hints": [
+    "Wrong: not the prescribed method.",
+    "Correct: TWRR.",
+    "Wrong: not prescribed.",
+    "Wrong: not a performance measure for this purpose."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-14",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "When reporting performance to an individual investor, the portfolio manager must present for each investment approach:",
+   "options": [
+    "Only the TWRR of the investment approach",
+    "The investor's XIRR along with the minimum, maximum and median XIRR across all investors in that approach",
+    "Only the benchmark return",
+    "The best-performing client's return"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "PMs present XIRR for each IA the investor invests in, with min, max and median XIRR across all investors, plus TWRR and benchmark trailing return separately.",
+   "hints": [
+    "Wrong: TWRR alone is for advertising/IA performance.",
+    "Correct: XIRR with min, max and median.",
+    "Wrong: incomplete.",
+    "Wrong: cherry-picking is not allowed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-15",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Under the Online Dispute Resolution mechanism, which stages are free of cost for investors?",
+   "options": [
+    "Pre-conciliation and conciliation",
+    "Arbitration only",
+    "All three stages",
+    "None of the stages"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The first two stages, pre-conciliation and conciliation, are free of cost for investors; arbitration produces a binding award.",
+   "hints": [
+    "Correct: the first two stages.",
+    "Wrong: arbitration is not stated to be free.",
+    "Wrong: only the first two.",
+    "Wrong: two stages are free."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-16",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT a purpose of the Investment Policy Statement listed in the workbook?",
+   "options": [
+    "Setting realistic return expectations",
+    "Providing a performance evaluation framework",
+    "Guaranteeing a minimum return to the investor",
+    "Protecting investors from inappropriate or unethical decisions"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The IPS sets expectations, provides an evaluation framework and protects investors, but it never guarantees returns.",
+   "hints": [
+    "Wrong: this is a listed purpose.",
+    "Wrong: this is a listed purpose.",
+    "Correct: IPS does not guarantee returns.",
+    "Wrong: this is a listed purpose."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-17",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "If a portfolio manager changes the strategy or benchmark tagged to an investment approach, it must:",
+   "options": [
+    "Do nothing further",
+    "Charge an exit load to departing investors",
+    "Seek approval from each investor's bank",
+    "Offer existing investors an option to exit without exit load"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Tagging can be changed only after offering subscribers of the IA an option to exit without any exit load; the old track record cannot be used for performance reporting.",
+   "hints": [
+    "Wrong: investors must be offered an exit.",
+    "Wrong: the exit must be load-free.",
+    "Wrong: not required.",
+    "Correct: free exit option."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-18",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "For near-term, high-priority goals, the workbook suggests investing in:",
+   "options": [
+    "Cash equivalents or fixed income maturing to match the goal date",
+    "Small-cap equity for higher returns",
+    "Category III AIFs",
+    "Unlisted securities"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Near-term high-priority goals use cash equivalents or fixed-income instruments with maturity dates matching the goal date.",
+   "hints": [
+    "Correct: safety and maturity matching.",
+    "Wrong: too volatile for a near-term must-have goal.",
+    "Wrong: too risky.",
+    "Wrong: illiquid and risky."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-19",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Which of the following is a challenge of portfolio rebalancing?",
+   "options": [
+    "It maintains diversification",
+    "It may trigger capital gains taxes and transaction costs",
+    "It enforces buy low, sell high",
+    "It keeps the portfolio aligned with risk tolerance"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Challenges include tax implications, transaction costs, market timing difficulty and emotional bias; the other options are benefits.",
+   "hints": [
+    "Wrong: a benefit.",
+    "Correct: a challenge.",
+    "Wrong: a benefit.",
+    "Wrong: a benefit/need."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-20",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "A portfolio's sub-period returns between client cash flows are 10%, -5% and 8%. The TWRR for the whole period is approximately:",
+   "options": [
+    "13.00%",
+    "4.33%",
+    "12.86%",
+    "11.50%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "TWRR = (1.10 x 0.95 x 1.08) - 1 = 1.1286 - 1 = 12.86%.",
+   "hints": [
+    "Wrong: simple sum of returns.",
+    "Wrong: simple average.",
+    "Correct: geometric linking.",
+    "Wrong: arithmetic slip."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-21",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "In performance attribution, the formula Σ (Wp - Wb) x Rb measures the:",
+   "options": [
+    "Security selection effect",
+    "Interaction effect",
+    "Total excess return",
+    "Asset allocation effect"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Allocation effect = Σ(Wp - Wb) x Rb: the impact of over/under-weighting relative to the benchmark.",
+   "hints": [
+    "Wrong: selection = ΣWb(Rp - Rb).",
+    "Wrong: interaction = Σ(Wp - Wb)(Rp - Rb).",
+    "Wrong: total is the sum of all three.",
+    "Correct: allocation effect."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-22",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "Mr. A stayed in India for 75 days in the current financial year and for 400 days in total during the preceding four financial years. As per the workbook's test, he is:",
+   "options": [
+    "A resident",
+    "A non-resident",
+    "Not ordinarily resident by default",
+    "Exempt from Indian tax"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "An individual is resident if in India for 182 days or more, OR at least 60 days in the year and 365 days or more in the preceding four years. 75 and 400 satisfy the second test.",
+   "hints": [
+    "Correct: second test satisfied.",
+    "Wrong: he meets the 60 + 365 test.",
+    "Wrong: the basic test only decides residency; RNOR needs further conditions.",
+    "Wrong: residents are taxable."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-23",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Losses from derivatives trading through a PMS can be set off against:",
+   "options": [
+    "Salary income",
+    "Any income including salary",
+    "Other business or non-salaried income in the same year",
+    "Only long-term capital gains"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Derivative business losses can be set off against other business or non-salaried income in the same year, but not against salary.",
+   "hints": [
+    "Wrong: not allowed against salary.",
+    "Wrong: salary is excluded.",
+    "Correct: non-salaried income.",
+    "Wrong: too restrictive and not stated."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-24",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "A designated person who is a connected person of a listed company and is permitted to trade in its securities shall not execute a contra trade for a period of at least:",
+   "options": [
+    "7 trading days",
+    "6 months",
+    "2 months",
+    "12 months"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The code of conduct shall specify a period not less than six months for contra trades (not less than two months for mutual fund units).",
+   "hints": [
+    "Wrong: this is the pre-clearance execution window.",
+    "Correct: at least 6 months.",
+    "Wrong: this applies to mutual fund units.",
+    "Wrong: not the stated minimum."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M4-25",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "Under the PFUTP Regulations, which of the following is deemed a manipulative or unfair trade practice?",
+   "options": [
+    "Buying shares after reading the published annual report",
+    "Hedging a portfolio with index futures",
+    "Knowingly creating a false or misleading appearance of trading in a security",
+    "Selling shares to rebalance a portfolio"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Knowingly indulging in an act which creates a false or misleading appearance of trading is deemed manipulative, fraudulent or unfair.",
+   "hints": [
+    "Wrong: legitimate use of public information.",
+    "Wrong: legitimate hedging.",
+    "Correct: a listed manipulative practice.",
+    "Wrong: legitimate rebalancing."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

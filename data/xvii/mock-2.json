@@ -1,0 +1,583 @@
+{
+ "id": "mock-2",
+ "title": "Mock 2 · Building Blocks",
+ "level": "easy",
+ "blurb": "Pension history, product limits, the planning process and NPS exit and withdrawal basics.",
+ "questions": [
+  {
+   "id": "xvii-M2-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Under the Old Pension Scheme for Government employees who joined before 1 January 2004, what pension was paid?",
+   "options": [
+    "40% of average salary over the career, from a funded trust",
+    "A pension from an annuity purchased with the employee's corpus",
+    "50% of last drawn salary plus dearness relief, from the Government's budget",
+    "A lump sum equal to the accumulated contributions"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The OPS was an unfunded, pay-as-you-go DB scheme: a pension of 50% of last drawn salary (plus dearness relief) was paid out of the Government's budget, with no dedicated corpus.",
+   "hints": [
+    "Wrong: OPS was not funded through a trust and the percentage is wrong.",
+    "Wrong: annuity purchase from a corpus describes NPS (DC).",
+    "Correct: 50% of last drawn salary + DR, unfunded.",
+    "Wrong: a lump sum of contributions describes a DC payout, not OPS."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-02",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which of the following will NOT increase the effect of compounding on an investment?",
+   "options": [
+    "Holding the investment for a longer period",
+    "Earning a higher rate of return",
+    "Compounding more frequently",
+    "Withdrawing the returns each year instead of reinvesting them"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "For compounding to work, returns must be reinvested. A longer holding period, higher return and more frequent compounding all increase the effect.",
+   "hints": [
+    "Wrong: a longer period increases compounding.",
+    "Wrong: a higher rate increases compounding.",
+    "Wrong: more frequent compounding increases the final value.",
+    "Correct: withdrawing returns breaks compounding."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Under SEBI regulations, for a mutual fund scheme to be classified as an equity fund it must invest at least what share of total assets in equity and equity-related instruments?",
+   "options": [
+    "35%",
+    "80%",
+    "65%",
+    "50%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "An equity mutual fund must invest at least 65% of its total assets in equity and equity-related instruments.",
+   "hints": [
+    "Wrong: 35% or less equity is the threshold for debt-oriented funds in tax rules.",
+    "Wrong: 80% is the minimum corporate-debt share for a corporate bond fund.",
+    "Correct: the minimum is 65%.",
+    "Wrong: 50% does not qualify a scheme as an equity fund."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-04",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Who can join the Atal Pension Yojana (APY)?",
+   "options": [
+    "Any resident aged 18 to 70 with a bank account",
+    "Only Central Government employees aged 18 to 40",
+    "Any Indian citizen aged 18 to 60",
+    "Indian citizens aged 18 to 40 who are not and have never been income-tax payers"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Citizens aged 18 to 40 can join APY. With effect from 1 October 2022, any citizen who is or has been an income-tax payer is not eligible.",
+   "hints": [
+    "Wrong: the age band and conditions are wrong.",
+    "Wrong: APY is for the unorganised sector, not Government employees.",
+    "Wrong: the upper entry age is 40, not 60.",
+    "Correct: 18-40 years and not an income-tax payer."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-05",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Liquid mutual funds invest in securities with a maturity of:",
+   "options": [
+    "Between 1 and 3 years",
+    "Not exceeding one day",
+    "Greater than 7 years",
+    "Not exceeding 91 days"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Liquid funds invest in securities with tenor not exceeding 91 days to maturity; overnight funds hold one-day securities.",
+   "hints": [
+    "Wrong: 1-3 years describes short-duration funds.",
+    "Wrong: one day describes overnight funds.",
+    "Wrong: more than 7 years describes long-duration funds.",
+    "Correct: up to 91 days."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-06",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Which statement correctly describes the expense protection method of estimating retirement income needs?",
+   "options": [
+    "It uses only the client's current savings rate",
+    "It lists expected post-retirement expenses and inflates them to the retirement date",
+    "It assumes expenses will equal pre-retirement income",
+    "It applies a fixed percentage to the income just before retirement"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "In the expense protection method, the focus is on identifying and estimating expenses likely in retirement (dropping some, adding others such as health) and adjusting them for inflation over the period to retirement.",
+   "hints": [
+    "Wrong: savings rate is not the basis of this method.",
+    "Correct: it is a detailed expense-based method.",
+    "Wrong: the method expressly allows expenses to differ from income.",
+    "Wrong: a fixed percentage of income is the income replacement method."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-07",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "The Safe Withdrawal Rate (SWR) refers to:",
+   "options": [
+    "The first-year withdrawal as a % of the starting corpus, later raised by inflation, that survives with high probability",
+    "The fixed % of the corpus withdrawn every year regardless of inflation",
+    "The interest rate on a safe government bond",
+    "The minimum % of the NPS corpus to be annuitised"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "SWR is the maximum percentage of the corpus that can be withdrawn in the first year, with inflation adjustments thereafter, such that the portfolio survives with at least 95% probability. It is not the % withdrawn every year.",
+   "hints": [
+    "Correct: SWR is a first-year rate, then indexed to inflation.",
+    "Wrong: the workbook explicitly says SWR is not the proportion withdrawn every year.",
+    "Wrong: SWR is a withdrawal rate, not a bond yield.",
+    "Wrong: annuitisation percentages are NPS exit rules, unrelated to SWR."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-08",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "An investment earns 9% while inflation is 6%. What is the precise inflation-adjusted rate of return?",
+   "options": [
+    "1.50%",
+    "3.00%",
+    "2.83%",
+    "15.54%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Real return = 1.09/1.06 − 1 = 2.83%. The 3% figure is the approximate subtraction method.",
+   "hints": [
+    "Wrong: this is 9 ÷ 6 shifted, not a valid formula.",
+    "Wrong: 9 − 6 is only the approximate method.",
+    "Correct: 1.09 ÷ 1.06 − 1 = 0.0283.",
+    "Wrong: this compounds the two rates together, which is wrong."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-09",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "During the middle earning years, the workbook suggests what allocation to growth assets?",
+   "options": [
+    "50% to 60%, reducing systematically as goals come closer",
+    "Nearly 100%, since retirement is far away",
+    "Not more than 25% to 30%",
+    "60% to 70% held constant"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Middle earning years portfolios can have 50% to 60% in growth assets, with a plan to systematically reduce exposure as goals come closer.",
+   "hints": [
+    "Correct: 50-60% with a gradual reduction.",
+    "Wrong: some goals such as children's education are near, so near-total equity is not suggested.",
+    "Wrong: 25-30% is the ceiling suggested during retirement.",
+    "Wrong: 60-70% growth is suggested for young families."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-10",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "On normal exit, a subscriber under the NPS All Citizen model with a corpus of ₹30 lakh may withdraw up to what share as a lump sum?",
+   "options": [
+    "60%, with at least 40% used to buy an annuity",
+    "100%, since there is no annuity requirement",
+    "80%, with at least 20% used to buy an annuity",
+    "20%, with at least 80% used to buy an annuity"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "For Non-Government subscribers (All Citizen and Corporate), normal exit allows up to 80% as lump sum and at least 20% must be annuitised when the corpus exceeds ₹12 lakh.",
+   "hints": [
+    "Wrong: 60:40 applies to Government sector subscribers.",
+    "Wrong: full withdrawal is allowed only up to ₹8 lakh (or ₹12 lakh if joined after 60).",
+    "Correct: 80:20 for Non-Government normal exit.",
+    "Wrong: 20:80 is the premature exit rule."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-11",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "A partial withdrawal from an NPS Tier I account can be up to what limit?",
+   "options": [
+    "25% of the subscriber's own contributions, excluding returns",
+    "25% of the total corpus including returns",
+    "50% of the subscriber's own contributions",
+    "25% of employer and employee contributions combined"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The amount withdrawn can be up to 25% of the subscriber's own contributions, excluding employer contributions and any appreciation or returns.",
+   "hints": [
+    "Correct: 25% of own contributions only.",
+    "Wrong: returns are excluded from the base.",
+    "Wrong: the limit is 25%, not 50%.",
+    "Wrong: employer contributions are excluded."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-12",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which transfer between NPS accounts is NOT permitted?",
+   "options": [
+    "From Tier II to Tier I",
+    "Shifting from a State Government to the Central Government model",
+    "Shifting from the Corporate model to the All Citizen model",
+    "From Tier I to Tier II"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Subscribers can transfer funds from Tier II to Tier I, but transfer from Tier I to Tier II is not allowed. Inter-sector shifting is permitted.",
+   "hints": [
+    "Wrong: Tier II to Tier I is allowed.",
+    "Wrong: NPS accounts are portable across sectors.",
+    "Wrong: a corporate subscriber can continue under the All Citizen model.",
+    "Correct: Tier I to Tier II is not allowed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-13",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which of the following is NOT one of the Central Recordkeeping Agencies (CRAs) for NPS named in the workbook?",
+   "options": [
+    "Computer Age Management Services Ltd. (CAMS)",
+    "KFin Technologies Ltd.",
+    "Axis Bank Ltd.",
+    "Protean eGov Technologies Ltd."
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The three CRAs are Protean, KFin Technologies and CAMS. Axis Bank is the Trustee Bank.",
+   "hints": [
+    "Wrong: CAMS is a CRA.",
+    "Wrong: KFin is a CRA.",
+    "Correct: Axis Bank is the Trustee Bank, not a CRA.",
+    "Wrong: Protean is a CRA."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-14",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which entity holds NPS funds on behalf of the NPS Trust and transfers them between subscribers, pension funds and annuity service providers?",
+   "options": [
+    "Custodian",
+    "Point of Presence",
+    "Central Recordkeeping Agency",
+    "Trustee Bank"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The Trustee Bank (currently Axis Bank) handles the funds side of transactions, holding funds in the name of the NPS Trust and transferring them based on CRA instructions.",
+   "hints": [
+    "Wrong: the custodian holds securities, not cash flows.",
+    "Wrong: the PoP collects contributions but remits them to the Trustee Bank.",
+    "Wrong: the CRA keeps records and instructs, but does not hold funds.",
+    "Correct: the Trustee Bank handles fund flows."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-15",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "An equity investment gained 40% over 6 years. What is its simple annualised return as explained in the workbook?",
+   "options": [
+    "5.77%",
+    "6.67%",
+    "8.50%",
+    "40.00%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Annualised return = absolute return × (1/number of years) = 40% × 1/6 = 6.67%.",
+   "hints": [
+    "Wrong: this is the CAGR, not the simple annualised figure the question asks for.",
+    "Correct: 40 ÷ 6 = 6.67%.",
+    "Wrong: 8.5% is the FD rate in the workbook example, not this result.",
+    "Wrong: 40% is the absolute return over 6 years."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-16",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "A stock has a beta of 1.2. If the market index rises 10%, the stock is expected to:",
+   "options": [
+    "Rise about 12%",
+    "Rise about 10%",
+    "Fall about 12%",
+    "Rise about 8.3%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Beta measures sensitivity to market moves. Expected move = 1.2 × 10% = 12%.",
+   "hints": [
+    "Correct: 1.2 × 10% = 12%.",
+    "Wrong: that would be a beta of 1.",
+    "Wrong: a positive beta moves in the same direction as the market.",
+    "Wrong: this divides by beta instead of multiplying."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-17",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "In a Public Provident Fund account, a loan facility is available during:",
+   "options": [
+    "The 3rd to 6th financial year",
+    "Only after the 7th financial year",
+    "Any time after account opening",
+    "The 1st to 3rd financial year"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "PPF account holders can take a loan in the 3rd to 6th year; one withdrawal a year is permitted from the 7th financial year.",
+   "hints": [
+    "Correct: loans are available from year 3 to year 6.",
+    "Wrong: year 7 onwards is when withdrawals start.",
+    "Wrong: the loan window is restricted.",
+    "Wrong: no loan is allowed in the first two years."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-18",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Under the Reverse Mortgage Loan scheme, the maximum periodic payment to the borrower is capped at:",
+   "options": [
+    "₹1 lakh per month",
+    "₹15,000 per month",
+    "₹25,000 per month",
+    "₹50,000 per month"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The maximum monthly payments under RML have been capped at ₹50,000. The lump sum is restricted to 50% of the eligible loan, capped at ₹15 lakh.",
+   "hints": [
+    "Wrong: no such limit is given.",
+    "Wrong: ₹15 lakh is the lump-sum cap for medical needs, not the monthly cap.",
+    "Wrong: this understates the cap.",
+    "Correct: ₹50,000 per month."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-19",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Delaying retirement helps an under-funded retirement corpus mainly because:",
+   "options": [
+    "It adds years of contribution and reduces the years for which the corpus must pay",
+    "It reduces the tax rate on the corpus",
+    "It increases the rate of inflation",
+    "It guarantees a higher annuity rate"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Delayed retirement benefits the corpus in two ways: a longer time to add to it, and drawing from it is delayed.",
+   "hints": [
+    "Correct: more accumulation years and fewer withdrawal years.",
+    "Wrong: tax rates do not change because of later retirement.",
+    "Wrong: inflation is not affected by the retirement date and would hurt anyway.",
+    "Wrong: annuity rates are never guaranteed to rise."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-20",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "A tax-free bond yields 7%. For an investor in the 20% tax bracket, a comparable taxable investment must yield more than about what pre-tax rate to be preferable?",
+   "options": [
+    "8.40%",
+    "8.75%",
+    "10.00%",
+    "7.37%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Equivalent pre-tax yield = 7% ÷ (1 − 0.20) = 8.75%.",
+   "hints": [
+    "Wrong: 7 × 1.2 multiplies instead of dividing by (1 − t).",
+    "Correct: 7 ÷ 0.8 = 8.75%.",
+    "Wrong: 10% is the cut-off for the 30% bracket.",
+    "Wrong: 7.37% is the cut-off for the 5% bracket."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-21",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "According to the prevention strategy for retirement shortfalls, when is the ideal time to ramp up retirement savings to bridge an expected gap?",
+   "options": [
+    "In the 5 to 10 years before retirement, when other goals are met and incomes are high",
+    "Immediately after retirement, using the lump sum received",
+    "Only after all home loans are prepaid early in the career",
+    "In the first year of employment, when expenses are lowest"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The 5 to 10 years before retirement is when other important goals have been met, incomes are likely to be high and expenses have stagnated, making it the ideal time to ramp up savings.",
+   "hints": [
+    "Correct: the pre-retirement window is ideal for catching up.",
+    "Wrong: after retirement there is no earned income to save from.",
+    "Wrong: this is not the workbook's recommendation.",
+    "Wrong: early-career income is usually just enough to meet expenses."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-22",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "When preparing to retire debt-free, which loans should usually be repaid first?",
+   "options": [
+    "The home loan, because it is the largest",
+    "High-cost loans such as credit card dues and personal loans",
+    "The lowest-interest loan, to finish it quickly",
+    "Any loan that gives a tax benefit"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Debt should be ranked from highest to lowest cost; high-cost debt such as credit cards and personal loans should be paid off first.",
+   "hints": [
+    "Wrong: a mortgage is typically low-cost and can follow.",
+    "Correct: clear expensive debt first.",
+    "Wrong: this is the opposite of ranking by cost.",
+    "Wrong: tax benefit alone does not decide repayment priority."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-23",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A person who dies without leaving a valid will is said to have died:",
+   "options": [
+    "Domiciled",
+    "Intestate",
+    "Insolvent",
+    "Testate"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "If a person dies without making a will, he is said to have died intestate, and his property passes under the applicable succession law.",
+   "hints": [
+    "Wrong: domicile relates to residence.",
+    "Correct: intestate means without a will.",
+    "Wrong: insolvency relates to inability to pay debts.",
+    "Wrong: testate means having left a valid will."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-24",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A Retirement Adviser's certificate of registration with PFRDA is valid for:",
+   "options": [
+    "5 years, with renewal 6 months before expiry",
+    "1 year, renewable annually",
+    "3 years, with renewal to be applied 3 months before expiry",
+    "Permanently, unless cancelled"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The certificate of registration has a validity of 3 years, and the renewal application must be made 3 months before expiry.",
+   "hints": [
+    "Wrong: the period and renewal window are wrong.",
+    "Wrong: it is not an annual registration.",
+    "Correct: 3 years; apply 3 months before.",
+    "Wrong: permanent validity applies to a CRA's certificate, not an RA's."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M2-25",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Within how many days must an NPS intermediary acknowledge a subscriber's grievance?",
+   "options": [
+    "7 days",
+    "3 days",
+    "30 days",
+    "21 days"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "An acknowledgement is sent to the complainant within 3 days of receiving the complaint; the grievance is to be disposed of within 30 days.",
+   "hints": [
+    "Wrong: 7 days is the deadline for informing PFRDA of a change in compliance officer.",
+    "Correct: acknowledgement within 3 days.",
+    "Wrong: 30 days is the time for resolving the grievance.",
+    "Wrong: 21 days is the NPS Trust's period before escalation to the Ombudsman."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

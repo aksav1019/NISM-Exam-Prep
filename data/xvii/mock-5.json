@@ -1,0 +1,583 @@
+{
+ "id": "mock-5",
+ "title": "Mock 5 · Exit & Estate",
+ "level": "easy",
+ "blurb": "NPS exit slabs and drawdown, corpus adjustments, distribution products, gifts, nominations and RA compliance.",
+ "questions": [
+  {
+   "id": "xvii-M5-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which product feature directly addresses longevity risk, the risk of outliving one's retirement savings?",
+   "options": [
+    "A credit card with a high limit",
+    "A deferred annuity bought at 65 that pays income for life from age 85",
+    "A short-duration debt fund",
+    "A 5-year bank fixed deposit"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The workbook gives the example of a deferred annuity purchased at 65 that pays income from 85 for life as a way to take care of longevity risk.",
+   "hints": [
+    "Wrong: borrowing is not a retirement income source.",
+    "Correct: lifetime income starting late hedges longevity.",
+    "Wrong: a debt fund can run out and offers no lifetime guarantee.",
+    "Wrong: a 5-year FD ends long before late old age."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-02",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "Ravi needs ₹50,000 four years from now. If money can earn 7% a year compounded annually, how much should he set aside today?",
+   "options": [
+    "About ₹36,000",
+    "About ₹38,145",
+    "About ₹46,729",
+    "About ₹65,540"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "PV = FV/(1 + r)^n = 50,000/1.07^4 ≈ ₹38,145.",
+   "hints": [
+    "Wrong: this deducts simple interest of 7% × 4 from 50,000.",
+    "Correct: 50,000 ÷ 1.3108 ≈ 38,145.",
+    "Wrong: this discounts for only one year.",
+    "Wrong: this compounds forward instead of discounting."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Which bond would show the greatest fall in price if market interest rates rise sharply?",
+   "options": [
+    "A floating-rate bond that resets quarterly",
+    "The bond with the shortest residual maturity",
+    "The bond with the highest duration",
+    "The bond with the highest credit rating"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Interest rate risk depends on duration: the higher the duration, the greater the sensitivity of price to rate changes.",
+   "hints": [
+    "Wrong: floating-rate coupons reset with the market, so rate risk is low.",
+    "Wrong: short maturity means low duration and low sensitivity.",
+    "Correct: higher duration means larger price changes.",
+    "Wrong: credit rating affects default risk, not rate sensitivity."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-04",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "What is the current status of the Mahila Samman Savings Certificate, according to the workbook?",
+   "options": [
+    "Closed to new deposits since 1 April 2025; existing accounts run to their 2-year maturity",
+    "Converted into a tax-free bond",
+    "Open only to senior women citizens",
+    "Open to all women with a ₹30 lakh limit"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The enrolment window expired on 31 March 2025; no fresh deposits have been accepted since 1 April 2025, while existing accounts continue to maturity.",
+   "hints": [
+    "Correct: closed for new deposits, existing accounts continue.",
+    "Wrong: no such conversion took place.",
+    "Wrong: the scheme was open to women and girls of any age, and is now closed.",
+    "Wrong: the scheme is closed and its limit was ₹2 lakh."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-05",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Corporate bonds in India are typically issued for tenors ranging from:",
+   "options": [
+    "20 years to 40 years",
+    "1 month to 1 year",
+    "2 years to 15 years, with 5- and 7-year tenors popular",
+    "Perpetual only"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Corporate bonds are issued for tenors ranging from two years to 15 years; 5-year and 7-year bonds are the more popular tenors.",
+   "hints": [
+    "Wrong: very long tenors are typical of government securities.",
+    "Wrong: this describes money market instruments.",
+    "Correct: 2-15 years, 5 and 7 popular.",
+    "Wrong: corporate bonds normally have fixed maturities."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-06",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "When a client already holds investments earmarked for retirement, how does the adviser adjust the monthly savings required?",
+   "options": [
+    "Deduct their current value from the corpus needed",
+    "Deduct the future value of those investments at retirement from the corpus needed, then compute savings on the gap",
+    "Ignore them, since they may be used elsewhere",
+    "Add them to the corpus required"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The steps are: select investments, estimate their return, calculate their future value at retirement, deduct it from the corpus required, and calculate periodic savings on the balance.",
+   "hints": [
+    "Wrong: current value ignores the growth until retirement.",
+    "Correct: use future value, then PMT on the gap.",
+    "Wrong: suitable existing assets should be assigned to the goal.",
+    "Wrong: existing assets reduce, not increase, the requirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-07",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "Sunil earns ₹12 lakh a year, expects income to grow 8% a year, retires in 20 years and assumes a 70% income replacement ratio. Approximately what annual income will he need at retirement?",
+   "options": [
+    "₹39.15 lakh",
+    "₹21.84 lakh",
+    "₹55.93 lakh",
+    "₹8.40 lakh"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Income at retirement = 12,00,000 × 1.08^20 ≈ ₹55.93 lakh; × 70% ≈ ₹39.15 lakh.",
+   "hints": [
+    "Correct: 55.93 lakh × 0.70.",
+    "Wrong: this uses simple growth before applying 70%.",
+    "Wrong: this is the projected income before applying the ratio.",
+    "Wrong: this applies 70% to today's income without growth."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-08",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Two retirees earn the same average return over 5 years, but one suffers losses in the first two years while both withdraw the same amount each year. The one with early losses ends with less money. This illustrates:",
+   "options": [
+    "Currency risk",
+    "Reinvestment risk",
+    "Sequence-of-returns risk",
+    "Credit risk"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "In a portfolio making regular withdrawals, bad returns early in retirement cause permanent damage because more units must be sold at depressed prices. This is sequence-of-returns risk.",
+   "hints": [
+    "Wrong: no currency exposure is involved.",
+    "Wrong: reinvestment risk concerns reinvesting coupons at lower rates.",
+    "Correct: the order of returns matters when withdrawing.",
+    "Wrong: credit risk concerns issuer default."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-09",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "An investor buys a stock because it has risen sharply over the past few weeks, expecting the rise to continue. Which bias is this?",
+   "options": [
+    "Anchoring",
+    "Loss aversion leading to inaction",
+    "Familiarity bias",
+    "Recency bias"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Recency bias is extrapolating recent events into the future and expecting them to repeat.",
+   "hints": [
+    "Wrong: anchoring sticks to an old reference point.",
+    "Wrong: inaction from fear of loss is the opposite behaviour.",
+    "Wrong: familiarity bias is choosing known or comfortable assets.",
+    "Correct: recent performance is being projected forward."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-10",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "A subscriber who joins NPS after the age of 65 chooses the Auto option. What is the maximum equity exposure allowed?",
+   "options": [
+    "15%",
+    "25%",
+    "50%",
+    "75%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "If the subscriber joins beyond 65, the maximum equity exposure is 15% under Auto choice and 50% under Active choice.",
+   "hints": [
+    "Correct: 15% under Auto.",
+    "Wrong: not the limit given for joiners after 65.",
+    "Wrong: 50% is the Active choice cap for such subscribers.",
+    "Wrong: 75% is the general Active choice cap."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-11",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "An All Citizen subscriber reaches 60 with an NPS corpus of ₹11 lakh. Which option is available besides the standard 80:20 route?",
+   "options": [
+    "Withdraw 60%; annuitise 40%",
+    "Withdraw up to ₹6 lakh as lump sum; use the balance for an annuity or SUR for at least 6 years",
+    "Withdraw the entire ₹11 lakh as lump sum",
+    "Withdraw up to ₹2 lakh; annuitise the rest"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Where the corpus is more than ₹8 lakh and up to ₹12 lakh, the subscriber may withdraw up to ₹6 lakh as lump sum and use the balance for annuity or SUR for at least six years, or follow 80:20.",
+   "hints": [
+    "Wrong: 60:40 is the Government sector ratio.",
+    "Correct: the ₹8-12 lakh slab allows ₹6 lakh lump sum.",
+    "Wrong: full withdrawal is allowed only up to ₹8 lakh for a normal exit (₹12 lakh only if joined after 60).",
+    "Wrong: ₹2 lakh is the NPS-Lite/Swavalamban threshold."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-12",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "An NPS account is frozen because the minimum contribution was not made in a year. What must the subscriber do to unfreeze it?",
+   "options": [
+    "Make a minimum contribution of ₹500",
+    "Open a fresh PRAN",
+    "Pay a penalty of ₹100 per year of default",
+    "Transfer funds from Tier II to Tier I"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "To unfreeze the account, the subscriber is required to make a minimum contribution of ₹500.",
+   "hints": [
+    "Correct: ₹500 unfreezes the account.",
+    "Wrong: a person can hold only one NPS account.",
+    "Wrong: no such penalty is specified in the workbook.",
+    "Wrong: if Tier I is frozen, Tier II is frozen too."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-13",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "Under the NPS drawdown Systematic Payout Rate (SPR) method, what is the SPR for a subscriber aged 60 who chooses a Drawdown End Age of 85?",
+   "options": [
+    "6.00%",
+    "1.67%",
+    "4.00%",
+    "2.50%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "SPR = 1 ÷ (Drawdown End Age − Current Age) = 1 ÷ (85 − 60) = 4.00%.",
+   "hints": [
+    "Wrong: this does not follow the SPR formula.",
+    "Wrong: this would be 1/60, using age instead of the remaining years.",
+    "Correct: 1/25 = 4%.",
+    "Wrong: this would be 1/40."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-14",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "How many nominees can an NPS subscriber register for a Tier I account?",
+   "options": [
+    "Up to 3, with the percentage share specified",
+    "Unlimited, with equal shares",
+    "Up to 5",
+    "Only 1"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A subscriber can make a maximum of three nominations to the Tier I account and specify the percentage allocated to each; the total must add up to 100%.",
+   "hints": [
+    "Correct: up to three nominees.",
+    "Wrong: the number is capped and shares are specified.",
+    "Wrong: the maximum is three.",
+    "Wrong: more than one nominee is allowed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-15",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "When comparing a fund's performance with peer funds, what caution does the workbook emphasise?",
+   "options": [
+    "Only compare absolute returns over one month",
+    "Ignore differences in management style",
+    "Always prefer the fund with the largest AUM",
+    "Consider the risk taken, since a fund may outperform peers by taking much higher risk"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "In comparing peer funds it is good to consider both return and risk; a fund may outperform peers but may have taken significantly higher risks.",
+   "hints": [
+    "Wrong: short absolute comparisons are not the workbook's approach.",
+    "Wrong: differences in management must be kept in mind.",
+    "Wrong: size is not a measure of performance.",
+    "Correct: returns must be judged alongside risk."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-16",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Among comparable schemes, which one should an investor ideally prefer on a risk-adjusted basis?",
+   "options": [
+    "The scheme with the highest standard deviation",
+    "The scheme with the lowest NAV",
+    "The scheme with the highest Sharpe ratio",
+    "The scheme with the highest beta"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Investors ought to prefer the scheme with the highest Sharpe ratio, since it generates a higher return for each unit of risk taken.",
+   "hints": [
+    "Wrong: higher SD means more volatility.",
+    "Wrong: NAV level says nothing about performance.",
+    "Correct: highest return per unit of risk.",
+    "Wrong: higher beta means more market risk."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-17",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Kisan Vikas Patra (at 7.7% interest) doubles the amount invested in:",
+   "options": [
+    "72 months",
+    "124 months",
+    "100 months",
+    "144 months"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The workbook states the amount invested in KVP doubles in 124 months, calculated at 7.7% interest.",
+   "hints": [
+    "Wrong: not the KVP doubling period.",
+    "Correct: 124 months.",
+    "Wrong: not the KVP doubling period.",
+    "Wrong: not the KVP doubling period."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-18",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "For a married couple applying jointly for a reverse mortgage loan, what are the age conditions?",
+   "options": [
+    "One spouse must be above 60 and the other not below 55",
+    "At least one spouse must be above 55",
+    "Both spouses must be above 65",
+    "Both spouses must be above 60"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "For joint borrowers, at least one must be above 60 years and the other not below 55 years.",
+   "hints": [
+    "Correct: 60 and 55.",
+    "Wrong: the primary borrower must be above 60.",
+    "Wrong: not the condition in the workbook.",
+    "Wrong: the second spouse can be 55 or more."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-19",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "In the bucket strategy, what equity exposure does the workbook suggest for the second (safety-cushion) bucket?",
+   "options": [
+    "At least 50% in mid and small caps",
+    "No equity at all",
+    "Lower-risk equity not exceeding 20% of the portfolio",
+    "100% equity, since it is not needed for 20 years"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The second bucket can hold long-term income funds, FMPs, bonds, real estate, gold and lower-risk equity not exceeding 20% of the portfolio.",
+   "hints": [
+    "Wrong: bucket 2 is not meant for aggressive equity.",
+    "Wrong: some equity is allowed in bucket 2.",
+    "Correct: up to 20% lower-risk equity.",
+    "Wrong: that describes neither bucket 2 nor its horizon."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-20",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "In constructing diversified retirement income, the workbook suggests investments in bonds and debentures be used mainly for:",
+   "options": [
+    "Accumulating funds for medium-term goals such as travel in retirement",
+    "Providing the growth element of the portfolio",
+    "Holding emergency funds",
+    "Meeting mandatory expenses such as taxes and insurance"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Investments in bonds and debentures can be used to accumulate funds for medium-term goals such as travel in retirement.",
+   "hints": [
+    "Correct: medium-term goals.",
+    "Wrong: mutual funds bring growth.",
+    "Wrong: emergency funds sit in bucket 1's liquid assets.",
+    "Wrong: guaranteed pension and annuity are earmarked for mandatory expenses."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-21",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "For tax purposes, what standard deduction is allowed on the net annual value of rental income, after deducting municipal taxes?",
+   "options": [
+    "10%",
+    "50%",
+    "20%",
+    "30%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Rental income is adjusted for municipal taxes paid; from this net annual value a standard deduction of 30% is allowed, plus interest on a loan taken to buy the property.",
+   "hints": [
+    "Wrong: not the rate in the workbook.",
+    "Wrong: not the rate in the workbook.",
+    "Wrong: not the rate in the workbook.",
+    "Correct: 30% standard deduction."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-22",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which of the following gifts received by an individual is exempt from tax as per the workbook?",
+   "options": [
+    "A gift from a business associate",
+    "A gift received on the occasion of marriage",
+    "A gift from a friend of any amount",
+    "Cash received from an unrelated person"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Gifts from specified relatives, any gift received on the occasion of marriage and gifts inherited under a will are exempt from tax.",
+   "hints": [
+    "Wrong: business associates are not specified relatives.",
+    "Correct: marriage gifts are exempt.",
+    "Wrong: friends are not specified relatives.",
+    "Wrong: unrelated persons are not covered by the exemption."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-23",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "If there is a legal dispute among heirs after the death of the first holder of a jointly held asset, the joint holder's right to operate the asset:",
+   "options": [
+    "Is absolute and cannot be questioned",
+    "Is converted into a nomination",
+    "Automatically passes to the bank",
+    "Can be superseded by the will or succession law"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "In the event of the death of the first holder, access passes to the joint holder; but if there is a legal contest, the joint holder's operational right can be superseded by succession law or the will.",
+   "hints": [
+    "Wrong: operational access is not ownership.",
+    "Wrong: there is no such conversion.",
+    "Wrong: the bank does not take ownership.",
+    "Correct: the will or succession law prevails."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-24",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "How many trustees must the Board of the NPS Trust have?",
+   "options": [
+    "A minimum of 7 and a maximum of 15",
+    "Exactly 3",
+    "Exactly 10",
+    "A minimum of 5 and a maximum of 11"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The Board of Trustees shall have a minimum of five and a maximum of eleven trustees.",
+   "hints": [
+    "Wrong: the range is 5 to 11.",
+    "Wrong: the minimum is five.",
+    "Wrong: it is a range, not a fixed number.",
+    "Correct: 5 to 11 trustees."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M5-25",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A non-individual Retirement Adviser changes its compliance officer. Within what period must PFRDA be informed?",
+   "options": [
+    "3 days",
+    "30 days",
+    "90 days",
+    "7 days"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Any change in the compliance officer should be intimated to the Authority within seven days.",
+   "hints": [
+    "Wrong: 3 days is the grievance acknowledgement period.",
+    "Wrong: 30 days is the grievance resolution period.",
+    "Wrong: 90 days is the Ombudsman's award deadline.",
+    "Correct: within 7 days."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

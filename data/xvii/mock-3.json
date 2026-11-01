@@ -1,0 +1,583 @@
+{
+ "id": "mock-3",
+ "title": "Mock 3 · Process & Products",
+ "level": "easy",
+ "blurb": "Corpus maths, life cycle funds, NPS intermediaries, and the small-savings and grievance basics.",
+ "questions": [
+  {
+   "id": "xvii-M3-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "The Project OASIS report, which recommended moving from unfunded defined-benefit promises to a funded defined-contribution system with individual portable accounts, was prepared by a committee chaired by:",
+   "options": [
+    "C. Rangarajan",
+    "Bimal Jalan",
+    "Y.V. Reddy",
+    "S.A. Dave"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The Ministry of Social Justice and Empowerment set up a committee in 1998 chaired by S.A. Dave; its 2000 report is known as the Project OASIS Report.",
+   "hints": [
+    "Wrong: not associated with Project OASIS in the workbook.",
+    "Wrong: not associated with Project OASIS in the workbook.",
+    "Wrong: not associated with Project OASIS in the workbook.",
+    "Correct: S.A. Dave chaired the OASIS committee."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-02",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "The FIRE movement in personal finance stands for:",
+   "options": [
+    "Fixed Income, Retirement Equity",
+    "Forced Investment, Retire Early",
+    "Financial Independence, Retire Early",
+    "Fund Investment for Retirement Expenses"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "FIRE stands for Financial Independence, Retire Early: saving and investing aggressively (often 50% or more of income) to retire well before the conventional age.",
+   "hints": [
+    "Wrong: not the expansion of FIRE.",
+    "Wrong: FIRE is voluntary, not forced early retirement.",
+    "Correct: Financial Independence, Retire Early.",
+    "Wrong: not the expansion of FIRE."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "A SEBI-registered REIT must distribute at least what share of its net distributable cash flows to unitholders?",
+   "options": [
+    "100%, quarterly",
+    "90%, at least half-yearly",
+    "80%, annually",
+    "50%, half-yearly"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Not less than 90% of the net distributable cash flows of the REIT are distributed to investors at least on a half-yearly basis.",
+   "hints": [
+    "Wrong: the requirement is not 100% quarterly.",
+    "Correct: at least 90%, at least half-yearly.",
+    "Wrong: 80% is the minimum share of completed, rent-generating assets.",
+    "Wrong: the share is far higher than 50%."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-04",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "To encourage retail participation, what share of each government securities auction is reserved for non-competitive bidders, including retail investors?",
+   "options": [
+    "2%",
+    "10%",
+    "20%",
+    "5%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The government has reserved 5% of the auction amount in every auction for non-competitive buyers, including retail investors.",
+   "hints": [
+    "Wrong: not the reservation given in the workbook.",
+    "Wrong: not the reservation given in the workbook.",
+    "Wrong: 20% is the limit for gold ETFs in bank gold deposit schemes.",
+    "Correct: 5% of each auction."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-05",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "For every unit issued, a Gold ETF holds physical gold of what purity (or gold receipts)?",
+   "options": [
+    "91.6%",
+    "95.0%",
+    "99.5%",
+    "99.99%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "For every unit of a gold ETF issued, the fund holds physical gold of 99.5% purity or gold receipts.",
+   "hints": [
+    "Wrong: 91.6% is 22-carat jewellery gold.",
+    "Wrong: the workbook specifies 99.5%.",
+    "Correct: 99.5% purity.",
+    "Wrong: the workbook specifies 99.5%."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-06",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "What is the key weakness of the deterministic method of calculating the retirement corpus?",
+   "options": [
+    "It does not adjust expenses for inflation",
+    "It assumes constant returns and inflation and ignores sequence-of-returns risk",
+    "It is too complex to explain to clients",
+    "It always overstates the corpus required"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The deterministic method holds return and inflation constant and cannot see sequence-of-returns risk, so a plan that looks adequate on paper may fail.",
+   "hints": [
+    "Wrong: it does inflate expenses to retirement and uses a real rate.",
+    "Correct: it ignores volatility and the order of returns.",
+    "Wrong: the workbook says it is easy to compute and explain.",
+    "Wrong: the case study shows it can understate, not overstate, the need."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-07",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "The widely cited '4 per cent' safe withdrawal rule was derived by:",
+   "options": [
+    "PFRDA in 2025, using Indian data",
+    "William Bengen in 1994, using US data",
+    "Harry Markowitz in 1952",
+    "The NPS Trust for annuity pricing"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The 4% rule was derived by William Bengen in 1994 using long-run United States data. Indian research suggests about 3-3.5% for a 30-year horizon.",
+   "hints": [
+    "Wrong: PFRDA did not derive the 4% rule.",
+    "Correct: Bengen, 1994, US data.",
+    "Wrong: Markowitz is known for portfolio theory, not the 4% rule.",
+    "Wrong: the NPS Trust has no role in deriving withdrawal rules."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-08",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "Kiran wants a corpus of ₹1 crore in 25 years. If his investments earn 12% a year (monthly compounding, investments at month-end), approximately how much must he invest every month?",
+   "options": [
+    "₹3,333",
+    "₹5,322",
+    "₹7,500",
+    "₹10,515"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "PMT(12%/12, 300, 0, −1,00,00,000, 0) ≈ ₹5,322, the figure the workbook also uses for ₹1 crore in 25 years at 12%.",
+   "hints": [
+    "Wrong: ₹1 crore ÷ 300 months ignores returns entirely.",
+    "Correct: PMT gives about ₹5,322.",
+    "Wrong: this does not match the PMT calculation.",
+    "Wrong: ₹10,515 is the requirement over 25 years at 8%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-09",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Once a person has retired, the workbook suggests that growth assets should form:",
+   "options": [
+    "About 50% to 60% of the portfolio",
+    "At least 60% of the portfolio",
+    "Not more than 25% to 30% of the portfolio",
+    "Zero; the portfolio should be entirely in deposits"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "In retirement the portfolio should be predominantly income-oriented, with not more than 25% to 30% in growth assets to beat inflation.",
+   "hints": [
+    "Wrong: 50-60% is the middle earning years guideline.",
+    "Wrong: this is far too aggressive for retirees.",
+    "Correct: up to 25-30% growth assets.",
+    "Wrong: some growth exposure is advised to beat inflation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-10",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "On normal exit (superannuation), a Government sector NPS subscriber with a corpus above ₹12 lakh must use at least what share for an annuity?",
+   "options": [
+    "20%",
+    "60%",
+    "40%",
+    "80%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A Government sector subscriber may withdraw up to 60% as lump sum on superannuation; at least 40% must be used to buy an annuity.",
+   "hints": [
+    "Wrong: 20% is the minimum for Non-Government subscribers.",
+    "Wrong: 60% is the maximum lump sum, not the annuity share.",
+    "Correct: at least 40% annuitisation.",
+    "Wrong: 80% annuitisation applies on premature exit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-11",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "An All Citizen subscriber with a corpus of ₹15 lakh exits NPS prematurely. What is the rule?",
+   "options": [
+    "The entire corpus can be withdrawn",
+    "Up to 20% as lump sum; at least 80% must buy an annuity",
+    "Up to 60% as lump sum; at least 40% annuity",
+    "Up to 80% as lump sum; at least 20% annuity"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "On premature exit, up to 20% may be withdrawn as lump sum and at least 80% must be used to purchase an annuity. Full withdrawal is allowed only if the corpus is up to ₹5 lakh.",
+   "hints": [
+    "Wrong: full withdrawal on premature exit is allowed only up to ₹5 lakh.",
+    "Correct: 20:80 on premature exit.",
+    "Wrong: 60:40 is Government normal exit.",
+    "Wrong: 80:20 is Non-Government normal exit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-12",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "For a 30-year-old subscriber in Auto choice Life Cycle 75 (High), what is the equity allocation?",
+   "options": [
+    "35%",
+    "25%",
+    "75%",
+    "50%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Up to age 35, LC75 allocates 75% to equity (75/10/15 across E/C/G), tapering thereafter to 15% at 55.",
+   "hints": [
+    "Wrong: 35% is LC Aggressive's terminal equity at 55 and above.",
+    "Wrong: 25% is LC25's equity up to 35.",
+    "Correct: 75% equity up to age 35.",
+    "Wrong: 50% is LC50's (and LC Aggressive's) equity up to 35."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-13",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Who is the settlor of the NPS Trust?",
+   "options": [
+    "Axis Bank, as the Trustee Bank",
+    "The Central Recordkeeping Agency",
+    "Ministry of Finance",
+    "PFRDA"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The NPS Trust is set up under the Indian Trusts Act and PFRDA is the settlor of the NPS Trust.",
+   "hints": [
+    "Wrong: the Trustee Bank only handles funds.",
+    "Wrong: the CRA is a record-keeping intermediary.",
+    "Wrong: the Ministry of Finance is not the settlor.",
+    "Correct: PFRDA is the settlor."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-14",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which entity is currently the custodian appointed by PFRDA for NPS securities?",
+   "options": [
+    "Deutsche Bank",
+    "Axis Bank",
+    "NSDL",
+    "State Bank of India"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The custodian currently appointed by PFRDA is Deutsche Bank, engaged for a five-year term from 1 April 2022; it holds securities in the name of the NPS Trust.",
+   "hints": [
+    "Correct: Deutsche Bank is the custodian.",
+    "Wrong: Axis Bank is the Trustee Bank.",
+    "Wrong: NSDL is not the NPS custodian in the workbook.",
+    "Wrong: SBI is a sponsor of a pension fund, not the custodian."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-15",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "An investor made quarterly SIP investments on different dates and wants the rate of return on the whole series of cash flows. Which Excel function is most suitable?",
+   "options": [
+    "XIRR",
+    "PMT",
+    "PV",
+    "NPER"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The XIRR function calculates the internal rate of return for an investment with multiple cash flows on different dates.",
+   "hints": [
+    "Correct: XIRR handles irregular dated cash flows.",
+    "Wrong: PMT calculates a periodic payment.",
+    "Wrong: PV calculates present value.",
+    "Wrong: NPER calculates the number of periods."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-16",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which benchmark does the workbook consider better suited to a gilt fund?",
+   "options": [
+    "Crisil STBEX",
+    "ICICI Securities' Sovereign Bond Indices",
+    "Nifty 50",
+    "BSE Sensex"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "While Crisil STBEX suits a short-term bond fund, a gilt fund is better benchmarked against the ICICI Securities' Sovereign Bond Indices.",
+   "hints": [
+    "Wrong: STBEX suits short-term bond funds.",
+    "Correct: a sovereign bond index for a gilt fund.",
+    "Wrong: Nifty 50 is an equity benchmark.",
+    "Wrong: Sensex is an equity benchmark."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-17",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "What is the maximum investment in the Post Office Monthly Income Scheme for a single-holder account?",
+   "options": [
+    "₹9 lakh",
+    "₹15 lakh",
+    "₹30 lakh",
+    "₹4.5 lakh"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "POMIS: minimum ₹1,500; maximum ₹9 lakh for a single account and ₹15 lakh for a joint account.",
+   "hints": [
+    "Correct: ₹9 lakh single.",
+    "Wrong: ₹15 lakh is the joint limit.",
+    "Wrong: ₹30 lakh is the SCSS limit.",
+    "Wrong: this is half the single-holder limit given in the workbook."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-18",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "What portion of the employer's EPF contribution is diverted to the Employees' Pension Scheme (EPS)?",
+   "options": [
+    "8.33%",
+    "1.16%",
+    "3.67%",
+    "12%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "8.33% (subject to limits) of the employer's contribution is diverted to the EPS; the Central Government also contributes 1.16%.",
+   "hints": [
+    "Correct: 8.33% goes to EPS.",
+    "Wrong: 1.16% is the Central Government's contribution to EPS.",
+    "Wrong: 3.67% is the balance of the employer's 12% that stays in EPF.",
+    "Wrong: 12% is the full employer contribution."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-19",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A 'step-up' in periodic savings means:",
+   "options": [
+    "Doubling the SIP after retirement",
+    "Switching from equity to debt as retirement nears",
+    "Investing a lump sum when markets fall",
+    "Raising the SIP each year in line with income increases"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The workbook suggests stepping up periodic savings each year to keep pace with income, for example raising savings by 10% after a 10% salary hike.",
+   "hints": [
+    "Wrong: after retirement the focus is distribution, not stepping up SIPs.",
+    "Wrong: that is de-risking or rebalancing.",
+    "Wrong: that is market timing, not step-up.",
+    "Correct: increase savings with income."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-20",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "In a diversified retirement income plan, annuity income is best earmarked for:",
+   "options": [
+    "Mandatory and essential living expenses",
+    "Discretionary expenses such as travel",
+    "Adding growth to the portfolio",
+    "Medium-term goals"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Earmark guaranteed payouts like pension and annuity for mandatory and essential expenses, and limit annuity use to these since it is a low-yield product.",
+   "hints": [
+    "Correct: guaranteed income should cover essentials.",
+    "Wrong: discretionary goals can be funded from other sources.",
+    "Wrong: mutual funds bring growth; annuities do not.",
+    "Wrong: bonds are suggested for medium-term goals such as travel."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-21",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Which retirement income source has the primary advantage that the income tends to rise with inflation?",
+   "options": [
+    "Post Office Monthly Income Scheme interest",
+    "Senior Citizens' Saving Scheme interest",
+    "A level annuity for life",
+    "Rental income from real estate"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The primary advantage of rental income is that it is protected from inflation, i.e. the income goes up with inflation.",
+   "hints": [
+    "Wrong: POMIS interest is fixed for the deposit term.",
+    "Wrong: SCSS interest is fixed for the deposit term.",
+    "Wrong: a level annuity pays the same amount and loses real value.",
+    "Correct: rents rise with inflation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-22",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "An encumbrance certificate issued by the sub-registrar's office is used to:",
+   "options": [
+    "Transfer ownership from seller to buyer",
+    "Approve the building plan of an apartment",
+    "Show all recorded transactions on a property, confirming the holder's title is clear",
+    "Apply for electricity and water connections"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "An encumbrance certificate lists all transactions on the property, including sales, purchases and mortgages, and is used as confirmation that the holder has title.",
+   "hints": [
+    "Wrong: the sale deed transfers ownership.",
+    "Wrong: plan approval relates to the Katha or local authority approvals.",
+    "Correct: it records transactions and confirms clear title.",
+    "Wrong: the Katha certificate is used for utility connections."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-23",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "When must a Power of Attorney be mandatorily registered?",
+   "options": [
+    "Only when the donee is a family member",
+    "Always, for every PoA",
+    "Only when it is a general PoA",
+    "When it creates an interest in immovable property"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A PoA needs to be mandatorily registered only if it creates interest in an immovable property.",
+   "hints": [
+    "Wrong: the relationship of the donee does not matter.",
+    "Wrong: not every PoA needs registration.",
+    "Wrong: the type (general or specific) is not the test.",
+    "Correct: registration is compulsory for immovable property interests."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-24",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "What minimum net worth must an entity have to register as a Point of Presence for NPS?",
+   "options": [
+    "₹2 crore, including paid-up equity capital of ₹50 lakh",
+    "₹25 lakh",
+    "₹50 crore",
+    "₹100 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A PoP must have a minimum net worth of ₹2 crore, including minimum paid-up equity capital of ₹50 lakh (not applicable for APY-only entities and Government departments).",
+   "hints": [
+    "Correct: ₹2 crore including ₹50 lakh paid-up.",
+    "Wrong: this is far below the PoP requirement.",
+    "Wrong: ₹50 crore is the Pension Fund requirement.",
+    "Wrong: ₹100 crore is the CRA requirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M3-25",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "If a grievance escalated to the NPS Trust is not resolved within how many days may the subscriber approach the Ombudsman?",
+   "options": [
+    "21 days",
+    "45 days",
+    "90 days",
+    "30 days"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "If the complaint forwarded to the NPS Trust remains unresolved after 21 days, the subscriber can appeal to the Ombudsman.",
+   "hints": [
+    "Correct: 21 days at the NPS Trust.",
+    "Wrong: 45 days is the time limit to file the Ombudsman appeal.",
+    "Wrong: 90 days is the Ombudsman's time to pass an award.",
+    "Wrong: 30 days is the resolution time at the intermediary."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

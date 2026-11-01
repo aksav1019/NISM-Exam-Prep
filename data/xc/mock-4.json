@@ -1,0 +1,583 @@
+{
+ "id": "mock-4",
+ "title": "Mock 4 · Compliance Desk",
+ "level": "easy",
+ "blurb": "Think like a compliance officer: reporting, ad approvals, CSCRF categories and SEBI's penalty lessons.",
+ "questions": [
+  {
+   "id": "xc-M4-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Why does the proposal call for separate branding of the new asset class?",
+   "options": [
+    "To avoid SEBI registration requirements",
+    "To differentiate it from traditional MFs and protect existing MF schemes' reputation from its risks and underperformance",
+    "To market it only to non-resident investors",
+    "To let AMCs charge higher exit loads"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Branding is meant to differentiate the new asset class from traditional MFs and protect the reputation of existing MF schemes from its potential risks and underperformance.",
+   "hints": [
+    "It is regulated; branding does not avoid registration.",
+    "Correct: differentiation and reputation protection.",
+    "No NRI-only marketing is mentioned.",
+    "Exit loads are not the reason given."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-02",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "When were REITs introduced by SEBI, and when was the first REIT launched in India?",
+   "options": [
+    "Introduced in 2014; first REIT launched in 2014",
+    "Introduced in 2019; first REIT launched in 2021",
+    "Introduced in 2014; first REIT launched in 2019",
+    "Introduced in 2007; first REIT launched in 2014"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "REITs in India were introduced by SEBI in 2014, and the first REIT was launched in 2019.",
+   "hints": [
+    "The first launch came five years after introduction.",
+    "2019 is the launch year, not the introduction year.",
+    "Correct: 2014 and 2019.",
+    "2007 is not mentioned; 2014 is the introduction year."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-03",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "What range of dividend yields have Indian InvITs delivered so far, according to the deck?",
+   "options": [
+    "8 to 10% p.a.",
+    "15 to 18% p.a.",
+    "6 to 8% p.a.",
+    "3 to 5% p.a."
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "InvITs provide regular income with dividend yields in the range of 8 to 10% p.a. so far.",
+   "hints": [
+    "Correct: 8-10% for InvITs.",
+    "15-18% is not mentioned.",
+    "6-8% is the REIT range.",
+    "3-5% is too low."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-04",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Which purchase-date cut-off is relevant to the post-Budget 2024 capital gains structure?",
+   "options": [
+    "January 31, 2018",
+    "July 23, 2024",
+    "April 1, 2001",
+    "April 1, 2024"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Under 'Purchase date' the deck lists: before April 1, 2024 and on or after April 1, 2024. July 23, 2024 is the sell-date cut-off.",
+   "hints": [
+    "January 31, 2018 is not mentioned in the deck.",
+    "July 23, 2024 is the SELL-date cut-off.",
+    "April 1, 2001 is not mentioned in the deck.",
+    "Correct: April 1, 2024."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-05",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Which investor categories does the deck identify as affecting the capital gains tax structure?",
+   "options": [
+    "Salaried, self-employed and retired",
+    "Male, female and senior citizen",
+    "Resident Indian, non-resident and non-individual",
+    "Retail, HNI and institutional"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Under 'Investor category' the deck lists resident Indian, non-resident and non-individual.",
+   "hints": [
+    "Employment type is not listed.",
+    "Gender/age is not listed.",
+    "Correct: resident, non-resident, non-individual.",
+    "These are SEBI-style investor classes, not the tax categories listed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-06",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Within how many days must the half-yearly periodic report be submitted to BSE?",
+   "options": [
+    "7 working days",
+    "21 calendar days",
+    "30 days",
+    "15 working days"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The periodic report is to be submitted on a half-yearly basis within 7 working days.",
+   "hints": [
+    "Correct: 7 working days.",
+    "21 calendar days is the grievance redressal timeline.",
+    "30 days is not the reporting deadline.",
+    "15 working days is not the deadline."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-07",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "On SCORES, where does the Action Taken Report (ATR) uploaded by the IA go?",
+   "options": [
+    "It is sent only to NISM",
+    "It is kept confidential and never shown to the investor",
+    "It is printed and posted to SEBI Bhavan",
+    "It is automatically routed to the investor who filed the complaint"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The ATR is automatically routed to the investor who filed the complaint.",
+   "hints": [
+    "NISM has no role.",
+    "The investor sees the ATR.",
+    "The process is online.",
+    "Correct: auto-routed to the complainant."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-08",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "From July 25, 2024, where must a person apply for registration as an investment adviser?",
+   "options": [
+    "To NISM along with the X-A result",
+    "To BSE, through its online membership portal",
+    "To AMFI for an ARN",
+    "Directly to SEBI by post"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Applicants desirous of IA/RA registration submit their application to the Exchange (BSE) w.e.f. July 25, 2024 via the online interface at membershipraia.bseindia.com.",
+   "hints": [
+    "NISM does not process registrations.",
+    "Correct: via BSE's online portal.",
+    "An ARN is for MF distributors, not IAs.",
+    "Applications now go through BSE, not by post to SEBI."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-09",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "A complaint is pending on SCORES and the complainant opts for Online Dispute Resolution. What happens to the SCORES complaint?",
+   "options": [
+    "It is treated as disposed on SCORES",
+    "It stays open until the ODR award is enforced",
+    "It is transferred to the RBI Ombudsman",
+    "The complainant must withdraw ODR first"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "If the complainant opts for ODR or other civil remedies while the complaint is pending on SCORES, it is treated as disposed on SCORES.",
+   "hints": [
+    "Correct: it is treated as disposed.",
+    "It does not remain open in parallel.",
+    "RBI Ombudsman is not involved.",
+    "Investors can approach ODR at any point."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-10",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Annexure B must be submitted with an advertisement approval application when:",
+   "options": [
+    "The IA is an individual",
+    "The ad is for print media",
+    "The ad is in a regional language",
+    "The advertisement has individuals forming part of it"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Annexure B is required if the advertisement has any individuals forming part of it.",
+   "hints": [
+    "The IA's legal form is not the trigger.",
+    "Medium does not trigger Annexure B.",
+    "Language does not trigger Annexure B.",
+    "Correct: when individuals appear in the ad."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-11",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "How does BSE treat an advertisement issued by an Associated Person of an IA on their own?",
+   "options": [
+    "It is approved automatically",
+    "It needs only Annexure A",
+    "It shall not be entertained by BSE",
+    "It is exempt from approval"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Any advertisement issued by an Associated Person on their own shall not be entertained by BSE.",
+   "hints": [
+    "There is no automatic approval.",
+    "Annexure A does not change this.",
+    "Correct: BSE will not entertain it.",
+    "It is not in the exempt list."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-12",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Under the social-media obligations, an employee who receives market-related news may forward it only:",
+   "options": [
+    "If the client consents",
+    "After it has been seen and approved by the IA's Compliance Officer",
+    "After verifying it with two friends",
+    "If it comes from a WhatsApp group of brokers"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Employees should forward market-related news only after it has been seen and approved by the IA's Compliance Officer; otherwise they are liable for action.",
+   "hints": [
+    "Client consent is not the test.",
+    "Correct: Compliance Officer approval first.",
+    "Informal verification is not enough.",
+    "The source does not exempt it."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-13",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "The SEBI circular on display of IA details (name, registration number, Compliance Officer and grievance contacts, disclaimer) became effective from:",
+   "options": [
+    "July 31, 2024",
+    "May 01, 2023",
+    "March 15, 2024",
+    "April 06, 2023"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The circular dated April 06, 2023 has an effective date of May 01, 2023.",
+   "hints": [
+    "July 31, 2024 is the BSE Master Circular date.",
+    "Correct: effective May 01, 2023.",
+    "March 15, 2024 is for the BSE approval number.",
+    "April 06, 2023 is the circular date, not the effective date."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-14",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Within what time must a Small-size RE report a cyber incident under CSCRF?",
+   "options": [
+    "7 days of detection",
+    "1 month of detection",
+    "6 hours of detection",
+    "24 hours of detection"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Self-certification, Small and Mid-size REs report within 24 hours of detection; Qualified REs within 6 hours.",
+   "hints": [
+    "7 days is far too late.",
+    "1 month is a report-submission timeline for VAPT/audit.",
+    "6 hours applies to Qualified REs.",
+    "Correct: 24 hours."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-15",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which of these entities is excluded from submission of compliance under CSCRF?",
+   "options": [
+    "Portfolio managers with ₹5,000 crore AUM",
+    "Stock brokers",
+    "REITs and InvITs",
+    "Mutual funds"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Excluded REs include FPIs, FVCIs, LPCC, QDPs, REITs/InvITs and Vault Managers.",
+   "hints": [
+    "A ₹5,000 crore PMS is a Mid-size RE.",
+    "Brokers are categorised by active clients.",
+    "Correct: REITs/InvITs are excluded.",
+    "MFs are categorised by AUM."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-16",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which of these is placed ONLY in the Self-certification category under CSCRF?",
+   "options": [
+    "Credit Rating Agencies",
+    "Depository participants",
+    "Mutual funds",
+    "Stock exchanges"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Only-self-certified REs: Collective Investment Schemes, Credit Rating Agencies and Debenture Trustees (subject to conditions).",
+   "hints": [
+    "Correct: CRAs are self-certification REs.",
+    "DPs are Mid or Qualified by type.",
+    "MFs are Small, Mid or Qualified by AUM.",
+    "Stock exchanges are MIIs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-17",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "For Small-size and Self-certification REs that have no IT Committee, who reviews and approves CSCRF compliance?",
+   "options": [
+    "The statutory auditor",
+    "MD/CEO/Board member/Partners/Proprietor",
+    "A CERT-In officer",
+    "BSE's inspection department"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "In the absence of an IT Committee, compliance to CSCRF is reviewed and approved by the MD/CEO/Board member/Partners/Proprietor.",
+   "hints": [
+    "The statutory auditor is not the approver.",
+    "Correct: top management or the proprietor.",
+    "CERT-In does not approve RE compliance.",
+    "BSE does not approve internal compliance."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-18",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Under the PIT Regulations code, what is the 'restricted list' maintained by the compliance officer used for?",
+   "options": [
+    "Listing employees without NISM certification",
+    "Listing banned advertisement words",
+    "Approving or rejecting applications for pre-clearance of trades",
+    "Listing clients who have complained"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The compliance officer confidentially maintains a 'restricted list' of securities used as the basis for approving or rejecting pre-clearance of trades.",
+   "hints": [
+    "It is not about certifications.",
+    "It is not about advertisements.",
+    "Correct: it governs pre-clearance of trades.",
+    "Complaint lists are separate."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-19",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "According to the Investor Charter, an IA must maintain records of interactions with:",
+   "options": [
+    "Only clients who complain",
+    "Only clients who pay above ₹1 lakh",
+    "Only institutional clients",
+    "All clients, including prospective clients before onboarding, where advice-related conversation took place"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The charter requires maintaining records of interactions with all clients including prospective clients (prior to onboarding) where any advice-related conversation took place.",
+   "hints": [
+    "It applies to all clients, not just complainants.",
+    "There is no fee threshold.",
+    "It applies to all clients.",
+    "Correct: including prospects where advice was discussed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-20",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "In one SEBI order, collecting GST from clients without having GST registration was treated as:",
+   "options": [
+    "A fraudulent activity",
+    "A minor procedural lapse",
+    "Permissible for individual IAs",
+    "Permissible if disclosed in the agreement"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Case 2 lists 'Collection of GST from clients during FY 2018-19 and 2019-20 without having GST registration - Fraudulent Activity'.",
+   "hints": [
+    "Correct: it was called fraudulent.",
+    "It was not treated as minor.",
+    "No such exemption exists.",
+    "Disclosure does not make it legal."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-21",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "With which agency did an IA fail to register for CKYC, leading to a SEBI penalty?",
+   "options": [
+    "NISM",
+    "NSDL e-Gov",
+    "CDSL Ventures",
+    "CERSAI"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Case 4: the Noticee failed to register with the CKYC agency CERSAI and maintain KYC records.",
+   "hints": [
+    "NISM is a certification body.",
+    "NSDL e-Gov is not the CKYC agency named.",
+    "CVL is a KRA, not the CKYC agency named.",
+    "Correct: CERSAI runs the Central KYC Registry."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-22",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "In the study cited, investors who reviewed their portfolio monthly ended up with roughly what equity allocation, compared with 70% for those who reviewed yearly?",
+   "options": [
+    "59%",
+    "30%",
+    "41%",
+    "70%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Portfolio reviewed yearly: 70% stocks/30% bonds; reviewed monthly: 41% stocks/59% bonds, showing frequent evaluation leads to conservative portfolios.",
+   "hints": [
+    "59% is the bond share for monthly reviewers.",
+    "30% is the yearly reviewers' bond share.",
+    "Correct: 41% stocks.",
+    "70% is the yearly reviewers' equity share."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-23",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "An investor values the shares he owns far above what he would pay to buy them today. This is:",
+   "options": [
+    "Ownership bias (endowment effect)",
+    "Gambler's fallacy",
+    "Recency bias",
+    "Herd mentality"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Ownership bias, sometimes called the endowment effect, is the tendency to place a higher value on a position than others would, causing investors to hold positions they would not buy now.",
+   "hints": [
+    "Correct: ownership bias.",
+    "Gambler's fallacy is predicting random events from past outcomes.",
+    "Recency bias overweights recent results.",
+    "Herding is following others."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-24",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which strategy combines strategic asset allocation with dynamic strategies, adjusting the mix to the client's evolving goals and market conditions?",
+   "options": [
+    "Buy-and-hold only",
+    "Integrated asset allocation",
+    "Insured asset allocation",
+    "Drifting asset allocation"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Integrated asset allocation is a combination of SAA and dynamic strategies that adjusts based on evolving goals and market conditions.",
+   "hints": [
+    "Buy-and-hold is not the described combination.",
+    "Correct: integrated asset allocation.",
+    "Insured protects a minimum value.",
+    "Drifting lets weights move without adjustment."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M4-25",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Which of the following is one of the two tests for a long-term portfolio mentioned in the module?",
+   "options": [
+    "The investor can and will live with it",
+    "It beats the Nifty 50 every year",
+    "It has the lowest possible fees",
+    "It holds at least 30 stocks"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Tests: (1) the investor can and will live with it; (2) its long-term reasonably expectable results will meet the investor's own priorities.",
+   "hints": [
+    "Correct: the investor can and will live with it.",
+    "Beating an index every year is not a test.",
+    "Low fees matter but are not one of the two tests.",
+    "A stock count is not a test."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

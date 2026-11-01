@@ -1,0 +1,583 @@
+{
+ "id": "mock-1",
+ "title": "Mock 1 · Foundations",
+ "level": "easy",
+ "blurb": "A gentle first lap across all eight modules: the headline facts every renewing IA must know.",
+ "questions": [
+  {
+   "id": "xc-M1-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "What is the minimum investment threshold per investor proposed for SEBI's new asset class positioned between mutual funds and PMS?",
+   "options": [
+    "₹50 lakh",
+    "₹10 lakh",
+    "₹1 lakh",
+    "₹25 lakh"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The deck states the minimum investment threshold for the new asset class is Rs. 10 lakhs per investor.",
+   "hints": [
+    "₹50 lakh is the PMS minimum, not the new asset class.",
+    "Correct: ₹10 lakh per investor is the proposed minimum.",
+    "₹1 lakh is far too low; the product is meant for investors with larger tickets.",
+    "₹25 lakh is not the threshold mentioned."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-02",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "What problem is the new asset class mainly meant to solve?",
+   "options": [
+    "High expense ratios of index funds",
+    "Lack of any equity products for retail investors",
+    "Investors leaning toward unregistered and unauthorised schemes because there was no flexible, regulated option between MFs and PMS",
+    "Absence of government bonds for retail investors"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Its stated objective is to target investors who lean toward unregistered and unauthorised schemes due to the absence of a flexible, regulated option between MFs and PMS.",
+   "hints": [
+    "Expense ratios of index funds are not the stated objective.",
+    "Retail investors already have many equity products, such as MFs.",
+    "Correct: it fills the regulated gap between MFs and PMS.",
+    "Government bond access is unrelated to this asset class."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-03",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "REITs mainly allow individual investors to:",
+   "options": [
+    "Buy agricultural land in fractional units",
+    "Invest in operational highway and power transmission projects",
+    "Borrow against their residential property at low rates",
+    "Earn a share of income from commercial real estate without buying, managing or financing properties themselves"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "REITs own, operate or finance income-generating real estate, letting investors share the income without buying, managing or financing property.",
+   "hints": [
+    "REITs in India focus mainly on commercial real estate such as offices and retail spaces.",
+    "Highways and power transmission are InvIT assets, not REIT assets.",
+    "REITs are not lending products.",
+    "Correct: that is the core idea of a REIT."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-04",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "After the Union Budget 2024 changes, how many holding periods are used to determine whether capital gains are long term or short term?",
+   "options": [
+    "Two: 1 year or 2 years",
+    "Four: 1, 2, 3 and 5 years",
+    "Three: 1, 2 and 3 years",
+    "One: 1 year for all assets"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The deck states there are now only two time periods to determine long-term vs short-term capital gains, and lists the holding period as 1 year or 2 years.",
+   "hints": [
+    "Correct: only two periods remain (1 year or 2 years).",
+    "There is no 5-year period in the new structure.",
+    "The 3-year period was removed in the streamlining.",
+    "A single uniform period was not introduced."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-05",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Which of the following was NOT changed by the Union Budget 2024 capital gains proposals, according to the deck?",
+   "options": [
+    "Indexation benefit",
+    "Number of holding periods",
+    "Tax-saving clauses such as Section 80C and Section 80D",
+    "Long-term holding period for REITs and InvITs"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The deck explicitly says there were no changes to tax-saving clauses such as Sec 80C and Sec 80D; indexation was removed, periods were reduced to two and REIT/InvIT LT period cut to 1 year.",
+   "hints": [
+    "Indexation benefit was removed, so it did change.",
+    "Holding periods were reduced to only two, so they changed.",
+    "Correct: 80C and 80D were left unchanged.",
+    "The REIT/InvIT long-term period was reduced from 3 years to 1 year."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-06",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Which entity has SEBI recognised as the Investment Adviser Administration and Supervisory Body (IAASB)?",
+   "options": [
+    "AMFI",
+    "BSE Limited",
+    "NISM",
+    "NSE Limited"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "SEBI circular dated July 12, 2024 granted recognition to BSE Limited as IAASB (and RAASB).",
+   "hints": [
+    "AMFI is the mutual fund industry association, not the IA supervisor.",
+    "Correct: BSE Limited is the IAASB.",
+    "NISM handles certification, not supervision of IAs.",
+    "NSE was not named as IAASB in the circular."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-07",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Within what time must an investment adviser redress investor grievances under the SEBI (Facilitation of Grievance Redressal Mechanism) (Amendment) Regulations, 2023?",
+   "options": [
+    "21 calendar days from receipt",
+    "45 calendar days from receipt",
+    "30 working days from receipt",
+    "7 working days from receipt"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The amended regulations require IAs to redress grievances within 21 calendar days from the date of receipt.",
+   "hints": [
+    "Correct: 21 calendar days.",
+    "45 days is not mentioned anywhere.",
+    "30 days is the older Investor Charter timeline, not the 2023 regulation, and it was never 'working' days.",
+    "7 working days is the half-yearly report deadline."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-08",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Annual compliance audit of an investment adviser under Regulation 19(3) must be conducted by a member of:",
+   "options": [
+    "The Bar Council of India",
+    "ICAI only",
+    "NISM faculty",
+    "ICAI or ICSI"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "IAs must conduct a yearly compliance audit from a member of the Institute of Chartered Accountants of India or the Institute of Company Secretaries of India.",
+   "hints": [
+    "Lawyers are not the prescribed auditors.",
+    "Company Secretaries (ICSI) are also allowed, so 'ICAI only' is incomplete.",
+    "NISM does not audit IAs.",
+    "Correct: either a Chartered Accountant (ICAI) or Company Secretary (ICSI)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-09",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "How often must investment advisers file the periodic report introduced by SEBI's May 2024 circular, and to whom?",
+   "options": [
+    "Half-yearly, to BSE",
+    "Monthly, to NISM",
+    "Annually, to the RBI",
+    "Quarterly, to SEBI"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Periodic reporting is half-yearly (from March 2024 onwards) for all IAs, submitted to BSE within 7 working days.",
+   "hints": [
+    "Correct: half-yearly to BSE.",
+    "NISM does not receive compliance reports.",
+    "RBI has no role in IA periodic reporting.",
+    "It is not quarterly and goes to BSE as the supervisory body."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-10",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "What is the minimum font size prescribed for the standard warning in an investment adviser's advertisement?",
+   "options": [
+    "12",
+    "10",
+    "8",
+    "14"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The disclaimer 'Investment in securities market are subject to market risks...' must be in a minimum font size of 10.",
+   "hints": [
+    "12 would comply but is not the prescribed minimum.",
+    "Correct: minimum font size 10.",
+    "8 is smaller than the prescribed minimum.",
+    "14 is not the stated minimum."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-11",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "What is the application fee payable to BSE for approval of an advertisement by an investment adviser?",
+   "options": [
+    "No fee is payable",
+    "₹10,000",
+    "₹2,500",
+    "₹6,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The BSE approval process requires payment of Rupees Six thousand as application fees.",
+   "hints": [
+    "A fee is payable for advertisement approval.",
+    "₹10,000 is not the prescribed fee.",
+    "₹2,500 is the NISM X-C exam fee, not the ad fee.",
+    "Correct: ₹6,000 per application."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-12",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which of the following is permitted in an investment adviser's advertisement?",
+   "options": [
+    "Describing the IA as the 'Best' adviser in India",
+    "Recommending a BTST trade in a named stock",
+    "Factual details of awards received from independent organisations",
+    "Promising an assured return of 12% a year"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Superlatives are prohibited, but factual details of awards received by the IA from independent organisations may be included.",
+   "hints": [
+    "Superlative terms like 'Best' or 'Top 1' are prohibited.",
+    "BTST/ATST recommendations are prohibited.",
+    "Correct: factual award details from independent bodies are allowed.",
+    "Any assured, fixed or indicative return is prohibited."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-13",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "For how long must an investment adviser retain a copy of each advertisement?",
+   "options": [
+    "8 years",
+    "1 year",
+    "3 years",
+    "5 years"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Under Other Compliances, a copy of the advertisement shall be retained by the IA for a period of 5 years.",
+   "hints": [
+    "8 years is not the prescribed period.",
+    "1 year is too short.",
+    "3 years is the certificate validity, not ad retention.",
+    "Correct: 5 years."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-14",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "SEBI's Cybersecurity and Cyber Resilience Framework (CSCRF) for regulated entities was issued through a circular dated:",
+   "options": [
+    "20 August 2024",
+    "12 July 2024",
+    "6 April 2023",
+    "15 March 2024"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "CSCRF was issued vide SEBI/HO/ITD-1/ITD_CSC_EXT/P/CIR/2024/113 dated 20th August 2024 and replaces all previous circulars.",
+   "hints": [
+    "Correct: 20 August 2024.",
+    "12 July 2024 is the BSE-as-IAASB circular.",
+    "6 April 2023 is the IA display-of-details circular.",
+    "15 March 2024 is when the BSE ad approval number display became effective."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-15",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Under CSCRF, how are non-individual investment advisers categorised?",
+   "options": [
+    "Mid-size REs",
+    "Market Infrastructure Institutions",
+    "Small-size REs",
+    "Qualified REs"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The deck states non-individual IAs shall be categorised as Small-size REs, while individual IAs are excluded from submission of CSCRF compliance.",
+   "hints": [
+    "Mid-size is not the category for IAs.",
+    "MIIs are exchanges, clearing corporations and depositories.",
+    "Correct: non-individual IAs are Small-size REs.",
+    "Qualified REs are the largest entities, not IAs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-16",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which of these is one of the five cyber resiliency goals in CSCRF?",
+   "options": [
+    "Protect",
+    "Evolve",
+    "Detect",
+    "Identify"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The five cyber resiliency goals are Anticipate, Withstand, Contain, Recover and Evolve. Identify, Detect and Protect are cybersecurity functions.",
+   "hints": [
+    "Protect is a cybersecurity function.",
+    "Correct: Evolve is a resilience goal.",
+    "Detect is a cybersecurity function.",
+    "Identify is a cybersecurity function, not a resilience goal."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-17",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "Within how many hours of detection must a Qualified RE report a cyber incident under CSCRF?",
+   "options": [
+    "72 hours",
+    "24 hours",
+    "48 hours",
+    "6 hours"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Incident reporting is within 24 hours of detection for Self-certification, Small and Mid-size REs, but within 6 hours for Qualified REs.",
+   "hints": [
+    "72 hours is not a CSCRF timeline.",
+    "24 hours applies to Self-cert, Small and Mid-size REs.",
+    "48 hours is not a CSCRF timeline.",
+    "Correct: 6 hours for Qualified REs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-18",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "The code of conduct for investment advisers is laid down in which part of the SEBI (Investment Advisers) Regulations, 2013?",
+   "options": [
+    "Regulation 19(3)",
+    "Third Schedule",
+    "Schedule III of the Intermediaries Regulations",
+    "First Schedule"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The deck refers to the 'Code of Conduct - I.A. Regulations, Third Schedule'.",
+   "hints": [
+    "Regulation 19(3) deals with the annual compliance audit.",
+    "Correct: Third Schedule of the IA Regulations.",
+    "Schedule III belongs to the Intermediaries Regulations, 2008, a separate code.",
+    "The First Schedule is not the code of conduct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-19",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "What is the vision statement in the Investor Charter for investment advisers?",
+   "options": [
+    "Safe returns for every saver",
+    "Every investor a millionaire",
+    "Invest with knowledge & safety",
+    "Advice without conflict"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The Investor Charter (Dec 2021) states the vision: 'Invest with knowledge & safety'.",
+   "hints": [
+    "Not the charter wording; also hints at assured returns.",
+    "This is not the charter's wording and implies return promises.",
+    "Correct: that is the charter's vision.",
+    "Not the charter's vision statement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-20",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "According to the Investor Charter, which of the following should an investor NOT do?",
+   "options": [
+    "Provide funds for investment to the investment adviser",
+    "Ask for their risk profile before accepting advice",
+    "Check the adviser's SEBI registration number",
+    "Pay advisory fees through banking channels"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Under Don'ts, the charter says: do not provide funds for investment to the Investment Adviser.",
+   "hints": [
+    "Correct: investors must not hand investment money to the IA.",
+    "Asking for risk profiling is a Do.",
+    "Checking SEBI registration is a Do.",
+    "Paying fees via banking channels is a Do."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-21",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "In a SEBI order discussed in the training, an IA was penalised for collecting fees above the permissible limit under the fixed-fee mode. What was that limit?",
+   "options": [
+    "₹1,00,000 per annum",
+    "₹2,50,000 per annum",
+    "₹75,000 per annum",
+    "₹1,25,000 per annum"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Case 2: the Noticee collected fees in excess of the permissible regulatory limit of Rs. 1,25,000 p.a. under Fixed Fee Mode.",
+   "hints": [
+    "₹1,00,000 is not the limit cited.",
+    "₹2,50,000 is double the limit cited.",
+    "₹75,000 is not the limit cited.",
+    "Correct: ₹1,25,000 per annum under fixed fee mode."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-22",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A client refuses to sell a stock because he 'bought it at ₹800' though its current fair value is ₹450. Which bias is he showing?",
+   "options": [
+    "Anchoring",
+    "Winner's curse",
+    "Herding",
+    "Ambiguity aversion"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Anchoring is relying too heavily on the first piece of information; investors waiting for the 'right price' to sell even when new information shows it is no longer viable exhibit it.",
+   "hints": [
+    "Correct: he is anchored to his purchase price.",
+    "Winner's curse is overpaying to win a competitive bid.",
+    "Herding is following the crowd.",
+    "Ambiguity aversion is preferring known risks over unknown ones."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-23",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Studies cited in the module show that the pain of a loss compared to the pleasure of a gain of the same size is about:",
+   "options": [
+    "Equal",
+    "Half as strong",
+    "Twice as strong",
+    "Ten times as strong"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Loss aversion: losing $100 hurts about twice as much as gaining $100 pleases; people take a risk only when the potential gain is 2x the expected loss.",
+   "hints": [
+    "If they were equal there would be no loss aversion.",
+    "It is the opposite: losses hurt more.",
+    "Correct: about 2x.",
+    "10x overstates the cited finding."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-24",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which asset allocation strategy sets long-term target allocations based on a client's risk tolerance and goals, and is ideal for goals like retirement?",
+   "options": [
+    "Insured asset allocation",
+    "Strategic asset allocation",
+    "Momentum trading",
+    "Tactical asset allocation"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Strategic asset allocation is a long-term strategy that sets target allocations based on risk tolerance and goals, ideal for long-term goals such as retirement planning.",
+   "hints": [
+    "Insured allocation protects a minimum portfolio value.",
+    "Correct: that is strategic asset allocation.",
+    "Momentum trading is not an asset allocation strategy in the deck.",
+    "Tactical means deviating from the strategic mix for opportunities."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M1-25",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Under a 'drifting' strategic asset allocation:",
+   "options": [
+    "A minimum portfolio value is guaranteed",
+    "The allocation, once set, is allowed to drift as asset prices move",
+    "The fund manager shifts weights based on valuation views",
+    "Weights are rebalanced to target every month"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Drifting: once set, the asset allocation is allowed to drift as prices move. Constant-weighting rebalances periodically.",
+   "hints": [
+    "A floor value describes insured asset allocation.",
+    "Correct: no rebalancing; weights drift with prices.",
+    "Shifting on valuation views is tactical/dynamic allocation.",
+    "Periodic rebalancing describes constant-weighting."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

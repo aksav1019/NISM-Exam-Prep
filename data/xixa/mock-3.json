@@ -1,0 +1,583 @@
+{
+ "id": "mock-3",
+ "title": "Mock 3 · Money Mechanics",
+ "level": "easy",
+ "blurb": "Fees, waterfalls, return multiples, valuation and tax basics.",
+ "questions": [
+  {
+   "id": "xixa-M3-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "'Beta' of a stock represents:",
+   "options": [
+    "Its excess return due to manager skill",
+    "Its dividend yield",
+    "Its illiquidity premium",
+    "Its systematic (non-diversifiable) risk relative to the market"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Beta represents systematic or non-diversifiable risk; a beta of 1.0 mirrors market volatility, below 1 is less volatile.",
+   "hints": [
+    "Wrong: that is alpha.",
+    "Wrong: unrelated to beta.",
+    "Wrong: illiquidity premium is part of alpha in alternatives.",
+    "Correct: beta measures responsiveness to overall market volatility."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "According to the DPIIT definition referred to in the workbook, a start-up must not be older than:",
+   "options": [
+    "5 years",
+    "10 years",
+    "7 years",
+    "15 years"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "DPIIT defines a start-up as a business not more than 10 years old and with turnover not exceeding ₹100 crore in any financial year.",
+   "hints": [
+    "Wrong: not the DPIIT criterion.",
+    "Correct: not more than 10 years old (and turnover not above ₹100 crore).",
+    "Wrong: not the DPIIT criterion.",
+    "Wrong: not the DPIIT criterion."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-03",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "The 'hurdle rate' in an AIF is best described as:",
+   "options": [
+    "A guaranteed minimum return promised by the fund",
+    "The maximum return the fund can distribute",
+    "The management fee as a percentage of commitments",
+    "The threshold return investors must receive before the manager earns additional return"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The preferred return or hurdle rate is the threshold return investors must receive prior to the manager receiving additional returns; it is not a guaranteed return.",
+   "hints": [
+    "Wrong: guaranteeing returns is neither permissible nor possible.",
+    "Wrong: there is no cap on returns.",
+    "Wrong: management fee is separate.",
+    "Correct: it benchmarks investor expectations before carry kicks in."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "In a European waterfall, the investment manager starts receiving carried interest:",
+   "options": [
+    "On each deal as soon as it is exited profitably",
+    "From the first drawdown",
+    "Only if the fund is listed",
+    "Only after investors receive 100% of invested capital plus the preferred return"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Under the European waterfall, invested capital and then the preferred return are paid in full to investors before the manager gets additional return.",
+   "hints": [
+    "Wrong: that describes the American (deal-by-deal) waterfall.",
+    "Wrong: carry is never paid on drawdown.",
+    "Wrong: listing is irrelevant.",
+    "Correct: capital and preferred return are paid first."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-05",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Category I and II AIFs may borrow only for temporary/day-to-day requirements for not more than ___ days, on not more than ___ occasions a year, and not exceeding ___ of investable funds.",
+   "options": [
+    "60 days; 2 occasions; 20%",
+    "15 days; 6 occasions; 5%",
+    "30 days; 4 occasions; 10%",
+    "90 days; 4 occasions; 25%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Category I and II AIFs cannot borrow except for temporary needs for not more than 30 days, not more than 4 occasions in a year and not more than 10% of investable funds.",
+   "hints": [
+    "Wrong: incorrect figures.",
+    "Wrong: incorrect figures.",
+    "Correct: 30 days, 4 occasions, 10% of investable funds.",
+    "Wrong: 25% is the single-investee limit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-06",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Units of a close-ended Category I/II AIF may be listed on a stock exchange:",
+   "options": [
+    "Only after final close, with a minimum tradable lot of ₹1 crore",
+    "At any time, with a minimum lot of ₹10 lakh",
+    "Before first close to attract investors",
+    "Never; listing is prohibited"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Units of close ended AIFs may be listed subject to a minimum tradable lot of ₹1 crore, only after final close of the fund or scheme.",
+   "hints": [
+    "Correct: listing permitted only after final close; minimum lot ₹1 crore.",
+    "Wrong: incorrect timing and lot.",
+    "Wrong: listing comes only after final close.",
+    "Wrong: listing is permitted subject to conditions."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which of the following is a 'deemed' accredited investor that need not obtain an accreditation certificate?",
+   "options": [
+    "An individual earning ₹1.5 crore a year",
+    "A partnership firm with net worth ₹40 crore",
+    "A family trust",
+    "A Category I foreign portfolio investor"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Deemed AIs include Central/State Governments, their agencies and funds, QIBs, Category I FPIs, sovereign wealth funds and multilateral agencies.",
+   "hints": [
+    "Wrong: needs ₹2 crore income or other criteria plus certificate.",
+    "Wrong: partners must individually qualify and get certified.",
+    "Wrong: family trusts follow individual criteria and need a certificate.",
+    "Correct: Category I FPIs are deemed accredited investors."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "In the context of pooling, 'tax neutrality' means:",
+   "options": [
+    "The fund pays no tax under any circumstance",
+    "All investors pay the same tax rate",
+    "The fund must be set up in a tax haven",
+    "The pooled structure should not put the investor in a worse tax position than investing directly"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Pooling should satisfy tax neutrality, i.e. not put an investor in a comparatively adverse position from a tax point of view versus investing individually.",
+   "hints": [
+    "Wrong: business income may still be taxed at fund level.",
+    "Wrong: investors are taxed per their own status.",
+    "Wrong: not a requirement; complex structures attract GAAR.",
+    "Correct: pooling should not create adverse tax outcomes versus direct investment."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-09",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which agreement helps protect an offshore investor against repatriation and arbitration risks in India?",
+   "options": [
+    "Bilateral Investment Promotion and Protection Agreement (BIPA)",
+    "Investment Management Agreement",
+    "Shareholders' Agreement",
+    "Distributor Agreement"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A BIPA (for e.g. Singapore) helps protect an investor's financial interests in India against hostilities or repatriation risks and covers arbitration.",
+   "hints": [
+    "Correct: BIPA protects investors' financial interests and repatriation.",
+    "Wrong: IMA governs manager-fund relationship.",
+    "Wrong: SHA is at investee level.",
+    "Wrong: governs distribution."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-10",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "A fund has paid-in capital of ₹800 crore, cumulative distributions of ₹200 crore and residual value of ₹1,000 crore. What is its TVPI?",
+   "options": [
+    "1.50",
+    "1.25",
+    "0.25",
+    "1.00"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "TVPI = (distributions + residual value) ÷ PIC = 1,200 ÷ 800 = 1.50; equivalently DPI 0.25 + RVPI 1.25.",
+   "hints": [
+    "Correct: (200 + 1000) ÷ 800 = 1.50.",
+    "Wrong: that is RVPI (1000 ÷ 800).",
+    "Wrong: that is DPI (200 ÷ 800).",
+    "Wrong: arithmetic error."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-11",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Which metric is also called the 'realisation multiple' because it tells investors how much cash they have actually got back?",
+   "options": [
+    "RVPI",
+    "PIC multiple",
+    "DPI",
+    "KS-PME"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Distributed to Paid-in Capital (DPI) is also called the realisation multiple; it measures the amount paid out to investors.",
+   "hints": [
+    "Wrong: RVPI is the unrealised multiple.",
+    "Wrong: PIC shows how invested the fund is.",
+    "Correct: DPI = cumulative distributions ÷ PIC.",
+    "Wrong: KS-PME compares with the market."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-12",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "If the Kaplan-Schoar PME of an AIF is 0.85, it indicates that the fund:",
+   "options": [
+    "Outperformed the market index",
+    "Underperformed the market index",
+    "Matched the market exactly",
+    "Has negative absolute returns"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "If the market-adjusted TVPI (KS-PME) is greater than 1 the AIF outperformed; below 1 it underperformed the market.",
+   "hints": [
+    "Wrong: outperformance needs KS-PME above 1.",
+    "Correct: KS-PME below 1 means the market did better.",
+    "Wrong: that would be exactly 1.",
+    "Wrong: KS-PME is relative, not absolute."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-13",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Gross IRR of an AIF differs from net IRR because net IRR:",
+   "options": [
+    "Ignores the time value of money",
+    "Accounts for management fees, expenses and carry",
+    "Includes the manager's salary at investee level",
+    "Excludes all distributions"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Gross metrics do not account for management fees, other fees, expenses and additional returns; net metrics include them and are more representative of actual investor returns.",
+   "hints": [
+    "Wrong: both IRRs use time value of money.",
+    "Correct: net metrics include the effect of fees and carry.",
+    "Wrong: not part of the definition.",
+    "Wrong: distributions are central to IRR."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-14",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "'Affirmative rights' negotiated by an AIF in an investee company are described as:",
+   "options": [
+    "Negative control used only to oppose actions",
+    "Positive control: certain actions need the investor's consent regardless of shareholding",
+    "The right to exit first",
+    "The right to receive dividends before others"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Affirmative rights are corporate actions that require the investor's approval irrespective of its shareholding; they are viewed as positive control. Veto is negative control.",
+   "hints": [
+    "Wrong: veto rights are negative control.",
+    "Correct: affirmative rights give positive control.",
+    "Wrong: exit rights are different (ROFR, tag, drag).",
+    "Wrong: that is a dividend/preference right."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-15",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A down round refers to a financing round in which:",
+   "options": [
+    "The company's valuation is lower than in the previous round",
+    "The company raises debt instead of equity",
+    "The founders sell all their shares",
+    "The company lists on an SME exchange"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A down round is a financing round in which the valuation is less than the previous round, triggering ratchet/anti-dilution protection.",
+   "hints": [
+    "Correct: valuation falls versus the previous round.",
+    "Wrong: instrument type does not define a down round.",
+    "Wrong: that is an exit event.",
+    "Wrong: unrelated."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-16",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Under the benchmarking framework, for the purpose of reporting and benchmarking, 'Assets under Management (AUM)' of a scheme means:",
+   "options": [
+    "Total capital committed",
+    "Target corpus including green-shoe",
+    "Value of total capital drawn down under the scheme",
+    "Market value of listed holdings only"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "AUM for benchmarking shall be the value of total capital drawn down under the scheme; reporting is on pre-tax NAV.",
+   "hints": [
+    "Wrong: commitments are not AUM for benchmarking.",
+    "Wrong: target corpus is a fundraising goal.",
+    "Correct: AUM = capital drawn down.",
+    "Wrong: unlisted holdings also count."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-17",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "According to the workbook, setting the hurdle rate too high (say 25%) may:",
+   "options": [
+    "Make the manager's job easier",
+    "Guarantee higher investor returns",
+    "Tempt the manager to take undue risks to earn the incentive",
+    "Reduce the manager's carry to zero by law"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "If the hurdle looks too ambitious (say 25%), the manager may be tempted to try too hard and take undue risks; it should be fixed reasonably (say 15% in the Indian context).",
+   "hints": [
+    "Wrong: a low hurdle makes the job easier.",
+    "Wrong: nothing is guaranteed.",
+    "Correct: an over-ambitious hurdle can induce excessive risk-taking.",
+    "Wrong: no such legal effect."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-18",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "'Super carry' refers to:",
+   "options": [
+    "Higher additional return charged by highly sought-after funds with strong track records",
+    "Carry paid only to super key persons",
+    "Carry paid before the hurdle",
+    "A carry taxed at a higher rate"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Super carry or higher carry denotes higher additional returns charged by highly sought-after funds with very strong performance track records.",
+   "hints": [
+    "Correct: high-demand funds negotiate higher-than-norm carry.",
+    "Wrong: not related to key persons.",
+    "Wrong: carry is earned above the hurdle.",
+    "Wrong: not a tax concept."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-19",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Which section of the SEBI PPM template is described as the longest and forms the basis of the entire investment paradigm?",
+   "options": [
+    "Glossary",
+    "Disciplinary History",
+    "Principal Terms of the Fund/Scheme",
+    "Market Opportunity"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section VII: Principal Terms of the Fund/Scheme is the longest section and discloses in detail the items in Section I and more.",
+   "hints": [
+    "Wrong: glossary is just definitions.",
+    "Wrong: lists disciplinary actions only.",
+    "Correct: Section VII, Principal Terms, is the longest.",
+    "Wrong: an outlook section."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-20",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "The distribution waterfall section of the PPM must illustrate how many scenarios (loss, no profit/loss, below hurdle, equal to hurdle, above hurdle)?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section XIII requires tabular scenarios: (a) loss, (b) no profit or loss, (c) profit below hurdle, (d) profit equal to hurdle, (e) profit above hurdle.",
+   "hints": [
+    "Wrong: too few.",
+    "Wrong: too few.",
+    "Correct: five scenarios are required.",
+    "Wrong: too many."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-21",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Which is generally the MOST preferred exit route for an equity-oriented AIF from a portfolio company?",
+   "options": [
+    "IPO / offer for sale",
+    "Corporate liquidation",
+    "Promoter buyback via put option",
+    "Write-off"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Offer for sale through an IPO is considered the most preferred and attractive exit option and has historically yielded the best returns.",
+   "hints": [
+    "Correct: the IPO has historically yielded the best returns.",
+    "Wrong: least preferred, worst case.",
+    "Wrong: usually a last resort in a going concern.",
+    "Wrong: not an exit route."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-22",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "A company has market capitalisation of ₹500 crore, debt of ₹150 crore, cash of ₹30 crore and no preference capital. Its Enterprise Value is:",
+   "options": [
+    "₹620 crore",
+    "₹680 crore",
+    "₹650 crore",
+    "₹380 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "EV = equity value + debt net of cash + preference capital = 500 + 120 + 0 = ₹620 crore.",
+   "hints": [
+    "Correct: 500 + (150 − 30) = ₹620 crore.",
+    "Wrong: added cash instead of deducting it.",
+    "Wrong: ignored cash.",
+    "Wrong: deducted debt."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-23",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Which valuation approach is most appropriate for a company in distress that has no future business case?",
+   "options": [
+    "Replacement cost",
+    "Break-up value",
+    "DCF with high terminal growth",
+    "P/E multiple of listed peers"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Break-up value considers salvage value if the business were shut down; it is used to value a company in distress or without a future business case.",
+   "hints": [
+    "Wrong: suits businesses with high entry barriers.",
+    "Correct: break-up value measures salvage value if broken up and sold.",
+    "Wrong: no meaningful future cash flows exist.",
+    "Wrong: earnings are absent or negative."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-24",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "Business loss incurred at the level of a Category I/II AIF is:",
+   "options": [
+    "Passed through to investors immediately",
+    "Passed through only to non-resident investors",
+    "Permanently lapsed",
+    "Not passed through; carried forward and set off at the fund level"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Business loss at fund level is not allowed to be passed through to investors but may be carried forward for set-off against subsequent business income.",
+   "hints": [
+    "Wrong: only non-business losses pass through (with 12-month holding).",
+    "Wrong: no such distinction.",
+    "Wrong: it can be carried forward.",
+    "Correct: business loss stays at fund level."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M3-25",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "The distributor agreement for AIF distribution may be executed as:",
+   "options": [
+    "An agreement between distributor and SEBI",
+    "A bipartite agreement (fund and distributor) or a tripartite agreement (fund, investment manager and distributor)",
+    "An agreement between distributor and investee company",
+    "An oral understanding only"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The distributor agreement is either bipartite between the fund and distributor or tripartite between fund, investment management company and distributor.",
+   "hints": [
+    "Wrong: SEBI is not a party.",
+    "Correct: bipartite or tripartite.",
+    "Wrong: investee companies are not parties.",
+    "Wrong: it is a formal contract."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

@@ -1,0 +1,583 @@
+{
+ "id": "mock-2",
+ "title": "Mock 2 · Markets & Products",
+ "level": "easy",
+ "blurb": "Instruments and intermediaries: bonds, derivatives, CIVs and how the PMS product fits among them, with a sweep of the PMS rulebook.",
+ "questions": [
+  {
+   "id": "xxia-M2-01",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "An investor with a real risk-free rate of 3% expects inflation of 5%. Using the exact formula, the nominal risk-free rate of return is approximately:",
+   "options": [
+    "8.00%",
+    "8.15%",
+    "2.00%",
+    "15.00%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "NRR = (1 + 0.03) x (1 + 0.05) - 1 = 1.0815 - 1 = 8.15%.",
+   "hints": [
+    "Wrong: simple addition ignores the cross term.",
+    "Correct: exact multiplicative formula.",
+    "Wrong: this is the difference.",
+    "Wrong: multiplies the rates directly."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-02",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which type of risk is illustrated by penny stocks that are difficult to sell in significant quantities at the desired price?",
+   "options": [
+    "Political risk",
+    "Exchange rate risk",
+    "Liquidity risk",
+    "Regulatory risk"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Liquidity risk is the difficulty of buying or selling without significantly affecting price; penny stocks and bonds of lesser-known issuers are the workbook's examples.",
+   "hints": [
+    "Wrong: political risk stems from government action.",
+    "Wrong: exchange rate risk arises from currency moves.",
+    "Correct: lack of buyers at desired price.",
+    "Wrong: regulatory risk arises from changes in law."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "The clearing corporation acting as buyer to every seller and seller to every buyer is known as:",
+   "options": [
+    "Novation",
+    "Dematerialisation",
+    "Netting",
+    "Rematerialisation"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Clearing corporations provide full novation of contracts, which substantially reduces operational risk for investors.",
+   "hints": [
+    "Correct: novation.",
+    "Wrong: dematerialisation converts physical to electronic holdings.",
+    "Wrong: netting computes net obligations; it is not substitution of counterparty.",
+    "Wrong: rematerialisation converts electronic back to physical."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-04",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "A company is expected to pay a dividend of ₹6 next year. The required return is 14% and dividends are expected to grow at 10% forever. Using the Gordon Growth Model, the intrinsic value is:",
+   "options": [
+    "₹42.86",
+    "₹60",
+    "₹25",
+    "₹150"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "P0 = D1 / (r - g) = 6 / (0.14 - 0.10) = 6 / 0.04 = ₹150.",
+   "hints": [
+    "Wrong: divides by r only.",
+    "Wrong: divides by g only.",
+    "Wrong: divides by r + g.",
+    "Correct: 6 / 0.04."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-05",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Which valuation multiple is widely used for banks and financial services companies, whose assets closely follow market value?",
+   "options": [
+    "Price to Sales",
+    "EV/EBITDA",
+    "Price to Book Value",
+    "PEG ratio"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The P/B ratio is widely used for financial services and banking stocks where assets closely follow their market value.",
+   "hints": [
+    "Wrong: P/S suits loss-making or low-margin firms.",
+    "Wrong: EV/EBITDA suits capital-intensive firms.",
+    "Correct: P/BV.",
+    "Wrong: PEG adjusts P/E for growth."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-06",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Technical analysts primarily study:",
+   "options": [
+    "Historical price and volume data",
+    "Balance sheets and cash flows",
+    "GDP and inflation trends",
+    "Management quality"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Technical analysis forecasts price direction by studying patterns in historical market data, i.e., price and volume.",
+   "hints": [
+    "Correct: price and volume patterns.",
+    "Wrong: this is fundamental analysis.",
+    "Wrong: economic analysis is part of EIC.",
+    "Wrong: qualitative company analysis is fundamental."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "A bond whose market price is below its face value (trading at a discount) will have a YTM that is:",
+   "options": [
+    "Equal to the coupon rate",
+    "Lower than the coupon rate",
+    "Zero",
+    "Higher than the coupon rate"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "When the price is less than face value, YTM > coupon; at a premium YTM < coupon; at par they are equal.",
+   "hints": [
+    "Wrong: equality holds only at par.",
+    "Wrong: that is for a premium bond.",
+    "Wrong: YTM is not zero.",
+    "Correct: discount bond YTM exceeds coupon."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which pair of derivatives is traded over the counter (OTC)?",
+   "options": [
+    "Futures and options",
+    "Forwards and swaps",
+    "Index futures and stock options",
+    "Currency futures and interest rate futures"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Forwards and swaps are OTC derivatives; futures and options are exchange-traded.",
+   "hints": [
+    "Wrong: these are exchange-traded.",
+    "Correct: forwards and swaps are OTC.",
+    "Wrong: both exchange-traded in India.",
+    "Wrong: both listed on exchanges."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-09",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Which entity is found in the structure of an InvIT but not listed for a mutual fund in the workbook?",
+   "options": [
+    "Sponsor",
+    "Trustee",
+    "Project Manager",
+    "Custodian"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The InvIT structure includes a Project Manager responsible for operating and maintaining infrastructure projects.",
+   "hints": [
+    "Wrong: MFs also have a sponsor.",
+    "Wrong: MFs also have a trustee.",
+    "Correct: the Project Manager is unique to InvITs.",
+    "Wrong: MFs also have a custodian."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-10",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "SEBI first issued regulations for portfolio managers in:",
+   "options": [
+    "January 1993",
+    "April 1996",
+    "July 2005",
+    "January 2020"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "January 1993 marked the beginning of PMS when SEBI issued the Portfolio Managers Regulations, 1993, even before the mutual fund regulations.",
+   "hints": [
+    "Correct: January 1993.",
+    "Wrong: not the date in the workbook.",
+    "Wrong: July 2005 is when PMLA came into force.",
+    "Wrong: the current regulations are of 2020, but the first were in 1993."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-11",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Client funds held by a portfolio manager must be kept in a separate account maintained in:",
+   "options": [
+    "The portfolio manager's own current account",
+    "A cooperative bank of the client's choice",
+    "A Scheduled Commercial Bank",
+    "An NBFC registered with RBI"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The PM shall keep the funds of all clients in a separate account maintained by it in a Scheduled Commercial Bank.",
+   "hints": [
+    "Wrong: client funds must be separate from the PM's own funds.",
+    "Wrong: the regulation specifies a Scheduled Commercial Bank.",
+    "Correct: Scheduled Commercial Bank.",
+    "Wrong: NBFCs are not specified."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-12",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Which portfolio manager is NOT required to appoint a custodian?",
+   "options": [
+    "A discretionary portfolio manager",
+    "A non-discretionary portfolio manager",
+    "A PM offering both discretionary and advisory services",
+    "A portfolio manager providing only advisory services"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Except for a PM providing only advisory services (and co-investment PMs), every PM must appoint a custodian.",
+   "hints": [
+    "Wrong: discretionary PMs must appoint one.",
+    "Wrong: non-discretionary PMs must appoint one.",
+    "Wrong: offering discretionary services triggers the requirement.",
+    "Correct: advisory-only PMs are exempt."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-13",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "As per the workbook, which group of entities can invest in PMS, subject to the ₹50 lakh minimum?",
+   "options": [
+    "Only resident individuals and HUFs",
+    "Only body corporates and trusts",
+    "Individuals, NRIs, HUFs, proprietorship and partnership firms, AOPs, LLPs, trusts and body corporates",
+    "Only accredited investors"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 8.1 lists individuals, NRIs (per RBI guidelines), HUFs, proprietorship firms, AOPs, partnership firms, LLPs, trusts and body corporates.",
+   "hints": [
+    "Wrong: NRIs and non-individuals are also eligible.",
+    "Wrong: individuals are eligible too.",
+    "Correct: the full workbook list.",
+    "Wrong: accredited investors are only exempt from the minimum; others can invest too."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-14",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which statement about direct on-boarding in PMS is correct?",
+   "options": [
+    "Direct on-boarding is optional for portfolio managers to offer",
+    "Only statutory charges can be levied when a client is on-boarded directly",
+    "Direct clients pay a higher fee",
+    "Direct on-boarding is allowed only for accredited investors"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "PMs shall provide an option for direct on-boarding without distributors, prominently disclose it, and levy no charges except statutory charges.",
+   "hints": [
+    "Wrong: PMs shall provide the option.",
+    "Correct: only statutory charges.",
+    "Wrong: no extra charges apply.",
+    "Wrong: available to all clients."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-15",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Under a High Water Mark structure, a portfolio starts at ₹1 crore, rises to ₹1.2 crore in Year 1, falls to ₹1 crore in Year 2 and rises to ₹1.3 crore in Year 3. In Year 3 the performance fee is charged on gains above:",
+   "options": [
+    "₹1 crore",
+    "₹1.3 crore",
+    "₹1.1 crore",
+    "₹1.2 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Performance fee is charged only on gains above the previous highest value (₹1.2 crore), so on ₹10 lakh in Year 3.",
+   "hints": [
+    "Wrong: that would charge again for gains already rewarded.",
+    "Wrong: that is the current value.",
+    "Wrong: no such level in the example.",
+    "Correct: the previous peak of ₹1.2 crore."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-16",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "According to the workbook, the long-run performance of investment portfolios depends majorly on:",
+   "options": [
+    "Asset allocation",
+    "Brokerage paid",
+    "Number of stocks held",
+    "Frequency of reporting"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Professional experience suggests that in the long run portfolio performance depends majorly on asset allocation.",
+   "hints": [
+    "Correct: asset allocation.",
+    "Wrong: costs matter but are not the main driver.",
+    "Wrong: not the primary driver.",
+    "Wrong: reporting does not drive returns."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-17",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "An investor's preference to avoid companies selling environmentally harmful products is treated in the IPS as:",
+   "options": [
+    "A liquidity constraint",
+    "A tax constraint",
+    "A unique need or preference",
+    "A regulatory constraint"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Personal, social, ethical or cultural preferences that restrict investments are unique needs and preferences, to be specified in the IPS.",
+   "hints": [
+    "Wrong: liquidity is about access to cash.",
+    "Wrong: tax constraints relate to taxation.",
+    "Correct: unique needs and preferences.",
+    "Wrong: no regulation imposes this."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-18",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "The emergency cash reserve suggested in the workbook is usually:",
+   "options": [
+    "One week's spending",
+    "Two to three months' spending",
+    "One year's income",
+    "10% of net worth"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Emergency cash is usually measured as two to three months' spending, more if income is at risk or volatile.",
+   "hints": [
+    "Wrong: too little.",
+    "Correct: two to three months.",
+    "Wrong: not the workbook's measure.",
+    "Wrong: not how it is measured."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-19",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "Which factor in factor-based investing refers to securities with strong past performance continuing their upward trend in the short term?",
+   "options": [
+    "Value",
+    "Quality",
+    "Size",
+    "Momentum"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Momentum: securities with strong past performance tend to continue their upward trend in the short term.",
+   "hints": [
+    "Wrong: value targets undervalued stocks.",
+    "Wrong: quality targets strong profitability and low debt.",
+    "Wrong: size refers to smaller companies outperforming.",
+    "Correct: momentum."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-20",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "A portfolio holds 60% in stock A (beta 1.4) and 40% in stock B (beta 0.9). The portfolio beta is:",
+   "options": [
+    "1.15",
+    "1.20",
+    "1.30",
+    "2.30"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Portfolio beta = 0.6 x 1.4 + 0.4 x 0.9 = 0.84 + 0.36 = 1.20.",
+   "hints": [
+    "Wrong: simple average of the betas.",
+    "Correct: weighted average.",
+    "Wrong: arithmetic slip.",
+    "Wrong: sum of the betas."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-21",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Which return measure neutralises the effect of investor deposits and withdrawals and is therefore ideal for comparing portfolio managers?",
+   "options": [
+    "Time Weighted Rate of Return",
+    "Extended Internal Rate of Return",
+    "Holding period return",
+    "Gross return"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "TWRR breaks the period at external cash flows and links sub-period returns, eliminating the effect of investor cash flows.",
+   "hints": [
+    "Correct: TWRR.",
+    "Wrong: XIRR is affected by the timing of cash flows.",
+    "Wrong: HPR ignores timing of flows.",
+    "Wrong: gross return is before fees, not about cash flows."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-22",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Income from futures and options transactions in a PMS is taxed as:",
+   "options": [
+    "Short-term capital gains at 20%",
+    "Long-term capital gains at 12.5%",
+    "Exempt income",
+    "Business income at slab rates"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "F&O income in PMS is classified as business income under PGBP and taxed at slab rates.",
+   "hints": [
+    "Wrong: not capital gains.",
+    "Wrong: not capital gains.",
+    "Wrong: it is taxable.",
+    "Correct: business income."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-23",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Long-term capital gains on debt investments (held more than 24 months) are taxed at:",
+   "options": [
+    "12.5% with indexation",
+    "20% with indexation",
+    "12.5% without indexation",
+    "Slab rate"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "LTCG on debt is taxed at 12.5% under Section 112; the indexation benefit was removed since July 2024.",
+   "hints": [
+    "Wrong: indexation has been removed.",
+    "Wrong: outdated rate and benefit.",
+    "Correct: 12.5% without indexation.",
+    "Wrong: slab rate applies to STCG on debt."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-24",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "The SEBI (Prohibition of Fraudulent and Unfair Trade Practices relating to Securities Market) Regulations were issued in:",
+   "options": [
+    "2003",
+    "2015",
+    "2002",
+    "2020"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The PFUTP Regulations are of 2003; PIT Regulations are 2015, PMLA is 2002 and PM Regulations are 2020.",
+   "hints": [
+    "Correct: 2003.",
+    "Wrong: 2015 is the insider trading regulations.",
+    "Wrong: 2002 is PMLA.",
+    "Wrong: 2020 is the Portfolio Managers Regulations."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M2-25",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "With which body must every person or entity distributing portfolio management services obtain registration?",
+   "options": [
+    "AMFI",
+    "APMI",
+    "FIU-IND",
+    "RBI"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Per SEBI circular of May 02, 2024, any person or entity involved in PMS distribution shall obtain registration with APMI.",
+   "hints": [
+    "Wrong: AMFI is for mutual fund distributors.",
+    "Correct: APMI.",
+    "Wrong: FIU-IND receives STRs.",
+    "Wrong: RBI does not register PMS distributors."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

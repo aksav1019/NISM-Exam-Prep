@@ -1,0 +1,698 @@
+{
+ "id": "mock-6",
+ "title": "Mock 6 · Tough Simulator A",
+ "level": "tough",
+ "blurb": "Numericals, close distractors, NOT/EXCEPT items and two 4-question caselets.",
+ "questions": [
+  {
+   "id": "xixa-M6-01",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "Which statement about 'alpha' in alternative investments is INCORRECT?",
+   "options": [
+    "Alpha is the return earned purely from bearing systematic market risk",
+    "Alpha can arise from bearing unsystematic risk such as illiquidity",
+    "Alpha can arise from the superior skill of the fund manager",
+    "An alpha of 3%-5% means consistently beating similar-risk assets by that margin per year"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Beta represents systematic risk; alpha is excess return from unsystematic risk (illiquidity, credit quality) and/or manager skill.",
+   "hints": [
+    "Correct (the incorrect statement): return from systematic risk is beta, not alpha.",
+    "Wrong choice: this is the first connotation of alpha.",
+    "Wrong choice: this is the second connotation of alpha.",
+    "Wrong choice: the workbook uses exactly this interpretation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-02",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "Which statement about migrated Venture Capital Funds is correct as per the workbook?",
+   "options": [
+    "They may launch new schemes under Category II",
+    "They were allowed to migrate until July 19, 2027",
+    "They cannot launch new schemes, and their existing schemes may be extended up to 2 years with two-thirds approval by value",
+    "They are a sub-category of Category III AIF"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Migrated VCFs are not permitted to launch new schemes; extension of existing schemes up to 2 years needs two-thirds of unit holders by value; migration window closed July 19, 2025.",
+   "hints": [
+    "Wrong: migrated VCFs cannot launch new schemes.",
+    "Wrong: migration was available till July 19, 2025.",
+    "Correct: no new schemes; extension up to 2 years with two-thirds approval.",
+    "Wrong: they are a sub-category of VCF under Category I."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-03",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "A Category II AIF scheme has a corpus of ₹400 crore. The estimated expenditure for administration and management over its tenure is ₹40 crore. What is the maximum it can invest in a single investee company?",
+   "options": [
+    "₹90 crore",
+    "₹100 crore",
+    "₹40 crore",
+    "₹180 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Investable funds = corpus net of estimated expenditure for administration and management for the tenure = ₹360 crore; the single-investee limit is 25% = ₹90 crore.",
+   "hints": [
+    "Correct: investable funds = 400 − 40 = 360; 25% × 360 = ₹90 crore.",
+    "Wrong: applied 25% to the gross corpus instead of investable funds.",
+    "Wrong: 10% figure belongs to the borrowing limit.",
+    "Wrong: 50% applies only to LVFs."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-04",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "An angel fund has invested ₹8 crore in total. What is the minimum continuing interest its manager or sponsor must hold?",
+   "options": [
+    "₹50,000",
+    "₹20 lakh",
+    "₹5 crore",
+    "₹4 lakh"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "For angel funds, continuing interest is not less than 0.5% of the amount invested or ₹50,000, whichever is HIGHER: 0.5% × ₹8 crore = ₹4 lakh.",
+   "hints": [
+    "Wrong: ₹50,000 applies only if 0.5% is lower.",
+    "Wrong: 2.5% applies to regular Cat I/II funds.",
+    "Wrong: ₹5 crore is the cap for regular Cat I/II funds.",
+    "Correct: 0.5% × ₹8 crore = ₹4 lakh, which is higher than ₹50,000."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-05",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "Which of the following applicants qualifies as an Accredited Investor?",
+   "options": [
+    "An individual with annual income ₹1.2 crore and net worth ₹6 crore, of which ₹2 crore is financial assets",
+    "An individual with net worth of ₹8 crore, of which ₹4 crore is in financial assets",
+    "An individual with annual income of ₹1.8 crore and no other qualifying criterion",
+    "A private company with net worth of ₹45 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "AI criteria: income ≥ ₹2 crore; or NW ≥ ₹7.5 crore with ≥ ₹3.75 crore financial; or income ≥ ₹1 crore and NW ≥ ₹5 crore with ≥ ₹2.5 crore financial; body corporate NW ≥ ₹50 crore.",
+   "hints": [
+    "Wrong: the combined route needs at least ₹2.5 crore in financial assets.",
+    "Correct: meets ₹7.5 crore net worth with at least ₹3.75 crore financial assets.",
+    "Wrong: the income-only route needs ₹2 crore.",
+    "Wrong: body corporates need net worth of at least ₹50 crore."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-06",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "Which of the following statements about Special Situation Funds is NOT correct?",
+   "options": [
+    "Each SSF scheme must have a minimum corpus of ₹100 crore",
+    "Minimum investment by an accredited investor in an SSF is ₹5 crore",
+    "Stressed loans acquired by an SSF are subject to a minimum lock-in of 6 months",
+    "An SSF may accept investment from any Category II AIF"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The special situation fund shall not accept investments from any other AIF other than a special situation fund.",
+   "hints": [
+    "Wrong choice: ₹100 crore minimum corpus is correct.",
+    "Wrong choice: ₹5 crore for AIs (₹10 crore otherwise) is correct.",
+    "Wrong choice: 6-month lock-in is correct (not applicable on recovery).",
+    "Correct (the incorrect statement): an SSF accepts investment from no other AIF except another SSF."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-07",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "Which statement about downstream investment by a Category I/II AIF is correct under FEMA/NDI Rules?",
+   "options": [
+    "It is treated as foreign investment whenever more than 10% of the corpus is from non-residents",
+    "It is always treated as domestic investment because AIFs are SEBI-registered",
+    "It is foreign investment only if the custodian is foreign",
+    "It is treated as indirect foreign investment if the sponsor or manager is not Indian owned and controlled, irrespective of the extent of foreign money in the corpus"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Downstream investment is indirect foreign investment if either the sponsor or the manager is not Indian owned and controlled; the extent of foreign investment in the corpus is not a factor.",
+   "hints": [
+    "Wrong: extent of foreign investment in the corpus is not a factor.",
+    "Wrong: SEBI registration does not make it domestic.",
+    "Wrong: the custodian is irrelevant.",
+    "Correct: ownership/control of sponsor and manager decides; corpus composition is not a factor."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-08",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "Consider: (i) A trust cannot sue or be sued in its own name. (ii) In an LLP, a partner is jointly liable for another partner's negligence. (iii) A company AIF is restricted to private placement to 200 investors. Which are correct?",
+   "options": [
+    "(i) and (iii) only",
+    "(i) and (ii) only",
+    "(ii) and (iii) only",
+    "(i), (ii) and (iii)"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A trust is represented by its trustee; in an LLP no partner is liable for another's misconduct or negligence; companies are restricted to 200 investors in private placements.",
+   "hints": [
+    "Correct: the trustee sues on its behalf; companies are limited to 200 in private placement.",
+    "Wrong: (ii) is false as there is no joint liability in an LLP.",
+    "Wrong: (ii) is false.",
+    "Wrong: (ii) is false."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-09",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "Which structure has TWO pooling vehicles and routes ALL foreign money through the domestic SEBI-registered AIF, with only AIF Regulations applicable?",
+   "options": [
+    "Parallel structure",
+    "Pure offshore structure",
+    "Pure domestic structure",
+    "Unified structure"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Per Table 5.1, the unified structure has 2 pooling vehicles, AIF Regulations apply, and the domestic AIF invests in investee companies.",
+   "hints": [
+    "Wrong: parallel has two vehicles but the offshore fund invests directly under FVCI/FDI.",
+    "Wrong: one vehicle under FVCI regulations.",
+    "Wrong: one vehicle and only domestic investors.",
+    "Correct: two vehicles, offshore fund feeds the domestic AIF."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-10",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "A debenture pays a 12% annual coupon in monthly instalments. Its effective annual yield is closest to:",
+   "options": [
+    "12.00%",
+    "12.68%",
+    "12.55%",
+    "13.00%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Effective rate r = (1 + k/m)^m − 1 = (1.01)^12 − 1 = 12.68%.",
+   "hints": [
+    "Wrong: ignores compounding.",
+    "Correct: (1 + 0.12/12)^12 − 1 = 12.68%.",
+    "Wrong: that is quarterly compounding.",
+    "Wrong: arithmetic error."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-11",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "A CTR is received by the trustee on April 25. The trustee sends observations on May 20. What is the latest date for the manager to submit its reply?",
+   "options": [
+    "June 4",
+    "June 19",
+    "May 25",
+    "July 20"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Within 15 days from receipt of the trustee/sponsor observations, the manager shall make changes and reply; May 20 + 15 days = June 4.",
+   "hints": [
+    "Correct: within 15 days of receipt of observations (May 20 + 15 days).",
+    "Wrong: applied 30 days.",
+    "Wrong: applied 5 days.",
+    "Wrong: no such timeline."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-12",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "Which statement about SEBI's performance benchmarking guidelines is INCORRECT?",
+   "options": [
+    "Data for March 31 shall be audited, while September 30 data may be unaudited",
+    "Benchmarking is carried out on post-tax NAV of the scheme",
+    "Performance data and benchmarks are reported in both INR and USD",
+    "Customised reports are called 'Performance Report', not 'Benchmark Report'"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The performance reporting and benchmarking shall be carried out on pre-tax NAV of the scheme.",
+   "hints": [
+    "Wrong choice: this is correct.",
+    "Correct (the incorrect statement): benchmarking is on pre-tax NAV.",
+    "Wrong choice: this is correct.",
+    "Wrong choice: this is correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-13",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Two senior partners handle commitments and investor relationships, while two junior partners oversee fund management. In key-man terms, the senior partners are best described as:",
+   "options": [
+    "Standard key persons",
+    "Designated partners",
+    "Super key persons",
+    "Independent IC members"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Concepts of 'super key person' and 'standard key person' are used; senior partners responsible for commitments and investor relationships can be super key persons.",
+   "hints": [
+    "Wrong: the junior partners are standard key persons.",
+    "Wrong: an LLP compliance role, not a key-man concept.",
+    "Correct: the workbook illustrates exactly this split.",
+    "Wrong: unrelated to key-man clause."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-14",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "An association of AIFs may notify benchmarking agencies only if it represents, in terms of membership, at least what share of AIFs?",
+   "options": [
+    "50% of the AUM of AIFs",
+    "33% of the number of AIFs",
+    "25% of the number of AIFs",
+    "75% of Category I AIFs"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Any association of AIFs which represents at least 33% of the number of AIFs may notify one or more benchmarking agencies.",
+   "hints": [
+    "Wrong: the test is by number, not AUM.",
+    "Correct: at least 33% of the number of AIFs.",
+    "Wrong: wrong threshold.",
+    "Wrong: wrong threshold."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-15",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "Audit of which of the following PPM sections is MANDATORY (not optional) in the annual PPM audit?",
+   "options": [
+    "Risk Factors",
+    "Legal, Regulatory and Tax Considerations",
+    "Glossary and Terms",
+    "Distribution of proceeds and additional return charged to investors"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Audit of 'Risk Factors', 'Legal, Regulatory and Tax Considerations', 'Track Record of First Time Managers', fee illustration and glossary is optional; distributions and additional return are within mandatory scope.",
+   "hints": [
+    "Wrong: risk factors audit is optional.",
+    "Wrong: legal/regulatory/tax audit is optional.",
+    "Wrong: glossary audit is optional.",
+    "Correct: review of distributions and additional return is part of the audit scope."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-16",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "An AIF wants each investor to waive the SEBI PPM template and annual PPM audit. What minimum commitment must each investor make for this exemption (non-LVF route)?",
+   "options": [
+    "₹70 crore (USD 10 million)",
+    "₹25 crore",
+    "₹100 crore",
+    "₹50 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "AIFs where each investor commits at least ₹70 crore (USD 10 million) and provides a waiver are exempt from the template and PPM audit requirement.",
+   "hints": [
+    "Correct: ₹70 crore/USD 10 million plus a waiver.",
+    "Wrong: ₹25 crore defines an LVF.",
+    "Wrong: ₹100 crore relates to angel fund audit threshold.",
+    "Wrong: not the threshold."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-17",
+   "chapter": 10,
+   "difficulty": "hard",
+   "q": "On a change of manager, two independent valuers value a dissenting investor's units at ₹240 crore and ₹260 crore. The buy-out must be at not less than:",
+   "options": [
+    "₹240 crore",
+    "₹260 crore",
+    "₹250 crore",
+    "₹500 crore"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Exit shall be at a value not less than the average of the two independent valuations: (240 + 260) ÷ 2 = ₹250 crore.",
+   "hints": [
+    "Wrong: the lower valuation is not the floor.",
+    "Wrong: the higher valuation is not required.",
+    "Correct: not less than the average of the two valuations.",
+    "Wrong: sum, not average."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-18",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "Which statement about winding up and liquidation of an AIF scheme is correct?",
+   "options": [
+    "The liquidation period is 3 years after expiry of tenure",
+    "No AIF may launch a new Liquidation Scheme after April 25, 2024",
+    "Dissolution period can be entered with approval of two-thirds of investors",
+    "Unsold assets after the dissolution period may be held indefinitely"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "No new liquidation schemes post April 25, 2024; liquidation period is 1 year; dissolution needs 75% approval; unsold investments after dissolution are mandatorily distributed in specie.",
+   "hints": [
+    "Wrong: liquidation period is 1 year.",
+    "Correct: SEBI barred new liquidation schemes post April 25, 2024.",
+    "Wrong: needs at least 75% of investors by value.",
+    "Wrong: they must be mandatorily distributed in specie."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-19",
+   "chapter": 11,
+   "difficulty": "hard",
+   "q": "A bond of face value ₹1,000 pays an 8% annual coupon and matures in 2 years. If the required return is 10%, its value is closest to:",
+   "options": [
+    "₹1,000.00",
+    "₹1,035.40",
+    "₹893.00",
+    "₹965.29"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Value = I × PVA + F × PV = 80/1.1 + 1080/1.1² = ₹965.29. Coupon below required return means a discount to par.",
+   "hints": [
+    "Wrong: true only when coupon equals required return.",
+    "Wrong: a premium arises only when coupon exceeds required return.",
+    "Wrong: ignored the first coupon.",
+    "Correct: 80/1.10 + 1,080/1.21 = 72.73 + 892.56 = ₹965.29."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-20",
+   "chapter": 11,
+   "difficulty": "hard",
+   "q": "Next year's free cash flow of a company is forecast at ₹220 crore. If WACC is 13% and the long-term growth rate is 5%, the terminal value is:",
+   "options": [
+    "₹1,692 crore",
+    "₹2,750 crore",
+    "₹4,400 crore",
+    "₹1,222 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Terminal value = FCF(T+1) ÷ (WACC − g) = 220 ÷ 0.08 = ₹2,750 crore.",
+   "hints": [
+    "Wrong: divided by WACC only.",
+    "Correct: 220 ÷ (0.13 − 0.05) = ₹2,750 crore.",
+    "Wrong: divided by growth only.",
+    "Wrong: divided by WACC + g."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-21",
+   "chapter": 12,
+   "difficulty": "hard",
+   "q": "An offshore feeder entity holds Indian assets worth ₹15 crore, which constitute 40% of its total assets. Under the indirect transfer provisions, its shares:",
+   "options": [
+    "Derive value substantially from India, since Indian assets exceed ₹10 crore",
+    "Do not derive value substantially from India, since the 50% test is not met",
+    "Derive value substantially from India because any Indian asset suffices",
+    "Are always exempt because the investor is non-resident"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Value is derived substantially from India only if Indian assets exceed ₹10 crore AND represent at least 50% of all assets; 40% fails the second test.",
+   "hints": [
+    "Wrong: the ₹10 crore test alone is not enough.",
+    "Correct: both conditions (> ₹10 crore AND ≥ 50%) must be satisfied.",
+    "Wrong: thresholds apply.",
+    "Wrong: non-residents can be taxed under indirect transfer."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-22",
+   "chapter": 13,
+   "difficulty": "hard",
+   "q": "Which situation represents a conflict of interest that the workbook says a distributor should avoid?",
+   "options": [
+    "Comparing the scheme with a similar, comparable AIF using adequate information",
+    "Explaining to the investor that past performance is no guarantee",
+    "Obtaining a capital commitment from a company in which the distributor holds 12% of paid-up capital",
+    "Using its own staff to perform In-Person Verification"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Distributors should avoid capital commitments from affiliates or entities where the distributor is a director or holds more than 10% of paid-up capital (related party concern).",
+   "hints": [
+    "Wrong: comparisons with comparable AIFs are allowed.",
+    "Wrong: appropriate risk disclosure.",
+    "Correct: commitments from entities where the distributor is a director or holds more than 10% should be avoided.",
+    "Wrong: a recommended good practice."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M6-23",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "Based on the case, what is the scheme's PIC multiple?",
+   "options": [
+    "0.60",
+    "1.11",
+    "0.90",
+    "0.81"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "PIC multiple = paid-in capital ÷ commitments = 900 ÷ 1,000 = 0.90; the fund is near the end of drawdown.",
+   "hints": [
+    "Wrong: that is DPI.",
+    "Wrong: inverse ratio.",
+    "Correct: 900 ÷ 1,000 = 0.90.",
+    "Wrong: arithmetic error."
+   ],
+   "numeric": true,
+   "case": "Sahyadri Growth Fund II, a Category II AIF scheme, has total capital commitments of ₹1,000 crore. By the end of Year 5 the manager has drawn down ₹900 crore from investors. Cumulative cash distributions to investors so far are ₹540 crore, and the independent valuer has estimated the fair value of the remaining (unrealised) portfolio at ₹810 crore. An investor asks his distributor to explain how the fund is doing using the standard private-fund multiples."
+  },
+  {
+   "id": "xixa-M6-24",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "What is the scheme's DPI?",
+   "options": [
+    "0.54",
+    "0.90",
+    "0.60",
+    "1.50"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "DPI = cumulative distributions ÷ PIC = 540 ÷ 900 = 0.60.",
+   "hints": [
+    "Wrong: divided by commitments instead of paid-in capital.",
+    "Wrong: that is RVPI (and PIC).",
+    "Correct: 540 ÷ 900 = 0.60.",
+    "Wrong: that is TVPI."
+   ],
+   "numeric": true,
+   "case": "Sahyadri Growth Fund II, a Category II AIF scheme, has total capital commitments of ₹1,000 crore. By the end of Year 5 the manager has drawn down ₹900 crore from investors. Cumulative cash distributions to investors so far are ₹540 crore, and the independent valuer has estimated the fair value of the remaining (unrealised) portfolio at ₹810 crore. An investor asks his distributor to explain how the fund is doing using the standard private-fund multiples."
+  },
+  {
+   "id": "xixa-M6-25",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "What is the scheme's TVPI?",
+   "options": [
+    "1.35",
+    "0.90",
+    "1.50",
+    "2.10"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "TVPI = (distributions + residual value) ÷ PIC = 1,350 ÷ 900 = 1.50 = DPI 0.60 + RVPI 0.90.",
+   "hints": [
+    "Wrong: divided by commitments.",
+    "Wrong: that is RVPI.",
+    "Correct: (540 + 810) ÷ 900 = 1.50.",
+    "Wrong: arithmetic error."
+   ],
+   "numeric": true,
+   "case": "Sahyadri Growth Fund II, a Category II AIF scheme, has total capital commitments of ₹1,000 crore. By the end of Year 5 the manager has drawn down ₹900 crore from investors. Cumulative cash distributions to investors so far are ₹540 crore, and the independent valuer has estimated the fair value of the remaining (unrealised) portfolio at ₹810 crore. An investor asks his distributor to explain how the fund is doing using the standard private-fund multiples."
+  },
+  {
+   "id": "xixa-M6-26",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "Later the fund draws the full ₹1,000 crore, exits every investment and total distributions reach ₹1,620 crore. Which statement is correct at that point?",
+   "options": [
+    "DPI = 1.62 but TVPI = 2.43 because RVPI remains",
+    "DPI = TVPI = 1.62 and RVPI = 0",
+    "TVPI = 1.62 but DPI = 0 because the fund has closed",
+    "MOIC will be lower than TVPI because all capital calls are met"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "When the fund has fully exited, the RVPI is reduced to zero and DPI = TVPI (1,620 ÷ 1,000 = 1.62); MOIC equals TVPI when all capital calls are met.",
+   "hints": [
+    "Wrong: no unrealised value remains.",
+    "Correct: at full realisation RVPI is zero and DPI equals TVPI.",
+    "Wrong: DPI captures all distributions.",
+    "Wrong: once all calls are met, MOIC equals TVPI."
+   ],
+   "numeric": true,
+   "case": "Sahyadri Growth Fund II, a Category II AIF scheme, has total capital commitments of ₹1,000 crore. By the end of Year 5 the manager has drawn down ₹900 crore from investors. Cumulative cash distributions to investors so far are ₹540 crore, and the independent valuer has estimated the fair value of the remaining (unrealised) portfolio at ₹810 crore. An investor asks his distributor to explain how the fund is doing using the standard private-fund multiples."
+  },
+  {
+   "id": "xixa-M6-27",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "Based on the case, how much will the manager receive as catch-up?",
+   "options": [
+    "₹225 crore",
+    "₹80 crore",
+    "₹60 crore",
+    "₹100 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Catch-up = 25% of (distributable cash − investors' capital and hurdle) = 0.25 × 400 = ₹100 crore.",
+   "hints": [
+    "Wrong: 25% of the full ₹900 crore.",
+    "Wrong: 20% of ₹400 crore.",
+    "Wrong: that is the carried interest.",
+    "Correct: 25% × (900 − 500) = ₹100 crore."
+   ],
+   "numeric": true,
+   "case": "In its final year, Kaveri Credit Opportunities Fund (Category II) has ₹900 crore available for distribution after all fees, expenses and taxes. Investors are still owed ₹500 crore to receive back their contributed capital plus the 10% preferred return. The PPM provides a European waterfall: (1) capital and hurdle to investors, (2) a catch-up to the manager of 25% of the balance remaining after step 1, and (3) the residual split 80% to investors and 20% to the manager as carried interest."
+  },
+  {
+   "id": "xixa-M6-28",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "How much will the manager receive as carried interest after the catch-up?",
+   "options": [
+    "₹60 crore",
+    "₹80 crore",
+    "₹100 crore",
+    "₹180 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Residual after catch-up = 400 − 100 = ₹300 crore; carry = 20% × 300 = ₹60 crore.",
+   "hints": [
+    "Correct: 20% × (400 − 100) = ₹60 crore.",
+    "Wrong: 20% of ₹400 crore ignores catch-up.",
+    "Wrong: that is the catch-up.",
+    "Wrong: 20% of ₹900 crore."
+   ],
+   "numeric": true,
+   "case": "In its final year, Kaveri Credit Opportunities Fund (Category II) has ₹900 crore available for distribution after all fees, expenses and taxes. Investors are still owed ₹500 crore to receive back their contributed capital plus the 10% preferred return. The PPM provides a European waterfall: (1) capital and hurdle to investors, (2) a catch-up to the manager of 25% of the balance remaining after step 1, and (3) the residual split 80% to investors and 20% to the manager as carried interest."
+  },
+  {
+   "id": "xixa-M6-29",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "What is the total distribution to investors in the final year?",
+   "options": [
+    "₹740 crore",
+    "₹820 crore",
+    "₹800 crore",
+    "₹500 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Investors receive ₹500 crore (capital + hurdle) plus 80% of the ₹300 crore residual (₹240 crore) = ₹740 crore.",
+   "hints": [
+    "Correct: 500 + 80% × 300 = 500 + 240 = ₹740 crore.",
+    "Wrong: applied 80% to the full ₹400 crore without catch-up.",
+    "Wrong: arithmetic error.",
+    "Wrong: ignores the residual share."
+   ],
+   "numeric": true,
+   "case": "In its final year, Kaveri Credit Opportunities Fund (Category II) has ₹900 crore available for distribution after all fees, expenses and taxes. Investors are still owed ₹500 crore to receive back their contributed capital plus the 10% preferred return. The PPM provides a European waterfall: (1) capital and hurdle to investors, (2) a catch-up to the manager of 25% of the balance remaining after step 1, and (3) the residual split 80% to investors and 20% to the manager as carried interest."
+  },
+  {
+   "id": "xixa-M6-30",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "If an earlier deal-by-deal payout had overpaid the manager, which clause would let investors recover the excess at the end of the fund?",
+   "options": [
+    "Clawback",
+    "Catch-up",
+    "High watermark",
+    "Most Favoured Nation"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Clawback entitles investors to reverse incentive fees taken during the fund's life so that fees reflect a full netting of profits and losses over its life.",
+   "hints": [
+    "Correct: clawback reverses excess incentive fees after netting profits and losses.",
+    "Wrong: catch-up benefits the manager.",
+    "Wrong: used mainly in hedge funds to avoid repeat fees.",
+    "Wrong: MFN equalises investor terms."
+   ],
+   "numeric": false,
+   "case": "In its final year, Kaveri Credit Opportunities Fund (Category II) has ₹900 crore available for distribution after all fees, expenses and taxes. Investors are still owed ₹500 crore to receive back their contributed capital plus the 10% preferred return. The PPM provides a European waterfall: (1) capital and hurdle to investors, (2) a catch-up to the manager of 25% of the balance remaining after step 1, and (3) the residual split 80% to investors and 20% to the manager as carried interest."
+  }
+ ]
+}

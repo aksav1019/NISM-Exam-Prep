@@ -1,0 +1,698 @@
+{
+ "id": "mock-6",
+ "title": "Mock 6 · Tough: Fees, Ratios & Immunization",
+ "level": "tough",
+ "blurb": "Hard numericals, multi-statement regulation and three full caselets.",
+ "questions": [
+  {
+   "id": "xxib-M6-01",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "Consider these statements about staffing a portfolio manager under the 2020 Regulations:\nI. The Principal Officer needs at least 5 years' related experience, of which at least 2 years in portfolio management, investment advisory or fund management.\nII. Any employee with decision-making authority on fund management needs the same qualification, experience and certification as the Principal Officer.\nIII. The Principal Officer may also act as compliance officer for every type of portfolio manager.\nWhich are correct?",
+   "options": [
+    "I, II and III",
+    "II and III only",
+    "I and II only",
+    "I only"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 7.4 and 7.6.7: I and II are correct; compliance officer role cannot be given to the Principal Officer, except for a co-investment PM.",
+   "hints": [
+    "III is wrong for ordinary PMs.",
+    "I is correct and III is wrong.",
+    "Correct: III holds only for co-investment PMs.",
+    "II is also correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-02",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "Which of the following off-market transfers in a client's account is NOT permitted for a portfolio manager?",
+   "options": [
+    "Transfer for settlement of the client's own trades",
+    "Providing margin or collateral for the client's own positions",
+    "A transfer made with the client's specific consent for that transaction",
+    "Transferring client securities to the PM's own account to meet the PM's margin obligations"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 7.6.3 (Don't 13): off-market transfers only for client's own settlement, client's own margin, unlisted dealings, specific client consent, or as SEBI specifies.",
+   "hints": [
+    "Permitted.",
+    "Permitted.",
+    "Permitted.",
+    "Correct: never for the PM's own benefit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-03",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Under the simplified Disclosure Document format, which item belongs to the DYNAMIC section (Part II)?",
+   "options": [
+    "Performance of the portfolio manager for the last three years, using TWRR for discretionary services",
+    "Disclaimer clause",
+    "Definitions of terms used",
+    "Risk factors of investing in securities"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 8.2: Part II (dynamic) covers client representation, financial performance, PM performance (3 years, TWRR), audit observations and related-party investments.",
+   "hints": [
+    "Correct (items 12 to 16 are dynamic).",
+    "Part I, item 1.",
+    "Part I, item 2.",
+    "Part I, item 6."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-04",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "Which clause must be included in the agreement between a DISCRETIONARY portfolio manager and its client?",
+   "options": [
+    "A lock-in of at least one year on the investment",
+    "The client's liability shall not exceed his investment with the portfolio manager",
+    "A guaranteed minimum return equal to the hurdle rate",
+    "Permission for the PM to borrow on the client's behalf"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 8.3.1: for a discretionary PM, a condition that the liability of a client shall not exceed his investment with the PM.",
+   "hints": [
+    "PMs cannot impose a lock-in.",
+    "Correct (clause 13 of the agreement contents).",
+    "Returns cannot be assured.",
+    "PMs shall not borrow on behalf of clients."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-05",
+   "chapter": 11,
+   "difficulty": "hard",
+   "q": "A client's PMS AUM is ₹2 crore. The PM already holds ₹25 lakh in equity of Associate A and ₹20 lakh in debt of Associate B. What is the MAXIMUM additional amount it can invest in equity of Associate A?",
+   "options": [
+    "₹15 lakh",
+    "₹25 lakh",
+    "₹35 lakh",
+    "₹5 lakh"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Limits: single associate 15% (₹30 lakh), multiple associates 25% (₹50 lakh), overall 30% (₹60 lakh). Headrooms: 5, 25 and 15 lakh; the lowest, ₹5 lakh, binds.",
+   "hints": [
+    "That is the headroom under the 30% overall cap only.",
+    "That is the headroom under the 25% multiple-associate equity cap only.",
+    "Ignores existing holdings.",
+    "Single-associate cap 15% = ₹30 lakh; 30 - 25 = ₹5 lakh (the binding limit)."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-06",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT one of the provisions of the PM Regulations listed as inapplicable to Eligible Fund Managers in respect of eligible investment funds?",
+   "options": [
+    "Compliance with the Prevention of Money Laundering Act",
+    "High water mark principle for fees",
+    "Obligation to act in a fiduciary capacity",
+    "Minimum investment of ₹50 lakh"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 11.4.1: HWM, fiduciary obligation, audit, agreement, reporting and ₹50 lakh minimum do not apply; PMLA compliance is an obligation.",
+   "hints": [
+    "Correct: EFMs MUST comply with PMLA.",
+    "Listed as not applicable.",
+    "Listed as not applicable.",
+    "Listed as not applicable."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-07",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT a condition for an eligible investment fund under Section 9A of the Income-tax Act?",
+   "options": [
+    "Aggregate participation by persons resident in India shall not exceed 5% of the corpus",
+    "The fund must invest at least 50% of its corpus in Indian listed equity",
+    "No single member with connected persons shall hold more than 10%",
+    "The fund shall not invest more than 20% of its corpus in any entity"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 10.3 lists residence, treaty country, ≤5% residents, investor protection, 25 members, ≤10% per member, top-10 < 50%, ≤20% per entity, no associate investment, ₹100 crore corpus, etc.",
+   "hints": [
+    "A condition.",
+    "Correct: not a 9A condition.",
+    "A condition.",
+    "A condition."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-08",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "Units of a specified mutual fund (investing not more than 35% in Indian equity) bought in June 2023 are redeemed after 3 years. The gain is:",
+   "options": [
+    "Long-term capital gain, as held for more than 24 months",
+    "Long-term capital gain, as held for more than 12 months",
+    "Short-term capital gain, irrespective of holding period",
+    "Business income in all cases"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 10.2.1: gains on specified MF units acquired on or after 1 April 2023 (and MLDs) are deemed short-term regardless of holding period.",
+   "hints": [
+    "Specified MF units bought on/after 1 April 2023 are deemed short term.",
+    "Same reason.",
+    "Correct.",
+    "Characterisation depends on facts; the holding-period rule here is deeming as STCG."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-09",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "Which statement about tagging investment approaches (IAs) to strategies and benchmarks is correct?",
+   "options": [
+    "Each IA is tagged to only one strategy; on changing the tag, clients get a no-exit-load exit option and the earlier track record cannot be used",
+    "An IA can be tagged to two strategies if it is multi-asset",
+    "APMI prescribes up to five benchmarks per strategy",
+    "The PM can change benchmarks freely and keep reporting the earlier track record"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 9.3.11: strategies are equity, debt, hybrid and multi-asset; max 3 APMI benchmarks per strategy; exit option without load on change; verified in annual audit.",
+   "hints": [
+    "Correct.",
+    "Each IA must be tagged to only one strategy.",
+    "APMI prescribes a maximum of three.",
+    "Track record before a change cannot be used."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-10",
+   "chapter": 12,
+   "difficulty": "medium",
+   "q": "A price-weighted index has four stocks priced ₹20, ₹40, ₹60 and ₹80 with a divisor of 4. If the ₹80 stock splits 2-for-1, the new divisor should be:",
+   "options": [
+    "4.0",
+    "3.2",
+    "3.5",
+    "2.0"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Index = 200/4 = 50. After split, sum = 20 + 40 + 60 + 40 = 160. Divisor = 160/50 = 3.2 to keep the index at 50.",
+   "hints": [
+    "Leaving the divisor unchanged would drop the index to 40.",
+    "New sum 160 ÷ index 50 = 3.2.",
+    "Arithmetic error.",
+    "Halves the divisor."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-11",
+   "chapter": 14,
+   "difficulty": "medium",
+   "q": "An investor sells stocks that have risen soon after buying them but keeps holding stocks that have fallen, hoping to break even. This is best explained by:",
+   "options": [
+    "Mental accounting arising from windfall gains",
+    "Bounded rationality arising from limited time",
+    "The disposition effect arising from loss aversion",
+    "Stereotyping arising from a famous CEO"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 14.3.1: the disposition effect means holding losers too long and selling winners too early, a manifestation of loss aversion.",
+   "hints": [
+    "Mental accounting is about non-fungible money buckets.",
+    "Satisficing is not about selling winners/holding losers.",
+    "Correct (Shefrin and Statman, 1985).",
+    "Stereotyping links traits to quality."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-12",
+   "chapter": 15,
+   "difficulty": "hard",
+   "q": "A portfolio has 60% in Asset A (σ = 20%) and 40% in Asset B (σ = 10%). The correlation between them is 0.3. The portfolio standard deviation is about:",
+   "options": [
+    "16.00%",
+    "12.65%",
+    "18.88%",
+    "13.74%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "σp² = 0.36 x 400 + 0.16 x 100 + 2 x 0.6 x 0.4 x 20 x 10 x 0.3 = 188.8; σp = 13.74%.",
+   "hints": [
+    "Weighted average SD, valid only if ρ = +1.",
+    "Ignores the covariance term (√160).",
+    "Reports variance/10 instead of SD.",
+    "√(144 + 16 + 28.8) = √188.8 = 13.74%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-13",
+   "chapter": 16,
+   "difficulty": "hard",
+   "q": "On the CML, the risk-free rate is 6%, the market portfolio returns 14% with σ = 16%. An investor wants a portfolio with σ = 24%. Her expected return and position are:",
+   "options": [
+    "18%, by lending 50% of her wealth and investing 50% in M",
+    "18%, by borrowing 50% of her wealth at the risk-free rate and investing 150% in M",
+    "21%, by investing 100% in M",
+    "14%, by investing 150% in M"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "CML: E(Rp) = Rf + (Rm - Rf) x σp/σm = 6 + 8 x 1.5 = 18%. σp > σm means a borrowing portfolio to the right of M.",
+   "hints": [
+    "Lending lowers risk below σm.",
+    "6 + 8 x 24/16 = 18%; weight in M = 1.5 (borrowing).",
+    "100% in M gives 14% and σ 16%.",
+    "Return is understated."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-14",
+   "chapter": 17,
+   "difficulty": "hard",
+   "q": "Which of the following statements about VaR are NOT correct?\nI. It is simple and easily communicated.\nII. It correctly estimates the frequency of extreme events.\nIII. It takes the liquidity of assets into account automatically.\nIV. It helps in capital allocation across portfolios.",
+   "options": [
+    "I and IV only",
+    "II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 17.4.2: advantages include simplicity, wide acceptance and capital allocation; VaR underestimates extreme losses/gains, and liquidity needs a separate adjustment.",
+   "hints": [
+    "These are advantages.",
+    "III is also incorrect.",
+    "Correct: VaR underestimates extremes and ignores liquidity (hence liquidity-adjusted VaR).",
+    "I is an advantage."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-15",
+   "chapter": 18,
+   "difficulty": "hard",
+   "q": "A manager forecasts 25 independent stocks every quarter for a year and is right 70 times. Using the fundamental law, her Information Ratio is:",
+   "options": [
+    "7.0",
+    "0.4",
+    "2.8",
+    "4.0"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "IC = 2(70/100) - 1 = 0.4; Breadth = 25 x 4 = 100; IR = IC x √Breadth = 0.4 x 10 = 4.0.",
+   "hints": [
+    "Uses hit rate 0.7 x 10.",
+    "That is IC alone.",
+    "Uses √50 or other wrong breadth.",
+    "IC = 2 x 0.7 - 1 = 0.4; breadth = 100; IR = 0.4 x 10 = 4."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-16",
+   "chapter": 18,
+   "difficulty": "medium",
+   "q": "A country's listed market capitalisation is ₹380 lakh crore and its GDP is ₹400 lakh crore. Using the workbook's thumb rule, the market is:",
+   "options": [
+    "Moderately overvalued",
+    "Fairly valued",
+    "Undervalued",
+    "Overvalued"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Market cap/GDP = 380/400 = 95%: moderately overvalued band (90% to 110%) (Section 18.14.3).",
+   "hints": [
+    "95% falls in the 90% to 110% band.",
+    "Fair value is 75% to 90%.",
+    "Undervalued is below 50%.",
+    "Overvalued is above 110%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-17",
+   "chapter": 20,
+   "difficulty": "hard",
+   "q": "A client starts with ₹40 lakh. Just before adding ₹10 lakh, the portfolio is worth ₹44 lakh. At the end of the period it is worth ₹57.2 lakh. The TWRR for the period is about:",
+   "options": [
+    "14.40%",
+    "10.00%",
+    "16.52%",
+    "30.00%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Sub-period 1 = 10%; sub-period 2 = (57.2 - 44 - 10)/(44 + 10) = 5.93%; TWRR = 1.10 x 1.0593 - 1 = 16.52%.",
+   "hints": [
+    "A simple gain ÷ total capital, not TWRR.",
+    "Only the first sub-period.",
+    "(44/40) x [(57.2 - 44 - 10)/54 + 1] - 1 = 1.10 x 1.0593 - 1.",
+    "Ignores the contribution."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-18",
+   "chapter": 21,
+   "difficulty": "medium",
+   "q": "A ₹1 crore portfolio follows a 60:40 equity-debt constant mix. Over a quarter equity rises 25% and debt 5%. To rebalance, the manager should:",
+   "options": [
+    "Buy ₹4.8 lakh of equity and sell debt",
+    "Sell ₹15 lakh of equity",
+    "Do nothing: constant mix allows drift",
+    "Sell about ₹4.8 lakh of equity and buy debt"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "New values: equity ₹75 lakh, debt ₹42 lakh, total ₹117 lakh. Target equity 60% = ₹70.2 lakh, so sell ₹4.8 lakh of equity and buy debt.",
+   "hints": [
+    "Wrong direction: constant mix sells winners.",
+    "Removes the whole gain.",
+    "That describes buy and hold.",
+    "Equity 75, debt 42, total 117; target equity 70.2; sell 4.8."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M6-19",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "What is the fixed management fee for the year?",
+   "options": [
+    "₹2,18,000",
+    "₹2,36,000",
+    "₹2,00,000",
+    "₹2,34,820"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "Fixed fee = 2% x (1,00,00,000 + 1,18,00,000)/2 = 2% x 1,09,00,000 = ₹2,18,000.",
+   "hints": [
+    "2% x average(1.00, 1.18) crore = 2% x 1.09 crore.",
+    "Charges 2% on closing gross value.",
+    "Charges 2% on opening capital only.",
+    "Charges 2% on value after other expenses."
+   ],
+   "numeric": true,
+   "case": "An HNI invests ₹1 crore in a discretionary PMS for one year. The portfolio earns 18% gross during the year. Fee terms (all annual, no upfront or setup fee): other expenses of 0.50% on the gross value of the portfolio at year end; a fixed management fee of 2% charged on the average of the capital contribution and the gross value of the portfolio; and a performance fee of 15% on the portfolio value (after other expenses and fixed fee) in excess of a hurdle of 8% on the amount invested, without catch-up. There is no exit load. Follow the workbook's order of deductions."
+  },
+  {
+   "id": "xxib-M6-20",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "What is the performance fee payable?",
+   "options": [
+    "₹1,50,000",
+    "₹1,08,450",
+    "₹1,41,150",
+    "₹1,19,400"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "Gross 1,18,00,000 - other exp 59,000 = 1,17,41,000; - fixed fee 2,18,000 = 1,15,23,000; hurdle value 1,08,00,000; fee = 15% x 7,23,000 = ₹1,08,450.",
+   "hints": [
+    "15% x (1.18 - 1.08) crore, ignoring expenses and fixed fee.",
+    "15% x (1,15,23,000 - 1,08,00,000) = ₹1,08,450.",
+    "Ignores the fixed fee: 15% x (1,17,41,000 - 1,08,00,000).",
+    "Arithmetic slip."
+   ],
+   "numeric": true,
+   "case": "An HNI invests ₹1 crore in a discretionary PMS for one year. The portfolio earns 18% gross during the year. Fee terms (all annual, no upfront or setup fee): other expenses of 0.50% on the gross value of the portfolio at year end; a fixed management fee of 2% charged on the average of the capital contribution and the gross value of the portfolio; and a performance fee of 15% on the portfolio value (after other expenses and fixed fee) in excess of a hurdle of 8% on the amount invested, without catch-up. There is no exit load. Follow the workbook's order of deductions."
+  },
+  {
+   "id": "xxib-M6-21",
+   "chapter": 20,
+   "difficulty": "hard",
+   "q": "What net return will the investor report for the year?",
+   "options": [
+    "15.23%",
+    "18.00%",
+    "13.85%",
+    "14.15%"
+   ],
+   "answer": 3,
+   "marks": 2,
+   "explanation": "Net value = 1,15,23,000 - 1,08,450 = 1,14,14,550. Net return = 14.15%. Gross return = 18%.",
+   "hints": [
+    "Before the performance fee.",
+    "That is the gross return.",
+    "Arithmetic slip.",
+    "(1,14,14,550 - 1,00,00,000)/1,00,00,000 = 14.15%."
+   ],
+   "numeric": true,
+   "case": "An HNI invests ₹1 crore in a discretionary PMS for one year. The portfolio earns 18% gross during the year. Fee terms (all annual, no upfront or setup fee): other expenses of 0.50% on the gross value of the portfolio at year end; a fixed management fee of 2% charged on the average of the capital contribution and the gross value of the portfolio; and a performance fee of 15% on the portfolio value (after other expenses and fixed fee) in excess of a hurdle of 8% on the amount invested, without catch-up. There is no exit load. Follow the workbook's order of deductions."
+  },
+  {
+   "id": "xxib-M6-22",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "Next year the pre-performance-fee value of the portfolio is ₹1,14,00,000. Which statement is correct?",
+   "options": [
+    "No performance fee is payable, because the value is below the high water mark of ₹1,15,23,000",
+    "A fee is payable on the gain over ₹1,14,14,550",
+    "A fee is payable on the gain over ₹1,00,00,000",
+    "A fee is payable since the hurdle is reset to zero each year"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "As in Box 8.1, the HWM for the next period is the pre-performance-fee closing value (₹1,15,23,000). A value of ₹1,14,00,000 is below it, so no performance fee.",
+   "hints": [
+    "Correct: HWM is the earlier pre-fee closing value.",
+    "The value is actually below last year's net value too, and below the HWM.",
+    "Fees are not charged on gains below the HWM.",
+    "HWM applies regardless."
+   ],
+   "numeric": false,
+   "case": "An HNI invests ₹1 crore in a discretionary PMS for one year. The portfolio earns 18% gross during the year. Fee terms (all annual, no upfront or setup fee): other expenses of 0.50% on the gross value of the portfolio at year end; a fixed management fee of 2% charged on the average of the capital contribution and the gross value of the portfolio; and a performance fee of 15% on the portfolio value (after other expenses and fixed fee) in excess of a hurdle of 8% on the amount invested, without catch-up. There is no exit load. Follow the workbook's order of deductions."
+  },
+  {
+   "id": "xxib-M6-23",
+   "chapter": 20,
+   "difficulty": "medium",
+   "q": "What are the Sharpe ratios of the portfolio and the market?",
+   "options": [
+    "1.10 and 1.07",
+    "0.75 and 0.60",
+    "0.68 and 0.56",
+    "13.64 and 9.00"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "Sharpe = (Rp - Rf)/σp. Portfolio 15/20 = 0.75; market 9/15 = 0.60.",
+   "hints": [
+    "Return ÷ SD without subtracting Rf.",
+    "(22 - 7)/20 = 0.75; (16 - 7)/15 = 0.60.",
+    "Arithmetic errors.",
+    "Those are Treynor-style figures."
+   ],
+   "numeric": true,
+   "case": "Over the last year a PMS equity portfolio returned 22% with a standard deviation of 20% and a beta of 1.1. Its benchmark (taken as the market portfolio) returned 16% with a standard deviation of 15%. The risk-free rate was 7%. The client has placed almost all of her financial wealth in this single portfolio and wants to understand whether the manager added value after adjusting for risk."
+  },
+  {
+   "id": "xxib-M6-24",
+   "chapter": 20,
+   "difficulty": "medium",
+   "q": "What is the portfolio's Jensen alpha?",
+   "options": [
+    "6.0%",
+    "15.0%",
+    "5.1%",
+    "4.0%"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "Required return (CAPM) = 7% + 1.1 x (16% - 7%) = 16.9%. Jensen alpha = 22% - 16.9% = 5.1%.",
+   "hints": [
+    "Simple excess over the market (22 - 16).",
+    "Excess over the risk-free rate.",
+    "22 - [7 + 1.1 x 9] = 22 - 16.9 = 5.1%.",
+    "Arithmetic slip."
+   ],
+   "numeric": true,
+   "case": "Over the last year a PMS equity portfolio returned 22% with a standard deviation of 20% and a beta of 1.1. Its benchmark (taken as the market portfolio) returned 16% with a standard deviation of 15%. The risk-free rate was 7%. The client has placed almost all of her financial wealth in this single portfolio and wants to understand whether the manager added value after adjusting for risk."
+  },
+  {
+   "id": "xxib-M6-25",
+   "chapter": 20,
+   "difficulty": "hard",
+   "q": "Using the M² measure, by how much did the portfolio out- or under-perform the market?",
+   "options": [
+    "Outperformed by 2.25%",
+    "Outperformed by 6.00%",
+    "Underperformed by 1.75%",
+    "Outperformed by 0.15%"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "M² = (Rp - Rf) x σm/σp + Rf = 15 x 0.75 + 7 = 18.25%, versus market 16%: outperformance of 2.25%.",
+   "hints": [
+    "M² = 15 x 15/20 + 7 = 18.25%; 18.25 - 16 = +2.25%.",
+    "Unadjusted excess return.",
+    "Sign or scaling error.",
+    "Difference in Sharpe ratios, not M²."
+   ],
+   "numeric": true,
+   "case": "Over the last year a PMS equity portfolio returned 22% with a standard deviation of 20% and a beta of 1.1. Its benchmark (taken as the market portfolio) returned 16% with a standard deviation of 15%. The risk-free rate was 7%. The client has placed almost all of her financial wealth in this single portfolio and wants to understand whether the manager added value after adjusting for risk."
+  },
+  {
+   "id": "xxib-M6-26",
+   "chapter": 20,
+   "difficulty": "hard",
+   "q": "Given the client's situation, which risk-adjusted measure is most appropriate to judge this manager?",
+   "options": [
+    "Treynor ratio, because only systematic risk matters for her",
+    "Sharpe ratio, because her wealth is not diversified and total risk matters",
+    "Information ratio, because it ignores the benchmark",
+    "Jensen alpha, because it uses standard deviation"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "Section 20.4.3: Sharpe suits an investor who has not diversified her wealth; Treynor suits well-diversified investors.",
+   "hints": [
+    "Treynor suits investors whose overall wealth is well diversified.",
+    "Correct.",
+    "IR is defined relative to the benchmark.",
+    "Jensen alpha uses beta, not SD."
+   ],
+   "numeric": false,
+   "case": "Over the last year a PMS equity portfolio returned 22% with a standard deviation of 20% and a beta of 1.1. Its benchmark (taken as the market portfolio) returned 16% with a standard deviation of 15%. The risk-free rate was 7%. The client has placed almost all of her financial wealth in this single portfolio and wants to understand whether the manager added value after adjusting for risk."
+  },
+  {
+   "id": "xxib-M6-27",
+   "chapter": 19,
+   "difficulty": "medium",
+   "q": "What weight should the manager put in Bond Y so that the portfolio's duration equals the liability horizon?",
+   "options": [
+    "33.3%",
+    "66.7%",
+    "50%",
+    "75%"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "Weighted duration: 3 x (1 - w) + 9 x w = 6, so w(Y) = 0.5.",
+   "hints": [
+    "Solves for duration 5.",
+    "Solves for duration 7.",
+    "3(1 - w) + 9w = 6 gives w = 0.5.",
+    "Arithmetic slip."
+   ],
+   "numeric": true,
+   "case": "A charitable trust must pay ₹1 crore exactly 6 years from today and asks a PMS to immunize this liability. The yield curve is flat at 7.5% (annual compounding). The manager can use Bond X with a Macaulay duration of 3 years and Bond Y with a Macaulay duration of 9 years, or a 6-year zero-coupon bond. Ignore costs and credit risk."
+  },
+  {
+   "id": "xxib-M6-28",
+   "chapter": 19,
+   "difficulty": "medium",
+   "q": "What is the cost today of perfectly immunizing the liability with a 6-year zero-coupon bond?",
+   "options": [
+    "About ₹55.00 lakh",
+    "About ₹69.66 lakh",
+    "₹1 crore",
+    "About ₹64.80 lakh"
+   ],
+   "answer": 3,
+   "marks": 2,
+   "explanation": "PV = FV/(1 + r)ⁿ = 1,00,00,000/1.075⁶ ≈ ₹64.80 lakh (Section 19.2.3).",
+   "hints": [
+    "Simple interest discounting.",
+    "Discounts for 5 years only.",
+    "Ignores discounting.",
+    "1 crore ÷ 1.075⁶ = ₹64.80 lakh."
+   ],
+   "numeric": true,
+   "case": "A charitable trust must pay ₹1 crore exactly 6 years from today and asks a PMS to immunize this liability. The yield curve is flat at 7.5% (annual compounding). The manager can use Bond X with a Macaulay duration of 3 years and Bond Y with a Macaulay duration of 9 years, or a 6-year zero-coupon bond. Ignore costs and credit risk."
+  },
+  {
+   "id": "xxib-M6-29",
+   "chapter": 19,
+   "difficulty": "medium",
+   "q": "Soon after the bond portfolio is set up, interest rates fall. For the immunized portfolio:",
+   "options": [
+    "Both bond prices and reinvestment income fall",
+    "Bond prices rise while coupons are reinvested at lower rates, and the two effects broadly offset",
+    "Both bond prices and reinvestment income rise",
+    "Only reinvestment risk remains, so the liability cannot be met"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "Section 19.2.3: in a fall of rates, prices rise but coupons are reinvested at lower yields; matching duration offsets them.",
+   "hints": [
+    "Prices rise when rates fall.",
+    "Correct.",
+    "Reinvestment income falls when rates fall.",
+    "Duration matching offsets the two risks."
+   ],
+   "numeric": false,
+   "case": "A charitable trust must pay ₹1 crore exactly 6 years from today and asks a PMS to immunize this liability. The yield curve is flat at 7.5% (annual compounding). The manager can use Bond X with a Macaulay duration of 3 years and Bond Y with a Macaulay duration of 9 years, or a 6-year zero-coupon bond. Ignore costs and credit risk."
+  },
+  {
+   "id": "xxib-M6-30",
+   "chapter": 19,
+   "difficulty": "hard",
+   "q": "Why is immunization described as 'not as passive as buy and hold'?",
+   "options": [
+    "Because it requires selling all bonds every year",
+    "Because it relies on forecasting the direction of interest rates",
+    "The portfolio must be rebalanced as rates and time change so that duration keeps matching the remaining horizon",
+    "Because it must hold only floating rate bonds"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "Section 19.2.3: every time interest rates change, the duration is readjusted to match the remaining maturity (re-immunization).",
+   "hints": [
+    "Not required.",
+    "Immunization avoids rate forecasting.",
+    "Correct.",
+    "Not the method."
+   ],
+   "numeric": false,
+   "case": "A charitable trust must pay ₹1 crore exactly 6 years from today and asks a PMS to immunize this liability. The yield curve is flat at 7.5% (annual compounding). The manager can use Bond X with a Macaulay duration of 3 years and Bond Y with a Macaulay duration of 9 years, or a 6-year zero-coupon bond. Ignore costs and credit risk."
+  }
+ ]
+}

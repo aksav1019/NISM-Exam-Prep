@@ -1,0 +1,583 @@
+{
+ "id": "mock-4",
+ "title": "Mock 4 · Process and Paperwork",
+ "level": "easy",
+ "blurb": "Deal process, due diligence, PPM and documents, with one caselet.",
+ "questions": [
+  {
+   "id": "xixa-M4-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Venture capital investing primarily involves:",
+   "options": [
+    "Buying listed blue-chip shares",
+    "Direct investment in early-stage businesses with high growth potential and high mortality risk",
+    "Lending to large corporates against fixed assets",
+    "Investing in government securities"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Venture capital is about direct investment in infant companies yet to grow fully; they are highly risky due to high mortality rates.",
+   "hints": [
+    "Wrong: that is a traditional investment.",
+    "Correct: VC targets start-ups/early-stage ventures.",
+    "Wrong: that is bank-style lending.",
+    "Wrong: traditional, low-risk investment."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Who made the USD 292 million investment in Bharti Televentures that the workbook calls arguably the first characteristic private equity transaction in India?",
+   "options": [
+    "KKR",
+    "Blackstone",
+    "Actis",
+    "Warburg Pincus"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The first characteristic PE transaction in India is arguably the USD 292 million investment by Warburg Pincus in Bharti Televentures, exited via IPO in 2002.",
+   "hints": [
+    "Wrong: KKR's landmark deal was the Flextronics buyout (2006).",
+    "Wrong: Blackstone led later buyouts.",
+    "Wrong: Actis is mentioned among buyout funds.",
+    "Correct: Warburg Pincus, with a successful IPO exit in 2002."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "A Special Situation Fund may act as a resolution applicant under which law?",
+   "options": [
+    "Companies Act, 1956",
+    "SARFAESI Act only",
+    "Indian Partnership Act, 1932",
+    "Insolvency and Bankruptcy Code, 2016"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Special Situation Fund means a Category I AIF that invests in special situation assets and may act as a resolution applicant under the Insolvency and Bankruptcy Code, 2016.",
+   "hints": [
+    "Wrong: repealed and irrelevant.",
+    "Wrong: IBC is the cited law.",
+    "Wrong: unrelated.",
+    "Correct: SSFs may act as resolution applicants under IBC 2016."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Which of the following is NOT a disqualification under the 'fit and proper person' criteria for a sponsor?",
+   "options": [
+    "A pending charge sheet in a criminal complaint",
+    "Having earned profits from a previous fund",
+    "Being declared a wilful defaulter",
+    "Being found of unsound mind by a competent court"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The fit and proper criteria disqualify a person with pending criminal charge sheet, restraint/debarment orders, insolvency/wilful defaulter status, or unsound mind finding.",
+   "hints": [
+    "Wrong: a pending criminal charge sheet disqualifies.",
+    "Correct: profits are not a disqualification.",
+    "Wrong: wilful defaulter status disqualifies.",
+    "Wrong: unsound mind finding disqualifies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-05",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "An individual's accreditation as an Accredited Investor through the income route requires annual income of at least:",
+   "options": [
+    "₹2 crore",
+    "₹1 crore",
+    "₹50 lakh",
+    "₹5 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Individual/HUF/family trust/proprietorship/partnership: annual income at least ₹2 crore; or net worth ₹7.5 crore (₹3.75 crore financial); or ₹1 crore income + ₹5 crore net worth (₹2.5 crore financial).",
+   "hints": [
+    "Correct: ₹2 crore annual income alone suffices.",
+    "Wrong: ₹1 crore works only with net worth ₹5 crore (₹2.5 crore financial).",
+    "Wrong: too low.",
+    "Wrong: ₹5 crore is a net-worth figure in the combined route."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-06",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which entity issues the Accreditation Certificate to an Accredited Investor?",
+   "options": [
+    "SEBI directly",
+    "The AIF's investment manager",
+    "An accreditation agency such as a subsidiary of a recognised stock exchange or depository",
+    "The investor's bank"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Accreditation Agency means a subsidiary of a recognised stock exchange or of a depository or any other entity specified by SEBI.",
+   "hints": [
+    "Wrong: SEBI does not issue individual certificates.",
+    "Wrong: managers may provisionally onboard but cannot certify.",
+    "Correct: accreditation agencies are subsidiaries of exchanges/depositories or SEBI-specified entities.",
+    "Wrong: banks are not accreditation agencies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which certification must at least one key personnel in the key investment team of a Category I/II AIF manager hold?",
+   "options": [
+    "NISM-Series-XIX-A",
+    "NISM-Series-V-A",
+    "NISM-Series-XIX-C or NISM-Series-XIX-D",
+    "NISM-Series-III-C"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "At least one key personnel must have NISM-Series-XIX-C or XIX-D, and the same person must also have a specified professional qualification.",
+   "hints": [
+    "Wrong: XIX-A is for distributors.",
+    "Wrong: V-A is for mutual fund distributors.",
+    "Correct: XIX-C (AIF Managers) or XIX-D (Cat I & II AIF Managers).",
+    "Wrong: III-C is for the compliance officer."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Under a pure offshore fund structure, the fund's investments into India are typically made through:",
+   "options": [
+    "Registration as a Category I AIF",
+    "An Indian mutual fund scheme",
+    "Registration under the SEBI FVCI Regulations or directly under the FDI route",
+    "A domestic portfolio manager only"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Since the fund is incorporated outside India it requires registration under SEBI (FVCI) Regulations; alternatively it can invest directly under the FDI policy.",
+   "hints": [
+    "Wrong: the fund is incorporated outside India.",
+    "Wrong: unrelated.",
+    "Correct: FVCI registration or the FDI route.",
+    "Wrong: unrelated."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-09",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Under the LLP structure for an AIF, how many designated partners must the LLP have at a minimum?",
+   "options": [
+    "1",
+    "2",
+    "5",
+    "7"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Every LLP must have at least two 'designated partners' responsible for its conduct and compliances.",
+   "hints": [
+    "Wrong: too few.",
+    "Correct: every LLP must have at least two designated partners.",
+    "Wrong: not the requirement.",
+    "Wrong: not the requirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-10",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Which method improves on IRR by using a realistic opportunity cost for discounting capital calls and compounding distributions?",
+   "options": [
+    "MIRR",
+    "DPI",
+    "PIC multiple",
+    "Simple ROI"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "MIRR considers the opportunity cost of funds at an appropriate rate; in the illustration IRR is 22% while MIRR at 10% is 18.7%.",
+   "hints": [
+    "Correct: Modified IRR uses an appropriate opportunity cost.",
+    "Wrong: DPI is a cash multiple.",
+    "Wrong: PIC is a drawdown ratio.",
+    "Wrong: ROI ignores time value."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-11",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Rank the following claims from highest to lowest priority in a borrower's insolvency: equity, unsecured debt, secured senior debt, preference capital.",
+   "options": [
+    "Secured senior debt > unsecured debt > preference capital > equity",
+    "Equity > preference > unsecured > secured",
+    "Unsecured debt > secured senior debt > equity > preference",
+    "Preference > secured senior > unsecured > equity"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Secured senior debt has the first claim, unsecured debt ranks lowest among debt; all debt has priority over preference capital, which ranks higher than equity.",
+   "hints": [
+    "Correct: all debt ranks above preference, which ranks above equity.",
+    "Wrong: reverse order.",
+    "Wrong: secured ranks above unsecured; preference above equity.",
+    "Wrong: debt ranks above preference."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-12",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Who usually carries out the financial due diligence review (DDR) of an investee company on behalf of the AIF manager?",
+   "options": [
+    "The trustee of the AIF",
+    "An accounting firm or investment bank engaged by the manager",
+    "The investee company's statutory auditor",
+    "SEBI"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Financial DDR is usually carried out on behalf of the manager by an accounting firm or investment bank; legal DDR by a law firm.",
+   "hints": [
+    "Wrong: the trustee does not conduct DDR.",
+    "Correct: financial DDR is usually done by an accounting firm or investment bank.",
+    "Wrong: independence would be compromised.",
+    "Wrong: SEBI does not do deal DDR."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-13",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "The Compliance Test Report (CTR) must be submitted by the manager to the sponsor/trustee within how many days from the end of the financial year?",
+   "options": [
+    "15 days",
+    "30 days",
+    "60 days",
+    "180 days"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The CTR shall be submitted by the manager to the sponsor (and trustee) within 30 days from the end of the financial year; comments within 30 days; reply within 15 days.",
+   "hints": [
+    "Wrong: 15 days is the manager's time to reply to comments.",
+    "Correct: within 30 days of FY end.",
+    "Wrong: not prescribed.",
+    "Wrong: 180 days is for the annual report to investors."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-14",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which data must AIFs submit to benchmarking agencies?",
+   "options": [
+    "Scheme-wise valuation and cash flow data for schemes that completed at least one year from first close",
+    "Only audited balance sheets of the manager",
+    "Personal tax returns of investors",
+    "Daily NAV of all schemes from launch"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "AIFs, for all schemes that completed at least one year from first close, shall report scheme-wise valuation and cash flow data to the benchmarking agencies.",
+   "hints": [
+    "Correct: scheme-wise valuation and cash-flow data after one year from first close.",
+    "Wrong: not the required data.",
+    "Wrong: confidential and irrelevant.",
+    "Wrong: AIFs have no daily NAV."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-15",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A pension fund wants medium risk, steady long-term income and interim payouts. Which AIF profile best fits?",
+   "options": [
+    "A debt fund investing in secured debentures of operational, lease-yielding real estate SPVs",
+    "An early-stage deep-tech VC fund",
+    "A land-bank acquisition real estate equity fund",
+    "A fund taking leveraged long-short positions in derivatives"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Case 8.1 shows a pension fund seeking medium risk and interim payouts is best matched with an alternative debt fund in operational lease-backed SPVs.",
+   "hints": [
+    "Correct: steady cash flow and moderate risk match the pension fund.",
+    "Wrong: high risk, no interim income.",
+    "Wrong: illiquid, lumpy returns.",
+    "Wrong: that is a Category III style strategy."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-16",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which of the following is NOT one of the key criteria for evaluating a fund manager listed in the workbook?",
+   "options": [
+    "Performance track record in delivering returns",
+    "Expertise in exit management",
+    "Instances of conflict of interest or regulatory non-compliance",
+    "The manager's personal social media following"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Key criteria: prior fund experience, return track record, strategy expertise, exit expertise, litigations/write-offs, conflicts and non-compliance.",
+   "hints": [
+    "Wrong: track record is a key criterion.",
+    "Wrong: exit expertise is a key criterion.",
+    "Wrong: conduct issues are a key criterion.",
+    "Correct: not a criterion in the workbook."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-17",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Through whom must a regular AIF scheme file its PPM with SEBI?",
+   "options": [
+    "A SEBI-registered merchant banker",
+    "A stock exchange",
+    "A credit rating agency",
+    "The custodian"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The PPM shall be filed with SEBI along with fees through a merchant banker, who exercises independent due diligence and gives a certificate.",
+   "hints": [
+    "Correct: the PPM is filed through a merchant banker with a due diligence certificate.",
+    "Wrong: exchanges do not file PPMs.",
+    "Wrong: not the filing route.",
+    "Wrong: custodians safekeep securities."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-18",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "The contribution (subscription) agreement of an AIF trust is entered into between:",
+   "options": [
+    "The trustee and the investment manager only",
+    "The sponsor and SEBI",
+    "Each investor, the trustee and the investment manager",
+    "The investor and the distributor"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The Contribution Agreement is entered into between each contributor (investor), the trustee and the investment manager.",
+   "hints": [
+    "Wrong: that is the IMA.",
+    "Wrong: SEBI is not a party.",
+    "Correct: investor, trustee and manager.",
+    "Wrong: the distributor is not a party."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-19",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Within what period must the findings of the annual PPM audit be communicated to the trustee/board, the manager's board and SEBI?",
+   "options": [
+    "6 months from the end of the financial year",
+    "1 month from the end of the financial year",
+    "30 days from the end of each quarter",
+    "1 year from the end of the financial year"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The PPM audit findings with corrective steps shall be communicated within 6 months from the end of the financial year.",
+   "hints": [
+    "Correct: within 6 months of FY end.",
+    "Wrong: 1 month is for intimating PPM changes.",
+    "Wrong: not prescribed.",
+    "Wrong: too late."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-20",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "The limited Quarterly Activity Report must be submitted by AIFs on the SEBI Intermediary Portal within:",
+   "options": [
+    "30 calendar days from the end of each quarter",
+    "15 calendar days from the end of each quarter",
+    "7 days from the end of each quarter",
+    "45 days from the end of each quarter"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A limited Quarterly Activity Report shall be submitted within 15 calendar days from the end of each quarter (none separately for the March quarter).",
+   "hints": [
+    "Wrong: 30 days applies to the Annual Activity Report.",
+    "Correct: within 15 calendar days.",
+    "Wrong: 7 days relates to compiling complaint data.",
+    "Wrong: not prescribed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-21",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "To claim benefits under a DTAA, a non-resident investor in an AIF must, among other things, obtain:",
+   "options": [
+    "A certificate from SEBI",
+    "An Indian passport",
+    "A credit rating",
+    "A valid Tax Residency Certificate from its country of residence, renewed annually"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A non-resident is not entitled to DTAA relief unless it obtains a TRC from the government of its country of residence; it must be renewed annually.",
+   "hints": [
+    "Wrong: SEBI does not certify tax residency.",
+    "Wrong: unrelated.",
+    "Wrong: unrelated.",
+    "Correct: a TRC is mandatory for treaty relief."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M4-22",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "In the case, the document Nilgiri received first, summarising AgriSense in a few pages to test preliminary fit, is called a:",
+   "options": [
+    "Term sheet",
+    "Share subscription agreement",
+    "Due diligence report",
+    "Teaser"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The investment banker sends a 'teaser' or 'flier' (a brief 1-3 page summary) to prospective funds to check preliminary fit.",
+   "hints": [
+    "Wrong: comes later and states proposed terms.",
+    "Wrong: a definitive agreement signed at the end.",
+    "Wrong: comes after the term sheet.",
+    "Correct: a teaser or flier is a brief 1-3 page summary."
+   ],
+   "numeric": false,
+   "case": "Nilgiri Ventures Fund (a Category I VC fund) received a 2-page teaser from an investment bank about AgriSense, an unlisted agri-tech start-up. After signing an NDA it received the information memorandum, met the management, and its investment team presented a short proposal to the Investment Committee. Nilgiri will be a 20% minority shareholder. Its main worries are: (i) the founders selling out early, (ii) a future round at a lower valuation, and (iii) being unable to sell a small minority stake at exit. The founders want the deal closed quickly."
+  },
+  {
+   "id": "xixa-M4-23",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Which right best addresses Nilgiri's worry about the founders selling out early to a third party?",
+   "options": [
+    "Drag-along right",
+    "Liquidation preference",
+    "Tag-along (co-sale) right on founders' shares",
+    "Dividend right"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Tag-along makes shares more difficult to sell because investors bank on founders and do not want them to exit while they remain invested; often combined with ROFR and lock-in.",
+   "hints": [
+    "Wrong: drag-along helps Nilgiri force a sale, not stop founders exiting.",
+    "Wrong: applies on liquidation.",
+    "Correct: tag-along lets Nilgiri sell alongside and makes founders' shares harder to sell.",
+    "Wrong: unrelated."
+   ],
+   "numeric": false,
+   "case": "Nilgiri Ventures Fund (a Category I VC fund) received a 2-page teaser from an investment bank about AgriSense, an unlisted agri-tech start-up. After signing an NDA it received the information memorandum, met the management, and its investment team presented a short proposal to the Investment Committee. Nilgiri will be a 20% minority shareholder. Its main worries are: (i) the founders selling out early, (ii) a future round at a lower valuation, and (iii) being unable to sell a small minority stake at exit. The founders want the deal closed quickly."
+  },
+  {
+   "id": "xixa-M4-24",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Which protection addresses Nilgiri's concern about a future financing round at a lower valuation?",
+   "options": [
+    "Right of first offer",
+    "Key man clause",
+    "Ratchet (anti-dilution) clause",
+    "Clawback of manager carry"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A ratchet compensates the investor against additional dilution in a down round by issuing new shares at no or minimal cost.",
+   "hints": [
+    "Wrong: ROFO governs share transfers.",
+    "Wrong: key man is a fund-level clause.",
+    "Correct: a ratchet issues extra shares to compensate in a down round.",
+    "Wrong: clawback is between fund investors and manager."
+   ],
+   "numeric": false,
+   "case": "Nilgiri Ventures Fund (a Category I VC fund) received a 2-page teaser from an investment bank about AgriSense, an unlisted agri-tech start-up. After signing an NDA it received the information memorandum, met the management, and its investment team presented a short proposal to the Investment Committee. Nilgiri will be a 20% minority shareholder. Its main worries are: (i) the founders selling out early, (ii) a future round at a lower valuation, and (iii) being unable to sell a small minority stake at exit. The founders want the deal closed quickly."
+  },
+  {
+   "id": "xixa-M4-25",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "As a 20% minority holder, which right will help Nilgiri sell a stake large enough to attract a control premium at exit?",
+   "options": [
+    "Pre-emptive right",
+    "Affirmative right on auditor appointment",
+    "Right to a board observer seat",
+    "Drag-along right on the promoters"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A drag-along is usually insisted on when the AIF is a minority investor so the stake offered is large enough to attract a control or strategic premium.",
+   "hints": [
+    "Wrong: protects shareholding in new issues.",
+    "Wrong: governance right, not exit.",
+    "Wrong: information right, not exit.",
+    "Correct: drag-along obliges promoters to sell to the same buyer on the same terms."
+   ],
+   "numeric": false,
+   "case": "Nilgiri Ventures Fund (a Category I VC fund) received a 2-page teaser from an investment bank about AgriSense, an unlisted agri-tech start-up. After signing an NDA it received the information memorandum, met the management, and its investment team presented a short proposal to the Investment Committee. Nilgiri will be a 20% minority shareholder. Its main worries are: (i) the founders selling out early, (ii) a future round at a lower valuation, and (iii) being unable to sell a small minority stake at exit. The founders want the deal closed quickly."
+  }
+ ]
+}

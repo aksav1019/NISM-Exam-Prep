@@ -1,0 +1,29 @@
+{
+  "title": "From V-A to a full advisory & alternatives toolkit",
+  "intro": "You've already cleared **V-A (Mutual Fund Distributors)**. This order puts exams that share a syllabus back to back, so each one makes the next one cheaper to learn. Each exam gets a booked date (about 2 h/day). Plan on roughly **7–8 months** for the full stack. You can stop after Phase 2 and already hold the credentials that matter most (Investment Adviser + Research Analyst).",
+  "steps": [
+    {"id": "viii", "phase": "Phase 1 · Warm-up", "weeks": "2–3 weeks", "why": "A short, numerical, self-contained paper. Futures, options and payoffs come back in **V-D (~35% derivatives)**, **XIX-B**, **XXI-B** and **XIX-C**, so learning them once now pays off four times. It also gets you back into exam rhythm."},
+    {"id": "xa", "phase": "Phase 2 · The core credential", "weeks": "4 weeks", "why": "Level 1 of the Investment Adviser pair. Financial planning, time value of money, tax, insurance, behavioural finance and IA regulations. Your V-A knowledge covers the MF chapters. **X-A + X-B are mandatory to register as a SEBI Investment Adviser.**"},
+    {"id": "xb", "phase": "Phase 2 · The core credential", "weeks": "4–5 weeks", "why": "Take it straight after X-A while the concepts are fresh. It adds portfolio construction, asset allocation, retirement, estate planning and caselets. This is the hardest exam on the list. Book it only once you score 75%+ on the full-length simulator."},
+    {"id": "xv", "phase": "Phase 2 · The core credential", "weeks": "3–4 weeks", "why": "Research Analyst builds directly on X-B's valuation, financial-statement and economy chapters. Together with X-A/X-B it gives you both SEBI \"advice\" credentials (IA + RA), the strongest pairing for fintech, wealth-tech or equity-research roles."},
+    {"id": "vd", "phase": "Phase 3 · Distribution add-ons", "weeks": "3 weeks", "why": "The new SIF exam (launched July 2026) is about 45% mutual funds (your V-A), 35% equity derivatives (your VIII) and 20% interest-rate derivatives, so most of it is revision by now. It's now the only way to distribute SIFs, and it also renews your MF distribution certification."},
+    {"id": "xxia", "phase": "Phase 3 · Distribution add-ons", "weeks": "1–2 weeks", "why": "A short PMS distribution paper with only 10% negative marking. Portfolio concepts overlap heavily with X-B and XV. Needed to distribute PMS (with APMI registration)."},
+    {"id": "xixa", "phase": "Phase 3 · Distribution add-ons", "weeks": "2 weeks", "why": "AIF Category I & II distribution: private equity, VC, private credit and real-estate funds. Uses the same regulatory skeleton as XIX-B, so take the two back to back."},
+    {"id": "xixb", "phase": "Phase 3 · Distribution add-ons", "weeks": "1–2 weeks", "why": "Category III (hedge-fund style) AIFs: long-short, derivatives and leverage limits. With XIX-A done and VIII behind you, about half of this exam is already familiar."},
+    {"id": "xvii", "phase": "Phase 3 · Distribution add-ons", "weeks": "1–2 weeks", "why": "Retirement Adviser (NPS, EPF, annuities, retirement corpus maths). It overlaps strongly with X-A/X-B retirement chapters, so it's a cheap extra badge if you want to advise on NPS. Skip it if that isn't relevant."},
+    {"id": "xxib", "phase": "Phase 4 · Manager-level (optional)", "weeks": "3 weeks", "why": "Portfolio Managers (principal officer / investment team of a PMS). Goes deeper than XXI-A, reusing XV valuation and VIII derivatives. Take it only if you aim to run or join a PMS investment team."},
+    {"id": "xixc", "phase": "Phase 4 · Manager-level (optional)", "weeks": "3–4 weeks", "why": "AIF Managers is the longest workbook, aimed at the key investment team of an AIF. SEBI now also accepts the shorter **XIX-D (Cat I/II managers) or XIX-E (Cat III managers)** instead, so pick the one that matches the fund you'd work at."}
+  ],
+  "skip": [
+    {"id": "vb", "why": "Mutual Fund Foundation is an entry-level subset of V-A, which you've already passed. Notes and mocks are here if you want a refresher, but the certificate adds nothing for you."},
+    {"id": "xc", "why": "The Investment Adviser **renewal** exam. You'll need it about 3 years after passing X-A/X-B, instead of re-sitting both. Content and mocks are ready for when that time comes."}
+  ],
+  "weekly": [
+    "**Mon–Thu (≈2 h/day):** one or two chapters a day. Read the workbook section first, then this site's notes card, then do the chapter's questions in Learn mode.",
+    "**Fri:** active recall. Run flashcards for the week's chapters and rewrite the \"Must remember\" numbers from memory.",
+    "**Sat:** one mock in Exam mode under the real timer, then review every wrong answer and every lucky guess.",
+    "**Sun:** rest or light revision. Every second Sunday, re-read the quick-revision list of the *previous* exam so it doesn't fade.",
+    "**Booking rule:** book the exam slot when you start an exam's prep (dates focus the mind). Sit it once you clear **75%+ on both tough mocks and the full-length simulator**.",
+    "**Between exams:** take 2–3 days off, then start the next one. The overlap logic in this order only works if you keep the momentum."
+  ]
+}

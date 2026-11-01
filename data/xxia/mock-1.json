@@ -1,0 +1,583 @@
+{
+ "id": "mock-1",
+ "title": "Mock 1 · Foundations",
+ "level": "easy",
+ "blurb": "Core definitions across all 12 chapters: savings vs investment, PMS service types, exit loads and the basics of return.",
+ "questions": [
+  {
+   "id": "xxia-M1-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which statement best distinguishes savings from investment?",
+   "options": [
+    "Savings and investment are the same thing",
+    "Savings is income minus spending; investment is committing savings for a period expecting a higher amount",
+    "Investment is income minus spending; savings is committing money to stocks",
+    "Savings always involves real assets while investment involves only bank deposits"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The workbook defines savings as the difference between money earned and money spent, and investment as the current commitment of savings with an expectation of receiving a higher amount.",
+   "hints": [
+    "Wrong: the workbook stresses they are not the same.",
+    "Correct: matches the workbook definitions.",
+    "Wrong: the definitions are reversed.",
+    "Wrong: savers use short-term liquid deposits; investors commit to real and capital market assets."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-02",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "A retired investor wants her portfolio to generate regular money through dividends, interest and rent to meet living expenses. Her investment objective is:",
+   "options": [
+    "Capital appreciation",
+    "Tax saving",
+    "Current income",
+    "Speculation"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Current income is pursued by investors, mostly retired people, who want regular income rather than growth in portfolio value.",
+   "hints": [
+    "Wrong: capital appreciation targets growth in value over time.",
+    "Wrong: tax saving is about reducing tax burden.",
+    "Correct: regular dividend, interest and rental income is the current income objective.",
+    "Wrong: speculation is not an investment objective."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "In which type of issue does the company receive no money because existing shareholders sell shares already allotted to them?",
+   "options": [
+    "Rights issue",
+    "Further public offer of fresh shares",
+    "Qualified Institutions Placement",
+    "Offer for Sale"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "In an OFS, existing shareholders sell shares; there is no fresh issuance, so share capital does not increase and proceeds go to the offerors.",
+   "hints": [
+    "Wrong: a rights issue raises fresh capital from existing holders.",
+    "Wrong: fresh shares in an FPO bring money to the company.",
+    "Wrong: QIP is fresh capital raised from QIBs.",
+    "Correct: OFS proceeds go to the selling shareholders."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Which type of risk in equity investing cannot be diversified away, though it can be hedged?",
+   "options": [
+    "Market risk",
+    "Company-specific risk",
+    "Sector-specific risk",
+    "Management quality risk"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Market risk affects all listed assets, is proxied by beta and cannot be diversified away, though it can be hedged.",
+   "hints": [
+    "Correct: market (systematic) risk is non-diversifiable.",
+    "Wrong: company-specific risk is diversifiable.",
+    "Wrong: sector-specific risk is non-systematic and diversifiable.",
+    "Wrong: this is a company-specific factor, diversifiable."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-05",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "A share trades at ₹240 and its EPS is ₹12. What is its P/E ratio?",
+   "options": [
+    "12 times",
+    "28.8 times",
+    "20 times",
+    "0.05 times"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "P/E = Price / EPS = 240 / 12 = 20 times.",
+   "hints": [
+    "Wrong: this is the EPS itself.",
+    "Wrong: this multiplies instead of dividing.",
+    "Correct: 240 / 12 = 20.",
+    "Wrong: this is EPS / Price (earnings yield)."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-06",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "The Economy-Industry-Company (EIC) framework for stock selection is an example of:",
+   "options": [
+    "Technical analysis",
+    "Top-down fundamental analysis",
+    "Bottom-up fundamental analysis",
+    "Arbitrage analysis"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The EIC approach starts with the economy, narrows to industries, then companies: a top-down fundamental approach.",
+   "hints": [
+    "Wrong: technical analysis studies price and volume patterns.",
+    "Correct: EIC is the top-down approach.",
+    "Wrong: bottom-up starts from the company.",
+    "Wrong: arbitrage exploits price differences between markets."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "When market interest rates rise, the prices of existing bonds generally:",
+   "options": [
+    "Rise",
+    "Remain unchanged",
+    "Rise only for zero coupon bonds",
+    "Fall"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Market interest rates and bond prices have an inverse relationship: when rates increase, bond prices decline.",
+   "hints": [
+    "Wrong: that happens when rates fall.",
+    "Wrong: prices adjust to the new rates.",
+    "Wrong: zero coupon bonds fall the most when rates rise.",
+    "Correct: inverse relationship."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which party to an option contract has a right but no obligation?",
+   "options": [
+    "The option buyer (holder)",
+    "The option writer",
+    "Both buyer and writer",
+    "The clearing corporation"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The option buyer has the right but not the obligation; the writer must honour the contract if exercised.",
+   "hints": [
+    "Correct: the holder pays a premium for the right.",
+    "Wrong: the writer has the obligation.",
+    "Wrong: only the buyer has a pure right.",
+    "Wrong: the clearing corporation guarantees settlement; it is not the option holder."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-09",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Hedge funds that use long-short strategies, leverage and derivatives are classified as:",
+   "options": [
+    "Category I AIF",
+    "Category II AIF",
+    "Category III AIF",
+    "Infrastructure Investment Trusts"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Category III AIFs employ complex trading strategies such as short selling, derivatives and leverage; hedge funds are the example.",
+   "hints": [
+    "Wrong: Category I covers VC, angel, social venture and infrastructure funds.",
+    "Wrong: Category II covers PE, debt funds and fund of funds.",
+    "Correct: hedge funds are Category III.",
+    "Wrong: InvITs own infrastructure assets."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-10",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Under SEBI (Portfolio Managers) Regulations, 2020, a portfolio manager shall not accept from a client funds or securities worth less than:",
+   "options": [
+    "₹10 lakh",
+    "₹25 lakh",
+    "₹1 crore",
+    "₹50 lakh"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The portfolio manager shall not accept funds or securities worth less than fifty lakh rupees (subject to exemptions for accredited investors and co-investment PMs).",
+   "hints": [
+    "Wrong: far below the regulatory minimum.",
+    "Wrong: the minimum is higher.",
+    "Wrong: ₹1 crore is the AIF minimum mentioned in the workbook.",
+    "Correct: ₹50 lakh."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-11",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A portfolio manager who manages funds strictly as per the directions of the client, consulting the client for every transaction but executing the trades itself, offers:",
+   "options": [
+    "Non-discretionary services",
+    "Discretionary services",
+    "Advisory services",
+    "Co-investment services"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A non-discretionary PM manages funds as per client directions; what and when to buy/sell rests with the investor while the PM executes.",
+   "hints": [
+    "Correct: execution by PM, decisions by client.",
+    "Wrong: discretionary PMs decide themselves.",
+    "Wrong: in advisory, the client also executes.",
+    "Wrong: not a service type described this way."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-12",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "If a client redeems his PMS portfolio in the second year of investment, the maximum exit load that can be charged is:",
+   "options": [
+    "3% of the amount redeemed",
+    "2% of the amount redeemed",
+    "1% of the amount redeemed",
+    "Nil"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Exit load caps: 3% in year 1, 2% in year 2, 1% in year 3, and none after three years.",
+   "hints": [
+    "Wrong: 3% applies in the first year.",
+    "Correct: 2% in the second year.",
+    "Wrong: 1% applies in the third year.",
+    "Wrong: nil applies only after three years."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-13",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "When must the Disclosure Document be given to a prospective PMS client?",
+   "options": [
+    "Within 30 days after signing the agreement",
+    "Only on the client's written request",
+    "Along with the account opening form, prior to signing the agreement",
+    "With the first quarterly report"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Regulation requires the Disclosure Document to be given with the account opening form prior to signing the agreement, and it must also be on the PM's website.",
+   "hints": [
+    "Wrong: it must come before signing.",
+    "Wrong: it is mandatory, not on request.",
+    "Correct: before the agreement is signed.",
+    "Wrong: far too late."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-14",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Operating expenses (excluding brokerage) charged by a portfolio manager over and above the PMS fee shall not exceed:",
+   "options": [
+    "0.50% per annum of the client's average daily AUM",
+    "1% per annum of the client's average daily AUM",
+    "2.25% per annum of the client's year-end AUM",
+    "There is no cap"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Operating expenses excluding brokerage shall not exceed 0.50% per annum of the client's average daily AUM.",
+   "hints": [
+    "Correct: 0.50% p.a. of average daily AUM.",
+    "Wrong: the cap is lower.",
+    "Wrong: wrong figure and wrong base.",
+    "Wrong: the regulation imposes a cap."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-15",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A portfolio manager must report a suspicious transaction to FIU-IND within:",
+   "options": [
+    "24 hours",
+    "21 calendar days",
+    "30 days",
+    "7 working days"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The portfolio manager is required to report any suspicious transaction within 7 working days to FIU.",
+   "hints": [
+    "Wrong: 24 hours is not the STR timeline.",
+    "Wrong: 21 days is the grievance redressal timeline.",
+    "Wrong: too long.",
+    "Correct: 7 working days."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-16",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "What is the first step in the portfolio management process?",
+   "options": [
+    "Constructing the portfolio",
+    "Developing the Investment Policy Statement",
+    "Measuring performance",
+    "Rebalancing the portfolio"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The first step is development of the Investment Policy Statement (IPS), a road map of risk appetite, objectives and constraints.",
+   "hints": [
+    "Wrong: construction is the third step.",
+    "Correct: the IPS comes first.",
+    "Wrong: performance measurement is the last step.",
+    "Wrong: rebalancing is part of ongoing monitoring."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-17",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A correlation coefficient of -1 between two assets means:",
+   "options": [
+    "They move in exactly the same direction",
+    "There is no relationship between them",
+    "They move in exactly opposite directions",
+    "Both assets are risk free"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Correlation ranges from -1 to +1; -1 is perfect negative correlation, meaning assets move in opposite directions.",
+   "hints": [
+    "Wrong: that is +1.",
+    "Wrong: that is 0.",
+    "Correct: perfect negative correlation.",
+    "Wrong: correlation says nothing about being risk free."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-18",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Which asset allocation approach maintains a long-term fixed mix (e.g., 70:30 equity-bond) and rebalances periodically?",
+   "options": [
+    "Tactical Asset Allocation",
+    "Momentum investing",
+    "Market timing",
+    "Strategic Asset Allocation"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "SAA sets fixed long-term proportions and rebalances periodically to restore them; the workbook's example is a 70:30 equity-bond portfolio maintained over decades.",
+   "hints": [
+    "Wrong: TAA makes short-term active shifts.",
+    "Wrong: momentum is a style factor.",
+    "Wrong: market timing is the opposite of a fixed mix.",
+    "Correct: SAA."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-19",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "In risk profiling, an investor's financial ABILITY to take risk is called:",
+   "options": [
+    "Risk capacity",
+    "Risk tolerance",
+    "Liquidity need",
+    "Investment horizon"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The workbook lists risk tolerance as willingness to take risk and risk capacity as financial ability to take risk.",
+   "hints": [
+    "Correct: capacity = ability.",
+    "Wrong: tolerance = willingness.",
+    "Wrong: liquidity need is access to funds.",
+    "Wrong: horizon is the timeframe for goals."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-20",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "A portfolio worth ₹10,00,000 at the start of the year is worth ₹11,50,000 at the end, and ₹50,000 of dividends were received. What is the holding period return?",
+   "options": [
+    "15%",
+    "20%",
+    "5%",
+    "16.5%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "HPR = (I + (E - B)) / B = (50,000 + 1,50,000) / 10,00,000 = 20%.",
+   "hints": [
+    "Wrong: ignores the dividend income.",
+    "Correct: (50,000 + 1,50,000) / 10,00,000.",
+    "Wrong: counts only the dividend.",
+    "Wrong: arithmetic slip."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-21",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "The Sharpe ratio measures excess return per unit of:",
+   "options": [
+    "Beta",
+    "Variance",
+    "Standard deviation",
+    "Risk-free rate"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Sharpe = (Rp - Rf) / σp, i.e., reward to variability using total risk (standard deviation).",
+   "hints": [
+    "Wrong: beta is used in the Treynor ratio.",
+    "Wrong: variance is SD squared; Sharpe uses SD.",
+    "Correct: standard deviation.",
+    "Wrong: risk-free rate is in the numerator."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-22",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "For a resident individual, listed equity shares held in a PMS qualify as long-term capital assets if held for more than:",
+   "options": [
+    "24 months",
+    "36 months",
+    "6 months",
+    "12 months"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Equity shares and equity-oriented MFs are long-term if held for more than 12 months.",
+   "hints": [
+    "Wrong: 24 months applies to debt investments.",
+    "Wrong: not the threshold in the workbook.",
+    "Wrong: too short.",
+    "Correct: more than 12 months."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-23",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "For an individual investor reporting PMS income as capital gains, management fees and performance fees paid to the portfolio manager are:",
+   "options": [
+    "Fully deductible from capital gains",
+    "Not deductible while computing capital gains",
+    "Deductible only up to 50%",
+    "Deductible only for STCG"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Management fees, brokerage, GST and performance fees are not deductible while computing capital gains tax for individuals.",
+   "hints": [
+    "Wrong: they are not deductible.",
+    "Correct: no deduction allowed.",
+    "Wrong: no partial deduction exists.",
+    "Wrong: applies to both STCG and LTCG."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-24",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "Under PMLA, intermediaries must keep a record of all cash transactions of value more than:",
+   "options": [
+    "₹10 lakh",
+    "₹5 lakh",
+    "₹50 lakh",
+    "₹1 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "PMLA requires records of all cash transactions of value more than ₹10 lakh or its equivalent in foreign currency.",
+   "hints": [
+    "Correct: more than ₹10 lakh.",
+    "Wrong: not the PMLA threshold.",
+    "Wrong: ₹50 lakh is the PMS minimum.",
+    "Wrong: too high."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M1-25",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "As per the code of conduct for PMS distributors, which of the following is a distributor NOT allowed to do?",
+   "options": [
+    "Assist clients in KYC and in-person verification",
+    "Disclose distribution commissions to clients",
+    "Assure returns in an investment approach",
+    "Maintain confidentiality of client details"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Distributors must abstain from assuring returns in any investment approach and from any misrepresentation.",
+   "hints": [
+    "Wrong: assisting with KYC is required.",
+    "Wrong: disclosing commissions is required.",
+    "Correct: assuring returns is prohibited.",
+    "Wrong: confidentiality is required."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

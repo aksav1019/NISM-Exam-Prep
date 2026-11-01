@@ -1,0 +1,583 @@
+{
+ "id": "mock-2",
+ "title": "Mock 2 · Rules of the Game",
+ "level": "easy",
+ "blurb": "Regulatory thresholds, structures and fund concepts, with one short caselet.",
+ "questions": [
+  {
+   "id": "xixa-M2-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which of the following is explicitly EXCLUDED from the definition of an AIF under the SEBI (AIF) Regulations?",
+   "options": [
+    "An employee welfare (ESOP) trust",
+    "A privately pooled private equity fund",
+    "A privately pooled venture capital fund",
+    "A privately pooled infrastructure fund"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Family trusts, ESOP/employee benefit trusts, holding companies, securitisation SPVs, mutual funds, CIS and funds regulated by RBI or another regulator are excluded.",
+   "hints": [
+    "Correct: ESOP and other employee benefit trusts are explicitly excluded.",
+    "Wrong: a privately pooled PE fund is a classic AIF (Category II).",
+    "Wrong: VC funds are Category I AIFs.",
+    "Wrong: infrastructure funds are Category I AIFs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "The Corporate Debt Market Development Fund (CDMDF) is classified as which category of AIF?",
+   "options": [
+    "Category II",
+    "Category III",
+    "It is not an AIF but a mutual fund scheme",
+    "Category I"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "CDMDF is classified under Category I AIF as it is set up with the broader economic objective of developing the corporate bond market and acting as a backstop during market stress.",
+   "hints": [
+    "Wrong: although it buys debt, it is placed in Category I.",
+    "Wrong: it does not use leverage or complex trading.",
+    "Wrong: it is a close-ended AIF formed as a trust.",
+    "Correct: CDMDF is classified under Category I because of its backstop purpose."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-03",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "If a scheme has total capital commitments of ₹1,000 crore and has drawn down ₹650 crore so far, the undrawn ₹350 crore is called:",
+   "options": [
+    "Carried interest",
+    "Dry powder",
+    "Hurdle",
+    "Clawback"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Invested capital is ₹650 crore against committed capital of ₹1,000 crore; the undrawn ₹350 crore is known as dry powder.",
+   "hints": [
+    "Wrong: carry is the manager's profit share.",
+    "Correct: the undrawn committed amount is known as dry powder.",
+    "Wrong: hurdle is the preferred return.",
+    "Wrong: clawback recovers excess carry."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "In the international '2-20' fee structure for private equity funds, '20' refers to:",
+   "options": [
+    "20% hurdle rate for investors",
+    "20% maximum drawdown per year",
+    "20 years of fund life",
+    "20% additional return (carried interest) to the manager"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "PE funds in developed markets have customarily been structured as '2-20': 2% management fee and 20% additional returns (carry).",
+   "hints": [
+    "Wrong: hurdle is typically ~8% in developed markets.",
+    "Wrong: no such drawdown norm.",
+    "Wrong: not a tenure reference.",
+    "Correct: 2% management fee and 20% additional return."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-05",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Category I and II AIFs may invest NOT more than what percentage of their investable funds in a single investee company?",
+   "options": [
+    "25%",
+    "10%",
+    "50%",
+    "15%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Category I and II AIFs shall invest not more than 25% of investable funds in one investee company directly or through units of other AIFs (LVFs up to 50%).",
+   "hints": [
+    "Correct: 25% of investable funds.",
+    "Wrong: 10% relates to the borrowing limit.",
+    "Wrong: 50% applies only to large value funds for accredited investors.",
+    "Wrong: 15% is the associate-holding test, not this limit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-06",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "A 'Large Value Fund for Accredited Investors' is one in which each investor (other than manager, sponsor, employees or directors) is an accredited investor investing at least:",
+   "options": [
+    "₹25 crore",
+    "₹70 crore",
+    "₹10 crore",
+    "₹1 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "LVF means an AIF/scheme in which each investor (other than manager, sponsor, employees or directors) is an accredited investor and invests not less than ₹25 crore.",
+   "hints": [
+    "Correct: minimum ₹25 crore per accredited investor.",
+    "Wrong: ₹70 crore is the PPM template/audit waiver ticket.",
+    "Wrong: ₹10 crore is the SSF minimum.",
+    "Wrong: ₹1 crore is the general minimum."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Under FEMA, an individual is generally a 'person resident in India' if he/she resided in India for more than how many days during the preceding financial year (subject to intention tests)?",
+   "options": [
+    "182 days",
+    "120 days",
+    "90 days",
+    "240 days"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 2(v) of FEMA: a person residing in India for more than 182 days during the preceding financial year, subject to intention-based exclusions.",
+   "hints": [
+    "Correct: more than 182 days in the preceding financial year.",
+    "Wrong: not the FEMA threshold.",
+    "Wrong: not the FEMA threshold.",
+    "Wrong: not the FEMA threshold."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "In which AIF structure does the offshore fund invest its entire capital into the domestic SEBI-registered AIF rather than directly into investee companies?",
+   "options": [
+    "Parallel structure",
+    "Pure offshore structure",
+    "Pure domestic structure",
+    "Unified structure"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The unified structure is like the parallel one except the offshore fund makes no direct investments; its entire capital is invested into the domestic AIF.",
+   "hints": [
+    "Wrong: in a parallel structure the offshore fund invests directly via FVCI/FDI.",
+    "Wrong: a pure offshore fund invests directly from abroad.",
+    "Wrong: a pure domestic fund has no offshore fund.",
+    "Correct: in a unified structure all offshore capital is routed through the domestic AIF."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-09",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which is a drawback of the LLP structure for an AIF compared with a trust?",
+   "options": [
+    "Partners have unlimited personal liability",
+    "LLPs cannot be registered as AIFs",
+    "LLPs cannot appoint an investment manager",
+    "Investor details come into the public domain and entry/exit of partners is cumbersome"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "An LLP demands higher compliance; all investors become partners making entry/exit cumbersome, and as LLPs are regulated by MCA, investor details come into public domain.",
+   "hints": [
+    "Wrong: partners' liability is limited to their agreed contribution.",
+    "Wrong: AIF Regulations allow LLP structures.",
+    "Wrong: an IMA is entered into with the manager.",
+    "Correct: LLPs are regulated by MCA and every investor becomes a partner."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-10",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "A bond with a 15% coupon pays interest half-yearly. What is its effective annual yield as per the workbook?",
+   "options": [
+    "15.00%",
+    "15.87%",
+    "15.56%",
+    "16.08%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Effective rate = (1 + k/m)^m − 1 = (1.075)^2 − 1 = 15.56%. Faster cash flows raise the yield.",
+   "hints": [
+    "Wrong: this is annual payment.",
+    "Wrong: this is quarterly payment.",
+    "Correct: (1 + 0.075)^2 − 1 = 15.56%.",
+    "Wrong: this is monthly payment."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-11",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "The J-curve in AIF returns refers to:",
+   "options": [
+    "Steadily rising returns from the first year",
+    "High returns early followed by a decline",
+    "Returns that track the stock market index exactly",
+    "Negative returns in early years due to fees and young investments, followed by rising returns as exits occur"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Cash flows are initially negative during the investment period due to fees and expenses; returns improve and turn positive once investments yield and are realised.",
+   "hints": [
+    "Wrong: early years are typically negative.",
+    "Wrong: this is the reverse pattern.",
+    "Wrong: AIF returns are not index-tracking.",
+    "Correct: early negative cash flows, later positive as investments are realised."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-12",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Which document qualifies the representations and warranties given by an investee company in the Share Subscription Agreement by listing specific exceptions?",
+   "options": [
+    "Private Placement Memorandum",
+    "Term sheet",
+    "Disclosure Letter",
+    "Trust deed"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The Disclosure Letter serves as a formal qualifier to absolute R&Ws in the SSA; once a fact is disclosed, the AIF generally cannot later claim breach of warranty for it.",
+   "hints": [
+    "Wrong: the PPM is the fund's offer document.",
+    "Wrong: the term sheet is a non-binding precursor.",
+    "Correct: the disclosure letter is the formal qualifier to R&Ws.",
+    "Wrong: the trust deed constitutes the AIF."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-13",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Within how many calendar days must an AIF redress investor grievances under the SCORES framework?",
+   "options": [
+    "30 calendar days",
+    "15 calendar days",
+    "21 calendar days",
+    "45 calendar days"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Based on the SEBI (Facilitation of Grievance Redressal Mechanism) amendment, AIFs shall redress investor grievances within 21 calendar days from the date of receipt.",
+   "hints": [
+    "Wrong: not the prescribed timeline.",
+    "Wrong: not the prescribed timeline.",
+    "Correct: 21 calendar days from receipt.",
+    "Wrong: not the prescribed timeline."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-14",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Why should an investor NOT rely solely on the fact that a reputed institution has committed capital to an AIF?",
+   "options": [
+    "Every investor has specific outcomes and must do its own due diligence",
+    "Institutions are barred from investing in AIFs",
+    "Institutional commitments are not counted in the corpus",
+    "Institutions always get guaranteed returns through side letters"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Investors should not take comfort from the fact that a large institution has committed capital; every investor may have specific required outcomes from due diligence.",
+   "hints": [
+    "Correct: the workbook warns against borrowed comfort from a large institution's commitment.",
+    "Wrong: institutions are major AIF investors.",
+    "Wrong: their commitments form part of the corpus.",
+    "Wrong: no AIF investor gets guaranteed returns."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-15",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which agencies have published AIF benchmarks after appointment by IVCA?",
+   "options": [
+    "SEBI, RBI and NISM",
+    "AMFI, BSE and CDSL",
+    "ICRA, CARE and NSDL",
+    "CRISIL, NSE and Preqin"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Currently three benchmarking agencies appointed by IVCA (CRISIL, NSE and Preqin) publish AIF benchmarks for all categories, in USD and INR.",
+   "hints": [
+    "Wrong: these are regulators/educators.",
+    "Wrong: not the named agencies.",
+    "Wrong: not the named agencies.",
+    "Correct: the three benchmarking agencies named in the workbook."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-16",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A manager invests well above the mandatory minimum continuing interest in its own fund. From an investor's perspective this primarily signals:",
+   "options": [
+    "That the fund is guaranteed to perform",
+    "That the manager will charge no fees",
+    "Greater 'skin in the game' and alignment of interests",
+    "That the fund will be listed"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Continuing interest provides 'skin in the game' for the manager; many first-time managers invest more than the minimum to give investors comfort.",
+   "hints": [
+    "Wrong: no guarantee is implied.",
+    "Wrong: fees are unrelated to commitment.",
+    "Correct: continuing interest removes a main source of misalignment and moral hazard.",
+    "Wrong: listing is unrelated."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-17",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "In an AIF trust, investors are typically given which of the following to show their determinate share, rather than unit certificates?",
+   "options": [
+    "A share certificate",
+    "A partnership deed",
+    "A statement of account",
+    "A debenture trust deed"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "In the trust structure, unit certificates are not required, but a statement of account needs to be furnished to investors to show their determinate share.",
+   "hints": [
+    "Wrong: shares are for companies.",
+    "Wrong: partnership deeds are for LLPs.",
+    "Correct: a statement of account is furnished to investors.",
+    "Wrong: unrelated instrument."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-18",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Which statement about SEBI's role regarding an AIF's PPM is correct?",
+   "options": [
+    "SEBI approves the PPM and guarantees its accuracy",
+    "SEBI drafts the PPM for the AIF",
+    "SEBI gives observations but does not approve the PPM",
+    "The PPM is never filed with SEBI"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "SEBI provides only observations on the PPM and does not approve it; the disclaimer states SEBI assumes no responsibility for accuracy of disclosures.",
+   "hints": [
+    "Wrong: the mandated disclaimer says the opposite.",
+    "Wrong: the manager and merchant banker are responsible.",
+    "Correct: submission to SEBI does not mean approval.",
+    "Wrong: PPMs are filed with SEBI."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-19",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Under Regulation 27, the manager or sponsor must maintain records such as valuation policies and rationale for investments for how long?",
+   "options": [
+    "5 years after the winding up of the fund",
+    "3 years from the date of each investment",
+    "8 years from registration",
+    "Until the final close"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "All records under Regulation 27 are required to be maintained for a period of five years after the winding up of the fund.",
+   "hints": [
+    "Correct: five years after winding up.",
+    "Wrong: not the prescribed period.",
+    "Wrong: not the prescribed period.",
+    "Wrong: records must outlive the fund."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-20",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Using CAPM, what is the cost of equity if the risk-free rate is 7%, the market return is 13% and the company's beta is 1.5?",
+   "options": [
+    "16%",
+    "19.5%",
+    "13%",
+    "10.5%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Cost of equity = Rf + β × (ER − Rf) = 7% + 1.5 × 6% = 16%.",
+   "hints": [
+    "Correct: 7% + 1.5 × (13% − 7%) = 16%.",
+    "Wrong: 1.5 × 13% is not the CAPM formula.",
+    "Wrong: that is just the market return.",
+    "Wrong: 1.5 × 7% ignores the market premium."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-21",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "At what rate must a Category I/II AIF deduct tax on income (other than business income) distributed to RESIDENT investors?",
+   "options": [
+    "20%",
+    "10%",
+    "30%",
+    "Nil"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "As per section 393, an Investment Fund deducts tax at 10% on income (other than business income) distributed to resident investors.",
+   "hints": [
+    "Wrong: 20% applies to dividends paid to non-residents.",
+    "Correct: 10% on all income other than business income.",
+    "Wrong: not the withholding rate.",
+    "Wrong: TDS is applicable."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M2-22",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Based on the case, what is the MINIMUM continuing interest Raghav Capital must hold if the scheme closes at ₹200 crore?",
+   "options": [
+    "₹2.5 crore",
+    "₹5 crore",
+    "₹7.5 crore",
+    "₹50 lakh"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Continuing interest = lower of 2.5% of corpus (₹5 crore) or ₹5 crore = ₹5 crore.",
+   "hints": [
+    "Wrong: 2.5% of ₹100 crore, not the corpus here.",
+    "Correct: 2.5% of ₹200 crore = ₹5 crore, which equals the cap, so ₹5 crore.",
+    "Wrong: 2.5% of ₹300 crore exceeds the ₹5 crore cap.",
+    "Wrong: arithmetic error."
+   ],
+   "numeric": true,
+   "case": "Raghav Capital is the sponsor and manager of 'Raghav Growth Fund', a SEBI-registered Category II AIF trust. The first scheme targets a corpus of ₹200 crore with a green-shoe option of ₹100 crore. Investors include HNIs, two employees of the manager, and a family office. The scheme has a 7-year tenure from first close. Raghav Capital plans to invest in later-stage unlisted consumer companies and wants to keep its own commitment as small as the regulations allow. A distributor, Meera, is pitching the scheme to her clients."
+  },
+  {
+   "id": "xixa-M2-23",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "If the green-shoe is fully subscribed and the corpus becomes ₹300 crore, the sponsor/manager commitment required will be:",
+   "options": [
+    "₹7.5 crore",
+    "₹5 crore",
+    "₹2.5 crore",
+    "₹10 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Lower of 2.5% × ₹300 crore (₹7.5 crore) and ₹5 crore = ₹5 crore.",
+   "hints": [
+    "Wrong: ignores the 'whichever is lower' cap.",
+    "Correct: 2.5% would be ₹7.5 crore but the lower figure, ₹5 crore, applies.",
+    "Wrong: arithmetic error.",
+    "Wrong: ₹10 crore was the old Category III cap."
+   ],
+   "numeric": true,
+   "case": "Raghav Capital is the sponsor and manager of 'Raghav Growth Fund', a SEBI-registered Category II AIF trust. The first scheme targets a corpus of ₹200 crore with a green-shoe option of ₹100 crore. Investors include HNIs, two employees of the manager, and a family office. The scheme has a 7-year tenure from first close. Raghav Capital plans to invest in later-stage unlisted consumer companies and wants to keep its own commitment as small as the regulations allow. A distributor, Meera, is pitching the scheme to her clients."
+  },
+  {
+   "id": "xixa-M2-24",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "What is the minimum amount each of the two employees of the manager must invest if they participate in their individual capacity?",
+   "options": [
+    "₹1 crore",
+    "₹25 lakh",
+    "₹10 lakh",
+    "No minimum applies to employees"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Contribution of each employee or director of the fund or of the investment manager shall not be less than ₹25 lakh.",
+   "hints": [
+    "Wrong: ₹1 crore applies to other investors.",
+    "Correct: employees/directors of the AIF or manager need at least ₹25 lakh.",
+    "Wrong: not a prescribed threshold.",
+    "Wrong: a minimum of ₹25 lakh applies."
+   ],
+   "numeric": false,
+   "case": "Raghav Capital is the sponsor and manager of 'Raghav Growth Fund', a SEBI-registered Category II AIF trust. The first scheme targets a corpus of ₹200 crore with a green-shoe option of ₹100 crore. Investors include HNIs, two employees of the manager, and a family office. The scheme has a 7-year tenure from first close. Raghav Capital plans to invest in later-stage unlisted consumer companies and wants to keep its own commitment as small as the regulations allow. A distributor, Meera, is pitching the scheme to her clients."
+  },
+  {
+   "id": "xixa-M2-25",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "While pitching the scheme, which statement by Meera would be a breach of distributor good practices?",
+   "options": [
+    "'Please read the PPM, especially the risk factors.'",
+    "'This scheme will definitely deliver at least 15% a year.'",
+    "'The management fee and carry are disclosed in the PPM.'",
+    "'The scheme is close-ended and illiquid for its 7-year tenure.'"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Distributors must abstain from indicating or assuring returns, unless it is a pure debt scheme with assured returns explicitly provided in the PPM.",
+   "hints": [
+    "Wrong: urging investors to read the PPM is a good practice.",
+    "Correct: assuring returns in an equity AIF is prohibited.",
+    "Wrong: disclosing fees and carry is required.",
+    "Wrong: highlighting illiquidity is proper risk disclosure."
+   ],
+   "numeric": false,
+   "case": "Raghav Capital is the sponsor and manager of 'Raghav Growth Fund', a SEBI-registered Category II AIF trust. The first scheme targets a corpus of ₹200 crore with a green-shoe option of ₹100 crore. Investors include HNIs, two employees of the manager, and a family office. The scheme has a 7-year tenure from first close. Raghav Capital plans to invest in later-stage unlisted consumer companies and wants to keep its own commitment as small as the regulations allow. A distributor, Meera, is pitching the scheme to her clients."
+  }
+ ]
+}

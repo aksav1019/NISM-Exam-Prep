@@ -1,0 +1,583 @@
+{
+ "id": "mock-3",
+ "title": "Mock 3 · Rules of the Road",
+ "level": "easy",
+ "blurb": "Deadlines, approvals and categories: the compliance calendar every RIA lives by.",
+ "questions": [
+  {
+   "id": "xc-M3-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Apart from the track-record-and-AUM route, how else can a fund qualify to offer the new asset class?",
+   "options": [
+    "By appointing experienced fund managers with a proven track record in managing large portfolios",
+    "By obtaining a banking licence from RBI",
+    "By listing the AMC on a stock exchange",
+    "By having at least 1 lakh retail investors"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The deck says funds can alternatively qualify by appointing experienced fund managers with a proven track record in managing large portfolios.",
+   "hints": [
+    "Correct: the alternative route is experienced fund managers.",
+    "A banking licence is irrelevant.",
+    "AMC listing is not an eligibility route.",
+    "Investor count is not mentioned as a route."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-02",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "How does the new asset class differ from traditional MFs in its use of derivatives?",
+   "options": [
+    "It must invest at least 50% in derivatives",
+    "It may use derivatives for purposes beyond hedging",
+    "It cannot use derivatives at all",
+    "It may use derivatives only for hedging"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Investment flexibility includes exposure to derivatives for purposes beyond hedging, along with proposed relaxations in single-issuer and sector limits.",
+   "hints": [
+    "No minimum derivatives allocation is prescribed.",
+    "Correct: derivatives beyond hedging are permitted.",
+    "Derivatives are allowed, and more flexibly.",
+    "Hedging-only is the traditional restriction it relaxes."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-03",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "What range of dividend yields have Indian REITs delivered so far, as per the deck?",
+   "options": [
+    "2 to 4% p.a.",
+    "8 to 10% p.a.",
+    "6 to 8% p.a.",
+    "12 to 15% p.a."
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "REITs provide regular income with dividend yields in the range of 6 to 8% p.a. so far.",
+   "hints": [
+    "2-4% is too low.",
+    "8-10% is the InvIT range.",
+    "Correct: 6-8% for REITs.",
+    "12-15% is not mentioned."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-04",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Which sale date is a key cut-off in determining which capital gains rules apply after Budget 2024?",
+   "options": [
+    "January 1, 2025",
+    "March 31, 2023",
+    "February 1, 2024",
+    "July 23, 2024"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The 'Sell date' categories are: before July 23, 2024; on or after July 23, 2024 but before April 1, 2025; and later.",
+   "hints": [
+    "January 1, 2025 is not listed.",
+    "March 31, 2023 is not a sell-date cut-off in the deck.",
+    "February 1, 2024 is not listed as a cut-off.",
+    "Correct: July 23, 2024."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-05",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Which of the following is NOT listed in the deck as an important concept for understanding capital gains tax?",
+   "options": [
+    "Dividend distribution tax",
+    "Set-off provisions",
+    "Indexation",
+    "Grandfathering"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The important concepts listed are indexation, holding period, grandfathering and set-off provisions.",
+   "hints": [
+    "Correct: DDT is not among the listed concepts.",
+    "Set-off provisions are listed.",
+    "Indexation is listed.",
+    "Grandfathering is listed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-06",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "BSE was recognised as IAASB under which regulation of the SEBI (Investment Advisers) Regulations, 2013?",
+   "options": [
+    "Regulation 15",
+    "Regulation 19(3)",
+    "Regulation 7",
+    "Regulation 14"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Recognition was granted under Regulation 14 of the RA Regulations, 2014 and IA Regulations, 2013.",
+   "hints": [
+    "Regulation 15 is not cited for recognition.",
+    "Regulation 19(3) is about the annual compliance audit.",
+    "Regulation 7 is not cited for recognition.",
+    "Correct: Regulation 14."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-07",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Adverse findings of an IA's annual compliance audit, with action taken, must reach BSE no later than which date for the previous financial year?",
+   "options": [
+    "September 30",
+    "December 31",
+    "October 31",
+    "June 30"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Adverse findings must be submitted within one month from the date of the audit report but not later than October 31 of each year for the previous FY.",
+   "hints": [
+    "September 30 is not the outer limit.",
+    "December 31 is too late.",
+    "Correct: not later than October 31.",
+    "June 30 is too early and not the stated date."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-08",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "For a non-individual IA, the annual certificate confirming compliance with client-level segregation must be obtained from:",
+   "options": [
+    "BSE",
+    "Its statutory auditor",
+    "Any SEBI-registered RA",
+    "Its compliance officer"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The certificate is from an auditor for an individual IA and from its statutory auditor for a non-individual IA, within six months of FY end.",
+   "hints": [
+    "BSE receives reports; it does not certify them.",
+    "Correct: the statutory auditor.",
+    "RAs are not auditors.",
+    "The compliance officer cannot certify his own firm."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-09",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "By what date were market participants, including IAs, required to register on the ODR portal?",
+   "options": [
+    "September 15, 2023",
+    "May 01, 2023",
+    "July 25, 2024",
+    "March 15, 2024"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "ODR key requirements: register on the ODR portal latest by September 15, 2023.",
+   "hints": [
+    "Correct: September 15, 2023.",
+    "May 01, 2023 is the display-of-details effective date.",
+    "July 25, 2024 is the BSE-IAASB start date.",
+    "March 15, 2024 is the ad approval number display date."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-10",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "When applying for BSE approval of an advertisement, what is Annexure A?",
+   "options": [
+    "Details of individuals appearing in the advertisement",
+    "Confirmation of compliance with the Code of Advertisement",
+    "List of clients who will receive the ad",
+    "Proof of payment of fees"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Annexure A is the confirmation of compliance with the Code of Advertisement; Annexure B applies if the ad has individuals forming part of it.",
+   "hints": [
+    "That is Annexure B.",
+    "Correct: compliance confirmation.",
+    "Client lists are not submitted.",
+    "Fee payment is separate."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-11",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Under the advertisement code, an influencer is treated as a celebrity (and so cannot be used) if they have:",
+   "options": [
+    "More than 50 lakh followers across all handles",
+    "More than 1 lakh followers in total",
+    "More than 10 lakh followers/subscribers per social media handle",
+    "Any paid partnership with a brand"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Celebrity includes 'an influencer with more than 10 Lacs followers/subscribers (per social media handle)'.",
+   "hints": [
+    "The test is per handle and the number is 10 lakh.",
+    "1 lakh is too low a threshold.",
+    "Correct: more than 10 lakh per handle.",
+    "A paid partnership alone is not the test."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-12",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "From which date must IA advertisements display the 'BSE Limited Advertisement Approval Number'?",
+   "options": [
+    "April 1, 2025",
+    "July 25, 2024",
+    "May 26, 2023",
+    "March 15, 2024"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Display of BSE Limited Advertisement Approval Number at the time of publishing is effective March 15, 2024.",
+   "hints": [
+    "April 1, 2025 is not relevant.",
+    "July 25, 2024 is when BSE began as IAASB.",
+    "May 26, 2023 is the date of the BASL Code of Advertisement.",
+    "Correct: March 15, 2024."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-13",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "A third party publishes an advertisement for an IA without the IA's consent. What must the IA do?",
+   "options": [
+    "Ask SEBI to approve it retrospectively",
+    "Pay the BSE fee to regularise it",
+    "Disown the advertisement, inform BSE and take appropriate legal action against the entity",
+    "Ignore it, as the IA did not issue it"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "If a third party issues an ad without the IA's consent, the IA shall disown it, inform BSE and take appropriate legal action.",
+   "hints": [
+    "There is no retrospective SEBI approval.",
+    "Paying a fee does not regularise an unauthorised ad.",
+    "Correct: disown, inform BSE, take legal action.",
+    "Ignoring it is not allowed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-14",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Within what time must Qualified REs obtain ISO 27001 certification under CSCRF?",
+   "options": [
+    "Within 5 years",
+    "Within 1 year of issuance of CSCRF",
+    "Within 3 months",
+    "It is optional for Qualified REs"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Qualified REs shall obtain ISO 27001 within 1 year of issuance of CSCRF, and submit evidence with the cyber audit report.",
+   "hints": [
+    "5 years is not the timeline.",
+    "Correct: within 1 year.",
+    "3 months is not the timeline.",
+    "It is mandatory for Qualified REs."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-15",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "When is an RE's CSCRF category decided?",
+   "options": [
+    "At the beginning of the financial year, based on the previous financial year's data",
+    "Whenever SEBI inspects the RE",
+    "Once at registration, permanently",
+    "Every quarter, based on current AUM"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The category is decided at the beginning of the FY based on previous-FY data, and remains the same throughout that FY.",
+   "hints": [
+    "Correct: start of FY using previous-FY data.",
+    "Inspections do not set the category.",
+    "It is reviewed annually, not fixed forever.",
+    "It is not re-set every quarter."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-16",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "CSCRF is divided into four parts. What does Part II contain?",
+   "options": [
+    "Structured formats for compliance",
+    "Annexures and References",
+    "Objectives and Standards",
+    "Guidelines recommending measures to comply with the standards"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Part I: Objectives and Standards; Part II: Guidelines; Part III: Structured formats for compliance; Part IV: Annexures and References.",
+   "hints": [
+    "That is Part III.",
+    "That is Part IV.",
+    "That is Part I.",
+    "Correct: Part II is Guidelines (a few are mandatory)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-17",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "For REs where an IT Committee is mandatory, what is the composition requirement mentioned in CSCRF?",
+   "options": [
+    "It must have a majority of BSE nominees",
+    "It must be chaired by a SEBI nominee",
+    "It must include the statutory auditor",
+    "It must include at least one external independent technology expert"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "For Mid-size and Qualified REs, the IT Committee is mandatory and must include at least one external independent technology expert.",
+   "hints": [
+    "BSE nominees are not required.",
+    "No SEBI nominee is required.",
+    "The statutory auditor is not a required member.",
+    "Correct: at least one external independent technology expert."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-18",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "In a body corporate registered as an IA, who bears primary responsibility for maintaining appropriate standards of conduct?",
+   "options": [
+    "The compliance auditor",
+    "Each client",
+    "Senior management",
+    "BSE"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Responsibility of senior management: the senior management of a body corporate IA shall bear primary responsibility for standards of conduct and proper procedures.",
+   "hints": [
+    "The auditor checks compliance but is not primarily responsible.",
+    "Clients are not responsible for the IA's conduct.",
+    "Correct: senior management.",
+    "BSE supervises but the IA's management is primarily responsible."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-19",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Under the Code of Conduct in Schedule III of the SEBI (Intermediaries) Regulations, 2008, an intermediary shall not:",
+   "options": [
+    "Disburse dividends promptly to clients",
+    "Increase any fees or charges for services rendered without proper notice",
+    "Inform SEBI of legal proceedings against it",
+    "Maintain backups of electronic records"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The intermediary code states it shall not increase any fees or charges for the services rendered without a proper notice.",
+   "hints": [
+    "Prompt disbursal is required, not prohibited.",
+    "Correct: no fee increase without proper notice.",
+    "Informing SEBI of proceedings is required.",
+    "Backups are required."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-20",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "A SEBI order cited in the training penalised a non-individual IA for its name. What was the requirement?",
+   "options": [
+    "A non-individual IA must include the words 'investment adviser' in its name",
+    "The name must include the BSE enlistment number",
+    "The name must not exceed 20 characters",
+    "The name must include 'SEBI registered'"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Case 7: the Investment Adviser, not being an individual, shall include the words 'investment adviser' in its name.",
+   "hints": [
+    "Correct: 'investment adviser' must be in the name.",
+    "The enlistment number is a disclosure, not part of the name.",
+    "No length limit is cited.",
+    "Using 'SEBI registered' in the name is not the requirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-21",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "In one SEBI order, an IA did not hold a valid NISM X-A certification for almost how long?",
+   "options": [
+    "30 days",
+    "6 months",
+    "3 years",
+    "16 months"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Case 2: the Noticee did not have a valid NISM X-A certification for almost 16 months, violating the IA Regulations.",
+   "hints": [
+    "30 days is not the period cited.",
+    "6 months is not the period cited.",
+    "3 years is not the period cited.",
+    "Correct: about 16 months."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-22",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A client increases his equity allocation only because markets rose sharply in the last three months. Which bias is this?",
+   "options": [
+    "Ownership bias",
+    "Winner's curse",
+    "Recency bias",
+    "Ambiguity aversion"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Recency bias is making decisions based on recent results, which can lead to incorrect conclusions; 'yesterday's truth is not tomorrow's'.",
+   "hints": [
+    "Ownership bias is overvaluing what you own.",
+    "Winner's curse is overpaying to win a bid.",
+    "Correct: overweighting recent performance.",
+    "Ambiguity aversion is avoiding unknown probabilities."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-23",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "The Ellsberg paradox (choosing between a bag with 50 red/50 blue balls and a bag of unknown mix) illustrates:",
+   "options": [
+    "Herding bias",
+    "Ambiguity aversion",
+    "Anchoring bias",
+    "Confirmation bias"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "More people chose the bag with known 50% odds; this tendency to prefer known risks over unknown risks is ambiguity aversion.",
+   "hints": [
+    "Herding is following the crowd.",
+    "Correct: ambiguity aversion.",
+    "Anchoring is relying on first information.",
+    "Confirmation bias is seeking confirming information."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-24",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which of the following is a typical basis for tactical/dynamic deviation from the strategic asset allocation?",
+   "options": [
+    "Valuation changes and momentum",
+    "The number of folios held",
+    "The adviser's fee structure",
+    "The client's date of birth"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Tactical/dynamic allocation deviates from SAA based on opportunities, momentum, valuation changes and the fund manager's views.",
+   "hints": [
+    "Correct: valuation and momentum are cited triggers.",
+    "Folio count is irrelevant.",
+    "Fee structure is irrelevant.",
+    "Date of birth is not a tactical trigger."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M3-25",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "The 'four truths' of asset allocation quoted in the module come from:",
+   "options": [
+    "SEBI's Master Circular for IAs",
+    "Charles D. Ellis's foreword to Roger C. Gibson's 'Asset Allocation: Balancing Financial Risk'",
+    "Warren Buffett's shareholder letters",
+    "John Maynard Keynes's General Theory"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The slides attribute the four truths to Charles D. Ellis's foreword to the 4th edition of Roger C. Gibson's Asset Allocation: Balancing Financial Risk.",
+   "hints": [
+    "SEBI circulars are not the source.",
+    "Correct: Ellis's foreword to Gibson's book.",
+    "Buffett is quoted in the behavioural module, not for the four truths.",
+    "Keynes is quoted for herding, not asset allocation."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

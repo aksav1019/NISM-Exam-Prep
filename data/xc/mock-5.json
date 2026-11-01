@@ -1,0 +1,583 @@
+{
+ "id": "mock-5",
+ "title": "Mock 5 · Full Sweep",
+ "level": "easy",
+ "blurb": "Last easy lap: fills the remaining gaps before the tough mocks.",
+ "questions": [
+  {
+   "id": "xc-M5-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which is cited as a key growth driver for InvITs in India?",
+   "options": [
+    "The government's push for infrastructure growth",
+    "Growth of gold imports",
+    "Rising demand for residential rentals",
+    "Falling GDP growth"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Key growth drivers for InvITs: the government's push for infrastructure growth and a high GDP growth rate.",
+   "hints": [
+    "Correct: government infrastructure push.",
+    "Gold imports are irrelevant.",
+    "Residential rentals are not cited, and REITs focus on commercial property.",
+    "It is HIGH GDP growth that is cited."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-02",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which challenge is common to both REITs and InvITs in India, according to the deck?",
+   "options": [
+    "Mandatory 10-year lock-in",
+    "Prohibition on listing units",
+    "Low awareness among investors and a limited number of quality assets",
+    "No SEBI regulation"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Both REITs and InvITs face low awareness among investors and a limited number of quality assets.",
+   "hints": [
+    "No such lock-in is mentioned.",
+    "Units are listed; listing is not prohibited.",
+    "Correct: low awareness and few quality assets.",
+    "Both are regulated by SEBI."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-03",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which are cited as key growth drivers for REITs?",
+   "options": [
+    "Government push for highways and telecom towers",
+    "Urbanisation and demand for office spaces",
+    "Falling interest in commercial property",
+    "Agricultural reforms"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Key growth drivers for REITs: urbanisation and demand for office spaces.",
+   "hints": [
+    "Highways and telecom are InvIT themes.",
+    "Correct: urbanisation and office demand.",
+    "Falling interest would hurt, not drive, REITs.",
+    "Agriculture is irrelevant."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-04",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "After the Budget 2024 changes, what does the deck say about tax-loss harvesting?",
+   "options": [
+    "It is compulsory before every sale",
+    "It has been banned",
+    "It is now available only to non-residents",
+    "It is still possible, though opportunities are reduced"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Tax planning: tax-loss harvesting is still possible, though opportunities are reduced due to higher LTCG tax on debt MFs and removal of indexation.",
+   "hints": [
+    "It is a planning option, not compulsory.",
+    "It was not banned.",
+    "No NRI-only rule is mentioned.",
+    "Correct: still possible, fewer opportunities."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-05",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Which are given in the deck as examples of tax-deferment vehicles an IA may use?",
+   "options": [
+    "Savings bank accounts",
+    "Credit cards",
+    "Fixed deposits with monthly payout",
+    "Mutual funds or NPS"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Implications for IAs list tax deferment vehicles, e.g. mutual funds or NPS.",
+   "hints": [
+    "Savings interest is taxed yearly; not cited as a deferment vehicle.",
+    "Credit cards are not investments.",
+    "Monthly-payout FDs are taxed as interest accrues; not cited.",
+    "Correct: MFs or NPS."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-06",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Under the ODR requirements, what change must IAs make to their investment advisory agreements?",
+   "options": [
+    "Add a provision that the parties agree to online conciliation and/or online arbitration through the ODR Portal",
+    "Remove all grievance clauses",
+    "Add a clause making BSE a party to the agreement",
+    "Add a clause waiving SCORES rights"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "IAs must amend agreements so the parties agree to undertake online conciliation and/or online arbitration by participating in the ODR Portal.",
+   "hints": [
+    "Correct: add the ODR conciliation/arbitration clause.",
+    "Grievance clauses must be updated, not removed.",
+    "BSE is not a party to advisory agreements.",
+    "Investors cannot be made to waive SCORES."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-07",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Which of the following is NOT listed as content of the half-yearly periodic report to BSE?",
+   "options": [
+    "Details of social media handles",
+    "Clients' personal income tax returns",
+    "Details of bank accounts used for fee receipt",
+    "Details of complaints and ageing analysis"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The report covers registration details, shareholding, NISM/PAIA details, social media handles, fee bank accounts, PO/CO/MD details, advertisements, complaints with ageing, clients/AUM/fee mode, etc. Clients' ITRs are not listed.",
+   "hints": [
+    "Social media handles are listed.",
+    "Correct: client ITRs are not part of the report.",
+    "Bank accounts for fees are listed.",
+    "Complaints and ageing are listed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-08",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Where must an IA display a link to the ODR Portal?",
+   "options": [
+    "Only in its annual report",
+    "Nowhere; ODR is SEBI's responsibility",
+    "On the home page of its website and mobile apps",
+    "Only on invoices"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "ODR requirements: display a link to the ODR Portal on the home page of websites and mobile apps.",
+   "hints": [
+    "The annual report alone is not enough.",
+    "IAs must display it.",
+    "Correct: website and app home page.",
+    "Invoices are not the prescribed place."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-09",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "What happened to existing SEBI-registered IAs holding BASL/BSE membership on July 25, 2024?",
+   "options": [
+    "They had to re-apply for registration with SEBI",
+    "They were moved to NSE",
+    "They were enlisted on the Exchange (BSE) automatically",
+    "Their registration lapsed"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "All existing SEBI registered RAs and IAs holding BASL/BSE membership were enlisted on the Exchange w.e.f. July 25, 2024.",
+   "hints": [
+    "No fresh SEBI application was needed.",
+    "NSE is not involved.",
+    "Correct: enlisted on BSE w.e.f. July 25, 2024.",
+    "Registrations did not lapse."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-10",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "What must accompany statistical information, graphs or charts in an IA advertisement?",
+   "options": [
+    "The logo of the stock exchange",
+    "Their source, e.g. certification by a practising professional or another authentic verifiable source",
+    "A guarantee that the trend will continue",
+    "The client's signature"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Mandatory inclusions: statistical information/graphs/charts should be supported by their source, i.e. certification by a practising professional or another authentic verifiable source.",
+   "hints": [
+    "Exchange logos are prohibited without approval.",
+    "Correct: the source must be given.",
+    "Guarantees are prohibited.",
+    "Client signatures are irrelevant."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-11",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "If an IA is also a distributor of some products, what must its advertisement mention?",
+   "options": [
+    "Specifically, in the disclaimer, that it is only a distributor of such products",
+    "The commission rate on each product",
+    "Nothing, since distribution is separate",
+    "That it guarantees those products"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Mandatory inclusions: for distributor/s of any product, mention specifically in the disclaimer that they are only distributor/s of such products.",
+   "hints": [
+    "Correct: the 'only distributor' disclaimer.",
+    "Commission rates are not the prescribed disclosure.",
+    "Disclosure is mandatory.",
+    "Guarantees are prohibited."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-12",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "For a video ad, which example is given of a clear and understandable voice-over of the standard warning?",
+   "options": [
+    "10 words in 5 seconds",
+    "50 words in 10 seconds",
+    "Any speed, if the text is on screen",
+    "20 words running for at least 10 seconds"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Voice-over reiteration must be audible and clear; e.g. both visual and voice-over containing 20 words running for at least 10 seconds.",
+   "hints": [
+    "Not the example given.",
+    "That is far too fast.",
+    "Voice-over must itself be clear.",
+    "Correct: 20 words over at least 10 seconds."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-13",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "Which of these is a mandatory disclosure in every IA advertisement?",
+   "options": [
+    "The IA's annual turnover",
+    "SEBI registration number and BSE enlistment number",
+    "The adviser's personal mobile number",
+    "Names of the IA's top five clients"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Mandatory disclosures include the IA's name and CIN, type and validity of registration, SEBI registration and BSE enlistment number, registered office address with phone numbers, and logo/brand name.",
+   "hints": [
+    "Turnover is not required.",
+    "Correct: SEBI registration and BSE enlistment numbers.",
+    "A personal mobile is not required; the registered office phone is.",
+    "Client names must never be disclosed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-14",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Within what time of completing VAPT must the report and MD/CEO declaration be submitted to SEBI?",
+   "options": [
+    "Within 15 days",
+    "Within 3 months",
+    "Within 6 months",
+    "Within 1 month"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "VAPT report submission with MD/CEO declaration: within 1 month of completion of VAPT.",
+   "hints": [
+    "15 days is the CCI evidence timeline for Qualified REs.",
+    "3 months is the closure-of-findings timeline.",
+    "6 months is not a VAPT timeline.",
+    "Correct: within 1 month."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-15",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Findings identified during VAPT must be closed within what time?",
+   "options": [
+    "Within 3 months of submission of the VAPT report",
+    "Within 1 week",
+    "Before the next financial year ends",
+    "Within 1 month of detection"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Closure of findings identified during VAPT: within 3 months of submission of the VAPT report.",
+   "hints": [
+    "Correct: 3 months from report submission.",
+    "1 week is not the timeline.",
+    "The timeline is 3 months, not FY end.",
+    "1 month is the report submission timeline."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-16",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "What must a Self-certification RE submit instead of a cyber audit report?",
+   "options": [
+    "An ISO 27001 certificate",
+    "Nothing at all",
+    "A compliance report as per Annexure-P signed by MD/CEO/Board Member/Partners/Proprietor",
+    "A CERT-In empanelment letter"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Cyber audit is not applicable for Self-certification REs; they submit a compliance report as per Annexure-P signed by MD/CEO/Board Member/Partners/Proprietor.",
+   "hints": [
+    "ISO 27001 is required of Qualified REs.",
+    "They must submit a compliance report.",
+    "Correct: Annexure-P self-certified compliance report.",
+    "CERT-In empanelment applies to auditors."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-17",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "In the cybersecurity layers diagram, firewalls, VPNs and DDoS protection belong to which layer?",
+   "options": [
+    "Application security",
+    "Data security",
+    "Network security",
+    "Physical security"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The layers diagram lists firewall, VPN, security gateway and DDoS protection under Network Security.",
+   "hints": [
+    "Application security covers threat modelling, secure coding.",
+    "Data security covers encryption, DLP, email security.",
+    "Correct: network security.",
+    "Physical security covers access control, lighting, biometrics."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-18",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "According to the Investor Charter, what should an investor do first in case of a grievance against an IA?",
+   "options": [
+    "Post it on social media",
+    "File a police complaint",
+    "Approach the High Court",
+    "Approach the concerned Investment Adviser"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Grievance mechanism: first approach the concerned IA; if not redressed satisfactorily, lodge a complaint on SEBI SCORES.",
+   "hints": [
+    "Social media is not a redressal channel.",
+    "Police are not the first step for advisory grievances.",
+    "Court is not the first step.",
+    "Correct: approach the IA first."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-19",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "In the monthly complaints data that IAs must disclose, complaints are grouped by source. Which is one of the listed sources?",
+   "options": [
+    "Income Tax Department",
+    "SEBI (SCORES)",
+    "Credit bureaus",
+    "NISM"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The format lists: directly from investors, SEBI (SCORES), and other sources (if any).",
+   "hints": [
+    "The tax department is not listed.",
+    "Correct: SEBI (SCORES) is a listed source.",
+    "Credit bureaus are not listed.",
+    "NISM is not a listed source."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-20",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Under the IA code of conduct, when conflicts of interest cannot be avoided, the IA must:",
+   "options": [
+    "Make appropriate disclosures to clients and ensure they are treated fairly",
+    "Charge a lower fee",
+    "Inform only BSE",
+    "Stop advising all clients"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Conflicts of interest: avoid as far as possible; when unavoidable, ensure appropriate disclosures and fair treatment of clients.",
+   "hints": [
+    "Correct: disclose and treat clients fairly.",
+    "A fee cut does not address the conflict.",
+    "Disclosure must be to clients.",
+    "Stopping all advice is not required."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-21",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "Under the Intermediaries Regulations code, what does 'Disbursal of amounts' require?",
+   "options": [
+    "Disbursal of profits to SEBI",
+    "Refund of all fees on demand",
+    "Disbursal of advisory fees to employees within 7 days",
+    "Prompt disbursal of dividends, interest or other accruals received on behalf of clients"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Disbursal of amounts: an intermediary shall be prompt in disbursing dividends, interests or any accrual income received or collected on behalf of clients.",
+   "hints": [
+    "Profits are not paid to SEBI.",
+    "Fee refunds on demand are not this clause.",
+    "Employee pay is not covered.",
+    "Correct: prompt disbursal of client accruals."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-22",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "An investor overpays heavily just to win a competitive bid for an asset. This is called:",
+   "options": [
+    "Winner's curse",
+    "Gambler's fallacy",
+    "Confirmation bias",
+    "Myopic loss aversion"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Winner's curse: the tendency to make sure a competitive bid is won even after overpaying; a behavioural win but possibly a financial loss.",
+   "hints": [
+    "Correct: winner's curse.",
+    "Gambler's fallacy is about predicting random events.",
+    "Confirmation bias is seeking confirming information.",
+    "Myopic loss aversion is about loss sensitivity."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-23",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "After five consecutive falls in a stock, an investor buys because 'it is now due to go up'. Which bias is this?",
+   "options": [
+    "Anchoring",
+    "Gambler's fallacy",
+    "Ambiguity aversion",
+    "Ownership bias"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Gambler's fallacy is predicting random events on the basis of what happened in the past, or seeing trends where none exist.",
+   "hints": [
+    "Anchoring fixes on initial information.",
+    "Correct: gambler's fallacy.",
+    "Ambiguity aversion avoids unknown odds.",
+    "Ownership bias overvalues what one owns."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-24",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which criteria are listed for evaluating asset allocation strategies?",
+   "options": [
+    "The adviser's brand name",
+    "The number of funds used",
+    "Risks involved, costs of transactions and taxes, and behaviour management",
+    "Past returns only"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Evaluating strategies: risks involved, costs of transactions and taxes, and behaviour management.",
+   "hints": [
+    "Brand is irrelevant.",
+    "Fund count is not a listed criterion.",
+    "Correct: risk, costs/taxes and behaviour.",
+    "Past returns alone are not the criteria."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M5-25",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "According to the key takeaways, what is the test of an asset allocation?",
+   "options": [
+    "It should be changed every quarter",
+    "The investor should be able to stay with it for the desired time horizon",
+    "It should have zero volatility",
+    "It should beat inflation every month"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Key takeaway: the test of the asset allocation is that the investor should be able to stay with it for the desired time horizon.",
+   "hints": [
+    "Frequent changes are not the test.",
+    "Correct: the investor can stay with it.",
+    "Zero volatility is impossible for growth assets.",
+    "Monthly inflation-beating is unrealistic and not the test."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

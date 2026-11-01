@@ -1,0 +1,698 @@
+{
+ "id": "mock-7",
+ "title": "Mock 7 · Final Boss",
+ "level": "tough",
+ "blurb": "Exam-eve gauntlet: multi-statement traps, scenario judgements and the trickiest timelines.",
+ "questions": [
+  {
+   "id": "xc-M7-01",
+   "chapter": 1,
+   "difficulty": "hard",
+   "q": "Consider: (I) India has 3 major REITs so far. (II) Roughly 7 InvITs are listed so far. (III) The first InvIT was launched in 2014. Which statements are correct?",
+   "options": [
+    "I, II and III",
+    "I and II only",
+    "I only",
+    "II and III only"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The deck says there are 3 major REITs and roughly 7 listed InvITs; the first InvIT was launched in 2019, not 2014.",
+   "hints": [
+    "III is false: the first InvIT came in 2019.",
+    "Correct: I and II are true; III is false.",
+    "II is also true.",
+    "III is false."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-02",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "Which statement about REITs, InvITs and the new asset class is NOT in line with the deck's key takeaways?",
+   "options": [
+    "These new products offer diversification",
+    "It is early days for these products",
+    "There is a huge opportunity along with challenges",
+    "These products and their regulations are mature and fully settled"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Key takeaways: new products offer diversification; products and regulations are still evolving; huge opportunity and challenges as these are early days.",
+   "hints": [
+    "Diversification is a stated takeaway.",
+    "'Early days' is a stated takeaway.",
+    "Opportunity with challenges is a stated takeaway.",
+    "Correct: the deck says they are still evolving, not settled."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-03",
+   "chapter": 1,
+   "difficulty": "hard",
+   "q": "Which pairing of product and growth driver is INCORRECT according to the deck?",
+   "options": [
+    "InvITs: high GDP growth rate",
+    "InvITs: government's focus on infrastructure development",
+    "REITs: government push for highways and power transmission",
+    "REITs: demand for office spaces"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "REIT drivers are urbanisation and office demand; InvIT drivers are the government's infra push and high GDP growth. Highways/power transmission are InvIT themes.",
+   "hints": [
+    "High GDP growth is an InvIT driver.",
+    "Government infra focus is an InvIT opportunity/driver.",
+    "Correct: this mixes an InvIT theme into REITs.",
+    "Office demand is a REIT driver."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-04",
+   "chapter": 2,
+   "difficulty": "hard",
+   "q": "A client holds equity mutual funds and debt funds. Based on the deck's 'implications for investment advisers', which is the most appropriate adviser action after Budget 2024?",
+   "options": [
+    "Factor the tax impact into portfolio rebalancing and consider tax-deferment vehicles",
+    "Ignore taxes, since only returns matter",
+    "Stop all rebalancing permanently to avoid tax",
+    "Advise selling all holdings before every Budget"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "IAs should optimise taxes, consider the impact on rebalancing of allocations, use tax-deferment vehicles (MFs, NPS), and guide clients to tax-efficient decisions.",
+   "hints": [
+    "Correct: balance rebalancing with tax efficiency.",
+    "Taxes affect net returns, so cannot be ignored.",
+    "Rebalancing remains necessary; it should be tax-aware.",
+    "Blanket pre-Budget selling is not advised."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-05",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "Consider: (I) Budget 2024 left Sections 80C and 80D unchanged. (II) Budget 2024 introduced a third, 3-year holding period for listed shares. Which is correct?",
+   "options": [
+    "Both I and II",
+    "Only I",
+    "Neither I nor II",
+    "Only II"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "80C and 80D were unchanged (I true). The Budget reduced holding periods to only two (1 or 2 years), so II is false.",
+   "hints": [
+    "II is false.",
+    "Correct: only I is true.",
+    "I is true.",
+    "II is false: only two periods remain."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-06",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "An IA's compliance audit report for FY 2024-25 is dated August 20, 2025 and contains adverse findings. By when must these, with action taken, be submitted to BSE?",
+   "options": [
+    "September 20, 2025",
+    "August 27, 2025",
+    "February 20, 2026",
+    "October 31, 2025"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Submission is due within one month from the audit report date but not later than October 31. One month from Aug 20 is Sept 20, which is earlier than Oct 31, so Sept 20 applies.",
+   "hints": [
+    "Correct: one month from the report, i.e. Sept 20.",
+    "7 days is the periodic report window, not this one.",
+    "Six months is far beyond the deadline.",
+    "Oct 31 is only the outer cap; the 1-month limit ends earlier here."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xc-M7-07",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "On SCORES, the IA does not upload any ATR within 21 days. What happens next in the flow?",
+   "options": [
+    "The complaint is automatically closed in the IA's favour",
+    "The complaint goes straight to a civil court",
+    "The investor must file a fresh complaint",
+    "The complaint moves to the Designated Body for first review"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Step 4 of the flowchart: if the complainant is not satisfied or there is no ATR from the entity in 21 days, the Designated Body takes up a first review.",
+   "hints": [
+    "Silence does not close the complaint.",
+    "Courts are not part of the SCORES flow.",
+    "No fresh complaint is needed.",
+    "Correct: escalation to the Designated Body (BSE)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-08",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT one of the ODR key requirements for IAs listed in the deck?",
+   "options": [
+    "Tell clients in communications that SCORES and ODR are available if unsatisfied",
+    "Update the Grievance Redressal Policy for the ODR circular",
+    "Obtain prior SEBI approval before every online conciliation",
+    "Upload the ODR Master Circular on their website"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The ODR requirements include uploading the master circular, registering, displaying the link, amending agreements and grievance policy, training staff, promoting awareness and telling clients about SCORES/ODR. Prior SEBI approval per conciliation is not a requirement.",
+   "hints": [
+    "Informing clients of SCORES/ODR is required.",
+    "Updating the grievance policy is required.",
+    "Correct: no such approval requirement exists.",
+    "Uploading the master circular is required."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-09",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "Consider: (I) After July 25, 2024, all new registrations and changes to existing IA registrations are carried out via BSE. (II) IAs submit annual reports and periodic reports to BSE as part of supervision. Which is correct?",
+   "options": [
+    "Only I",
+    "Neither I nor II",
+    "Only II",
+    "Both I and II"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The deck says all activities relating to new registration or changes are carried out via BSE (erstwhile BASL), and IAs submit annual reports, periodic reporting and compliance to BSE.",
+   "hints": [
+    "II is also true.",
+    "Both are true.",
+    "I is also true.",
+    "Correct: both are true."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-10",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "Consider these statements about the standard warning in IA ads: (I) No words may be added to or deleted from it. (II) If the ad is in a regional language, the warning must be accurately translated into that language. Which is correct?",
+   "options": [
+    "Both I and II",
+    "Only I",
+    "Neither; the warning can be paraphrased",
+    "Only II"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Footnotes to mandatory disclosures: no addition or deletion of words to/from the standard warning; if the ad is in a language other than English, the warning is accurately translated.",
+   "hints": [
+    "Correct: both are rules.",
+    "II is also a rule.",
+    "Paraphrasing is not allowed.",
+    "I is also a rule."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-11",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "A former India national football team player is approached to appear in an IA's ad. What does the code say?",
+   "options": [
+    "Allowed with BSE's Annexure B",
+    "Allowed if they have under 10 lakh followers",
+    "Not allowed; a sportsperson who has represented the country's national team is a celebrity",
+    "Allowed, since footballers are not celebrities"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Celebrity includes a sportsperson who has been part of the national team or represented the country at international level; IA ads cannot feature celebrities.",
+   "hints": [
+    "Annexure B does not permit celebrities.",
+    "The follower test is a separate limb; national-team status alone suffices.",
+    "Correct: national-team players count as celebrities.",
+    "Any national-team sportsperson qualifies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-12",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "Under the SEBI circular of April 06, 2023, which of the following is NOT required to be displayed by an IA on its website, notice board, agreements and client correspondence?",
+   "options": [
+    "Name, telephone and e-mail of the grievance officer or grievance cell",
+    "Annual turnover of the IA",
+    "Disclaimer that registration, BSE membership and NISM certification do not guarantee performance",
+    "Name, telephone and e-mail of the Compliance Officer"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Required: registered name, brand/logo, SEBI reg. no. and BSE membership ID, address with phone, Compliance Officer details, grievance officer details and the 'no guarantee' disclaimer. Turnover is not required.",
+   "hints": [
+    "Grievance officer details are required.",
+    "Correct: turnover is not required.",
+    "This disclaimer is required.",
+    "Compliance Officer details are required."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-13",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "Under the social media obligations, how must logs of employees' use of blogs, chat forums and messenger sites be treated?",
+   "options": [
+    "Shared publicly on the IA's website",
+    "Sent to clients monthly",
+    "Deleted every week for privacy",
+    "As records that the IA must maintain"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Logs for any usage of blogs/chat forums/messenger sites shall be treated as records and maintained by the IA; the Compliance Officer is liable for breach of duty in case of non-compliance.",
+   "hints": [
+    "They are not published.",
+    "They are not sent to clients.",
+    "Deleting them would breach record-keeping.",
+    "Correct: they are records to be maintained."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-14",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "An IA's ad claims its process is 'validated by independent research'. What must the ad additionally include?",
+   "options": [
+    "The source of such data and the period",
+    "Nothing, if BSE has approved the ad",
+    "A guarantee of future results",
+    "The researcher's personal phone number"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Mandatory inclusions: claims expressly based on or supported by independent research or assessment must give the source of the data and the period.",
+   "hints": [
+    "Correct: source and period.",
+    "BSE approval does not remove the inclusion requirement.",
+    "Guarantees are prohibited.",
+    "Personal contact details are not required."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-15",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "A mutual fund had AUM of ₹50,000 crore in the previous financial year. Its CSCRF category is:",
+   "options": [
+    "Self-certification RE",
+    "Small-size RE",
+    "Mid-size RE",
+    "Qualified RE"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "MF thresholds: < ₹10,000 cr Small-size; ₹10,000 cr and above but less than ₹1 lakh cr Mid-size; ₹1 lakh cr and above Qualified. Self-certification is N.A. for MFs.",
+   "hints": [
+    "Self-certification does not apply to MFs.",
+    "Small-size is below ₹10,000 cr.",
+    "Correct: ₹50,000 cr is in the Mid-size band.",
+    "Qualified starts at ₹1 lakh cr."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-16",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "Threat hunting under CSCRF is prescribed:",
+   "options": [
+    "Monthly, for Small-size REs",
+    "Quarterly, for Qualified REs only",
+    "Annually, for all REs",
+    "Half-yearly, for Mid-size REs"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The compliance timelines table shows threat hunting as quarterly for Qualified REs and not applicable to other categories.",
+   "hints": [
+    "Not prescribed for Small-size REs.",
+    "Correct: quarterly, Qualified REs only.",
+    "It does not apply to all REs.",
+    "Half-yearly is the red-teaming frequency, and only for Qualified REs."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xc-M7-17",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "How often must the IT Committee for REs meet under CSCRF, where it is mandatory?",
+   "options": [
+    "Quarterly",
+    "Monthly",
+    "Half-yearly",
+    "Annually"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "IT Committee for REs meeting periodicity: quarterly for Mid-size and Qualified REs (not applicable to others).",
+   "hints": [
+    "Correct: quarterly.",
+    "Monthly is not prescribed.",
+    "Half-yearly is not prescribed.",
+    "Annual is too infrequent."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-18",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "Review of user access rights, delegated access and unused tokens is required how often for a Qualified RE versus a Small-size RE?",
+   "options": [
+    "Monthly for both",
+    "Quarterly for Qualified; half-yearly for Small-size",
+    "Annually for Qualified; quarterly for Small-size",
+    "Half-yearly for both"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The timelines table shows user access rights review half-yearly for Self-cert, Small and Mid-size REs and quarterly for Qualified REs.",
+   "hints": [
+    "Monthly is not prescribed.",
+    "Correct: quarterly vs half-yearly.",
+    "This reverses and misstates the frequencies.",
+    "Qualified REs review more often."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-19",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "After a Qualified RE completes its cyber-resilience self-assessment using the CCI, within how many days must it submit the evidence?",
+   "options": [
+    "Within 6 hours",
+    "Within 1 year",
+    "Within 15 days of completion",
+    "Within 3 months"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Submission of CCI self-assessment evidence: within 15 days of completion of the CCI assessment (Qualified REs; assessment is annual).",
+   "hints": [
+    "6 hours is the Qualified RE incident reporting timeline.",
+    "1 year is the ISO 27001 timeline.",
+    "Correct: 15 days.",
+    "3 months is the closure-of-findings timeline."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-20",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "Consider: (I) If a PMS's AUM crosses a threshold mid-year, it moves to the higher CSCRF category immediately. (II) If any audit period is left unaudited due to a category change, it must be included in the current audit cycle. Which is correct?",
+   "options": [
+    "Both I and II",
+    "Neither I nor II",
+    "Only I",
+    "Only II"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Once the category is decided at the start of the FY, the RE stays in it all year regardless of changes, so I is false. Any period left unaudited is included in the current audit cycle, so II is true.",
+   "hints": [
+    "I is false.",
+    "II is true.",
+    "I is false: the category is fixed for the whole FY.",
+    "Correct: only II is true."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-21",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "An IA had 5 complaints pending at the end of May. In June it received 12 and resolved 14. How many complaints are pending at the end of June?",
+   "options": [
+    "2",
+    "7",
+    "3",
+    "17"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Pending at month end = pending at end of last month + received − resolved = 5 + 12 − 14 = 3.",
+   "hints": [
+    "2 is an arithmetic slip.",
+    "7 is received minus opening pending (12 − 5), which is not the formula.",
+    "Correct: 5 + 12 − 14 = 3.",
+    "17 adds received to opening but ignores resolutions."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-22",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "In a SEBI order, what was wrong with the IA's risk profiling questionnaire?",
+   "options": [
+    "It was too short",
+    "It was misleading and open-ended, framed to make clients fall into the high-risk category",
+    "It was available only in English",
+    "It was sent by email"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Case 3: risk profiling questionnaires were misleading and open-ended and framed to make clients fall in the high-risk category.",
+   "hints": [
+    "Length was not the issue.",
+    "Correct: it was designed to push clients into high risk.",
+    "Language was not the issue.",
+    "Email delivery was not the issue."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-23",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "An IA shared clients' SCORES complaint information with a third party without proper agreements. Which obligation did SEBI find breached?",
+   "options": [
+    "Fair and reasonable charges",
+    "Capabilities",
+    "Responsibility of senior management only",
+    "Due care and diligence in maintaining confidentiality"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Case 2: the Noticee failed to maintain due care and diligence in maintaining confidentiality by sharing SCORES complaint information with third parties without proper agreements.",
+   "hints": [
+    "Fees were a separate violation.",
+    "Capabilities concerns resources and procedures.",
+    "The breach is confidentiality, not solely management responsibility.",
+    "Correct: confidentiality with due care and diligence."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xc-M7-24",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "SEBI found an IA had charged a client advisory fees that were:",
+   "options": [
+    "More than the client's investment amount and annual gross income",
+    "Paid by cheque",
+    "Lower than the agreed fee",
+    "Exactly equal to the fixed-fee cap"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Case 6: the Noticee charged advisory fees that were more than the investment amount and annual gross income of the client.",
+   "hints": [
+    "Correct: fees exceeding investment and income.",
+    "Cheque payment is a proper channel.",
+    "Charging less is not the violation cited.",
+    "Charging at the cap is not a violation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-25",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "Which anti-money laundering lapse appears in the SEBI orders discussed?",
+   "options": [
+    "Doing KYC through a KRA",
+    "Appointing a principal officer for AML",
+    "Filing too many suspicious transaction reports",
+    "Not adopting written procedures to implement PMLA provisions and outsourcing the same"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Case 1: not adopting any written procedures to implement the anti-money laundering provisions under the PMLA and outsourcing the same.",
+   "hints": [
+    "KYC via KRA is required.",
+    "Appointing an AML officer is good practice.",
+    "Filing STRs is not a violation.",
+    "Correct: no written PMLA procedures and outsourcing."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-26",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "Under the Investor Charter's disclosures to clients, which practice must an IA follow?",
+   "options": [
+    "Accept client funds for investment in the IA's account",
+    "Share the client's risk profile only with distributors",
+    "Not access the client's accounts or holdings for offering advice",
+    "Hold the client's demat password to execute advice"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Disclosure to clients: provide full disclosure about business, affiliations and compensation; not access client's accounts or holdings for offering advice; disclose the risk profile to the client.",
+   "hints": [
+    "Investors must not give funds to the IA.",
+    "The risk profile is disclosed to the client, not distributors.",
+    "Correct: the IA must not access client accounts/holdings.",
+    "Investors must never share login credentials with the IA."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-27",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT one of the four strategies to help investors break harmful behaviours?",
+   "options": [
+    "Rebalance into whatever performed best last quarter",
+    "Consult with your financial representative regularly",
+    "Avoid panic selling",
+    "Get to know yourself"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The four strategies: get to know yourself; avoid panic selling; stay focused on long-term goals; consult your financial representative regularly. Chasing last quarter's winners reflects recency bias.",
+   "hints": [
+    "Correct: this is recency-driven, not a strategy.",
+    "This is strategy 4.",
+    "This is strategy 2.",
+    "This is strategy 1."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-28",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "According to the module, roughly what proportion of investors working with an adviser have a formal financial plan?",
+   "options": [
+    "About 1 in 10",
+    "Nearly 7 in 10",
+    "About 3 in 10",
+    "All of them"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The 'Make a Plan' slide: nearly 7 in 10 investors working with an advisor have a formal financial plan.",
+   "hints": [
+    "Far too low.",
+    "Correct: nearly 7 in 10.",
+    "Too low.",
+    "Not all of them."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M7-29",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "A ₹10 lakh portfolio starts at 60% equity / 40% debt under a drifting allocation. Equity then rises 50% and debt rises 5%. What is the approximate equity weight now?",
+   "options": [
+    "About 65%",
+    "About 68%",
+    "About 60%",
+    "About 75%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Equity: ₹6 lakh × 1.5 = ₹9 lakh; debt: ₹4 lakh × 1.05 = ₹4.2 lakh; total ₹13.2 lakh; equity weight = 9 ÷ 13.2 ≈ 68.2%. Under drifting, no rebalancing occurs.",
+   "hints": [
+    "65% understates the drift.",
+    "Correct: 9 ÷ 13.2 ≈ 68%.",
+    "60% would require rebalancing (constant-weighting).",
+    "75% overstates the drift."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xc-M7-30",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "Consider: (I) Tactical/dynamic asset allocation can be rule-based or at the fund manager's discretion. (II) Tactical/dynamic allocation can be based only on a short-term outlook, never a long-term one. Which is correct?",
+   "options": [
+    "Both I and II",
+    "Only II",
+    "Neither I nor II",
+    "Only I"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The deck says tactical/dynamic allocation could be rule-based or at the FM's discretion, and could be based on a short-term OR long-term outlook. So II is false.",
+   "hints": [
+    "II is false.",
+    "II is false: it can be short or long term.",
+    "I is true.",
+    "Correct: only I is true."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

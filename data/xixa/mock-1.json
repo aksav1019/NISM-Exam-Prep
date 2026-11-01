@@ -1,0 +1,583 @@
+{
+ "id": "mock-1",
+ "title": "Mock 1 · Foundations",
+ "level": "easy",
+ "blurb": "Core definitions, categories and the big regulatory numbers across all 13 chapters.",
+ "questions": [
+  {
+   "id": "xixa-M1-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "What is the essential characteristic that distinguishes alternative investments from traditional investments?",
+   "options": [
+    "Guaranteed returns",
+    "Illiquidity",
+    "Listing on a stock exchange",
+    "Regular dividend income"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The workbook states the essential characteristic of alternative investments is illiquidity, whereas traditional investments are defined by liquidity (nearness to cash).",
+   "hints": [
+    "Wrong: no investment class here offers guaranteed returns.",
+    "Correct: alternatives are not readily convertible into cash as they are off-market or complex.",
+    "Wrong: listing gives liquidity, a feature of traditional investments.",
+    "Wrong: alternatives often do not satisfy the need for regular income."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Under the SEBI (AIF) Regulations, an Angel Fund is a sub-category of which category of AIF?",
+   "options": [
+    "Category II AIF",
+    "Category III AIF",
+    "Category I AIF",
+    "Specified AIF"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Angel Fund means a sub-category fund under Category I AIF that raises funds from accredited investors.",
+   "hints": [
+    "Wrong: Category II covers PE and debt funds.",
+    "Wrong: Category III covers complex trading and leverage.",
+    "Correct: angel funds are a sub-category of Category I.",
+    "Wrong: Specified AIF is a separate fourth category."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Which of the following funds falls under Category II AIF?",
+   "options": [
+    "A social impact fund",
+    "An SME fund",
+    "A private equity fund with no government incentives",
+    "A special situation fund"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Category II includes AIFs such as private equity funds or debt funds for which no specific incentives or concessions are given by the government or any other regulator.",
+   "hints": [
+    "Wrong: social impact funds are Category I.",
+    "Wrong: SME funds are Category I.",
+    "Correct: PE and debt funds without specific incentives are Category II.",
+    "Wrong: special situation funds are a Category I sub-category."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "What is the minimum capital commitment that an AIF may accept from a regular (non-accredited, non-employee) investor?",
+   "options": [
+    "₹25 lakh",
+    "₹1 crore",
+    "₹50 lakh",
+    "₹10 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Under the AIF Regulations, an AIF shall not accept from an investor a commitment of less than ₹1 crore (₹25 lakh for employees/directors; not applicable to accredited investors).",
+   "hints": [
+    "Wrong: ₹25 lakh applies to employees/directors of the AIF or manager.",
+    "Correct: minimum investment of each investor is ₹1 crore.",
+    "Wrong: not a threshold in the AIF Regulations.",
+    "Wrong: ₹10 crore is the minimum for a Special Situation Fund."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-05",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "What is the minimum tenure of a Category I or Category II AIF scheme?",
+   "options": [
+    "3 years",
+    "5 years",
+    "7 years",
+    "1 year"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Category I and II AIFs are close ended and the tenure is determined at application subject to a minimum tenure of three years.",
+   "hints": [
+    "Correct: minimum tenure of three years.",
+    "Wrong: no 5-year minimum exists (5 years is the AI-only extension cap).",
+    "Wrong: not prescribed.",
+    "Wrong: too short; Category I and II are close-ended long-term funds."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-06",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Any material alteration to the investment strategy of an AIF requires the consent of:",
+   "options": [
+    "At least 51% of unit holders by number",
+    "At least two-thirds of unit holders by value of their investment",
+    "At least 75% of unit holders by number",
+    "SEBI alone, without investor consent"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Any material alteration to the fund strategy shall be made with the consent of at least two-thirds of unit holders by value of their investment in the AIF or scheme.",
+   "hints": [
+    "Wrong: the test is by value, and the threshold is two-thirds.",
+    "Correct: two-thirds by value is the threshold for material strategy change.",
+    "Wrong: 75% by value applies to other matters such as investing in associates.",
+    "Wrong: investor consent is mandatory."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Each scheme of an AIF must have a minimum corpus of:",
+   "options": [
+    "₹10 crore",
+    "₹20 crore",
+    "₹50 crore",
+    "₹100 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Regulation 10(b): each scheme of the AIF shall have a corpus of at least twenty crore rupees.",
+   "hints": [
+    "Wrong: not the prescribed minimum.",
+    "Correct: each scheme shall have a corpus of at least ₹20 crore.",
+    "Wrong: not the prescribed minimum.",
+    "Wrong: ₹100 crore is the minimum corpus for a Special Situation Fund scheme."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which legal structure is most commonly used to set up a domestic AIF in India?",
+   "options": [
+    "Company",
+    "Limited Liability Partnership",
+    "Non-banking financial company",
+    "Trust"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Almost all AIFs formed in India follow the trust structure because of operational advantages, lower compliance cost and a favourable regulatory framework.",
+   "hints": [
+    "Wrong: the company form is least preferred as it is not tax neutral.",
+    "Wrong: LLPs are popular abroad but need higher compliance in India.",
+    "Wrong: an NBFC is not an AIF structure.",
+    "Correct: almost all Indian AIFs are trusts due to operational, cost and tax advantages."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-09",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "For AIF purposes, which kind of trust is considered most appropriate?",
+   "options": [
+    "Irrevocably settled, determinate trust",
+    "Revocable, indeterminate trust",
+    "Public charitable trust",
+    "Revocable family trust"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "For AIF purposes an 'irrevocably settled, determinate trust' is considered more appropriate, which is why the corpus is divided into units.",
+   "hints": [
+    "Correct: each beneficiary's share must be distinctly ascertainable and the corpus irrevocably vested.",
+    "Wrong: in an indeterminate trust shares are not demarcated.",
+    "Wrong: public trusts serve charitable purposes.",
+    "Wrong: family trusts are excluded from the AIF definition."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-10",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "TVPI of a fund is equal to:",
+   "options": [
+    "DPI − RVPI",
+    "PIC × DPI",
+    "RVPI ÷ DPI",
+    "DPI + RVPI"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "TVPI can be calculated as (cumulative distributions + residual value) ÷ PIC, or by adding DPI and RVPI.",
+   "hints": [
+    "Wrong: values are added, not subtracted.",
+    "Wrong: PIC multiple measures how invested the fund is.",
+    "Wrong: this ratio has no meaning as a performance metric.",
+    "Correct: total value multiple = realised (DPI) + unrealised (RVPI)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-11",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "A fund has commitments of ₹500 crore, of which investors have paid in ₹400 crore. What is its PIC multiple?",
+   "options": [
+    "1.25",
+    "0.80",
+    "0.20",
+    "0.40"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "PIC multiple = paid-in capital ÷ capital commitments = 400 ÷ 500 = 0.80, meaning 80% of commitments have been drawn.",
+   "hints": [
+    "Wrong: this is commitments ÷ paid-in, the inverse.",
+    "Correct: 400 ÷ 500 = 0.80.",
+    "Wrong: 0.20 is the undrawn share.",
+    "Wrong: arithmetic error."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-12",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Which of the following is the most important investor risk that leads SEBI to require Category I and II AIFs to be close-ended?",
+   "options": [
+    "Illiquidity of underlying investments",
+    "Inflation risk on bank deposits",
+    "Exchange settlement risk",
+    "Daily mark-to-market margin risk"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Under the AIF Regulations, Category I and II AIFs need to be close ended because such investments are primarily illiquid.",
+   "hints": [
+    "Correct: Category I and II investments are primarily illiquid, hence close-ended.",
+    "Wrong: not related to AIF structure.",
+    "Wrong: most Cat I/II holdings are unlisted.",
+    "Wrong: applies to derivatives trading, not Cat I/II funds."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-13",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A term sheet executed between an AIF and a potential investee company is:",
+   "options": [
+    "A binding share subscription agreement",
+    "The private placement memorandum of the fund",
+    "A non-binding document with a validity period",
+    "A document filed with SEBI for approval"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A term sheet (LOI/SOPT) is a non-binding document that provides no contractual rights; it has a validity period within which the parties are expected to complete the transaction.",
+   "hints": [
+    "Wrong: the SSA is a binding definitive agreement signed later.",
+    "Wrong: the PPM is the fund's offer document to investors.",
+    "Correct: the term sheet is non-binding and has a validity period.",
+    "Wrong: term sheets are not filed with SEBI."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-14",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A right that obliges promoters to sell their shares to the same buyer on the same terms when the AIF decides to exit is called:",
+   "options": [
+    "Tag-along right",
+    "Drag-along right",
+    "Right of first refusal",
+    "Pre-emptive right"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A drag-along right creates an obligation on other shareholders to sell to the purchaser if the holder of the right chooses to sell; used when the AIF is a minority investor.",
+   "hints": [
+    "Wrong: tag-along lets the holder join a sale initiated by another shareholder.",
+    "Correct: drag-along drags other shareholders into the sale.",
+    "Wrong: ROFR gives first chance to buy shares being sold.",
+    "Wrong: pre-emption protects percentage holding in new issues."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-15",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "According to the workbook, the three factors fundamental to fund selection by an investor are:",
+   "options": [
+    "Credit rating, listing status, dividend history",
+    "Brand of distributor, size of commission, location of fund office",
+    "Lock-in period, NAV frequency, exit load",
+    "Ownership structure and continuing interest, alignment of interests, competing or outside interests"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "At the highest level, three factors are fundamental in fund selection: (a) ownership structure and continuing interest, (b) alignment of interests and (c) competing or outside interests.",
+   "hints": [
+    "Wrong: these relate to listed securities.",
+    "Wrong: these are not fund-quality factors and hint at conflicts.",
+    "Wrong: these are mutual-fund style features.",
+    "Correct: these are the three highest-level factors listed in section 8.2."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-16",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A 'key man clause' in an AIF's fund documents typically:",
+   "options": [
+    "Guarantees a minimum return to investors",
+    "Allows investors to redeem units on demand",
+    "Prohibits new investments if key persons are not available to devote the necessary time",
+    "Fixes the salary of the key investment team"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A key man clause prohibits the AIF/management company from making new investments if one or more key persons are not available to devote the necessary time.",
+   "hints": [
+    "Wrong: AIFs cannot guarantee returns.",
+    "Wrong: Category I and II AIFs are close-ended.",
+    "Correct: it protects investors who relied on specific key persons.",
+    "Wrong: remuneration is not the purpose of this clause."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-17",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Under SEBI's performance benchmarking framework, benchmarking of AIF performance is carried out:",
+   "options": [
+    "Quarterly, based on data at each quarter end",
+    "Monthly, based on NAV",
+    "Only once, at the end of the fund's tenure",
+    "Half-yearly, based on data as on September 30 and March 31"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Performance benchmarking shall be done on a half yearly basis based on the data as on September 30 and March 31 of each year.",
+   "hints": [
+    "Wrong: quarterly reports go to SEBI, but benchmarking is half-yearly.",
+    "Wrong: AIFs do not have monthly NAV benchmarking.",
+    "Wrong: benchmarking is periodic, not one-time.",
+    "Correct: half-yearly as of 30 September and 31 March."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-18",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which of the following is the BEST first step for an AIF distributor before recommending any scheme?",
+   "options": [
+    "Recommend the scheme that pays the highest commission",
+    "Recommend the scheme with the largest corpus",
+    "Build a customer-specific risk profile from the investor's objectives, tenure, risk appetite and liquidity needs",
+    "Share the side letters signed by other investors"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "As a first step, the distributor should have detailed discussions with the prospective investor to formulate a customer-specific risk profile (objectives, tenure, risk appetite, return expectations, liquidity).",
+   "hints": [
+    "Wrong: commission-driven selling is a malpractice.",
+    "Wrong: size alone does not establish suitability.",
+    "Correct: the workbook says the first step is detailed discussion to formulate a unique risk profile.",
+    "Wrong: side letters are confidential and bilateral."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-19",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "The Investment Management Agreement of an AIF set up as a trust is entered into between:",
+   "options": [
+    "The trustee (on behalf of the AIF) and the investment manager",
+    "Each investor and the custodian",
+    "The sponsor and SEBI",
+    "The distributor and the investor"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The IMA is required to be entered into between the trustee (on behalf of the AIF) and the investment manager; the trustee delegates its investment management powers.",
+   "hints": [
+    "Correct: the trustee delegates investment management powers to the manager through the IMA.",
+    "Wrong: the custodian agreement is separate.",
+    "Wrong: SEBI is not a party to fund contracts.",
+    "Wrong: that relationship is not governed by the IMA."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-20",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "A clause that prevents any other investor from receiving more favourable terms than a particular investor is called:",
+   "options": [
+    "Most Favoured Nation (MFN) clause",
+    "Key man clause",
+    "Clawback clause",
+    "Drag-along clause"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "An investor may insist on a 'Most Favoured Nation' clause to prevent any other investor being placed in a better position than itself.",
+   "hints": [
+    "Correct: MFN protects against better terms being given to others.",
+    "Wrong: key man relates to availability of key persons.",
+    "Wrong: clawback recovers excess carry from the manager.",
+    "Wrong: drag-along is an exit right at investee level."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-21",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Under the AIF Regulations, an AIF must provide reports to investors at least annually within how many days from the year end?",
+   "options": [
+    "90 days",
+    "30 days",
+    "365 days",
+    "180 days"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Regulation 22: AIF shall provide at least on an annual basis, within 180 days from the year end, reports to investors including financial information of investee companies and material risks.",
+   "hints": [
+    "Wrong: not the prescribed period.",
+    "Wrong: 30 days applies to the Annual Activity Report to SEBI.",
+    "Wrong: far beyond the prescribed limit.",
+    "Correct: at least annually, within 180 days from the year end."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-22",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Category I and Category II AIFs must value their investments at least once in every:",
+   "options": [
+    "6 months",
+    "3 months",
+    "12 months",
+    "2 years"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Category I and II AIFs shall undertake valuation at least once in every six months by an independent valuer; this may be enhanced to one year with 75% investor approval.",
+   "hints": [
+    "Correct: at least once every six months by an independent valuer.",
+    "Wrong: no quarterly mandate.",
+    "Wrong: one year is allowed only with approval of 75% of investors by value.",
+    "Wrong: too infrequent."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-23",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "Under the Income Tax Act, which income of a Category I or II AIF ('Investment Fund') is taxed at the fund level?",
+   "options": [
+    "Capital gains",
+    "Dividend income",
+    "Business income",
+    "Interest income"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Income other than business income is exempt at fund level and taxed in investors' hands; business income is taxable at fund level (MMR for trusts).",
+   "hints": [
+    "Wrong: capital gains pass through to investors.",
+    "Wrong: dividends pass through to investors.",
+    "Correct: business income is taxed at fund level and exempt for investors.",
+    "Wrong: interest passes through to investors."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-24",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Which of the following is a prohibited practice for an AIF distributor?",
+   "options": [
+    "Encouraging investors to read the PPM",
+    "Disclosing the hurdle rate and fees to investors",
+    "Performing in-person verification for KYC",
+    "Sharing part of the distribution commission with the investor (pass-back)"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Distributors should not extend pass-backs (giving back part of commission to investors) as this is an inherent conflict; they shall not rebate commissions to investors.",
+   "hints": [
+    "Wrong: this is a good practice.",
+    "Wrong: full disclosure is a good practice.",
+    "Wrong: IPV by own staff is a good practice.",
+    "Correct: pass-backs are an unfair practice and create conflict."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M1-25",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "The four pillars of AIF distributorship identified in the workbook are:",
+   "options": [
+    "Marketing, sales, support and relationship management",
+    "Research, trading, settlement and custody",
+    "Underwriting, listing, market making and clearing",
+    "Valuation, audit, tax and compliance"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Marketing, sales, support and relationship management form the four pillars of AIF distributorship, supported by research and product analysis.",
+   "hints": [
+    "Correct: these form the four pillars of AIF distributorship.",
+    "Wrong: these are broking/custody functions.",
+    "Wrong: these are merchant banking/exchange functions.",
+    "Wrong: these are fund administration functions."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

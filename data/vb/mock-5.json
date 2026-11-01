@@ -1,0 +1,233 @@
+{
+  "id": "mock-5",
+  "title": "Mock 5 · Mixed Revision",
+  "level": "easy",
+  "blurb": "A full-syllabus sweep weighted like the real exam, mixing 2026 updates with the classic basics.",
+  "questions": [
+    {
+      "id": "vb-M5-01", "chapter": 1, "difficulty": "easy",
+      "q": "Deciding whether to manage your own investments or outsource them to a mutual fund should be broken down into which three questions?",
+      "options": ["Can I do it? Do I want to do it? Can I afford to outsource?", "Is it safe? Is it liquid? Is it tax-free?", "What is the NAV? What is the load? What is the TER?", "Who is the sponsor? Who is the trustee? Who is the custodian?"],
+      "answer": 0, "marks": 1,
+      "explanation": "The workbook frames the choice as ability (can one do it), willingness (does one want to) and affordability (can one afford to outsource).",
+      "hints": ["Correct.", "These are product evaluation factors.", "These are scheme features.", "These are fund constituents."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-02", "chapter": 1, "difficulty": "easy",
+      "q": "From its 1979 base of 100, the Sensex reached about 82,269 by 30 January 2026. Roughly what annual compounded appreciation does this represent (before dividends)?",
+      "options": ["8.5% p.a.", "21% p.a.", "15.4% p.a.", "11% p.a."],
+      "answer": 2, "marks": 1,
+      "explanation": "The workbook states this is an appreciation of around 15.4% p.a., compounded annually, before adding dividends.",
+      "hints": ["Too low.", "Too high.", "Correct.", "Too low."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-03", "chapter": 2, "difficulty": "easy",
+      "q": "What is the minimum investment amount for a Specialized Investment Fund (SIF)?",
+      "options": ["₹1 lakh per scheme", "₹50 lakh per strategy", "₹1 crore across the industry", "₹10 lakh across all investment strategies of the same AMC"],
+      "answer": 3, "marks": 1,
+      "explanation": "SEBI's SIF product line requires a minimum of ₹10 lakh from the investor across all investment strategies of the same AMC.",
+      "hints": ["Too low.", "Not the rule.", "Not the rule.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-04", "chapter": 2, "difficulty": "easy",
+      "q": "A Fund of Funds must invest at least what share of its total assets in the underlying fund?",
+      "options": ["65%", "95%", "80%", "100%"],
+      "answer": 1, "marks": 1,
+      "explanation": "FoFs (overseas or domestic) must invest at least 95% in the underlying fund, the same threshold as index funds/ETFs for index constituents.",
+      "hints": ["Too low.", "Correct.", "Too low.", "Not required to be 100%."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-05", "chapter": 2, "difficulty": "easy",
+      "q": "A Credit Risk Fund must invest at least 65% of its assets in corporate bonds rated:",
+      "options": ["AAA only", "AA+ and above", "AA and below (excluding AA+)", "Unrated only"],
+      "answer": 2, "marks": 1,
+      "explanation": "Credit risk funds invest at least 65% in AA and below-rated corporate bonds (AA+ excluded). Corporate bond funds invest 80% in AA+ and above.",
+      "hints": ["Not the rule.", "That is the corporate bond fund rule.", "Correct.", "Not the rule."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-06", "chapter": 3, "difficulty": "easy",
+      "q": "Under the SEBI MF Regulations 2026, the Unit Holder Protection Committee (UHPC) is constituted by, and reports to the board of:",
+      "options": ["The Asset Management Company", "AMFI", "SEBI", "The custodian"],
+      "answer": 0, "marks": 1,
+      "explanation": "The AMC must constitute a UHPC, which submits its report and recommendations to the AMC's board of directors and monitors their implementation.",
+      "hints": ["Correct.", "Not AMFI.", "Not SEBI.", "Not the custodian."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-07", "chapter": 3, "difficulty": "easy",
+      "q": "The two depositories in India that can hold mutual fund units in dematerialised form are:",
+      "options": ["CAMS and KFintech", "BSE and NSE", "CRISIL and ICRA", "NSDL and CDSL"],
+      "answer": 3, "marks": 1,
+      "explanation": "India's two depositories are National Securities Depository Limited (NSDL) and Central Depository Services Limited (CDSL); investors deal with them through depository participants.",
+      "hints": ["These are RTAs.", "These are stock exchanges.", "These are rating/valuation agencies.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-08", "chapter": 4, "difficulty": "easy",
+      "q": "Which SEBI circular provided for the new cadre of mutual fund distributors?",
+      "options": ["Circular of 1 February 2018 on TRI benchmarking", "CIR/IMD/DF/21/2012 dated 13 September 2012", "Circular of 27 October 2021 on two-tier benchmarks", "Circular of 13 June 2023 on execution-only platforms"],
+      "answer": 1, "marks": 1,
+      "explanation": "SEBI circular CIR/IMD/DF/21/2012 dated 13 September 2012 allowed empanelment of a new cadre of distributors selling simple and performing schemes.",
+      "hints": ["That is about benchmarks.", "Correct.", "That is about benchmarks.", "That is about online platforms."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-09", "chapter": 4, "difficulty": "easy",
+      "q": "Which of the following is NOT among the persons considered for the new cadre of distributors?",
+      "options": ["Postal agents", "Retired government officials (Class III and above) with 10+ years of service", "Bank correspondents notified by AMFI/AMC", "Serving fund managers of an AMC"],
+      "answer": 3, "marks": 1,
+      "explanation": "The new cadre comprises postal agents, retired govt/semi-govt officials and retired bank officers with 10+ years of service, and similar persons such as bank correspondents. Serving fund managers are not in the list.",
+      "hints": ["Eligible.", "Eligible.", "Eligible.", "Correct: not in the list."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-10", "chapter": 5, "difficulty": "easy",
+      "q": "The final SID and SAI, after incorporating SEBI's observations, must be hosted on AMFI's website:",
+      "options": ["2 days before the issue opens", "On the day the issue closes", "Within 30 days of allotment", "1 week after the NFO opens"],
+      "answer": 0, "marks": 1,
+      "explanation": "Final documents must be on AMFI's website two days before the issue opens. Drafts are available on SEBI's website.",
+      "hints": ["Correct.", "Too late.", "Too late.", "Too late."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-11", "chapter": 5, "difficulty": "easy",
+      "q": "How frequently must DEBT schemes disclose their portfolios?",
+      "options": ["Annually", "Fortnightly, within 5 days of each fortnight", "Half-yearly", "Weekly within 2 days"],
+      "answer": 1, "marks": 1,
+      "explanation": "Debt schemes disclose their portfolio fortnightly within 5 days of every fortnight, along with the yield of instruments, in addition to the monthly disclosure.",
+      "hints": ["Too infrequent.", "Correct.", "Too infrequent.", "Not the rule."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-12", "chapter": 5, "difficulty": "easy",
+      "q": "The principle that an investor who signs the application form is presumed to have read the scheme documents is called:",
+      "options": ["Caveat venditor", "Pari passu", "Caveat emptor", "Res judicata"],
+      "answer": 2, "marks": 1,
+      "explanation": "Mutual fund investments are governed by caveat emptor ('let the buyer beware'); an investor can't later claim to be unaware of facts disclosed in the documents.",
+      "hints": ["That means 'let the seller beware'.", "Means 'equal footing'.", "Correct.", "A legal doctrine on decided matters."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-13", "chapter": 6, "difficulty": "easy",
+      "q": "The additional commission for onboarding an eligible new investor through a lump sum investment is 1% of the first application subject to a maximum of:",
+      "options": ["₹500", "₹1,000", "₹5,000", "₹2,000"],
+      "answer": 3, "marks": 1,
+      "explanation": "Lump sum: 1% of the first application, capped at ₹2,000, provided the investor stays invested for at least one year. SIP: 1% of the first year's total, also capped at ₹2,000.",
+      "hints": ["Too low.", "Too low.", "Too high.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-14", "chapter": 6, "difficulty": "easy",
+      "q": "Under SEBI's PFUTP Regulations, which of these amounts to mis-selling of mutual fund units?",
+      "options": ["Not taking reasonable care to ensure the suitability of the scheme to the buyer", "Giving the investor the KIM", "Disclosing commissions on competing schemes", "Recommending an index fund to a first-time investor"],
+      "answer": 0, "marks": 1,
+      "explanation": "Mis-selling includes false or misleading statements, concealing material facts or risk factors, and not taking reasonable care to ensure suitability.",
+      "hints": ["Correct.", "Required good practice.", "Required good practice.", "Not mis-selling if suitable."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-15", "chapter": 7, "difficulty": "easy",
+      "q": "Which risk-adjusted return measure is MANDATORY for AMCs to disclose, on a daily basis?",
+      "options": ["Sharpe ratio", "Information ratio", "Treynor ratio", "Beta"],
+      "answer": 1, "marks": 1,
+      "explanation": "The Information Ratio is the only risk-adjusted return measure AMCs must disclose, daily on their website and comparably on AMFI's.",
+      "hints": ["Commonly shown in factsheets, but not mandatory.", "Correct.", "Not mandatory.", "Not a risk-adjusted return measure."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-16", "chapter": 7, "difficulty": "easy",
+      "q": "The NAV of a scheme is ₹50 and an exit load of 1% applies. What price does the redeeming investor receive per unit?",
+      "options": ["₹50.50", "₹50.00", "₹49.50", "₹49.00"],
+      "answer": 2, "marks": 1,
+      "explanation": "Repurchase price = NAV × (1 − load) = 50 × 0.99 = ₹49.50.",
+      "hints": ["The load is deducted, not added.", "Ignores the exit load.", "Correct.", "That is a 2% load."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M5-17", "chapter": 7, "difficulty": "easy",
+      "q": "The risk that interest and maturity proceeds from a bond portfolio can only be reinvested at rates lower than originally assumed is called:",
+      "options": ["Reinvestment risk", "Political risk", "Liquidity risk", "Rating migration risk"],
+      "answer": 0, "marks": 1,
+      "explanation": "Reinvestment risk concerns the rate at which interim cash flows (the 'interest on interest' component) can be reinvested.",
+      "hints": ["Correct.", "Relates to government and policy actions.", "Relates to inability to sell.", "Relates to credit rating changes."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-18", "chapter": 8, "difficulty": "easy",
+      "q": "For equity-oriented funds bought before the change, which date's value is used for grandfathering long-term capital gains?",
+      "options": ["1 April 2018", "31 March 2018", "23 July 2024", "31 January 2018"],
+      "answer": 3, "marks": 1,
+      "explanation": "Gains up to 31 January 2018 are grandfathered; the cost is taken as the higher of the purchase price or the NAV on 31 January 2018.",
+      "hints": ["The LTCG tax started then, but not the grandfathering date.", "Not the date.", "That is the date the new tax rates apply to redemptions.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-19", "chapter": 8, "difficulty": "easy",
+      "q": "Unabsorbed capital losses can be carried forward for up to:",
+      "options": ["4 years", "8 years", "10 years", "Indefinitely"],
+      "answer": 1, "marks": 1,
+      "explanation": "Unabsorbed capital loss can be carried forward up to 8 years.",
+      "hints": ["Too short.", "Correct.", "Too long.", "There is a limit."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-20", "chapter": 9, "difficulty": "easy",
+      "q": "An investor has had no transaction in any of his folios for the six months ending September. How will he receive a Consolidated Account Statement?",
+      "options": ["Monthly", "Never", "Half-yearly", "Only on request"],
+      "answer": 2, "marks": 1,
+      "explanation": "Investors with no transaction in the preceding six months (ending September or March) get a half-yearly CAS; those who transact get a monthly CAS.",
+      "hints": ["Monthly CAS is for months with transactions.", "They still receive it.", "Correct.", "It is sent automatically."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-21", "chapter": 9, "difficulty": "easy",
+      "q": "A distributor collects a redemption form from a client at 1 pm but submits it at the AMC's Official Point of Acceptance at 4 pm. Which time decides the applicable NAV?",
+      "options": ["1 pm, when the client signed", "Midnight of that day", "The time the RTA processes it next day", "4 pm, the time stamped at the OPoA"],
+      "answer": 3, "marks": 1,
+      "explanation": "Time stamping is done at the official point of acceptance; the time of submission there, not when the distributor received it, is what counts for cut-off.",
+      "hints": ["The distributor is not an OPoA.", "Not a rule.", "Processing time is irrelevant.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-22", "chapter": 9, "difficulty": "easy",
+      "q": "The SIP Pause facility allows an investor to temporarily stop SIP instalments, typically for:",
+      "options": ["1 to 6 months, without cancelling the mandate", "Up to 5 years", "Only 1 week", "Permanently, by cancelling the mandate"],
+      "answer": 0, "marks": 1,
+      "explanation": "SIP pause halts deductions for 1 to 6 months (depending on the AMC); the SIP resumes automatically and the mandate is retained.",
+      "hints": ["Correct.", "Too long.", "Too short.", "Pause is temporary and keeps the mandate."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-23", "chapter": 9, "difficulty": "easy",
+      "q": "What happens to the existing SIP in a minor's folio once the minor attains majority?",
+      "options": ["It continues automatically under the guardian", "It doubles in amount", "It ceases to be executed from the date of majority until the status is changed and a fresh mandate is given", "It is converted into an SWP"],
+      "answer": 2, "marks": 1,
+      "explanation": "SIPs, SWPs and STPs in a minor's folio run only till the date of majority. The folio is frozen until the change of status (MAM form, PAN, KYC, bank details) and a fresh mandate is registered.",
+      "hints": ["The guardian can't operate after majority.", "No such rule.", "Correct.", "No such conversion."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-24", "chapter": 10, "difficulty": "easy",
+      "q": "What share of unitholders can terminate the appointment of an AMC or pass a resolution to wind up a scheme?",
+      "options": ["51%", "66.67%", "90%", "75%"],
+      "answer": 3, "marks": 1,
+      "explanation": "75% of unitholders (unitholding) can terminate the AMC's appointment or resolve to wind up a scheme.",
+      "hints": ["Simple majority is not enough.", "Not the threshold.", "Not the threshold.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M5-25", "chapter": 10, "difficulty": "easy",
+      "q": "Under AMFI's code, how must a mutual fund distributor display the tagline 'AMFI-registered Mutual Fund Distributor' in printed communication?",
+      "options": ["Only on the website", "In a clear, legible font of at least size 12, with or below their name", "Only in the investor's vernacular language", "It is optional"],
+      "answer": 1, "marks": 1,
+      "explanation": "MFDs must display the tagline along with or below their name in at least font size 12 in all printed communication, and clearly in all other communication.",
+      "hints": ["Required in all forms of communication.", "Correct.", "Not the rule.", "It is mandatory."],
+      "numeric": false, "case": null
+    }
+  ]
+}

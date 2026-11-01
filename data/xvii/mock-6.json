@@ -1,0 +1,698 @@
+{
+ "id": "mock-6",
+ "title": "Mock 6 · Tough Numericals",
+ "level": "tough",
+ "blurb": "Exam-strength paper: corpus, PMT, SWR, NPS exit and drawdown arithmetic, plus 'NOT true' and multi-statement traps.",
+ "questions": [
+  {
+   "id": "xvii-M6-01",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "X invests ₹5,000 a month from age 25 to 35 and then stops, leaving the money invested until 60. Y invests ₹5,000 a month from 35 to 60. Both earn 8%. Which outcome does the workbook's illustration show?",
+   "options": [
+    "X ends with a larger corpus than Y despite contributing for only 10 years",
+    "X's corpus is larger only if he earns a higher rate than Y",
+    "Both end with about the same corpus",
+    "Y ends with a larger corpus because he contributed for 25 years"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "In Box 1.4, X's corpus (about ₹62.65 lakh) exceeds Y's (about ₹47.55 lakh) at the same 8%, because X's money had more time to compound.",
+   "hints": [
+    "Correct: time in the market beats the amount contributed here.",
+    "Wrong: both earn the same 8% in the illustration.",
+    "Wrong: the gap is substantial.",
+    "Wrong: Y contributed more but had less time to compound."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-02",
+   "chapter": 1,
+   "difficulty": "hard",
+   "q": "Consider these statements. I: The Old Pension Scheme was an unfunded, pay-as-you-go defined benefit scheme. II: In a funded DB scheme, contributions are set aside in a dedicated corpus that pays the promised pension. III: In a DB scheme, the employee bears the investment risk. Which are correct?",
+   "options": [
+    "I and III only",
+    "I, II and III",
+    "I and II only",
+    "II and III only"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "OPS paid pensions from the Government's current budget with no corpus (unfunded). A funded DB builds a dedicated corpus. In DB the employer, not the employee, bears investment and longevity risk, so III is false.",
+   "hints": [
+    "Wrong: III is false; DB risk lies with the employer.",
+    "Wrong: III is false.",
+    "Correct: I and II are true; III is false.",
+    "Wrong: III is false and I is true."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-03",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "Which statement about government securities for retail investors is NOT correct?",
+   "options": [
+    "Interest on G-secs is subject to TDS",
+    "The minimum investment is ₹10,000",
+    "Retail investors can open an RBI Retail Direct Gilt account free of cost",
+    "There is no cumulative option in a G-sec"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Interest on G-secs is NOT subject to TDS, though it is fully taxable. The other statements are correct.",
+   "hints": [
+    "Correct (this is the false statement): G-sec interest is not subject to TDS.",
+    "Wrong choice: ₹10,000 is the stated minimum.",
+    "Wrong choice: RDG accounts are free under RBI Retail Direct (since 12 Nov 2021).",
+    "Wrong choice: there is indeed no cumulative option."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-04",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "A mutual fund scheme must invest in at least three asset classes with a minimum allocation of 10% to each. It is a:",
+   "options": [
+    "Equity Savings Fund",
+    "Dynamic Asset Allocation Fund",
+    "Balanced Hybrid Fund",
+    "Multi-Asset Allocation Fund"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Multi-Asset Allocation Funds invest in at least 3 asset classes with a minimum 10% allocation to each asset class.",
+   "hints": [
+    "Wrong: equity savings funds hold at least 65% equity and 10% debt.",
+    "Wrong: dynamic funds shift between equity and debt.",
+    "Wrong: balanced hybrids hold 40-60% equity and 40-60% debt.",
+    "Correct: at least 3 asset classes, at least 10% each."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-05",
+   "chapter": 2,
+   "difficulty": "hard",
+   "q": "The government runs a large fiscal deficit funded through heavy market borrowings. According to the workbook, the likely effect on asset classes is:",
+   "options": [
+    "Bond prices rise because government supply increases",
+    "Interest rates fall, helping interest-rate sensitive sectors",
+    "Equity markets rally because government spending always boosts profits",
+    "Market yields rise, bond prices fall and equity markets weaken as company profits are squeezed"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A high fiscal deficit crowds out other borrowers and pushes up market yields; higher yields pull down bond values, and equity falls on expected lower profitability. Interest-rate sensitive sectors slow down.",
+   "hints": [
+    "Wrong: more supply and higher yields lower bond prices.",
+    "Wrong: heavy borrowing pushes rates up, not down.",
+    "Wrong: the workbook says spending helps only if deficits are within reasonable limits.",
+    "Correct: crowding out raises yields and hurts bonds and equity."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-06",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "Anil will need ₹80,000 a month (already inflation-adjusted to his retirement date) for 20 years of retirement. His corpus will earn 9% while inflation runs at 6%. Withdrawals are at the beginning of each month. Approximately what corpus is required (deterministic method)?",
+   "options": [
+    "₹1.47 crore",
+    "₹0.90 crore",
+    "₹1.92 crore",
+    "₹1.45 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Real rate = 1.09/1.06 − 1 = 2.83%. PV(2.83%/12, 240, −80,000, 0, 1) ≈ ₹1,46,82,929, about ₹1.47 crore.",
+   "hints": [
+    "Correct: discounting at the precise real rate.",
+    "Wrong: this discounts at the nominal 9%, ignoring inflation during retirement.",
+    "Wrong: this is 80,000 × 12 × 20 with no discounting at all.",
+    "Wrong: this uses the approximate 3% real rate instead of the precise 2.83%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-07",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "Priya needs a corpus of ₹2 crore in 20 years. Her investments are expected to earn 12% a year (monthly compounding) and she invests at the beginning of each month. Approximately how much must she invest monthly?",
+   "options": [
+    "₹20,217",
+    "₹20,017",
+    "₹83,333",
+    "₹26,120"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "PMT(12%/12, 240, 0, −2,00,00,000, 1) ≈ ₹20,017. With investments at month-end (Type 0) it would be about ₹20,217.",
+   "hints": [
+    "Wrong: this is the end-of-month (Type 0) figure.",
+    "Correct: Type 1 (beginning of month) gives about ₹20,017.",
+    "Wrong: this ignores returns (2 crore ÷ 240).",
+    "Wrong: this is the requirement at 10%, not 12%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-08",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "A client wants ₹12 lakh a year at the start of a 20-year retirement and will hold 40% in equity. Using the workbook's SWR table (40% equity, 20 years = 4.99%), the corpus required is approximately:",
+   "options": [
+    "₹3.17 crore",
+    "₹59,880",
+    "₹2.62 crore",
+    "₹2.40 crore"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Corpus = annual income ÷ SWR = 12,00,000 ÷ 0.0499 ≈ ₹2,40,48,096, about ₹2.40 crore.",
+   "hints": [
+    "Wrong: this uses the 30-year SWR for 20% equity (3.79%), not the 20-year, 40%-equity figure.",
+    "Wrong: this multiplies income by the SWR instead of dividing.",
+    "Wrong: this uses 4.58% (60% equity) instead of 4.99%.",
+    "Correct: 12 lakh ÷ 4.99%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-09",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "Which of the following changes will REDUCE the monthly savings needed to reach a client's retirement corpus?",
+   "options": [
+    "Raising the expected monthly expense in retirement",
+    "Postponing retirement by five years",
+    "Starting the savings plan five years later",
+    "Lowering the expected return from 12% to 8%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Postponing retirement adds years of saving and reduces the retirement period. Lower returns, higher expenses or a later start all increase the savings required.",
+   "hints": [
+    "Wrong: higher expenses need a larger corpus.",
+    "Correct: more years to save and fewer to fund.",
+    "Wrong: a late start sharply increases the SIP needed.",
+    "Wrong: a lower return needs larger savings (Rani's SIP doubled at 8%)."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-10",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "In the workbook's case study, a 1994 retiree with ₹1 crore (50:50 equity/debt) withdrew an inflation-indexed ₹46,260 a month, calculated deterministically. Actual returns and inflation were close to the assumptions, yet the corpus ran out about 7 years early. What explains this?",
+   "options": [
+    "Tax on the withdrawals was ignored",
+    "Volatility and sequence-of-returns risk, which the deterministic method cannot capture",
+    "Excessive annuity purchase at retirement",
+    "The assumed returns were far too high"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The outcome was not due to wrong assumptions; real returns were close to those assumed. The divergence comes from volatility and sequence of returns in a path-dependent, withdrawal-based portfolio.",
+   "hints": [
+    "Wrong: tax is not the explanation offered.",
+    "Correct: path dependence and sequence risk.",
+    "Wrong: no annuity was involved.",
+    "Wrong: the workbook says the assumptions were almost exactly correct in combination."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-11",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "Meera, a Non-Government NPS subscriber, exits normally at 60 with ₹50 lakh and takes the maximum lump sum allowed. How is this treated?",
+   "options": [
+    "Lump sum ₹50 lakh, of which ₹30 lakh is tax-free",
+    "Lump sum ₹40 lakh, all tax-free; ₹10 lakh buys an annuity",
+    "Lump sum ₹30 lakh, all tax-free; ₹20 lakh buys an annuity",
+    "Lump sum ₹40 lakh, of which ₹30 lakh is tax-free and ₹10 lakh taxable; ₹10 lakh buys an annuity not taxed at purchase"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Non-Government normal exit allows up to 80% lump sum (₹40 lakh) and at least 20% annuity (₹10 lakh). Only 60% of the total corpus (₹30 lakh) is tax-exempt, so ₹10 lakh of the lump sum is taxable. The annuity purchase is not taxed; annuity income is taxable later.",
+   "hints": [
+    "Wrong: full withdrawal is not allowed for a ₹50 lakh corpus.",
+    "Wrong: only 60% of the corpus is tax-free, not the whole 80%.",
+    "Wrong: 60:40 applies to Government subscribers.",
+    "Correct: 80% lump sum, 60% of corpus tax-free."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-12",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "A State Government employee resigns at 45 (premature exit) with an NPS corpus of ₹4.5 lakh. Which option is available?",
+   "options": [
+    "Can withdraw nothing until superannuation",
+    "Withdraw the entire ₹4.5 lakh as lump sum or through approved systematic withdrawal",
+    "Must use at least 40% of the corpus for an annuity",
+    "Can withdraw only up to ₹6 lakh with the balance annuitised"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "On premature exit, the subscriber may withdraw up to 20% and annuitise at least 80%, but where the corpus is up to ₹5 lakh the entire corpus may be withdrawn.",
+   "hints": [
+    "Wrong: premature exit is permitted.",
+    "Correct: the ₹5 lakh threshold allows full withdrawal.",
+    "Wrong: 40% annuity applies to Government normal exit.",
+    "Wrong: the ₹6 lakh rule applies to the ₹8-12 lakh normal-exit slab."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-13",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "A subscriber's NPS Tier I account shows own contributions of ₹8 lakh, employer contributions of ₹6 lakh and returns of ₹5 lakh. What is the maximum first partial withdrawal allowed?",
+   "options": [
+    "₹2,00,000",
+    "₹1,50,000",
+    "₹4,75,000",
+    "₹3,50,000"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Partial withdrawal is limited to 25% of the subscriber's own contributions, excluding employer contributions and returns: 25% × ₹8 lakh = ₹2 lakh.",
+   "hints": [
+    "Correct: 25% of ₹8 lakh.",
+    "Wrong: this is 25% of the employer contribution only.",
+    "Wrong: this is 25% of the whole corpus.",
+    "Wrong: this is 25% of own plus employer contributions."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-14",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "A subscriber aged 70 has a drawdown corpus with a market value of ₹30 lakh, a Drawdown End Age of 85 and quarterly payouts under the SPR method. What is each quarterly payout until the next birthday reset?",
+   "options": [
+    "₹50,000",
+    "₹16,667",
+    "₹37,500",
+    "₹2,00,000"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "SPR = 1 ÷ (85 − 70) = 6.67% a year. Payout per quarter = (6.67% ÷ 4) × ₹30 lakh = ₹50,000.",
+   "hints": [
+    "Correct: 6.67%/4 × 30 lakh.",
+    "Wrong: this is a monthly payout (6.67%/12), not quarterly.",
+    "Wrong: this uses a 20-year horizon (5%/4).",
+    "Wrong: this is the annual amount, not quarterly."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-15",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "Under the SUR (Equal Units) drawdown method, a subscriber holding 6,00,000 units chooses a 20-year drawdown with monthly payouts. How many units are redeemed each month?",
+   "options": [
+    "2,000",
+    "5,000",
+    "2,500",
+    "30,000"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Units per period = Total units ÷ (Drawdown period × payout frequency) = 6,00,000 ÷ (20 × 12) = 2,500.",
+   "hints": [
+    "Wrong: this assumes a 25-year period.",
+    "Wrong: this assumes a 10-year period.",
+    "Correct: 6,00,000 ÷ 240.",
+    "Wrong: this is the annual redemption."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-16",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "Which statement about the NPS Tier II account is NOT correct?",
+   "options": [
+    "NRI and OCI subscribers can open a Tier II account",
+    "Nominations made in Tier I do not automatically apply to Tier II",
+    "Asset class A (alternative investments) is not available in Tier II",
+    "Tier II schemes can invest up to 100% in equity"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Tier II is not permitted for NRI and OCI subscribers. The other statements are correct per the workbook.",
+   "hints": [
+    "Correct (this is the false statement): NRIs/OCIs cannot open Tier II.",
+    "Wrong choice: fresh nominations are needed for Tier II.",
+    "Wrong choice: asset class A is indeed not available for Tier II contributions.",
+    "Wrong choice: Tier II can go up to 100% equity."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-17",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "Fund A returned 14% with a standard deviation of 5%. Fund B returned 12% with a standard deviation of 3%. The risk-free rate is 6%. Which fund delivered the better risk-adjusted return?",
+   "options": [
+    "They are equal on a risk-adjusted basis",
+    "Fund A, because its return is higher",
+    "Fund B, Sharpe 2.0 versus 1.6",
+    "Fund A, Sharpe 2.8 versus 4.0"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Sharpe A = (14 − 6)/5 = 1.6; Sharpe B = (12 − 6)/3 = 2.0. Fund B earns more per unit of risk.",
+   "hints": [
+    "Wrong: the ratios differ.",
+    "Wrong: raw return ignores risk.",
+    "Correct: B's Sharpe ratio is higher.",
+    "Wrong: these figures ignore the risk-free rate and misread the comparison."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-18",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "An investment grew from ₹20 lakh to ₹35 lakh in 5 years. What is its CAGR?",
+   "options": [
+    "12.47%",
+    "75.00%",
+    "15.00%",
+    "11.84%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "CAGR = (35/20)^(1/5) − 1 = 11.84%.",
+   "hints": [
+    "Wrong: this would be the CAGR over 4 years for a 60% gain.",
+    "Wrong: this is the absolute return.",
+    "Wrong: this is the simple annualised return (75% ÷ 5).",
+    "Correct: 1.75^0.2 − 1."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-19",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "An investor in the 30% tax bracket is offered a tax-free bond yielding 6.5%. What pre-tax return must a comparable taxable bond offer to match it?",
+   "options": [
+    "About 4.55%",
+    "About 9.29%",
+    "6.50%",
+    "About 8.45%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Tax-equivalent yield = 6.5% ÷ (1 − 0.30) ≈ 9.29%.",
+   "hints": [
+    "Wrong: this is the post-tax return on a 6.5% taxable bond.",
+    "Correct: 6.5 ÷ 0.7.",
+    "Wrong: ignores the tax difference.",
+    "Wrong: this multiplies by 1.3 instead of dividing by 0.7."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-20",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "A private-sector employee retires after 25 completed years. His average salary is ₹60,000 a month and he receives gratuity of ₹9 lakh. Under the rule described in the workbook, how much gratuity is tax-exempt?",
+   "options": [
+    "₹7,50,000",
+    "₹9,00,000",
+    "₹15,00,000",
+    "₹20,00,000"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Exempt amount = least of: half a month's average salary × completed years (0.5 × 60,000 × 25 = ₹7.5 lakh); ₹20 lakh; actual gratuity ₹9 lakh. Least = ₹7.5 lakh.",
+   "hints": [
+    "Correct: the half-month formula gives the least amount.",
+    "Wrong: actual gratuity is not the least of the three.",
+    "Wrong: this uses a full month's salary per year.",
+    "Wrong: the ₹20 lakh ceiling is not the least."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-21",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "Which statement about the Senior Citizens' Saving Scheme is NOT correct?",
+   "options": [
+    "The investment qualifies for deduction under section 123 (old 80C) in the old regime",
+    "Interest earned is tax-free",
+    "The account can be extended in blocks of 3 years",
+    "Interest is paid quarterly"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "SCSS interest is fully taxable. The investment qualifies for the s.123 deduction, interest is paid quarterly, and the account can be extended in 3-year blocks.",
+   "hints": [
+    "Wrong choice: SCSS does qualify for s.123 in the old regime.",
+    "Correct (this is the false statement): SCSS interest is taxable.",
+    "Wrong choice: extension is in 3-year blocks.",
+    "Wrong choice: interest is paid every quarter."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-22",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "Which of the following is NOT an event that makes a Reverse Mortgage Loan due and payable?",
+   "options": [
+    "Death of the last surviving borrower",
+    "Sale of the mortgaged property",
+    "Completion of the 20-year loan tenure while the borrower still lives in the house",
+    "The borrower permanently moving out of the mortgaged house"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Periodic payments cease at the end of the tenure (max 20 years), but interest continues to accrue and the loan becomes payable only on a trigger event: death of the last surviving borrower, permanent move-out, or sale of the property.",
+   "hints": [
+    "Wrong choice: this is a trigger event.",
+    "Wrong choice: this is a trigger event.",
+    "Correct (this is not a trigger): payments stop but the loan is not yet due.",
+    "Wrong choice: this is a trigger event."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-23",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "Which order of drawing retirement income does the workbook recommend to meet needs while maximising post-tax income?",
+   "options": [
+    "Tax-free bonds first, annuity last, never the employer pension",
+    "Employer pension first for mandatory expenses, annuity for any gap, then tax-free or tax-efficient sources for other essentials",
+    "Rental income first because it is fully tax-free",
+    "Equity redemptions first, then fixed deposits, then pension"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Start with the fixed employer pension for mandatory expenses, use annuity payments to cover any shortfall, then use sources with tax benefits (tax-free bonds, reverse mortgage receipts) and income with tax adjustments (rent).",
+   "hints": [
+    "Wrong: the employer pension is the starting point.",
+    "Correct: guaranteed income first, then tax-efficient layers.",
+    "Wrong: rent is taxable after a 30% standard deduction; it is not tax-free.",
+    "Wrong: volatile equity is not the first source for essentials."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-24",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "Under an SWP of ₹20,000 a month, the NAV is ₹50 in the first month and ₹40 in the second. How many units are redeemed in the two months together?",
+   "options": [
+    "400",
+    "800",
+    "900",
+    "1,000"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Month 1: 20,000 ÷ 50 = 400 units. Month 2: 20,000 ÷ 40 = 500 units. Total = 900 units. A lower NAV means more units are redeemed.",
+   "hints": [
+    "Wrong: counts only the first month.",
+    "Wrong: assumes the NAV stayed at ₹50.",
+    "Correct: 400 + 500.",
+    "Wrong: assumes the NAV was ₹40 in both months."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-25",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "Which practice is consistent with how the workbook says the bucket strategy should be maintained?",
+   "options": [
+    "Draw expenses directly from bucket 3 every month",
+    "Set a target return (say 12%) and book profits above it into the safer bucket",
+    "Refill bucket 3 from bucket 2 after a market fall",
+    "Keep all buckets in equity to maximise growth"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "It is prudent to book profits periodically, e.g. above a 12% target, moving gains to the safer bucket so the risky asset does not become too large. Refills always flow from riskier to safer buckets.",
+   "hints": [
+    "Wrong: bucket 1 is the drawing-down bucket.",
+    "Correct: profit booking keeps risk in check.",
+    "Wrong: refilling never flows from safer to riskier buckets.",
+    "Wrong: bucket 1 must hold very low-risk products."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-26",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Why does the workbook caution against carrying a home loan into retirement just for its tax benefit?",
+   "options": [
+    "Principal repayment shares the ₹1.5 lakh section 123 limit with other eligible investments, and is not available under the new regime",
+    "Banks are not allowed to lend to retirees",
+    "Home loan interest becomes fully taxable after retirement",
+    "Mortgage rates always rise after 60"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The principal repayment benefit falls within the aggregate ₹1.5 lakh section 123 limit, which may already be used by SCSS or tax-saving FDs; under the new regime (section 202) such deductions are generally not available.",
+   "hints": [
+    "Correct: the tax saving may be small or nil.",
+    "Wrong: no such prohibition exists.",
+    "Wrong: there is no such rule.",
+    "Wrong: no such rule is stated."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-27",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "Ramesh, 52, joined NPS under the All Citizen model 8 years ago. He plans to close his NPS account entirely to repay a personal loan. What is the consequence?",
+   "options": [
+    "He can take 25% of the total corpus tax-free and keep the account open",
+    "He can take 80% as lump sum because normal exit rules apply",
+    "He can withdraw 60% tax-free and annuitise 40%",
+    "It is a premature exit: at least 80% of the corpus must buy an annuity and at most 20% can be taken as lump sum (unless the corpus is up to ₹5 lakh)"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A full exit before 60 is a premature exit, under which at least 80% must buy an annuity. This is why drawing on NPS to clear debt is heavily constrained.",
+   "hints": [
+    "Wrong: partial withdrawal is 25% of own contributions, not of the corpus.",
+    "Wrong: he is below 60 and has not completed 15 years, so this is not a normal exit.",
+    "Wrong: 60:40 is not the premature exit rule.",
+    "Correct: premature exit is 20:80."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-28",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "A subscriber's NPS AUM is ₹1.5 crore. What is the maximum annual advisory fee a Retirement Adviser can charge under the current structure?",
+   "options": [
+    "₹3,000",
+    "₹250",
+    "₹30,000",
+    "₹2,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Advisory fee = 0.02% of AUM = ₹3,000, but it is capped at a maximum of ₹2,000 per subscriber per financial year (minimum ₹250).",
+   "hints": [
+    "Wrong: the ₹2,000 cap applies.",
+    "Wrong: ₹250 is the minimum fee.",
+    "Wrong: this is 0.2%, not 0.02%.",
+    "Correct: 0.02% gives ₹3,000, capped at ₹2,000."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-29",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT permitted for a PFRDA-registered Retirement Adviser?",
+   "options": [
+    "Advising subscribers periodically on pension fund performance through newsletters",
+    "Having tie-ups with any number of Points of Presence",
+    "Collecting cash from a subscriber for an NPS contribution and depositing it at the PoP",
+    "Charging the onboarding fee after the subscriber's PRAN is generated"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A Retirement Adviser shall not collect any amount in cash for investment or contribution to the pension account. Unlimited PoP tie-ups, periodic performance updates and onboarding fees after PRAN generation are permitted.",
+   "hints": [
+    "Wrong choice: periodic advice through e-mail or newsletters is part of the role.",
+    "Wrong choice: there is no restriction on the number of PoP tie-ups.",
+    "Correct (not permitted): RAs cannot collect cash for contributions.",
+    "Wrong choice: the onboarding fee is payable after PRAN generation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M6-30",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "After the Ombudsman passes an award on an NPS grievance, within what period can a party to the complaint seek a review with PFRDA?",
+   "options": [
+    "45 days",
+    "90 days",
+    "30 days",
+    "15 days"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Within 15 days of the award either party can request correction of computation or clerical errors; within 30 days a party can seek review with PFRDA. The award must be implemented within 30 days.",
+   "hints": [
+    "Wrong: 45 days is the period to file an appeal with the Ombudsman.",
+    "Wrong: 90 days is the Ombudsman's deadline to pass the award.",
+    "Correct: review with PFRDA within 30 days.",
+    "Wrong: 15 days is for correction of computational or clerical errors."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

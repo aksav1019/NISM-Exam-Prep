@@ -1,0 +1,583 @@
+{
+ "id": "mock-2",
+ "title": "Mock 2 · Building Blocks",
+ "level": "easy",
+ "blurb": "Core rules and dates: IAASB, SCORES, ad approvals, CSCRF basics and the IA code.",
+ "questions": [
+  {
+   "id": "xc-M2-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Under which regulatory framework will SEBI's proposed new asset class be structured?",
+   "options": [
+    "The PMS framework",
+    "The mutual fund framework",
+    "The AIF framework",
+    "The REIT framework"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The deck states the new asset class will be structured under the MF framework, with relaxed prudential norms and adequate safeguards.",
+   "hints": [
+    "Although the ticket size is closer to PMS, it is not under the PMS framework.",
+    "Correct: it sits under the MF framework.",
+    "AIFs are not mentioned as its framework.",
+    "REIT regulations are unrelated."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-02",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Under one eligibility route, a mutual fund can offer the new asset class if it has:",
+   "options": [
+    "At least 10 years of operation, irrespective of AUM",
+    "At least 1 year of operation and ₹1,000 crore AUM",
+    "At least 3 years of operation and ₹10,000 crore AUM",
+    "At least 5 years of operation and ₹1 lakh crore AUM"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Eligibility: mutual funds with at least three years of operation and ₹10,000 crore in AUM qualify under one route.",
+   "hints": [
+    "AUM is part of the criterion; 10 years is not mentioned.",
+    "1 year and ₹1,000 crore are too low.",
+    "Correct: 3 years plus ₹10,000 crore AUM.",
+    "5 years and ₹1 lakh crore are not the thresholds."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-03",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which of the following assets would typically be held by an InvIT?",
+   "options": [
+    "Highways, power transmission lines and telecom towers",
+    "Office buildings and shopping malls",
+    "Listed equity shares of banks",
+    "Gold and silver bullion"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "InvITs own, operate or finance income-generating infrastructure projects like roads, power transmission or telecom towers.",
+   "hints": [
+    "Correct: infrastructure assets.",
+    "Offices and malls are commercial real estate held by REITs.",
+    "Listed bank shares are equity, not infrastructure.",
+    "Bullion is a commodity, not infrastructure."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-04",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "What happened to the indexation benefit on long-term capital gains under the Union Budget 2024 proposals?",
+   "options": [
+    "It was doubled",
+    "It was extended to all equity shares",
+    "It was made available only to non-residents",
+    "It was removed"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The deck lists 'removal of indexation benefit' as one of the Budget 2024 changes; the takeaway notes this simplifies calculations.",
+   "hints": [
+    "There is no 'doubling' of indexation.",
+    "Indexation was not extended; it was removed.",
+    "No such non-resident-only rule is mentioned.",
+    "Correct: indexation was removed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-05",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "The holding period for long-term capital gains on REITs and InvITs was changed by Budget 2024 from:",
+   "options": [
+    "3 years to 1 year",
+    "3 years to 2 years",
+    "2 years to 1 year",
+    "1 year to 3 years"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Time for long-term capital gains on REITs and InvITs was reduced from 3 years to 1 year.",
+   "hints": [
+    "Correct: 3 years to 1 year.",
+    "The new period is 1 year, not 2.",
+    "The earlier period was 3 years, not 2.",
+    "It was reduced, not increased."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-06",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "BSE's recognition as IAASB and RAASB under the SEBI circular of July 12, 2024 is for what period?",
+   "options": [
+    "Ten years starting from April 1, 2024",
+    "Three years starting from July 12, 2024",
+    "Five years starting from July 25, 2024",
+    "Indefinitely, until revoked"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The circular grants recognition for a period of five years starting from July 25, 2024.",
+   "hints": [
+    "Neither 10 years nor April 1 is mentioned.",
+    "Both the period and start date are wrong.",
+    "Correct: 5 years from July 25, 2024.",
+    "The recognition is time-bound, not indefinite."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-07",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "The annual compliance audit of an investment adviser must be completed within what time from the end of each financial year?",
+   "options": [
+    "Three months",
+    "One month",
+    "Twelve months",
+    "Six months"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "IAs must conduct a yearly compliance audit by an ICAI/ICSI member within six months from the end of each financial year.",
+   "hints": [
+    "Three months is not the audit deadline.",
+    "One month is the deadline for submitting adverse findings after the audit report.",
+    "Twelve months is too long.",
+    "Correct: within six months of FY end."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-08",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "When an investor lodges a complaint against an IA on SCORES, it is automatically forwarded to the IA and simultaneously to:",
+   "options": [
+    "NISM",
+    "The Designated Body, i.e. BSE",
+    "The Registrar of Companies",
+    "The investor's bank"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The complaint against the IA is simultaneously forwarded to the Designated Body, i.e. BSE, which ensures the ATR is submitted within 21 days.",
+   "hints": [
+    "NISM has no role in grievance redressal.",
+    "Correct: BSE as Designated Body gets it at the same time.",
+    "The RoC does not handle investor complaints against IAs.",
+    "Banks are not part of the SCORES flow."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-09",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "Who set up the Online Dispute Resolution (ODR) portal for the Indian securities market?",
+   "options": [
+    "The Reserve Bank of India",
+    "Investment advisers' associations",
+    "NISM",
+    "Market Infrastructure Institutions (MIIs)"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The deck states that MIIs have set up an ODR portal, and IAs must enrol on it.",
+   "hints": [
+    "RBI is not involved.",
+    "IA associations did not set it up.",
+    "NISM is a training body.",
+    "Correct: MIIs set up the ODR portal."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-10",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "How many advertisements can an investment adviser upload for BSE approval in a single application?",
+   "options": [
+    "Up to 3",
+    "Only 1",
+    "Up to 5",
+    "Up to 10"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The process slide states the IA can upload up to 3 advertisements for approval in one application.",
+   "hints": [
+    "Correct: up to 3 per application.",
+    "More than one is allowed.",
+    "5 exceeds the stated limit.",
+    "10 exceeds the stated limit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-11",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which type of recommendation is specifically prohibited in IA advertisements?",
+   "options": [
+    "Periodic portfolio review",
+    "Diversification across asset classes",
+    "BTST (Buy Today Sell Tomorrow) and ATST (Acquire Today Sell Tomorrow)",
+    "Long-term goal-based asset allocation"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Prohibitions include recommendations such as BTST and ATST, and any recommendation/promotion of a specific investment, scrip or contract.",
+   "hints": [
+    "Portfolio review is a normal service.",
+    "Diversification messaging is not prohibited.",
+    "Correct: BTST/ATST are expressly prohibited.",
+    "Goal-based allocation is sound advice, not a prohibited ad claim."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-12",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which of the following advertisements does NOT require BSE's approval?",
+   "options": [
+    "A social-media campaign soliciting new clients",
+    "Wishes/greetings on festivals",
+    "A newspaper ad describing the IA's model portfolio",
+    "An ad promoting a new fee plan to prospective clients"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Wishes/greetings on events or festivals are listed among exempted advertisements requiring no BSE approval.",
+   "hints": [
+    "Soliciting clients needs approval.",
+    "Correct: festival greetings are exempt.",
+    "A model portfolio ad needs approval (and must avoid past performance).",
+    "Promoting a fee plan is an advertisement needing approval."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-13",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "Under the SEBI circular of April 06, 2023, which statement about the SEBI logo is correct for investment advisers?",
+   "options": [
+    "The SEBI logo may be used after BSE approval",
+    "The SEBI logo shall not be used by an IA",
+    "The SEBI logo must appear on all client agreements",
+    "The SEBI logo may be used only on the website"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The circular slide notes: 'Please note that SEBI logo shall not be used by IA.'",
+   "hints": [
+    "BSE approval does not permit SEBI logo use.",
+    "Correct: an IA cannot use the SEBI logo at all.",
+    "Agreements must show registration details, not the SEBI logo.",
+    "Even the website cannot carry it."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-14",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "How are individual investment advisers treated under CSCRF?",
+   "options": [
+    "They are excluded from submission of compliance with CSCRF",
+    "They must obtain ISO 27001 within 1 year",
+    "They are treated as Mid-size REs",
+    "They are treated as Qualified REs"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The categorisation slide states individual IAs shall be excluded from submission of compliance with CSCRF.",
+   "hints": [
+    "Correct: individual IAs are excluded from submission.",
+    "ISO 27001 within 1 year applies to Qualified REs.",
+    "Mid-size does not apply to individual IAs.",
+    "Qualified REs are the largest entities."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-15",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "How often must Vulnerability Assessment and Penetration Testing (VAPT) be conducted under CSCRF?",
+   "options": [
+    "Only when an incident occurs",
+    "Once every 3 years",
+    "Annually, for all categories",
+    "Quarterly, for all categories"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "VAPT must be carried out annually and commenced at the beginning of the financial year; the applicability table shows annual VAPT for all categories.",
+   "hints": [
+    "VAPT is periodic, not event-driven.",
+    "3 years is too infrequent.",
+    "Correct: annually for all categories.",
+    "Quarterly is not the VAPT periodicity."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-16",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "The CSCRF cyber audit must be carried out by:",
+   "options": [
+    "BSE's inspection team",
+    "Any chartered accountant",
+    "The RE's own IT team",
+    "A CERT-In empanelled IS auditing organisation"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Cyber audit is to be carried out by a CERT-In empanelled IS auditing organisation as per SEBI's guidelines.",
+   "hints": [
+    "BSE does not conduct the CSCRF cyber audit.",
+    "A CA alone is not the prescribed cyber auditor.",
+    "Self-audit by internal IT is not permitted for the cyber audit.",
+    "Correct: CERT-In empanelled IS auditor."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-17",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "An entity is registered with SEBI in two capacities that fall in different CSCRF categories. Which provisions apply?",
+   "options": [
+    "Those of the category with more clients",
+    "Those of the lowest category",
+    "It may choose either category",
+    "Those of the highest category it falls under"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "If an RE is registered under more than one category, the provisions of the highest category under which it falls apply.",
+   "hints": [
+    "Client count alone does not decide it.",
+    "The lowest category is not used.",
+    "There is no choice.",
+    "Correct: the highest category applies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-18",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Which principle of the IA Code of Conduct requires seeking information on a client's financial situation, investment experience and objectives, and keeping it confidential?",
+   "options": [
+    "Responsibility of senior management",
+    "Fair and reasonable charges",
+    "Information about clients",
+    "Capabilities"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "'Information about clients': an IA shall seek from its clients information about their financial situation, investment experience and objectives, and maintain its confidentiality.",
+   "hints": [
+    "Senior management responsibility covers standards in body corporates.",
+    "Fair charges is about fees.",
+    "Correct: Information about clients.",
+    "Capabilities is about resources and procedures."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-19",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Under the PIT Regulations code, how often at minimum must the compliance officer report to the board or the Audit Committee chairman?",
+   "options": [
+    "Not less than once a year",
+    "Every quarter",
+    "Only when a violation occurs",
+    "Every month"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The compliance officer reports at the frequency stipulated by the board, but not less than once in a year.",
+   "hints": [
+    "Correct: at least once a year.",
+    "Quarterly is not the prescribed minimum.",
+    "Reporting is periodic, not only on violations.",
+    "Monthly is not the prescribed minimum."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-20",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "According to the Investor Charter, with which registries must an IA register?",
+   "options": [
+    "Depository and stock exchange only",
+    "KYC Registration Agency (KRA) and Central KYC Registry (CKYC)",
+    "Registrar of Companies and GST portal only",
+    "AMFI and NISM"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The charter lists: 'To obtain registration with Know Your Client Registration Agency (KRA) and Central Know Your Customer Registry (CKYC).'",
+   "hints": [
+    "Depositories/exchanges are not the KYC registries named.",
+    "Correct: KRA and CKYC.",
+    "These are not the KYC registries named.",
+    "AMFI and NISM are not KYC registries."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-21",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "In the monthly complaints disclosure format, how is 'average resolution time' computed?",
+   "options": [
+    "Days the oldest complaint has been pending",
+    "Total days taken to resolve each complaint in the month ÷ number of complaints resolved in the month",
+    "Complaints pending for more than 3 months ÷ total complaints",
+    "Total complaints received ÷ 30"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Average resolution time is the sum of time taken to resolve each complaint in days in the current month divided by the total complaints resolved in that month.",
+   "hints": [
+    "The oldest pending complaint is not an average.",
+    "Correct: sum of resolution days ÷ complaints resolved.",
+    "This is a ratio of ageing, not resolution time.",
+    "This mixes received complaints with calendar days."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-22",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Which bias is also called 'myside bias'?",
+   "options": [
+    "Ownership bias",
+    "Gambler's fallacy",
+    "Confirmation bias",
+    "Recency bias"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Confirmation bias, also called myside bias, is the tendency to search for or interpret information to confirm one's existing beliefs.",
+   "hints": [
+    "Ownership bias is the endowment effect.",
+    "Gambler's fallacy predicts random events from the past.",
+    "Correct: confirmation bias = myside bias.",
+    "Recency bias overweights recent results."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-23",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "'It is better for reputations to fail conventionally than to succeed unconventionally' (Keynes) is quoted in the module to explain which bias?",
+   "options": [
+    "Herd mentality",
+    "Myopic loss aversion",
+    "Winner's curse",
+    "Anchoring"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The module uses Keynes's line to explain why most individuals don't go against the crowd: herd mentality.",
+   "hints": [
+    "Correct: herd mentality.",
+    "Myopic loss aversion is about loss sensitivity and frequent checking.",
+    "Winner's curse is overpaying in a bid.",
+    "Anchoring is about the first piece of information."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-24",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Under a constant-weighting strategic asset allocation:",
+   "options": [
+    "Weights are left to drift as prices move",
+    "A minimum portfolio value is protected",
+    "Weights change based on momentum signals",
+    "Weights are periodically rebalanced to the original or desired levels"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Constant-weighting: weights are periodically rebalanced to the original/desired levels.",
+   "hints": [
+    "That is drifting allocation.",
+    "A protected floor describes insured allocation.",
+    "Momentum-based changes are tactical/dynamic.",
+    "Correct: periodic rebalancing to target."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xc-M2-25",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Which asset allocation strategy aims to ensure a minimum portfolio value, usually by adjusting the mix as market conditions worsen?",
+   "options": [
+    "Insured asset allocation",
+    "Integrated asset allocation",
+    "Drifting asset allocation",
+    "Constant-weighting asset allocation"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Insured asset allocation ensures a minimum portfolio value by allocating assets so a certain level of capital is protected, adjusting as markets worsen.",
+   "hints": [
+    "Correct: insured asset allocation.",
+    "Integrated combines SAA and dynamic strategies around evolving goals.",
+    "Drifting simply lets weights move.",
+    "Constant-weighting rebalances to fixed targets."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

@@ -1,0 +1,583 @@
+{
+ "id": "mock-5",
+ "title": "Mock 5 · Tax, Ethics & Revision",
+ "level": "easy",
+ "blurb": "A revision round with extra focus on taxation, distributor ethics and the new 2026 additions (PaRRVA, CSCRF, MF Regulations 2026).",
+ "questions": [
+  {
+   "id": "xxia-M5-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "The additional compensation an investor demands over the nominal risk-free rate for uncertainty in future cash flows is called:",
+   "options": [
+    "Alpha",
+    "Real risk-free rate",
+    "Inflation premium",
+    "Risk premium"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "If returns are uncertain, the additional compensation over the risk-free rate is the risk premium; higher risk, higher premium.",
+   "hints": [
+    "Wrong: alpha is excess return from skill/unsystematic risk.",
+    "Wrong: that is pure time value of money.",
+    "Wrong: inflation compensation is already in the nominal rate.",
+    "Correct: risk premium."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-02",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which of the following is a real (physical) asset rather than a financial asset?",
+   "options": [
+    "Gold",
+    "Debentures",
+    "Public Provident Fund",
+    "Mutual fund units"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Box 1.1 lists gold, diamonds, precious metals and real estate as physical assets; shares, debentures, deposits, PPF and MF investments are financial assets.",
+   "hints": [
+    "Correct: gold is a physical asset.",
+    "Wrong: financial asset.",
+    "Wrong: financial asset.",
+    "Wrong: financial asset."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "A shareholder holding 200 shares receives a bonus issue in the ratio 1:4. How many bonus shares does he get?",
+   "options": [
+    "800",
+    "200",
+    "50",
+    "40"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A 1:4 bonus gives 1 bonus share for every 4 held: 200 / 4 = 50 shares.",
+   "hints": [
+    "Wrong: multiplies instead of dividing.",
+    "Wrong: that would be a 1:1 bonus.",
+    "Correct: 200 / 4.",
+    "Wrong: that would be a 1:5 bonus."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-04",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "A company's enterprise value is ₹500 crore, its debt is ₹150 crore and it holds cash of ₹30 crore. The intrinsic value of equity is:",
+   "options": [
+    "₹380 crore",
+    "₹320 crore",
+    "₹680 crore",
+    "₹650 crore"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Equity value = EV - Debt + Cash = 500 - 150 + 30 = ₹380 crore.",
+   "hints": [
+    "Correct: 500 - 150 + 30.",
+    "Wrong: subtracts cash instead of adding.",
+    "Wrong: adds debt and cash.",
+    "Wrong: adds debt."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-05",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "In the FCFE model, the free cash flows are discounted at the:",
+   "options": [
+    "Weighted average cost of capital",
+    "Cost of equity, typically from CAPM",
+    "Coupon rate on the company's bonds",
+    "Inflation rate"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "FCFE is discounted using the cost of equity (re), derived from CAPM; FCFF uses WACC.",
+   "hints": [
+    "Wrong: WACC is for FCFF.",
+    "Correct: cost of equity.",
+    "Wrong: not a discount rate for equity cash flows.",
+    "Wrong: not used."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-06",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "A forward (leading) P/E ratio is computed by dividing the current market price by:",
+   "options": [
+    "The sum of the last four quarters' EPS",
+    "Book value per share",
+    "Dividend per share",
+    "The sum of the expected EPS of the next four quarters"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Trailing P/E uses the last four quarters' EPS; forward P/E uses the expected EPS of the next four quarters.",
+   "hints": [
+    "Wrong: that is trailing P/E.",
+    "Wrong: that gives P/BV.",
+    "Wrong: that gives the inverse of dividend yield.",
+    "Correct: expected next four quarters."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-07",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which statement about credit ratings is correct as per the workbook?",
+   "options": [
+    "Ratings are given to a firm, so all its instruments share one rating",
+    "A higher credit rating means higher default risk",
+    "Ratings are given to an instrument, so two instruments of the same firm can have different ratings",
+    "Modifiers + and - can be used with AAA and D"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Rating is given for an instrument and not to a firm. Higher rating means lower default risk. Modifiers apply to AA through C for long-term instruments.",
+   "hints": [
+    "Wrong: ratings are instrument-specific.",
+    "Wrong: higher rating means lower default risk.",
+    "Correct: instrument-level ratings.",
+    "Wrong: modifiers apply to AA to C only."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "In a PMS, the total exposure of a client in derivatives:",
+   "options": [
+    "Can be up to twice the portfolio value",
+    "Should not exceed the client's portfolio value",
+    "Is unlimited if the client agrees",
+    "Must be at least 25% of the portfolio"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The total exposure of a client in derivatives should not exceed the client's portfolio value; PMs cannot leverage client portfolios for derivatives.",
+   "hints": [
+    "Wrong: that would be leverage.",
+    "Correct: capped at portfolio value.",
+    "Wrong: the cap is regulatory.",
+    "Wrong: no minimum exists."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-09",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "The September 2026 workbook cites which regulations for the definition of a mutual fund (which now covers silver-related instruments too)?",
+   "options": [
+    "SEBI (Mutual Funds) Regulations, 1996",
+    "SEBI (Portfolio Managers) Regulations, 2020",
+    "SEBI (AIF) Regulations, 2012",
+    "SEBI (Mutual Fund) Regulations, 2026"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The 2026 workbook quotes the SEBI (Mutual Fund) Regulations, 2026 definition: a trust raising money through units for investing in securities, money market instruments, gold/silver related instruments and other assets.",
+   "hints": [
+    "Wrong: the workbook now cites the 2026 regulations.",
+    "Wrong: these govern PMS.",
+    "Wrong: these govern AIFs.",
+    "Correct: SEBI (Mutual Fund) Regulations, 2026."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-10",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "A client redeems ₹30 lakh from his PMS in the third year of investment. The maximum exit load the PM may charge is:",
+   "options": [
+    "₹90,000",
+    "₹60,000",
+    "₹30,000",
+    "Nil"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "In the third year the cap is 1% of the amount redeemed: 1% x ₹30 lakh = ₹30,000.",
+   "hints": [
+    "Wrong: 3% (first year).",
+    "Wrong: 2% (second year).",
+    "Correct: 1% in year 3.",
+    "Wrong: nil applies only after three years."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-11",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "The ₹50 lakh minimum investment requirement does NOT apply to:",
+   "options": [
+    "Accredited investors, subject to disclosures and agreed terms",
+    "Resident individuals",
+    "NRIs",
+    "HUFs"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Subject to disclosures in the disclosure document and agreed terms, the minimum investment does not apply to accredited investors (nor to co-investment PMs).",
+   "hints": [
+    "Correct: accredited investors are exempt.",
+    "Wrong: minimum applies.",
+    "Wrong: minimum applies.",
+    "Wrong: minimum applies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-12",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Which of the following is listed among the DON'Ts for portfolio managers?",
+   "options": [
+    "Segregating each client's holdings",
+    "Leveraging the portfolio of clients for investment in derivatives",
+    "Abiding by the Code of Conduct",
+    "Keeping client funds in a Scheduled Commercial Bank"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The PM shall not leverage the portfolio of its clients for investment in derivatives. The other options are DO's.",
+   "hints": [
+    "Wrong: a DO.",
+    "Correct: a DON'T.",
+    "Wrong: a DO.",
+    "Wrong: a DO."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-13",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Portfolio managers must have an automated system with minimal manual intervention for order management and allocation (for equity and MF units) when their AUM is:",
+   "options": [
+    "₹100 crore or more",
+    "₹500 crore or more",
+    "₹5,000 crore or more",
+    "₹1,000 crore or more"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "PMs with AUM of INR 1,000 crore or more under discretionary and non-discretionary services must have an automated system.",
+   "hints": [
+    "Wrong: threshold is higher.",
+    "Wrong: threshold is higher.",
+    "Wrong: threshold is lower.",
+    "Correct: ₹1,000 crore."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-14",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "In a jointly held PMS account, investment records are created and benefits such as dividends and redemption proceeds are paid to:",
+   "options": [
+    "The first holder",
+    "All holders equally",
+    "The youngest holder",
+    "The holder who invested most"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Records are created in the name of the first holder and all benefits are paid to the first holder's account.",
+   "hints": [
+    "Correct: first holder.",
+    "Wrong: not split.",
+    "Wrong: no such rule.",
+    "Wrong: no such rule."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-15",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which rule applies to the dealing team of a portfolio manager?",
+   "options": [
+    "Dealers may use personal mobile phones for speed",
+    "Any employee may enter the dealing room",
+    "Conversations only through dedicated recorded lines or authorised email IDs",
+    "Internet access is unrestricted"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "All DT conversations must be via recorded lines or authorised emails; mobile phones are not allowed; access and internet are restricted.",
+   "hints": [
+    "Wrong: mobile phones are not allowed.",
+    "Wrong: entry is restricted to authorised employees.",
+    "Correct: recorded lines/authorised email only.",
+    "Wrong: internet is restricted to trade execution."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-16",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "In investor profiling, the time period for which investments are proposed to be made with the portfolio manager must be:",
+   "options": [
+    "At least 5 years",
+    "Exactly 3 years",
+    "Decided by the distributor",
+    "The same as the term of the agreement"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The workbook notes that the time period proposed with the PM has to be the same as the term of the agreement.",
+   "hints": [
+    "Wrong: no minimum is stated.",
+    "Wrong: no fixed term.",
+    "Wrong: it is a client-agreement matter.",
+    "Correct: same as the agreement term."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-17",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "APMI prescribes a maximum of how many benchmarks for each strategy?",
+   "options": [
+    "One",
+    "Five",
+    "Three",
+    "Ten"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "APMI shall prescribe a maximum of three benchmarks for each strategy; the PM selects one of them for the IA.",
+   "hints": [
+    "Wrong: up to three are prescribed.",
+    "Wrong: too many.",
+    "Correct: maximum of three.",
+    "Wrong: too many."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-18",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "An investor owns assets with a market value of ₹2 crore and has loans outstanding of ₹50 lakh. His net worth is:",
+   "options": [
+    "₹2.5 crore",
+    "₹1.5 crore",
+    "₹2 crore",
+    "₹50 lakh"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Net worth = assets at market value - liabilities = ₹2 crore - ₹0.5 crore = ₹1.5 crore.",
+   "hints": [
+    "Wrong: adds liabilities.",
+    "Correct: 2 - 0.5.",
+    "Wrong: ignores liabilities.",
+    "Wrong: that is the liability."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-19",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "The factor that targets stocks undervalued relative to fundamentals, such as low P/E or P/B, is:",
+   "options": [
+    "Value factor",
+    "Momentum factor",
+    "Low volatility factor",
+    "Size factor"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The value factor holds that stocks undervalued relative to fundamentals (low P/E or P/B) tend to outperform over time.",
+   "hints": [
+    "Correct: value.",
+    "Wrong: momentum follows price trends.",
+    "Wrong: low volatility targets low price fluctuation.",
+    "Wrong: size targets smaller companies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-20",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "A portfolio returned 15% with a beta of 1.2 when the risk-free rate was 6%. Its Treynor ratio is:",
+   "options": [
+    "12.5",
+    "5.0",
+    "7.5",
+    "10.8"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Treynor = (Rp - Rf) / β = (15 - 6) / 1.2 = 7.5 (percentage points per unit of beta).",
+   "hints": [
+    "Wrong: return / beta without subtracting Rf.",
+    "Wrong: Rf / beta.",
+    "Correct: 9 / 1.2.",
+    "Wrong: multiplies by beta."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-21",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Which is a criterion of a good benchmark as per the workbook?",
+   "options": [
+    "It should be secret so that managers cannot game it",
+    "It should be investable, allowing passive exposure",
+    "It should have a higher risk than the portfolio",
+    "Its constituents may change without disclosure"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A good benchmark has clearly defined constituents and weights, is investable, consistent with the approach, has the same risk-return profile and is measurable.",
+   "hints": [
+    "Wrong: constituents must be clearly defined.",
+    "Correct: investable.",
+    "Wrong: risk profile should match.",
+    "Wrong: constituents and weights must be clearly defined."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-22",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "PMS fees attract GST at the rate of:",
+   "options": [
+    "5%",
+    "12%",
+    "28%",
+    "18%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "PMS fees attract 18% GST, which increases cost and is not deductible from taxable income.",
+   "hints": [
+    "Wrong rate.",
+    "Wrong rate.",
+    "Wrong rate.",
+    "Correct: 18%."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-23",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "An NRI who wishes to trade in F&O through a PMS in India must use:",
+   "options": [
+    "An NRO account, on a non-repatriable basis",
+    "An NRE account, on a repatriable basis",
+    "A foreign bank account directly",
+    "Any resident savings account"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "NRIs can trade F&O through PMS using their NRO account (non-repatriable); they cannot use the NRE account for F&O trading.",
+   "hints": [
+    "Correct: NRO only.",
+    "Wrong: NRE cannot be used for F&O.",
+    "Wrong: not permitted.",
+    "Wrong: NRIs cannot use resident accounts."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-24",
+   "chapter": 12,
+   "difficulty": "medium",
+   "q": "Under Section 12 of PMLA, records of documents evidencing identity of clients must be maintained for:",
+   "options": [
+    "2 years after the account is closed",
+    "8 years from account opening",
+    "5 years after the business relationship has ended or the account closed, whichever is later",
+    "Permanently"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Identity records shall be maintained for five years after the business relationship has ended or the account has been closed, whichever is later.",
+   "hints": [
+    "Wrong: too short.",
+    "Wrong: not the PMLA rule.",
+    "Correct: 5 years after closure/ending, whichever later.",
+    "Wrong: not required by PMLA."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M5-25",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "As per the 2026 workbook, SEBI-regulated entities must report cyber incidents through the designated SEBI email within:",
+   "options": [
+    "24 hours",
+    "6 hours",
+    "7 working days",
+    "21 days"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "SEBI mandated REs to report cyber incidents through mkt_incidents@sebi.gov.in within 6 hours and on the SEBI Incident Reporting Portal within 24 hours.",
+   "hints": [
+    "Wrong: 24 hours is for the Incident Reporting Portal.",
+    "Correct: 6 hours by email.",
+    "Wrong: that is the STR timeline.",
+    "Wrong: that is the grievance timeline."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

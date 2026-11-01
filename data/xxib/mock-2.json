@@ -1,0 +1,583 @@
+{
+ "id": "mock-2",
+ "title": "Mock 2 · PMS Rulebook",
+ "level": "easy",
+ "blurb": "Registration, operations and fees with a high water mark caselet.",
+ "questions": [
+  {
+   "id": "xxib-M2-01",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "In an Offer for Sale (OFS), the proceeds of the sale go to:",
+   "options": [
+    "The company, increasing its share capital",
+    "Both the company and the promoters equally",
+    "The selling shareholders, with no increase in the company's share capital",
+    "The stock exchange's investor protection fund"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 2.2.1: an OFS does not increase share capital; proceeds go to the offerors (promoters or large investors).",
+   "hints": [
+    "That describes a fresh issue.",
+    "OFS involves no fresh issue by the company.",
+    "Correct: existing shareholders sell already-allotted shares.",
+    "Not related."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-02",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "A stock trades at a P/E of 30 and its EPS is expected to grow at 20% a year. Using the PEG thumb rule, the stock appears:",
+   "options": [
+    "Undervalued, with a PEG of 0.67",
+    "Fairly valued, with a PEG of 1.0",
+    "Undervalued, with a PEG of 1.5",
+    "Overvalued, with a PEG of 1.5"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "PEG = P/E ÷ growth = 30/20 = 1.5. PEG > 1 indicates overvaluation (Section 3.4).",
+   "hints": [
+    "Inverts the ratio.",
+    "PEG is not 1 here.",
+    "PEG above 1 indicates overvaluation.",
+    "PEG = 30/20 = 1.5 > 1: overvalued."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-03",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Which statement about bond price volatility is correct?",
+   "options": [
+    "For the same maturity and yield change, a lower-coupon bond shows a larger percentage price change",
+    "Higher-coupon bonds are more volatile than lower-coupon bonds",
+    "Bond prices and interest rates move in the same direction",
+    "Equal increases and decreases in yield produce symmetrical price changes"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 4.5: bond price volatility is inversely related to coupon; zero-coupon bonds show the largest percentage change.",
+   "hints": [
+    "Correct: volatility is inversely related to coupon.",
+    "Opposite of the workbook rule.",
+    "They move inversely.",
+    "A yield fall raises prices more than an equal rise lowers them."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-04",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "SEBI has mandated which settlement method for individual stock derivatives?",
+   "options": [
+    "Cash settlement only",
+    "Physical settlement by delivery of the underlying stock",
+    "Settlement through the custodian bank",
+    "Settlement in the commodity futures contract"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 5.6: SEBI mandated physical settlement for all individual stock derivatives and commodity derivatives; index derivatives are cash settled.",
+   "hints": [
+    "Index derivatives are cash settled, not stock derivatives.",
+    "Correct.",
+    "Not a settlement method.",
+    "That is how commodity options devolve."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-05",
+   "chapter": 20,
+   "difficulty": "easy",
+   "q": "Which return measure must a portfolio manager use when communicating the performance of an investment approach, as it removes the effect of client cash flows?",
+   "options": [
+    "Money-weighted rate of return (IRR)",
+    "Simple arithmetic average return",
+    "Holding period return on the first investment only",
+    "Time-weighted rate of return (TWRR)"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Sections 20.2.2 and 20.7: PMs present TWRR of the investment approach with the benchmark's trailing return; TWRR removes the effect of external cash flows.",
+   "hints": [
+    "IRR depends on the timing of client flows; XIRR is used for the individual investor's report.",
+    "Arithmetic averages overstate multi-period returns.",
+    "Ignores later cash flows.",
+    "Correct: mandated by SEBI and GIPS."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-06",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Except for a portfolio manager providing only advisory services, every portfolio manager must appoint a:",
+   "options": [
+    "Custodian for the securities managed or administered by it",
+    "Registrar and transfer agent",
+    "Merchant banker",
+    "Credit rating agency"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 7.6.4: except for advisory-only PMs, every portfolio manager shall appoint a custodian.",
+   "hints": [
+    "Correct.",
+    "Not a regulatory requirement for PMs.",
+    "Not required.",
+    "Not required."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-07",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "A client redeems part of her PMS portfolio 20 months after investing. What is the maximum exit load the portfolio manager can charge on the amount redeemed?",
+   "options": [
+    "3%",
+    "2%",
+    "1%",
+    "Nil"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "SEBI circular 13 February 2020: max 3% in year 1, 2% in year 2, 1% in year 3, nil after 3 years.",
+   "hints": [
+    "3% applies only in the first year.",
+    "Correct: second year of investment.",
+    "1% applies in the third year.",
+    "Nil applies only after three years."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-08",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "Which of the following is a requirement for the Principal Officer of a portfolio manager?",
+   "options": [
+    "At least 2 years' experience and graduation only",
+    "At least 10 years' experience in banking",
+    "At least 5 years' experience in related securities market activities, along with the relevant NISM certification",
+    "A CFA charter is compulsory"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 7.4: Principal Officer needs a professional qualification, 5 years' experience (with at least 2 in PM/IA/fund management) and the NISM certification.",
+   "hints": [
+    "That describes the additional employee requirement.",
+    "Not the requirement.",
+    "Correct (plus a professional qualification).",
+    "CFA is one of several acceptable qualifications, not compulsory."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-09",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which of the following entities is NOT listed in the workbook as eligible to invest in PMS?",
+   "options": [
+    "A co-operative society",
+    "A Hindu Undivided Family",
+    "A limited liability partnership",
+    "A trust"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 8.1 lists individuals, NRIs, HUFs, proprietorships, AOPs, partnership firms, LLPs, trusts and body corporates.",
+   "hints": [
+    "Correct: not in the list of eligible entities.",
+    "HUFs are eligible.",
+    "LLPs are eligible.",
+    "Trusts are eligible."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-10",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "The disclosure document must be provided to a prospective PMS client:",
+   "options": [
+    "At least two days before signing the agreement",
+    "Along with the account opening form, before or at the time of entering into the agreement",
+    "Within 30 days after signing the agreement",
+    "Only if the client asks for it"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 8.2: the disclosure document is given with the account opening form prior to/at signing and is available on the PM's website.",
+   "hints": [
+    "That was the old rule, discontinued in 2020.",
+    "Correct: the 2020 regulations dropped the two-day rule.",
+    "Too late; it must be before or at signing.",
+    "It is mandatory."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-11",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Which BB&K investor personality is confident and careful, likes doing own research and is often contrarian?",
+   "options": [
+    "Adventurer",
+    "Celebrity",
+    "Individualist",
+    "Guardian"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 9.3.8: Individualists are confident, methodical and analytical, avoid extreme volatility and are often contrarian.",
+   "hints": [
+    "Adventurers are confident but impetuous.",
+    "Celebrities are anxious and impetuous.",
+    "Correct: upper-left quadrant.",
+    "Guardians are anxious and careful."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-12",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "Tactical asset allocation is best described as:",
+   "options": [
+    "The long-term target policy portfolio derived from the IPS",
+    "Holding assets without any rebalancing",
+    "Allocation decided solely by the client's tax bracket",
+    "A short-term deviation from the policy mix to exploit market opportunities ('timing the market')"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 9.5: SAA involves 'time in the market'; TAA is short-term and attempts 'timing the markets'.",
+   "hints": [
+    "That is strategic asset allocation.",
+    "That is buy and hold.",
+    "Tax is one constraint, not the definition.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-13",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "For an Indian company, residential status for income tax purposes is:",
+   "options": [
+    "Resident only if its Place of Effective Management is in India",
+    "Always resident in India",
+    "Non-resident if controlled from outside India",
+    "Determined by the residence of its directors"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 10.1.1.3: Indian companies are always treated as resident in India.",
+   "hints": [
+    "POEM applies to foreign companies.",
+    "Correct: an Indian company can never be non-resident.",
+    "Even subsidiaries controlled from abroad are resident.",
+    "Directors' residence is irrelevant."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-14",
+   "chapter": 11,
+   "difficulty": "medium",
+   "q": "A portfolio manager offering non-discretionary services may invest up to what share of the client's AUM in unlisted securities (for clients other than large value accredited investors)?",
+   "options": [
+    "10%",
+    "50%",
+    "25%",
+    "100%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 11.4: non-discretionary or advisory PMs may invest/advise up to 25% of AUM in unlisted securities.",
+   "hints": [
+    "Not the limit in the regulation.",
+    "Not the limit.",
+    "Correct.",
+    "100% is only for large value accredited investors."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-15",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "Under the PMS code of conduct, a portfolio manager shall:",
+   "options": [
+    "Make statements about its superior capabilities to attract clients",
+    "Share clients' confidential information with the press when asked",
+    "Execute trades against client interest in its proprietary account if profitable",
+    "Not place its own interest above those of its clients"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Schedule III code of conduct: avoid conflicts, never place own interest above clients'.",
+   "hints": [
+    "Exaggerated statements are prohibited.",
+    "Confidential information must not be disclosed.",
+    "Prohibited.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-16",
+   "chapter": 12,
+   "difficulty": "medium",
+   "q": "An equal-weighted index has four stocks whose prices change by +10%, -5%, +20% and +15% over a day. If the index was at 1,000, its new level is about:",
+   "options": [
+    "1,100",
+    "1,400",
+    "1,050",
+    "1,150"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Equal-weighted index moves by the arithmetic mean of percentage changes (Section 12.3.3): 10%.",
+   "hints": [
+    "Average return = (10 - 5 + 20 + 15)/4 = 10%: 1,100.",
+    "Sums returns instead of averaging.",
+    "Arithmetic error.",
+    "Ignores the negative return."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-17",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Operational efficiency of a market refers to:",
+   "options": [
+    "How fully prices reflect all available information",
+    "How quickly insider information becomes public",
+    "How low the cost of transacting is",
+    "How accurately analysts forecast earnings"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Section 13.1: operational efficiency measures the cost of transacting.",
+   "hints": [
+    "That is informational efficiency.",
+    "Not the definition.",
+    "Correct.",
+    "Not the definition."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-18",
+   "chapter": 14,
+   "difficulty": "easy",
+   "q": "According to Prospect Theory, investors are generally:",
+   "options": [
+    "Risk-seeking about gains and risk-averse about losses",
+    "Risk-neutral at all times",
+    "Equally sensitive to gains and losses",
+    "Risk-averse about gains and risk-seeking about losses"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 14.2.2: people are risk-averse about gains and risk-seeking about losses; monetary losses hurt more.",
+   "hints": [
+    "Reversed.",
+    "Contradicts the theory.",
+    "Losses hurt more than gains please.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-19",
+   "chapter": 17,
+   "difficulty": "easy",
+   "q": "Which of the following correctly lists the four ways of treating an identified risk?",
+   "options": [
+    "Tolerate, mitigate, transfer, terminate",
+    "Identify, analyse, evaluate, monitor",
+    "Diversify, hedge, insure, ignore",
+    "Measure, report, audit, close"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 17.2: treatment of risk: (i) tolerate, (ii) mitigate, (iii) transfer, (iv) terminate.",
+   "hints": [
+    "Correct.",
+    "These are steps of the process, not treatment options.",
+    "Not the workbook's list.",
+    "Not the workbook's list."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-20",
+   "chapter": 18,
+   "difficulty": "easy",
+   "q": "To identify VALUE stocks, which screen would a portfolio manager typically use?",
+   "options": [
+    "High historical revenue growth",
+    "Low price-to-book ratio",
+    "Low dividend yield",
+    "High forecast earnings growth"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Section 18.8.2.1: value screens include low P/E, low PEG, low P/B, low P/S, low P/CF, high dividend yield, low D/E.",
+   "hints": [
+    "A growth screen.",
+    "Correct.",
+    "Value screens look for HIGH dividend yield.",
+    "A growth screen."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-21",
+   "chapter": 19,
+   "difficulty": "easy",
+   "q": "Which of these is NOT a passive fixed income strategy?",
+   "options": [
+    "Buy and hold",
+    "Bond indexing",
+    "Immunization",
+    "Barbell strategy based on a view of uncertain rate moves"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Section 19.2: the three passive strategies are buy and hold, indexing and immunization; barbell is active (19.3.1).",
+   "hints": [
+    "Passive.",
+    "Passive.",
+    "Classified under passive strategies.",
+    "Correct: barbell is an active interest-rate strategy."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-22",
+   "chapter": 21,
+   "difficulty": "easy",
+   "q": "A balanced portfolio has a 60% target in equity with trigger points at 50% and 70%. This is an example of:",
+   "options": [
+    "Threshold-based rebalancing",
+    "Calendar-based rebalancing",
+    "Buy and hold",
+    "CPPI"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Section 21.3.1: threshold rebalancing sets trigger points such as 50% and 70% around a 60% target.",
+   "hints": [
+    "Correct: tolerance corridor.",
+    "Calendar rebalancing is by fixed dates.",
+    "Buy and hold does not rebalance.",
+    "CPPI uses a floor and multiplier."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxib-M2-23",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "What performance fee is payable for Year 1?",
+   "options": [
+    "₹30 lakh",
+    "₹6 lakh",
+    "₹3 lakh",
+    "Nil"
+   ],
+   "answer": 1,
+   "marks": 2,
+   "explanation": "Year 1 gain above the starting value of ₹1 crore = ₹30 lakh; fee = 20% x 30 lakh = ₹6 lakh. HWM becomes ₹1.30 crore.",
+   "hints": [
+    "That is the gain, not the fee.",
+    "20% x (1.30 - 1.00) crore = ₹6 lakh.",
+    "Uses Year 3's excess.",
+    "There is a gain above the initial value."
+   ],
+   "numeric": true,
+   "case": "Mr. Kapoor invested ₹1 crore with a discretionary portfolio manager. The agreement provides a performance fee of 20% of gains above the high water mark (no hurdle rate, for simplicity). The pre-performance-fee portfolio values at the end of each year were: Year 1 ₹1.30 crore, Year 2 ₹1.15 crore, Year 3 ₹1.45 crore. As in the workbook illustration, the high water mark for the next period is the highest pre-fee closing value achieved so far."
+  },
+  {
+   "id": "xxib-M2-24",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "What performance fee is payable for Year 2?",
+   "options": [
+    "₹3 lakh",
+    "₹6 lakh",
+    "Nil",
+    "₹2.3 lakh"
+   ],
+   "answer": 2,
+   "marks": 2,
+   "explanation": "Pre-fee value ₹1.15 crore is below the high water mark of ₹1.30 crore, so no performance fee is payable.",
+   "hints": [
+    "No gain above the HWM.",
+    "Repeats Year 1's fee.",
+    "Value (1.15) is below the HWM (1.30): no fee.",
+    "Wrong base."
+   ],
+   "numeric": true,
+   "case": "Mr. Kapoor invested ₹1 crore with a discretionary portfolio manager. The agreement provides a performance fee of 20% of gains above the high water mark (no hurdle rate, for simplicity). The pre-performance-fee portfolio values at the end of each year were: Year 1 ₹1.30 crore, Year 2 ₹1.15 crore, Year 3 ₹1.45 crore. As in the workbook illustration, the high water mark for the next period is the highest pre-fee closing value achieved so far."
+  },
+  {
+   "id": "xxib-M2-25",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "What performance fee is payable for Year 3?",
+   "options": [
+    "₹3 lakh",
+    "₹6 lakh",
+    "₹9 lakh",
+    "Nil"
+   ],
+   "answer": 0,
+   "marks": 2,
+   "explanation": "Fee only on value above the previous HWM of ₹1.30 crore: 20% x ₹15 lakh = ₹3 lakh (not on the full ₹30 lakh rise from ₹1.15 crore).",
+   "hints": [
+    "20% x (1.45 - 1.30) crore = ₹3 lakh.",
+    "Charges on the full rise from 1.15 crore.",
+    "Charges on gain from ₹1 crore.",
+    "Value exceeds the HWM, so a fee is due."
+   ],
+   "numeric": true,
+   "case": "Mr. Kapoor invested ₹1 crore with a discretionary portfolio manager. The agreement provides a performance fee of 20% of gains above the high water mark (no hurdle rate, for simplicity). The pre-performance-fee portfolio values at the end of each year were: Year 1 ₹1.30 crore, Year 2 ₹1.15 crore, Year 3 ₹1.45 crore. As in the workbook illustration, the high water mark for the next period is the highest pre-fee closing value achieved so far."
+  }
+ ]
+}

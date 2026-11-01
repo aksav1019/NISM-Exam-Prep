@@ -1,0 +1,698 @@
+{
+ "id": "mock-6",
+ "title": "Mock 6 · Tough I: Numbers & Nuances",
+ "level": "tough",
+ "blurb": "Exam-pressure set: multi-step numericals (net return, attribution, duration, Gordon), 'which is NOT' and two-statement regulatory traps.",
+ "questions": [
+  {
+   "id": "xxia-M6-01",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "The nominal risk-free rate is 9.18% and expected inflation is 5%. Using the exact relationship, the real risk-free rate is closest to:",
+   "options": [
+    "4.18%",
+    "3.98%",
+    "4.37%",
+    "14.64%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "(1 + real) = 1.0918 / 1.05 = 1.0398, so real ≈ 3.98%. Simple subtraction (4.18%) is only an approximation.",
+   "hints": [
+    "Wrong: simple subtraction approximation.",
+    "Correct: 1.0918 / 1.05 - 1.",
+    "Wrong: arithmetic slip.",
+    "Wrong: adds the two rates with a cross term."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-02",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "Statement I: Required rate of return is the minimum return an investor expects and is not a guaranteed return. Statement II: Required rate of return is the same as the realised return. Which is correct?",
+   "options": [
+    "Only Statement I",
+    "Only Statement II",
+    "Both statements",
+    "Neither statement"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The workbook states the required return is the minimum return investors expect; it is not guaranteed and differs from expected and realised returns.",
+   "hints": [
+    "Correct: only I is true.",
+    "Wrong: required return differs from realised return.",
+    "Wrong: II is false.",
+    "Wrong: I is true."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-03",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "Which of the following statements about a bonus issue is NOT correct?",
+   "options": [
+    "It is made without consideration from shareholders",
+    "It is made out of free reserves built from genuine profits",
+    "Once announced, it can be withdrawn by the board at any time before the record date",
+    "A company that has defaulted on interest on its debt securities cannot make a bonus issue"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "A bonus issue once announced cannot be withdrawn. The other statements match the workbook.",
+   "hints": [
+    "Wrong: this is correct.",
+    "Wrong: this is correct.",
+    "Correct: the false statement; bonus cannot be withdrawn once announced.",
+    "Wrong: this is correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-04",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT included in the definition of 'securities' under Section 2(h) of the SCRA, 1956?",
+   "options": [
+    "Units of a mutual fund scheme",
+    "Security receipts under the SARFAESI Act",
+    "Government securities",
+    "A unit linked insurance policy"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Securities include MF units, security receipts and government securities, but specifically exclude unit linked insurance policies.",
+   "hints": [
+    "Wrong: MF units are included.",
+    "Wrong: security receipts are included.",
+    "Wrong: G-Secs are included.",
+    "Correct: ULIPs are excluded."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-05",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "A company just paid a dividend (D0) of ₹4. Dividends are expected to grow at 8% forever and the required return is 12%. The intrinsic value per share is:",
+   "options": [
+    "₹100",
+    "₹33.33",
+    "₹108",
+    "₹54"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "D1 = 4 x 1.08 = 4.32. P0 = D1 / (r - g) = 4.32 / 0.04 = ₹108.",
+   "hints": [
+    "Wrong: uses D0 instead of D1.",
+    "Wrong: divides by r only.",
+    "Correct: 4.32 / 0.04.",
+    "Wrong: divides D1 by g."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-06",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "Company X has a P/E of 18 while its industry and peers trade at 22. Other things equal, a relative valuation analyst would judge X to be:",
+   "options": [
+    "Undervalued",
+    "Overvalued",
+    "Fairly valued",
+    "Impossible to judge without its PEG"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The workbook's example: a target P/E of 18 versus 22 for the industry/market/comparables means the firm is judged undervalued.",
+   "hints": [
+    "Correct: lower multiple than peers.",
+    "Wrong: it trades at a lower multiple.",
+    "Wrong: multiples differ.",
+    "Wrong: P/E comparison alone suffices for this judgement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-07",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "Which combination of model and discount rate is correctly matched?",
+   "options": [
+    "FCFF discounted at cost of equity gives equity value",
+    "FCFE discounted at WACC gives enterprise value",
+    "FCFF discounted at WACC gives enterprise value; equity = EV - Debt + Cash",
+    "Dividend discount model discounted at the coupon rate"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "FCFF is discounted at WACC to obtain enterprise value; equity value = EV - Debt + Cash. FCFE is discounted at cost of equity.",
+   "hints": [
+    "Wrong: FCFF pairs with WACC.",
+    "Wrong: FCFE pairs with cost of equity.",
+    "Correct.",
+    "Wrong: DDM uses the required return on equity."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-08",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "A bond priced at ₹1,050 has a modified duration of 5. If yields FALL by 1%, the approximate new price is:",
+   "options": [
+    "₹997.50",
+    "₹1,102.50",
+    "₹1,055.25",
+    "₹1,060.50"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "% change = -5 x (-0.01) = +5%. New price ≈ 1,050 x 1.05 = ₹1,102.50.",
+   "hints": [
+    "Wrong: wrong sign; prices rise when yields fall.",
+    "Correct: +5% of ₹1,050.",
+    "Wrong: uses 0.5% instead of 5%.",
+    "Wrong: uses 1% instead of 5%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-09",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "Four 10-year bonds experience the same rise in yield. Which will show the LARGEST percentage price fall?",
+   "options": [
+    "12% coupon bond",
+    "9% coupon bond",
+    "6% coupon bond",
+    "Zero coupon bond"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Price volatility is inversely related to coupon; with the same maturity, a zero coupon bond experiences the largest percentage price change.",
+   "hints": [
+    "Wrong: highest coupon, least volatile.",
+    "Wrong: more coupon than others.",
+    "Wrong: still pays coupon.",
+    "Correct: zero coupon is most volatile."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-10",
+   "chapter": 5,
+   "difficulty": "hard",
+   "q": "Which statement about derivatives in a PMS is NOT correct?",
+   "options": [
+    "PMs may use derivatives for hedging and portfolio rebalancing through recognised stock exchanges",
+    "The agreement must specify quantum of derivative exposure in absolute terms and as a percentage of other investments",
+    "A PM may leverage the client's portfolio up to twice its value for derivatives with written consent",
+    "PMs may participate in exchange traded commodity derivatives subject to regulatory stipulations and client consent"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Total derivative exposure should not exceed the client's portfolio value and PMs shall not leverage client portfolios for derivatives; consent does not change this.",
+   "hints": [
+    "Wrong: correct statement.",
+    "Wrong: correct statement.",
+    "Correct: false; leverage is prohibited.",
+    "Wrong: correct statement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-11",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "Which pairing of InvIT type and feature is INCORRECT?",
+   "options": [
+    "Public InvIT: listed and open to retail investors",
+    "Private InvIT: unlisted and available to retail investors through SIPs",
+    "Full-fledged InvIT: invests in operational, revenue-generating assets",
+    "Developmental InvIT: invests in under-construction projects with higher risk"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Private InvITs are unlisted, privately placed and available only to institutional investors.",
+   "hints": [
+    "Wrong: correct pairing.",
+    "Correct: incorrect pairing; private InvITs are for institutions only.",
+    "Wrong: correct pairing.",
+    "Wrong: correct pairing."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-12",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "A Fund of Funds that invests in multiple AIFs instead of holding assets directly is classified under:",
+   "options": [
+    "Category I AIF",
+    "Category III AIF",
+    "Social Venture Funds",
+    "Category II AIF"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The workbook lists PE funds, debt funds and Fund of Funds as Category II examples.",
+   "hints": [
+    "Wrong: Category I is VC, angel, social, infrastructure.",
+    "Wrong: Category III is hedge/quant.",
+    "Wrong: social venture funds are Category I.",
+    "Correct: Category II."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-13",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "Statement I: A non-discretionary portfolio manager provides investment management services, deciding what and when to buy. Statement II: In advisory services, the investor takes the decisions and also executes the transactions. Which is correct?",
+   "options": [
+    "Only Statement I",
+    "Both statements",
+    "Neither statement",
+    "Only Statement II"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "A non-discretionary PM provides execution services, not investment management; decisions rest with the investor. In advisory, the investor decides and executes.",
+   "hints": [
+    "Wrong: I is false.",
+    "Wrong: I is false.",
+    "Wrong: II is true.",
+    "Correct: only II."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-14",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "The auditor's certificate on the PM's books, if so specified, must be submitted to SEBI within ______ of the close of the PM's accounting period, and the client receives a copy of the CA's certificate on the portfolio accounts audited ______.",
+   "options": [
+    "Six months; annually",
+    "Three months; quarterly",
+    "One year; once every three years",
+    "Two months; half-yearly"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The certificate is submitted to SEBI within six months of the close of the accounting period; portfolio accounts are audited annually by an independent CA and a copy given to the client.",
+   "hints": [
+    "Correct: six months; annual audit.",
+    "Wrong: wrong timelines.",
+    "Wrong: wrong timelines.",
+    "Wrong: two months is for rectifying auditor deficiencies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-15",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "A portfolio manager wishes to (i) impose a 2-year lock-in, (ii) charge 2.5% exit load in year 1, (iii) charge 1.5% exit load in year 3. Which of these are permissible?",
+   "options": [
+    "(i) and (ii) only",
+    "(ii) only",
+    "(ii) and (iii) only",
+    "None of them"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "No lock-in can be imposed. Exit load caps are 3% (year 1), 2% (year 2), 1% (year 3), so 2.5% in year 1 is fine but 1.5% in year 3 exceeds the cap.",
+   "hints": [
+    "Wrong: lock-in is not allowed.",
+    "Correct: only (ii) is within limits.",
+    "Wrong: 1.5% exceeds the 1% year-3 cap.",
+    "Wrong: (ii) is permissible."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-16",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "A ₹1 crore PMS earns 18% gross in a year. Other expenses are 0.50% of the gross year-end value, fixed fee is 2% on the average of capital and gross value, and performance fee is 20% of profits above an 8% hurdle (no catch-up), computed after the fixed fee. There is no exit load. The net return is closest to:",
+   "options": [
+    "15.52%",
+    "14.40%",
+    "12.10%",
+    "13.78%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Gross ₹1.18 cr; less 0.5% (₹59,000) = ₹1,17,41,000; fixed fee 2% x ₹1.09 cr = ₹2,18,000 → ₹1,15,23,000; performance fee 20% x (₹1,15,23,000 - ₹1,08,00,000) = ₹1,44,600 → ₹1,13,78,400. Net return = 13.78%.",
+   "hints": [
+    "Wrong: stops after the fixed fee and skips expenses.",
+    "Wrong: applies performance fee on the full 18%.",
+    "Wrong: deducts an exit load that does not apply.",
+    "Correct: follows the workbook's sequence."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-17",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Which item belongs to Part II (Dynamic Section) of the simplified PMS Disclosure Document?",
+   "options": [
+    "Disclaimer clause",
+    "Risk factors",
+    "Audit observations of the preceding 3 years",
+    "Accounting policies"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Part II covers client representation, financial performance, PM performance, audit observations of the preceding 3 years and related party investments. The others are in Part I (static).",
+   "hints": [
+    "Wrong: Part I.",
+    "Wrong: Part I.",
+    "Correct: Part II.",
+    "Wrong: Part I."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-18",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "Any deviation from the PM's written policy on order placement and allocation is permitted only:",
+   "options": [
+    "With oral approval of the dealer",
+    "On account of exigency, with prior written approval of the Principal Officer and Compliance Officer and a detailed rationale",
+    "With approval of the client's distributor",
+    "After intimation to APMI within 30 days"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Deviations, if any, shall be on account of exigency only and require prior written approval of the Principal Officer and Compliance Officer with a detailed rationale.",
+   "hints": [
+    "Wrong: written approval of senior officers is needed.",
+    "Correct.",
+    "Wrong: distributors have no such role.",
+    "Wrong: not the stated requirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-19",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Which of the following is NOT among the actions SEBI can take against a defaulting portfolio manager under the Intermediaries Regulations, 2008, as listed in the workbook?",
+   "options": [
+    "Compulsory transfer of all client portfolios to SEBI",
+    "Debarring the principal officer for a specified period",
+    "Warning the portfolio manager",
+    "Suspension of certificate of registration"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Listed actions: suspension, cancellation, prohibition from new assignments, debarring principal officer, debarring a branch, warning. Transfer of portfolios to SEBI is not listed.",
+   "hints": [
+    "Correct: not a listed action.",
+    "Wrong: listed.",
+    "Wrong: listed.",
+    "Wrong: listed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-20",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "On the workbook's sample questionnaire an investor answers: age below 30 (5), high growth (5), somewhat comfortable with short-term losses (4), 50-75% in equity (4), moderately stable income (4), horizon more than 10 years (5). The suggested strategy is:",
+   "options": [
+    "Balanced asset allocation",
+    "High equity exposure",
+    "More debt and fixed income",
+    "Capital preservation-focused"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Total = 5 + 5 + 4 + 4 + 4 + 5 = 27, in the 25-30 Aggressive band, i.e., high equity exposure.",
+   "hints": [
+    "Wrong: that is Moderate (19-24).",
+    "Correct: 27 = Aggressive.",
+    "Wrong: that is Conservative (13-18).",
+    "Wrong: that is Risk-averse (below 13)."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-21",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "Which of the following is a REGULATORY constraint rather than a personal preference?",
+   "options": [
+    "An investor refusing to sell her employer's shares out of emotional attachment",
+    "An investor avoiding tobacco companies",
+    "A resident individual's overseas investment being limited to USD 2,50,000 per financial year under LRS",
+    "An investor needing funds for a child's wedding next year"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The LRS limit is a regulatory constraint. Emotional attachment and ethical exclusions are unique preferences; wedding funding is a liquidity need.",
+   "hints": [
+    "Wrong: unique preference.",
+    "Wrong: unique preference.",
+    "Correct: regulatory constraint.",
+    "Wrong: liquidity constraint."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-22",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "Which statement about performance benchmarking of PMS is correct?",
+   "options": [
+    "A PM may tag one investment approach to two strategies if the Board approves",
+    "Benchmarks are chosen freely by each PM without any list",
+    "After a change in strategy tagging, the old track record may be shown alongside the new benchmark",
+    "The Board of the PM is responsible for appropriate selection of strategy and benchmark for each IA"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The Board of the PM is responsible for selection. Each IA has exactly one strategy; benchmarks come from APMI's list (max 3 per strategy); past track record before a tagging change cannot be used.",
+   "hints": [
+    "Wrong: one IA, one strategy.",
+    "Wrong: chosen from APMI-prescribed benchmarks.",
+    "Wrong: old track record cannot be used.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-23",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "Which is listed in the workbook as a challenge or risk of factor-based investing?",
+   "options": [
+    "Factor cyclicality and overcrowding",
+    "Absence of any rules",
+    "Guaranteed underperformance",
+    "Inability to diversify"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Challenges listed: factor cyclicality, data and implementation complexity, and overcrowding risks.",
+   "hints": [
+    "Correct.",
+    "Wrong: factor investing is rule-based.",
+    "Wrong: not stated.",
+    "Wrong: diversification is a listed benefit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-24",
+   "chapter": 10,
+   "difficulty": "hard",
+   "q": "Portfolio vs benchmark: Sector A Wp 50%, Rp 14%, Wb 40%, Rb 12%; Sector B Wp 30%, Rp 6%, Wb 40%, Rb 8%; Sector C Wp 20%, Rp 10%, Wb 20%, Rb 9%. The asset allocation effect is:",
+   "options": [
+    "0.20%",
+    "1.00%",
+    "0.40%",
+    "-0.40%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Allocation = Σ(Wp - Wb) x Rb = (0.10 x 12%) + (-0.10 x 8%) + (0 x 9%) = 1.2% - 0.8% = 0.40%.",
+   "hints": [
+    "Wrong: this is the selection effect.",
+    "Wrong: this is the total excess return.",
+    "Correct: 1.2 - 0.8.",
+    "Wrong: sign error."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-25",
+   "chapter": 10,
+   "difficulty": "hard",
+   "q": "Using the same data (A: Wp 50%, Rp 14%, Wb 40%, Rb 12%; B: Wp 30%, Rp 6%, Wb 40%, Rb 8%; C: Wp 20%, Rp 10%, Wb 20%, Rb 9%), the security selection effect is:",
+   "options": [
+    "0.20%",
+    "0.40%",
+    "0.00%",
+    "0.60%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Selection = ΣWb x (Rp - Rb) = 0.40 x 2% + 0.40 x (-2%) + 0.20 x 1% = 0.8% - 0.8% + 0.2% = 0.20%.",
+   "hints": [
+    "Correct.",
+    "Wrong: this is the allocation (or interaction) effect.",
+    "Wrong: ignores Sector C.",
+    "Wrong: uses portfolio weights."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-26",
+   "chapter": 10,
+   "difficulty": "medium",
+   "q": "Fund X returned 18% with SD 20%; Fund Y returned 14% with SD 12%. Risk-free rate is 6%. Based on the Sharpe ratio:",
+   "options": [
+    "X is better (0.90 vs 1.17)",
+    "Both are equal",
+    "Y is better (0.67 vs 0.60)",
+    "X is better (0.60 vs 0.67)"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Sharpe X = (18 - 6) / 20 = 0.60; Sharpe Y = (14 - 6) / 12 = 0.67. Y gives more excess return per unit of total risk.",
+   "hints": [
+    "Wrong: return / SD without subtracting Rf.",
+    "Wrong: they differ.",
+    "Correct.",
+    "Wrong: right numbers, wrong conclusion."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-27",
+   "chapter": 11,
+   "difficulty": "hard",
+   "q": "An individual's F&O business turnover through PMS is ₹12 crore in a year, with a small profit. As per the workbook, a tax audit is:",
+   "options": [
+    "Not required if over 95% of transactions are digital",
+    "Mandatory under Section 44AB(a) regardless of profit or loss",
+    "Required only if profit is below 6%",
+    "Never required for PMS clients"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "For turnover above ₹10 crore, tax audit is mandatory under Section 44AB(a) regardless of profit or loss.",
+   "hints": [
+    "Wrong: the 95% digital exemption applies to ₹2-10 crore.",
+    "Correct.",
+    "Wrong: the 6% test applies up to ₹2 crore.",
+    "Wrong: not true."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-28",
+   "chapter": 11,
+   "difficulty": "hard",
+   "q": "Which statement on PMS taxation for a resident individual is NOT correct?",
+   "options": [
+    "STCG on listed equity sold within 12 months is taxed at 20% with no exemption",
+    "Unabsorbed derivative business losses can be carried forward up to 8 assessment years",
+    "Debt STCG (24 months or less) is taxed at slab rates",
+    "Brokerage and performance fees can be deducted from capital gains if the investor shows them as expenses"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "For individuals reporting capital gains, PMS fees including brokerage, GST and performance fees are not deductible. The other statements are correct.",
+   "hints": [
+    "Wrong: correct statement.",
+    "Wrong: correct statement.",
+    "Wrong: correct statement.",
+    "Correct: false statement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-29",
+   "chapter": 12,
+   "difficulty": "hard",
+   "q": "Under the insider trading code of conduct, a 'material financial relationship' exists when a person has received from the designated person, during the immediately preceding twelve months, a payment such as a loan or gift equivalent to at least:",
+   "options": [
+    "25% of the designated person's annual income",
+    "10% of the designated person's annual income",
+    "50% of the designated person's net worth",
+    "₹10 lakh"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Material financial relationship = recipient of payment (loan, gift) during the preceding 12 months equivalent to at least 25% of the designated person's annual income, excluding arm's length transactions.",
+   "hints": [
+    "Correct.",
+    "Wrong: threshold is 25%.",
+    "Wrong: based on annual income, not net worth.",
+    "Wrong: ₹10 lakh is the PMLA cash threshold."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M6-30",
+   "chapter": 12,
+   "difficulty": "hard",
+   "q": "A portfolio manager offers non-discretionary services to an ordinary (non-accredited) client with AUM of ₹2 crore. The maximum that may be invested in unlisted securities for this client is:",
+   "options": [
+    "Nil",
+    "₹50 lakh",
+    "₹2 crore",
+    "₹1 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Non-discretionary or advisory PMs may invest up to 25% of AUM in unlisted securities: 25% x ₹2 crore = ₹50 lakh. Up to 100% is allowed only for large value accredited investors.",
+   "hints": [
+    "Wrong: up to 25% is allowed.",
+    "Correct: 25% of ₹2 crore.",
+    "Wrong: 100% only for large value accredited investors.",
+    "Wrong: 50% is not the limit."
+   ],
+   "numeric": true,
+   "case": null
+  }
+ ]
+}

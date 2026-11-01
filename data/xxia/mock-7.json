@@ -1,0 +1,698 @@
+{
+ "id": "mock-7",
+ "title": "Mock 7 · Tough II: Exam Simulation",
+ "level": "tough",
+ "blurb": "Final-boss set with close distractors: HWM fees, interaction effect, TWRR from portfolio values, combined tax computation and 2026 updates.",
+ "questions": [
+  {
+   "id": "xxia-M7-01",
+   "chapter": 1,
+   "difficulty": "medium",
+   "q": "Which statement about investment risks is NOT correct?",
+   "options": [
+    "Depreciation of the investor's home currency reduces returns on foreign assets",
+    "Treasury bills have practically no liquidity risk",
+    "Risk is mathematically represented by standard deviation around the expected return",
+    "Regulatory risk can be mitigated by diversifying across industries and geographies"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Depreciation in the home currency INCREASES returns on foreign assets; appreciation reduces them. The other statements match the workbook.",
+   "hints": [
+    "Correct: this is the false statement.",
+    "Wrong: true per the workbook.",
+    "Wrong: true.",
+    "Wrong: true."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-02",
+   "chapter": 1,
+   "difficulty": "hard",
+   "q": "According to the workbook, the real risk-free rate is determined by the interaction between:",
+   "options": [
+    "Inflation and the risk premium",
+    "Subjective desire for current consumption and objective factors like investment opportunities and the economy's real growth rate",
+    "SEBI policy and stock market valuations",
+    "The coupon on G-Secs and the repo rate only"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The real risk-free rate is set by subjective factors (desire for consumption) and objective factors (available investment opportunities and real growth of the economy).",
+   "hints": [
+    "Wrong: these are added on top of the real rate.",
+    "Correct.",
+    "Wrong: not mentioned.",
+    "Wrong: not how the workbook describes it."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-03",
+   "chapter": 2,
+   "difficulty": "hard",
+   "q": "Which statement about depositories and DPs is NOT correct?",
+   "options": [
+    "NSDL and CDSL are the two SEBI-registered depositories",
+    "DPs are appointed by the depository with the approval of SEBI",
+    "The depository maintains investor-level accounts while the DP maintains company-level accounts",
+    "Stock brokers and scheduled commercial banks can be registered as DPs"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "It is the reverse: investor-level accounts are held and maintained by the DP, and company-level accounts by the depository.",
+   "hints": [
+    "Wrong: true.",
+    "Wrong: true.",
+    "Correct: roles are reversed.",
+    "Wrong: true."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-04",
+   "chapter": 2,
+   "difficulty": "medium",
+   "q": "A listed company issues shares only to Qualified Institutional Buyers such as mutual funds, banks and financial institutions. This is a:",
+   "options": [
+    "Rights issue",
+    "Offer for Sale",
+    "Further public offer",
+    "Qualified Institutions Placement"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "QIP is a private placement of shares by a listed company to Qualified Institutional Buyers, under SEBI's eligibility, quantum and pricing norms.",
+   "hints": [
+    "Wrong: rights go to existing shareholders.",
+    "Wrong: OFS is a sale by existing holders.",
+    "Wrong: FPO is open to the public.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-05",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "Stock A: P/E 40, EPS growth 40%. Stock B: P/E 20, EPS growth 10%. Using PEG, which conclusion is correct?",
+   "options": [
+    "B is cheaper because its P/E is lower",
+    "A (PEG 1.0) looks fairly valued and B (PEG 2.0) looks overvalued",
+    "Both have the same PEG",
+    "A is overvalued because its P/E is higher"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "PEG A = 40/40 = 1.0 (fair), PEG B = 20/10 = 2.0 (greater than 1 suggests overvalued). PEG adjusts P/E for growth.",
+   "hints": [
+    "Wrong: ignores growth.",
+    "Correct.",
+    "Wrong: they differ.",
+    "Wrong: a high P/E can be justified by growth."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-06",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "The key limitation of asset-based (replacement value) valuation is that it:",
+   "options": [
+    "Cannot be used for financial institutions",
+    "Requires a forecast of dividends",
+    "Does not recognise the value of future profits, cash flows and innovation",
+    "Uses only market multiples"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Asset-based valuation does not recognise future profits and cash flows or future value creation through research and innovation.",
+   "hints": [
+    "Wrong: it is used for financial institutions.",
+    "Wrong: that is DDM.",
+    "Correct.",
+    "Wrong: that is relative valuation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-07",
+   "chapter": 3,
+   "difficulty": "hard",
+   "q": "Which of the following is NOT an assumption of technical analysis as listed in the workbook?",
+   "options": [
+    "Prices move in trends that persist for appreciable lengths of time",
+    "Market price is determined by supply and demand",
+    "Price adjustments are instantaneous",
+    "Shifts in supply and demand can be detected in the action of the market itself"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Technical analysis assumes price adjustments are NOT instantaneous and prices move in trends.",
+   "hints": [
+    "Wrong: listed assumption.",
+    "Wrong: listed assumption.",
+    "Correct: contradicts the assumption.",
+    "Wrong: listed assumption."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-08",
+   "chapter": 4,
+   "difficulty": "medium",
+   "q": "A bond with a 9% coupon is trading at a premium to its face value. Which is most likely true?",
+   "options": [
+    "Its YTM is below 9% because market rates are below the coupon",
+    "Its YTM is above 9%",
+    "Its YTM equals 9%",
+    "It must be a zero coupon bond"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A bond sells at a premium when the market interest rate is below the coupon; then YTM < coupon rate.",
+   "hints": [
+    "Correct.",
+    "Wrong: that is a discount bond.",
+    "Wrong: that is a par bond.",
+    "Wrong: it pays a 9% coupon."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-09",
+   "chapter": 4,
+   "difficulty": "hard",
+   "q": "Statement I: For short-term instruments, the modifier '+' can be used with A1 to A4. Statement II: For long-term instruments, modifiers '+' and '-' can be used with categories AAA to D. Which is correct?",
+   "options": [
+    "Only Statement II",
+    "Both statements",
+    "Neither statement",
+    "Only Statement I"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Short-term: '+' modifier for A1 to A4 (true). Long-term: modifiers apply to AA through C only, not AAA or D (II false).",
+   "hints": [
+    "Wrong: II is false.",
+    "Wrong: II is false.",
+    "Wrong: I is true.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-10",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "Derivatives are described as a zero-sum game. This conclusion assumes:",
+   "options": [
+    "Both parties hedge",
+    "There are no taxes and no transaction costs",
+    "Settlement is always physical",
+    "The contract is traded OTC"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Net positions of buyer and seller sum to zero under the usual assumptions of no taxes and no transaction costs.",
+   "hints": [
+    "Wrong: not required.",
+    "Correct.",
+    "Wrong: irrelevant.",
+    "Wrong: applies to exchange contracts too."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-11",
+   "chapter": 6,
+   "difficulty": "medium",
+   "q": "In the REIT structure, the entity that independently values real estate assets for fair pricing is the:",
+   "options": [
+    "Valuer",
+    "Investment Manager",
+    "Sponsor",
+    "Trustee"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The REIT structure includes a Valuer that independently values real estate assets.",
+   "hints": [
+    "Correct.",
+    "Wrong: manages the portfolio.",
+    "Wrong: sponsor establishes the REIT.",
+    "Wrong: ensures compliance and oversees the manager."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-12",
+   "chapter": 6,
+   "difficulty": "hard",
+   "q": "According to the workbook, which factor fund type tends to provide resilience and perform well in bear markets?",
+   "options": [
+    "Momentum factor funds",
+    "Value factor funds",
+    "Size factor funds",
+    "Quality factor funds"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Quality factor funds (low debt, stable earnings growth) perform well in bear markets. Momentum is effective in bull markets; value does well in recovery and bull phases.",
+   "hints": [
+    "Wrong: effective in bull markets.",
+    "Wrong: does well in recovery and bull markets.",
+    "Wrong: not described this way.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-13",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "A PMS client asks the portfolio manager to buy shares intraday and square off the same day with no delivery, purely to profit from price swings. Under the regulations, the PM:",
+   "options": [
+    "Shall not enter into such speculative transactions settled otherwise than by actual delivery",
+    "May do so if the client signs a waiver",
+    "May do so up to 25% of AUM",
+    "May do so only for accredited investors"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The PM shall not indulge in speculative transactions, i.e., any purchase or sale settled otherwise than by actual delivery or transfer, except transactions in derivatives.",
+   "hints": [
+    "Correct.",
+    "Wrong: no waiver is provided.",
+    "Wrong: 25% relates to unlisted securities.",
+    "Wrong: no such exemption."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-14",
+   "chapter": 7,
+   "difficulty": "hard",
+   "q": "Which requirement does NOT apply to a co-investment portfolio manager, as noted in the workbook?",
+   "options": [
+    "Abiding by the SEBI Act",
+    "Paying registration fees",
+    "Minimum investment amount per client of ₹50 lakh",
+    "Redressal of investor grievances"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The ₹50 lakh minimum does not apply to co-investment PMs (they are also exempt from maintaining net worth and appointing a custodian). Other obligations continue.",
+   "hints": [
+    "Wrong: applies.",
+    "Wrong: applies.",
+    "Correct.",
+    "Wrong: applies."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-15",
+   "chapter": 7,
+   "difficulty": "medium",
+   "q": "Which of the following records is NOT specifically listed among the books a portfolio manager must maintain?",
+   "options": [
+    "Copy of the balance sheet for each accounting period",
+    "Auditor's report on the accounts",
+    "Records supporting every investment decision with data, facts and opinion",
+    "Personal income tax returns of each client's family members"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "PMs maintain balance sheet, P&L, auditor's report, statement of financial position and records supporting every investment transaction or recommendation. Clients' family tax returns are not required.",
+   "hints": [
+    "Wrong: listed.",
+    "Wrong: listed.",
+    "Wrong: listed.",
+    "Correct: not a listed record."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-16",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "A PMS with a 20% performance fee under a High Water Mark starts at ₹1 crore; values at year ends are ₹1.25 crore, ₹1.10 crore and ₹1.40 crore (ignore other fees and assume no fee reduces the base). The performance fee in Year 3 is:",
+   "options": [
+    "₹8,00,000",
+    "₹6,00,000",
+    "₹3,00,000",
+    "₹0"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "HWM after Year 1 = ₹1.25 crore. Year 3 fee applies only on gains above ₹1.25 crore: (1.40 - 1.25) = ₹15 lakh x 20% = ₹3,00,000.",
+   "hints": [
+    "Wrong: charges on gain over original ₹1 crore.",
+    "Wrong: charges on Year 3 gain from ₹1.10 crore.",
+    "Correct.",
+    "Wrong: value exceeds the HWM, so a fee is due."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-17",
+   "chapter": 8,
+   "difficulty": "medium",
+   "q": "Which detail must be included in the periodic report a PM furnishes to its client?",
+   "options": [
+    "Commission paid to distributor(s) for that particular client",
+    "The PM's proprietary trading positions",
+    "Names of other clients of the PM",
+    "The distributor's annual income"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The periodic report includes portfolio composition and value, transactions, beneficial interest, expenses, risks, defaults/downgrades and details of commission paid to distributors for the particular client.",
+   "hints": [
+    "Correct.",
+    "Wrong: not required.",
+    "Wrong: confidential.",
+    "Wrong: not required."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-18",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "Under the SMART ODR mechanism, an investor's dispute request is assigned to a Market Infrastructure Institution's ODR platform:",
+   "options": [
+    "By the investor's choice of arbitrator",
+    "Through the portfolio manager's compliance officer",
+    "By APMI",
+    "Automatically, based on round-robin logic"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Investors may approach any MII through the SMART ODR portal; requests are auto-assigned to an MII ODR platform on a round-robin basis.",
+   "hints": [
+    "Wrong: assignment is automatic.",
+    "Wrong: not via the PM.",
+    "Wrong: APMI has no role here.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-19",
+   "chapter": 8,
+   "difficulty": "hard",
+   "q": "In the agreement of a discretionary portfolio manager, which condition about client liability must be included?",
+   "options": [
+    "The client's liability is unlimited",
+    "The client's liability shall not exceed his investment with the portfolio manager",
+    "The client is liable for the PM's operational losses",
+    "The client's liability is capped at the performance fee"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "In the case of a discretionary PM, the agreement contains a condition that the liability of a client shall not exceed his investment with the PM.",
+   "hints": [
+    "Wrong: liability is capped.",
+    "Correct.",
+    "Wrong: not a client liability.",
+    "Wrong: not the stated cap."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-20",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "Statement I: SAA rebalances less frequently, e.g., annually, to restore target weights. Statement II: TAA is ideal for passive long-term investors seeking steady growth. Which is correct?",
+   "options": [
+    "Only Statement I",
+    "Only Statement II",
+    "Both statements",
+    "Neither statement"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "SAA rebalances less frequently to restore targets. TAA suits experienced investors or professional managers with market expertise; SAA suits passive long-term investors.",
+   "hints": [
+    "Correct.",
+    "Wrong: II describes SAA's suitability.",
+    "Wrong: II is false.",
+    "Wrong: I is true."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-21",
+   "chapter": 9,
+   "difficulty": "medium",
+   "q": "For low-priority goals such as buying a farm house or a luxury car, the workbook says investment approaches are usually:",
+   "options": [
+    "Restricted to cash equivalents",
+    "More aggressive",
+    "Matched to goal dates with fixed deposits",
+    "Prohibited in PMS"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "For low-priority goals, whose non-achievement is not particularly painful, more aggressive investment approaches are usually taken.",
+   "hints": [
+    "Wrong: that suits near-term high-priority goals.",
+    "Correct.",
+    "Wrong: that suits near-term high-priority goals.",
+    "Wrong: no such prohibition."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-22",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "Keeping some liquidity so the portfolio can take advantage of market opportunities as asset classes become over- or under-valued falls under which liquidity need category?",
+   "options": [
+    "Emergency cash",
+    "Near-term goal",
+    "Regulatory constraint",
+    "Investment flexibility"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The workbook lists liquidity needs as emergency cash, near-term goals and investment flexibility; the ability to exploit opportunities is investment flexibility.",
+   "hints": [
+    "Wrong: emergency cash covers contingencies.",
+    "Wrong: near-term goals are known goals within a year.",
+    "Wrong: not a liquidity category.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-23",
+   "chapter": 9,
+   "difficulty": "hard",
+   "q": "Which is a MACROECONOMIC factor rather than a style factor in factor-based investing?",
+   "options": [
+    "Momentum",
+    "Liquidity conditions",
+    "Quality",
+    "Low volatility"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Macroeconomic factors include inflation, economic growth, interest rates and liquidity conditions; value, momentum, size, quality and low volatility are style factors.",
+   "hints": [
+    "Wrong: style factor.",
+    "Correct.",
+    "Wrong: style factor.",
+    "Wrong: style factor."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-24",
+   "chapter": 10,
+   "difficulty": "hard",
+   "q": "Portfolio vs benchmark: Tech Wp 45%, Rp 15%, Wb 30%, Rb 11%; FMCG Wp 25%, Rp 7%, Wb 40%, Rb 8%; Banks Wp 30%, Rp 9%, Wb 30%, Rb 10%. The interaction effect is:",
+   "options": [
+    "0.45%",
+    "0.50%",
+    "1.70%",
+    "0.75%"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Interaction = Σ(Wp - Wb)(Rp - Rb) = (0.15 x 4%) + (-0.15 x -1%) + (0 x -1%) = 0.60% + 0.15% = 0.75%. (Allocation 0.45%, selection 0.50%, total 1.70%.)",
+   "hints": [
+    "Wrong: this is the allocation effect.",
+    "Wrong: this is the selection effect.",
+    "Wrong: this is the total excess return.",
+    "Correct."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-25",
+   "chapter": 10,
+   "difficulty": "hard",
+   "q": "A portfolio starts at ₹10 lakh and grows to ₹11 lakh at the end of Year 1, when the client adds ₹4 lakh. At the end of Year 2 it is worth ₹16.5 lakh. The annualised TWRR is:",
+   "options": [
+    "10.00%",
+    "21.00%",
+    "12.50%",
+    "8.30%"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "R1 = 11/10 - 1 = 10%; R2 = 16.5/(11 + 4) - 1 = 10%. TWRR = 1.10 x 1.10 - 1 = 21% over 2 years; annualised = 1.21^(1/2) - 1 = 10%.",
+   "hints": [
+    "Correct.",
+    "Wrong: this is the 2-year cumulative TWRR.",
+    "Wrong: confuses money-weighted growth.",
+    "Wrong: arithmetic slip."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-26",
+   "chapter": 10,
+   "difficulty": "hard",
+   "q": "A poorly diversified portfolio ranks higher on the Treynor ratio than on the Sharpe ratio compared with its peers. The most likely reason is that:",
+   "options": [
+    "Treynor uses total risk",
+    "The risk-free rate differs between the two ratios",
+    "Treynor ignores unsystematic risk, which is high in a poorly diversified portfolio",
+    "Sharpe ignores standard deviation"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Treynor uses beta (systematic risk) and ignores unsystematic risk; any ranking difference is due to diversification levels. For fully diversified portfolios rankings are identical.",
+   "hints": [
+    "Wrong: Treynor uses beta.",
+    "Wrong: the same Rf is used.",
+    "Correct.",
+    "Wrong: Sharpe is based on SD."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-27",
+   "chapter": 11,
+   "difficulty": "hard",
+   "q": "In a financial year, a resident PMS investor realises STCG of ₹4 lakh and LTCG of ₹2 lakh on listed equity (no other gains). Ignoring surcharge and cess, total capital gains tax is:",
+   "options": [
+    "₹1,05,000",
+    "₹89,375",
+    "₹1,20,000",
+    "₹80,000"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "STCG: 20% x ₹4,00,000 = ₹80,000. LTCG: 12.5% x (₹2,00,000 - ₹1,25,000) = ₹9,375. Total = ₹89,375.",
+   "hints": [
+    "Wrong: ignores the ₹1.25 lakh LTCG exemption.",
+    "Correct.",
+    "Wrong: taxes everything at 20%.",
+    "Wrong: ignores LTCG tax."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-28",
+   "chapter": 11,
+   "difficulty": "hard",
+   "q": "Which statement about NRIs investing through PMS is correct as per the workbook?",
+   "options": [
+    "PIS approval from RBI is mandatory for every PMS investment",
+    "NRIs may do intraday trading and short selling through PMS",
+    "NRIs may use NRE funds for F&O trading through PMS",
+    "PIS approval is not required for PMS investments, and NRIs cannot engage in intraday trading or short selling"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "PIS approval is not required for PMS since the PM takes decisions; NRIs cannot engage in intraday trading or short selling; F&O is only through NRO funds.",
+   "hints": [
+    "Wrong: not required for PMS.",
+    "Wrong: prohibited.",
+    "Wrong: only NRO funds.",
+    "Correct."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-29",
+   "chapter": 12,
+   "difficulty": "hard",
+   "q": "Under the PaRRVA framework, from which date are only PaRRVA-verified risk and return metrics permitted for client communication?",
+   "options": [
+    "April 29, 2026",
+    "January 1, 2027",
+    "May 03, 2028",
+    "October 31, 2026"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Intermediaries get a 2-year transition to use pre-PaRRVA historical data; effective May 03, 2028 only PaRRVA-verified metrics are allowed.",
+   "hints": [
+    "Wrong: date of the SEBI circular.",
+    "Wrong: not the stated date.",
+    "Correct.",
+    "Wrong: date from which the 2026 workbook applies to exams."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xxia-M7-30",
+   "chapter": 12,
+   "difficulty": "hard",
+   "q": "Which of the following is NOT one of the five cyber resiliency goals of SEBI's CSCRF?",
+   "options": [
+    "Anticipate",
+    "Withstand",
+    "Recover",
+    "Retaliate"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The five goals are Anticipate, Withstand, Contain, Recover and Evolve.",
+   "hints": [
+    "Wrong: a goal.",
+    "Wrong: a goal.",
+    "Wrong: a goal.",
+    "Correct: not a goal."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

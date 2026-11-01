@@ -1,0 +1,233 @@
+{
+  "id": "mock-4",
+  "title": "Mock 4 · Investor Services Focus",
+  "level": "easy",
+  "blurb": "Extra weight on transactions, payments, KYC and disclosures, the chapters that carry the most marks.",
+  "questions": [
+    {
+      "id": "vb-M4-01", "chapter": 1, "difficulty": "easy",
+      "q": "An investor in bonds differs from investors in equity, real estate and commodities mainly because the bond investor:",
+      "options": ["Has lent money and the receipts (interest and principal) are agreed at issue", "Is a part-owner of the business", "Receives no current income", "Holds a real asset"],
+      "answer": 0, "marks": 1,
+      "explanation": "Bonds are lending assets with agreed cash flows. Equity, real estate and commodities are ownership assets whose future receipts are uncertain.",
+      "hints": ["Correct.", "That describes equity.", "Bonds usually pay regular interest.", "Bonds are financial assets."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-02", "chapter": 1, "difficulty": "easy",
+      "q": "An investor in gold or silver can expect returns only in the form of:",
+      "options": ["Regular interest", "Dividends", "Capital appreciation", "Rental income"],
+      "answer": 2, "marks": 1,
+      "explanation": "Commodities like gold and silver generate no current income; the investor relies only on capital appreciation.",
+      "hints": ["Bonds pay interest.", "Equity pays dividends.", "Correct.", "Real estate earns rent."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-03", "chapter": 2, "difficulty": "easy",
+      "q": "An overnight fund invests in securities having a maturity of:",
+      "options": ["1 day", "Up to 91 days", "Up to 1 year", "3 to 6 months"],
+      "answer": 0, "marks": 1,
+      "explanation": "Overnight funds invest in overnight securities with a maturity of 1 day.",
+      "hints": ["Correct.", "That is a liquid fund.", "That is a money market fund.", "That is the ultra-short duration band."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-04", "chapter": 2, "difficulty": "easy",
+      "q": "Life Cycle Funds may be launched with tenures that are:",
+      "options": ["Any period between 1 and 10 years", "Fixed at 20 years", "Between 3 and 14 years", "Between 5 and 30 years, in multiples of 5 years"],
+      "answer": 3, "marks": 1,
+      "explanation": "Life Cycle Funds have a minimum tenure of 5 years and a maximum of 30, in multiples of 5. A mutual fund can have at most 6 active for subscription at a time.",
+      "hints": ["Not the rule.", "Not fixed.", "That range describes target maturity funds.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-05", "chapter": 2, "difficulty": "easy",
+      "q": "An AMC may offer more than one scheme in the same category in which of these cases?",
+      "options": ["Large cap funds with different fund managers", "Index funds tracking different indices", "Liquid funds with different minimum amounts", "Multi-cap funds with different benchmarks"],
+      "answer": 1, "marks": 1,
+      "explanation": "Only one scheme per category is allowed, except index funds/ETFs on different indices, FoFs with different underlying schemes and sector/thematic funds on different sectors or themes.",
+      "hints": ["Not an exception.", "Correct.", "Not an exception.", "Not an exception."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-06", "chapter": 3, "difficulty": "easy",
+      "q": "To keep the function independent, the Compliance Officer of an AMC reports directly to:",
+      "options": ["The Chief Investment Officer", "The head of sales", "The head of the AMC", "The RTA"],
+      "answer": 2, "marks": 1,
+      "explanation": "The Compliance Officer reports directly to the head of the AMC, works closely with the trustees and must report any non-compliance directly and immediately to the trustees.",
+      "hints": ["Would create a conflict.", "Would create a conflict.", "Correct.", "An external service provider."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-07", "chapter": 3, "difficulty": "easy",
+      "q": "Which agencies has AMFI appointed to provide the valuation matrix for non-traded or thinly traded debt securities?",
+      "options": ["NSDL and CDSL", "CRISIL and ICRA", "CAMS and KFintech", "BSE and NSE"],
+      "answer": 1, "marks": 1,
+      "explanation": "SEBI requires at least two valuation agencies; AMFI appointed CRISIL Ltd. and ICRA Ltd.",
+      "hints": ["These are depositories.", "Correct.", "These are RTAs.", "These are stock exchanges."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-08", "chapter": 4, "difficulty": "easy",
+      "q": "As a Life Cycle Fund moves closer to its target maturity date, its asset allocation typically:",
+      "options": ["Moves out of equity into debt along a glide path", "Moves fully into equity", "Stays fixed throughout", "Moves into gold only"],
+      "answer": 0, "marks": 1,
+      "explanation": "Life Cycle Funds reduce risk over time through a glide path: the equity share comes down and debt goes up as maturity approaches.",
+      "hints": ["Correct.", "The opposite of a glide path.", "The allocation changes by design.", "Gold is only one of several asset classes."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-09", "chapter": 4, "difficulty": "easy",
+      "q": "What is the main driver of returns in a Fixed Maturity Plan?",
+      "options": ["Movement of the Nifty 50", "The equity–debt allocation", "Bonus issues", "Yield on the debt securities held"],
+      "answer": 3, "marks": 1,
+      "explanation": "In liquid, money market funds and FMPs, returns come mainly from the yield on the debt instruments.",
+      "hints": ["That drives equity and index funds.", "That drives Life Cycle Funds.", "Not a return driver.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-10", "chapter": 5, "difficulty": "easy",
+      "q": "By when must the Statement of Additional Information (SAI) be updated each year?",
+      "options": ["Within 3 months of the end of the financial year", "Within 1 month of each half-year", "Within 10 days of each month", "Every 5 years"],
+      "answer": 0, "marks": 1,
+      "explanation": "The SAI is updated regularly by the end of 3 months of every financial year; material changes are updated on an ongoing basis.",
+      "hints": ["Correct.", "That is the KIM/SID update cycle.", "That is portfolio disclosure.", "Far too infrequent."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-11", "chapter": 5, "difficulty": "easy",
+      "q": "How often must AMCs disclose the Total Expense Ratio (TER) of their schemes on their own and AMFI's websites?",
+      "options": ["Annually", "Quarterly", "Daily", "Only at NFO"],
+      "answer": 2, "marks": 1,
+      "explanation": "AMCs must prominently disclose TER daily, scheme-wise and date-wise (except infrastructure debt fund schemes).",
+      "hints": ["Too infrequent.", "Too infrequent.", "Correct.", "It is an ongoing disclosure."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-12", "chapter": 5, "difficulty": "easy",
+      "q": "In the Key Information Memorandum, the performance of the scheme and its benchmark is shown for which periods?",
+      "options": ["Last 1 month only", "1 year, 3 years, 5 years and since inception", "Only since inception", "Last 10 years, year by year"],
+      "answer": 1, "marks": 1,
+      "explanation": "The KIM shows scheme and benchmark performance over the last 1, 3 and 5 years and since inception.",
+      "hints": ["Too short.", "Correct.", "Incomplete.", "Not the KIM format."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-13", "chapter": 6, "difficulty": "easy",
+      "q": "AMCs must carry out due diligence on distributors who, among other criteria, have a presence in more than how many locations?",
+      "options": ["10", "50", "100", "20"],
+      "answer": 3, "marks": 1,
+      "explanation": "Criteria (any one): multiple points of presence (more than 20 locations), AUM over ₹100 crore in the non-institutional category, commission over ₹1 crore p.a. industry-wide, or over ₹50 lakh from a single MF.",
+      "hints": ["Not the threshold.", "Not the threshold.", "Not the threshold.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-14", "chapter": 6, "difficulty": "easy",
+      "q": "A distributor invests his own savings in a scheme using his ARN. Is commission payable on this investment?",
+      "options": ["No; no commission is payable on self-business", "Yes, at double the normal rate", "Yes, but only upfront", "Only if the amount exceeds ₹1 lakh"],
+      "answer": 0, "marks": 1,
+      "explanation": "Commission is paid for mobilising money from clients, so no commission is payable on the distributor's own investments.",
+      "hints": ["Correct.", "No such rule.", "Upfront commission is not allowed anyway.", "No threshold applies."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-15", "chapter": 7, "difficulty": "easy",
+      "q": "Rahul invested ₹50,000 at NAV ₹10 (5,000 units). He received an IDCW of ₹1 per unit, and the NAV is now ₹11. What is his total return?",
+      "options": ["10%", "20%", "11%", "1%"],
+      "answer": 1, "marks": 1,
+      "explanation": "End value = 5,000 × 11 = ₹55,000; dividend = ₹5,000. Total return = (55,000 − 50,000 + 5,000) ÷ 50,000 = 20%.",
+      "hints": ["Ignores the dividend.", "Correct.", "Confuses NAV with return.", "Only the dividend per unit."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M4-16", "chapter": 7, "difficulty": "easy",
+      "q": "For an index fund, a lower tracking error indicates that:",
+      "options": ["The fund is riskier", "The fund charges higher expenses", "The fund's returns are closer to those of the index", "The fund outperforms the index by a wide margin"],
+      "answer": 2, "marks": 1,
+      "explanation": "Tracking error is the annualised SD of the return difference between the index fund and its index. The lower it is, the more closely the fund tracks the index.",
+      "hints": ["Not what tracking error indicates.", "Higher costs tend to increase tracking error.", "Correct.", "Index funds aim to mirror, not beat, the index."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-17", "chapter": 7, "difficulty": "easy",
+      "q": "Who selects the benchmark for an actively managed mutual fund scheme?",
+      "options": ["SEBI", "AMFI", "The custodian", "The AMC in consultation with the trustees"],
+      "answer": 3, "marks": 1,
+      "explanation": "Benchmark selection is decided by the AMC in consultation with the trustees, and the chosen benchmark must be mentioned in the SID.",
+      "hints": ["SEBI sets principles, not specific benchmarks.", "AMFI doesn't select benchmarks.", "Not its role.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-18", "chapter": 8, "difficulty": "easy",
+      "q": "A resident individual receives IDCW of ₹15,000 from a scheme in a year. What TDS applies?",
+      "options": ["10% TDS, since the dividend exceeds ₹10,000", "No TDS for residents", "30% TDS", "20% TDS"],
+      "answer": 0, "marks": 1,
+      "explanation": "TDS at 10% applies to IDCW from mutual funds, even for residents, if the amount exceeds ₹10,000.",
+      "hints": ["Correct.", "Residents have no TDS on redemptions, but IDCW above ₹10,000 attracts TDS.", "Not the rate.", "Not the rate."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-19", "chapter": 8, "difficulty": "easy",
+      "q": "A long-term capital loss can be set off against:",
+      "options": ["Salary income", "Short-term capital gains only", "Long-term capital gains only", "Any head of income"],
+      "answer": 2, "marks": 1,
+      "explanation": "Long-term capital loss can be set off only against long-term capital gains. Short-term capital loss can be set off against both STCG and LTCG.",
+      "hints": ["Capital losses can't be set off against other heads.", "Not allowed for LTCL.", "Correct.", "Not allowed."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-20", "chapter": 9, "difficulty": "easy",
+      "q": "Which third-party payment is acceptable for a mutual fund purchase?",
+      "options": ["A friend paying ₹2 lakh for an adult investor", "A grandparent paying ₹40,000 for a grandchild who is a minor, with a third-party declaration", "A demand draft bought with ₹60,000 cash", "A cheque from an unrelated company"],
+      "answer": 1, "marks": 1,
+      "explanation": "Parents, grandparents or related persons may pay on behalf of a minor (love and affection / gift) up to ₹50,000 per purchase or SIP instalment, with KYC and a third-party declaration.",
+      "hints": ["Not an exception.", "Correct.", "DDs issued against cash of ₹50,000 or more are not accepted.", "Not an exception."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-21", "chapter": 9, "difficulty": "easy",
+      "q": "Which of these investors is exempt from providing a PAN for mutual fund investments?",
+      "options": ["A resident of Sikkim", "Any NRI", "Any senior citizen", "Any HUF"],
+      "answer": 0, "marks": 1,
+      "explanation": "PAN-exempt categories include Sikkim residents, government transactions, court-appointed officials, UN/multilateral bodies and micro-investments up to ₹50,000 per year per mutual fund. They still provide alternate photo ID.",
+      "hints": ["Correct.", "PAN is the sole identification for NRI KYC.", "Not exempt.", "Not exempt."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-22", "chapter": 9, "difficulty": "easy",
+      "q": "Under the multiple bank account facility, an individual investor can register up to how many bank accounts with a mutual fund?",
+      "options": ["Two", "Three", "Ten", "Five"],
+      "answer": 3, "marks": 1,
+      "explanation": "Individuals can register up to five bank accounts and non-individuals up to ten, with one designated as the default account.",
+      "hints": ["Too few.", "Too few.", "That is the limit for non-individuals.", "Correct."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-23", "chapter": 9, "difficulty": "easy",
+      "q": "An investor puts ₹25,000 into an open-ended scheme where the applicable NAV is ₹12.50. Ignoring stamp duty, how many units are allotted?",
+      "options": ["2,500", "1,250", "2,000", "3,125"],
+      "answer": 2, "marks": 1,
+      "explanation": "Units = Amount ÷ Sale price (= NAV, since entry load is banned) = 25,000 ÷ 12.50 = 2,000.",
+      "hints": ["Uses face value ₹10.", "Arithmetic error.", "Correct.", "Multiplies wrongly."],
+      "numeric": true, "case": null
+    },
+    {
+      "id": "vb-M4-24", "chapter": 10, "difficulty": "easy",
+      "q": "Under the AMFI Code of Ethics, a 'significant unit holder' is an entity holding at least what share of a scheme's total corpus?",
+      "options": ["1%", "5%", "10%", "25%"],
+      "answer": 1, "marks": 1,
+      "explanation": "A significant unit holder holds 5% or more of the total corpus of any scheme, including entities it controls.",
+      "hints": ["Too low.", "Correct.", "Not the definition.", "Not the definition."],
+      "numeric": false, "case": null
+    },
+    {
+      "id": "vb-M4-25", "chapter": 10, "difficulty": "easy",
+      "q": "A scheme launched 4 months ago wants to advertise its performance. What does the SEBI code allow?",
+      "options": ["CAGR since inception", "Simple annualised returns for 4 months", "Point-to-point returns on ₹10,000", "No past performance can be shown"],
+      "answer": 3, "marks": 1,
+      "explanation": "Where a scheme has existed for less than six months, past performance shall not be provided (liquid, overnight and money market funds have a separate short-period yield rule).",
+      "hints": ["Not allowed below 6 months.", "Not allowed below 6 months.", "Not allowed below 6 months.", "Correct."],
+      "numeric": false, "case": null
+    }
+  ]
+}

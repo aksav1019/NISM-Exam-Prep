@@ -1,0 +1,583 @@
+{
+ "id": "mock-5",
+ "title": "Mock 5 · Distributor Ready",
+ "level": "easy",
+ "blurb": "Investor suitability, reporting, exits and good practices, mixed review.",
+ "questions": [
+  {
+   "id": "xixa-M5-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Units of REITs and InvITs are classified in the workbook's comparative listing as which type of investment?",
+   "options": [
+    "Purely traditional",
+    "Purely alternative",
+    "Not an investment at all",
+    "Dual (illiquid underlying assets but liquid listed instruments)"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The dual class includes structures with illiquid underlying assets whose instruments are liquid, such as REIT and InvIT units.",
+   "hints": [
+    "Wrong: underlying assets are illiquid real estate/infra.",
+    "Wrong: listing gives them liquidity.",
+    "Wrong: they are investment instruments.",
+    "Correct: illiquid underlying, but units are listed and tradable."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-02",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "As on March 01, 2026, approximately how many AIFs were registered with SEBI?",
+   "options": [
+    "1802",
+    "21",
+    "985",
+    "3500"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "As on March 01, 2026, 1802 AIFs were registered with SEBI, starting from just 21 funds in 2012.",
+   "hints": [
+    "Correct: 1802 AIFs as on March 01, 2026.",
+    "Wrong: 21 was the count in 2012.",
+    "Wrong: not the figure.",
+    "Wrong: not the figure."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-03",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Who is responsible for safekeeping of the securities of an AIF?",
+   "options": [
+    "The distributor",
+    "A SEBI-registered custodian appointed by the sponsor or manager",
+    "The investee company",
+    "The largest investor"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Sponsor or Manager of AIFs shall compulsorily appoint a custodian registered with SEBI for safekeeping of securities of the fund.",
+   "hints": [
+    "Wrong: distributors do not hold assets.",
+    "Correct: appointing a custodian is compulsory.",
+    "Wrong: conflict of interest.",
+    "Wrong: investors do not hold fund assets."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-04",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "Under the high watermark concept, if a fund starts the year at ₹100 crore with a 20% hurdle and ends at ₹135 crore, on how much will additional return be computed for the year?",
+   "options": [
+    "₹35 crore",
+    "₹15 crore",
+    "₹20 crore",
+    "₹135 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Up to ₹120 crore (100 + 20%) no additional return is earned; additional return is calculated on the excess, i.e. 135 − 120 = ₹15 crore.",
+   "hints": [
+    "Wrong: ignores the hurdle.",
+    "Correct: 135 − 120 = ₹15 crore above the hurdle-adjusted mark.",
+    "Wrong: that is the hurdle amount itself.",
+    "Wrong: the entire fund value is not the base."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-05",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "A Category I/II AIF wants to invest in units of another AIF managed by an associate of its own sponsor. What approval is needed?",
+   "options": [
+    "Approval of two-thirds of investors by number",
+    "Approval of the trustee alone",
+    "Approval of 75% of investors by value of their investment",
+    "No approval is needed"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "AIF shall not invest in associates or units of AIFs managed/sponsored by its manager, sponsor or their associates except with approval of 75% of investors by value.",
+   "hints": [
+    "Wrong: two-thirds by value is for strategy change/extension.",
+    "Wrong: investor approval is mandatory.",
+    "Correct: 75% by value.",
+    "Wrong: this is a restricted related-party investment."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-06",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "AIFs may invest overseas only in equity and equity-linked instruments of offshore venture capital undertakings, subject to a limit of what percentage of the scheme's investable funds?",
+   "options": [
+    "10%",
+    "25%",
+    "50%",
+    "75%"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Overseas investments shall not exceed 25% of the investable funds of the scheme, within an industry-wide limit of USD 1,500 million.",
+   "hints": [
+    "Wrong: not the overseas limit.",
+    "Correct: not more than 25% of investable funds.",
+    "Wrong: not the overseas limit.",
+    "Wrong: not the overseas limit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-07",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "In a parallel AIF structure, the offshore fund and the domestic AIF:",
+   "options": [
+    "Merge into a single SEBI-registered pool",
+    "Are both registered under SEBI (AIF) Regulations",
+    "Invest only in listed securities",
+    "Are two separate pools with separate management that invest side by side"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "In a parallel structure the offshore fund and domestic AIF are kept distinct with separate management structures; it carries several tax and compliance risks.",
+   "hints": [
+    "Wrong: that describes aggregation in the unified structure.",
+    "Wrong: the offshore fund follows FVCI/FDI rules.",
+    "Wrong: not a feature of the structure.",
+    "Correct: the pools are kept distinct with separate managements."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-08",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Which investor-routing consideration is NOT among the general principles for choosing an offshore pooling jurisdiction?",
+   "options": [
+    "A good DTAA with India",
+    "A FATF-compliant 'equivalent jurisdiction'",
+    "Availability of the highest local corporate tax rate",
+    "Political, legal and currency stability"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Principles include a good DTAA, BIPA, recognised capital market, political/legal/currency stability, and FATF-equivalent jurisdiction.",
+   "hints": [
+    "Wrong: DTAA is of primary importance.",
+    "Wrong: FATF compliance is a necessity.",
+    "Correct: investors seek tax optimisation, not high taxes.",
+    "Wrong: stability matters for wealth preservation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-09",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "An investor puts in ₹10,000 and gets back ₹19,000 after 3 years. The simple average annual return is 30%. Why is the IRR lower (about 24%)?",
+   "options": [
+    "IRR deducts taxes",
+    "IRR accounts for the timing of cash flows (time value of money)",
+    "IRR ignores the final payout",
+    "IRR adds management fees"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "The average approach ignores timing; IRR finds the discount rate equating future cash flows to the investment, giving about 24% in Illustration 6.1.",
+   "hints": [
+    "Wrong: IRR is pre-tax unless specified.",
+    "Correct: IRR discounts cash flows over time.",
+    "Wrong: the payout is central to IRR.",
+    "Wrong: not part of the calculation."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-10",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Institutional investors often keep forecasted capital calls above their current cash balances to avoid idle cash. This is known as:",
+   "options": [
+    "Over-commitment strategy",
+    "Clawback",
+    "Catch-up",
+    "Giveback"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Institutional investors often pursue an over-commitment strategy in which forecasted capital calls on outstanding commitments exceed current cash balances.",
+   "hints": [
+    "Correct: over-commitment strategy.",
+    "Wrong: clawback recovers excess carry.",
+    "Wrong: catch-up relates to carry distribution.",
+    "Wrong: giveback is a waterfall adjustment."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-11",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Under SEBI's stewardship code, how many principles must institutional investors such as AIFs follow?",
+   "options": [
+    "4",
+    "6",
+    "8",
+    "10"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "SEBI's stewardship code lays down Principles 1 to 6, ending with periodic reporting on stewardship activities.",
+   "hints": [
+    "Wrong: too few.",
+    "Correct: six principles (policy, conflicts, monitoring, intervention, voting, reporting).",
+    "Wrong: too many.",
+    "Wrong: too many."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-12",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "External members of an Investment Committee whose names were NOT disclosed in the PPM at the time of onboarding can be appointed only with consent of:",
+   "options": [
+    "At least two-thirds of investors by number",
+    "The trustee only",
+    "SEBI only",
+    "At least 75% of investors by value of investment"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Undisclosed external IC members shall be appointed only with consent of at least 75% of investors by value (not needed for ex-officio changes).",
+   "hints": [
+    "Wrong: wrong threshold and basis.",
+    "Wrong: investor consent is needed.",
+    "Wrong: SEBI does not approve IC members.",
+    "Correct: 75% by value."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-13",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "Which of the following is listed in the workbook as an area where alignment of interest between investors and the manager is required?",
+   "options": [
+    "Catch-up and clawback terms",
+    "Location of the AIF's office",
+    "Brand of the custodian's software",
+    "Number of employees in the distributor's firm"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Alignment areas: sponsor commitment, fees and carry, waterfall, catch-up and clawback, outside interests, governance and reporting, related-party transactions and co-investment.",
+   "hints": [
+    "Correct: catch-up and clawback are listed alignment areas.",
+    "Wrong: not an alignment area.",
+    "Wrong: not an alignment area.",
+    "Wrong: not an alignment area."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-14",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A fund manager sits on the board of a distressed portfolio company and holds information under an NDA that the AIF's duties may require disclosing. This is an example of:",
+   "options": [
+    "Alignment of interests",
+    "Sponsor commitment",
+    "Key man event",
+    "Competing or outside interests creating conflict"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Conflict due to outside interests may arise when board positions held by the manager in investee companies compromise the AIF's interests, including NDA disclosure issues.",
+   "hints": [
+    "Wrong: this is a misalignment risk.",
+    "Wrong: unrelated.",
+    "Wrong: no key person is unavailable.",
+    "Correct: board positions can compromise AIF interests and create disclosure dilemmas."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-15",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A fund that has completed at least how long from first close must report data to benchmarking agencies?",
+   "options": [
+    "6 months",
+    "3 years",
+    "Only after final close",
+    "1 year"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "AIFs/Schemes that have completed at least one year from first close shall provide necessary data to the benchmarking agencies.",
+   "hints": [
+    "Wrong: not the threshold.",
+    "Wrong: not the threshold.",
+    "Wrong: the trigger is one year from first close.",
+    "Correct: at least one year from first close."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-16",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "A European institutional consortium wants long-term exposure to clean-energy technology ventures. Which AIF would a distributor match it with?",
+   "options": [
+    "An AIF investing in equities and green bonds of clean-energy and sustainability technology companies",
+    "An AIF focused on oil and gas exploration assets",
+    "A digital graphics and 3D printing VC fund",
+    "A short-term trading fund in currency derivatives"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "In Case 8.2 the European consortium targeting clean-energy assets and technologies is the best fit for the green-tech AIF.",
+   "hints": [
+    "Correct: closely aligned with the investor's objective (Case 8.2).",
+    "Wrong: hydrocarbons conflict with clean-energy focus.",
+    "Wrong: different sector theme.",
+    "Wrong: short-term, leveraged, Category III style."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-17",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Side letters are executed between:",
+   "options": [
+    "All investors jointly",
+    "The specific investor, the AIF and the investment manager",
+    "The distributor and SEBI",
+    "The custodian and the trustee"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Side letters are executed by the specific investor, the AIF and the investment manager and are not disclosed to other investors.",
+   "hints": [
+    "Wrong: side letters are not common to all investors.",
+    "Correct: bilateral to a specific investor with the AIF and manager.",
+    "Wrong: unrelated parties.",
+    "Wrong: unrelated parties."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-18",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "AI-only funds and Large Value Funds can launch new schemes:",
+   "options": [
+    "Immediately upon filing their PPM with SEBI",
+    "Only 30 working days after filing",
+    "Only after SEBI approves the PPM",
+    "Only after a merchant banker's due diligence certificate"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "AI-only Funds and LVFs are exempt from filing through merchant bankers and can launch schemes immediately upon filing PPM (first scheme from registration date).",
+   "hints": [
+    "Correct: they follow an 'intimation to SEBI' model.",
+    "Wrong: no waiting period.",
+    "Wrong: SEBI never approves PPMs.",
+    "Wrong: they are exempt from filing via merchant bankers."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-19",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "When a close-ended AIF undergoes a material change, dissenting unit holders must be given at least how long to express dissent?",
+   "options": [
+    "7 days",
+    "3 months",
+    "1 month",
+    "6 months"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Unit holders shall be provided not less than one month for expressing their dissent; exit must be completed within 3 months of the last date of the dissent offer.",
+   "hints": [
+    "Wrong: too short.",
+    "Wrong: 3 months is the completion window for the exit.",
+    "Correct: not less than one month.",
+    "Wrong: not prescribed."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-20",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Which of the following is a 'material change' that triggers the exit option for investors?",
+   "options": [
+    "Change in control of the sponsor or manager",
+    "Internal restructuring within the manager's group",
+    "Change in valuation methodology within prescribed guidelines",
+    "Appointment of a new auditor of an investee company"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Material changes include change in sponsor/manager (excluding internal group restructuring), change in control, and fee/hurdle changes leading to higher fees.",
+   "hints": [
+    "Correct: change in control is a material change.",
+    "Wrong: internal group restructuring is excluded.",
+    "Wrong: explicitly not a material change (disclose both values).",
+    "Wrong: not a fund-level material change."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-21",
+   "chapter": 10,
+   "difficulty": "easy",
+   "q": "Sale of an existing investor's units in an AIF to another investor at an agreed value is called:",
+   "options": [
+    "Drawdown",
+    "First close",
+    "Secondaries",
+    "In-specie distribution"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Secondary exit of investor interest, i.e. sale of unit capital to co-investors or outside investors, is known as 'secondaries' and often happens at a substantial discount to NAV.",
+   "hints": [
+    "Wrong: drawdown is a capital call.",
+    "Wrong: first close is a fundraising milestone.",
+    "Correct: secondaries, usually at a discount to NAV.",
+    "Wrong: in-specie means distributing assets instead of cash."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-22",
+   "chapter": 11,
+   "difficulty": "easy",
+   "q": "According to IPEV Guidelines, the best measure for valuing private equity portfolio companies is:",
+   "options": [
+    "Historical cost",
+    "Face value",
+    "Fair value",
+    "Liquidation value"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The central theme of the IPEV recommendations is that fair value is the best measure for valuing PE portfolio companies and funds.",
+   "hints": [
+    "Wrong: cost is only a starting point.",
+    "Wrong: not used for equity.",
+    "Correct: fair value is the central theme of IPEV.",
+    "Wrong: used only in distress."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-23",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "Non-business losses of a Category I/II AIF are passed through to investors only if the units have been held for at least:",
+   "options": [
+    "12 months",
+    "24 months",
+    "36 months",
+    "6 months"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Losses other than business losses pass through to unit holders if units were held for at least 12 months; they can be carried forward for 8 years.",
+   "hints": [
+    "Correct: at least 12 months.",
+    "Wrong: not the threshold.",
+    "Wrong: not the threshold.",
+    "Wrong: not the threshold."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-24",
+   "chapter": 12,
+   "difficulty": "easy",
+   "q": "GST in the AIF context is levied on:",
+   "options": [
+    "Capital gains distributed to investors",
+    "Dividend income of the fund",
+    "Investment management fees and trusteeship fees",
+    "The investor's capital commitment"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "GST at the applicable rate is levied on investment management fees and trusteeship fees payable by the AIF.",
+   "hints": [
+    "Wrong: GST is not levied on capital gains.",
+    "Wrong: dividends are not services.",
+    "Correct: services of the manager and trustee attract GST.",
+    "Wrong: commitments are capital, not a service."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xixa-M5-25",
+   "chapter": 13,
+   "difficulty": "easy",
+   "q": "Which of the following is a POST-commitment service of an AIF distributor?",
+   "options": [
+    "Preparing the presentation pitch",
+    "Facilitating fund due diligence before commitment",
+    "Seeking consent for capital commitment",
+    "Coordinating drawdown notices and transfer of funds"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Post-commitment services include liaison on drawdown notices and fund transfers, reporting support, investor requirements and marketing follow-on funds.",
+   "hints": [
+    "Wrong: pre-commitment activity.",
+    "Wrong: pre-commitment activity.",
+    "Wrong: pre-commitment activity.",
+    "Correct: drawdown liaison happens after commitment."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}

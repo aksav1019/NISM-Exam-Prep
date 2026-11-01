@@ -1,0 +1,277 @@
+{
+  "updated": "2026-11-01",
+  "exams": {
+    "xa": {
+      "fee": "Rs 3,000 + payment gateway charges (NISM exam page shows '3000+'; GST treatment not stated)",
+      "mode": "Test centre (NISM test centres in 150+ cities via NSE/BSE and other test administrators). 180 min; 135 questions = 90 MCQs + 9 caselets x 5 questions (6 caselets at 1 mark, 3 caselets at 2 marks); 150 marks; pass 60% (90); negative marking 25%.",
+      "validity": "3 years from date of exam; certificate issued only if PAN furnished/updated",
+      "renewal": "Retake X-A and X-B before expiry, OR (since Nov 2024) take NISM-Series-X-C renewal exam while holding valid X-A and X-B",
+      "requiredFor": "Individual investment advisers, principal officers of non-individual IAs and persons associated with investment advice (incl. partners/representatives) under SEBI (Investment Advisers) Regulations, 2013, Reg 7(2) - both Level 1 and Level 2 required and must be held at all times (SEBI order of Jun 11, 2026 cancelled an IA's registration for lapsed X-A/X-B).",
+      "eligibility": "No exam prerequisite stated. For SEBI IA registration (post Dec 2024 amendment) an individual needs a graduate degree in any discipline plus X-A and X-B.",
+      "recentChanges": [
+        "Dec 16, 2024: SEBI IA amendment regulations - minimum qualification lowered from post-graduate to graduate degree (any discipline); part-time IAs permitted (capped at 75 clients, must disclose part-time status); net-worth replaced by deposit (Rs 1-10 lakh) with IAASB lien.",
+        "Jan 2, 2025: SEBI notification SEBI/LAD-NRO/GN/2025/223 amending Certification Regulations - IAs/associated persons must obtain certifications from NISM (X-A, X-B, renewal).",
+        "Jun 24, 2026: SEBI circular - persons associated with investment advice doing only sales/non-core work need only NISM-Series-XXV-B; X-A + X-B remain mandatory for anyone actually giving advice. Existing non-core staff holding X-A/X-B are grandfathered until expiry.",
+        "Oct 7-8, 2026: SEBI Certification (Amendment) Regulations 2026 - 'associated persons' renamed 'specified persons'; NISM may specify a course/programme as a certification route; validity can be 3 years or longer as SEBI specifies."
+      ],
+      "officialUrl": "https://www.nism.ac.in/investment-adviser-level-1/"
+    },
+    "xb": {
+      "fee": "Rs 3,000 (NISM X-B FAQ) + payment gateway charges. Note: the X-B exam page itself displays '180' - appears to be a site typo; confirm on certifications.nism.ac.in at booking.",
+      "mode": "Test centre. 180 min; ~120 questions = 90 MCQs (1 mark) + 6 caselets x 5 questions (2 marks each); 150 marks; pass 60%; negative marking 25%.",
+      "validity": "3 years from date of exam",
+      "renewal": "Pass X-B again before expiry, or pass NISM-Series-X-C renewal exam before expiry",
+      "requiredFor": "Same as X-A: individual IAs, principal officers and persons associated with investment advice under SEBI (IA) Regulations 2013 - both levels required.",
+      "eligibility": "None stated for sitting the exam",
+      "recentChanges": [
+        "See X-A: Dec 2024 IA amendments (graduate qualification, part-time IAs) and Jun 24, 2026 XXV-B relaxation for sales/non-core staff.",
+        "Exam page last modified Oct 13, 2025; no pattern change announced."
+      ],
+      "officialUrl": "https://www.nism.ac.in/investment-advisors-level-2"
+    },
+    "xc": {
+      "fee": "Rs 2,500 + (page shows '2500+')",
+      "mode": "Fully online, remote-proctored: ~2-3 hours of pre-recorded training videos followed by a 1-hour proctored test; 50 MCQs x 1 mark; pass 50% (25); NO negative marking. Needs Windows 10+ laptop/desktop with webcam + mic, >=4 GB RAM, i3 5th gen+, 2 Mbps up/down, Chrome/Firefox/Edge; personal network recommended (office VPN/firewalls may block).",
+      "validity": "3 years",
+      "renewal": "This IS the renewal route for X-A + X-B holders (replaces re-sitting both full exams)",
+      "requiredFor": "Investment advisers / associated persons renewing X-A + X-B certification (SEBI notification on X-C dated Jan 6, 2025)",
+      "eligibility": "Must hold valid NISM-Series-X-A AND X-B certificates. Apply via declaration on NISM certification portal; NISM verifies within 2 working days.",
+      "recentChanges": [
+        "Launched by NISM circular dated Nov 5, 2024; SEBI notification dated Jan 6, 2025."
+      ],
+      "officialUrl": "https://www.nism.ac.in/nism-series-x-c-investment-adviser-certification-renewal-examination"
+    },
+    "vb": {
+      "fee": "Rs 1,200 + payment gateway charges ('1200+')",
+      "mode": "Test centre. 120 min; 50 questions x 1 mark; pass 50% (25); NO negative marking.",
+      "validity": "3 years",
+      "renewal": "Mutual Fund Foundation CPE/eCPE exists (details not on exam page) or re-sit exam within last 12 months of validity",
+      "requiredFor": "New cadre of MF distributors selling simple schemes: postal agents, retired govt/semi-govt officials (Class III+, 10 yrs service), retired teachers and bank officers (10 yrs), bank correspondents and similar as notified by AMFI/AMC. SEBI notification dated Sep 13, 2012.",
+      "eligibility": "Targets the above categories; no formal prerequisite stated",
+      "recentChanges": [],
+      "officialUrl": "https://www.nism.ac.in/mutual-fund-foundation"
+    },
+    "vd": {
+      "fee": "Rs 3,000 + applicable taxes + payment gateway charges",
+      "mode": "Test centre. 180 min; 150 MCQs x 1 mark; pass 60% (90); negative marking 10%. Modules: Mutual Fund Distribution (ch 1-12, 68 marks / ~45%), Equity Derivatives (ch 13-17, 52 marks / ~35%), Interest Rate Derivatives (ch 18-22, 30 marks / ~20%). Workstations provide MS Excel or LibreOffice for calculations.",
+      "validity": "3 years",
+      "renewal": "Not stated on exam page (re-sit before expiry assumed under general NISM rules). Cafemutual (Aug 19, 2026): passing V-D both renews MF distribution certification and authorises SIF distribution.",
+      "requiredFor": "Individual MF + SIF distributors, employees of distributor organisations and AMC employees engaged in MF/SIF sales (SEBI circular dated Jul 21, 2026 on certification for distribution of Specialized Investment Funds). Distributors who do NOT sell SIFs can continue with V-A.",
+      "eligibility": "None stated",
+      "recentChanges": [
+        "NISM communique Jul 14, 2026; exam launched w.e.f. Jul 22, 2026; SEBI circular Jul 21, 2026.",
+        "Replaces the earlier route of V-A + NISM-Series-XIII (Common Derivatives) for SIF distribution. XIII requirement for SIF distribution ended after Sep 21, 2026.",
+        "Transition: distributors holding V-A + a valid XIII obtained on or before Sep 21, 2026 need not take V-D until XIII expires (must keep V-A valid). V-A-only holders get no transition benefit - they need V-D to sell SIFs."
+      ],
+      "officialUrl": "https://www.nism.ac.in/nism-series-v-d-mutual-fund-specialized-investment-fund-distributors-certification-examination"
+    },
+    "viii": {
+      "fee": "Rs 1,500 + payment gateway charges ('1500+')",
+      "mode": "Test centre. 120 min; 100 questions x 1 mark; pass 60%; negative marking 25%.",
+      "validity": "3 years",
+      "renewal": "Equity Derivatives CPE/eCPE (within 12 months before expiry) or re-sit exam",
+      "requiredFor": "Associated persons functioning as approved users and sales personnel of trading members of an equity derivatives exchange/segment (SEBI certification regulations)",
+      "eligibility": "None stated",
+      "recentChanges": [
+        "Exam page last modified Apr 24, 2026 and links to revised test objectives; specific changes not described."
+      ],
+      "officialUrl": "https://nism.ac.in/equity-derivatives"
+    },
+    "xixa": {
+      "fee": "Rs 1,770 incl. GST + payment gateway charges",
+      "mode": "Test centre. 120 min; 100 questions = 80 MCQs + 5 cases x 4 questions; 100 marks; pass 60%; negative marking 10%.",
+      "validity": "3 years",
+      "renewal": "No CPE stated; re-sit exam",
+      "requiredFor": "Voluntary per NISM page - for distributors/placement agents of Category I & II AIFs",
+      "eligibility": "None stated",
+      "recentChanges": [
+        "NISM circular dated Mar 20, 2025 (Series-XIX-A/2025/01) revising the exam; details in annexures."
+      ],
+      "officialUrl": "https://www.nism.ac.in/certifications/nism-series-xix-a-alternative-investment-funds-category-i-and-ii-distributors"
+    },
+    "xixb": {
+      "fee": "Rs 1,770 incl. GST + payment gateway charges",
+      "mode": "Test centre. 120 min; 100 questions = 80 MCQs + 5 cases x 4 questions; 100 marks; pass 60%; negative marking 10%.",
+      "validity": "3 years",
+      "renewal": "Not stated; re-sit exam",
+      "requiredFor": "Voluntary per NISM page - for distributors/placement agents of Category III AIFs",
+      "eligibility": "None stated",
+      "recentChanges": [],
+      "officialUrl": "https://www.nism.ac.in/nism-series-xix-b-alternative-investment-funds-category-iii-distributors"
+    },
+    "xixc": {
+      "fee": "Rs 3,000 (per NISM FAQ)",
+      "mode": "Test centre. 180 min; 120 questions = 90 MCQs (1 mark) + 6 caselets x 5 questions (2 marks); 150 marks; pass 90 (60%); negative marking 25%. Workbook 550+ pages; Excel formula use expected.",
+      "validity": "3 years from exam date",
+      "renewal": "Re-sit exam before expiry, or AIF Managers eCPE (4 pre-recorded sessions with evaluation tests) within 12 months before expiry - NISM AIF Managers CPE circular Jan 30, 2026",
+      "requiredFor": "Associated persons in the key investment team (KIT) of the Manager of an AIF - SEBI notification SEBI/LAD-NRO/GN/2024/176 dated May 10, 2024; deadline extended to Jul 31, 2025. From Jun 25, 2025 amendment: Cat I & II KIT may hold XIX-C or XIX-D; Cat III KIT may hold XIX-C or XIX-E.",
+      "eligibility": "Open to anyone (KIT members, AIF staff, students, others)",
+      "recentChanges": [
+        "Jun 25, 2025: SEBI amended certification regulations to allow category-specific alternatives - NISM-Series-XIX-D (Cat I & II AIF Managers) and XIX-E (Cat III AIF Managers), each Rs 1,500+, 120 min, 80 questions (60 MCQ + 4 cases x 5 at 2 marks), 100 marks, pass 60%, 25% negative.",
+        "KIT certification deadline Jul 31, 2025 (passed).",
+        "Jan 30, 2026: AIF Managers eCPE launched for revalidation."
+      ],
+      "officialUrl": "https://www.nism.ac.in/frequently-asked-questions-alternative-investment-fund-managers"
+    },
+    "xxia": {
+      "fee": "Rs 1,500 incl. GST (NISM FAQ)",
+      "mode": "Test centre. 120 min; 100 marks = 80 MCQs (80 marks) + 3 case-based questions (20 marks); pass 60%; negative marking 25%.",
+      "validity": "3 years from exam date",
+      "renewal": "PMS Distributors CPE (one-day ~6h classroom or eCPE) completed within 12 months before expiry revalidates for 3 years; Principal/Grandfathered categories can obtain first certificate via CPE",
+      "requiredFor": "Associated persons engaged by a Portfolio Manager as PMS distributors - SEBI notification SEBI/LAD-NRO/GN/2021/48 dated Sep 7, 2021. Separately, SEBI circular SEBI/HO/IMD/IMD-PoD-1/P/CIR/2024/32 (May 2, 2024) requires every person/entity distributing PMS to register with APMI (APRN) w.e.f. Jan 1, 2025.",
+      "eligibility": "None stated",
+      "recentChanges": [
+        "Mar 15, 2025: revised XXI-A exam (new test objectives, workbook and structure) - NISM circular Mar 3, 2025; old version available till Mar 14, 2025.",
+        "Jan 1, 2025: APMI registration mandatory for PMS distributors."
+      ],
+      "officialUrl": "https://www.nism.ac.in/frequently-asked-questions-portfolio-management-services-distributors"
+    },
+    "xxib": {
+      "fee": "Rs 3,000 + GST + payment gateway charges",
+      "mode": "Test centre. 180 min; ~120 questions = 90 MCQs (1 mark) + 6 caselets x 5 questions (2 marks); 150 marks; pass 60% (90); negative marking 25%.",
+      "validity": "3 years",
+      "renewal": "Portfolio Managers CPE/eCPE (NISM circular Mar 28, 2022) or re-sit exam",
+      "requiredFor": "Principal Officer of a Portfolio Manager and employees with decision-making authority related to fund management - SEBI notification SEBI/LAD-NRO/GN/2021/49 dated Sep 7, 2021 (existing persons had 2 years, i.e. ~Sep 2023)",
+      "eligibility": "None stated",
+      "recentChanges": [],
+      "officialUrl": "https://www.nism.ac.in/certifications/nism-series-xxi-b-portfolio-managers-certification-examination"
+    },
+    "xvii": {
+      "fee": null,
+      "mode": "Test centre. 120 min; 100 MCQs x 1 mark; pass 60; negative marking 25%.",
+      "validity": null,
+      "renewal": "Retirement Adviser CPE exists (NISM circular Jul 9, 2019); details not on exam page",
+      "requiredFor": "Benchmark for individuals, proprietors, partners and representatives of Retirement Advisers registered under PFRDA (Retirement Adviser) Regulations, 2016 - NISM page does not explicitly say mandatory",
+      "eligibility": "None stated",
+      "recentChanges": [
+        "Revised exam launched w.e.f. Apr 24, 2024."
+      ],
+      "officialUrl": "https://www.nism.ac.in/certification/retirement-adviser"
+    },
+    "xv": {
+      "fee": "Rs 1,500 (page says inclusive of service tax) + payment gateway charges",
+      "mode": "Test centre. 120 min; ~100 questions = 80 MCQs + 5 cases x 4 questions; 100 marks; pass 60%; negative marking 25%.",
+      "validity": "3 years",
+      "renewal": "NISM-Series-XV-B renewal exam: Rs 2,500 + taxes; 2-3 h proctored video training + 1 h online test, 50 marks, pass 25, no negative marking; enrol only while XV is valid and within 12 months of expiry; certificate emailed within 5 working days",
+      "requiredFor": "Research analysts registered under SEBI (Research Analysts) Regulations 2014, individuals employed as RAs and partners preparing/publishing research reports (Reg 7(2)). From Mar 11, 2026, persons associated with research services doing only sales/non-core work need NISM-Series-XXV-A instead.",
+      "eligibility": "None for exam. For RA registration (Dec 2024 amendment): graduate degree in any discipline; part-time RAs allowed; non-individual RAs must appoint a principal officer.",
+      "recentChanges": [
+        "Revised XV launched Jan 20, 2026 (old version available till Jan 19, 2026) - NISM circular Dec 5, 2025. Use the latest workbook.",
+        "Dec 16, 2024: SEBI RA amendments (graduate qualification, part-time RA, deposit replacing net worth).",
+        "Mar 11, 2026: SEBI circular introducing lighter NISM-Series-XXV-A for sales/non-core research staff; existing XV holders in such roles move to XXV-A on expiry."
+      ],
+      "officialUrl": "https://nism.ac.in/research-analyst-certification-examination"
+    }
+  },
+  "examDayRules": [
+    {"title": "Registration and booking", "detail": "Register at certifications.nism.ac.in with scanned PAN and recent colour passport photo (not older than 6 months), activate via email link. Then New Enrollment > choose exam, city, test centre, date/slot > pay online (card/net banking). Enrolment closes 48 hours before the exam; enrolment is valid for 180 days. Soft-copy workbook free within 24 hours of enrolment; printed workbook via Taxmann (~Rs 250 + courier)."},
+    {"title": "ID proof", "detail": "Admit card (physical or soft copy) + one ORIGINAL photo ID: PAN, Aadhaar, driving licence or passport. DigiLocker copies with embedded photo accepted. Registration guidelines also mention carrying a self-attested PAN copy. Name/photo mismatch = entry refused with no refund."},
+    {"title": "Reporting time", "detail": "Reach the test centre 30 minutes before the slot. Late arrivals may be refused and marked absent with no refund or reschedule."},
+    {"title": "Calculator and Excel", "detail": "At test centres you may bring your own silent calculator with no connectivity (all types allowed). Workstations provide MS Excel or LibreOffice for calculations (stated for V-D and NISM's AIF-manager prep guide). Remote-proctored exams provide an on-screen scientific calculator; no physical calculator allowed."},
+    {"title": "Rough sheets", "detail": "Use only rough sheets issued by the invigilator; return them before leaving. No rough sheets in remote-proctored exams."},
+    {"title": "Prohibited items", "detail": "Phones, tablets, smartwatches, Bluetooth devices, books/notes, food (water allowed). Keep devices switched off in locker."},
+    {"title": "Rescheduling", "detail": "Self-reschedule via portal at least 4 days before the exam (registration guide also says 15 days and only once - the published refund policy says 4 days and a cap of two reschedules). Change of module is NOT allowed. No-show = fee forfeited."},
+    {"title": "Refunds", "detail": "Fees are non-refundable except for failed/duplicate payment or test administrator unable to conduct exam. Payment gateway/transaction charges never refunded."},
+    {"title": "Results and scorecard", "detail": "Result shown on screen at end; collect scorecard from invigilator before leaving (issued once). No re-evaluation; you may challenge up to two specific questions on the spot before leaving the centre."},
+    {"title": "Certificate", "detail": "Soft copy only, issued in 10-15 working days, downloadable from the portal/emailed; requires PAN verified against Income Tax database. Valid 3 years from exam pass date."},
+    {"title": "Retakes", "detail": "No waiting period between failed attempts is specified by NISM - re-enrol and pay again. A candidate who has passed may re-sit only for renewal, within the last 12 months of validity."},
+    {"title": "Remote proctoring status", "detail": "NISM discontinued remote-proctored certification exams from Jan 1, 2023 (test centres only). NISM published updated remote-proctored exam instructions/FAQs in Jul 2026 (Mettl), and renewal exams X-C/XV-B and eCPEs are online-proctored. Which full exams are currently bookable remotely is not stated - check the portal at booking."},
+    {"title": "Remote-proctored technical requirements", "detail": "Windows 7+ laptop/desktop only (no Mac/Linux/mobile), internal webcam + mic, 512 kbps+ stable internet, Mercer Mettl Secure Browser (MSB), pop-ups allowed, antivirus/firewall disabled, single screen, phone placed ~1 m to the side as second camera, quiet lit room. Start Test link active from 15 min before to 15 min after slot. No breaks. Renewal exams (X-C/XV-B) need Windows 10+, 4 GB RAM, i3 5th gen+, 2 Mbps."},
+    {"title": "Helpdesk", "detail": "NISM: certification@nism.ac.in, +91 8080806476. Remote proctoring (Mettl): 080-47190902, mettl-support@mercer.com. Printed workbooks: Taxmann sales.mumbai@taxmann.com."}
+  ],
+  "notifications": [
+    {"date": "2024-05", "title": "SEBI: AIF key investment team must hold NISM XIX-C", "detail": "SEBI notification SEBI/LAD-NRO/GN/2024/176 dated May 10, 2024; deadline later extended to Jul 31, 2025.", "affects": ["xixc"], "source": "https://www.nism.ac.in/nism-series-xix-c-alternative-investment-fund-managers-2"},
+    {"date": "2024-05", "title": "SEBI: PMS distributors must register with APMI", "detail": "Circular dated May 2, 2024, effective Jan 1, 2025.", "affects": ["xxia"], "source": "https://www.taxmann.com/post/blog/sebi-mandates-person-or-entity-involved-in-distribution-of-portfolio-management-services-to-get-registered-with-apmi/"},
+    {"date": "2024-11", "title": "NISM launches X-C IA renewal exam", "detail": "Online training + 1-hour test replaces re-sitting X-A and X-B for renewal.", "affects": ["xa", "xb", "xc"], "source": "https://www.nism.ac.in/circular/nism-series-nism-series-x-c-investment-adviser-certification-renewal-examination"},
+    {"date": "2024-12", "title": "SEBI IA and RA regulation amendments", "detail": "Notified Dec 16, 2024: graduate degree suffices, part-time IA/RA allowed (max 75 clients), deposit replaces net worth, AI-use disclosure; compliance dates Apr 30 / Jun 30, 2025.", "affects": ["xa", "xb", "xv"], "source": "https://www.azbpartners.com/bank/overhaul-of-the-regulatory-framework-for-investment-advisers-and-research-analysts/"},
+    {"date": "2025-01", "title": "SEBI notification on IA certification (X-A, X-B, X-C)", "detail": "SEBI/LAD-NRO/GN/2025/223 (Jan 2, 2025) and SEBI notification for X-C (Jan 6, 2025).", "affects": ["xa", "xb", "xc"], "source": "https://www.nism.ac.in/circular/sebi-notification-for-nism-series-x-c-investment-adviser-certification-renewal-examination-dated-january-06-2025"},
+    {"date": "2025-03", "title": "Revised XXI-A PMS Distributors exam", "detail": "Effective Mar 15, 2025 with new workbook and structure.", "affects": ["xxia"], "source": "https://www.nism.ac.in/circular/nism-certification-series-xxi-a-portfolio-management-services-pms-distributors-certification-examination-2025-01-dated-march-03-2025/"},
+    {"date": "2025-03", "title": "Revised XIX-A exam", "detail": "NISM circular Series-XIX-A/2025/01 dated Mar 20, 2025.", "affects": ["xixa"], "source": "https://nism.ac.in/circular/nism-certification-series-xix-a-aifd-cat-i-ii-2025-01-dated-march-20-2025"},
+    {"date": "2025-06", "title": "AIF KIT: XIX-D / XIX-E accepted as alternatives to XIX-C", "detail": "Jun 25, 2025 amendment; Cat I&II KIT: XIX-C or XIX-D; Cat III KIT: XIX-C or XIX-E. KIT deadline Jul 31, 2025.", "affects": ["xixc"], "source": "https://www.azbpartners.com/bank/nism-certification-requirement-for-key-investment-team-of-aif-manager/"},
+    {"date": "2025-12", "title": "Revised NISM-Series-XV (Research Analyst) from Jan 20, 2026", "detail": "Old version available until Jan 19, 2026.", "affects": ["xv"], "source": "https://www.nism.ac.in/circular/nism-certification-nism-series-xv-research-analyst-certification-examination-2025-dated-december-05-2025/"},
+    {"date": "2026-01", "title": "AIF Managers eCPE", "detail": "NISM/Certification/AIF Managers CPE/2026/01 dated Jan 30, 2026 - eCPE route to revalidate XIX-C.", "affects": ["xixc"], "source": "https://www.nism.ac.in/revamp-nism/circular/nism-certification-aif-managers-cpe-2026-01-dated-january-30-2026/"},
+    {"date": "2026-03", "title": "SEBI: lighter XXV-A for research sales/non-core staff", "detail": "Circular Mar 11, 2026; existing XV holders in such roles switch to XXV-A on expiry.", "affects": ["xv"], "source": "https://www.nism.ac.in/circular/sebi-circular-for-nism-series-xxv-a-persons-associated-with-research-services-sales-and-other-non-core-services-certification-examination-dated-march-11-2026"},
+    {"date": "2026-06", "title": "SEBI: lighter XXV-B for IA sales/non-core staff", "detail": "Circular Jun 24, 2026; X-A + X-B still mandatory for anyone giving advice.", "affects": ["xa", "xb"], "source": "https://www.indialaw.in/blog/regulatory/sebi-investment-advisory-certification-relaxation/"},
+    {"date": "2026-07", "title": "NISM-Series-V-D launched (MF + SIF distributors)", "detail": "Effective Jul 22, 2026; SEBI circular Jul 21, 2026. Replaces V-A + XIII route for SIF distribution; XIII route closed after Sep 21, 2026.", "affects": ["vd", "viii"], "source": "https://www.nism.ac.in/circular/sebi-circular-for-nism-series-v-d-mutual-fund-specialized-investment-fund-distributors-certification-examination-dated-july-21-2026"},
+    {"date": "2026-10", "title": "SEBI Certification of Specified Persons amendment 2026", "detail": "Notified Oct 7, 2026: 'associated persons' renamed 'specified persons'; NISM-specified courses/programmes become a certification route; validity can exceed 3 years if SEBI specifies.", "affects": ["xa", "xb", "xc", "vb", "vd", "viii", "xixa", "xixb", "xixc", "xxia", "xxib", "xv"], "source": "https://www.corpseed.com/law-update/sebi-certification-amendment-regulations-2026-new-rules"}
+  ],
+  "prepStrategy": [
+    {"title": "Workbook first, latest version", "detail": "NISM questions are drawn from the official workbook. Download the current version (check the version/date on page 1) - XV (Jan 2026), XXI-A (Mar 2025) and V-D (Mar 2026 material) were all revised recently. NISM's own advice: do not enrol until you have read the workbook thoroughly, two or three passes for long workbooks (XIX-C is 550+ pages)."},
+    {"title": "Book the date to create a deadline", "detail": "Enrolment is valid 180 days; book a slot ~3-6 weeks out (2h papers) or 6-8 weeks out (3h papers) and work backwards. Reschedules need 4+ days notice."},
+    {"title": "Weight chapters by the test objectives", "detail": "Each exam's test-objectives annexure gives marks per chapter (e.g. V-D: MF 68, Equity Derivatives 52, IRD 30). Spend time in proportion to marks and depth of numericals; high-weight regulatory and product chapters first."},
+    {"title": "Master numericals and Excel", "detail": "Rework every illustrative example (returns, XIRR, bond pricing/duration, option payoffs, futures pricing, tax, retirement corpus). Practise Excel functions (FV, PV, PMT, RATE, NPV, XIRR, STDEV) because Excel/LibreOffice is on the exam workstation."},
+    {"title": "Caselet technique", "detail": "Read the questions first, then the case, so you know what data to extract. Note key numbers on the rough sheet. Caselet questions in X-A/X-B/XIX-C/XXI-B carry 2 marks - and 2x the penalty - so do them in a calm pass after banking the 1-mark MCQs."},
+    {"title": "Two-pass time management", "detail": "3h paper with ~120-150 items: ~1.2-1.4 min per item. Pass 1 (about 60% of time): answer all sure items, flag doubtful ones. Pass 2: caselets and flagged numericals. Last 10 min: review flags only, do not change answers without a clear reason. 2h/100 items: ~1 min per item; same pattern."},
+    {"title": "Mock tests as diagnostics", "detail": "Take NISM portal mock tests plus 3-5 full timed mocks. Target 75%+ in mocks before the real attempt to cover the 60% pass mark plus negative-marking leakage. Log every wrong answer by chapter and revisit the workbook text, not just the answer key."},
+    {"title": "Spaced repetition and revision cadence", "detail": "Make flashcards for numbers that are pure recall (limits, timelines, thresholds, regulation names, fee caps). Review on day 1, 3, 7, 14. Do a full skim of chapter summaries in the final 48 hours; the final evening is for formulas and regulatory numbers only."},
+    {"title": "Leverage overlaps", "detail": "Sequence exams so later papers reuse earlier study (see overlaps). Sitting related exams 2-4 weeks apart keeps shared content warm."}
+  ],
+  "whyPeopleFail": [
+    "Studying from summary notes or question dumps instead of the current workbook - questions test exact workbook wording, limits and timelines.",
+    "Using an outdated workbook after a revision (XV Jan 2026, XXI-A Mar 2025, V-D Jul 2026).",
+    "Wild guessing under 25% negative marking, especially on 2-mark caselet questions where a wrong answer costs 0.5.",
+    "Running out of time on caselets in 3-hour papers by doing them first or re-reading cases.",
+    "Weak numericals and Excel handling (XIRR, bond maths, option payoffs, financial planning calculations).",
+    "Skipping low-interest regulatory chapters that carry many easy marks.",
+    "Not taking full timed mocks, so the 60% pass threshold is not tested under exam conditions.",
+    "Underestimating 'foundation-looking' papers and booking too early."
+  ],
+  "negativeMarkingPolicy": "NISM questions are typically 4-option MCQs. Let p = probability your chosen answer is correct, mark value m, penalty fraction f. EV of answering = p*m - (1-p)*f*m; answer when p > f/(1+f). (1) 25% negative (X-A, X-B, VIII, XV, XVII, XIX-C/D/E, XXI-A, XXI-B): break-even p = 0.20. Blind guess (p=0.25) EV = 0.25 - 0.75*0.25 = +0.0625 per mark; eliminate 1 option (p=0.33) EV = +0.167; eliminate 2 (p=0.5) EV = +0.375. So guessing is mildly positive even blind, but high-variance; guess whenever you can eliminate at least one option, and skip only true blind guesses if you are already comfortably above 60%. The ratio is identical for 2-mark caselet questions (gain 2, lose 0.5). NISM's own AIF prep note warns against 'wild guessing'. (2) 10% negative (V-D, XIX-A, XIX-B): break-even p = 0.091; blind guess EV = 0.25 - 0.75*0.10 = +0.175 - always answer every question. (3) 0% negative (V-B, X-C, XV-B renewal): never leave a question blank.",
+  "overlaps": [
+    {"exams": ["xa", "xb"], "detail": "SEBI requires both; X-A covers financial planning foundations, products, tax, retirement and regulation; X-B goes deeper on asset allocation, portfolio construction, valuation, behavioural finance and case-based advice. Take X-A first, X-B within weeks. X-C is the renewal route once both are held."},
+    {"exams": ["vd", "viii"], "detail": "V-D = V-A (MF) content ~45% + Equity Derivatives (Series VIII) ~35% + Interest Rate Derivatives (Series IV) ~20%. Doing VIII first covers about a third of V-D. Savin already has V-A, so V-D is essentially V-A refresh + VIII + IRD."},
+    {"exams": ["vd", "vb"], "detail": "V-B is a subset-level foundation of MF content already covered by V-A/V-D; low value for someone who has passed V-A."},
+    {"exams": ["xixa", "xixb", "xixc"], "detail": "All share the SEBI AIF Regulations 2012, AIF categories, fund structures, fee/waterfall, taxation and distribution norms. XIX-A (Cat I/II) and XIX-B (Cat III) are 2h distributor papers; XIX-C is the 3h manager paper covering both plus portfolio theory, valuation and performance metrics. Sequence A -> B -> C (or D/E as category-specific manager alternatives)."},
+    {"exams": ["xxia", "xxib"], "detail": "Both built on SEBI (Portfolio Managers) Regulations, PMS structure, fees, reporting and investment approaches; XXI-B adds portfolio management theory, valuation and fund-management decision-making. Do XXI-A then XXI-B."},
+    {"exams": ["xb", "xxib", "xv", "xixc"], "detail": "Shared quantitative core: equity valuation (DCF, multiples), fixed income maths, risk-return, portfolio theory and performance measurement. XV (RA) adds financial statement analysis and research report norms."},
+    {"exams": ["xa", "xvii"], "detail": "Retirement planning (corpus, annuities, NPS, PFRDA products) appears in X-A's financial planning content; XVII is a deeper retirement/PFRDA-specific paper."},
+    {"exams": ["viii"], "detail": "Largely standalone (exchange-traded equity derivatives, trading/clearing/settlement, risk management) except its overlap with V-D's derivatives modules."}
+  ],
+  "sources": [
+    {"title": "NISM X-A Investment Adviser Level 1", "url": "https://www.nism.ac.in/investment-adviser-level-1/"},
+    {"title": "NISM X-B Investment Adviser Level 2", "url": "https://www.nism.ac.in/investment-advisors-level-2"},
+    {"title": "NISM X-B FAQ", "url": "https://nism.ac.in/frequently-asked-questions-investment-adviser-level-2"},
+    {"title": "NISM X-C IA Renewal", "url": "https://www.nism.ac.in/nism-series-x-c-investment-adviser-certification-renewal-examination"},
+    {"title": "NISM V-B Mutual Fund Foundation", "url": "https://www.nism.ac.in/mutual-fund-foundation"},
+    {"title": "NISM V-D MF-SIF Distributors", "url": "https://www.nism.ac.in/nism-series-v-d-mutual-fund-specialized-investment-fund-distributors-certification-examination"},
+    {"title": "NISM: SEBI circular for V-D (Jul 21, 2026)", "url": "https://www.nism.ac.in/circular/sebi-circular-for-nism-series-v-d-mutual-fund-specialized-investment-fund-distributors-certification-examination-dated-july-21-2026"},
+    {"title": "Cafemutual: Guide to NISM V-D", "url": "https://cafemutual.com/news/industry/38916-your-guide-to-nism-v-d-exam"},
+    {"title": "Cafemutual: Existing SIF distributors need not appear for V-D", "url": "https://cafemutual.com/news/sif-corner/38300-existing-sif-distributors-need-not-appear-for-the-new-sif-exam-again-sebi"},
+    {"title": "Cafemutual: Renew ARN and SIF licence via V-D", "url": "https://cafemutual.com/news/askus/38575-renew-arn-and-obtain-sif-distribution-licence-through-one-nism-vd-exam"},
+    {"title": "Angel One: V-D mandatory from Jul 22, 2026", "url": "https://www.angelone.in/news/market-updates/nism-introduces-common-certification-exam-for-mutual-fund-and-sif-distributors-from-july-22-2026"},
+    {"title": "NISM VIII Equity Derivatives", "url": "https://nism.ac.in/equity-derivatives"},
+    {"title": "NISM XIX-A AIF Cat I & II Distributors", "url": "https://www.nism.ac.in/certifications/nism-series-xix-a-alternative-investment-funds-category-i-and-ii-distributors"},
+    {"title": "NISM XIX-B AIF Cat III Distributors", "url": "https://www.nism.ac.in/nism-series-xix-b-alternative-investment-funds-category-iii-distributors"},
+    {"title": "NISM XIX-C FAQ", "url": "https://www.nism.ac.in/frequently-asked-questions-alternative-investment-fund-managers"},
+    {"title": "NISM XIX-C CPE page", "url": "https://www.nism.ac.in/nism-series-xix-c-alternative-investment-fund-managers-2"},
+    {"title": "NISM XIX-D Cat I & II AIF Managers", "url": "https://www.nism.ac.in/certifications/nism-series-xix-d-category-i-and-ii-alternative-investment-fund-managers"},
+    {"title": "NISM XIX-E Cat III AIF Managers", "url": "https://www.nism.ac.in/nism-series-xix-e-category-iii-alternative-investment-fund-managers-certification-examination"},
+    {"title": "NISM: How to crack AIF Managers exams", "url": "https://www.nism.ac.in/how-to-crack-nisms-alternative-investment-fund-managers-exams"},
+    {"title": "AZB: NISM certification for AIF KIT", "url": "https://www.azbpartners.com/bank/nism-certification-requirement-for-key-investment-team-of-aif-manager/"},
+    {"title": "NISM XXI-A FAQ", "url": "https://www.nism.ac.in/frequently-asked-questions-portfolio-management-services-distributors"},
+    {"title": "NISM XXI-A CPE", "url": "https://www.nism.ac.in/about-nism-series-xxi-a-portfolio-management-services-pms-distributors-certification-examination"},
+    {"title": "NISM XXI-A revision circular (Mar 3, 2025)", "url": "https://www.nism.ac.in/circular/nism-certification-series-xxi-a-portfolio-management-services-pms-distributors-certification-examination-2025-01-dated-march-03-2025/"},
+    {"title": "NISM XXI-B Portfolio Managers", "url": "https://www.nism.ac.in/certifications/nism-series-xxi-b-portfolio-managers-certification-examination"},
+    {"title": "APMI: Update on NISM XXI-B", "url": "https://www.apmiindia.org/storagebox/images/Important/Update on NISM XXI-B.pdf"},
+    {"title": "Taxmann: SEBI mandates APMI registration for PMS distributors", "url": "https://www.taxmann.com/post/blog/sebi-mandates-person-or-entity-involved-in-distribution-of-portfolio-management-services-to-get-registered-with-apmi/"},
+    {"title": "NISM XVII Retirement Adviser", "url": "https://www.nism.ac.in/certification/retirement-adviser"},
+    {"title": "NISM XV Research Analyst", "url": "https://nism.ac.in/research-analyst-certification-examination"},
+    {"title": "NISM XV revision circular (Dec 5, 2025)", "url": "https://www.nism.ac.in/circular/nism-certification-nism-series-xv-research-analyst-certification-examination-2025-dated-december-05-2025/"},
+    {"title": "NISM XV-B renewal FAQ", "url": "https://www.nism.ac.in/frequently-asked-questions-research-analyst-certification-renewal-examination/"},
+    {"title": "Taxmann: SEBI introduces lighter certification for PARS (XXV-A)", "url": "https://www.taxmann.com/post/blog/sebi-introduces-lighter-nism-certification-for-pars/"},
+    {"title": "IndiaLaw: SEBI IA certification relaxation (XXV-B)", "url": "https://www.indialaw.in/blog/regulatory/sebi-investment-advisory-certification-relaxation/"},
+    {"title": "AZB: Overhaul of IA and RA framework (Dec 2024)", "url": "https://www.azbpartners.com/bank/overhaul-of-the-regulatory-framework-for-investment-advisers-and-research-analysts/"},
+    {"title": "Moneylife: SEBI reforms for IAs and RAs", "url": "https://www.moneylife.in/article/sebi-introduces-major-reforms-for-investment-advisers-and-research-analysts/75888.html"},
+    {"title": "Taxmann: SEBI mandates NISM certifications for IAs (Jan 2025)", "url": "https://www.taxmann.com/post/blog/sebi-mandates-nism-level-1-level-2-and-renewal-certifications-for-investment-advisers-associated-persons/"},
+    {"title": "Cafemutual: NISM launches renewal exam for RIAs", "url": "https://cafemutual.com/news/industry/33817-good-news-nism-launches-a-new-certificate-renewal-exam-for-rias"},
+    {"title": "SEBI order: IA registration cancelled for lapsed NISM certs (Jun 2026)", "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jun-2026/1781237016215.pdf"},
+    {"title": "Corpseed: SEBI Certification Amendment Regulations 2026", "url": "https://www.corpseed.com/law-update/sebi-certification-amendment-regulations-2026-new-rules"},
+    {"title": "NISM Registration Guidelines (Oct 2026)", "url": "https://www.nism.ac.in/wp-content/uploads/2026/10/Registration_Guidelines-NISM-and-CPE.pdf"},
+    {"title": "NISM Candidate Instructions", "url": "https://www.nism.ac.in/candidate-instructions/"},
+    {"title": "NISM Refund and Re-scheduling Policy", "url": "https://www.nism.ac.in/refund-and-re-scheduling-policy"},
+    {"title": "NISM Remote Proctored Exam FAQs V.2 (Jul 2026)", "url": "https://www.nism.ac.in/wp-content/uploads/2026/07/Remote-proctored-exam-FAQs-V.2.pdf"},
+    {"title": "NISM Remote Proctored Exam Instructions (Jul 2026)", "url": "https://www.nism.ac.in/wp-content/uploads/2026/07/Exam-instructions.pdf"},
+    {"title": "NISM FAQ Remote Proctored Exam (MFD)", "url": "https://www.nism.ac.in/faqs-mutual-fund-distributors/"},
+    {"title": "NISM: Discontinuation of remote proctoring (from Jan 1, 2023)", "url": "https://www.nism.ac.in/discontinuation-of-nisms-certification-exams-through-remote-proctoring"}
+  ]
+}

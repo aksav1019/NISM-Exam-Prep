@@ -1,0 +1,583 @@
+{
+ "id": "mock-4",
+ "title": "Mock 4 · Tax, Charges & Choices",
+ "level": "easy",
+ "blurb": "NPS tax and charges, SWR-based corpus, fund risk measures and estate-planning essentials.",
+ "questions": [
+  {
+   "id": "xvii-M4-01",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which document issued by a defined contribution scheme lets a subscriber review contributions received, units allotted, the prevailing NAV and the resulting corpus value?",
+   "options": [
+    "Form 16",
+    "PRAN card",
+    "Statement of Transaction (SoT)",
+    "Annuity contract"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "The Statement of Transaction issued to every subscriber is the key document that enables a periodic review of the corpus.",
+   "hints": [
+    "Wrong: Form 16 is a salary TDS certificate.",
+    "Wrong: the PRAN card identifies the account but shows no transactions.",
+    "Correct: the SoT shows contributions, units, NAV and corpus.",
+    "Wrong: the annuity contract comes only at exit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-02",
+   "chapter": 1,
+   "difficulty": "easy",
+   "q": "Which statement about nominal and real returns is correct?",
+   "options": [
+    "The real return can be negative if inflation exceeds the nominal return",
+    "The real return is always positive",
+    "Real and nominal returns are always equal for fixed deposits",
+    "The nominal return can be negative while the real return is positive"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Nominal return is always positive because investors must be paid to invest, but the real return can be negative if inflation is higher than the nominal rate.",
+   "hints": [
+    "Correct: high inflation can make real returns negative.",
+    "Wrong: real returns can turn negative.",
+    "Wrong: FD real returns depend on inflation.",
+    "Wrong: the workbook treats nominal returns as positive."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-03",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "What is the minimum investment per investor, across strategies within an AMC, in a Specialised Investment Fund (SIF)?",
+   "options": [
+    "₹50 lakh",
+    "₹1 crore",
+    "₹10 lakh",
+    "₹500"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "SIFs carry a minimum investment threshold of ₹10 lakh per investor across strategies within an AMC.",
+   "hints": [
+    "Wrong: ₹50 lakh is the PMS minimum.",
+    "Wrong: ₹1 crore is the AIF minimum.",
+    "Correct: ₹10 lakh.",
+    "Wrong: ₹100-500 is a typical mutual fund entry amount."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-04",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "Which asset allocation approach makes short-term allocation changes based on expected market performance rather than the investor's goals?",
+   "options": [
+    "Tactical Asset Allocation",
+    "Life cycle (glide path) allocation",
+    "Bucket strategy",
+    "Strategic Asset Allocation"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "TAA makes and rebalances allocations based on expected market performance; it is dynamic, short-term and focused on asset-class performance rather than investor goals.",
+   "hints": [
+    "Correct: TAA is market-view driven.",
+    "Wrong: life cycle funds follow age, not market views.",
+    "Wrong: buckets are based on when money is needed.",
+    "Wrong: SAA is long-term and goal-based."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-05",
+   "chapter": 2,
+   "difficulty": "easy",
+   "q": "A Sukanya Samriddhi Account can be opened in the name of a girl child whose age does not exceed:",
+   "options": [
+    "18 years",
+    "14 years",
+    "5 years",
+    "10 years"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The age of the child cannot be more than 10 years at the time of opening the account. The account matures after 21 years.",
+   "hints": [
+    "Wrong: 18 is the age after which partial withdrawal is allowed.",
+    "Wrong: not the limit in the workbook.",
+    "Wrong: the limit is higher.",
+    "Correct: up to 10 years."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-06",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "According to the Indian SWR research cited in the workbook, why can a 90-100% equity retirement portfolio have a LOWER safe withdrawal rate than a 20% equity portfolio?",
+   "options": [
+    "Equity dividends are taxed at a higher rate",
+    "Equity funds charge higher fees than pension funds",
+    "Sequence-of-returns risk: early crashes force selling at depressed prices",
+    "Equity always gives lower average returns than debt in India"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "High equity portfolios are more volatile; a fall early in retirement forces units to be sold at low prices, permanently impairing the corpus. SWR captures this tail risk.",
+   "hints": [
+    "Wrong: tax is not the explanation given.",
+    "Wrong: fees are not the explanation given.",
+    "Correct: sequence risk drives the lower SWR.",
+    "Wrong: the workbook says equity may give higher average returns."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-07",
+   "chapter": 3,
+   "difficulty": "medium",
+   "q": "A client needs ₹24 lakh a year at the start of retirement. The applicable SWR from the table is 3.70%. What corpus is needed?",
+   "options": [
+    "About ₹2.40 crore",
+    "About ₹8.88 crore",
+    "About ₹6.49 crore",
+    "About ₹88.8 lakh"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Corpus = annual income ÷ SWR = 24,00,000 ÷ 0.037 ≈ ₹6,48,64,865, about ₹6.49 crore.",
+   "hints": [
+    "Wrong: this is 24 lakh × 10, not the SWR formula.",
+    "Wrong: this is an arithmetic slip, not the SWR formula.",
+    "Correct: 24 lakh ÷ 0.037.",
+    "Wrong: this multiplies by 3.70 instead of dividing by 3.70%."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-08",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "In preparing a budget, which category of expense must be met first out of available income?",
+   "options": [
+    "Discretionary expenses such as entertainment",
+    "Essential living expenses such as food and housing",
+    "Savings for long-term goals",
+    "Mandatory expenses such as taxes and loan repayments"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Mandatory expenses like taxes and loan repayments are met first; what remains is disposable income for essential and then discretionary expenses.",
+   "hints": [
+    "Wrong: discretionary expenses are the last category.",
+    "Wrong: essential expenses come after mandatory ones.",
+    "Wrong: savings are what remains after expenses in the budgeting steps.",
+    "Correct: mandatory expenses come first."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-09",
+   "chapter": 3,
+   "difficulty": "easy",
+   "q": "If life cover is still needed in the pre-retirement stage, which type of policy does the workbook suggest for adequate cover at low cost?",
+   "options": [
+    "Level-premium term insurance",
+    "Money-back endowment policy",
+    "Whole life policy",
+    "Unit linked insurance plan"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "The workbook suggests looking at level-premium term insurance that provides the required cover at low cost, cancelling policies as the need comes down.",
+   "hints": [
+    "Correct: term insurance gives cover cheaply.",
+    "Wrong: money-back plans have low returns and high premiums for the cover.",
+    "Wrong: whole life is mainly for creating an estate and costs more.",
+    "Wrong: ULIPs mix investment with insurance."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-10",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "The NPS Tier II Tax Saver Scheme (NPS-TTS) offering a deduction under section 123 (old 80C) is available to:",
+   "options": [
+    "All NPS subscribers with a Tier II account",
+    "NRI subscribers",
+    "Central Government NPS subscribers with an active Tier I account",
+    "Only All Citizen model subscribers"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "NPS-TTS is available to Central Government subscribers who have an active Tier I account; it carries a 3-year lock-in.",
+   "hints": [
+    "Wrong: Tier II generally has no tax benefit.",
+    "Wrong: NRIs cannot even open Tier II.",
+    "Correct: only Central Government subscribers.",
+    "Wrong: All Citizen subscribers are not eligible."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-11",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "What is the minimum contribution for account opening and the minimum annual contribution under NPS Vatsalya?",
+   "options": [
+    "₹500",
+    "₹250",
+    "₹1,000",
+    "₹100"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Under NPS Vatsalya the minimum contribution for account opening and annually is ₹250, with no maximum limit.",
+   "hints": [
+    "Wrong: ₹500 is the Tier I minimum per contribution.",
+    "Correct: ₹250.",
+    "Wrong: ₹1,000 is the Tier I annual minimum.",
+    "Wrong: not the Vatsalya minimum."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-12",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Under the old tax regime, what additional deduction is available exclusively for an individual's own NPS contribution, over and above the ₹1.5 lakh limit?",
+   "options": [
+    "₹50,000 under section 124(3) (old section 80CCD(1B))",
+    "No additional deduction is available",
+    "₹1 lakh under section 80D",
+    "₹25,000 under section 124(1)"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "A separate additional deduction up to ₹50,000 is available under section 124(3) (corresponding to 80CCD(1B)), provided the same amount is not also claimed under section 123.",
+   "hints": [
+    "Correct: ₹50,000 extra for NPS.",
+    "Wrong: the ₹50,000 extra deduction exists under the old regime.",
+    "Wrong: 80D is for health insurance premiums.",
+    "Wrong: section 124(1) covers employer contributions, and not as a fixed ₹25,000."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-13",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "Under the PoP charge structure applicable from 1 January 2026, what does a PoP charge for onboarding an NPS account through a physical, face-to-face process?",
+   "options": [
+    "No onboarding charge; only a per-transaction fee",
+    "₹200 one-time, plus 0.20% p.a. of AUM",
+    "₹400 one-time, plus 0.02% p.a. of AUM",
+    "₹100 one-time, plus 0.20% p.a. of AUM"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "PoPs charge a one-time onboarding fee of ₹200 per account (₹100 for fully digital onboarding) and annual charges of 0.20% p.a. of AUM.",
+   "hints": [
+    "Wrong: the AUM-based structure replaced transaction charges.",
+    "Correct: ₹200 plus 0.20% of AUM.",
+    "Wrong: ₹400 + 0.02% is the Retirement Adviser fee.",
+    "Wrong: ₹100 applies to fully digital onboarding."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-14",
+   "chapter": 4,
+   "difficulty": "easy",
+   "q": "NPS contributions received by the Trustee Bank up to what time on a settlement day are invested the same day at that day's NAV?",
+   "options": [
+    "11 a.m.",
+    "9.30 a.m.",
+    "9 p.m.",
+    "3 p.m."
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Contributions received by the Trustee Bank up to 11 a.m. on a settlement day are taken up for same-day investment; those received after 11 a.m. are invested the next day. This replaced the earlier 9.30 a.m. cut-off for D-Remit.",
+   "hints": [
+    "Correct: 11 a.m. cut-off.",
+    "Wrong: 9.30 a.m. was the earlier cut-off for D-Remit only.",
+    "Wrong: 9 p.m. is the deadline for pension funds to publish daily NAV.",
+    "Wrong: not the cut-off given in the workbook."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-15",
+   "chapter": 5,
+   "difficulty": "easy",
+   "q": "Standard deviation, as a measure of risk, indicates:",
+   "options": [
+    "The investment's sensitivity to market movements",
+    "How much an investment's actual returns fluctuate around its average return",
+    "The return after adjusting for inflation",
+    "The excess return earned per unit of risk"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Standard deviation quantifies how much actual returns fluctuate relative to the average return; a higher figure means greater volatility.",
+   "hints": [
+    "Wrong: that is beta.",
+    "Correct: dispersion around the mean.",
+    "Wrong: that is the real return.",
+    "Wrong: that is the Sharpe ratio."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-16",
+   "chapter": 5,
+   "difficulty": "medium",
+   "q": "A bank deposit pays 9% a year. For an investor in the 20% tax bracket, what is the post-tax return?",
+   "options": [
+    "11.25%",
+    "8.8%",
+    "7.2%",
+    "6.3%"
+   ],
+   "answer": 2,
+   "marks": 1,
+   "explanation": "Post-tax return = 9% × (1 − 0.20) = 7.2%.",
+   "hints": [
+    "Wrong: this is the pre-tax equivalent of 9% tax-free.",
+    "Wrong: this subtracts 0.2 percentage points instead of 20% of the interest.",
+    "Correct: 9 × 0.8 = 7.2%.",
+    "Wrong: this applies a 30% rate."
+   ],
+   "numeric": true,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-17",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "Under the Payment of Gratuity Act, 1972, an employee becomes entitled to gratuity on termination after how many years of continuous service (other than on death or disablement)?",
+   "options": [
+    "1 year",
+    "5 years",
+    "3 years",
+    "10 years"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "Gratuity is payable where the employee has been in continuous service for not less than five years; this condition does not apply on death or disablement.",
+   "hints": [
+    "Wrong: not the eligibility period.",
+    "Correct: 5 years.",
+    "Wrong: not the eligibility period.",
+    "Wrong: not the eligibility period."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-18",
+   "chapter": 6,
+   "difficulty": "easy",
+   "q": "In which situation is premature encashment of a National Savings Certificate allowed?",
+   "options": [
+    "On the death of the holder",
+    "After 2½ years from purchase",
+    "After 1 year with a penalty",
+    "For a child's education"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Premature encashment of NSC is allowed only on the death of the holder, forfeiture by a pledgee, or under court orders.",
+   "hints": [
+    "Correct: death of the holder is one permitted case.",
+    "Wrong: 2½ years is the KVP premature encashment rule.",
+    "Wrong: NSC has no such penalty-based exit.",
+    "Wrong: education is not a permitted reason for NSC."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-19",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Why does a Systematic Withdrawal Plan redeem fewer units when the NAV is high?",
+   "options": [
+    "Exit load waives units at high NAVs",
+    "A fixed rupee amount is withdrawn, so a higher NAV means fewer units are needed",
+    "Dividends replace units when the NAV is high",
+    "The fund house limits redemptions at high NAVs"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "An SWP redeems units for a fixed amount each period; units redeemed = amount ÷ NAV, so fewer units are used when the NAV is high.",
+   "hints": [
+    "Wrong: exit loads do not work this way.",
+    "Correct: units = fixed amount ÷ NAV.",
+    "Wrong: SWP payouts come from redemption, not dividends.",
+    "Wrong: there is no such limit."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-20",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Under the old tax regime post Budget 2025, what is the basic exemption limit for a resident aged 60 to 80?",
+   "options": [
+    "₹2,50,000",
+    "₹5,00,000",
+    "₹4,00,000",
+    "₹3,00,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The workbook states that under the old regime the basic exemption is ₹3,00,000 for those over 60 and ₹5,00,000 for those over 80. Under the new regime it is ₹4,00,000 regardless of age.",
+   "hints": [
+    "Wrong: not the senior citizen limit stated in the workbook.",
+    "Wrong: ₹5 lakh applies to those over 80.",
+    "Wrong: ₹4 lakh is the new-regime exemption.",
+    "Correct: ₹3 lakh for senior citizens."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-21",
+   "chapter": 7,
+   "difficulty": "easy",
+   "q": "Under the old tax regime, what is the maximum deduction for health insurance premiums under section 126 (old 80D) where the assessee or a covered family member is a senior citizen?",
+   "options": [
+    "₹1,00,000",
+    "₹25,000",
+    "₹10,000",
+    "₹50,000"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Deduction for health premiums is up to ₹25,000 where none is a senior citizen, and up to ₹50,000 where the assessee or any covered family member is a senior citizen.",
+   "hints": [
+    "Wrong: not the limit given in the workbook.",
+    "Wrong: ₹25,000 applies when no one is a senior citizen.",
+    "Wrong: ₹10,000 is the savings-interest deduction for non-seniors.",
+    "Correct: ₹50,000 with a senior citizen."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-22",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "On retirement, the workbook suggests keeping at least how many years of medical expenses not covered by insurance in liquid assets?",
+   "options": [
+    "1 year",
+    "6 months",
+    "10 years",
+    "3 years"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "The medical corpus has to be moved to liquid assets for at least 3 years of expenses, while the rest can be held in products with better returns.",
+   "hints": [
+    "Wrong: too short a buffer.",
+    "Wrong: too short a buffer.",
+    "Wrong: too much would sit idle in liquid assets.",
+    "Correct: at least 3 years."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-23",
+   "chapter": 8,
+   "difficulty": "easy",
+   "q": "For an NRI investing in India, which fixed deposit's interest is NOT taxable in India according to the workbook?",
+   "options": [
+    "Post office time deposits",
+    "Fixed deposit made through an NRO account",
+    "Any fixed deposit, since NRIs are exempt",
+    "Fixed deposit made through an NRE account"
+   ],
+   "answer": 3,
+   "marks": 1,
+   "explanation": "Investments made in fixed deposits through NRE accounts are not taxable, while those made through NRO accounts are taxable.",
+   "hints": [
+    "Wrong: small savings schemes are generally not available to NRIs.",
+    "Wrong: NRO FD interest is taxable.",
+    "Wrong: NRIs are not exempt across the board.",
+    "Correct: NRE FD interest is tax-free."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-24",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "What minimum net worth must an applicant have to be registered as a Central Recordkeeping Agency?",
+   "options": [
+    "₹50 crore",
+    "₹100 crore",
+    "₹2 crore",
+    "₹250 crore"
+   ],
+   "answer": 1,
+   "marks": 1,
+   "explanation": "A CRA applicant must have a net worth of at least ₹100 crore as on the last day of the preceding financial year.",
+   "hints": [
+    "Wrong: ₹50 crore is the Pension Fund requirement.",
+    "Correct: ₹100 crore.",
+    "Wrong: ₹2 crore is the PoP requirement.",
+    "Wrong: ₹250 crore is the ASP requirement."
+   ],
+   "numeric": false,
+   "case": null
+  },
+  {
+   "id": "xvii-M4-25",
+   "chapter": 9,
+   "difficulty": "easy",
+   "q": "Which of the following is NOT required to obtain a certificate of registration as a Retirement Adviser when giving retirement advice incidental to their profession?",
+   "options": [
+    "A Chartered Accountant (ICAI member)",
+    "An insurance agent",
+    "A mutual fund distributor",
+    "A stockbroker"
+   ],
+   "answer": 0,
+   "marks": 1,
+   "explanation": "Advocates, solicitors and members of ICAI, ICSI, ICWAI and the Institute of Actuaries giving advice incidental to their professional service need not register, though they must still comply with the general obligations.",
+   "hints": [
+    "Correct: ICAI members giving incidental advice are exempt.",
+    "Wrong: insurance agents are not in the exempt list.",
+    "Wrong: distributors are not in the exempt list.",
+    "Wrong: stockbrokers are not in the exempt list."
+   ],
+   "numeric": false,
+   "case": null
+  }
+ ]
+}
